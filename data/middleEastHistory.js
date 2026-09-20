@@ -5,32 +5,33 @@ export const middleEastHistoryConcepts = [
     "name": "Muhammad and the Early Muslim Community",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Muhammad and the Early Muslim Community important for understanding Middle Eastern history?",
-    "question": "Why is Muhammad and the Early Muslim Community important for understanding Middle Eastern history?",
+    "hook": "Which development best explains Muhammad's historical importance to the early Middle East?",
+    "question": "Which development best explains Muhammad's historical importance to the early Middle East?",
     "options": [
-      "Muhammad and the Early Muslim Community is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "His preaching and leadership created a new monotheistic community in Arabia that became the nucleus of an expanding Islamic polity.",
+      "He founded the Abbasid capital at Baghdad",
+      "He ended Ottoman rule in Arabia",
+      "He created the Safavid state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Muhammad and the Early Muslim Community is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "His preaching and leadership created a new monotheistic community in Arabia that became the nucleus of an expanding Islamic polity.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Medina",
+        "The community in Medina combined religious affiliation with political organization after the Hijra."
       ],
       [
-        "After",
-        "Follow what changed next through Hijra."
+        "Legacy",
+        "His death in 632 raised questions of succession that became central to early Islamic political history."
       ],
       [
-        "Big picture",
-        "Ask how Muhammad and the Early Muslim Community changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Early Islam & Caliphates rabbit hole to see how Muhammad and the Early Muslim Community connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Muhammad and the Early Muslim Community helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Muhammad and the Early Muslim Community matters because it changed or reveals the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hijra",
       "meh-constitution-of-medina",
@@ -44,32 +45,33 @@ export const middleEastHistoryConcepts = [
     "name": "Hijra",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Hijra important for understanding Middle Eastern history?",
-    "question": "Why is Hijra important for understanding Middle Eastern history?",
+    "hook": "Why is the Hijra of 622 a major turning point?",
+    "question": "Why is the Hijra of 622 a major turning point?",
     "options": [
-      "Hijra is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Muhammad and his followers migrated from Mecca to Medina, where the Muslim community developed into an organized political community.",
+      "It marks the Abbasid seizure of power",
+      "It was the Ottoman conquest of Mecca",
+      "It ended the Crusades",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hijra is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Muhammad and his followers migrated from Mecca to Medina, where the Muslim community developed into an organized political community.",
     "examples": [
       [
-        "Before",
-        "Connect it to Muhammad and the Early Muslim Community."
+        "Calendar",
+        "The Hijra became the starting point of the Islamic calendar."
       ],
       [
-        "After",
-        "Follow what changed next through Constitution of Medina."
+        "Politics",
+        "Medina provided the setting for the consolidation of the early Muslim community."
       ],
       [
-        "Big picture",
-        "Ask how Hijra changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Early Islam & Caliphates rabbit hole to see how Hijra connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Hijra helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hijra matters because it changed or reveals the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-constitution-of-medina",
       "meh-rashidun-caliphate",
@@ -83,32 +85,32 @@ export const middleEastHistoryConcepts = [
     "name": "Constitution of Medina",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Constitution of Medina important for understanding Middle Eastern history?",
-    "question": "Why is Constitution of Medina important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Constitution of Medina?",
+    "question": "Which statement best captures the historical significance of Constitution of Medina?",
     "options": [
-      "Constitution of Medina is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Constitution of Medina belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Constitution of Medina is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Constitution of Medina belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hijra."
+        "Context",
+        "Place Constitution of Medina inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Rashidun Caliphate."
+        "Connection",
+        "Compare it with Rashidun Caliphate to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Constitution of Medina changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Constitution of Medina changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Constitution of Medina helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Constitution of Medina helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rashidun-caliphate",
       "meh-ridda-wars",
@@ -122,32 +124,32 @@ export const middleEastHistoryConcepts = [
     "name": "Rashidun Caliphate",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Rashidun Caliphate important for understanding Middle Eastern history?",
-    "question": "Why is Rashidun Caliphate important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Rashidun Caliphate?",
+    "question": "Which statement best captures the historical significance of Rashidun Caliphate?",
     "options": [
-      "Rashidun Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Rashidun Caliphate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rashidun Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Rashidun Caliphate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Constitution of Medina."
+        "Context",
+        "Place Rashidun Caliphate inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ridda Wars."
+        "Connection",
+        "Compare it with Ridda Wars to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Rashidun Caliphate changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Rashidun Caliphate changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Rashidun Caliphate helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rashidun Caliphate helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ridda-wars",
       "meh-early-islamic-conquests",
@@ -161,32 +163,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ridda Wars",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Ridda Wars important for understanding Middle Eastern history?",
-    "question": "Why is Ridda Wars important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ridda Wars?",
+    "question": "Which statement best captures the historical significance of Ridda Wars?",
     "options": [
-      "Ridda Wars is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ridda Wars belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ridda Wars is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ridda Wars belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Rashidun Caliphate."
+        "Context",
+        "Place Ridda Wars inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Early Islamic Conquests."
+        "Connection",
+        "Compare it with Early Islamic Conquests to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ridda Wars changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ridda Wars changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Ridda Wars helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ridda Wars helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-early-islamic-conquests",
       "meh-first-fitna",
@@ -200,32 +202,32 @@ export const middleEastHistoryConcepts = [
     "name": "Early Islamic Conquests",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Early Islamic Conquests important for understanding Middle Eastern history?",
-    "question": "Why is Early Islamic Conquests important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Early Islamic Conquests?",
+    "question": "Which statement best captures the historical significance of Early Islamic Conquests?",
     "options": [
-      "Early Islamic Conquests is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Early Islamic Conquests belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Early Islamic Conquests is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Early Islamic Conquests belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ridda Wars."
+        "Context",
+        "Place Early Islamic Conquests inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through First Fitna."
+        "Connection",
+        "Compare it with First Fitna to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Early Islamic Conquests changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Early Islamic Conquests changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Early Islamic Conquests helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Early Islamic Conquests helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-first-fitna",
       "meh-sunni-shia-split",
@@ -239,32 +241,32 @@ export const middleEastHistoryConcepts = [
     "name": "First Fitna",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is First Fitna important for understanding Middle Eastern history?",
-    "question": "Why is First Fitna important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of First Fitna?",
+    "question": "Which statement best captures the historical significance of First Fitna?",
     "options": [
-      "First Fitna is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "First Fitna belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "First Fitna is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "First Fitna belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Early Islamic Conquests."
+        "Context",
+        "Place First Fitna inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sunni–Shia Split."
+        "Connection",
+        "Compare it with Sunni–Shia Split to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how First Fitna changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what First Fitna changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding First Fitna helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "First Fitna helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-sunni-shia-split",
       "meh-umayyad-caliphate",
@@ -278,32 +280,33 @@ export const middleEastHistoryConcepts = [
     "name": "Sunni–Shia Split",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Sunni–Shia Split important for understanding Middle Eastern history?",
-    "question": "Why is Sunni–Shia Split important for understanding Middle Eastern history?",
+    "hook": "What historical dispute lies at the root of the Sunni–Shia division?",
+    "question": "What historical dispute lies at the root of the Sunni–Shia division?",
     "options": [
-      "Sunni–Shia Split is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Disagreements over legitimate leadership after Muhammad's death developed over time into distinct traditions of religious authority, law and communal identity.",
+      "A dispute over Ottoman tax rates",
+      "A conflict created by European mandates",
+      "A disagreement about whether Arabic should be used in worship",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sunni–Shia Split is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Disagreements over legitimate leadership after Muhammad's death developed over time into distinct traditions of religious authority, law and communal identity.",
     "examples": [
       [
-        "Before",
-        "Connect it to First Fitna."
+        "Succession",
+        "Early disputes centered on who should lead the Muslim community."
       ],
       [
-        "After",
-        "Follow what changed next through Umayyad Caliphate."
+        "Karbala",
+        "The killing of Husayn at Karbala in 680 became especially central to Shi'i memory and identity."
       ],
       [
-        "Big picture",
-        "Ask how Sunni–Shia Split changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Early Islam & Caliphates rabbit hole to see how Sunni–Shia Split connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Sunni–Shia Split helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sunni–Shia Split matters because it changed or reveals the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-umayyad-caliphate",
       "meh-abbasid-revolution",
@@ -317,32 +320,32 @@ export const middleEastHistoryConcepts = [
     "name": "Umayyad Caliphate",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Umayyad Caliphate important for understanding Middle Eastern history?",
-    "question": "Why is Umayyad Caliphate important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Umayyad Caliphate?",
+    "question": "Which statement best captures the historical significance of Umayyad Caliphate?",
     "options": [
-      "Umayyad Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Umayyad Caliphate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Umayyad Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Umayyad Caliphate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sunni–Shia Split."
+        "Context",
+        "Place Umayyad Caliphate inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Abbasid Revolution."
+        "Connection",
+        "Compare it with Abbasid Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Umayyad Caliphate changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Umayyad Caliphate changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Umayyad Caliphate helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Umayyad Caliphate helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-abbasid-revolution",
       "meh-abbasid-caliphate",
@@ -356,32 +359,32 @@ export const middleEastHistoryConcepts = [
     "name": "Abbasid Revolution",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Abbasid Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Abbasid Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Abbasid Revolution?",
+    "question": "Which statement best captures the historical significance of Abbasid Revolution?",
     "options": [
-      "Abbasid Revolution is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Abbasid Revolution belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Abbasid Revolution is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Abbasid Revolution belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Umayyad Caliphate."
+        "Context",
+        "Place Abbasid Revolution inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Abbasid Caliphate."
+        "Connection",
+        "Compare it with Abbasid Caliphate to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Abbasid Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Abbasid Revolution changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Abbasid Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Abbasid Revolution helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-abbasid-caliphate",
       "meh-baghdad",
@@ -395,32 +398,33 @@ export const middleEastHistoryConcepts = [
     "name": "Abbasid Caliphate",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Abbasid Caliphate important for understanding Middle Eastern history?",
-    "question": "Why is Abbasid Caliphate important for understanding Middle Eastern history?",
+    "hook": "Why is the Abbasid period important beyond territorial conquest?",
+    "question": "Why is the Abbasid period important beyond territorial conquest?",
     "options": [
-      "Abbasid Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "The Abbasid state shifted the imperial center toward Iraq, with Baghdad becoming a major center of administration, commerce and intellectual life.",
+      "It created the modern borders of Iraq",
+      "It was the first Saudi state",
+      "It abolished Islamic law",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Abbasid Caliphate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "The Abbasid state shifted the imperial center toward Iraq, with Baghdad becoming a major center of administration, commerce and intellectual life.",
     "examples": [
       [
-        "Before",
-        "Connect it to Abbasid Revolution."
+        "Baghdad",
+        "Founded in the eighth century, Baghdad became one of the major cities of the medieval Islamic world."
       ],
       [
-        "After",
-        "Follow what changed next through Baghdad."
+        "Intellectual life",
+        "Translation, scholarship and scientific activity flourished through networks extending well beyond the court."
       ],
       [
-        "Big picture",
-        "Ask how Abbasid Caliphate changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Early Islam & Caliphates rabbit hole to see how Abbasid Caliphate connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Abbasid Caliphate helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Abbasid Caliphate matters because it changed or reveals the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-baghdad",
       "meh-house-of-wisdom",
@@ -434,32 +438,32 @@ export const middleEastHistoryConcepts = [
     "name": "Baghdad",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Baghdad important for understanding Middle Eastern history?",
-    "question": "Why is Baghdad important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Baghdad?",
+    "question": "Which statement best captures the historical significance of Baghdad?",
     "options": [
-      "Baghdad is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Baghdad belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Baghdad is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Baghdad belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Abbasid Caliphate."
+        "Context",
+        "Place Baghdad inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through House of Wisdom."
+        "Connection",
+        "Compare it with House of Wisdom to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Baghdad changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Baghdad changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Baghdad helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Baghdad helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-house-of-wisdom",
       "meh-translation-movement",
@@ -473,32 +477,32 @@ export const middleEastHistoryConcepts = [
     "name": "House of Wisdom",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is House of Wisdom important for understanding Middle Eastern history?",
-    "question": "Why is House of Wisdom important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of House of Wisdom?",
+    "question": "Which statement best captures the historical significance of House of Wisdom?",
     "options": [
-      "House of Wisdom is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "House of Wisdom belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "House of Wisdom is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "House of Wisdom belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Baghdad."
+        "Context",
+        "Place House of Wisdom inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Translation Movement."
+        "Connection",
+        "Compare it with Translation Movement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how House of Wisdom changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what House of Wisdom changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding House of Wisdom helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "House of Wisdom helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-translation-movement",
       "meh-ulama",
@@ -512,32 +516,32 @@ export const middleEastHistoryConcepts = [
     "name": "Translation Movement",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Translation Movement important for understanding Middle Eastern history?",
-    "question": "Why is Translation Movement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Translation Movement?",
+    "question": "Which statement best captures the historical significance of Translation Movement?",
     "options": [
-      "Translation Movement is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Translation Movement belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Translation Movement is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Translation Movement belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to House of Wisdom."
+        "Context",
+        "Place Translation Movement inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ulama."
+        "Connection",
+        "Compare it with Ulama to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Translation Movement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Translation Movement changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Translation Movement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Translation Movement helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ulama",
       "meh-islamic-law-schools",
@@ -551,32 +555,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ulama",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Ulama important for understanding Middle Eastern history?",
-    "question": "Why is Ulama important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ulama?",
+    "question": "Which statement best captures the historical significance of Ulama?",
     "options": [
-      "Ulama is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ulama belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ulama is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ulama belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Translation Movement."
+        "Context",
+        "Place Ulama inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Islamic Law Schools."
+        "Connection",
+        "Compare it with Islamic Law Schools to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ulama changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ulama changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Ulama helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ulama helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-islamic-law-schools",
       "meh-seljuk-empire",
@@ -590,32 +594,32 @@ export const middleEastHistoryConcepts = [
     "name": "Islamic Law Schools",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Islamic Law Schools important for understanding Middle Eastern history?",
-    "question": "Why is Islamic Law Schools important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Islamic Law Schools?",
+    "question": "Which statement best captures the historical significance of Islamic Law Schools?",
     "options": [
-      "Islamic Law Schools is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Islamic Law Schools belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Islamic Law Schools is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Islamic Law Schools belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ulama."
+        "Context",
+        "Place Islamic Law Schools inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Seljuk Empire."
+        "Connection",
+        "Compare it with Seljuk Empire to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Islamic Law Schools changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Islamic Law Schools changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Islamic Law Schools helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Islamic Law Schools helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-seljuk-empire",
       "meh-crusades-in-the-middle-east",
@@ -629,32 +633,32 @@ export const middleEastHistoryConcepts = [
     "name": "Seljuk Empire",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Seljuk Empire important for understanding Middle Eastern history?",
-    "question": "Why is Seljuk Empire important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Seljuk Empire?",
+    "question": "Which statement best captures the historical significance of Seljuk Empire?",
     "options": [
-      "Seljuk Empire is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Seljuk Empire belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Seljuk Empire is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Seljuk Empire belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Islamic Law Schools."
+        "Context",
+        "Place Seljuk Empire inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Crusades in the Middle East."
+        "Connection",
+        "Compare it with Crusades in the Middle East to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Seljuk Empire changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Seljuk Empire changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Seljuk Empire helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Seljuk Empire helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-crusades-in-the-middle-east",
       "meh-saladin",
@@ -668,32 +672,32 @@ export const middleEastHistoryConcepts = [
     "name": "Crusades in the Middle East",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Crusades in the Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Crusades in the Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Crusades in the Middle East?",
+    "question": "Which statement best captures the historical significance of Crusades in the Middle East?",
     "options": [
-      "Crusades in the Middle East is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Crusades in the Middle East belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Crusades in the Middle East is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Crusades in the Middle East belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Seljuk Empire."
+        "Context",
+        "Place Crusades in the Middle East inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Saladin."
+        "Connection",
+        "Compare it with Saladin to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Crusades in the Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Crusades in the Middle East changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Crusades in the Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Crusades in the Middle East helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saladin",
       "meh-mamluk-sultanate",
@@ -707,32 +711,32 @@ export const middleEastHistoryConcepts = [
     "name": "Saladin",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Saladin important for understanding Middle Eastern history?",
-    "question": "Why is Saladin important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Saladin?",
+    "question": "Which statement best captures the historical significance of Saladin?",
     "options": [
-      "Saladin is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Saladin belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saladin is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Saladin belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Crusades in the Middle East."
+        "Context",
+        "Place Saladin inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mamluk Sultanate."
+        "Connection",
+        "Compare it with Mamluk Sultanate to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Saladin changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Saladin changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Saladin helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Saladin helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-mamluk-sultanate",
       "meh-mongol-sack-of-baghdad",
@@ -746,32 +750,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mamluk Sultanate",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Mamluk Sultanate important for understanding Middle Eastern history?",
-    "question": "Why is Mamluk Sultanate important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mamluk Sultanate?",
+    "question": "Which statement best captures the historical significance of Mamluk Sultanate?",
     "options": [
-      "Mamluk Sultanate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mamluk Sultanate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mamluk Sultanate is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mamluk Sultanate belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Saladin."
+        "Context",
+        "Place Mamluk Sultanate inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mongol Sack of Baghdad."
+        "Connection",
+        "Compare it with Mongol Sack of Baghdad to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mamluk Sultanate changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mamluk Sultanate changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Mamluk Sultanate helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mamluk Sultanate helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-mongol-sack-of-baghdad",
       "meh-muhammad-and-the-early-muslim-community",
@@ -785,32 +789,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mongol Sack of Baghdad",
     "pool": "Early Islam & Caliphates",
     "topic": "Early Islam & Caliphates",
-    "hook": "Why is Mongol Sack of Baghdad important for understanding Middle Eastern history?",
-    "question": "Why is Mongol Sack of Baghdad important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mongol Sack of Baghdad?",
+    "question": "Which statement best captures the historical significance of Mongol Sack of Baghdad?",
     "options": [
-      "Mongol Sack of Baghdad is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mongol Sack of Baghdad belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Early Islam & Caliphates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mongol Sack of Baghdad is a key part of the Early Islam & Caliphates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mongol Sack of Baghdad belongs to the history of the formation and expansion of early Islamic states. Its importance comes from how it affected religious authority, imperial administration and intellectual life, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Mamluk Sultanate."
+        "Context",
+        "Place Mongol Sack of Baghdad inside the Early Islam & Caliphates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Muhammad and the Early Muslim Community to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mongol Sack of Baghdad changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mongol Sack of Baghdad changed about religious authority, imperial administration and intellectual life."
       ]
     ],
-    "why": "Understanding Mongol Sack of Baghdad helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mongol Sack of Baghdad helps explain the formation and expansion of early Islamic states.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-muhammad-and-the-early-muslim-community",
       "meh-hijra",
@@ -824,32 +828,32 @@ export const middleEastHistoryConcepts = [
     "name": "Rise of the Ottoman Empire",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Rise of the Ottoman Empire important for understanding Middle Eastern history?",
-    "question": "Why is Rise of the Ottoman Empire important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Rise of the Ottoman Empire?",
+    "question": "Which statement best captures the historical significance of Rise of the Ottoman Empire?",
     "options": [
-      "Rise of the Ottoman Empire is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Rise of the Ottoman Empire belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rise of the Ottoman Empire is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Rise of the Ottoman Empire belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Rise of the Ottoman Empire inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Conquest of Constantinople."
+        "Connection",
+        "Compare it with Conquest of Constantinople to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Rise of the Ottoman Empire changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Rise of the Ottoman Empire changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Rise of the Ottoman Empire helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rise of the Ottoman Empire helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-conquest-of-constantinople",
       "meh-ottoman-arab-provinces",
@@ -868,32 +872,32 @@ export const middleEastHistoryConcepts = [
     "name": "Conquest of Constantinople",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Conquest of Constantinople important for understanding Middle Eastern history?",
-    "question": "Why is Conquest of Constantinople important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Conquest of Constantinople?",
+    "question": "Which statement best captures the historical significance of Conquest of Constantinople?",
     "options": [
-      "Conquest of Constantinople is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Conquest of Constantinople belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Conquest of Constantinople is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Conquest of Constantinople belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Rise of the Ottoman Empire."
+        "Context",
+        "Place Conquest of Constantinople inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Arab Provinces."
+        "Connection",
+        "Compare it with Ottoman Arab Provinces to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Conquest of Constantinople changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Conquest of Constantinople changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Conquest of Constantinople helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Conquest of Constantinople helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-arab-provinces",
       "meh-ottoman-egypt",
@@ -912,32 +916,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Arab Provinces",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Arab Provinces important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Arab Provinces important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Arab Provinces?",
+    "question": "Which statement best captures the historical significance of Ottoman Arab Provinces?",
     "options": [
-      "Ottoman Arab Provinces is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Arab Provinces belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Arab Provinces is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Arab Provinces belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Conquest of Constantinople."
+        "Context",
+        "Place Ottoman Arab Provinces inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Egypt."
+        "Connection",
+        "Compare it with Ottoman Egypt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Arab Provinces changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Arab Provinces changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Arab Provinces helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Arab Provinces helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-egypt",
       "meh-ottoman-syria",
@@ -956,32 +960,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Egypt",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Egypt important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Egypt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Egypt?",
+    "question": "Which statement best captures the historical significance of Ottoman Egypt?",
     "options": [
-      "Ottoman Egypt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Egypt belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Egypt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Egypt belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Arab Provinces."
+        "Context",
+        "Place Ottoman Egypt inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Syria."
+        "Connection",
+        "Compare it with Ottoman Syria to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Egypt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Egypt changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Egypt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Egypt helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-syria",
       "meh-ottoman-iraq",
@@ -1000,32 +1004,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Syria",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Syria important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Syria important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Syria?",
+    "question": "Which statement best captures the historical significance of Ottoman Syria?",
     "options": [
-      "Ottoman Syria is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Syria belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Syria is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Syria belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Egypt."
+        "Context",
+        "Place Ottoman Syria inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Iraq."
+        "Connection",
+        "Compare it with Ottoman Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Syria changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Syria changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Syria helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Syria helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-iraq",
       "meh-ottoman-hejaz",
@@ -1044,32 +1048,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Iraq",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Iraq?",
+    "question": "Which statement best captures the historical significance of Ottoman Iraq?",
     "options": [
-      "Ottoman Iraq is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Iraq belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Iraq is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Iraq belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Syria."
+        "Context",
+        "Place Ottoman Iraq inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Hejaz."
+        "Connection",
+        "Compare it with Ottoman Hejaz to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Iraq changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Iraq helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-hejaz",
       "meh-millet-system",
@@ -1088,32 +1092,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Hejaz",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Hejaz important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Hejaz important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Hejaz?",
+    "question": "Which statement best captures the historical significance of Ottoman Hejaz?",
     "options": [
-      "Ottoman Hejaz is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Hejaz belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Hejaz is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Hejaz belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Iraq."
+        "Context",
+        "Place Ottoman Hejaz inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Millet System."
+        "Connection",
+        "Compare it with Millet System to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Hejaz changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Hejaz changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Hejaz helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Hejaz helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-millet-system",
       "meh-janissaries",
@@ -1132,32 +1136,32 @@ export const middleEastHistoryConcepts = [
     "name": "Millet System",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Millet System important for understanding Middle Eastern history?",
-    "question": "Why is Millet System important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Millet System?",
+    "question": "Which statement best captures the historical significance of Millet System?",
     "options": [
-      "Millet System is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Millet System belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Millet System is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Millet System belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Hejaz."
+        "Context",
+        "Place Millet System inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Janissaries."
+        "Connection",
+        "Compare it with Janissaries to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Millet System changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Millet System changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Millet System helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Millet System helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-janissaries",
       "meh-capitulations",
@@ -1176,32 +1180,32 @@ export const middleEastHistoryConcepts = [
     "name": "Janissaries",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Janissaries important for understanding Middle Eastern history?",
-    "question": "Why is Janissaries important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Janissaries?",
+    "question": "Which statement best captures the historical significance of Janissaries?",
     "options": [
-      "Janissaries is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Janissaries belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Janissaries is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Janissaries belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Millet System."
+        "Context",
+        "Place Janissaries inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Capitulations."
+        "Connection",
+        "Compare it with Capitulations to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Janissaries changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Janissaries changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Janissaries helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Janissaries helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-capitulations",
       "meh-muhammad-ali-of-egypt",
@@ -1220,32 +1224,32 @@ export const middleEastHistoryConcepts = [
     "name": "Capitulations",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Capitulations important for understanding Middle Eastern history?",
-    "question": "Why is Capitulations important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Capitulations?",
+    "question": "Which statement best captures the historical significance of Capitulations?",
     "options": [
-      "Capitulations is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Capitulations belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Capitulations is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Capitulations belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Janissaries."
+        "Context",
+        "Place Capitulations inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Muhammad Ali of Egypt."
+        "Connection",
+        "Compare it with Muhammad Ali of Egypt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Capitulations changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Capitulations changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Capitulations helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Capitulations helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-muhammad-ali-of-egypt",
       "meh-tanzimat-reforms",
@@ -1264,32 +1268,32 @@ export const middleEastHistoryConcepts = [
     "name": "Muhammad Ali of Egypt",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Muhammad Ali of Egypt important for understanding Middle Eastern history?",
-    "question": "Why is Muhammad Ali of Egypt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Muhammad Ali of Egypt?",
+    "question": "Which statement best captures the historical significance of Muhammad Ali of Egypt?",
     "options": [
-      "Muhammad Ali of Egypt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Muhammad Ali of Egypt belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Muhammad Ali of Egypt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Muhammad Ali of Egypt belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Capitulations."
+        "Context",
+        "Place Muhammad Ali of Egypt inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Tanzimat Reforms."
+        "Connection",
+        "Compare it with Tanzimat Reforms to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Muhammad Ali of Egypt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Muhammad Ali of Egypt changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Muhammad Ali of Egypt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Muhammad Ali of Egypt helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-tanzimat-reforms",
       "meh-ottomanism",
@@ -1308,32 +1312,33 @@ export const middleEastHistoryConcepts = [
     "name": "Tanzimat Reforms",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Tanzimat Reforms important for understanding Middle Eastern history?",
-    "question": "Why is Tanzimat Reforms important for understanding Middle Eastern history?",
+    "hook": "What were the Tanzimat reforms trying to accomplish?",
+    "question": "What were the Tanzimat reforms trying to accomplish?",
     "options": [
-      "Tanzimat Reforms is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "From 1839, Ottoman rulers pursued administrative, military, fiscal and legal reforms intended to strengthen and modernize the empire and redefine relations between state and subjects.",
+      "They divided Ottoman lands into British and French mandates",
+      "They established the Republic of Turkey",
+      "They abolished all provincial government",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tanzimat Reforms is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "From 1839, Ottoman rulers pursued administrative, military, fiscal and legal reforms intended to strengthen and modernize the empire and redefine relations between state and subjects.",
     "examples": [
       [
-        "Before",
-        "Connect it to Muhammad Ali of Egypt."
+        "Administration",
+        "The reforms expanded central ministries, new schools and codified legal institutions."
       ],
       [
-        "After",
-        "Follow what changed next through Ottomanism."
+        "Citizenship",
+        "Reform edicts promised greater legal equality among Ottoman subjects, although implementation was uneven."
       ],
       [
-        "Big picture",
-        "Ask how Tanzimat Reforms changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Ottoman Middle East rabbit hole to see how Tanzimat Reforms connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Tanzimat Reforms helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Tanzimat Reforms matters because it changed or reveals how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottomanism",
       "meh-young-ottomans",
@@ -1352,32 +1357,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottomanism",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottomanism important for understanding Middle Eastern history?",
-    "question": "Why is Ottomanism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottomanism?",
+    "question": "Which statement best captures the historical significance of Ottomanism?",
     "options": [
-      "Ottomanism is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottomanism belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottomanism is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottomanism belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Tanzimat Reforms."
+        "Context",
+        "Place Ottomanism inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Young Ottomans."
+        "Connection",
+        "Compare it with Young Ottomans to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottomanism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottomanism changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottomanism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottomanism helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-young-ottomans",
       "meh-young-turks",
@@ -1396,32 +1401,32 @@ export const middleEastHistoryConcepts = [
     "name": "Young Ottomans",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Young Ottomans important for understanding Middle Eastern history?",
-    "question": "Why is Young Ottomans important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Young Ottomans?",
+    "question": "Which statement best captures the historical significance of Young Ottomans?",
     "options": [
-      "Young Ottomans is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Young Ottomans belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Young Ottomans is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Young Ottomans belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottomanism."
+        "Context",
+        "Place Young Ottomans inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Young Turks."
+        "Connection",
+        "Compare it with Young Turks to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Young Ottomans changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Young Ottomans changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Young Ottomans helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Young Ottomans helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-young-turks",
       "meh-committee-of-union-and-progress",
@@ -1440,32 +1445,32 @@ export const middleEastHistoryConcepts = [
     "name": "Young Turks",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Young Turks important for understanding Middle Eastern history?",
-    "question": "Why is Young Turks important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Young Turks?",
+    "question": "Which statement best captures the historical significance of Young Turks?",
     "options": [
-      "Young Turks is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Young Turks belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Young Turks is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Young Turks belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Young Ottomans."
+        "Context",
+        "Place Young Turks inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Committee of Union and Progress."
+        "Connection",
+        "Compare it with Committee of Union and Progress to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Young Turks changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Young Turks changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Young Turks helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Young Turks helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-committee-of-union-and-progress",
       "meh-young-turk-revolution",
@@ -1484,32 +1489,32 @@ export const middleEastHistoryConcepts = [
     "name": "Committee of Union and Progress",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Committee of Union and Progress important for understanding Middle Eastern history?",
-    "question": "Why is Committee of Union and Progress important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Committee of Union and Progress?",
+    "question": "Which statement best captures the historical significance of Committee of Union and Progress?",
     "options": [
-      "Committee of Union and Progress is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Committee of Union and Progress belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Committee of Union and Progress is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Committee of Union and Progress belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Young Turks."
+        "Context",
+        "Place Committee of Union and Progress inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Young Turk Revolution."
+        "Connection",
+        "Compare it with Young Turk Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Committee of Union and Progress changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Committee of Union and Progress changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Committee of Union and Progress helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Committee of Union and Progress helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-young-turk-revolution",
       "meh-balkan-wars-and-the-middle-east",
@@ -1528,32 +1533,32 @@ export const middleEastHistoryConcepts = [
     "name": "Young Turk Revolution",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Young Turk Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Young Turk Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Young Turk Revolution?",
+    "question": "Which statement best captures the historical significance of Young Turk Revolution?",
     "options": [
-      "Young Turk Revolution is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Young Turk Revolution belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Young Turk Revolution is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Young Turk Revolution belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Committee of Union and Progress."
+        "Context",
+        "Place Young Turk Revolution inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Balkan Wars and the Middle East."
+        "Connection",
+        "Compare it with Balkan Wars and the Middle East to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Young Turk Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Young Turk Revolution changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Young Turk Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Young Turk Revolution helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-balkan-wars-and-the-middle-east",
       "meh-ottoman-entry-into-world-war-i",
@@ -1572,32 +1577,32 @@ export const middleEastHistoryConcepts = [
     "name": "Balkan Wars and the Middle East",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Balkan Wars and the Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Balkan Wars and the Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Balkan Wars and the Middle East?",
+    "question": "Which statement best captures the historical significance of Balkan Wars and the Middle East?",
     "options": [
-      "Balkan Wars and the Middle East is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Balkan Wars and the Middle East belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Balkan Wars and the Middle East is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Balkan Wars and the Middle East belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Young Turk Revolution."
+        "Context",
+        "Place Balkan Wars and the Middle East inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman Entry into World War I."
+        "Connection",
+        "Compare it with Ottoman Entry into World War I to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Balkan Wars and the Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Balkan Wars and the Middle East changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Balkan Wars and the Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Balkan Wars and the Middle East helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-entry-into-world-war-i",
       "meh-arab-revolt",
@@ -1616,32 +1621,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman Entry into World War I",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Ottoman Entry into World War I important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Entry into World War I important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman Entry into World War I?",
+    "question": "Which statement best captures the historical significance of Ottoman Entry into World War I?",
     "options": [
-      "Ottoman Entry into World War I is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman Entry into World War I belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman Entry into World War I is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman Entry into World War I belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Balkan Wars and the Middle East."
+        "Context",
+        "Place Ottoman Entry into World War I inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Arab Revolt."
+        "Connection",
+        "Compare it with Arab Revolt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman Entry into World War I changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman Entry into World War I changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Ottoman Entry into World War I helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman Entry into World War I helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-arab-revolt",
       "meh-collapse-of-the-ottoman-empire",
@@ -1660,32 +1665,33 @@ export const middleEastHistoryConcepts = [
     "name": "Arab Revolt",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Arab Revolt important for understanding Middle Eastern history?",
-    "question": "Why is Arab Revolt important for understanding Middle Eastern history?",
+    "hook": "What was the Arab Revolt during World War I?",
+    "question": "What was the Arab Revolt during World War I?",
     "options": [
-      "Arab Revolt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Beginning in 1916, Sharif Hussein of Mecca and Hashemite forces rebelled against Ottoman rule with British support, seeking political independence in Arab territories.",
+      "A revolt against the Abbasids",
+      "An Iranian uprising against the Qajars",
+      "The Palestinian revolt of 1936",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Arab Revolt is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Beginning in 1916, Sharif Hussein of Mecca and Hashemite forces rebelled against Ottoman rule with British support, seeking political independence in Arab territories.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Entry into World War I."
+        "Wartime diplomacy",
+        "The revolt was connected to British-Hashemite correspondence over possible postwar Arab independence."
       ],
       [
-        "After",
-        "Follow what changed next through Collapse of the Ottoman Empire."
+        "Aftermath",
+        "Hashemite ambitions collided with British and French postwar arrangements in former Ottoman territories."
       ],
       [
-        "Big picture",
-        "Ask how Arab Revolt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Ottoman Middle East rabbit hole to see how Arab Revolt connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Arab Revolt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Arab Revolt matters because it changed or reveals how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-collapse-of-the-ottoman-empire",
       "meh-rise-of-the-ottoman-empire",
@@ -1704,32 +1710,32 @@ export const middleEastHistoryConcepts = [
     "name": "Collapse of the Ottoman Empire",
     "pool": "Ottoman Middle East",
     "topic": "Ottoman Middle East",
-    "hook": "Why is Collapse of the Ottoman Empire important for understanding Middle Eastern history?",
-    "question": "Why is Collapse of the Ottoman Empire important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Collapse of the Ottoman Empire?",
+    "question": "Which statement best captures the historical significance of Collapse of the Ottoman Empire?",
     "options": [
-      "Collapse of the Ottoman Empire is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Collapse of the Ottoman Empire belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ottoman Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Collapse of the Ottoman Empire is a key part of the Ottoman Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Collapse of the Ottoman Empire belongs to the history of how Ottoman rule organized much of the region for centuries. Its importance comes from how it affected reform, provincial power and the empire's nineteenth- and twentieth-century transformation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Revolt."
+        "Context",
+        "Place Collapse of the Ottoman Empire inside the Ottoman Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Rise of the Ottoman Empire to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Collapse of the Ottoman Empire changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Collapse of the Ottoman Empire changed about reform, provincial power and the empire's nineteenth- and twentieth-century transformation."
       ]
     ],
-    "why": "Understanding Collapse of the Ottoman Empire helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Collapse of the Ottoman Empire helps explain how Ottoman rule organized much of the region for centuries.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rise-of-the-ottoman-empire",
       "meh-conquest-of-constantinople",
@@ -1748,32 +1754,32 @@ export const middleEastHistoryConcepts = [
     "name": "Safavid Empire",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Safavid Empire important for understanding Middle Eastern history?",
-    "question": "Why is Safavid Empire important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Safavid Empire?",
+    "question": "Which statement best captures the historical significance of Safavid Empire?",
     "options": [
-      "Safavid Empire is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Safavid Empire belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Safavid Empire is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Safavid Empire belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Safavid Empire inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Twelver Shiism in Safavid Iran."
+        "Connection",
+        "Compare it with Twelver Shiism in Safavid Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Safavid Empire changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Safavid Empire changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Safavid Empire helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Safavid Empire helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-twelver-shiism-in-safavid-iran",
       "meh-ottoman-safavid-rivalry",
@@ -1787,32 +1793,32 @@ export const middleEastHistoryConcepts = [
     "name": "Twelver Shiism in Safavid Iran",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Twelver Shiism in Safavid Iran important for understanding Middle Eastern history?",
-    "question": "Why is Twelver Shiism in Safavid Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Twelver Shiism in Safavid Iran?",
+    "question": "Which statement best captures the historical significance of Twelver Shiism in Safavid Iran?",
     "options": [
-      "Twelver Shiism in Safavid Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Twelver Shiism in Safavid Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Twelver Shiism in Safavid Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Twelver Shiism in Safavid Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Safavid Empire."
+        "Context",
+        "Place Twelver Shiism in Safavid Iran inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ottoman–Safavid Rivalry."
+        "Connection",
+        "Compare it with Ottoman–Safavid Rivalry to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Twelver Shiism in Safavid Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Twelver Shiism in Safavid Iran changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Twelver Shiism in Safavid Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Twelver Shiism in Safavid Iran helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-safavid-rivalry",
       "meh-qajar-dynasty",
@@ -1826,32 +1832,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ottoman–Safavid Rivalry",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Ottoman–Safavid Rivalry important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman–Safavid Rivalry important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ottoman–Safavid Rivalry?",
+    "question": "Which statement best captures the historical significance of Ottoman–Safavid Rivalry?",
     "options": [
-      "Ottoman–Safavid Rivalry is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ottoman–Safavid Rivalry belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ottoman–Safavid Rivalry is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ottoman–Safavid Rivalry belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Twelver Shiism in Safavid Iran."
+        "Context",
+        "Place Ottoman–Safavid Rivalry inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Qajar Dynasty."
+        "Connection",
+        "Compare it with Qajar Dynasty to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ottoman–Safavid Rivalry changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ottoman–Safavid Rivalry changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Ottoman–Safavid Rivalry helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ottoman–Safavid Rivalry helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-qajar-dynasty",
       "meh-great-game-in-iran",
@@ -1865,32 +1871,32 @@ export const middleEastHistoryConcepts = [
     "name": "Qajar Dynasty",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Qajar Dynasty important for understanding Middle Eastern history?",
-    "question": "Why is Qajar Dynasty important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Qajar Dynasty?",
+    "question": "Which statement best captures the historical significance of Qajar Dynasty?",
     "options": [
-      "Qajar Dynasty is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Qajar Dynasty belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Qajar Dynasty is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Qajar Dynasty belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman–Safavid Rivalry."
+        "Context",
+        "Place Qajar Dynasty inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Great Game in Iran."
+        "Connection",
+        "Compare it with Great Game in Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Qajar Dynasty changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Qajar Dynasty changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Qajar Dynasty helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Qajar Dynasty helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-great-game-in-iran",
       "meh-tobacco-protest",
@@ -1904,32 +1910,32 @@ export const middleEastHistoryConcepts = [
     "name": "Great Game in Iran",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Great Game in Iran important for understanding Middle Eastern history?",
-    "question": "Why is Great Game in Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Great Game in Iran?",
+    "question": "Which statement best captures the historical significance of Great Game in Iran?",
     "options": [
-      "Great Game in Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Great Game in Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Great Game in Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Great Game in Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Qajar Dynasty."
+        "Context",
+        "Place Great Game in Iran inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Tobacco Protest."
+        "Connection",
+        "Compare it with Tobacco Protest to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Great Game in Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Great Game in Iran changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Great Game in Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Great Game in Iran helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-tobacco-protest",
       "meh-iranian-constitutional-revolution",
@@ -1943,32 +1949,32 @@ export const middleEastHistoryConcepts = [
     "name": "Tobacco Protest",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Tobacco Protest important for understanding Middle Eastern history?",
-    "question": "Why is Tobacco Protest important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Tobacco Protest?",
+    "question": "Which statement best captures the historical significance of Tobacco Protest?",
     "options": [
-      "Tobacco Protest is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Tobacco Protest belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tobacco Protest is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Tobacco Protest belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Great Game in Iran."
+        "Context",
+        "Place Tobacco Protest inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iranian Constitutional Revolution."
+        "Connection",
+        "Compare it with Iranian Constitutional Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Tobacco Protest changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Tobacco Protest changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Tobacco Protest helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Tobacco Protest helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iranian-constitutional-revolution",
       "meh-anglo-persian-oil-company",
@@ -1982,32 +1988,33 @@ export const middleEastHistoryConcepts = [
     "name": "Iranian Constitutional Revolution",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Iranian Constitutional Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Iranian Constitutional Revolution important for understanding Middle Eastern history?",
+    "hook": "Why was Iran's Constitutional Revolution of 1905–11 significant?",
+    "question": "Why was Iran's Constitutional Revolution of 1905–11 significant?",
     "options": [
-      "Iranian Constitutional Revolution is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "A coalition of merchants, clerics, intellectuals and other groups forced the Qajar monarchy to accept a constitution and elected parliament, creating an enduring struggle over constitutional government and royal power.",
+      "It established the Islamic Republic",
+      "It nationalized Iranian oil",
+      "It overthrew the Safavid dynasty",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iranian Constitutional Revolution is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "A coalition of merchants, clerics, intellectuals and other groups forced the Qajar monarchy to accept a constitution and elected parliament, creating an enduring struggle over constitutional government and royal power.",
     "examples": [
       [
-        "Before",
-        "Connect it to Tobacco Protest."
+        "Majles",
+        "The revolution created Iran's first national parliament, the Majles."
       ],
       [
-        "After",
-        "Follow what changed next through Anglo-Persian Oil Company."
+        "Foreign pressure",
+        "Russian and British influence constrained the constitutional experiment."
       ],
       [
-        "Big picture",
-        "Ask how Iranian Constitutional Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Iran & Persia rabbit hole to see how Iranian Constitutional Revolution connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Iranian Constitutional Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iranian Constitutional Revolution matters because it changed or reveals Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-anglo-persian-oil-company",
       "meh-reza-shah-pahlavi",
@@ -2021,32 +2028,32 @@ export const middleEastHistoryConcepts = [
     "name": "Anglo-Persian Oil Company",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Anglo-Persian Oil Company important for understanding Middle Eastern history?",
-    "question": "Why is Anglo-Persian Oil Company important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Anglo-Persian Oil Company?",
+    "question": "Which statement best captures the historical significance of Anglo-Persian Oil Company?",
     "options": [
-      "Anglo-Persian Oil Company is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Anglo-Persian Oil Company belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anglo-Persian Oil Company is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Anglo-Persian Oil Company belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iranian Constitutional Revolution."
+        "Context",
+        "Place Anglo-Persian Oil Company inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Reza Shah Pahlavi."
+        "Connection",
+        "Compare it with Reza Shah Pahlavi to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Anglo-Persian Oil Company changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Anglo-Persian Oil Company changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Anglo-Persian Oil Company helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Anglo-Persian Oil Company helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-reza-shah-pahlavi",
       "meh-anglo-soviet-invasion-of-iran",
@@ -2060,32 +2067,32 @@ export const middleEastHistoryConcepts = [
     "name": "Reza Shah Pahlavi",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Reza Shah Pahlavi important for understanding Middle Eastern history?",
-    "question": "Why is Reza Shah Pahlavi important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Reza Shah Pahlavi?",
+    "question": "Which statement best captures the historical significance of Reza Shah Pahlavi?",
     "options": [
-      "Reza Shah Pahlavi is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Reza Shah Pahlavi belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reza Shah Pahlavi is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Reza Shah Pahlavi belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Anglo-Persian Oil Company."
+        "Context",
+        "Place Reza Shah Pahlavi inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Anglo-Soviet Invasion of Iran."
+        "Connection",
+        "Compare it with Anglo-Soviet Invasion of Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Reza Shah Pahlavi changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Reza Shah Pahlavi changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Reza Shah Pahlavi helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Reza Shah Pahlavi helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-anglo-soviet-invasion-of-iran",
       "meh-mohammad-reza-shah",
@@ -2099,32 +2106,32 @@ export const middleEastHistoryConcepts = [
     "name": "Anglo-Soviet Invasion of Iran",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Anglo-Soviet Invasion of Iran important for understanding Middle Eastern history?",
-    "question": "Why is Anglo-Soviet Invasion of Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Anglo-Soviet Invasion of Iran?",
+    "question": "Which statement best captures the historical significance of Anglo-Soviet Invasion of Iran?",
     "options": [
-      "Anglo-Soviet Invasion of Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Anglo-Soviet Invasion of Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anglo-Soviet Invasion of Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Anglo-Soviet Invasion of Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Reza Shah Pahlavi."
+        "Context",
+        "Place Anglo-Soviet Invasion of Iran inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mohammad Reza Shah."
+        "Connection",
+        "Compare it with Mohammad Reza Shah to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Anglo-Soviet Invasion of Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Anglo-Soviet Invasion of Iran changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Anglo-Soviet Invasion of Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Anglo-Soviet Invasion of Iran helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-mohammad-reza-shah",
       "meh-mohammad-mossadegh",
@@ -2138,32 +2145,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mohammad Reza Shah",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Mohammad Reza Shah important for understanding Middle Eastern history?",
-    "question": "Why is Mohammad Reza Shah important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mohammad Reza Shah?",
+    "question": "Which statement best captures the historical significance of Mohammad Reza Shah?",
     "options": [
-      "Mohammad Reza Shah is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mohammad Reza Shah belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mohammad Reza Shah is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mohammad Reza Shah belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Anglo-Soviet Invasion of Iran."
+        "Context",
+        "Place Mohammad Reza Shah inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mohammad Mossadegh."
+        "Connection",
+        "Compare it with Mohammad Mossadegh to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mohammad Reza Shah changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mohammad Reza Shah changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Mohammad Reza Shah helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mohammad Reza Shah helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-mohammad-mossadegh",
       "meh-iranian-oil-nationalization",
@@ -2177,32 +2184,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mohammad Mossadegh",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Mohammad Mossadegh important for understanding Middle Eastern history?",
-    "question": "Why is Mohammad Mossadegh important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mohammad Mossadegh?",
+    "question": "Which statement best captures the historical significance of Mohammad Mossadegh?",
     "options": [
-      "Mohammad Mossadegh is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mohammad Mossadegh belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mohammad Mossadegh is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mohammad Mossadegh belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Mohammad Reza Shah."
+        "Context",
+        "Place Mohammad Mossadegh inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iranian Oil Nationalization."
+        "Connection",
+        "Compare it with Iranian Oil Nationalization to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mohammad Mossadegh changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mohammad Mossadegh changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Mohammad Mossadegh helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mohammad Mossadegh helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iranian-oil-nationalization",
       "meh-1953-iranian-coup",
@@ -2216,32 +2223,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iranian Oil Nationalization",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Iranian Oil Nationalization important for understanding Middle Eastern history?",
-    "question": "Why is Iranian Oil Nationalization important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iranian Oil Nationalization?",
+    "question": "Which statement best captures the historical significance of Iranian Oil Nationalization?",
     "options": [
-      "Iranian Oil Nationalization is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iranian Oil Nationalization belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iranian Oil Nationalization is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iranian Oil Nationalization belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Mohammad Mossadegh."
+        "Context",
+        "Place Iranian Oil Nationalization inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1953 Iranian Coup."
+        "Connection",
+        "Compare it with 1953 Iranian Coup to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iranian Oil Nationalization changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iranian Oil Nationalization changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Iranian Oil Nationalization helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iranian Oil Nationalization helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1953-iranian-coup",
       "meh-white-revolution",
@@ -2255,32 +2262,33 @@ export const middleEastHistoryConcepts = [
     "name": "1953 Iranian Coup",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is 1953 Iranian Coup important for understanding Middle Eastern history?",
-    "question": "Why is 1953 Iranian Coup important for understanding Middle Eastern history?",
+    "hook": "What happened to Prime Minister Mohammad Mossadegh in 1953?",
+    "question": "What happened to Prime Minister Mohammad Mossadegh in 1953?",
     "options": [
-      "1953 Iranian Coup is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mossadegh was removed in a coup after a confrontation over oil nationalization and royal authority; US and British intelligence services played important roles in the operation.",
+      "He became Iran's first president",
+      "He led the 1979 revolution",
+      "He abolished the monarchy",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1953 Iranian Coup is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mossadegh was removed in a coup after a confrontation over oil nationalization and royal authority; US and British intelligence services played important roles in the operation.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iranian Oil Nationalization."
+        "Oil",
+        "Mossadegh had nationalized the Anglo-Iranian Oil Company in 1951."
       ],
       [
-        "After",
-        "Follow what changed next through White Revolution."
+        "Legacy",
+        "The coup strengthened the shah and became a lasting source of Iranian distrust toward British and US intervention."
       ],
       [
-        "Big picture",
-        "Ask how 1953 Iranian Coup changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Iran & Persia rabbit hole to see how 1953 Iranian Coup connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding 1953 Iranian Coup helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1953 Iranian Coup matters because it changed or reveals Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-white-revolution",
       "meh-iranian-revolution-of-1979",
@@ -2294,32 +2302,32 @@ export const middleEastHistoryConcepts = [
     "name": "White Revolution",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is White Revolution important for understanding Middle Eastern history?",
-    "question": "Why is White Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of White Revolution?",
+    "question": "Which statement best captures the historical significance of White Revolution?",
     "options": [
-      "White Revolution is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "White Revolution belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "White Revolution is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "White Revolution belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1953 Iranian Coup."
+        "Context",
+        "Place White Revolution inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iranian Revolution of 1979."
+        "Connection",
+        "Compare it with Iranian Revolution of 1979 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how White Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what White Revolution changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding White Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "White Revolution helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iranian-revolution-of-1979",
       "meh-ayatollah-khomeini",
@@ -2333,32 +2341,33 @@ export const middleEastHistoryConcepts = [
     "name": "Iranian Revolution of 1979",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Iranian Revolution of 1979 important for understanding Middle Eastern history?",
-    "question": "Why is Iranian Revolution of 1979 important for understanding Middle Eastern history?",
+    "hook": "What made the 1979 Iranian Revolution historically unusual?",
+    "question": "What made the 1979 Iranian Revolution historically unusual?",
     "options": [
-      "Iranian Revolution of 1979 is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "A broad revolutionary coalition overthrew the Pahlavi monarchy, after which Ayatollah Khomeini and Islamist forces established an Islamic Republic with clerical institutions of political authority.",
+      "It restored Qajar rule",
+      "It was organized solely by the Iranian military",
+      "It immediately ended political conflict inside Iran",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iranian Revolution of 1979 is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "A broad revolutionary coalition overthrew the Pahlavi monarchy, after which Ayatollah Khomeini and Islamist forces established an Islamic Republic with clerical institutions of political authority.",
     "examples": [
       [
-        "Before",
-        "Connect it to White Revolution."
+        "Coalition",
+        "Islamists, leftists, liberals, students and other groups participated in opposition to the shah."
       ],
       [
-        "After",
-        "Follow what changed next through Ayatollah Khomeini."
+        "After revolution",
+        "The post-revolutionary struggle consolidated a new political order centered on the doctrine of guardianship of the jurist."
       ],
       [
-        "Big picture",
-        "Ask how Iranian Revolution of 1979 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Iran & Persia rabbit hole to see how Iranian Revolution of 1979 connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Iranian Revolution of 1979 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iranian Revolution of 1979 matters because it changed or reveals Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ayatollah-khomeini",
       "meh-islamic-republic-of-iran",
@@ -2372,32 +2381,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ayatollah Khomeini",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Ayatollah Khomeini important for understanding Middle Eastern history?",
-    "question": "Why is Ayatollah Khomeini important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ayatollah Khomeini?",
+    "question": "Which statement best captures the historical significance of Ayatollah Khomeini?",
     "options": [
-      "Ayatollah Khomeini is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ayatollah Khomeini belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ayatollah Khomeini is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ayatollah Khomeini belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iranian Revolution of 1979."
+        "Context",
+        "Place Ayatollah Khomeini inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Islamic Republic of Iran."
+        "Connection",
+        "Compare it with Islamic Republic of Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ayatollah Khomeini changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ayatollah Khomeini changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Ayatollah Khomeini helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ayatollah Khomeini helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-islamic-republic-of-iran",
       "meh-iran-hostage-crisis",
@@ -2411,32 +2420,32 @@ export const middleEastHistoryConcepts = [
     "name": "Islamic Republic of Iran",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Islamic Republic of Iran important for understanding Middle Eastern history?",
-    "question": "Why is Islamic Republic of Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Islamic Republic of Iran?",
+    "question": "Which statement best captures the historical significance of Islamic Republic of Iran?",
     "options": [
-      "Islamic Republic of Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Islamic Republic of Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Islamic Republic of Iran is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Islamic Republic of Iran belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ayatollah Khomeini."
+        "Context",
+        "Place Islamic Republic of Iran inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iran Hostage Crisis."
+        "Connection",
+        "Compare it with Iran Hostage Crisis to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Islamic Republic of Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Islamic Republic of Iran changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Islamic Republic of Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Islamic Republic of Iran helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iran-hostage-crisis",
       "meh-iran-iraq-war",
@@ -2450,32 +2459,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iran Hostage Crisis",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Iran Hostage Crisis important for understanding Middle Eastern history?",
-    "question": "Why is Iran Hostage Crisis important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iran Hostage Crisis?",
+    "question": "Which statement best captures the historical significance of Iran Hostage Crisis?",
     "options": [
-      "Iran Hostage Crisis is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iran Hostage Crisis belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iran Hostage Crisis is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iran Hostage Crisis belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Islamic Republic of Iran."
+        "Context",
+        "Place Iran Hostage Crisis inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iran–Iraq War."
+        "Connection",
+        "Compare it with Iran–Iraq War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iran Hostage Crisis changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iran Hostage Crisis changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Iran Hostage Crisis helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iran Hostage Crisis helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iran-iraq-war",
       "meh-safavid-empire",
@@ -2489,32 +2498,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iran–Iraq War",
     "pool": "Iran & Persia",
     "topic": "Iran & Persia",
-    "hook": "Why is Iran–Iraq War important for understanding Middle Eastern history?",
-    "question": "Why is Iran–Iraq War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iran–Iraq War?",
+    "question": "Which statement best captures the historical significance of Iran–Iraq War?",
     "options": [
-      "Iran–Iraq War is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iran–Iraq War belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iran & Persia.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iran–Iraq War is a key part of the Iran & Persia story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iran–Iraq War belongs to the history of Iran's dynastic, constitutional, imperial and revolutionary transformations. Its importance comes from how it affected state power, Shiism, oil and foreign intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iran Hostage Crisis."
+        "Context",
+        "Place Iran–Iraq War inside the Iran & Persia timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Safavid Empire to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iran–Iraq War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iran–Iraq War changed about state power, Shiism, oil and foreign intervention."
       ]
     ],
-    "why": "Understanding Iran–Iraq War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iran–Iraq War helps explain Iran's dynastic, constitutional, imperial and revolutionary transformations.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-safavid-empire",
       "meh-twelver-shiism-in-safavid-iran",
@@ -2528,32 +2537,32 @@ export const middleEastHistoryConcepts = [
     "name": "Nahda",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Nahda important for understanding Middle Eastern history?",
-    "question": "Why is Nahda important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Nahda?",
+    "question": "Which statement best captures the historical significance of Nahda?",
     "options": [
-      "Nahda is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Nahda belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nahda is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Nahda belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Nahda inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Arab Literary Revival."
+        "Connection",
+        "Compare it with Arab Literary Revival to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Nahda changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Nahda changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Nahda helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Nahda helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-arab-literary-revival",
       "meh-jamal-al-din-al-afghani",
@@ -2567,32 +2576,32 @@ export const middleEastHistoryConcepts = [
     "name": "Arab Literary Revival",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Arab Literary Revival important for understanding Middle Eastern history?",
-    "question": "Why is Arab Literary Revival important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Arab Literary Revival?",
+    "question": "Which statement best captures the historical significance of Arab Literary Revival?",
     "options": [
-      "Arab Literary Revival is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Arab Literary Revival belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Arab Literary Revival is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Arab Literary Revival belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Nahda."
+        "Context",
+        "Place Arab Literary Revival inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Jamal al-Din al-Afghani."
+        "Connection",
+        "Compare it with Jamal al-Din al-Afghani to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Arab Literary Revival changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Arab Literary Revival changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Arab Literary Revival helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Arab Literary Revival helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-jamal-al-din-al-afghani",
       "meh-muhammad-abduh",
@@ -2606,32 +2615,32 @@ export const middleEastHistoryConcepts = [
     "name": "Jamal al-Din al-Afghani",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Jamal al-Din al-Afghani important for understanding Middle Eastern history?",
-    "question": "Why is Jamal al-Din al-Afghani important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Jamal al-Din al-Afghani?",
+    "question": "Which statement best captures the historical significance of Jamal al-Din al-Afghani?",
     "options": [
-      "Jamal al-Din al-Afghani is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Jamal al-Din al-Afghani belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Jamal al-Din al-Afghani is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Jamal al-Din al-Afghani belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Literary Revival."
+        "Context",
+        "Place Jamal al-Din al-Afghani inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Muhammad Abduh."
+        "Connection",
+        "Compare it with Muhammad Abduh to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Jamal al-Din al-Afghani changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Jamal al-Din al-Afghani changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Jamal al-Din al-Afghani helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Jamal al-Din al-Afghani helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-muhammad-abduh",
       "meh-rashid-rida",
@@ -2645,32 +2654,32 @@ export const middleEastHistoryConcepts = [
     "name": "Muhammad Abduh",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Muhammad Abduh important for understanding Middle Eastern history?",
-    "question": "Why is Muhammad Abduh important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Muhammad Abduh?",
+    "question": "Which statement best captures the historical significance of Muhammad Abduh?",
     "options": [
-      "Muhammad Abduh is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Muhammad Abduh belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Muhammad Abduh is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Muhammad Abduh belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Jamal al-Din al-Afghani."
+        "Context",
+        "Place Muhammad Abduh inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Rashid Rida."
+        "Connection",
+        "Compare it with Rashid Rida to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Muhammad Abduh changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Muhammad Abduh changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Muhammad Abduh helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Muhammad Abduh helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rashid-rida",
       "meh-arab-nationalism",
@@ -2684,32 +2693,32 @@ export const middleEastHistoryConcepts = [
     "name": "Rashid Rida",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Rashid Rida important for understanding Middle Eastern history?",
-    "question": "Why is Rashid Rida important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Rashid Rida?",
+    "question": "Which statement best captures the historical significance of Rashid Rida?",
     "options": [
-      "Rashid Rida is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Rashid Rida belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rashid Rida is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Rashid Rida belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Muhammad Abduh."
+        "Context",
+        "Place Rashid Rida inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Arab Nationalism."
+        "Connection",
+        "Compare it with Arab Nationalism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Rashid Rida changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Rashid Rida changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Rashid Rida helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rashid Rida helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-arab-nationalism",
       "meh-pan-arabism",
@@ -2723,32 +2732,32 @@ export const middleEastHistoryConcepts = [
     "name": "Arab Nationalism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Arab Nationalism important for understanding Middle Eastern history?",
-    "question": "Why is Arab Nationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Arab Nationalism?",
+    "question": "Which statement best captures the historical significance of Arab Nationalism?",
     "options": [
-      "Arab Nationalism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Arab Nationalism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Arab Nationalism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Arab Nationalism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Rashid Rida."
+        "Context",
+        "Place Arab Nationalism inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Pan-Arabism."
+        "Connection",
+        "Compare it with Pan-Arabism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Arab Nationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Arab Nationalism changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Arab Nationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Arab Nationalism helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-pan-arabism",
       "meh-syrian-nationalism",
@@ -2762,32 +2771,32 @@ export const middleEastHistoryConcepts = [
     "name": "Pan-Arabism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Pan-Arabism important for understanding Middle Eastern history?",
-    "question": "Why is Pan-Arabism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Pan-Arabism?",
+    "question": "Which statement best captures the historical significance of Pan-Arabism?",
     "options": [
-      "Pan-Arabism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Pan-Arabism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Pan-Arabism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Pan-Arabism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Nationalism."
+        "Context",
+        "Place Pan-Arabism inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Nationalism."
+        "Connection",
+        "Compare it with Syrian Nationalism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Pan-Arabism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Pan-Arabism changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Pan-Arabism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Pan-Arabism helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-nationalism",
       "meh-ba-athism",
@@ -2801,32 +2810,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Nationalism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Syrian Nationalism important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Nationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Nationalism?",
+    "question": "Which statement best captures the historical significance of Syrian Nationalism?",
     "options": [
-      "Syrian Nationalism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Nationalism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Nationalism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Nationalism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Pan-Arabism."
+        "Context",
+        "Place Syrian Nationalism inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ba'athism."
+        "Connection",
+        "Compare it with Ba'athism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Nationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Nationalism changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Syrian Nationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Nationalism helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ba-athism",
       "meh-michel-aflaq",
@@ -2840,32 +2849,33 @@ export const middleEastHistoryConcepts = [
     "name": "Ba'athism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Ba'athism important for understanding Middle Eastern history?",
-    "question": "Why is Ba'athism important for understanding Middle Eastern history?",
+    "hook": "What did Ba'athism originally promise?",
+    "question": "What did Ba'athism originally promise?",
     "options": [
-      "Ba'athism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ba'athist ideology combined Arab unity, nationalism and socialism with a secular political vocabulary, though Syrian and Iraqi Ba'athist regimes developed into distinct authoritarian systems.",
+      "Restoration of the Ottoman caliphate",
+      "A purely free-market economic program",
+      "Political separation of every Arab state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ba'athism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ba'athist ideology combined Arab unity, nationalism and socialism with a secular political vocabulary, though Syrian and Iraqi Ba'athist regimes developed into distinct authoritarian systems.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Nationalism."
+        "Syria and Iraq",
+        "Rival Ba'ath parties eventually ruled Syria and Iraq."
       ],
       [
-        "After",
-        "Follow what changed next through Michel Aflaq."
+        "Gap between idea and rule",
+        "The movement's pan-Arab ideals diverged substantially from the practices of the regimes that claimed its name."
       ],
       [
-        "Big picture",
-        "Ask how Ba'athism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Arab Thought & Nationalism rabbit hole to see how Ba'athism connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Ba'athism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ba'athism matters because it changed or reveals the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-michel-aflaq",
       "meh-nasserism",
@@ -2879,32 +2889,32 @@ export const middleEastHistoryConcepts = [
     "name": "Michel Aflaq",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Michel Aflaq important for understanding Middle Eastern history?",
-    "question": "Why is Michel Aflaq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Michel Aflaq?",
+    "question": "Which statement best captures the historical significance of Michel Aflaq?",
     "options": [
-      "Michel Aflaq is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Michel Aflaq belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Michel Aflaq is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Michel Aflaq belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ba'athism."
+        "Context",
+        "Place Michel Aflaq inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Nasserism."
+        "Connection",
+        "Compare it with Nasserism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Michel Aflaq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Michel Aflaq changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Michel Aflaq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Michel Aflaq helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-nasserism",
       "meh-united-arab-republic",
@@ -2918,32 +2928,32 @@ export const middleEastHistoryConcepts = [
     "name": "Nasserism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Nasserism important for understanding Middle Eastern history?",
-    "question": "Why is Nasserism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Nasserism?",
+    "question": "Which statement best captures the historical significance of Nasserism?",
     "options": [
-      "Nasserism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Nasserism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nasserism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Nasserism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Michel Aflaq."
+        "Context",
+        "Place Nasserism inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through United Arab Republic."
+        "Connection",
+        "Compare it with United Arab Republic to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Nasserism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Nasserism changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Nasserism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Nasserism helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-united-arab-republic",
       "meh-arab-cold-war",
@@ -2957,32 +2967,32 @@ export const middleEastHistoryConcepts = [
     "name": "United Arab Republic",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is United Arab Republic important for understanding Middle Eastern history?",
-    "question": "Why is United Arab Republic important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of United Arab Republic?",
+    "question": "Which statement best captures the historical significance of United Arab Republic?",
     "options": [
-      "United Arab Republic is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "United Arab Republic belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "United Arab Republic is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "United Arab Republic belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Nasserism."
+        "Context",
+        "Place United Arab Republic inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Arab Cold War."
+        "Connection",
+        "Compare it with Arab Cold War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how United Arab Republic changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what United Arab Republic changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding United Arab Republic helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "United Arab Republic helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-arab-cold-war",
       "meh-decline-of-pan-arabism",
@@ -2996,32 +3006,32 @@ export const middleEastHistoryConcepts = [
     "name": "Arab Cold War",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Arab Cold War important for understanding Middle Eastern history?",
-    "question": "Why is Arab Cold War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Arab Cold War?",
+    "question": "Which statement best captures the historical significance of Arab Cold War?",
     "options": [
-      "Arab Cold War is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Arab Cold War belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Arab Cold War is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Arab Cold War belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to United Arab Republic."
+        "Context",
+        "Place Arab Cold War inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Decline of Pan-Arabism."
+        "Connection",
+        "Compare it with Decline of Pan-Arabism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Arab Cold War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Arab Cold War changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Arab Cold War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Arab Cold War helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-decline-of-pan-arabism",
       "meh-nahda",
@@ -3035,32 +3045,32 @@ export const middleEastHistoryConcepts = [
     "name": "Decline of Pan-Arabism",
     "pool": "Arab Thought & Nationalism",
     "topic": "Arab Thought & Nationalism",
-    "hook": "Why is Decline of Pan-Arabism important for understanding Middle Eastern history?",
-    "question": "Why is Decline of Pan-Arabism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Decline of Pan-Arabism?",
+    "question": "Which statement best captures the historical significance of Decline of Pan-Arabism?",
     "options": [
-      "Decline of Pan-Arabism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Decline of Pan-Arabism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arab Thought & Nationalism.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Decline of Pan-Arabism is a key part of the Arab Thought & Nationalism story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Decline of Pan-Arabism belongs to the history of the emergence of modern Arab intellectual and nationalist movements. Its importance comes from how it affected language, reform, identity and competing visions of political community, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Cold War."
+        "Context",
+        "Place Decline of Pan-Arabism inside the Arab Thought & Nationalism timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Nahda to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Decline of Pan-Arabism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Decline of Pan-Arabism changed about language, reform, identity and competing visions of political community."
       ]
     ],
-    "why": "Understanding Decline of Pan-Arabism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Decline of Pan-Arabism helps explain the emergence of modern Arab intellectual and nationalist movements.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-nahda",
       "meh-arab-literary-revival",
@@ -3074,32 +3084,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hussein–McMahon Correspondence",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Hussein–McMahon Correspondence important for understanding Middle Eastern history?",
-    "question": "Why is Hussein–McMahon Correspondence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hussein–McMahon Correspondence?",
+    "question": "Which statement best captures the historical significance of Hussein–McMahon Correspondence?",
     "options": [
-      "Hussein–McMahon Correspondence is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hussein–McMahon Correspondence belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hussein–McMahon Correspondence is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hussein–McMahon Correspondence belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Hussein–McMahon Correspondence inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sykes–Picot Agreement."
+        "Connection",
+        "Compare it with Sykes–Picot Agreement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hussein–McMahon Correspondence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hussein–McMahon Correspondence changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Hussein–McMahon Correspondence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hussein–McMahon Correspondence helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-sykes-picot-agreement",
       "meh-balfour-declaration",
@@ -3118,32 +3128,33 @@ export const middleEastHistoryConcepts = [
     "name": "Sykes–Picot Agreement",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Sykes–Picot Agreement important for understanding Middle Eastern history?",
-    "question": "Why is Sykes–Picot Agreement important for understanding Middle Eastern history?",
+    "hook": "What did the 1916 Sykes–Picot Agreement actually represent?",
+    "question": "What did the 1916 Sykes–Picot Agreement actually represent?",
     "options": [
-      "Sykes–Picot Agreement is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "It was a secret Anglo-French wartime understanding outlining proposed spheres of control and influence in Ottoman Arab territories if the Allies won.",
+      "The final legal borders of every modern Arab state",
+      "A peace treaty between Arabs and Zionists",
+      "The agreement that created Saudi Arabia",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sykes–Picot Agreement is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "It was a secret Anglo-French wartime understanding outlining proposed spheres of control and influence in Ottoman Arab territories if the Allies won.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hussein–McMahon Correspondence."
+        "Not a final map",
+        "Later conferences, mandates, wars and local politics altered the arrangements substantially."
       ],
       [
-        "After",
-        "Follow what changed next through Balfour Declaration."
+        "Why remembered",
+        "It became a powerful symbol of European imperial partition even though today's borders were not simply copied from its lines."
       ],
       [
-        "Big picture",
-        "Ask how Sykes–Picot Agreement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the World War I & Mandates rabbit hole to see how Sykes–Picot Agreement connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Sykes–Picot Agreement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sykes–Picot Agreement matters because it changed or reveals the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-balfour-declaration",
       "meh-san-remo-conference",
@@ -3162,32 +3173,33 @@ export const middleEastHistoryConcepts = [
     "name": "Balfour Declaration",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Balfour Declaration important for understanding Middle Eastern history?",
-    "question": "Why is Balfour Declaration important for understanding Middle Eastern history?",
+    "hook": "What did Britain state in the Balfour Declaration of 1917?",
+    "question": "What did Britain state in the Balfour Declaration of 1917?",
     "options": [
-      "Balfour Declaration is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Britain expressed support for establishing a 'national home for the Jewish people' in Palestine while stating that the civil and religious rights of existing non-Jewish communities should not be prejudiced.",
+      "Britain promised immediate Palestinian independence",
+      "Britain created the State of Israel in 1917",
+      "Britain ended the Palestine Mandate",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Balfour Declaration is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Britain expressed support for establishing a 'national home for the Jewish people' in Palestine while stating that the civil and religious rights of existing non-Jewish communities should not be prejudiced.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sykes–Picot Agreement."
+        "Mandate",
+        "The declaration was later incorporated into Britain's League of Nations mandate responsibilities."
       ],
       [
-        "After",
-        "Follow what changed next through San Remo Conference."
+        "Conflict",
+        "Its commitments became central to competing Zionist and Palestinian interpretations of Britain's role."
       ],
       [
-        "Big picture",
-        "Ask how Balfour Declaration changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the World War I & Mandates rabbit hole to see how Balfour Declaration connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Balfour Declaration helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Balfour Declaration matters because it changed or reveals the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-san-remo-conference",
       "meh-league-of-nations-mandates",
@@ -3206,32 +3218,32 @@ export const middleEastHistoryConcepts = [
     "name": "San Remo Conference",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is San Remo Conference important for understanding Middle Eastern history?",
-    "question": "Why is San Remo Conference important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of San Remo Conference?",
+    "question": "Which statement best captures the historical significance of San Remo Conference?",
     "options": [
-      "San Remo Conference is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "San Remo Conference belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "San Remo Conference is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "San Remo Conference belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Balfour Declaration."
+        "Context",
+        "Place San Remo Conference inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through League of Nations Mandates."
+        "Connection",
+        "Compare it with League of Nations Mandates to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how San Remo Conference changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what San Remo Conference changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding San Remo Conference helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "San Remo Conference helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-league-of-nations-mandates",
       "meh-french-mandate-for-syria-and-lebanon",
@@ -3250,32 +3262,32 @@ export const middleEastHistoryConcepts = [
     "name": "League of Nations Mandates",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is League of Nations Mandates important for understanding Middle Eastern history?",
-    "question": "Why is League of Nations Mandates important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of League of Nations Mandates?",
+    "question": "Which statement best captures the historical significance of League of Nations Mandates?",
     "options": [
-      "League of Nations Mandates is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "League of Nations Mandates belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "League of Nations Mandates is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "League of Nations Mandates belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to San Remo Conference."
+        "Context",
+        "Place League of Nations Mandates inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through French Mandate for Syria and Lebanon."
+        "Connection",
+        "Compare it with French Mandate for Syria and Lebanon to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how League of Nations Mandates changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what League of Nations Mandates changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding League of Nations Mandates helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "League of Nations Mandates helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-french-mandate-for-syria-and-lebanon",
       "meh-british-mandate-for-mesopotamia",
@@ -3294,32 +3306,32 @@ export const middleEastHistoryConcepts = [
     "name": "French Mandate for Syria and Lebanon",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is French Mandate for Syria and Lebanon important for understanding Middle Eastern history?",
-    "question": "Why is French Mandate for Syria and Lebanon important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of French Mandate for Syria and Lebanon?",
+    "question": "Which statement best captures the historical significance of French Mandate for Syria and Lebanon?",
     "options": [
-      "French Mandate for Syria and Lebanon is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "French Mandate for Syria and Lebanon belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "French Mandate for Syria and Lebanon is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "French Mandate for Syria and Lebanon belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to League of Nations Mandates."
+        "Context",
+        "Place French Mandate for Syria and Lebanon inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through British Mandate for Mesopotamia."
+        "Connection",
+        "Compare it with British Mandate for Mesopotamia to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how French Mandate for Syria and Lebanon changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what French Mandate for Syria and Lebanon changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding French Mandate for Syria and Lebanon helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "French Mandate for Syria and Lebanon helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-british-mandate-for-mesopotamia",
       "meh-british-mandate-for-palestine",
@@ -3338,32 +3350,32 @@ export const middleEastHistoryConcepts = [
     "name": "British Mandate for Mesopotamia",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is British Mandate for Mesopotamia important for understanding Middle Eastern history?",
-    "question": "Why is British Mandate for Mesopotamia important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Mandate for Mesopotamia?",
+    "question": "Which statement best captures the historical significance of British Mandate for Mesopotamia?",
     "options": [
-      "British Mandate for Mesopotamia is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Mandate for Mesopotamia belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Mandate for Mesopotamia is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Mandate for Mesopotamia belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to French Mandate for Syria and Lebanon."
+        "Context",
+        "Place British Mandate for Mesopotamia inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through British Mandate for Palestine."
+        "Connection",
+        "Compare it with British Mandate for Palestine to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Mandate for Mesopotamia changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Mandate for Mesopotamia changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding British Mandate for Mesopotamia helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Mandate for Mesopotamia helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-british-mandate-for-palestine",
       "meh-kingdom-of-syria",
@@ -3382,32 +3394,32 @@ export const middleEastHistoryConcepts = [
     "name": "British Mandate for Palestine",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is British Mandate for Palestine important for understanding Middle Eastern history?",
-    "question": "Why is British Mandate for Palestine important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Mandate for Palestine?",
+    "question": "Which statement best captures the historical significance of British Mandate for Palestine?",
     "options": [
-      "British Mandate for Palestine is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Mandate for Palestine belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Mandate for Palestine is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Mandate for Palestine belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Mandate for Mesopotamia."
+        "Context",
+        "Place British Mandate for Palestine inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kingdom of Syria."
+        "Connection",
+        "Compare it with Kingdom of Syria to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Mandate for Palestine changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Mandate for Palestine changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding British Mandate for Palestine helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Mandate for Palestine helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-kingdom-of-syria",
       "meh-battle-of-maysalun",
@@ -3426,32 +3438,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kingdom of Syria",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Kingdom of Syria important for understanding Middle Eastern history?",
-    "question": "Why is Kingdom of Syria important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kingdom of Syria?",
+    "question": "Which statement best captures the historical significance of Kingdom of Syria?",
     "options": [
-      "Kingdom of Syria is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kingdom of Syria belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kingdom of Syria is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kingdom of Syria belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Mandate for Palestine."
+        "Context",
+        "Place Kingdom of Syria inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Battle of Maysalun."
+        "Connection",
+        "Compare it with Battle of Maysalun to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kingdom of Syria changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kingdom of Syria changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Kingdom of Syria helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kingdom of Syria helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-battle-of-maysalun",
       "meh-faisal-i",
@@ -3470,32 +3482,32 @@ export const middleEastHistoryConcepts = [
     "name": "Battle of Maysalun",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Battle of Maysalun important for understanding Middle Eastern history?",
-    "question": "Why is Battle of Maysalun important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Battle of Maysalun?",
+    "question": "Which statement best captures the historical significance of Battle of Maysalun?",
     "options": [
-      "Battle of Maysalun is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Battle of Maysalun belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Battle of Maysalun is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Battle of Maysalun belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kingdom of Syria."
+        "Context",
+        "Place Battle of Maysalun inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Faisal I."
+        "Connection",
+        "Compare it with Faisal I to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Battle of Maysalun changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Battle of Maysalun changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Battle of Maysalun helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Battle of Maysalun helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-faisal-i",
       "meh-hashemite-kingdoms",
@@ -3514,32 +3526,32 @@ export const middleEastHistoryConcepts = [
     "name": "Faisal I",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Faisal I important for understanding Middle Eastern history?",
-    "question": "Why is Faisal I important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Faisal I?",
+    "question": "Which statement best captures the historical significance of Faisal I?",
     "options": [
-      "Faisal I is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Faisal I belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Faisal I is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Faisal I belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Battle of Maysalun."
+        "Context",
+        "Place Faisal I inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hashemite Kingdoms."
+        "Connection",
+        "Compare it with Hashemite Kingdoms to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Faisal I changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Faisal I changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Faisal I helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Faisal I helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hashemite-kingdoms",
       "meh-creation-of-transjordan",
@@ -3558,32 +3570,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hashemite Kingdoms",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Hashemite Kingdoms important for understanding Middle Eastern history?",
-    "question": "Why is Hashemite Kingdoms important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hashemite Kingdoms?",
+    "question": "Which statement best captures the historical significance of Hashemite Kingdoms?",
     "options": [
-      "Hashemite Kingdoms is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hashemite Kingdoms belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hashemite Kingdoms is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hashemite Kingdoms belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Faisal I."
+        "Context",
+        "Place Hashemite Kingdoms inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Creation of Transjordan."
+        "Connection",
+        "Compare it with Creation of Transjordan to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hashemite Kingdoms changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hashemite Kingdoms changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Hashemite Kingdoms helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hashemite Kingdoms helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-creation-of-transjordan",
       "meh-creation-of-modern-iraq",
@@ -3602,32 +3614,32 @@ export const middleEastHistoryConcepts = [
     "name": "Creation of Transjordan",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Creation of Transjordan important for understanding Middle Eastern history?",
-    "question": "Why is Creation of Transjordan important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Creation of Transjordan?",
+    "question": "Which statement best captures the historical significance of Creation of Transjordan?",
     "options": [
-      "Creation of Transjordan is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Creation of Transjordan belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Creation of Transjordan is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Creation of Transjordan belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hashemite Kingdoms."
+        "Context",
+        "Place Creation of Transjordan inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Creation of Modern Iraq."
+        "Connection",
+        "Compare it with Creation of Modern Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Creation of Transjordan changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Creation of Transjordan changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Creation of Transjordan helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Creation of Transjordan helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-creation-of-modern-iraq",
       "meh-greater-lebanon",
@@ -3646,32 +3658,32 @@ export const middleEastHistoryConcepts = [
     "name": "Creation of Modern Iraq",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Creation of Modern Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Creation of Modern Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Creation of Modern Iraq?",
+    "question": "Which statement best captures the historical significance of Creation of Modern Iraq?",
     "options": [
-      "Creation of Modern Iraq is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Creation of Modern Iraq belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Creation of Modern Iraq is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Creation of Modern Iraq belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Creation of Transjordan."
+        "Context",
+        "Place Creation of Modern Iraq inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Greater Lebanon."
+        "Connection",
+        "Compare it with Greater Lebanon to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Creation of Modern Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Creation of Modern Iraq changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Creation of Modern Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Creation of Modern Iraq helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-greater-lebanon",
       "meh-treaty-of-lausanne",
@@ -3690,32 +3702,32 @@ export const middleEastHistoryConcepts = [
     "name": "Greater Lebanon",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Greater Lebanon important for understanding Middle Eastern history?",
-    "question": "Why is Greater Lebanon important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Greater Lebanon?",
+    "question": "Which statement best captures the historical significance of Greater Lebanon?",
     "options": [
-      "Greater Lebanon is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Greater Lebanon belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Greater Lebanon is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Greater Lebanon belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Creation of Modern Iraq."
+        "Context",
+        "Place Greater Lebanon inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Treaty of Lausanne."
+        "Connection",
+        "Compare it with Treaty of Lausanne to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Greater Lebanon changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Greater Lebanon changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Greater Lebanon helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Greater Lebanon helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-treaty-of-lausanne",
       "meh-hussein-mcmahon-correspondence",
@@ -3734,32 +3746,32 @@ export const middleEastHistoryConcepts = [
     "name": "Treaty of Lausanne",
     "pool": "World War I & Mandates",
     "topic": "World War I & Mandates",
-    "hook": "Why is Treaty of Lausanne important for understanding Middle Eastern history?",
-    "question": "Why is Treaty of Lausanne important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Treaty of Lausanne?",
+    "question": "Which statement best captures the historical significance of Treaty of Lausanne?",
     "options": [
-      "Treaty of Lausanne is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Treaty of Lausanne belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to World War I & Mandates.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Treaty of Lausanne is a key part of the World War I & Mandates story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Treaty of Lausanne belongs to the history of the dismantling of Ottoman rule and construction of the postwar state system. Its importance comes from how it affected wartime promises, European mandates, borders and new monarchies, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Greater Lebanon."
+        "Context",
+        "Place Treaty of Lausanne inside the World War I & Mandates timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Hussein–McMahon Correspondence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Treaty of Lausanne changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Treaty of Lausanne changed about wartime promises, European mandates, borders and new monarchies."
       ]
     ],
-    "why": "Understanding Treaty of Lausanne helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Treaty of Lausanne helps explain the dismantling of Ottoman rule and construction of the postwar state system.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hussein-mcmahon-correspondence",
       "meh-sykes-picot-agreement",
@@ -3778,32 +3790,32 @@ export const middleEastHistoryConcepts = [
     "name": "Late Ottoman Palestine",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Late Ottoman Palestine important for understanding Middle Eastern history?",
-    "question": "Why is Late Ottoman Palestine important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Late Ottoman Palestine?",
+    "question": "Which statement best captures the historical significance of Late Ottoman Palestine?",
     "options": [
-      "Late Ottoman Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Late Ottoman Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Late Ottoman Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Late Ottoman Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Late Ottoman Palestine inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Early Zionism."
+        "Connection",
+        "Compare it with Early Zionism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Late Ottoman Palestine changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Late Ottoman Palestine changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Late Ottoman Palestine helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Late Ottoman Palestine helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-early-zionism",
       "meh-theodor-herzl",
@@ -3822,32 +3834,32 @@ export const middleEastHistoryConcepts = [
     "name": "Early Zionism",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Early Zionism important for understanding Middle Eastern history?",
-    "question": "Why is Early Zionism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Early Zionism?",
+    "question": "Which statement best captures the historical significance of Early Zionism?",
     "options": [
-      "Early Zionism is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Early Zionism belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Early Zionism is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Early Zionism belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Late Ottoman Palestine."
+        "Context",
+        "Place Early Zionism inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Theodor Herzl."
+        "Connection",
+        "Compare it with Theodor Herzl to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Early Zionism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Early Zionism changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Early Zionism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Early Zionism helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-theodor-herzl",
       "meh-first-aliyah",
@@ -3866,32 +3878,32 @@ export const middleEastHistoryConcepts = [
     "name": "Theodor Herzl",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Theodor Herzl important for understanding Middle Eastern history?",
-    "question": "Why is Theodor Herzl important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Theodor Herzl?",
+    "question": "Which statement best captures the historical significance of Theodor Herzl?",
     "options": [
-      "Theodor Herzl is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Theodor Herzl belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Theodor Herzl is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Theodor Herzl belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Early Zionism."
+        "Context",
+        "Place Theodor Herzl inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through First Aliyah."
+        "Connection",
+        "Compare it with First Aliyah to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Theodor Herzl changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Theodor Herzl changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Theodor Herzl helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Theodor Herzl helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-first-aliyah",
       "meh-second-aliyah",
@@ -3910,32 +3922,32 @@ export const middleEastHistoryConcepts = [
     "name": "First Aliyah",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is First Aliyah important for understanding Middle Eastern history?",
-    "question": "Why is First Aliyah important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of First Aliyah?",
+    "question": "Which statement best captures the historical significance of First Aliyah?",
     "options": [
-      "First Aliyah is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "First Aliyah belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "First Aliyah is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "First Aliyah belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Theodor Herzl."
+        "Context",
+        "Place First Aliyah inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Second Aliyah."
+        "Connection",
+        "Compare it with Second Aliyah to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how First Aliyah changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what First Aliyah changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding First Aliyah helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "First Aliyah helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-second-aliyah",
       "meh-balfour-declaration-in-palestine",
@@ -3954,32 +3966,32 @@ export const middleEastHistoryConcepts = [
     "name": "Second Aliyah",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Second Aliyah important for understanding Middle Eastern history?",
-    "question": "Why is Second Aliyah important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Second Aliyah?",
+    "question": "Which statement best captures the historical significance of Second Aliyah?",
     "options": [
-      "Second Aliyah is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Second Aliyah belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Second Aliyah is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Second Aliyah belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to First Aliyah."
+        "Context",
+        "Place Second Aliyah inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Balfour Declaration in Palestine."
+        "Connection",
+        "Compare it with Balfour Declaration in Palestine to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Second Aliyah changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Second Aliyah changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Second Aliyah helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Second Aliyah helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-balfour-declaration-in-palestine",
       "meh-british-mandate-palestine",
@@ -3998,32 +4010,32 @@ export const middleEastHistoryConcepts = [
     "name": "Balfour Declaration in Palestine",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Balfour Declaration in Palestine important for understanding Middle Eastern history?",
-    "question": "Why is Balfour Declaration in Palestine important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Balfour Declaration in Palestine?",
+    "question": "Which statement best captures the historical significance of Balfour Declaration in Palestine?",
     "options": [
-      "Balfour Declaration in Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Balfour Declaration in Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Balfour Declaration in Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Balfour Declaration in Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Second Aliyah."
+        "Context",
+        "Place Balfour Declaration in Palestine inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through British Mandate Palestine."
+        "Connection",
+        "Compare it with British Mandate Palestine to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Balfour Declaration in Palestine changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Balfour Declaration in Palestine changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Balfour Declaration in Palestine helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Balfour Declaration in Palestine helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-british-mandate-palestine",
       "meh-palestinian-arab-nationalism",
@@ -4042,32 +4054,32 @@ export const middleEastHistoryConcepts = [
     "name": "British Mandate Palestine",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is British Mandate Palestine important for understanding Middle Eastern history?",
-    "question": "Why is British Mandate Palestine important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Mandate Palestine?",
+    "question": "Which statement best captures the historical significance of British Mandate Palestine?",
     "options": [
-      "British Mandate Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Mandate Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Mandate Palestine is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Mandate Palestine belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Balfour Declaration in Palestine."
+        "Context",
+        "Place British Mandate Palestine inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Palestinian Arab Nationalism."
+        "Connection",
+        "Compare it with Palestinian Arab Nationalism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Mandate Palestine changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Mandate Palestine changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding British Mandate Palestine helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Mandate Palestine helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-palestinian-arab-nationalism",
       "meh-1936-39-arab-revolt",
@@ -4086,32 +4098,32 @@ export const middleEastHistoryConcepts = [
     "name": "Palestinian Arab Nationalism",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Palestinian Arab Nationalism important for understanding Middle Eastern history?",
-    "question": "Why is Palestinian Arab Nationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Palestinian Arab Nationalism?",
+    "question": "Which statement best captures the historical significance of Palestinian Arab Nationalism?",
     "options": [
-      "Palestinian Arab Nationalism is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Palestinian Arab Nationalism belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Palestinian Arab Nationalism is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Palestinian Arab Nationalism belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Mandate Palestine."
+        "Context",
+        "Place Palestinian Arab Nationalism inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1936–39 Arab Revolt."
+        "Connection",
+        "Compare it with 1936–39 Arab Revolt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Palestinian Arab Nationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Palestinian Arab Nationalism changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Palestinian Arab Nationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Palestinian Arab Nationalism helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-1936-39-arab-revolt",
       "meh-peel-commission",
@@ -4130,32 +4142,32 @@ export const middleEastHistoryConcepts = [
     "name": "1936–39 Arab Revolt",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is 1936–39 Arab Revolt important for understanding Middle Eastern history?",
-    "question": "Why is 1936–39 Arab Revolt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of 1936–39 Arab Revolt?",
+    "question": "Which statement best captures the historical significance of 1936–39 Arab Revolt?",
     "options": [
-      "1936–39 Arab Revolt is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "1936–39 Arab Revolt belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1936–39 Arab Revolt is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "1936–39 Arab Revolt belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Palestinian Arab Nationalism."
+        "Context",
+        "Place 1936–39 Arab Revolt inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Peel Commission."
+        "Connection",
+        "Compare it with Peel Commission to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how 1936–39 Arab Revolt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what 1936–39 Arab Revolt changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding 1936–39 Arab Revolt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1936–39 Arab Revolt helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-peel-commission",
       "meh-un-partition-plan-1947",
@@ -4174,32 +4186,32 @@ export const middleEastHistoryConcepts = [
     "name": "Peel Commission",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Peel Commission important for understanding Middle Eastern history?",
-    "question": "Why is Peel Commission important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Peel Commission?",
+    "question": "Which statement best captures the historical significance of Peel Commission?",
     "options": [
-      "Peel Commission is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Peel Commission belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Peel Commission is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Peel Commission belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1936–39 Arab Revolt."
+        "Context",
+        "Place Peel Commission inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through UN Partition Plan 1947."
+        "Connection",
+        "Compare it with UN Partition Plan 1947 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Peel Commission changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Peel Commission changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Peel Commission helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Peel Commission helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-un-partition-plan-1947",
       "meh-1948-arab-israeli-war",
@@ -4218,32 +4230,33 @@ export const middleEastHistoryConcepts = [
     "name": "UN Partition Plan 1947",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is UN Partition Plan 1947 important for understanding Middle Eastern history?",
-    "question": "Why is UN Partition Plan 1947 important for understanding Middle Eastern history?",
+    "hook": "What did the UN partition proposal of 1947 recommend?",
+    "question": "What did the UN partition proposal of 1947 recommend?",
     "options": [
-      "UN Partition Plan 1947 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "UN General Assembly Resolution 181 recommended partitioning Mandatory Palestine into Arab and Jewish states with a special international regime for Jerusalem.",
+      "One binational state under permanent British rule",
+      "Immediate annexation of all Palestine by neighboring Arab states",
+      "A federation led by the Ottoman sultan",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "UN Partition Plan 1947 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "UN General Assembly Resolution 181 recommended partitioning Mandatory Palestine into Arab and Jewish states with a special international regime for Jerusalem.",
     "examples": [
       [
-        "Before",
-        "Connect it to Peel Commission."
+        "Responses",
+        "The Jewish Agency accepted partition in principle, while Palestinian Arab leaders and Arab states rejected it."
       ],
       [
-        "After",
-        "Follow what changed next through 1948 Arab–Israeli War."
+        "Aftermath",
+        "The plan was not implemented as designed; civil war and then the 1948 Arab–Israeli war transformed the territorial situation."
       ],
       [
-        "Big picture",
-        "Ask how UN Partition Plan 1947 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Palestine & Israel rabbit hole to see how UN Partition Plan 1947 connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding UN Partition Plan 1947 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "UN Partition Plan 1947 matters because it changed or reveals the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-1948-arab-israeli-war",
       "meh-nakba-and-palestinian-displacement",
@@ -4262,32 +4275,33 @@ export const middleEastHistoryConcepts = [
     "name": "1948 Arab–Israeli War",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is 1948 Arab–Israeli War important for understanding Middle Eastern history?",
-    "question": "Why is 1948 Arab–Israeli War important for understanding Middle Eastern history?",
+    "hook": "What transformed the political map of Palestine in 1948?",
+    "question": "What transformed the political map of Palestine in 1948?",
     "options": [
-      "1948 Arab–Israeli War is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Civil war in Mandatory Palestine was followed by Israel's declaration of independence and intervention by neighboring Arab armies, producing the first Arab–Israeli interstate war.",
+      "The Suez Crisis",
+      "The Six-Day War",
+      "The Oslo Accords",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1948 Arab–Israeli War is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Civil war in Mandatory Palestine was followed by Israel's declaration of independence and intervention by neighboring Arab armies, producing the first Arab–Israeli interstate war.",
     "examples": [
       [
-        "Before",
-        "Connect it to UN Partition Plan 1947."
+        "Statehood",
+        "Israel emerged as a state and controlled more territory than allocated to the Jewish state in the UN partition proposal."
       ],
       [
-        "After",
-        "Follow what changed next through Nakba and Palestinian Displacement."
+        "Palestinians",
+        "Hundreds of thousands of Palestinians became refugees or were displaced, an event Palestinians call the Nakba."
       ],
       [
-        "Big picture",
-        "Ask how 1948 Arab–Israeli War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Palestine & Israel rabbit hole to see how 1948 Arab–Israeli War connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding 1948 Arab–Israeli War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1948 Arab–Israeli War matters because it changed or reveals the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-nakba-and-palestinian-displacement",
       "meh-palestinian-refugee-question",
@@ -4306,32 +4320,33 @@ export const middleEastHistoryConcepts = [
     "name": "Nakba and Palestinian Displacement",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Nakba and Palestinian Displacement important for understanding Middle Eastern history?",
-    "question": "Why is Nakba and Palestinian Displacement important for understanding Middle Eastern history?",
+    "hook": "What does the Palestinian term Nakba refer to?",
+    "question": "What does the Palestinian term Nakba refer to?",
     "options": [
-      "Nakba and Palestinian Displacement is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Nakba, meaning 'catastrophe,' refers to the mass displacement and dispossession of Palestinians during the 1948 war and the destruction or depopulation of many Palestinian communities.",
+      "The Ottoman conquest of Palestine",
+      "The 1979 Egyptian-Israeli peace treaty",
+      "The 1993 Oslo signing",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nakba and Palestinian Displacement is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Nakba, meaning 'catastrophe,' refers to the mass displacement and dispossession of Palestinians during the 1948 war and the destruction or depopulation of many Palestinian communities.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1948 Arab–Israeli War."
+        "Refugees",
+        "The refugee question became one of the central unresolved issues of the conflict."
       ],
       [
-        "After",
-        "Follow what changed next through Palestinian Refugee Question."
+        "Memory",
+        "The Nakba is foundational to Palestinian national memory and identity."
       ],
       [
-        "Big picture",
-        "Ask how Nakba and Palestinian Displacement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Palestine & Israel rabbit hole to see how Nakba and Palestinian Displacement connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Nakba and Palestinian Displacement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Nakba and Palestinian Displacement matters because it changed or reveals the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-palestinian-refugee-question",
       "meh-green-line",
@@ -4350,32 +4365,32 @@ export const middleEastHistoryConcepts = [
     "name": "Palestinian Refugee Question",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Palestinian Refugee Question important for understanding Middle Eastern history?",
-    "question": "Why is Palestinian Refugee Question important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Palestinian Refugee Question?",
+    "question": "Which statement best captures the historical significance of Palestinian Refugee Question?",
     "options": [
-      "Palestinian Refugee Question is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Palestinian Refugee Question belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Palestinian Refugee Question is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Palestinian Refugee Question belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Nakba and Palestinian Displacement."
+        "Context",
+        "Place Palestinian Refugee Question inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Green Line."
+        "Connection",
+        "Compare it with Green Line to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Palestinian Refugee Question changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Palestinian Refugee Question changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Palestinian Refugee Question helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Palestinian Refugee Question helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-green-line",
       "meh-suez-war-1956",
@@ -4394,32 +4409,32 @@ export const middleEastHistoryConcepts = [
     "name": "Green Line",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Green Line important for understanding Middle Eastern history?",
-    "question": "Why is Green Line important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Green Line?",
+    "question": "Which statement best captures the historical significance of Green Line?",
     "options": [
-      "Green Line is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Green Line belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Green Line is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Green Line belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Palestinian Refugee Question."
+        "Context",
+        "Place Green Line inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Suez War 1956."
+        "Connection",
+        "Compare it with Suez War 1956 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Green Line changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Green Line changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Green Line helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Green Line helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-suez-war-1956",
       "meh-palestine-liberation-organization",
@@ -4438,32 +4453,32 @@ export const middleEastHistoryConcepts = [
     "name": "Suez War 1956",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Suez War 1956 important for understanding Middle Eastern history?",
-    "question": "Why is Suez War 1956 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Suez War 1956?",
+    "question": "Which statement best captures the historical significance of Suez War 1956?",
     "options": [
-      "Suez War 1956 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Suez War 1956 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Suez War 1956 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Suez War 1956 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Green Line."
+        "Context",
+        "Place Suez War 1956 inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Palestine Liberation Organization."
+        "Connection",
+        "Compare it with Palestine Liberation Organization to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Suez War 1956 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Suez War 1956 changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Suez War 1956 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Suez War 1956 helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-palestine-liberation-organization",
       "meh-six-day-war-1967",
@@ -4482,32 +4497,32 @@ export const middleEastHistoryConcepts = [
     "name": "Palestine Liberation Organization",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Palestine Liberation Organization important for understanding Middle Eastern history?",
-    "question": "Why is Palestine Liberation Organization important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Palestine Liberation Organization?",
+    "question": "Which statement best captures the historical significance of Palestine Liberation Organization?",
     "options": [
-      "Palestine Liberation Organization is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Palestine Liberation Organization belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Palestine Liberation Organization is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Palestine Liberation Organization belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Suez War 1956."
+        "Context",
+        "Place Palestine Liberation Organization inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Six-Day War 1967."
+        "Connection",
+        "Compare it with Six-Day War 1967 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Palestine Liberation Organization changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Palestine Liberation Organization changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Palestine Liberation Organization helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Palestine Liberation Organization helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-six-day-war-1967",
       "meh-israeli-occupation-after-1967",
@@ -4526,32 +4541,33 @@ export const middleEastHistoryConcepts = [
     "name": "Six-Day War 1967",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Six-Day War 1967 important for understanding Middle Eastern history?",
-    "question": "Why is Six-Day War 1967 important for understanding Middle Eastern history?",
+    "hook": "Why was the June 1967 war a major regional turning point?",
+    "question": "Why was the June 1967 war a major regional turning point?",
     "options": [
-      "Six-Day War 1967 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Israel defeated Egypt, Jordan and Syria and captured the Sinai Peninsula, Gaza Strip, West Bank, East Jerusalem and Golan Heights, reshaping the conflict and regional politics.",
+      "It created the British Mandate",
+      "It ended the Iranian monarchy",
+      "It formed the Gulf Cooperation Council",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Six-Day War 1967 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Israel defeated Egypt, Jordan and Syria and captured the Sinai Peninsula, Gaza Strip, West Bank, East Jerusalem and Golan Heights, reshaping the conflict and regional politics.",
     "examples": [
       [
-        "Before",
-        "Connect it to Palestine Liberation Organization."
+        "Territory",
+        "The war placed large Palestinian populations in the West Bank and Gaza under Israeli military occupation."
       ],
       [
-        "After",
-        "Follow what changed next through Israeli Occupation after 1967."
+        "Diplomacy",
+        "UN Security Council Resolution 242 became a central reference point in subsequent diplomacy."
       ],
       [
-        "Big picture",
-        "Ask how Six-Day War 1967 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Palestine & Israel rabbit hole to see how Six-Day War 1967 connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Six-Day War 1967 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Six-Day War 1967 matters because it changed or reveals the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-israeli-occupation-after-1967",
       "meh-un-security-council-resolution-242",
@@ -4570,32 +4586,32 @@ export const middleEastHistoryConcepts = [
     "name": "Israeli Occupation after 1967",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Israeli Occupation after 1967 important for understanding Middle Eastern history?",
-    "question": "Why is Israeli Occupation after 1967 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Israeli Occupation after 1967?",
+    "question": "Which statement best captures the historical significance of Israeli Occupation after 1967?",
     "options": [
-      "Israeli Occupation after 1967 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Israeli Occupation after 1967 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Israeli Occupation after 1967 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Israeli Occupation after 1967 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Six-Day War 1967."
+        "Context",
+        "Place Israeli Occupation after 1967 inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through UN Security Council Resolution 242."
+        "Connection",
+        "Compare it with UN Security Council Resolution 242 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Israeli Occupation after 1967 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Israeli Occupation after 1967 changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Israeli Occupation after 1967 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Israeli Occupation after 1967 helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-un-security-council-resolution-242",
       "meh-palestinian-national-movement",
@@ -4614,32 +4630,32 @@ export const middleEastHistoryConcepts = [
     "name": "UN Security Council Resolution 242",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is UN Security Council Resolution 242 important for understanding Middle Eastern history?",
-    "question": "Why is UN Security Council Resolution 242 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of UN Security Council Resolution 242?",
+    "question": "Which statement best captures the historical significance of UN Security Council Resolution 242?",
     "options": [
-      "UN Security Council Resolution 242 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "UN Security Council Resolution 242 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "UN Security Council Resolution 242 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "UN Security Council Resolution 242 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Israeli Occupation after 1967."
+        "Context",
+        "Place UN Security Council Resolution 242 inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Palestinian National Movement."
+        "Connection",
+        "Compare it with Palestinian National Movement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how UN Security Council Resolution 242 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what UN Security Council Resolution 242 changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding UN Security Council Resolution 242 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "UN Security Council Resolution 242 helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-palestinian-national-movement",
       "meh-yom-kippur-war-1973",
@@ -4658,32 +4674,32 @@ export const middleEastHistoryConcepts = [
     "name": "Palestinian National Movement",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Palestinian National Movement important for understanding Middle Eastern history?",
-    "question": "Why is Palestinian National Movement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Palestinian National Movement?",
+    "question": "Which statement best captures the historical significance of Palestinian National Movement?",
     "options": [
-      "Palestinian National Movement is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Palestinian National Movement belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Palestinian National Movement is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Palestinian National Movement belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to UN Security Council Resolution 242."
+        "Context",
+        "Place Palestinian National Movement inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Yom Kippur War 1973."
+        "Connection",
+        "Compare it with Yom Kippur War 1973 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Palestinian National Movement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Palestinian National Movement changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Palestinian National Movement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Palestinian National Movement helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-yom-kippur-war-1973",
       "meh-israeli-settlements",
@@ -4702,32 +4718,32 @@ export const middleEastHistoryConcepts = [
     "name": "Yom Kippur War 1973",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Yom Kippur War 1973 important for understanding Middle Eastern history?",
-    "question": "Why is Yom Kippur War 1973 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Yom Kippur War 1973?",
+    "question": "Which statement best captures the historical significance of Yom Kippur War 1973?",
     "options": [
-      "Yom Kippur War 1973 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Yom Kippur War 1973 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Yom Kippur War 1973 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Yom Kippur War 1973 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Palestinian National Movement."
+        "Context",
+        "Place Yom Kippur War 1973 inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Israeli Settlements."
+        "Connection",
+        "Compare it with Israeli Settlements to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Yom Kippur War 1973 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Yom Kippur War 1973 changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Yom Kippur War 1973 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Yom Kippur War 1973 helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-israeli-settlements",
       "meh-first-intifada",
@@ -4746,32 +4762,32 @@ export const middleEastHistoryConcepts = [
     "name": "Israeli Settlements",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Israeli Settlements important for understanding Middle Eastern history?",
-    "question": "Why is Israeli Settlements important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Israeli Settlements?",
+    "question": "Which statement best captures the historical significance of Israeli Settlements?",
     "options": [
-      "Israeli Settlements is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Israeli Settlements belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Israeli Settlements is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Israeli Settlements belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Yom Kippur War 1973."
+        "Context",
+        "Place Israeli Settlements inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through First Intifada."
+        "Connection",
+        "Compare it with First Intifada to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Israeli Settlements changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Israeli Settlements changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Israeli Settlements helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Israeli Settlements helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-first-intifada",
       "meh-oslo-accords",
@@ -4790,32 +4806,32 @@ export const middleEastHistoryConcepts = [
     "name": "First Intifada",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is First Intifada important for understanding Middle Eastern history?",
-    "question": "Why is First Intifada important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of First Intifada?",
+    "question": "Which statement best captures the historical significance of First Intifada?",
     "options": [
-      "First Intifada is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "First Intifada belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "First Intifada is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "First Intifada belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Israeli Settlements."
+        "Context",
+        "Place First Intifada inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Oslo Accords."
+        "Connection",
+        "Compare it with Oslo Accords to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how First Intifada changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what First Intifada changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding First Intifada helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "First Intifada helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-oslo-accords",
       "meh-palestinian-authority",
@@ -4834,32 +4850,33 @@ export const middleEastHistoryConcepts = [
     "name": "Oslo Accords",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Oslo Accords important for understanding Middle Eastern history?",
-    "question": "Why is Oslo Accords important for understanding Middle Eastern history?",
+    "hook": "What changed with the Oslo process in the 1990s?",
+    "question": "What changed with the Oslo process in the 1990s?",
     "options": [
-      "Oslo Accords is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Israel and the PLO formally recognized one another and agreed to an interim framework that created limited Palestinian self-government while leaving core final-status issues unresolved.",
+      "A final Palestinian-Israeli peace settlement was completed",
+      "Israel withdrew from every territory captured in 1967",
+      "The PLO dissolved",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Oslo Accords is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Israel and the PLO formally recognized one another and agreed to an interim framework that created limited Palestinian self-government while leaving core final-status issues unresolved.",
     "examples": [
       [
-        "Before",
-        "Connect it to First Intifada."
+        "Palestinian Authority",
+        "The agreements led to the creation of the Palestinian Authority in parts of the West Bank and Gaza."
       ],
       [
-        "After",
-        "Follow what changed next through Palestinian Authority."
+        "Unresolved issues",
+        "Jerusalem, refugees, settlements, borders and security remained subjects for later negotiation."
       ],
       [
-        "Big picture",
-        "Ask how Oslo Accords changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Palestine & Israel rabbit hole to see how Oslo Accords connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Oslo Accords helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Oslo Accords matters because it changed or reveals the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-palestinian-authority",
       "meh-second-intifada",
@@ -4878,32 +4895,32 @@ export const middleEastHistoryConcepts = [
     "name": "Palestinian Authority",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Palestinian Authority important for understanding Middle Eastern history?",
-    "question": "Why is Palestinian Authority important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Palestinian Authority?",
+    "question": "Which statement best captures the historical significance of Palestinian Authority?",
     "options": [
-      "Palestinian Authority is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Palestinian Authority belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Palestinian Authority is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Palestinian Authority belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Oslo Accords."
+        "Context",
+        "Place Palestinian Authority inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Second Intifada."
+        "Connection",
+        "Compare it with Second Intifada to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Palestinian Authority changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Palestinian Authority changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Palestinian Authority helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Palestinian Authority helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-second-intifada",
       "meh-hamas",
@@ -4922,32 +4939,32 @@ export const middleEastHistoryConcepts = [
     "name": "Second Intifada",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Second Intifada important for understanding Middle Eastern history?",
-    "question": "Why is Second Intifada important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Second Intifada?",
+    "question": "Which statement best captures the historical significance of Second Intifada?",
     "options": [
-      "Second Intifada is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Second Intifada belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Second Intifada is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Second Intifada belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Palestinian Authority."
+        "Context",
+        "Place Second Intifada inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hamas."
+        "Connection",
+        "Compare it with Hamas to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Second Intifada changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Second Intifada changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Second Intifada helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Second Intifada helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-hamas",
       "meh-gaza-disengagement-2005",
@@ -4966,32 +4983,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hamas",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Hamas important for understanding Middle Eastern history?",
-    "question": "Why is Hamas important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hamas?",
+    "question": "Which statement best captures the historical significance of Hamas?",
     "options": [
-      "Hamas is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hamas belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hamas is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hamas belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Second Intifada."
+        "Context",
+        "Place Hamas inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Gaza Disengagement 2005."
+        "Connection",
+        "Compare it with Gaza Disengagement 2005 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hamas changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hamas changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Hamas helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hamas helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-gaza-disengagement-2005",
       "meh-late-ottoman-palestine",
@@ -5010,32 +5027,32 @@ export const middleEastHistoryConcepts = [
     "name": "Gaza Disengagement 2005",
     "pool": "Palestine & Israel",
     "topic": "Palestine & Israel",
-    "hook": "Why is Gaza Disengagement 2005 important for understanding Middle Eastern history?",
-    "question": "Why is Gaza Disengagement 2005 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Gaza Disengagement 2005?",
+    "question": "Which statement best captures the historical significance of Gaza Disengagement 2005?",
     "options": [
-      "Gaza Disengagement 2005 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Gaza Disengagement 2005 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Palestine & Israel.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gaza Disengagement 2005 is a key part of the Palestine & Israel story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Gaza Disengagement 2005 belongs to the history of the development of Zionism and Palestinian nationalism and the conflict over Palestine. Its importance comes from how it affected migration, war, displacement, statehood, occupation and diplomacy, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hamas."
+        "Context",
+        "Place Gaza Disengagement 2005 inside the Palestine & Israel timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Late Ottoman Palestine to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Gaza Disengagement 2005 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Gaza Disengagement 2005 changed about migration, war, displacement, statehood, occupation and diplomacy."
       ]
     ],
-    "why": "Understanding Gaza Disengagement 2005 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Gaza Disengagement 2005 helps explain the development of Zionism and Palestinian nationalism and the conflict over Palestine.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-late-ottoman-palestine",
       "meh-early-zionism",
@@ -5054,32 +5071,32 @@ export const middleEastHistoryConcepts = [
     "name": "Khedivate of Egypt",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Khedivate of Egypt important for understanding Middle Eastern history?",
-    "question": "Why is Khedivate of Egypt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Khedivate of Egypt?",
+    "question": "Which statement best captures the historical significance of Khedivate of Egypt?",
     "options": [
-      "Khedivate of Egypt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Khedivate of Egypt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Khedivate of Egypt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Khedivate of Egypt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Khedivate of Egypt inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through British Occupation of Egypt."
+        "Connection",
+        "Compare it with British Occupation of Egypt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Khedivate of Egypt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Khedivate of Egypt changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Khedivate of Egypt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Khedivate of Egypt helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-british-occupation-of-egypt",
       "meh-urabi-revolt",
@@ -5093,32 +5110,32 @@ export const middleEastHistoryConcepts = [
     "name": "British Occupation of Egypt",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is British Occupation of Egypt important for understanding Middle Eastern history?",
-    "question": "Why is British Occupation of Egypt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Occupation of Egypt?",
+    "question": "Which statement best captures the historical significance of British Occupation of Egypt?",
     "options": [
-      "British Occupation of Egypt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Occupation of Egypt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Occupation of Egypt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Occupation of Egypt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Khedivate of Egypt."
+        "Context",
+        "Place British Occupation of Egypt inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Urabi Revolt."
+        "Connection",
+        "Compare it with Urabi Revolt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Occupation of Egypt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Occupation of Egypt changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding British Occupation of Egypt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Occupation of Egypt helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-urabi-revolt",
       "meh-egyptian-revolution-of-1919",
@@ -5132,32 +5149,32 @@ export const middleEastHistoryConcepts = [
     "name": "Urabi Revolt",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Urabi Revolt important for understanding Middle Eastern history?",
-    "question": "Why is Urabi Revolt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Urabi Revolt?",
+    "question": "Which statement best captures the historical significance of Urabi Revolt?",
     "options": [
-      "Urabi Revolt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Urabi Revolt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Urabi Revolt is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Urabi Revolt belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Occupation of Egypt."
+        "Context",
+        "Place Urabi Revolt inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Egyptian Revolution of 1919."
+        "Connection",
+        "Compare it with Egyptian Revolution of 1919 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Urabi Revolt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Urabi Revolt changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Urabi Revolt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Urabi Revolt helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-egyptian-revolution-of-1919",
       "meh-saad-zaghloul",
@@ -5171,32 +5188,32 @@ export const middleEastHistoryConcepts = [
     "name": "Egyptian Revolution of 1919",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Egyptian Revolution of 1919 important for understanding Middle Eastern history?",
-    "question": "Why is Egyptian Revolution of 1919 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Egyptian Revolution of 1919?",
+    "question": "Which statement best captures the historical significance of Egyptian Revolution of 1919?",
     "options": [
-      "Egyptian Revolution of 1919 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Egyptian Revolution of 1919 belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Egyptian Revolution of 1919 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Egyptian Revolution of 1919 belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Urabi Revolt."
+        "Context",
+        "Place Egyptian Revolution of 1919 inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Saad Zaghloul."
+        "Connection",
+        "Compare it with Saad Zaghloul to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Egyptian Revolution of 1919 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Egyptian Revolution of 1919 changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Egyptian Revolution of 1919 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Egyptian Revolution of 1919 helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saad-zaghloul",
       "meh-egyptian-monarchy",
@@ -5210,32 +5227,32 @@ export const middleEastHistoryConcepts = [
     "name": "Saad Zaghloul",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Saad Zaghloul important for understanding Middle Eastern history?",
-    "question": "Why is Saad Zaghloul important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Saad Zaghloul?",
+    "question": "Which statement best captures the historical significance of Saad Zaghloul?",
     "options": [
-      "Saad Zaghloul is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Saad Zaghloul belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saad Zaghloul is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Saad Zaghloul belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Egyptian Revolution of 1919."
+        "Context",
+        "Place Saad Zaghloul inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Egyptian Monarchy."
+        "Connection",
+        "Compare it with Egyptian Monarchy to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Saad Zaghloul changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Saad Zaghloul changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Saad Zaghloul helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Saad Zaghloul helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-egyptian-monarchy",
       "meh-free-officers-movement",
@@ -5249,32 +5266,32 @@ export const middleEastHistoryConcepts = [
     "name": "Egyptian Monarchy",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Egyptian Monarchy important for understanding Middle Eastern history?",
-    "question": "Why is Egyptian Monarchy important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Egyptian Monarchy?",
+    "question": "Which statement best captures the historical significance of Egyptian Monarchy?",
     "options": [
-      "Egyptian Monarchy is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Egyptian Monarchy belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Egyptian Monarchy is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Egyptian Monarchy belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Saad Zaghloul."
+        "Context",
+        "Place Egyptian Monarchy inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Free Officers Movement."
+        "Connection",
+        "Compare it with Free Officers Movement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Egyptian Monarchy changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Egyptian Monarchy changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Egyptian Monarchy helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Egyptian Monarchy helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-free-officers-movement",
       "meh-egyptian-revolution-of-1952",
@@ -5288,32 +5305,32 @@ export const middleEastHistoryConcepts = [
     "name": "Free Officers Movement",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Free Officers Movement important for understanding Middle Eastern history?",
-    "question": "Why is Free Officers Movement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Free Officers Movement?",
+    "question": "Which statement best captures the historical significance of Free Officers Movement?",
     "options": [
-      "Free Officers Movement is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Free Officers Movement belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Free Officers Movement is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Free Officers Movement belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Egyptian Monarchy."
+        "Context",
+        "Place Free Officers Movement inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Egyptian Revolution of 1952."
+        "Connection",
+        "Compare it with Egyptian Revolution of 1952 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Free Officers Movement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Free Officers Movement changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Free Officers Movement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Free Officers Movement helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-egyptian-revolution-of-1952",
       "meh-gamal-abdel-nasser",
@@ -5327,32 +5344,33 @@ export const middleEastHistoryConcepts = [
     "name": "Egyptian Revolution of 1952",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Egyptian Revolution of 1952 important for understanding Middle Eastern history?",
-    "question": "Why is Egyptian Revolution of 1952 important for understanding Middle Eastern history?",
+    "hook": "Who ended Egypt's monarchy in 1952?",
+    "question": "Who ended Egypt's monarchy in 1952?",
     "options": [
-      "Egyptian Revolution of 1952 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "The Free Officers, a group of Egyptian military officers, overthrew King Farouk, ending the monarchy and opening the era associated with Gamal Abdel Nasser.",
+      "The Muslim Brotherhood acting alone",
+      "British troops installed Nasser",
+      "The Ottoman army returned to Cairo",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Egyptian Revolution of 1952 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "The Free Officers, a group of Egyptian military officers, overthrew King Farouk, ending the monarchy and opening the era associated with Gamal Abdel Nasser.",
     "examples": [
       [
-        "Before",
-        "Connect it to Free Officers Movement."
+        "Republic",
+        "Egypt formally became a republic in 1953."
       ],
       [
-        "After",
-        "Follow what changed next through Gamal Abdel Nasser."
+        "Regional impact",
+        "The revolution helped inspire republican and Arab nationalist movements elsewhere."
       ],
       [
-        "Big picture",
-        "Ask how Egyptian Revolution of 1952 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Egypt rabbit hole to see how Egyptian Revolution of 1952 connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Egyptian Revolution of 1952 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Egyptian Revolution of 1952 matters because it changed or reveals Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-gamal-abdel-nasser",
       "meh-suez-crisis",
@@ -5366,32 +5384,32 @@ export const middleEastHistoryConcepts = [
     "name": "Gamal Abdel Nasser",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Gamal Abdel Nasser important for understanding Middle Eastern history?",
-    "question": "Why is Gamal Abdel Nasser important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Gamal Abdel Nasser?",
+    "question": "Which statement best captures the historical significance of Gamal Abdel Nasser?",
     "options": [
-      "Gamal Abdel Nasser is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Gamal Abdel Nasser belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gamal Abdel Nasser is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Gamal Abdel Nasser belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Egyptian Revolution of 1952."
+        "Context",
+        "Place Gamal Abdel Nasser inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Suez Crisis."
+        "Connection",
+        "Compare it with Suez Crisis to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Gamal Abdel Nasser changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Gamal Abdel Nasser changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Gamal Abdel Nasser helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Gamal Abdel Nasser helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-suez-crisis",
       "meh-aswan-high-dam",
@@ -5405,32 +5423,33 @@ export const middleEastHistoryConcepts = [
     "name": "Suez Crisis",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Suez Crisis important for understanding Middle Eastern history?",
-    "question": "Why is Suez Crisis important for understanding Middle Eastern history?",
+    "hook": "Why did the Suez Crisis become a symbol of changing power in the Middle East?",
+    "question": "Why did the Suez Crisis become a symbol of changing power in the Middle East?",
     "options": [
-      "Suez Crisis is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "After Nasser nationalized the Suez Canal in 1956, Britain, France and Israel attacked Egypt; international pressure, especially from the United States and Soviet Union, forced their withdrawal.",
+      "Egypt invaded Britain",
+      "The crisis restored European colonial control",
+      "It resulted from the Iranian oil nationalization",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Suez Crisis is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "After Nasser nationalized the Suez Canal in 1956, Britain, France and Israel attacked Egypt; international pressure, especially from the United States and Soviet Union, forced their withdrawal.",
     "examples": [
       [
-        "Before",
-        "Connect it to Gamal Abdel Nasser."
+        "Nasser",
+        "Politically, the crisis greatly enhanced Nasser's prestige in the Arab world."
       ],
       [
-        "After",
-        "Follow what changed next through Aswan High Dam."
+        "Empire",
+        "It exposed the reduced ability of Britain and France to act independently as imperial powers."
       ],
       [
-        "Big picture",
-        "Ask how Suez Crisis changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Egypt rabbit hole to see how Suez Crisis connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Suez Crisis helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Suez Crisis matters because it changed or reveals Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-aswan-high-dam",
       "meh-anwar-sadat",
@@ -5444,32 +5463,32 @@ export const middleEastHistoryConcepts = [
     "name": "Aswan High Dam",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Aswan High Dam important for understanding Middle Eastern history?",
-    "question": "Why is Aswan High Dam important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Aswan High Dam?",
+    "question": "Which statement best captures the historical significance of Aswan High Dam?",
     "options": [
-      "Aswan High Dam is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Aswan High Dam belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Aswan High Dam is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Aswan High Dam belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Suez Crisis."
+        "Context",
+        "Place Aswan High Dam inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Anwar Sadat."
+        "Connection",
+        "Compare it with Anwar Sadat to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Aswan High Dam changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Aswan High Dam changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Aswan High Dam helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Aswan High Dam helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-anwar-sadat",
       "meh-infitah",
@@ -5483,32 +5502,32 @@ export const middleEastHistoryConcepts = [
     "name": "Anwar Sadat",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Anwar Sadat important for understanding Middle Eastern history?",
-    "question": "Why is Anwar Sadat important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Anwar Sadat?",
+    "question": "Which statement best captures the historical significance of Anwar Sadat?",
     "options": [
-      "Anwar Sadat is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Anwar Sadat belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anwar Sadat is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Anwar Sadat belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Aswan High Dam."
+        "Context",
+        "Place Anwar Sadat inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Infitah."
+        "Connection",
+        "Compare it with Infitah to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Anwar Sadat changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Anwar Sadat changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Anwar Sadat helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Anwar Sadat helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-infitah",
       "meh-camp-david-accords",
@@ -5522,32 +5541,32 @@ export const middleEastHistoryConcepts = [
     "name": "Infitah",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Infitah important for understanding Middle Eastern history?",
-    "question": "Why is Infitah important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Infitah?",
+    "question": "Which statement best captures the historical significance of Infitah?",
     "options": [
-      "Infitah is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Infitah belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Infitah is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Infitah belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Anwar Sadat."
+        "Context",
+        "Place Infitah inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Camp David Accords."
+        "Connection",
+        "Compare it with Camp David Accords to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Infitah changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Infitah changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Infitah helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Infitah helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-camp-david-accords",
       "meh-hosni-mubarak",
@@ -5561,32 +5580,32 @@ export const middleEastHistoryConcepts = [
     "name": "Camp David Accords",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Camp David Accords important for understanding Middle Eastern history?",
-    "question": "Why is Camp David Accords important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Camp David Accords?",
+    "question": "Which statement best captures the historical significance of Camp David Accords?",
     "options": [
-      "Camp David Accords is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Camp David Accords belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Camp David Accords is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Camp David Accords belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Infitah."
+        "Context",
+        "Place Camp David Accords inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hosni Mubarak."
+        "Connection",
+        "Compare it with Hosni Mubarak to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Camp David Accords changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Camp David Accords changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Camp David Accords helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Camp David Accords helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hosni-mubarak",
       "meh-egyptian-revolution-of-2011",
@@ -5600,32 +5619,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hosni Mubarak",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Hosni Mubarak important for understanding Middle Eastern history?",
-    "question": "Why is Hosni Mubarak important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hosni Mubarak?",
+    "question": "Which statement best captures the historical significance of Hosni Mubarak?",
     "options": [
-      "Hosni Mubarak is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hosni Mubarak belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hosni Mubarak is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hosni Mubarak belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Camp David Accords."
+        "Context",
+        "Place Hosni Mubarak inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Egyptian Revolution of 2011."
+        "Connection",
+        "Compare it with Egyptian Revolution of 2011 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hosni Mubarak changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hosni Mubarak changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Hosni Mubarak helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hosni Mubarak helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-egyptian-revolution-of-2011",
       "meh-khedivate-of-egypt",
@@ -5639,32 +5658,32 @@ export const middleEastHistoryConcepts = [
     "name": "Egyptian Revolution of 2011",
     "pool": "Egypt",
     "topic": "Egypt",
-    "hook": "Why is Egyptian Revolution of 2011 important for understanding Middle Eastern history?",
-    "question": "Why is Egyptian Revolution of 2011 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Egyptian Revolution of 2011?",
+    "question": "Which statement best captures the historical significance of Egyptian Revolution of 2011?",
     "options": [
-      "Egyptian Revolution of 2011 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Egyptian Revolution of 2011 belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Egypt.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Egyptian Revolution of 2011 is a key part of the Egypt story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Egyptian Revolution of 2011 belongs to the history of Egypt's transition from khedival and British-dominated rule to republican politics. Its importance comes from how it affected nationalism, military rule, regional leadership and economic change, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hosni Mubarak."
+        "Context",
+        "Place Egyptian Revolution of 2011 inside the Egypt timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Khedivate of Egypt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Egyptian Revolution of 2011 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Egyptian Revolution of 2011 changed about nationalism, military rule, regional leadership and economic change."
       ]
     ],
-    "why": "Understanding Egyptian Revolution of 2011 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Egyptian Revolution of 2011 helps explain Egypt's transition from khedival and British-dominated rule to republican politics.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-khedivate-of-egypt",
       "meh-british-occupation-of-egypt",
@@ -5678,32 +5697,32 @@ export const middleEastHistoryConcepts = [
     "name": "French Mandate Syria",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is French Mandate Syria important for understanding Middle Eastern history?",
-    "question": "Why is French Mandate Syria important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of French Mandate Syria?",
+    "question": "Which statement best captures the historical significance of French Mandate Syria?",
     "options": [
-      "French Mandate Syria is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "French Mandate Syria belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "French Mandate Syria is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "French Mandate Syria belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place French Mandate Syria inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Great Syrian Revolt."
+        "Connection",
+        "Compare it with Great Syrian Revolt to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how French Mandate Syria changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what French Mandate Syria changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding French Mandate Syria helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "French Mandate Syria helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-great-syrian-revolt",
       "meh-syrian-independence",
@@ -5722,32 +5741,32 @@ export const middleEastHistoryConcepts = [
     "name": "Great Syrian Revolt",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Great Syrian Revolt important for understanding Middle Eastern history?",
-    "question": "Why is Great Syrian Revolt important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Great Syrian Revolt?",
+    "question": "Which statement best captures the historical significance of Great Syrian Revolt?",
     "options": [
-      "Great Syrian Revolt is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Great Syrian Revolt belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Great Syrian Revolt is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Great Syrian Revolt belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to French Mandate Syria."
+        "Context",
+        "Place Great Syrian Revolt inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Independence."
+        "Connection",
+        "Compare it with Syrian Independence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Great Syrian Revolt changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Great Syrian Revolt changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Great Syrian Revolt helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Great Syrian Revolt helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-independence",
       "meh-syrian-coups",
@@ -5766,32 +5785,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Independence",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Syrian Independence important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Independence?",
+    "question": "Which statement best captures the historical significance of Syrian Independence?",
     "options": [
-      "Syrian Independence is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Independence belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Independence is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Independence belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Great Syrian Revolt."
+        "Context",
+        "Place Syrian Independence inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Coups."
+        "Connection",
+        "Compare it with Syrian Coups to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Independence changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Syrian Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Independence helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-coups",
       "meh-ba-ath-party-in-syria",
@@ -5810,32 +5829,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Coups",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Syrian Coups important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Coups important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Coups?",
+    "question": "Which statement best captures the historical significance of Syrian Coups?",
     "options": [
-      "Syrian Coups is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Coups belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Coups is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Coups belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Independence."
+        "Context",
+        "Place Syrian Coups inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ba'ath Party in Syria."
+        "Connection",
+        "Compare it with Ba'ath Party in Syria to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Coups changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Coups changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Syrian Coups helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Coups helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ba-ath-party-in-syria",
       "meh-1963-syrian-coup",
@@ -5854,32 +5873,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ba'ath Party in Syria",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Ba'ath Party in Syria important for understanding Middle Eastern history?",
-    "question": "Why is Ba'ath Party in Syria important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ba'ath Party in Syria?",
+    "question": "Which statement best captures the historical significance of Ba'ath Party in Syria?",
     "options": [
-      "Ba'ath Party in Syria is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ba'ath Party in Syria belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ba'ath Party in Syria is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ba'ath Party in Syria belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Coups."
+        "Context",
+        "Place Ba'ath Party in Syria inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1963 Syrian Coup."
+        "Connection",
+        "Compare it with 1963 Syrian Coup to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ba'ath Party in Syria changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ba'ath Party in Syria changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Ba'ath Party in Syria helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ba'ath Party in Syria helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1963-syrian-coup",
       "meh-hafez-al-assad",
@@ -5898,32 +5917,32 @@ export const middleEastHistoryConcepts = [
     "name": "1963 Syrian Coup",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is 1963 Syrian Coup important for understanding Middle Eastern history?",
-    "question": "Why is 1963 Syrian Coup important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of 1963 Syrian Coup?",
+    "question": "Which statement best captures the historical significance of 1963 Syrian Coup?",
     "options": [
-      "1963 Syrian Coup is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "1963 Syrian Coup belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1963 Syrian Coup is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "1963 Syrian Coup belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ba'ath Party in Syria."
+        "Context",
+        "Place 1963 Syrian Coup inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hafez al-Assad."
+        "Connection",
+        "Compare it with Hafez al-Assad to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how 1963 Syrian Coup changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what 1963 Syrian Coup changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding 1963 Syrian Coup helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1963 Syrian Coup helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hafez-al-assad",
       "meh-corrective-movement",
@@ -5942,32 +5961,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hafez al-Assad",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Hafez al-Assad important for understanding Middle Eastern history?",
-    "question": "Why is Hafez al-Assad important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hafez al-Assad?",
+    "question": "Which statement best captures the historical significance of Hafez al-Assad?",
     "options": [
-      "Hafez al-Assad is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hafez al-Assad belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hafez al-Assad is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hafez al-Assad belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1963 Syrian Coup."
+        "Context",
+        "Place Hafez al-Assad inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Corrective Movement."
+        "Connection",
+        "Compare it with Corrective Movement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hafez al-Assad changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hafez al-Assad changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Hafez al-Assad helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hafez al-Assad helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-corrective-movement",
       "meh-hama-1982",
@@ -5986,32 +6005,32 @@ export const middleEastHistoryConcepts = [
     "name": "Corrective Movement",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Corrective Movement important for understanding Middle Eastern history?",
-    "question": "Why is Corrective Movement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Corrective Movement?",
+    "question": "Which statement best captures the historical significance of Corrective Movement?",
     "options": [
-      "Corrective Movement is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Corrective Movement belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Corrective Movement is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Corrective Movement belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hafez al-Assad."
+        "Context",
+        "Place Corrective Movement inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hama 1982."
+        "Connection",
+        "Compare it with Hama 1982 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Corrective Movement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Corrective Movement changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Corrective Movement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Corrective Movement helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hama-1982",
       "meh-bashar-al-assad",
@@ -6030,32 +6049,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hama 1982",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Hama 1982 important for understanding Middle Eastern history?",
-    "question": "Why is Hama 1982 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hama 1982?",
+    "question": "Which statement best captures the historical significance of Hama 1982?",
     "options": [
-      "Hama 1982 is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hama 1982 belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hama 1982 is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hama 1982 belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Corrective Movement."
+        "Context",
+        "Place Hama 1982 inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Bashar al-Assad."
+        "Connection",
+        "Compare it with Bashar al-Assad to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hama 1982 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hama 1982 changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Hama 1982 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hama 1982 helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-bashar-al-assad",
       "meh-syrian-uprising-2011",
@@ -6074,32 +6093,32 @@ export const middleEastHistoryConcepts = [
     "name": "Bashar al-Assad",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Bashar al-Assad important for understanding Middle Eastern history?",
-    "question": "Why is Bashar al-Assad important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Bashar al-Assad?",
+    "question": "Which statement best captures the historical significance of Bashar al-Assad?",
     "options": [
-      "Bashar al-Assad is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Bashar al-Assad belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bashar al-Assad is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Bashar al-Assad belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hama 1982."
+        "Context",
+        "Place Bashar al-Assad inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Uprising 2011."
+        "Connection",
+        "Compare it with Syrian Uprising 2011 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Bashar al-Assad changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Bashar al-Assad changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Bashar al-Assad helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Bashar al-Assad helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-uprising-2011",
       "meh-syrian-civil-war",
@@ -6118,32 +6137,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Uprising 2011",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Syrian Uprising 2011 important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Uprising 2011 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Uprising 2011?",
+    "question": "Which statement best captures the historical significance of Syrian Uprising 2011?",
     "options": [
-      "Syrian Uprising 2011 is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Uprising 2011 belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Uprising 2011 is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Uprising 2011 belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Bashar al-Assad."
+        "Context",
+        "Place Syrian Uprising 2011 inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Civil War."
+        "Connection",
+        "Compare it with Syrian Civil War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Uprising 2011 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Uprising 2011 changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Syrian Uprising 2011 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Uprising 2011 helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-civil-war",
       "meh-creation-of-greater-lebanon",
@@ -6162,32 +6181,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Civil War",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Syrian Civil War important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Civil War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Civil War?",
+    "question": "Which statement best captures the historical significance of Syrian Civil War?",
     "options": [
-      "Syrian Civil War is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Civil War belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Civil War is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Civil War belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Uprising 2011."
+        "Context",
+        "Place Syrian Civil War inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Creation of Greater Lebanon."
+        "Connection",
+        "Compare it with Creation of Greater Lebanon to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Civil War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Civil War changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Syrian Civil War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Civil War helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-creation-of-greater-lebanon",
       "meh-lebanese-confessional-system",
@@ -6206,32 +6225,32 @@ export const middleEastHistoryConcepts = [
     "name": "Creation of Greater Lebanon",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Creation of Greater Lebanon important for understanding Middle Eastern history?",
-    "question": "Why is Creation of Greater Lebanon important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Creation of Greater Lebanon?",
+    "question": "Which statement best captures the historical significance of Creation of Greater Lebanon?",
     "options": [
-      "Creation of Greater Lebanon is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Creation of Greater Lebanon belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Creation of Greater Lebanon is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Creation of Greater Lebanon belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Civil War."
+        "Context",
+        "Place Creation of Greater Lebanon inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Lebanese Confessional System."
+        "Connection",
+        "Compare it with Lebanese Confessional System to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Creation of Greater Lebanon changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Creation of Greater Lebanon changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Creation of Greater Lebanon helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Creation of Greater Lebanon helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-lebanese-confessional-system",
       "meh-lebanese-independence",
@@ -6250,32 +6269,33 @@ export const middleEastHistoryConcepts = [
     "name": "Lebanese Confessional System",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Lebanese Confessional System important for understanding Middle Eastern history?",
-    "question": "Why is Lebanese Confessional System important for understanding Middle Eastern history?",
+    "hook": "What does confessionalism mean in Lebanese politics?",
+    "question": "What does confessionalism mean in Lebanese politics?",
     "options": [
-      "Lebanese Confessional System is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Lebanon distributes major political offices and parliamentary representation through sectarian categories, an arrangement designed to share power among recognized religious communities.",
+      "Political parties are banned by religion",
+      "Only clerics may hold office",
+      "Lebanon has no elected parliament",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Lebanese Confessional System is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Lebanon distributes major political offices and parliamentary representation through sectarian categories, an arrangement designed to share power among recognized religious communities.",
     "examples": [
       [
-        "Before",
-        "Connect it to Creation of Greater Lebanon."
+        "National Pact",
+        "The unwritten 1943 National Pact helped establish the post-independence distribution of top offices."
       ],
       [
-        "After",
-        "Follow what changed next through Lebanese Independence."
+        "Taif",
+        "The 1989 Taif Agreement adjusted the balance of parliamentary and executive power after the civil war."
       ],
       [
-        "Big picture",
-        "Ask how Lebanese Confessional System changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Syria & Lebanon rabbit hole to see how Lebanese Confessional System connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Lebanese Confessional System helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Lebanese Confessional System matters because it changed or reveals the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-lebanese-independence",
       "meh-lebanese-civil-war",
@@ -6294,32 +6314,32 @@ export const middleEastHistoryConcepts = [
     "name": "Lebanese Independence",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Lebanese Independence important for understanding Middle Eastern history?",
-    "question": "Why is Lebanese Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Lebanese Independence?",
+    "question": "Which statement best captures the historical significance of Lebanese Independence?",
     "options": [
-      "Lebanese Independence is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Lebanese Independence belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Lebanese Independence is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Lebanese Independence belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Lebanese Confessional System."
+        "Context",
+        "Place Lebanese Independence inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Lebanese Civil War."
+        "Connection",
+        "Compare it with Lebanese Civil War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Lebanese Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Lebanese Independence changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Lebanese Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Lebanese Independence helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-lebanese-civil-war",
       "meh-taif-agreement",
@@ -6338,32 +6358,32 @@ export const middleEastHistoryConcepts = [
     "name": "Lebanese Civil War",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Lebanese Civil War important for understanding Middle Eastern history?",
-    "question": "Why is Lebanese Civil War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Lebanese Civil War?",
+    "question": "Which statement best captures the historical significance of Lebanese Civil War?",
     "options": [
-      "Lebanese Civil War is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Lebanese Civil War belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Lebanese Civil War is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Lebanese Civil War belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Lebanese Independence."
+        "Context",
+        "Place Lebanese Civil War inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Taif Agreement."
+        "Connection",
+        "Compare it with Taif Agreement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Lebanese Civil War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Lebanese Civil War changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Lebanese Civil War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Lebanese Civil War helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-taif-agreement",
       "meh-syrian-presence-in-lebanon",
@@ -6382,32 +6402,32 @@ export const middleEastHistoryConcepts = [
     "name": "Taif Agreement",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Taif Agreement important for understanding Middle Eastern history?",
-    "question": "Why is Taif Agreement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Taif Agreement?",
+    "question": "Which statement best captures the historical significance of Taif Agreement?",
     "options": [
-      "Taif Agreement is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Taif Agreement belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Taif Agreement is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Taif Agreement belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Lebanese Civil War."
+        "Context",
+        "Place Taif Agreement inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Presence in Lebanon."
+        "Connection",
+        "Compare it with Syrian Presence in Lebanon to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Taif Agreement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Taif Agreement changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Taif Agreement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Taif Agreement helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-syrian-presence-in-lebanon",
       "meh-hezbollah",
@@ -6426,32 +6446,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Presence in Lebanon",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Syrian Presence in Lebanon important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Presence in Lebanon important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Presence in Lebanon?",
+    "question": "Which statement best captures the historical significance of Syrian Presence in Lebanon?",
     "options": [
-      "Syrian Presence in Lebanon is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Presence in Lebanon belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Presence in Lebanon is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Presence in Lebanon belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Taif Agreement."
+        "Context",
+        "Place Syrian Presence in Lebanon inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hezbollah."
+        "Connection",
+        "Compare it with Hezbollah to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Presence in Lebanon changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Presence in Lebanon changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Syrian Presence in Lebanon helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Presence in Lebanon helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-hezbollah",
       "meh-cedar-revolution",
@@ -6470,32 +6490,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hezbollah",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Hezbollah important for understanding Middle Eastern history?",
-    "question": "Why is Hezbollah important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hezbollah?",
+    "question": "Which statement best captures the historical significance of Hezbollah?",
     "options": [
-      "Hezbollah is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hezbollah belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hezbollah is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hezbollah belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Presence in Lebanon."
+        "Context",
+        "Place Hezbollah inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Cedar Revolution."
+        "Connection",
+        "Compare it with Cedar Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hezbollah changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hezbollah changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Hezbollah helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hezbollah helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-cedar-revolution",
       "meh-french-mandate-syria",
@@ -6514,32 +6534,32 @@ export const middleEastHistoryConcepts = [
     "name": "Cedar Revolution",
     "pool": "Syria & Lebanon",
     "topic": "Syria & Lebanon",
-    "hook": "Why is Cedar Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Cedar Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Cedar Revolution?",
+    "question": "Which statement best captures the historical significance of Cedar Revolution?",
     "options": [
-      "Cedar Revolution is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Cedar Revolution belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Syria & Lebanon.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Cedar Revolution is a key part of the Syria & Lebanon story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Cedar Revolution belongs to the history of the formation and political development of Syria and Lebanon. Its importance comes from how it affected mandate rule, communal institutions, coups, civil war and authoritarian state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hezbollah."
+        "Context",
+        "Place Cedar Revolution inside the Syria & Lebanon timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with French Mandate Syria to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Cedar Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Cedar Revolution changed about mandate rule, communal institutions, coups, civil war and authoritarian state-building."
       ]
     ],
-    "why": "Understanding Cedar Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Cedar Revolution helps explain the formation and political development of Syria and Lebanon.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-french-mandate-syria",
       "meh-great-syrian-revolt",
@@ -6553,81 +6573,37 @@ export const middleEastHistoryConcepts = [
     }
   },
   {
-    "id": "meh-ottoman-iraq",
-    "world": "middle-east",
-    "name": "Ottoman Iraq",
-    "pool": "Iraq",
-    "topic": "Iraq",
-    "hook": "Why is Ottoman Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Ottoman Iraq important for understanding Middle Eastern history?",
-    "options": [
-      "Ottoman Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Ottoman Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-    "examples": [
-      [
-        "Before",
-        "Start with the political and social conditions that preceded it."
-      ],
-      [
-        "After",
-        "Follow what changed next through British Occupation of Iraq."
-      ],
-      [
-        "Big picture",
-        "Ask how Ottoman Iraq changed power, identity, institutions, borders, economic life or relations between communities."
-      ]
-    ],
-    "why": "Understanding Ottoman Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
-    "related": [
-      "meh-british-occupation-of-iraq",
-      "meh-iraqi-revolt-of-1920",
-      "meh-kingdom-of-iraq",
-      "meh-faisal-i-in-iraq"
-    ],
-    "media": {
-      "kind": "map",
-      "region": "ottoman-iraq",
-      "view": "historical"
-    }
-  },
-  {
     "id": "meh-british-occupation-of-iraq",
     "world": "middle-east",
     "name": "British Occupation of Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is British Occupation of Iraq important for understanding Middle Eastern history?",
-    "question": "Why is British Occupation of Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Occupation of Iraq?",
+    "question": "Which statement best captures the historical significance of British Occupation of Iraq?",
     "options": [
-      "British Occupation of Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Occupation of Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Occupation of Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Occupation of Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ottoman Iraq."
+        "Context",
+        "Place British Occupation of Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iraqi Revolt of 1920."
+        "Connection",
+        "Compare it with Iraqi Revolt of 1920 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Occupation of Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Occupation of Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding British Occupation of Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Occupation of Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iraqi-revolt-of-1920",
       "meh-kingdom-of-iraq",
@@ -6646,32 +6622,33 @@ export const middleEastHistoryConcepts = [
     "name": "Iraqi Revolt of 1920",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Iraqi Revolt of 1920 important for understanding Middle Eastern history?",
-    "question": "Why is Iraqi Revolt of 1920 important for understanding Middle Eastern history?",
+    "hook": "Why was the 1920 revolt important in the creation of modern Iraq?",
+    "question": "Why was the 1920 revolt important in the creation of modern Iraq?",
     "options": [
-      "Iraqi Revolt of 1920 is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "A broad but locally varied uprising challenged British occupation and helped convince Britain to govern through a Hashemite monarchy and treaty relationship rather than direct rule alone.",
+      "It overthrew Saddam Hussein",
+      "It expelled the Ottomans before World War I",
+      "It created the Ba'ath Party",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iraqi Revolt of 1920 is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "A broad but locally varied uprising challenged British occupation and helped convince Britain to govern through a Hashemite monarchy and treaty relationship rather than direct rule alone.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Occupation of Iraq."
+        "Coalitions",
+        "Participants included tribal forces, Shi'i clerics and urban nationalists, although motives and participation varied."
       ],
       [
-        "After",
-        "Follow what changed next through Kingdom of Iraq."
+        "Aftermath",
+        "Faisal was installed as king in 1921 under continued British influence."
       ],
       [
-        "Big picture",
-        "Ask how Iraqi Revolt of 1920 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Iraq rabbit hole to see how Iraqi Revolt of 1920 connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Iraqi Revolt of 1920 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iraqi Revolt of 1920 matters because it changed or reveals the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-kingdom-of-iraq",
       "meh-faisal-i-in-iraq",
@@ -6690,32 +6667,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kingdom of Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Kingdom of Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Kingdom of Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kingdom of Iraq?",
+    "question": "Which statement best captures the historical significance of Kingdom of Iraq?",
     "options": [
-      "Kingdom of Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kingdom of Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kingdom of Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kingdom of Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iraqi Revolt of 1920."
+        "Context",
+        "Place Kingdom of Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Faisal I in Iraq."
+        "Connection",
+        "Compare it with Faisal I in Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kingdom of Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kingdom of Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Kingdom of Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kingdom of Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-faisal-i-in-iraq",
       "meh-iraqi-independence",
@@ -6734,32 +6711,32 @@ export const middleEastHistoryConcepts = [
     "name": "Faisal I in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Faisal I in Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Faisal I in Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Faisal I in Iraq?",
+    "question": "Which statement best captures the historical significance of Faisal I in Iraq?",
     "options": [
-      "Faisal I in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Faisal I in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Faisal I in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Faisal I in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kingdom of Iraq."
+        "Context",
+        "Place Faisal I in Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iraqi Independence."
+        "Connection",
+        "Compare it with Iraqi Independence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Faisal I in Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Faisal I in Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Faisal I in Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Faisal I in Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iraqi-independence",
       "meh-1958-iraqi-revolution",
@@ -6778,32 +6755,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iraqi Independence",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Iraqi Independence important for understanding Middle Eastern history?",
-    "question": "Why is Iraqi Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iraqi Independence?",
+    "question": "Which statement best captures the historical significance of Iraqi Independence?",
     "options": [
-      "Iraqi Independence is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iraqi Independence belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iraqi Independence is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iraqi Independence belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Faisal I in Iraq."
+        "Context",
+        "Place Iraqi Independence inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1958 Iraqi Revolution."
+        "Connection",
+        "Compare it with 1958 Iraqi Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iraqi Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iraqi Independence changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Iraqi Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iraqi Independence helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1958-iraqi-revolution",
       "meh-abd-al-karim-qasim",
@@ -6822,32 +6799,32 @@ export const middleEastHistoryConcepts = [
     "name": "1958 Iraqi Revolution",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is 1958 Iraqi Revolution important for understanding Middle Eastern history?",
-    "question": "Why is 1958 Iraqi Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of 1958 Iraqi Revolution?",
+    "question": "Which statement best captures the historical significance of 1958 Iraqi Revolution?",
     "options": [
-      "1958 Iraqi Revolution is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "1958 Iraqi Revolution belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1958 Iraqi Revolution is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "1958 Iraqi Revolution belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iraqi Independence."
+        "Context",
+        "Place 1958 Iraqi Revolution inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Abd al-Karim Qasim."
+        "Connection",
+        "Compare it with Abd al-Karim Qasim to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how 1958 Iraqi Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what 1958 Iraqi Revolution changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding 1958 Iraqi Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1958 Iraqi Revolution helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-abd-al-karim-qasim",
       "meh-ba-ath-party-in-iraq",
@@ -6866,32 +6843,32 @@ export const middleEastHistoryConcepts = [
     "name": "Abd al-Karim Qasim",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Abd al-Karim Qasim important for understanding Middle Eastern history?",
-    "question": "Why is Abd al-Karim Qasim important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Abd al-Karim Qasim?",
+    "question": "Which statement best captures the historical significance of Abd al-Karim Qasim?",
     "options": [
-      "Abd al-Karim Qasim is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Abd al-Karim Qasim belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Abd al-Karim Qasim is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Abd al-Karim Qasim belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1958 Iraqi Revolution."
+        "Context",
+        "Place Abd al-Karim Qasim inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ba'ath Party in Iraq."
+        "Connection",
+        "Compare it with Ba'ath Party in Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Abd al-Karim Qasim changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Abd al-Karim Qasim changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Abd al-Karim Qasim helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Abd al-Karim Qasim helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ba-ath-party-in-iraq",
       "meh-1968-iraqi-coup",
@@ -6910,32 +6887,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ba'ath Party in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Ba'ath Party in Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Ba'ath Party in Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ba'ath Party in Iraq?",
+    "question": "Which statement best captures the historical significance of Ba'ath Party in Iraq?",
     "options": [
-      "Ba'ath Party in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ba'ath Party in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ba'ath Party in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ba'ath Party in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Abd al-Karim Qasim."
+        "Context",
+        "Place Ba'ath Party in Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1968 Iraqi Coup."
+        "Connection",
+        "Compare it with 1968 Iraqi Coup to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ba'ath Party in Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ba'ath Party in Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Ba'ath Party in Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ba'ath Party in Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1968-iraqi-coup",
       "meh-saddam-hussein",
@@ -6954,32 +6931,32 @@ export const middleEastHistoryConcepts = [
     "name": "1968 Iraqi Coup",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is 1968 Iraqi Coup important for understanding Middle Eastern history?",
-    "question": "Why is 1968 Iraqi Coup important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of 1968 Iraqi Coup?",
+    "question": "Which statement best captures the historical significance of 1968 Iraqi Coup?",
     "options": [
-      "1968 Iraqi Coup is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "1968 Iraqi Coup belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1968 Iraqi Coup is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "1968 Iraqi Coup belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ba'ath Party in Iraq."
+        "Context",
+        "Place 1968 Iraqi Coup inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Saddam Hussein."
+        "Connection",
+        "Compare it with Saddam Hussein to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how 1968 Iraqi Coup changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what 1968 Iraqi Coup changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding 1968 Iraqi Coup helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1968 Iraqi Coup helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saddam-hussein",
       "meh-anfal-campaign",
@@ -6998,32 +6975,32 @@ export const middleEastHistoryConcepts = [
     "name": "Saddam Hussein",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Saddam Hussein important for understanding Middle Eastern history?",
-    "question": "Why is Saddam Hussein important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Saddam Hussein?",
+    "question": "Which statement best captures the historical significance of Saddam Hussein?",
     "options": [
-      "Saddam Hussein is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Saddam Hussein belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saddam Hussein is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Saddam Hussein belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1968 Iraqi Coup."
+        "Context",
+        "Place Saddam Hussein inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Anfal Campaign."
+        "Connection",
+        "Compare it with Anfal Campaign to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Saddam Hussein changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Saddam Hussein changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Saddam Hussein helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Saddam Hussein helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-anfal-campaign",
       "meh-iran-iraq-war-in-iraq",
@@ -7042,32 +7019,32 @@ export const middleEastHistoryConcepts = [
     "name": "Anfal Campaign",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Anfal Campaign important for understanding Middle Eastern history?",
-    "question": "Why is Anfal Campaign important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Anfal Campaign?",
+    "question": "Which statement best captures the historical significance of Anfal Campaign?",
     "options": [
-      "Anfal Campaign is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Anfal Campaign belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anfal Campaign is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Anfal Campaign belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Saddam Hussein."
+        "Context",
+        "Place Anfal Campaign inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iran–Iraq War in Iraq."
+        "Connection",
+        "Compare it with Iran–Iraq War in Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Anfal Campaign changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Anfal Campaign changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Anfal Campaign helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Anfal Campaign helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iran-iraq-war-in-iraq",
       "meh-invasion-of-kuwait",
@@ -7086,32 +7063,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iran–Iraq War in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Iran–Iraq War in Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Iran–Iraq War in Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iran–Iraq War in Iraq?",
+    "question": "Which statement best captures the historical significance of Iran–Iraq War in Iraq?",
     "options": [
-      "Iran–Iraq War in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iran–Iraq War in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iran–Iraq War in Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iran–Iraq War in Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Anfal Campaign."
+        "Context",
+        "Place Iran–Iraq War in Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Invasion of Kuwait."
+        "Connection",
+        "Compare it with Invasion of Kuwait to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iran–Iraq War in Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iran–Iraq War in Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Iran–Iraq War in Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iran–Iraq War in Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-invasion-of-kuwait",
       "meh-gulf-war-1991",
@@ -7130,32 +7107,32 @@ export const middleEastHistoryConcepts = [
     "name": "Invasion of Kuwait",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Invasion of Kuwait important for understanding Middle Eastern history?",
-    "question": "Why is Invasion of Kuwait important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Invasion of Kuwait?",
+    "question": "Which statement best captures the historical significance of Invasion of Kuwait?",
     "options": [
-      "Invasion of Kuwait is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Invasion of Kuwait belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Invasion of Kuwait is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Invasion of Kuwait belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iran–Iraq War in Iraq."
+        "Context",
+        "Place Invasion of Kuwait inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Gulf War 1991."
+        "Connection",
+        "Compare it with Gulf War 1991 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Invasion of Kuwait changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Invasion of Kuwait changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Invasion of Kuwait helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Invasion of Kuwait helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-gulf-war-1991",
       "meh-sanctions-on-iraq",
@@ -7174,32 +7151,32 @@ export const middleEastHistoryConcepts = [
     "name": "Gulf War 1991",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Gulf War 1991 important for understanding Middle Eastern history?",
-    "question": "Why is Gulf War 1991 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Gulf War 1991?",
+    "question": "Which statement best captures the historical significance of Gulf War 1991?",
     "options": [
-      "Gulf War 1991 is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Gulf War 1991 belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gulf War 1991 is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Gulf War 1991 belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Invasion of Kuwait."
+        "Context",
+        "Place Gulf War 1991 inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sanctions on Iraq."
+        "Connection",
+        "Compare it with Sanctions on Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Gulf War 1991 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Gulf War 1991 changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Gulf War 1991 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Gulf War 1991 helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-sanctions-on-iraq",
       "meh-2003-iraq-war",
@@ -7218,32 +7195,32 @@ export const middleEastHistoryConcepts = [
     "name": "Sanctions on Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Sanctions on Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Sanctions on Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Sanctions on Iraq?",
+    "question": "Which statement best captures the historical significance of Sanctions on Iraq?",
     "options": [
-      "Sanctions on Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Sanctions on Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sanctions on Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Sanctions on Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Gulf War 1991."
+        "Context",
+        "Place Sanctions on Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 2003 Iraq War."
+        "Connection",
+        "Compare it with 2003 Iraq War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Sanctions on Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Sanctions on Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Sanctions on Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sanctions on Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-2003-iraq-war",
       "meh-de-ba-athification",
@@ -7262,32 +7239,33 @@ export const middleEastHistoryConcepts = [
     "name": "2003 Iraq War",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is 2003 Iraq War important for understanding Middle Eastern history?",
-    "question": "Why is 2003 Iraq War important for understanding Middle Eastern history?",
+    "hook": "What political order did the 2003 invasion overturn?",
+    "question": "What political order did the 2003 invasion overturn?",
     "options": [
-      "2003 Iraq War is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "A US-led coalition invaded Iraq and removed Saddam Hussein's Ba'athist regime, followed by occupation, insurgency, sectarian violence and construction of a new political system.",
+      "The Hashemite monarchy was restored",
+      "Iraq immediately became politically stable",
+      "The invasion ended the Kurdish autonomous region",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "2003 Iraq War is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "A US-led coalition invaded Iraq and removed Saddam Hussein's Ba'athist regime, followed by occupation, insurgency, sectarian violence and construction of a new political system.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sanctions on Iraq."
+        "Occupation decisions",
+        "Dissolution of the army and de-Ba'athification became especially consequential and contested occupation policies."
       ],
       [
-        "After",
-        "Follow what changed next through De-Ba'athification."
+        "Long aftermath",
+        "The post-invasion crisis reshaped Iraqi politics and contributed to conditions in which later jihadist organizations expanded."
       ],
       [
-        "Big picture",
-        "Ask how 2003 Iraq War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Iraq rabbit hole to see how 2003 Iraq War connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding 2003 Iraq War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "2003 Iraq War matters because it changed or reveals the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-de-ba-athification",
       "meh-post-2003-iraq",
@@ -7306,32 +7284,32 @@ export const middleEastHistoryConcepts = [
     "name": "De-Ba'athification",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is De-Ba'athification important for understanding Middle Eastern history?",
-    "question": "Why is De-Ba'athification important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of De-Ba'athification?",
+    "question": "Which statement best captures the historical significance of De-Ba'athification?",
     "options": [
-      "De-Ba'athification is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "De-Ba'athification belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "De-Ba'athification is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "De-Ba'athification belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 2003 Iraq War."
+        "Context",
+        "Place De-Ba'athification inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Post-2003 Iraq."
+        "Connection",
+        "Compare it with Post-2003 Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how De-Ba'athification changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what De-Ba'athification changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding De-Ba'athification helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "De-Ba'athification helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-post-2003-iraq",
       "meh-rise-of-isis",
@@ -7350,32 +7328,32 @@ export const middleEastHistoryConcepts = [
     "name": "Post-2003 Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Post-2003 Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Post-2003 Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Post-2003 Iraq?",
+    "question": "Which statement best captures the historical significance of Post-2003 Iraq?",
     "options": [
-      "Post-2003 Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Post-2003 Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Post-2003 Iraq is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Post-2003 Iraq belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to De-Ba'athification."
+        "Context",
+        "Place Post-2003 Iraq inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Rise of ISIS."
+        "Connection",
+        "Compare it with Rise of ISIS to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Post-2003 Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Post-2003 Iraq changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Post-2003 Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Post-2003 Iraq helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rise-of-isis",
       "meh-ottoman-iraq",
@@ -7394,32 +7372,32 @@ export const middleEastHistoryConcepts = [
     "name": "Rise of ISIS",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "Why is Rise of ISIS important for understanding Middle Eastern history?",
-    "question": "Why is Rise of ISIS important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Rise of ISIS?",
+    "question": "Which statement best captures the historical significance of Rise of ISIS?",
     "options": [
-      "Rise of ISIS is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Rise of ISIS belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Iraq.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rise of ISIS is a key part of the Iraq story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Rise of ISIS belongs to the history of the construction and turbulent development of the Iraqi state. Its importance comes from how it affected monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Post-2003 Iraq."
+        "Context",
+        "Place Rise of ISIS inside the Iraq timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Ottoman Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Rise of ISIS changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Rise of ISIS changed about monarchy, revolution, Ba'athist rule, wars, sanctions and post-2003 politics."
       ]
     ],
-    "why": "Understanding Rise of ISIS helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rise of ISIS helps explain the construction and turbulent development of the Iraqi state.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-iraq",
       "meh-british-occupation-of-iraq",
@@ -7438,32 +7416,32 @@ export const middleEastHistoryConcepts = [
     "name": "First Saudi State",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is First Saudi State important for understanding Middle Eastern history?",
-    "question": "Why is First Saudi State important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of First Saudi State?",
+    "question": "Which statement best captures the historical significance of First Saudi State?",
     "options": [
-      "First Saudi State is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "First Saudi State belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "First Saudi State is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "First Saudi State belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place First Saudi State inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Wahhabism."
+        "Connection",
+        "Compare it with Wahhabism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how First Saudi State changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what First Saudi State changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding First Saudi State helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "First Saudi State helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-wahhabism",
       "meh-muhammad-ibn-abd-al-wahhab",
@@ -7482,32 +7460,33 @@ export const middleEastHistoryConcepts = [
     "name": "Wahhabism",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Wahhabism important for understanding Middle Eastern history?",
-    "question": "Why is Wahhabism important for understanding Middle Eastern history?",
+    "hook": "What was the eighteenth-century movement associated with Muhammad ibn Abd al-Wahhab?",
+    "question": "What was the eighteenth-century movement associated with Muhammad ibn Abd al-Wahhab?",
     "options": [
-      "Wahhabism is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "It was a Sunni Islamic reform movement emphasizing strict monotheism and opposition to practices it regarded as illicit innovations; its alliance with the House of Saud became politically consequential in Arabia.",
+      "A Shi'i movement founded in Iran",
+      "A secular Arab nationalist ideology",
+      "A British colonial administrative system",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Wahhabism is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "It was a Sunni Islamic reform movement emphasizing strict monotheism and opposition to practices it regarded as illicit innovations; its alliance with the House of Saud became politically consequential in Arabia.",
     "examples": [
       [
-        "Before",
-        "Connect it to First Saudi State."
+        "Alliance",
+        "The religious-political alliance with Muhammad ibn Saud helped underpin the first Saudi state."
       ],
       [
-        "After",
-        "Follow what changed next through Muhammad ibn Abd al-Wahhab."
+        "Terminology",
+        "Followers have often preferred terms such as Salafi or muwahhidun; 'Wahhabi' has frequently been an external label."
       ],
       [
-        "Big picture",
-        "Ask how Wahhabism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Arabian Peninsula & Gulf rabbit hole to see how Wahhabism connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Wahhabism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Wahhabism matters because it changed or reveals state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-muhammad-ibn-abd-al-wahhab",
       "meh-saudi-wahhabi-alliance",
@@ -7526,32 +7505,32 @@ export const middleEastHistoryConcepts = [
     "name": "Muhammad ibn Abd al-Wahhab",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Muhammad ibn Abd al-Wahhab important for understanding Middle Eastern history?",
-    "question": "Why is Muhammad ibn Abd al-Wahhab important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Muhammad ibn Abd al-Wahhab?",
+    "question": "Which statement best captures the historical significance of Muhammad ibn Abd al-Wahhab?",
     "options": [
-      "Muhammad ibn Abd al-Wahhab is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Muhammad ibn Abd al-Wahhab belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Muhammad ibn Abd al-Wahhab is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Muhammad ibn Abd al-Wahhab belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Wahhabism."
+        "Context",
+        "Place Muhammad ibn Abd al-Wahhab inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Saudi–Wahhabi Alliance."
+        "Connection",
+        "Compare it with Saudi–Wahhabi Alliance to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Muhammad ibn Abd al-Wahhab changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Muhammad ibn Abd al-Wahhab changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Muhammad ibn Abd al-Wahhab helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Muhammad ibn Abd al-Wahhab helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saudi-wahhabi-alliance",
       "meh-second-saudi-state",
@@ -7570,32 +7549,32 @@ export const middleEastHistoryConcepts = [
     "name": "Saudi–Wahhabi Alliance",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Saudi–Wahhabi Alliance important for understanding Middle Eastern history?",
-    "question": "Why is Saudi–Wahhabi Alliance important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Saudi–Wahhabi Alliance?",
+    "question": "Which statement best captures the historical significance of Saudi–Wahhabi Alliance?",
     "options": [
-      "Saudi–Wahhabi Alliance is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Saudi–Wahhabi Alliance belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saudi–Wahhabi Alliance is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Saudi–Wahhabi Alliance belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Muhammad ibn Abd al-Wahhab."
+        "Context",
+        "Place Saudi–Wahhabi Alliance inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Second Saudi State."
+        "Connection",
+        "Compare it with Second Saudi State to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Saudi–Wahhabi Alliance changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Saudi–Wahhabi Alliance changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Saudi–Wahhabi Alliance helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Saudi–Wahhabi Alliance helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-second-saudi-state",
       "meh-ibn-saud",
@@ -7614,32 +7593,32 @@ export const middleEastHistoryConcepts = [
     "name": "Second Saudi State",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Second Saudi State important for understanding Middle Eastern history?",
-    "question": "Why is Second Saudi State important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Second Saudi State?",
+    "question": "Which statement best captures the historical significance of Second Saudi State?",
     "options": [
-      "Second Saudi State is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Second Saudi State belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Second Saudi State is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Second Saudi State belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Saudi–Wahhabi Alliance."
+        "Context",
+        "Place Second Saudi State inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Ibn Saud."
+        "Connection",
+        "Compare it with Ibn Saud to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Second Saudi State changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Second Saudi State changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Second Saudi State helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Second Saudi State helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ibn-saud",
       "meh-conquest-of-the-hejaz",
@@ -7658,32 +7637,32 @@ export const middleEastHistoryConcepts = [
     "name": "Ibn Saud",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Ibn Saud important for understanding Middle Eastern history?",
-    "question": "Why is Ibn Saud important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Ibn Saud?",
+    "question": "Which statement best captures the historical significance of Ibn Saud?",
     "options": [
-      "Ibn Saud is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Ibn Saud belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ibn Saud is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Ibn Saud belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Second Saudi State."
+        "Context",
+        "Place Ibn Saud inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Conquest of the Hejaz."
+        "Connection",
+        "Compare it with Conquest of the Hejaz to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Ibn Saud changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Ibn Saud changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Ibn Saud helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Ibn Saud helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-conquest-of-the-hejaz",
       "meh-foundation-of-saudi-arabia",
@@ -7702,32 +7681,32 @@ export const middleEastHistoryConcepts = [
     "name": "Conquest of the Hejaz",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Conquest of the Hejaz important for understanding Middle Eastern history?",
-    "question": "Why is Conquest of the Hejaz important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Conquest of the Hejaz?",
+    "question": "Which statement best captures the historical significance of Conquest of the Hejaz?",
     "options": [
-      "Conquest of the Hejaz is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Conquest of the Hejaz belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Conquest of the Hejaz is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Conquest of the Hejaz belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Ibn Saud."
+        "Context",
+        "Place Conquest of the Hejaz inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Foundation of Saudi Arabia."
+        "Connection",
+        "Compare it with Foundation of Saudi Arabia to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Conquest of the Hejaz changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Conquest of the Hejaz changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Conquest of the Hejaz helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Conquest of the Hejaz helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-foundation-of-saudi-arabia",
       "meh-discovery-of-saudi-oil",
@@ -7746,32 +7725,32 @@ export const middleEastHistoryConcepts = [
     "name": "Foundation of Saudi Arabia",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Foundation of Saudi Arabia important for understanding Middle Eastern history?",
-    "question": "Why is Foundation of Saudi Arabia important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Foundation of Saudi Arabia?",
+    "question": "Which statement best captures the historical significance of Foundation of Saudi Arabia?",
     "options": [
-      "Foundation of Saudi Arabia is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Foundation of Saudi Arabia belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Foundation of Saudi Arabia is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Foundation of Saudi Arabia belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Conquest of the Hejaz."
+        "Context",
+        "Place Foundation of Saudi Arabia inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Discovery of Saudi Oil."
+        "Connection",
+        "Compare it with Discovery of Saudi Oil to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Foundation of Saudi Arabia changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Foundation of Saudi Arabia changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Foundation of Saudi Arabia helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Foundation of Saudi Arabia helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-discovery-of-saudi-oil",
       "meh-aramco",
@@ -7790,32 +7769,32 @@ export const middleEastHistoryConcepts = [
     "name": "Discovery of Saudi Oil",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Discovery of Saudi Oil important for understanding Middle Eastern history?",
-    "question": "Why is Discovery of Saudi Oil important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Discovery of Saudi Oil?",
+    "question": "Which statement best captures the historical significance of Discovery of Saudi Oil?",
     "options": [
-      "Discovery of Saudi Oil is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Discovery of Saudi Oil belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Discovery of Saudi Oil is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Discovery of Saudi Oil belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Foundation of Saudi Arabia."
+        "Context",
+        "Place Discovery of Saudi Oil inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through ARAMCO."
+        "Connection",
+        "Compare it with ARAMCO to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Discovery of Saudi Oil changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Discovery of Saudi Oil changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Discovery of Saudi Oil helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Discovery of Saudi Oil helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-aramco",
       "meh-saudi-us-relationship",
@@ -7834,32 +7813,32 @@ export const middleEastHistoryConcepts = [
     "name": "ARAMCO",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is ARAMCO important for understanding Middle Eastern history?",
-    "question": "Why is ARAMCO important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of ARAMCO?",
+    "question": "Which statement best captures the historical significance of ARAMCO?",
     "options": [
-      "ARAMCO is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "ARAMCO belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "ARAMCO is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "ARAMCO belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Discovery of Saudi Oil."
+        "Context",
+        "Place ARAMCO inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Saudi–US Relationship."
+        "Connection",
+        "Compare it with Saudi–US Relationship to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how ARAMCO changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what ARAMCO changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding ARAMCO helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "ARAMCO helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saudi-us-relationship",
       "meh-north-yemen",
@@ -7878,32 +7857,32 @@ export const middleEastHistoryConcepts = [
     "name": "Saudi–US Relationship",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Saudi–US Relationship important for understanding Middle Eastern history?",
-    "question": "Why is Saudi–US Relationship important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Saudi–US Relationship?",
+    "question": "Which statement best captures the historical significance of Saudi–US Relationship?",
     "options": [
-      "Saudi–US Relationship is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Saudi–US Relationship belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saudi–US Relationship is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Saudi–US Relationship belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to ARAMCO."
+        "Context",
+        "Place Saudi–US Relationship inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through North Yemen."
+        "Connection",
+        "Compare it with North Yemen to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Saudi–US Relationship changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Saudi–US Relationship changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Saudi–US Relationship helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Saudi–US Relationship helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-north-yemen",
       "meh-south-yemen",
@@ -7922,32 +7901,32 @@ export const middleEastHistoryConcepts = [
     "name": "North Yemen",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is North Yemen important for understanding Middle Eastern history?",
-    "question": "Why is North Yemen important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of North Yemen?",
+    "question": "Which statement best captures the historical significance of North Yemen?",
     "options": [
-      "North Yemen is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "North Yemen belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "North Yemen is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "North Yemen belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Saudi–US Relationship."
+        "Context",
+        "Place North Yemen inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through South Yemen."
+        "Connection",
+        "Compare it with South Yemen to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how North Yemen changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what North Yemen changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding North Yemen helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "North Yemen helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-south-yemen",
       "meh-yemeni-unification",
@@ -7966,32 +7945,32 @@ export const middleEastHistoryConcepts = [
     "name": "South Yemen",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is South Yemen important for understanding Middle Eastern history?",
-    "question": "Why is South Yemen important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of South Yemen?",
+    "question": "Which statement best captures the historical significance of South Yemen?",
     "options": [
-      "South Yemen is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "South Yemen belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "South Yemen is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "South Yemen belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to North Yemen."
+        "Context",
+        "Place South Yemen inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Yemeni Unification."
+        "Connection",
+        "Compare it with Yemeni Unification to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how South Yemen changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what South Yemen changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding South Yemen helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "South Yemen helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-yemeni-unification",
       "meh-oman-under-sultan-qaboos",
@@ -8010,32 +7989,32 @@ export const middleEastHistoryConcepts = [
     "name": "Yemeni Unification",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Yemeni Unification important for understanding Middle Eastern history?",
-    "question": "Why is Yemeni Unification important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Yemeni Unification?",
+    "question": "Which statement best captures the historical significance of Yemeni Unification?",
     "options": [
-      "Yemeni Unification is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Yemeni Unification belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Yemeni Unification is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Yemeni Unification belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to South Yemen."
+        "Context",
+        "Place Yemeni Unification inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Oman under Sultan Qaboos."
+        "Connection",
+        "Compare it with Oman under Sultan Qaboos to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Yemeni Unification changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Yemeni Unification changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Yemeni Unification helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Yemeni Unification helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-oman-under-sultan-qaboos",
       "meh-british-gulf-protectorates",
@@ -8054,32 +8033,32 @@ export const middleEastHistoryConcepts = [
     "name": "Oman under Sultan Qaboos",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Oman under Sultan Qaboos important for understanding Middle Eastern history?",
-    "question": "Why is Oman under Sultan Qaboos important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Oman under Sultan Qaboos?",
+    "question": "Which statement best captures the historical significance of Oman under Sultan Qaboos?",
     "options": [
-      "Oman under Sultan Qaboos is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Oman under Sultan Qaboos belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Oman under Sultan Qaboos is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Oman under Sultan Qaboos belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Yemeni Unification."
+        "Context",
+        "Place Oman under Sultan Qaboos inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through British Gulf Protectorates."
+        "Connection",
+        "Compare it with British Gulf Protectorates to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Oman under Sultan Qaboos changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Oman under Sultan Qaboos changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Oman under Sultan Qaboos helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Oman under Sultan Qaboos helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-british-gulf-protectorates",
       "meh-kuwaiti-independence",
@@ -8098,32 +8077,32 @@ export const middleEastHistoryConcepts = [
     "name": "British Gulf Protectorates",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is British Gulf Protectorates important for understanding Middle Eastern history?",
-    "question": "Why is British Gulf Protectorates important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of British Gulf Protectorates?",
+    "question": "Which statement best captures the historical significance of British Gulf Protectorates?",
     "options": [
-      "British Gulf Protectorates is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "British Gulf Protectorates belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Gulf Protectorates is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "British Gulf Protectorates belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Oman under Sultan Qaboos."
+        "Context",
+        "Place British Gulf Protectorates inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kuwaiti Independence."
+        "Connection",
+        "Compare it with Kuwaiti Independence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how British Gulf Protectorates changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what British Gulf Protectorates changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding British Gulf Protectorates helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "British Gulf Protectorates helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-kuwaiti-independence",
       "meh-bahraini-independence",
@@ -8142,32 +8121,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kuwaiti Independence",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Kuwaiti Independence important for understanding Middle Eastern history?",
-    "question": "Why is Kuwaiti Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kuwaiti Independence?",
+    "question": "Which statement best captures the historical significance of Kuwaiti Independence?",
     "options": [
-      "Kuwaiti Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kuwaiti Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kuwaiti Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kuwaiti Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to British Gulf Protectorates."
+        "Context",
+        "Place Kuwaiti Independence inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Bahraini Independence."
+        "Connection",
+        "Compare it with Bahraini Independence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kuwaiti Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kuwaiti Independence changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Kuwaiti Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kuwaiti Independence helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-bahraini-independence",
       "meh-qatari-independence",
@@ -8186,32 +8165,32 @@ export const middleEastHistoryConcepts = [
     "name": "Bahraini Independence",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Bahraini Independence important for understanding Middle Eastern history?",
-    "question": "Why is Bahraini Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Bahraini Independence?",
+    "question": "Which statement best captures the historical significance of Bahraini Independence?",
     "options": [
-      "Bahraini Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Bahraini Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bahraini Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Bahraini Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kuwaiti Independence."
+        "Context",
+        "Place Bahraini Independence inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Qatari Independence."
+        "Connection",
+        "Compare it with Qatari Independence to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Bahraini Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Bahraini Independence changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Bahraini Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Bahraini Independence helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-qatari-independence",
       "meh-formation-of-the-uae",
@@ -8230,32 +8209,32 @@ export const middleEastHistoryConcepts = [
     "name": "Qatari Independence",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Qatari Independence important for understanding Middle Eastern history?",
-    "question": "Why is Qatari Independence important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Qatari Independence?",
+    "question": "Which statement best captures the historical significance of Qatari Independence?",
     "options": [
-      "Qatari Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Qatari Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Qatari Independence is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Qatari Independence belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Bahraini Independence."
+        "Context",
+        "Place Qatari Independence inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Formation of the UAE."
+        "Connection",
+        "Compare it with Formation of the UAE to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Qatari Independence changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Qatari Independence changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Qatari Independence helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Qatari Independence helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-formation-of-the-uae",
       "meh-gulf-cooperation-council",
@@ -8274,32 +8253,33 @@ export const middleEastHistoryConcepts = [
     "name": "Formation of the UAE",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Formation of the UAE important for understanding Middle Eastern history?",
-    "question": "Why is Formation of the UAE important for understanding Middle Eastern history?",
+    "hook": "How did the United Arab Emirates form in 1971?",
+    "question": "How did the United Arab Emirates form in 1971?",
     "options": [
-      "Formation of the UAE is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Six former Trucial States formed a federation in December 1971, with Ras al-Khaimah joining in 1972, after Britain ended its treaty-based military presence east of Suez.",
+      "Saudi Arabia divided the Trucial States into provinces",
+      "The Ottoman Empire created the federation",
+      "All Gulf monarchies joined a single federation",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Formation of the UAE is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Six former Trucial States formed a federation in December 1971, with Ras al-Khaimah joining in 1972, after Britain ended its treaty-based military presence east of Suez.",
     "examples": [
       [
-        "Before",
-        "Connect it to Qatari Independence."
+        "Federation",
+        "Abu Dhabi, Dubai, Sharjah, Ajman, Umm al-Quwain and Fujairah were the original six members."
       ],
       [
-        "After",
-        "Follow what changed next through Gulf Cooperation Council."
+        "Seventh emirate",
+        "Ras al-Khaimah joined the federation in February 1972."
       ],
       [
-        "Big picture",
-        "Ask how Formation of the UAE changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Arabian Peninsula & Gulf rabbit hole to see how Formation of the UAE connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Formation of the UAE helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Formation of the UAE matters because it changed or reveals state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-gulf-cooperation-council",
       "meh-first-saudi-state",
@@ -8318,32 +8298,32 @@ export const middleEastHistoryConcepts = [
     "name": "Gulf Cooperation Council",
     "pool": "Arabian Peninsula & Gulf",
     "topic": "Arabian Peninsula & Gulf",
-    "hook": "Why is Gulf Cooperation Council important for understanding Middle Eastern history?",
-    "question": "Why is Gulf Cooperation Council important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Gulf Cooperation Council?",
+    "question": "Which statement best captures the historical significance of Gulf Cooperation Council?",
     "options": [
-      "Gulf Cooperation Council is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Gulf Cooperation Council belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Arabian Peninsula & Gulf.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gulf Cooperation Council is a key part of the Arabian Peninsula & Gulf story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Gulf Cooperation Council belongs to the history of state formation and political-economic transformation across Arabia and the Gulf. Its importance comes from how it affected religious alliances, monarchy, oil, British influence and federation, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Formation of the UAE."
+        "Context",
+        "Place Gulf Cooperation Council inside the Arabian Peninsula & Gulf timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with First Saudi State to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Gulf Cooperation Council changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Gulf Cooperation Council changed about religious alliances, monarchy, oil, British influence and federation."
       ]
     ],
-    "why": "Understanding Gulf Cooperation Council helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Gulf Cooperation Council helps explain state formation and political-economic transformation across Arabia and the Gulf.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-first-saudi-state",
       "meh-wahhabism",
@@ -8362,32 +8342,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kurdish Nationalism",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Kurdish Nationalism important for understanding Middle Eastern history?",
-    "question": "Why is Kurdish Nationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kurdish Nationalism?",
+    "question": "Which statement best captures the historical significance of Kurdish Nationalism?",
     "options": [
-      "Kurdish Nationalism is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kurdish Nationalism belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kurdish Nationalism is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kurdish Nationalism belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Kurdish Nationalism inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Treaty of Sèvres and the Kurds."
+        "Connection",
+        "Compare it with Treaty of Sèvres and the Kurds to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kurdish Nationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kurdish Nationalism changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Kurdish Nationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kurdish Nationalism helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-treaty-of-sevres-and-the-kurds",
       "meh-treaty-of-lausanne-and-the-kurds",
@@ -8406,32 +8386,32 @@ export const middleEastHistoryConcepts = [
     "name": "Treaty of Sèvres and the Kurds",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Treaty of Sèvres and the Kurds important for understanding Middle Eastern history?",
-    "question": "Why is Treaty of Sèvres and the Kurds important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Treaty of Sèvres and the Kurds?",
+    "question": "Which statement best captures the historical significance of Treaty of Sèvres and the Kurds?",
     "options": [
-      "Treaty of Sèvres and the Kurds is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Treaty of Sèvres and the Kurds belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Treaty of Sèvres and the Kurds is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Treaty of Sèvres and the Kurds belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kurdish Nationalism."
+        "Context",
+        "Place Treaty of Sèvres and the Kurds inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Treaty of Lausanne and the Kurds."
+        "Connection",
+        "Compare it with Treaty of Lausanne and the Kurds to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Treaty of Sèvres and the Kurds changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Treaty of Sèvres and the Kurds changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Treaty of Sèvres and the Kurds helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Treaty of Sèvres and the Kurds helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-treaty-of-lausanne-and-the-kurds",
       "meh-mahabad-republic",
@@ -8450,32 +8430,32 @@ export const middleEastHistoryConcepts = [
     "name": "Treaty of Lausanne and the Kurds",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Treaty of Lausanne and the Kurds important for understanding Middle Eastern history?",
-    "question": "Why is Treaty of Lausanne and the Kurds important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Treaty of Lausanne and the Kurds?",
+    "question": "Which statement best captures the historical significance of Treaty of Lausanne and the Kurds?",
     "options": [
-      "Treaty of Lausanne and the Kurds is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Treaty of Lausanne and the Kurds belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Treaty of Lausanne and the Kurds is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Treaty of Lausanne and the Kurds belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Treaty of Sèvres and the Kurds."
+        "Context",
+        "Place Treaty of Lausanne and the Kurds inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mahabad Republic."
+        "Connection",
+        "Compare it with Mahabad Republic to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Treaty of Lausanne and the Kurds changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Treaty of Lausanne and the Kurds changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Treaty of Lausanne and the Kurds helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Treaty of Lausanne and the Kurds helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-mahabad-republic",
       "meh-iraqi-kurdish-autonomy-movement",
@@ -8494,32 +8474,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mahabad Republic",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Mahabad Republic important for understanding Middle Eastern history?",
-    "question": "Why is Mahabad Republic important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mahabad Republic?",
+    "question": "Which statement best captures the historical significance of Mahabad Republic?",
     "options": [
-      "Mahabad Republic is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mahabad Republic belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mahabad Republic is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mahabad Republic belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Treaty of Lausanne and the Kurds."
+        "Context",
+        "Place Mahabad Republic inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iraqi Kurdish Autonomy Movement."
+        "Connection",
+        "Compare it with Iraqi Kurdish Autonomy Movement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mahabad Republic changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mahabad Republic changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Mahabad Republic helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mahabad Republic helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-iraqi-kurdish-autonomy-movement",
       "meh-mustafa-barzani",
@@ -8538,32 +8518,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iraqi Kurdish Autonomy Movement",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Iraqi Kurdish Autonomy Movement important for understanding Middle Eastern history?",
-    "question": "Why is Iraqi Kurdish Autonomy Movement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iraqi Kurdish Autonomy Movement?",
+    "question": "Which statement best captures the historical significance of Iraqi Kurdish Autonomy Movement?",
     "options": [
-      "Iraqi Kurdish Autonomy Movement is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iraqi Kurdish Autonomy Movement belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iraqi Kurdish Autonomy Movement is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iraqi Kurdish Autonomy Movement belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Mahabad Republic."
+        "Context",
+        "Place Iraqi Kurdish Autonomy Movement inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Mustafa Barzani."
+        "Connection",
+        "Compare it with Mustafa Barzani to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iraqi Kurdish Autonomy Movement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iraqi Kurdish Autonomy Movement changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Iraqi Kurdish Autonomy Movement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iraqi Kurdish Autonomy Movement helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-mustafa-barzani",
       "meh-kurdistan-regional-government",
@@ -8582,32 +8562,32 @@ export const middleEastHistoryConcepts = [
     "name": "Mustafa Barzani",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Mustafa Barzani important for understanding Middle Eastern history?",
-    "question": "Why is Mustafa Barzani important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Mustafa Barzani?",
+    "question": "Which statement best captures the historical significance of Mustafa Barzani?",
     "options": [
-      "Mustafa Barzani is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Mustafa Barzani belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mustafa Barzani is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Mustafa Barzani belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iraqi Kurdish Autonomy Movement."
+        "Context",
+        "Place Mustafa Barzani inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kurdistan Regional Government."
+        "Connection",
+        "Compare it with Kurdistan Regional Government to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Mustafa Barzani changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Mustafa Barzani changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Mustafa Barzani helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Mustafa Barzani helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-kurdistan-regional-government",
       "meh-kurds-in-turkey",
@@ -8626,32 +8606,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kurdistan Regional Government",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Kurdistan Regional Government important for understanding Middle Eastern history?",
-    "question": "Why is Kurdistan Regional Government important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kurdistan Regional Government?",
+    "question": "Which statement best captures the historical significance of Kurdistan Regional Government?",
     "options": [
-      "Kurdistan Regional Government is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kurdistan Regional Government belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kurdistan Regional Government is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kurdistan Regional Government belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Mustafa Barzani."
+        "Context",
+        "Place Kurdistan Regional Government inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kurds in Turkey."
+        "Connection",
+        "Compare it with Kurds in Turkey to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kurdistan Regional Government changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kurdistan Regional Government changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Kurdistan Regional Government helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kurdistan Regional Government helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-kurds-in-turkey",
       "meh-kurds-in-syria",
@@ -8670,32 +8650,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kurds in Turkey",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Kurds in Turkey important for understanding Middle Eastern history?",
-    "question": "Why is Kurds in Turkey important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kurds in Turkey?",
+    "question": "Which statement best captures the historical significance of Kurds in Turkey?",
     "options": [
-      "Kurds in Turkey is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kurds in Turkey belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kurds in Turkey is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kurds in Turkey belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kurdistan Regional Government."
+        "Context",
+        "Place Kurds in Turkey inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kurds in Syria."
+        "Connection",
+        "Compare it with Kurds in Syria to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kurds in Turkey changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kurds in Turkey changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Kurds in Turkey helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kurds in Turkey helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-kurds-in-syria",
       "meh-kurds-in-iran",
@@ -8714,32 +8694,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kurds in Syria",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Kurds in Syria important for understanding Middle Eastern history?",
-    "question": "Why is Kurds in Syria important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kurds in Syria?",
+    "question": "Which statement best captures the historical significance of Kurds in Syria?",
     "options": [
-      "Kurds in Syria is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kurds in Syria belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kurds in Syria is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kurds in Syria belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kurds in Turkey."
+        "Context",
+        "Place Kurds in Syria inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Kurds in Iran."
+        "Connection",
+        "Compare it with Kurds in Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kurds in Syria changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kurds in Syria changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Kurds in Syria helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kurds in Syria helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-kurds-in-iran",
       "meh-assyrians-in-the-modern-middle-east",
@@ -8758,32 +8738,32 @@ export const middleEastHistoryConcepts = [
     "name": "Kurds in Iran",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Kurds in Iran important for understanding Middle Eastern history?",
-    "question": "Why is Kurds in Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Kurds in Iran?",
+    "question": "Which statement best captures the historical significance of Kurds in Iran?",
     "options": [
-      "Kurds in Iran is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Kurds in Iran belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kurds in Iran is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Kurds in Iran belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kurds in Syria."
+        "Context",
+        "Place Kurds in Iran inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Assyrians in the Modern Middle East."
+        "Connection",
+        "Compare it with Assyrians in the Modern Middle East to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Kurds in Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Kurds in Iran changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Kurds in Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Kurds in Iran helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-assyrians-in-the-modern-middle-east",
       "meh-armenians-in-the-ottoman-empire",
@@ -8802,32 +8782,32 @@ export const middleEastHistoryConcepts = [
     "name": "Assyrians in the Modern Middle East",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Assyrians in the Modern Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Assyrians in the Modern Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Assyrians in the Modern Middle East?",
+    "question": "Which statement best captures the historical significance of Assyrians in the Modern Middle East?",
     "options": [
-      "Assyrians in the Modern Middle East is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Assyrians in the Modern Middle East belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Assyrians in the Modern Middle East is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Assyrians in the Modern Middle East belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Kurds in Iran."
+        "Context",
+        "Place Assyrians in the Modern Middle East inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Armenians in the Ottoman Empire."
+        "Connection",
+        "Compare it with Armenians in the Ottoman Empire to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Assyrians in the Modern Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Assyrians in the Modern Middle East changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Assyrians in the Modern Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Assyrians in the Modern Middle East helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-armenians-in-the-ottoman-empire",
       "meh-armenian-genocide",
@@ -8846,32 +8826,32 @@ export const middleEastHistoryConcepts = [
     "name": "Armenians in the Ottoman Empire",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Armenians in the Ottoman Empire important for understanding Middle Eastern history?",
-    "question": "Why is Armenians in the Ottoman Empire important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Armenians in the Ottoman Empire?",
+    "question": "Which statement best captures the historical significance of Armenians in the Ottoman Empire?",
     "options": [
-      "Armenians in the Ottoman Empire is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Armenians in the Ottoman Empire belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Armenians in the Ottoman Empire is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Armenians in the Ottoman Empire belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Assyrians in the Modern Middle East."
+        "Context",
+        "Place Armenians in the Ottoman Empire inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Armenian Genocide."
+        "Connection",
+        "Compare it with Armenian Genocide to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Armenians in the Ottoman Empire changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Armenians in the Ottoman Empire changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Armenians in the Ottoman Empire helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Armenians in the Ottoman Empire helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-armenian-genocide",
       "meh-druze",
@@ -8890,32 +8870,32 @@ export const middleEastHistoryConcepts = [
     "name": "Armenian Genocide",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Armenian Genocide important for understanding Middle Eastern history?",
-    "question": "Why is Armenian Genocide important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Armenian Genocide?",
+    "question": "Which statement best captures the historical significance of Armenian Genocide?",
     "options": [
-      "Armenian Genocide is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Armenian Genocide belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Armenian Genocide is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Armenian Genocide belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Armenians in the Ottoman Empire."
+        "Context",
+        "Place Armenian Genocide inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Druze."
+        "Connection",
+        "Compare it with Druze to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Armenian Genocide changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Armenian Genocide changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Armenian Genocide helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Armenian Genocide helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-druze",
       "meh-maronites",
@@ -8934,32 +8914,32 @@ export const middleEastHistoryConcepts = [
     "name": "Druze",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Druze important for understanding Middle Eastern history?",
-    "question": "Why is Druze important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Druze?",
+    "question": "Which statement best captures the historical significance of Druze?",
     "options": [
-      "Druze is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Druze belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Druze is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Druze belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Armenian Genocide."
+        "Context",
+        "Place Druze inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Maronites."
+        "Connection",
+        "Compare it with Maronites to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Druze changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Druze changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Druze helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Druze helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-maronites",
       "meh-copts",
@@ -8978,32 +8958,32 @@ export const middleEastHistoryConcepts = [
     "name": "Maronites",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Maronites important for understanding Middle Eastern history?",
-    "question": "Why is Maronites important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Maronites?",
+    "question": "Which statement best captures the historical significance of Maronites?",
     "options": [
-      "Maronites is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Maronites belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Maronites is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Maronites belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Druze."
+        "Context",
+        "Place Maronites inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Copts."
+        "Connection",
+        "Compare it with Copts to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Maronites changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Maronites changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Maronites helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Maronites helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-copts",
       "meh-yazidis",
@@ -9022,32 +9002,32 @@ export const middleEastHistoryConcepts = [
     "name": "Copts",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Copts important for understanding Middle Eastern history?",
-    "question": "Why is Copts important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Copts?",
+    "question": "Which statement best captures the historical significance of Copts?",
     "options": [
-      "Copts is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Copts belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Copts is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Copts belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Maronites."
+        "Context",
+        "Place Copts inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Yazidis."
+        "Connection",
+        "Compare it with Yazidis to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Copts changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Copts changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Copts helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Copts helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-yazidis",
       "meh-kurdish-nationalism",
@@ -9066,32 +9046,32 @@ export const middleEastHistoryConcepts = [
     "name": "Yazidis",
     "pool": "Kurds & Minorities",
     "topic": "Kurds & Minorities",
-    "hook": "Why is Yazidis important for understanding Middle Eastern history?",
-    "question": "Why is Yazidis important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Yazidis?",
+    "question": "Which statement best captures the historical significance of Yazidis?",
     "options": [
-      "Yazidis is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Yazidis belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Kurds & Minorities.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Yazidis is a key part of the Kurds & Minorities story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Yazidis belongs to the history of the experiences and political organization of communities spanning modern states. Its importance comes from how it affected nationalism, minority status, autonomy, persecution and cross-border politics, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Copts."
+        "Context",
+        "Place Yazidis inside the Kurds & Minorities timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Kurdish Nationalism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Yazidis changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Yazidis changed about nationalism, minority status, autonomy, persecution and cross-border politics."
       ]
     ],
-    "why": "Understanding Yazidis helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Yazidis helps explain the experiences and political organization of communities spanning modern states.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-kurdish-nationalism",
       "meh-treaty-of-sevres-and-the-kurds",
@@ -9110,32 +9090,32 @@ export const middleEastHistoryConcepts = [
     "name": "Islamic Modernism",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Islamic Modernism important for understanding Middle Eastern history?",
-    "question": "Why is Islamic Modernism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Islamic Modernism?",
+    "question": "Which statement best captures the historical significance of Islamic Modernism?",
     "options": [
-      "Islamic Modernism is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Islamic Modernism belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Islamic Modernism is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Islamic Modernism belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Islamic Modernism inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Muslim Brotherhood."
+        "Connection",
+        "Compare it with Muslim Brotherhood to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Islamic Modernism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Islamic Modernism changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Islamic Modernism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Islamic Modernism helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-muslim-brotherhood",
       "meh-hassan-al-banna",
@@ -9149,32 +9129,33 @@ export const middleEastHistoryConcepts = [
     "name": "Muslim Brotherhood",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Muslim Brotherhood important for understanding Middle Eastern history?",
-    "question": "Why is Muslim Brotherhood important for understanding Middle Eastern history?",
+    "hook": "What kind of movement did Hassan al-Banna establish in Egypt in 1928?",
+    "question": "What kind of movement did Hassan al-Banna establish in Egypt in 1928?",
     "options": [
-      "Muslim Brotherhood is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "The Muslim Brotherhood developed as an Islamic social, religious and political movement advocating societal reform through Islam and later became a major current in modern Islamist politics.",
+      "A communist party",
+      "A branch of the Ottoman bureaucracy",
+      "A Zionist organization",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Muslim Brotherhood is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "The Muslim Brotherhood developed as an Islamic social, religious and political movement advocating societal reform through Islam and later became a major current in modern Islamist politics.",
     "examples": [
       [
-        "Before",
-        "Connect it to Islamic Modernism."
+        "Social organization",
+        "The Brotherhood built schools, charities, religious networks and political organization."
       ],
       [
-        "After",
-        "Follow what changed next through Hassan al-Banna."
+        "Variation",
+        "Its branches and offshoots developed differently across countries and historical periods."
       ],
       [
-        "Big picture",
-        "Ask how Muslim Brotherhood changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Political Islam rabbit hole to see how Muslim Brotherhood connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Muslim Brotherhood helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Muslim Brotherhood matters because it changed or reveals movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-hassan-al-banna",
       "meh-sayyid-qutb",
@@ -9188,32 +9169,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hassan al-Banna",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Hassan al-Banna important for understanding Middle Eastern history?",
-    "question": "Why is Hassan al-Banna important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hassan al-Banna?",
+    "question": "Which statement best captures the historical significance of Hassan al-Banna?",
     "options": [
-      "Hassan al-Banna is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hassan al-Banna belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hassan al-Banna is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hassan al-Banna belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Muslim Brotherhood."
+        "Context",
+        "Place Hassan al-Banna inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sayyid Qutb."
+        "Connection",
+        "Compare it with Sayyid Qutb to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hassan al-Banna changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hassan al-Banna changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Hassan al-Banna helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hassan al-Banna helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-sayyid-qutb",
       "meh-political-islam",
@@ -9227,32 +9208,33 @@ export const middleEastHistoryConcepts = [
     "name": "Sayyid Qutb",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Sayyid Qutb important for understanding Middle Eastern history?",
-    "question": "Why is Sayyid Qutb important for understanding Middle Eastern history?",
+    "hook": "Why is Sayyid Qutb influential in the history of modern Islamism?",
+    "question": "Why is Sayyid Qutb influential in the history of modern Islamism?",
     "options": [
-      "Sayyid Qutb is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Qutb developed a radical critique of contemporary society and political authority, especially in his later prison writings, influencing later Islamist and jihadist currents while not representing all Islamist thought.",
+      "He founded the Ba'ath Party",
+      "He was president of Egypt",
+      "He led the Iranian Revolution",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sayyid Qutb is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Qutb developed a radical critique of contemporary society and political authority, especially in his later prison writings, influencing later Islamist and jihadist currents while not representing all Islamist thought.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hassan al-Banna."
+        "Brotherhood",
+        "Qutb became a prominent Muslim Brotherhood intellectual and was executed by the Egyptian state in 1966."
       ],
       [
-        "After",
-        "Follow what changed next through Political Islam."
+        "Influence",
+        "Later movements selectively interpreted his concepts, particularly jahiliyya and hakimiyya, in different ways."
       ],
       [
-        "Big picture",
-        "Ask how Sayyid Qutb changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Political Islam rabbit hole to see how Sayyid Qutb connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Sayyid Qutb helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sayyid Qutb matters because it changed or reveals movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-political-islam",
       "meh-salafism",
@@ -9266,32 +9248,32 @@ export const middleEastHistoryConcepts = [
     "name": "Political Islam",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Political Islam important for understanding Middle Eastern history?",
-    "question": "Why is Political Islam important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Political Islam?",
+    "question": "Which statement best captures the historical significance of Political Islam?",
     "options": [
-      "Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sayyid Qutb."
+        "Context",
+        "Place Political Islam inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Salafism."
+        "Connection",
+        "Compare it with Salafism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Political Islam changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Political Islam changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Political Islam helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Political Islam helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-salafism",
       "meh-islamism-after-1967",
@@ -9305,32 +9287,32 @@ export const middleEastHistoryConcepts = [
     "name": "Salafism",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Salafism important for understanding Middle Eastern history?",
-    "question": "Why is Salafism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Salafism?",
+    "question": "Which statement best captures the historical significance of Salafism?",
     "options": [
-      "Salafism is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Salafism belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Salafism is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Salafism belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Political Islam."
+        "Context",
+        "Place Salafism inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Islamism after 1967."
+        "Connection",
+        "Compare it with Islamism after 1967 to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Salafism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Salafism changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Salafism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Salafism helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-islamism-after-1967",
       "meh-iranian-revolutionary-islam",
@@ -9344,32 +9326,32 @@ export const middleEastHistoryConcepts = [
     "name": "Islamism after 1967",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Islamism after 1967 important for understanding Middle Eastern history?",
-    "question": "Why is Islamism after 1967 important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Islamism after 1967?",
+    "question": "Which statement best captures the historical significance of Islamism after 1967?",
     "options": [
-      "Islamism after 1967 is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Islamism after 1967 belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Islamism after 1967 is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Islamism after 1967 belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Salafism."
+        "Context",
+        "Place Islamism after 1967 inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Iranian Revolutionary Islam."
+        "Connection",
+        "Compare it with Iranian Revolutionary Islam to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Islamism after 1967 changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Islamism after 1967 changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Islamism after 1967 helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Islamism after 1967 helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-iranian-revolutionary-islam",
       "meh-hezbollah-and-political-islam",
@@ -9383,32 +9365,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iranian Revolutionary Islam",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Iranian Revolutionary Islam important for understanding Middle Eastern history?",
-    "question": "Why is Iranian Revolutionary Islam important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iranian Revolutionary Islam?",
+    "question": "Which statement best captures the historical significance of Iranian Revolutionary Islam?",
     "options": [
-      "Iranian Revolutionary Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iranian Revolutionary Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iranian Revolutionary Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iranian Revolutionary Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Islamism after 1967."
+        "Context",
+        "Place Iranian Revolutionary Islam inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hezbollah and Political Islam."
+        "Connection",
+        "Compare it with Hezbollah and Political Islam to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iranian Revolutionary Islam changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iranian Revolutionary Islam changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Iranian Revolutionary Islam helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iranian Revolutionary Islam helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-hezbollah-and-political-islam",
       "meh-hamas-and-political-islam",
@@ -9422,32 +9404,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hezbollah and Political Islam",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Hezbollah and Political Islam important for understanding Middle Eastern history?",
-    "question": "Why is Hezbollah and Political Islam important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hezbollah and Political Islam?",
+    "question": "Which statement best captures the historical significance of Hezbollah and Political Islam?",
     "options": [
-      "Hezbollah and Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hezbollah and Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hezbollah and Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hezbollah and Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Iranian Revolutionary Islam."
+        "Context",
+        "Place Hezbollah and Political Islam inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Hamas and Political Islam."
+        "Connection",
+        "Compare it with Hamas and Political Islam to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hezbollah and Political Islam changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hezbollah and Political Islam changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Hezbollah and Political Islam helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hezbollah and Political Islam helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-hamas-and-political-islam",
       "meh-islamic-modernism",
@@ -9461,32 +9443,32 @@ export const middleEastHistoryConcepts = [
     "name": "Hamas and Political Islam",
     "pool": "Political Islam",
     "topic": "Political Islam",
-    "hook": "Why is Hamas and Political Islam important for understanding Middle Eastern history?",
-    "question": "Why is Hamas and Political Islam important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Hamas and Political Islam?",
+    "question": "Which statement best captures the historical significance of Hamas and Political Islam?",
     "options": [
-      "Hamas and Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Hamas and Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Political Islam.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hamas and Political Islam is a key part of the Political Islam story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Hamas and Political Islam belongs to the history of movements that sought to organize politics through Islamic ideas and institutions. Its importance comes from how it affected reform, organization, ideology and changing responses to modern states, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Hezbollah and Political Islam."
+        "Context",
+        "Place Hamas and Political Islam inside the Political Islam timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Islamic Modernism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Hamas and Political Islam changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Hamas and Political Islam changed about reform, organization, ideology and changing responses to modern states."
       ]
     ],
-    "why": "Understanding Hamas and Political Islam helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Hamas and Political Islam helps explain movements that sought to organize politics through Islamic ideas and institutions.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-islamic-modernism",
       "meh-muslim-brotherhood",
@@ -9500,32 +9482,32 @@ export const middleEastHistoryConcepts = [
     "name": "Middle Eastern Oil Concessions",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Middle Eastern Oil Concessions important for understanding Middle Eastern history?",
-    "question": "Why is Middle Eastern Oil Concessions important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Middle Eastern Oil Concessions?",
+    "question": "Which statement best captures the historical significance of Middle Eastern Oil Concessions?",
     "options": [
-      "Middle Eastern Oil Concessions is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Middle Eastern Oil Concessions belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Middle Eastern Oil Concessions is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Middle Eastern Oil Concessions belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Middle Eastern Oil Concessions inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Discovery of Oil in Iran."
+        "Connection",
+        "Compare it with Discovery of Oil in Iran to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Middle Eastern Oil Concessions changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Middle Eastern Oil Concessions changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Middle Eastern Oil Concessions helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Middle Eastern Oil Concessions helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-discovery-of-oil-in-iran",
       "meh-discovery-of-oil-in-iraq",
@@ -9539,32 +9521,32 @@ export const middleEastHistoryConcepts = [
     "name": "Discovery of Oil in Iran",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Discovery of Oil in Iran important for understanding Middle Eastern history?",
-    "question": "Why is Discovery of Oil in Iran important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Discovery of Oil in Iran?",
+    "question": "Which statement best captures the historical significance of Discovery of Oil in Iran?",
     "options": [
-      "Discovery of Oil in Iran is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Discovery of Oil in Iran belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Discovery of Oil in Iran is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Discovery of Oil in Iran belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Middle Eastern Oil Concessions."
+        "Context",
+        "Place Discovery of Oil in Iran inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Discovery of Oil in Iraq."
+        "Connection",
+        "Compare it with Discovery of Oil in Iraq to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Discovery of Oil in Iran changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Discovery of Oil in Iran changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Discovery of Oil in Iran helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Discovery of Oil in Iran helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-discovery-of-oil-in-iraq",
       "meh-discovery-of-oil-in-saudi-arabia",
@@ -9578,32 +9560,32 @@ export const middleEastHistoryConcepts = [
     "name": "Discovery of Oil in Iraq",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Discovery of Oil in Iraq important for understanding Middle Eastern history?",
-    "question": "Why is Discovery of Oil in Iraq important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Discovery of Oil in Iraq?",
+    "question": "Which statement best captures the historical significance of Discovery of Oil in Iraq?",
     "options": [
-      "Discovery of Oil in Iraq is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Discovery of Oil in Iraq belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Discovery of Oil in Iraq is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Discovery of Oil in Iraq belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Discovery of Oil in Iran."
+        "Context",
+        "Place Discovery of Oil in Iraq inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Discovery of Oil in Saudi Arabia."
+        "Connection",
+        "Compare it with Discovery of Oil in Saudi Arabia to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Discovery of Oil in Iraq changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Discovery of Oil in Iraq changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Discovery of Oil in Iraq helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Discovery of Oil in Iraq helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-discovery-of-oil-in-saudi-arabia",
       "meh-oil-nationalization",
@@ -9617,32 +9599,32 @@ export const middleEastHistoryConcepts = [
     "name": "Discovery of Oil in Saudi Arabia",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Discovery of Oil in Saudi Arabia important for understanding Middle Eastern history?",
-    "question": "Why is Discovery of Oil in Saudi Arabia important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Discovery of Oil in Saudi Arabia?",
+    "question": "Which statement best captures the historical significance of Discovery of Oil in Saudi Arabia?",
     "options": [
-      "Discovery of Oil in Saudi Arabia is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Discovery of Oil in Saudi Arabia belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Discovery of Oil in Saudi Arabia is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Discovery of Oil in Saudi Arabia belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Discovery of Oil in Iraq."
+        "Context",
+        "Place Discovery of Oil in Saudi Arabia inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Oil Nationalization."
+        "Connection",
+        "Compare it with Oil Nationalization to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Discovery of Oil in Saudi Arabia changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Discovery of Oil in Saudi Arabia changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Discovery of Oil in Saudi Arabia helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Discovery of Oil in Saudi Arabia helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-oil-nationalization",
       "meh-opec",
@@ -9656,32 +9638,32 @@ export const middleEastHistoryConcepts = [
     "name": "Oil Nationalization",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Oil Nationalization important for understanding Middle Eastern history?",
-    "question": "Why is Oil Nationalization important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Oil Nationalization?",
+    "question": "Which statement best captures the historical significance of Oil Nationalization?",
     "options": [
-      "Oil Nationalization is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Oil Nationalization belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Oil Nationalization is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Oil Nationalization belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Discovery of Oil in Saudi Arabia."
+        "Context",
+        "Place Oil Nationalization inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through OPEC."
+        "Connection",
+        "Compare it with OPEC to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Oil Nationalization changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Oil Nationalization changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Oil Nationalization helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Oil Nationalization helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-opec",
       "meh-rentier-state",
@@ -9695,32 +9677,33 @@ export const middleEastHistoryConcepts = [
     "name": "OPEC",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is OPEC important for understanding Middle Eastern history?",
-    "question": "Why is OPEC important for understanding Middle Eastern history?",
+    "hook": "Why was OPEC founded in 1960?",
+    "question": "Why was OPEC founded in 1960?",
     "options": [
-      "OPEC is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Oil-exporting states created OPEC to coordinate petroleum policies and strengthen producer influence in a global oil system then dominated heavily by major international oil companies.",
+      "To abolish oil exports",
+      "To create a military alliance",
+      "To replace the Arab League",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "OPEC is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Oil-exporting states created OPEC to coordinate petroleum policies and strengthen producer influence in a global oil system then dominated heavily by major international oil companies.",
     "examples": [
       [
-        "Before",
-        "Connect it to Oil Nationalization."
+        "Founders",
+        "The founding members were Iran, Iraq, Kuwait, Saudi Arabia and Venezuela."
       ],
       [
-        "After",
-        "Follow what changed next through Rentier State."
+        "Power shift",
+        "OPEC became part of a broader shift toward greater producer-state control over petroleum resources."
       ],
       [
-        "Big picture",
-        "Ask how OPEC changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Oil & Political Economy rabbit hole to see how OPEC connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding OPEC helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "OPEC matters because it changed or reveals how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rentier-state",
       "meh-resource-curse-in-the-middle-east",
@@ -9734,32 +9717,33 @@ export const middleEastHistoryConcepts = [
     "name": "Rentier State",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Rentier State important for understanding Middle Eastern history?",
-    "question": "Why is Rentier State important for understanding Middle Eastern history?",
+    "hook": "What is a rentier state?",
+    "question": "What is a rentier state?",
     "options": [
-      "Rentier State is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "A rentier-state model describes governments that receive a large share of revenue from external rents such as oil rather than broad domestic taxation, potentially changing state-society bargaining and patronage.",
+      "A state with no natural resources",
+      "Any country with high income taxes",
+      "A government without public spending",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rentier State is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "A rentier-state model describes governments that receive a large share of revenue from external rents such as oil rather than broad domestic taxation, potentially changing state-society bargaining and patronage.",
     "examples": [
       [
-        "Before",
-        "Connect it to OPEC."
+        "Gulf relevance",
+        "The concept is often applied to oil-exporting Middle Eastern states."
       ],
       [
-        "After",
-        "Follow what changed next through Resource Curse in the Middle East."
+        "Caveat",
+        "Oil wealth does not mechanically determine political outcomes; institutions, history and social structure matter."
       ],
       [
-        "Big picture",
-        "Ask how Rentier State changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Oil & Political Economy rabbit hole to see how Rentier State connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Rentier State helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rentier State matters because it changed or reveals how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-resource-curse-in-the-middle-east",
       "meh-1973-oil-embargo",
@@ -9773,32 +9757,32 @@ export const middleEastHistoryConcepts = [
     "name": "Resource Curse in the Middle East",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Resource Curse in the Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Resource Curse in the Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Resource Curse in the Middle East?",
+    "question": "Which statement best captures the historical significance of Resource Curse in the Middle East?",
     "options": [
-      "Resource Curse in the Middle East is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Resource Curse in the Middle East belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Resource Curse in the Middle East is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Resource Curse in the Middle East belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Rentier State."
+        "Context",
+        "Place Resource Curse in the Middle East inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1973 Oil Embargo."
+        "Connection",
+        "Compare it with 1973 Oil Embargo to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Resource Curse in the Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Resource Curse in the Middle East changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Resource Curse in the Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Resource Curse in the Middle East helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1973-oil-embargo",
       "meh-petrodollars",
@@ -9812,32 +9796,33 @@ export const middleEastHistoryConcepts = [
     "name": "1973 Oil Embargo",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is 1973 Oil Embargo important for understanding Middle Eastern history?",
-    "question": "Why is 1973 Oil Embargo important for understanding Middle Eastern history?",
+    "hook": "Why did the 1973 oil crisis have global consequences?",
+    "question": "Why did the 1973 oil crisis have global consequences?",
     "options": [
-      "1973 Oil Embargo is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "During the October 1973 Arab–Israeli war, Arab oil exporters imposed an embargo on selected states and reduced production, contributing to sharp price increases and demonstrating the geopolitical importance of oil.",
+      "It permanently ended global oil trade",
+      "It was imposed by Iran against Arab states",
+      "It caused the 1967 war",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1973 Oil Embargo is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "During the October 1973 Arab–Israeli war, Arab oil exporters imposed an embargo on selected states and reduced production, contributing to sharp price increases and demonstrating the geopolitical importance of oil.",
     "examples": [
       [
-        "Before",
-        "Connect it to Resource Curse in the Middle East."
+        "Global economy",
+        "Higher energy prices contributed to inflation and economic disruption in oil-importing economies."
       ],
       [
-        "After",
-        "Follow what changed next through Petrodollars."
+        "Political economy",
+        "The price boom dramatically increased revenues for many oil-producing states."
       ],
       [
-        "Big picture",
-        "Ask how 1973 Oil Embargo changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Oil & Political Economy rabbit hole to see how 1973 Oil Embargo connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding 1973 Oil Embargo helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1973 Oil Embargo matters because it changed or reveals how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-petrodollars",
       "meh-gulf-labor-migration",
@@ -9851,32 +9836,32 @@ export const middleEastHistoryConcepts = [
     "name": "Petrodollars",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Petrodollars important for understanding Middle Eastern history?",
-    "question": "Why is Petrodollars important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Petrodollars?",
+    "question": "Which statement best captures the historical significance of Petrodollars?",
     "options": [
-      "Petrodollars is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Petrodollars belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Petrodollars is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Petrodollars belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to 1973 Oil Embargo."
+        "Context",
+        "Place Petrodollars inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Gulf Labor Migration."
+        "Connection",
+        "Compare it with Gulf Labor Migration to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Petrodollars changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Petrodollars changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Petrodollars helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Petrodollars helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-gulf-labor-migration",
       "meh-sovereign-wealth-funds",
@@ -9890,32 +9875,32 @@ export const middleEastHistoryConcepts = [
     "name": "Gulf Labor Migration",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Gulf Labor Migration important for understanding Middle Eastern history?",
-    "question": "Why is Gulf Labor Migration important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Gulf Labor Migration?",
+    "question": "Which statement best captures the historical significance of Gulf Labor Migration?",
     "options": [
-      "Gulf Labor Migration is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Gulf Labor Migration belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gulf Labor Migration is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Gulf Labor Migration belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Petrodollars."
+        "Context",
+        "Place Gulf Labor Migration inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sovereign Wealth Funds."
+        "Connection",
+        "Compare it with Sovereign Wealth Funds to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Gulf Labor Migration changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Gulf Labor Migration changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Gulf Labor Migration helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Gulf Labor Migration helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-sovereign-wealth-funds",
       "meh-oil-and-state-building",
@@ -9929,32 +9914,32 @@ export const middleEastHistoryConcepts = [
     "name": "Sovereign Wealth Funds",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Sovereign Wealth Funds important for understanding Middle Eastern history?",
-    "question": "Why is Sovereign Wealth Funds important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Sovereign Wealth Funds?",
+    "question": "Which statement best captures the historical significance of Sovereign Wealth Funds?",
     "options": [
-      "Sovereign Wealth Funds is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Sovereign Wealth Funds belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sovereign Wealth Funds is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Sovereign Wealth Funds belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Gulf Labor Migration."
+        "Context",
+        "Place Sovereign Wealth Funds inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Oil and State Building."
+        "Connection",
+        "Compare it with Oil and State Building to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Sovereign Wealth Funds changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Sovereign Wealth Funds changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Sovereign Wealth Funds helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sovereign Wealth Funds helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-oil-and-state-building",
       "meh-middle-eastern-oil-concessions",
@@ -9968,32 +9953,32 @@ export const middleEastHistoryConcepts = [
     "name": "Oil and State Building",
     "pool": "Oil & Political Economy",
     "topic": "Oil & Political Economy",
-    "hook": "Why is Oil and State Building important for understanding Middle Eastern history?",
-    "question": "Why is Oil and State Building important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Oil and State Building?",
+    "question": "Which statement best captures the historical significance of Oil and State Building?",
     "options": [
-      "Oil and State Building is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Oil and State Building belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Oil & Political Economy.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Oil and State Building is a key part of the Oil & Political Economy story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Oil and State Building belongs to the history of how petroleum reshaped states, societies and international relationships. Its importance comes from how it affected concessions, nationalization, rents, migration and state-building, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sovereign Wealth Funds."
+        "Context",
+        "Place Oil and State Building inside the Oil & Political Economy timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Middle Eastern Oil Concessions to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Oil and State Building changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Oil and State Building changed about concessions, nationalization, rents, migration and state-building."
       ]
     ],
-    "why": "Understanding Oil and State Building helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Oil and State Building helps explain how petroleum reshaped states, societies and international relationships.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-middle-eastern-oil-concessions",
       "meh-discovery-of-oil-in-iran",
@@ -10007,32 +9992,32 @@ export const middleEastHistoryConcepts = [
     "name": "Middle East Cold War",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Middle East Cold War important for understanding Middle Eastern history?",
-    "question": "Why is Middle East Cold War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Middle East Cold War?",
+    "question": "Which statement best captures the historical significance of Middle East Cold War?",
     "options": [
-      "Middle East Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Middle East Cold War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Middle East Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Middle East Cold War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Middle East Cold War inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Baghdad Pact."
+        "Connection",
+        "Compare it with Baghdad Pact to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Middle East Cold War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Middle East Cold War changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Middle East Cold War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Middle East Cold War helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-baghdad-pact",
       "meh-eisenhower-doctrine",
@@ -10046,32 +10031,32 @@ export const middleEastHistoryConcepts = [
     "name": "Baghdad Pact",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Baghdad Pact important for understanding Middle Eastern history?",
-    "question": "Why is Baghdad Pact important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Baghdad Pact?",
+    "question": "Which statement best captures the historical significance of Baghdad Pact?",
     "options": [
-      "Baghdad Pact is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Baghdad Pact belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Baghdad Pact is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Baghdad Pact belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Middle East Cold War."
+        "Context",
+        "Place Baghdad Pact inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Eisenhower Doctrine."
+        "Connection",
+        "Compare it with Eisenhower Doctrine to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Baghdad Pact changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Baghdad Pact changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Baghdad Pact helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Baghdad Pact helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-eisenhower-doctrine",
       "meh-soviet-egyptian-relations",
@@ -10085,32 +10070,32 @@ export const middleEastHistoryConcepts = [
     "name": "Eisenhower Doctrine",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Eisenhower Doctrine important for understanding Middle Eastern history?",
-    "question": "Why is Eisenhower Doctrine important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Eisenhower Doctrine?",
+    "question": "Which statement best captures the historical significance of Eisenhower Doctrine?",
     "options": [
-      "Eisenhower Doctrine is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Eisenhower Doctrine belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Eisenhower Doctrine is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Eisenhower Doctrine belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Baghdad Pact."
+        "Context",
+        "Place Eisenhower Doctrine inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Soviet–Egyptian Relations."
+        "Connection",
+        "Compare it with Soviet–Egyptian Relations to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Eisenhower Doctrine changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Eisenhower Doctrine changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Eisenhower Doctrine helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Eisenhower Doctrine helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-soviet-egyptian-relations",
       "meh-us-israeli-strategic-relationship",
@@ -10124,32 +10109,32 @@ export const middleEastHistoryConcepts = [
     "name": "Soviet–Egyptian Relations",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Soviet–Egyptian Relations important for understanding Middle Eastern history?",
-    "question": "Why is Soviet–Egyptian Relations important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Soviet–Egyptian Relations?",
+    "question": "Which statement best captures the historical significance of Soviet–Egyptian Relations?",
     "options": [
-      "Soviet–Egyptian Relations is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Soviet–Egyptian Relations belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Soviet–Egyptian Relations is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Soviet–Egyptian Relations belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Eisenhower Doctrine."
+        "Context",
+        "Place Soviet–Egyptian Relations inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through US–Israeli Strategic Relationship."
+        "Connection",
+        "Compare it with US–Israeli Strategic Relationship to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Soviet–Egyptian Relations changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Soviet–Egyptian Relations changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Soviet–Egyptian Relations helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Soviet–Egyptian Relations helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-us-israeli-strategic-relationship",
       "meh-arab-cold-war",
@@ -10163,32 +10148,32 @@ export const middleEastHistoryConcepts = [
     "name": "US–Israeli Strategic Relationship",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is US–Israeli Strategic Relationship important for understanding Middle Eastern history?",
-    "question": "Why is US–Israeli Strategic Relationship important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of US–Israeli Strategic Relationship?",
+    "question": "Which statement best captures the historical significance of US–Israeli Strategic Relationship?",
     "options": [
-      "US–Israeli Strategic Relationship is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "US–Israeli Strategic Relationship belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "US–Israeli Strategic Relationship is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "US–Israeli Strategic Relationship belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Soviet–Egyptian Relations."
+        "Context",
+        "Place US–Israeli Strategic Relationship inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Arab Cold War."
+        "Connection",
+        "Compare it with Arab Cold War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how US–Israeli Strategic Relationship changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what US–Israeli Strategic Relationship changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding US–Israeli Strategic Relationship helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "US–Israeli Strategic Relationship helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-arab-cold-war",
       "meh-north-yemen-civil-war",
@@ -10197,76 +10182,37 @@ export const middleEastHistoryConcepts = [
     ]
   },
   {
-    "id": "meh-arab-cold-war",
-    "world": "middle-east",
-    "name": "Arab Cold War",
-    "pool": "Cold War Middle East",
-    "topic": "Cold War Middle East",
-    "hook": "Why is Arab Cold War important for understanding Middle Eastern history?",
-    "question": "Why is Arab Cold War important for understanding Middle Eastern history?",
-    "options": [
-      "Arab Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Arab Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-    "examples": [
-      [
-        "Before",
-        "Connect it to US–Israeli Strategic Relationship."
-      ],
-      [
-        "After",
-        "Follow what changed next through North Yemen Civil War."
-      ],
-      [
-        "Big picture",
-        "Ask how Arab Cold War changed power, identity, institutions, borders, economic life or relations between communities."
-      ]
-    ],
-    "why": "Understanding Arab Cold War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
-    "related": [
-      "meh-north-yemen-civil-war",
-      "meh-black-september-in-jordan",
-      "meh-lebanese-civil-war-and-the-cold-war",
-      "meh-afghan-jihad-and-the-arab-world"
-    ]
-  },
-  {
     "id": "meh-north-yemen-civil-war",
     "world": "middle-east",
     "name": "North Yemen Civil War",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is North Yemen Civil War important for understanding Middle Eastern history?",
-    "question": "Why is North Yemen Civil War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of North Yemen Civil War?",
+    "question": "Which statement best captures the historical significance of North Yemen Civil War?",
     "options": [
-      "North Yemen Civil War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "North Yemen Civil War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "North Yemen Civil War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "North Yemen Civil War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Cold War."
+        "Context",
+        "Place North Yemen Civil War inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Black September in Jordan."
+        "Connection",
+        "Compare it with Black September in Jordan to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how North Yemen Civil War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what North Yemen Civil War changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding North Yemen Civil War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "North Yemen Civil War helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-black-september-in-jordan",
       "meh-lebanese-civil-war-and-the-cold-war",
@@ -10280,32 +10226,32 @@ export const middleEastHistoryConcepts = [
     "name": "Black September in Jordan",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Black September in Jordan important for understanding Middle Eastern history?",
-    "question": "Why is Black September in Jordan important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Black September in Jordan?",
+    "question": "Which statement best captures the historical significance of Black September in Jordan?",
     "options": [
-      "Black September in Jordan is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Black September in Jordan belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Black September in Jordan is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Black September in Jordan belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to North Yemen Civil War."
+        "Context",
+        "Place Black September in Jordan inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Lebanese Civil War and the Cold War."
+        "Connection",
+        "Compare it with Lebanese Civil War and the Cold War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Black September in Jordan changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Black September in Jordan changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Black September in Jordan helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Black September in Jordan helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-lebanese-civil-war-and-the-cold-war",
       "meh-afghan-jihad-and-the-arab-world",
@@ -10319,32 +10265,32 @@ export const middleEastHistoryConcepts = [
     "name": "Lebanese Civil War and the Cold War",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Lebanese Civil War and the Cold War important for understanding Middle Eastern history?",
-    "question": "Why is Lebanese Civil War and the Cold War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Lebanese Civil War and the Cold War?",
+    "question": "Which statement best captures the historical significance of Lebanese Civil War and the Cold War?",
     "options": [
-      "Lebanese Civil War and the Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Lebanese Civil War and the Cold War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Lebanese Civil War and the Cold War is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Lebanese Civil War and the Cold War belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Black September in Jordan."
+        "Context",
+        "Place Lebanese Civil War and the Cold War inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Afghan Jihad and the Arab World."
+        "Connection",
+        "Compare it with Afghan Jihad and the Arab World to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Lebanese Civil War and the Cold War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Lebanese Civil War and the Cold War changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Lebanese Civil War and the Cold War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Lebanese Civil War and the Cold War helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-afghan-jihad-and-the-arab-world",
       "meh-1979-as-a-middle-eastern-turning-point",
@@ -10358,32 +10304,32 @@ export const middleEastHistoryConcepts = [
     "name": "Afghan Jihad and the Arab World",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is Afghan Jihad and the Arab World important for understanding Middle Eastern history?",
-    "question": "Why is Afghan Jihad and the Arab World important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Afghan Jihad and the Arab World?",
+    "question": "Which statement best captures the historical significance of Afghan Jihad and the Arab World?",
     "options": [
-      "Afghan Jihad and the Arab World is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Afghan Jihad and the Arab World belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Afghan Jihad and the Arab World is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Afghan Jihad and the Arab World belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Lebanese Civil War and the Cold War."
+        "Context",
+        "Place Afghan Jihad and the Arab World inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through 1979 as a Middle Eastern Turning Point."
+        "Connection",
+        "Compare it with 1979 as a Middle Eastern Turning Point to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Afghan Jihad and the Arab World changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Afghan Jihad and the Arab World changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding Afghan Jihad and the Arab World helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Afghan Jihad and the Arab World helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1979-as-a-middle-eastern-turning-point",
       "meh-middle-east-cold-war",
@@ -10397,32 +10343,32 @@ export const middleEastHistoryConcepts = [
     "name": "1979 as a Middle Eastern Turning Point",
     "pool": "Cold War Middle East",
     "topic": "Cold War Middle East",
-    "hook": "Why is 1979 as a Middle Eastern Turning Point important for understanding Middle Eastern history?",
-    "question": "Why is 1979 as a Middle Eastern Turning Point important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of 1979 as a Middle Eastern Turning Point?",
+    "question": "Which statement best captures the historical significance of 1979 as a Middle Eastern Turning Point?",
     "options": [
-      "1979 as a Middle Eastern Turning Point is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "1979 as a Middle Eastern Turning Point belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Cold War Middle East.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1979 as a Middle Eastern Turning Point is a key part of the Cold War Middle East story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "1979 as a Middle Eastern Turning Point belongs to the history of how regional rivalries interacted with global superpower competition. Its importance comes from how it affected alliances, proxy conflicts, nationalism and external intervention, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Afghan Jihad and the Arab World."
+        "Context",
+        "Place 1979 as a Middle Eastern Turning Point inside the Cold War Middle East timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Middle East Cold War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how 1979 as a Middle Eastern Turning Point changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what 1979 as a Middle Eastern Turning Point changed about alliances, proxy conflicts, nationalism and external intervention."
       ]
     ],
-    "why": "Understanding 1979 as a Middle Eastern Turning Point helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "1979 as a Middle Eastern Turning Point helps explain how regional rivalries interacted with global superpower competition.",
+    "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-middle-east-cold-war",
       "meh-baghdad-pact",
@@ -10436,32 +10382,32 @@ export const middleEastHistoryConcepts = [
     "name": "Iranian Revolution",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Iranian Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Iranian Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Iranian Revolution?",
+    "question": "Which statement best captures the historical significance of Iranian Revolution?",
     "options": [
-      "Iranian Revolution is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Iranian Revolution belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iranian Revolution is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Iranian Revolution belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Iranian Revolution inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through First Intifada."
+        "Connection",
+        "Compare it with First Intifada to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Iranian Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Iranian Revolution changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Iranian Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Iranian Revolution helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-first-intifada",
       "meh-second-intifada",
@@ -10470,115 +10416,38 @@ export const middleEastHistoryConcepts = [
     ]
   },
   {
-    "id": "meh-first-intifada",
-    "world": "middle-east",
-    "name": "First Intifada",
-    "pool": "Revolutions & Uprisings",
-    "topic": "Revolutions & Uprisings",
-    "hook": "Why is First Intifada important for understanding Middle Eastern history?",
-    "question": "Why is First Intifada important for understanding Middle Eastern history?",
-    "options": [
-      "First Intifada is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "First Intifada is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-    "examples": [
-      [
-        "Before",
-        "Connect it to Iranian Revolution."
-      ],
-      [
-        "After",
-        "Follow what changed next through Second Intifada."
-      ],
-      [
-        "Big picture",
-        "Ask how First Intifada changed power, identity, institutions, borders, economic life or relations between communities."
-      ]
-    ],
-    "why": "Understanding First Intifada helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
-    "related": [
-      "meh-second-intifada",
-      "meh-arab-spring",
-      "meh-tunisian-revolution",
-      "meh-egyptian-uprising"
-    ]
-  },
-  {
-    "id": "meh-second-intifada",
-    "world": "middle-east",
-    "name": "Second Intifada",
-    "pool": "Revolutions & Uprisings",
-    "topic": "Revolutions & Uprisings",
-    "hook": "Why is Second Intifada important for understanding Middle Eastern history?",
-    "question": "Why is Second Intifada important for understanding Middle Eastern history?",
-    "options": [
-      "Second Intifada is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Second Intifada is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-    "examples": [
-      [
-        "Before",
-        "Connect it to First Intifada."
-      ],
-      [
-        "After",
-        "Follow what changed next through Arab Spring."
-      ],
-      [
-        "Big picture",
-        "Ask how Second Intifada changed power, identity, institutions, borders, economic life or relations between communities."
-      ]
-    ],
-    "why": "Understanding Second Intifada helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
-    "related": [
-      "meh-arab-spring",
-      "meh-tunisian-revolution",
-      "meh-egyptian-uprising",
-      "meh-libyan-uprising-and-civil-war"
-    ]
-  },
-  {
     "id": "meh-arab-spring",
     "world": "middle-east",
     "name": "Arab Spring",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Arab Spring important for understanding Middle Eastern history?",
-    "question": "Why is Arab Spring important for understanding Middle Eastern history?",
+    "hook": "What connected the uprisings called the Arab Spring?",
+    "question": "What connected the uprisings called the Arab Spring?",
     "options": [
-      "Arab Spring is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Beginning in Tunisia in late 2010, mass protests challenged entrenched governments across several Arab states, but their causes, participants and outcomes differed substantially by country.",
+      "Every Arab government was overthrown",
+      "The uprisings were centrally coordinated by one organization",
+      "They produced the same political system everywhere",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Arab Spring is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Beginning in Tunisia in late 2010, mass protests challenged entrenched governments across several Arab states, but their causes, participants and outcomes differed substantially by country.",
     "examples": [
       [
-        "Before",
-        "Connect it to Second Intifada."
+        "Diffusion",
+        "Tunisia's revolution helped demonstrate that a long-standing ruler could be removed, encouraging mobilization elsewhere."
       ],
       [
-        "After",
-        "Follow what changed next through Tunisian Revolution."
+        "Divergent outcomes",
+        "Transitions, restoration, repression, civil war and foreign intervention produced sharply different trajectories."
       ],
       [
-        "Big picture",
-        "Ask how Arab Spring changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Revolutions & Uprisings rabbit hole to see how Arab Spring connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Arab Spring helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Arab Spring matters because it changed or reveals major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-tunisian-revolution",
       "meh-egyptian-uprising",
@@ -10592,32 +10461,32 @@ export const middleEastHistoryConcepts = [
     "name": "Tunisian Revolution",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Tunisian Revolution important for understanding Middle Eastern history?",
-    "question": "Why is Tunisian Revolution important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Tunisian Revolution?",
+    "question": "Which statement best captures the historical significance of Tunisian Revolution?",
     "options": [
-      "Tunisian Revolution is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Tunisian Revolution belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tunisian Revolution is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Tunisian Revolution belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Arab Spring."
+        "Context",
+        "Place Tunisian Revolution inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Egyptian Uprising."
+        "Connection",
+        "Compare it with Egyptian Uprising to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Tunisian Revolution changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Tunisian Revolution changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Tunisian Revolution helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Tunisian Revolution helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-egyptian-uprising",
       "meh-libyan-uprising-and-civil-war",
@@ -10631,32 +10500,32 @@ export const middleEastHistoryConcepts = [
     "name": "Egyptian Uprising",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Egyptian Uprising important for understanding Middle Eastern history?",
-    "question": "Why is Egyptian Uprising important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Egyptian Uprising?",
+    "question": "Which statement best captures the historical significance of Egyptian Uprising?",
     "options": [
-      "Egyptian Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Egyptian Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Egyptian Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Egyptian Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Tunisian Revolution."
+        "Context",
+        "Place Egyptian Uprising inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Libyan Uprising and Civil War."
+        "Connection",
+        "Compare it with Libyan Uprising and Civil War to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Egyptian Uprising changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Egyptian Uprising changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Egyptian Uprising helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Egyptian Uprising helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-libyan-uprising-and-civil-war",
       "meh-syrian-uprising",
@@ -10670,32 +10539,32 @@ export const middleEastHistoryConcepts = [
     "name": "Libyan Uprising and Civil War",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Libyan Uprising and Civil War important for understanding Middle Eastern history?",
-    "question": "Why is Libyan Uprising and Civil War important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Libyan Uprising and Civil War?",
+    "question": "Which statement best captures the historical significance of Libyan Uprising and Civil War?",
     "options": [
-      "Libyan Uprising and Civil War is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Libyan Uprising and Civil War belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Libyan Uprising and Civil War is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Libyan Uprising and Civil War belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Egyptian Uprising."
+        "Context",
+        "Place Libyan Uprising and Civil War inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Syrian Uprising."
+        "Connection",
+        "Compare it with Syrian Uprising to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Libyan Uprising and Civil War changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Libyan Uprising and Civil War changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Libyan Uprising and Civil War helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Libyan Uprising and Civil War helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-syrian-uprising",
       "meh-bahraini-uprising",
@@ -10709,32 +10578,32 @@ export const middleEastHistoryConcepts = [
     "name": "Syrian Uprising",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Syrian Uprising important for understanding Middle Eastern history?",
-    "question": "Why is Syrian Uprising important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Syrian Uprising?",
+    "question": "Which statement best captures the historical significance of Syrian Uprising?",
     "options": [
-      "Syrian Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Syrian Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Syrian Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Syrian Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Libyan Uprising and Civil War."
+        "Context",
+        "Place Syrian Uprising inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Bahraini Uprising."
+        "Connection",
+        "Compare it with Bahraini Uprising to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Syrian Uprising changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Syrian Uprising changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Syrian Uprising helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Syrian Uprising helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-bahraini-uprising",
       "meh-yemeni-uprising",
@@ -10748,32 +10617,32 @@ export const middleEastHistoryConcepts = [
     "name": "Bahraini Uprising",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Bahraini Uprising important for understanding Middle Eastern history?",
-    "question": "Why is Bahraini Uprising important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Bahraini Uprising?",
+    "question": "Which statement best captures the historical significance of Bahraini Uprising?",
     "options": [
-      "Bahraini Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Bahraini Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bahraini Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Bahraini Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Syrian Uprising."
+        "Context",
+        "Place Bahraini Uprising inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Yemeni Uprising."
+        "Connection",
+        "Compare it with Yemeni Uprising to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Bahraini Uprising changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Bahraini Uprising changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Bahraini Uprising helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Bahraini Uprising helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-yemeni-uprising",
       "meh-counterrevolution-after-the-arab-spring",
@@ -10787,32 +10656,32 @@ export const middleEastHistoryConcepts = [
     "name": "Yemeni Uprising",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Yemeni Uprising important for understanding Middle Eastern history?",
-    "question": "Why is Yemeni Uprising important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Yemeni Uprising?",
+    "question": "Which statement best captures the historical significance of Yemeni Uprising?",
     "options": [
-      "Yemeni Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Yemeni Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Yemeni Uprising is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Yemeni Uprising belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Bahraini Uprising."
+        "Context",
+        "Place Yemeni Uprising inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Counterrevolution after the Arab Spring."
+        "Connection",
+        "Compare it with Counterrevolution after the Arab Spring to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Yemeni Uprising changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Yemeni Uprising changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Yemeni Uprising helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Yemeni Uprising helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-counterrevolution-after-the-arab-spring",
       "meh-iranian-revolution",
@@ -10826,32 +10695,32 @@ export const middleEastHistoryConcepts = [
     "name": "Counterrevolution after the Arab Spring",
     "pool": "Revolutions & Uprisings",
     "topic": "Revolutions & Uprisings",
-    "hook": "Why is Counterrevolution after the Arab Spring important for understanding Middle Eastern history?",
-    "question": "Why is Counterrevolution after the Arab Spring important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Counterrevolution after the Arab Spring?",
+    "question": "Which statement best captures the historical significance of Counterrevolution after the Arab Spring?",
     "options": [
-      "Counterrevolution after the Arab Spring is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Counterrevolution after the Arab Spring belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Revolutions & Uprisings.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Counterrevolution after the Arab Spring is a key part of the Revolutions & Uprisings story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Counterrevolution after the Arab Spring belongs to the history of major episodes of mass mobilization and political rupture. Its importance comes from how it affected revolution, protest, repression, institutional breakdown and divergent outcomes, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Yemeni Uprising."
+        "Context",
+        "Place Counterrevolution after the Arab Spring inside the Revolutions & Uprisings timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Iranian Revolution to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Counterrevolution after the Arab Spring changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Counterrevolution after the Arab Spring changed about revolution, protest, repression, institutional breakdown and divergent outcomes."
       ]
     ],
-    "why": "Understanding Counterrevolution after the Arab Spring helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Counterrevolution after the Arab Spring helps explain major episodes of mass mobilization and political rupture.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-iranian-revolution",
       "meh-first-intifada",
@@ -10865,32 +10734,32 @@ export const middleEastHistoryConcepts = [
     "name": "Colonialism in the Middle East",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Colonialism in the Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Colonialism in the Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Colonialism in the Middle East?",
+    "question": "Which statement best captures the historical significance of Colonialism in the Middle East?",
     "options": [
-      "Colonialism in the Middle East is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Colonialism in the Middle East belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Colonialism in the Middle East is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Colonialism in the Middle East belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Start with the political and social conditions that preceded it."
+        "Context",
+        "Place Colonialism in the Middle East inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Imperialism in the Middle East."
+        "Connection",
+        "Compare it with Imperialism in the Middle East to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Colonialism in the Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Colonialism in the Middle East changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Colonialism in the Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Colonialism in the Middle East helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-imperialism-in-the-middle-east",
       "meh-state-building",
@@ -10904,32 +10773,32 @@ export const middleEastHistoryConcepts = [
     "name": "Imperialism in the Middle East",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Imperialism in the Middle East important for understanding Middle Eastern history?",
-    "question": "Why is Imperialism in the Middle East important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Imperialism in the Middle East?",
+    "question": "Which statement best captures the historical significance of Imperialism in the Middle East?",
     "options": [
-      "Imperialism in the Middle East is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Imperialism in the Middle East belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Imperialism in the Middle East is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Imperialism in the Middle East belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Colonialism in the Middle East."
+        "Context",
+        "Place Imperialism in the Middle East inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through State Building."
+        "Connection",
+        "Compare it with State Building to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Imperialism in the Middle East changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Imperialism in the Middle East changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Imperialism in the Middle East helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Imperialism in the Middle East helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-state-building",
       "meh-sectarianism",
@@ -10943,32 +10812,32 @@ export const middleEastHistoryConcepts = [
     "name": "State Building",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is State Building important for understanding Middle Eastern history?",
-    "question": "Why is State Building important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of State Building?",
+    "question": "Which statement best captures the historical significance of State Building?",
     "options": [
-      "State Building is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "State Building belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "State Building is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "State Building belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Imperialism in the Middle East."
+        "Context",
+        "Place State Building inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Sectarianism."
+        "Connection",
+        "Compare it with Sectarianism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how State Building changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what State Building changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding State Building helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "State Building helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-sectarianism",
       "meh-nationalism",
@@ -10982,32 +10851,33 @@ export const middleEastHistoryConcepts = [
     "name": "Sectarianism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Sectarianism important for understanding Middle Eastern history?",
-    "question": "Why is Sectarianism important for understanding Middle Eastern history?",
+    "hook": "Is sectarian conflict simply the result of ancient religious hatred?",
+    "question": "Is sectarian conflict simply the result of ancient religious hatred?",
     "options": [
-      "Sectarianism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "No. Sunni, Shi'i and other communal identities have long histories, but modern sectarianism is also shaped by states, wars, institutions, political entrepreneurs and struggles over resources and power.",
+      "Sectarian identities appeared only after 2011",
+      "Religious differences never matter politically",
+      "Every Middle Eastern conflict is primarily sectarian",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sectarianism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "No. Sunni, Shi'i and other communal identities have long histories, but modern sectarianism is also shaped by states, wars, institutions, political entrepreneurs and struggles over resources and power.",
     "examples": [
       [
-        "Before",
-        "Connect it to State Building."
+        "Institutions",
+        "Political systems can institutionalize communal categories and incentives."
       ],
       [
-        "After",
-        "Follow what changed next through Nationalism."
+        "Context",
+        "The salience of sectarian identity changes across periods and places rather than remaining permanently fixed."
       ],
       [
-        "Big picture",
-        "Ask how Sectarianism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Ideas & Institutions rabbit hole to see how Sectarianism connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Sectarianism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Sectarianism matters because it changed or reveals recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-nationalism",
       "meh-islamism",
@@ -11021,32 +10891,32 @@ export const middleEastHistoryConcepts = [
     "name": "Nationalism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Nationalism important for understanding Middle Eastern history?",
-    "question": "Why is Nationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Nationalism?",
+    "question": "Which statement best captures the historical significance of Nationalism?",
     "options": [
-      "Nationalism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Nationalism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nationalism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Nationalism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Sectarianism."
+        "Context",
+        "Place Nationalism inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Islamism."
+        "Connection",
+        "Compare it with Islamism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Nationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Nationalism changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Nationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Nationalism helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-islamism",
       "meh-secularism",
@@ -11060,32 +10930,32 @@ export const middleEastHistoryConcepts = [
     "name": "Islamism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Islamism important for understanding Middle Eastern history?",
-    "question": "Why is Islamism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Islamism?",
+    "question": "Which statement best captures the historical significance of Islamism?",
     "options": [
-      "Islamism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Islamism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Islamism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Islamism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Nationalism."
+        "Context",
+        "Place Islamism inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Secularism."
+        "Connection",
+        "Compare it with Secularism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Islamism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Islamism changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Islamism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Islamism helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-secularism",
       "meh-military-coups",
@@ -11099,32 +10969,32 @@ export const middleEastHistoryConcepts = [
     "name": "Secularism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Secularism important for understanding Middle Eastern history?",
-    "question": "Why is Secularism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Secularism?",
+    "question": "Which statement best captures the historical significance of Secularism?",
     "options": [
-      "Secularism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Secularism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Secularism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Secularism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Islamism."
+        "Context",
+        "Place Secularism inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Military Coups."
+        "Connection",
+        "Compare it with Military Coups to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Secularism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Secularism changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Secularism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Secularism helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-military-coups",
       "meh-authoritarianism",
@@ -11138,32 +11008,32 @@ export const middleEastHistoryConcepts = [
     "name": "Military Coups",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Military Coups important for understanding Middle Eastern history?",
-    "question": "Why is Military Coups important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Military Coups?",
+    "question": "Which statement best captures the historical significance of Military Coups?",
     "options": [
-      "Military Coups is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Military Coups belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Military Coups is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Military Coups belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Secularism."
+        "Context",
+        "Place Military Coups inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Authoritarianism."
+        "Connection",
+        "Compare it with Authoritarianism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Military Coups changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Military Coups changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Military Coups helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Military Coups helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-authoritarianism",
       "meh-monarchy-and-republic",
@@ -11177,32 +11047,33 @@ export const middleEastHistoryConcepts = [
     "name": "Authoritarianism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Authoritarianism important for understanding Middle Eastern history?",
-    "question": "Why is Authoritarianism important for understanding Middle Eastern history?",
+    "hook": "What does authoritarianism describe?",
+    "question": "What does authoritarianism describe?",
     "options": [
-      "Authoritarianism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Authoritarian systems restrict meaningful political competition and mechanisms for replacing rulers, while varying widely in ideology, institutions, repression and social coalitions.",
+      "Any monarchy regardless of institutions",
+      "Any state with a strong bureaucracy",
+      "A synonym for economic inequality",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Authoritarianism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Authoritarian systems restrict meaningful political competition and mechanisms for replacing rulers, while varying widely in ideology, institutions, repression and social coalitions.",
     "examples": [
       [
-        "Before",
-        "Connect it to Military Coups."
+        "Variation",
+        "Military regimes, monarchies and dominant-party systems can all operate differently."
       ],
       [
-        "After",
-        "Follow what changed next through Monarchy and Republic."
+        "Durability",
+        "Research examines coercion, patronage, institutions, international support and fragmented opposition among explanations for regime persistence."
       ],
       [
-        "Big picture",
-        "Ask how Authoritarianism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Connection",
+        "Follow the Ideas & Institutions rabbit hole to see how Authoritarianism connects to neighboring events and institutions."
       ]
     ],
-    "why": "Understanding Authoritarianism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Authoritarianism matters because it changed or reveals recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-monarchy-and-republic",
       "meh-rentier-politics",
@@ -11216,32 +11087,32 @@ export const middleEastHistoryConcepts = [
     "name": "Monarchy and Republic",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Monarchy and Republic important for understanding Middle Eastern history?",
-    "question": "Why is Monarchy and Republic important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Monarchy and Republic?",
+    "question": "Which statement best captures the historical significance of Monarchy and Republic?",
     "options": [
-      "Monarchy and Republic is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Monarchy and Republic belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Monarchy and Republic is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Monarchy and Republic belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Authoritarianism."
+        "Context",
+        "Place Monarchy and Republic inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Rentier Politics."
+        "Connection",
+        "Compare it with Rentier Politics to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Monarchy and Republic changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Monarchy and Republic changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Monarchy and Republic helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Monarchy and Republic helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-rentier-politics",
       "meh-tribal-politics",
@@ -11255,32 +11126,32 @@ export const middleEastHistoryConcepts = [
     "name": "Rentier Politics",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Rentier Politics important for understanding Middle Eastern history?",
-    "question": "Why is Rentier Politics important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Rentier Politics?",
+    "question": "Which statement best captures the historical significance of Rentier Politics?",
     "options": [
-      "Rentier Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Rentier Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rentier Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Rentier Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Monarchy and Republic."
+        "Context",
+        "Place Rentier Politics inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Tribal Politics."
+        "Connection",
+        "Compare it with Tribal Politics to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Rentier Politics changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Rentier Politics changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Rentier Politics helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Rentier Politics helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-tribal-politics",
       "meh-political-legitimacy",
@@ -11294,32 +11165,32 @@ export const middleEastHistoryConcepts = [
     "name": "Tribal Politics",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Tribal Politics important for understanding Middle Eastern history?",
-    "question": "Why is Tribal Politics important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Tribal Politics?",
+    "question": "Which statement best captures the historical significance of Tribal Politics?",
     "options": [
-      "Tribal Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Tribal Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tribal Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Tribal Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Rentier Politics."
+        "Context",
+        "Place Tribal Politics inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Political Legitimacy."
+        "Connection",
+        "Compare it with Political Legitimacy to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Tribal Politics changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Tribal Politics changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Tribal Politics helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Tribal Politics helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-political-legitimacy",
       "meh-minority-politics",
@@ -11333,32 +11204,32 @@ export const middleEastHistoryConcepts = [
     "name": "Political Legitimacy",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Political Legitimacy important for understanding Middle Eastern history?",
-    "question": "Why is Political Legitimacy important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Political Legitimacy?",
+    "question": "Which statement best captures the historical significance of Political Legitimacy?",
     "options": [
-      "Political Legitimacy is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Political Legitimacy belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Political Legitimacy is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Political Legitimacy belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Tribal Politics."
+        "Context",
+        "Place Political Legitimacy inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Minority Politics."
+        "Connection",
+        "Compare it with Minority Politics to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Political Legitimacy changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Political Legitimacy changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Political Legitimacy helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Political Legitimacy helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-minority-politics",
       "meh-consociationalism",
@@ -11372,32 +11243,32 @@ export const middleEastHistoryConcepts = [
     "name": "Minority Politics",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Minority Politics important for understanding Middle Eastern history?",
-    "question": "Why is Minority Politics important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Minority Politics?",
+    "question": "Which statement best captures the historical significance of Minority Politics?",
     "options": [
-      "Minority Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Minority Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Minority Politics is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Minority Politics belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Political Legitimacy."
+        "Context",
+        "Place Minority Politics inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Consociationalism."
+        "Connection",
+        "Compare it with Consociationalism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Minority Politics changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Minority Politics changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Minority Politics helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Minority Politics helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-consociationalism",
       "meh-clientelism",
@@ -11411,32 +11282,32 @@ export const middleEastHistoryConcepts = [
     "name": "Consociationalism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Consociationalism important for understanding Middle Eastern history?",
-    "question": "Why is Consociationalism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Consociationalism?",
+    "question": "Which statement best captures the historical significance of Consociationalism?",
     "options": [
-      "Consociationalism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Consociationalism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Consociationalism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Consociationalism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Minority Politics."
+        "Context",
+        "Place Consociationalism inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Clientelism."
+        "Connection",
+        "Compare it with Clientelism to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Consociationalism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Consociationalism changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Consociationalism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Consociationalism helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-clientelism",
       "meh-patronage",
@@ -11450,32 +11321,32 @@ export const middleEastHistoryConcepts = [
     "name": "Clientelism",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Clientelism important for understanding Middle Eastern history?",
-    "question": "Why is Clientelism important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Clientelism?",
+    "question": "Which statement best captures the historical significance of Clientelism?",
     "options": [
-      "Clientelism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Clientelism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Clientelism is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Clientelism belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Consociationalism."
+        "Context",
+        "Place Clientelism inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Patronage."
+        "Connection",
+        "Compare it with Patronage to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Clientelism changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Clientelism changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Clientelism helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Clientelism helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-patronage",
       "meh-political-borders",
@@ -11489,32 +11360,32 @@ export const middleEastHistoryConcepts = [
     "name": "Patronage",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Patronage important for understanding Middle Eastern history?",
-    "question": "Why is Patronage important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Patronage?",
+    "question": "Which statement best captures the historical significance of Patronage?",
     "options": [
-      "Patronage is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Patronage belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Patronage is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Patronage belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Clientelism."
+        "Context",
+        "Place Patronage inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Political Borders."
+        "Connection",
+        "Compare it with Political Borders to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Patronage changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Patronage changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Patronage helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Patronage helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-political-borders",
       "meh-refugees-and-displacement",
@@ -11528,32 +11399,32 @@ export const middleEastHistoryConcepts = [
     "name": "Political Borders",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Political Borders important for understanding Middle Eastern history?",
-    "question": "Why is Political Borders important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Political Borders?",
+    "question": "Which statement best captures the historical significance of Political Borders?",
     "options": [
-      "Political Borders is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Political Borders belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Political Borders is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Political Borders belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Patronage."
+        "Context",
+        "Place Political Borders inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow what changed next through Refugees and Displacement."
+        "Connection",
+        "Compare it with Refugees and Displacement to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Political Borders changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Political Borders changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Political Borders helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Political Borders helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-refugees-and-displacement",
       "meh-colonialism-in-the-middle-east",
@@ -11567,32 +11438,32 @@ export const middleEastHistoryConcepts = [
     "name": "Refugees and Displacement",
     "pool": "Ideas & Institutions",
     "topic": "Ideas & Institutions",
-    "hook": "Why is Refugees and Displacement important for understanding Middle Eastern history?",
-    "question": "Why is Refugees and Displacement important for understanding Middle Eastern history?",
+    "hook": "Which statement best captures the historical significance of Refugees and Displacement?",
+    "question": "Which statement best captures the historical significance of Refugees and Displacement?",
     "options": [
-      "Refugees and Displacement is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
-      "It had no meaningful connection to developments elsewhere in the region",
-      "It can be understood accurately without its historical context",
+      "Refugees and Displacement belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
+      "It was mainly an isolated episode with little connection to Ideas & Institutions.",
+      "Its significance comes primarily from events centuries before it rather than its own historical setting.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Refugees and Displacement is a key part of the Ideas & Institutions story. This card places it in its historical context, connects it to the events and institutions around it, and treats disputed interpretations as disputed rather than as settled fact.",
+    "reveal": "Refugees and Displacement belongs to the history of recurring concepts used to understand modern Middle Eastern politics and society. Its importance comes from how it affected state formation, identity, authority, distribution and institutional power, and from the changes or conflicts that followed.",
     "examples": [
       [
-        "Before",
-        "Connect it to Political Borders."
+        "Context",
+        "Place Refugees and Displacement inside the Ideas & Institutions timeline rather than treating it as a standalone date."
       ],
       [
-        "After",
-        "Follow its longer-term consequences into later Middle Eastern history."
+        "Connection",
+        "Compare it with Colonialism in the Middle East to see what changed and what persisted."
       ],
       [
-        "Big picture",
-        "Ask how Refugees and Displacement changed power, identity, institutions, borders, economic life or relations between communities."
+        "Consequence",
+        "Ask what Refugees and Displacement changed about state formation, identity, authority, distribution and institutional power."
       ]
     ],
-    "why": "Understanding Refugees and Displacement helps build a connected timeline instead of memorizing isolated dates.",
-    "caveat": "Historical actors and communities often interpret these events differently. Distinguish documented events from later political narratives and contested causal claims.",
+    "why": "Refugees and Displacement helps explain recurring concepts used to understand modern Middle Eastern politics and society.",
+    "caveat": "Terminology, responsibility and causal interpretation can be politically contested. The card should distinguish documented events from attributed interpretations.",
     "related": [
       "meh-colonialism-in-the-middle-east",
       "meh-imperialism-in-the-middle-east",
