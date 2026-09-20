@@ -50,6 +50,7 @@ export default function Home(){
  const [world,setWorld]=useState('psychology');
  const [category,setCategory]=useState('');
  const [topic,setTopic]=useState('');
+ const [revealed,setRevealed]=useState(false);
 
  useEffect(()=>{try{setSeen(JSON.parse(localStorage.getItem('ce-seen')||'[]'));setKnown(JSON.parse(localStorage.getItem('ce-known')||'[]'))}catch{}},[]);
  const persist=(s,k)=>{setSeen(s);setKnown(k);localStorage.setItem('ce-seen',JSON.stringify(s));localStorage.setItem('ce-known',JSON.stringify(k))};
@@ -61,7 +62,7 @@ export default function Home(){
  const poolFor=(cat=category,sub=topic)=>worldConcepts.filter(c=>(!cat||c.pool===cat)&&(!sub||(c.topic||c.pool)===sub));
  const worldCount=id=>itemsFor(id).length;
 
- const chooseWorld=id=>{setWorld(id);setCategory('');setTopic('');setConcept(null);setPicked(null);setScreen('categories')};
+ const chooseWorld=id=>{setWorld(id);setCategory('');setTopic('');setConcept(null);setPicked(null);setRevealed(false);setScreen('categories')};
  const chooseCategory=label=>{
    const subs=[...new Set(itemsFor(world).filter(c=>c.pool===label).map(c=>c.topic||c.pool).filter(Boolean))];
    setCategory(label);setTopic('');setConcept(null);setPicked(null);
@@ -70,7 +71,7 @@ export default function Home(){
  };
  const chooseTopic=label=>{setTopic(label);setCards(diverseSample(poolFor(category,label),5));setScreen('browse');setConcept(null);setPicked(null)};
  const discover=()=>{const p=poolFor();setCards(diverseSample(p,5,cards.map(x=>x.id)));setScreen('browse');setConcept(null);setPicked(null)};
- const open=c=>{setConcept(c);setPicked(null);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
+ const open=c=>{setConcept(c);setPicked(null);setRevealed(false);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
  const answer=i=>{setPicked(i);if(i===concept.answer&&!known.includes(concept.id))persist(seen.includes(concept.id)?seen:[...seen,concept.id],[...known,concept.id])};
  const related=()=>open(worldConcepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)||worldConcepts.find(x=>x.id!==concept.id));
  const exploreTopic=()=>{
@@ -131,24 +132,41 @@ export default function Home(){
 
   {screen==='browse'&&<section className="wrap browse">
    <button className="back" onClick={backFromBrowse}>← {topic&&subheadsFor(category).length>1?'Topics':'Areas'}</button>
-   <div className="browsehead"><div><div className="eyebrow">{currentWorld?.name.toUpperCase()} · {(topic||category||'DISCOVERY').toUpperCase()}</div><h2>Pick one question.</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
+   <div className="browsehead"><div><div className="eyebrow">{currentWorld?.name.toUpperCase()} · {(topic||category||'DISCOVERY').toUpperCase()}</div><h2>{world==='economics'?'Pick one concept.':'Pick one question.'}</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
    <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.hook}</p></div><b>→</b></button>)}</div>
   </section>}
 
   {screen==='play'&&concept&&<section className="lesson wrap">
-   <button className="back" onClick={()=>setScreen('browse')}>← Back to questions</button>
+   <button className="back" onClick={()=>setScreen('browse')}>← Back to {concept.world==='economics'?'concepts':'questions'}</button>
    <div className="eyebrow">{concept.topic||concept.pool}</div><h2>{concept.name}</h2>
    {concept.media?.kind==='body'&&<BodyVisual media={concept.media} name={concept.name}/>}
    {concept.visual&&<div className="conceptvisual">{concept.visual}</div>}
-   <p className="question">{concept.question}</p>
-   <div className="answers">{concept.options.map((o,i)=><button disabled={picked!==null} className={picked===null?'':i===concept.answer?'correct':picked===i?'wrong':''} onClick={()=>answer(i)} key={i}><span>{String.fromCharCode(65+i)}</span>{o}</button>)}</div>
-   {picked!==null&&<div className="reveal">
-    <div className="result">{picked===concept.answer?'Correct':'Review'}</div>
-    <h3>Explanation</h3><p>{concept.reveal}</p>
-    <h3>Connections</h3><div className="examples">{concept.examples.map(([a,b],i)=><div key={a+i}><b>{a}</b><p>{b}</p></div>)}</div>
-    <div className="why"><small>WHY IT MATTERS</small><p>{concept.why}</p>{concept.caveat&&<p className="caveat"><b>Keep in mind:</b> {concept.caveat}</p>}</div>
-    <div className="next"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
-   </div>}
+
+   {concept.world==='economics'?<>
+    <div className="flashfront">
+     <small>START HERE</small>
+     <p>{concept.hook}</p>
+     {!revealed&&<button className="primary" onClick={()=>setRevealed(true)}>Learn this concept ↓</button>}
+    </div>
+    {revealed&&<div className="flashcontent">
+     <section><small>CORE IDEA</small><h3>What it means</h3><p>{concept.reveal}</p></section>
+     {concept.context&&<section><small>WIDER CONTEXT</small><h3>Where it fits</h3><p>{concept.context}</p></section>}
+     {concept.studyLens&&<section><small>HOW TO THINK ABOUT IT</small><h3>Study lens</h3><p>{concept.studyLens}</p></section>}
+     <section><small>CONNECTIONS</small><h3>Implications & examples</h3><div className="examples">{concept.examples.map(([a,b],i)=><div key={a+i}><b>{a}</b><p>{b}</p></div>)}</div></section>
+     <div className="why"><small>WHY IT MATTERS</small><p>{concept.why}</p>{concept.caveat&&<p className="caveat"><b>Keep in mind:</b> {concept.caveat}</p>}</div>
+     <div className="next"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
+    </div>}
+   </>:<>
+    <p className="question">{concept.question}</p>
+    <div className="answers">{concept.options.map((o,i)=><button disabled={picked!==null} className={picked===null?'':i===concept.answer?'correct':picked===i?'wrong':''} onClick={()=>answer(i)} key={i}><span>{String.fromCharCode(65+i)}</span>{o}</button>)}</div>
+    {picked!==null&&<div className="reveal">
+     <div className="result">{picked===concept.answer?'Correct':'Review'}</div>
+     <h3>Explanation</h3><p>{concept.reveal}</p>
+     <h3>Connections</h3><div className="examples">{concept.examples.map(([a,b],i)=><div key={a+i}><b>{a}</b><p>{b}</p></div>)}</div>
+     <div className="why"><small>WHY IT MATTERS</small><p>{concept.why}</p>{concept.caveat&&<p className="caveat"><b>Keep in mind:</b> {concept.caveat}</p>}</div>
+     <div className="next"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
+    </div>}
+   </>}
   </section>}
  </main>
 }
