@@ -3,7 +3,7 @@ export const socialSciencesConcepts = [
     "id": "social-sociology",
     "world": "social-sciences",
     "name": "Sociology",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Foundations",
     "hook": "What changes when you study behavior as something shaped by social structures, not only individuals?",
     "question": "What changes when you study behavior as something shaped by social structures, not only individuals?",
@@ -35,13 +35,14 @@ export const socialSciencesConcepts = [
       "social-social-structure",
       "social-agency-structure",
       "social-simmel"
-    ]
+    ],
+    "deck": "Foundations of Sociology"
   },
   {
     "id": "social-social-structure",
     "world": "social-sciences",
     "name": "Social Structure",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Foundations",
     "hook": "Why do similar patterns persist even as individual people come and go?",
     "question": "Why do similar patterns persist even as individual people come and go?",
@@ -73,13 +74,14 @@ export const socialSciencesConcepts = [
       "social-agency-structure",
       "social-simmel",
       "social-sociology"
-    ]
+    ],
+    "deck": "Foundations of Sociology"
   },
   {
     "id": "social-agency-structure",
     "world": "social-sciences",
     "name": "Agency and Structure",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Foundations",
     "hook": "Are people freely choosing, or mostly shaped by society?",
     "question": "Are people freely choosing, or mostly shaped by society?",
@@ -111,13 +113,14 @@ export const socialSciencesConcepts = [
       "social-simmel",
       "social-sociology",
       "social-social-structure"
-    ]
+    ],
+    "deck": "Foundations of Sociology"
   },
   {
     "id": "social-weber",
     "world": "social-sciences",
     "name": "Max Weber",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "How can ideas, authority and bureaucracy shape economic and social life?",
     "question": "How can ideas, authority and bureaucracy shape economic and social life?",
@@ -150,13 +153,14 @@ export const socialSciencesConcepts = [
       "social-verstehen",
       "social-ideal-type",
       "social-rationalization"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-social-action-weber",
     "world": "social-sciences",
     "name": "Social Action",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "When does an action become sociologically meaningful for Weber?",
     "question": "When does an action become sociologically meaningful for Weber?",
@@ -189,13 +193,14 @@ export const socialSciencesConcepts = [
       "social-ideal-type",
       "social-rationalization",
       "social-bureaucracy"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-verstehen",
     "world": "social-sciences",
     "name": "Verstehen",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Why did Weber think understanding people's meanings mattered?",
     "question": "Why did Weber think understanding people's meanings mattered?",
@@ -228,13 +233,14 @@ export const socialSciencesConcepts = [
       "social-rationalization",
       "social-bureaucracy",
       "social-authority-weber"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-ideal-type",
     "world": "social-sciences",
     "name": "Ideal Types",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Why would a social scientist deliberately build a simplified model that does not perfectly exist?",
     "question": "Why would a social scientist deliberately build a simplified model that does not perfectly exist?",
@@ -267,13 +273,14 @@ export const socialSciencesConcepts = [
       "social-bureaucracy",
       "social-authority-weber",
       "social-protestant-ethic"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-rationalization",
     "world": "social-sciences",
     "name": "Rationalization",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Why does modern life become increasingly organized around calculation, rules and efficiency?",
     "question": "Why does modern life become increasingly organized around calculation, rules and efficiency?",
@@ -306,13 +313,14 @@ export const socialSciencesConcepts = [
       "social-authority-weber",
       "social-protestant-ethic",
       "social-weber"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-bureaucracy",
     "world": "social-sciences",
     "name": "Bureaucracy",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Why are large organizations so often built from offices, rules and hierarchies?",
     "question": "Why are large organizations so often built from offices, rules and hierarchies?",
@@ -345,13 +353,14 @@ export const socialSciencesConcepts = [
       "social-protestant-ethic",
       "social-weber",
       "social-social-action-weber"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-authority-weber",
     "world": "social-sciences",
     "name": "Types of Authority",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Why do people obey rulers for different reasons?",
     "question": "Why do people obey rulers for different reasons?",
@@ -384,13 +393,14 @@ export const socialSciencesConcepts = [
       "social-weber",
       "social-social-action-weber",
       "social-verstehen"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-durkheim",
     "world": "social-sciences",
     "name": "Émile Durkheim",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Durkheim",
     "hook": "How can society exert forces that are more than the sum of individual choices?",
     "question": "How can society exert forces that are more than the sum of individual choices?",
@@ -422,13 +432,14 @@ export const socialSciencesConcepts = [
       "social-social-facts",
       "social-anomie",
       "social-mechanical-organic"
-    ]
+    ],
+    "deck": "Émile Durkheim"
   },
   {
     "id": "social-social-facts",
     "world": "social-sciences",
     "name": "Social Facts",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Durkheim",
     "hook": "What can constrain you even though no single person invented it?",
     "question": "What can constrain you even though no single person invented it?",
@@ -460,13 +471,14 @@ export const socialSciencesConcepts = [
       "social-anomie",
       "social-mechanical-organic",
       "social-durkheim"
-    ]
+    ],
+    "deck": "Émile Durkheim"
   },
   {
     "id": "social-anomie",
     "world": "social-sciences",
     "name": "Anomie",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Durkheim",
     "hook": "What happens when norms become weak or disrupted?",
     "question": "What happens when norms become weak or disrupted?",
@@ -498,13 +510,14 @@ export const socialSciencesConcepts = [
       "social-mechanical-organic",
       "social-durkheim",
       "social-social-facts"
-    ]
+    ],
+    "deck": "Émile Durkheim"
   },
   {
     "id": "social-mechanical-organic",
     "world": "social-sciences",
     "name": "Mechanical and Organic Solidarity",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Durkheim",
     "hook": "How does social cohesion change as division of labor becomes more complex?",
     "question": "How does social cohesion change as division of labor becomes more complex?",
@@ -536,13 +549,14 @@ export const socialSciencesConcepts = [
       "social-durkheim",
       "social-social-facts",
       "social-anomie"
-    ]
+    ],
+    "deck": "Émile Durkheim"
   },
   {
     "id": "social-marx-social",
     "world": "social-sciences",
     "name": "Marx and Social Class",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Marx & Class",
     "hook": "Why did Marx treat class as a relationship rather than just an income bracket?",
     "question": "Why did Marx treat class as a relationship rather than just an income bracket?",
@@ -570,13 +584,14 @@ export const socialSciencesConcepts = [
     ],
     "why": "Marx and Social Class gives you a lens for seeing social patterns that are easy to miss when looking only at individuals.",
     "caveat": "Social-science concepts describe patterns and mechanisms, not iron laws. Effects vary across societies, institutions and historical contexts.",
-    "related": []
+    "related": [],
+    "deck": "Karl Marx & Class"
   },
   {
     "id": "social-simmel",
     "world": "social-sciences",
     "name": "Georg Simmel",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Foundations",
     "hook": "What changes when a group grows from two people to three?",
     "question": "What changes when a group grows from two people to three?",
@@ -608,13 +623,14 @@ export const socialSciencesConcepts = [
       "social-sociology",
       "social-social-structure",
       "social-agency-structure"
-    ]
+    ],
+    "deck": "Georg Simmel"
   },
   {
     "id": "social-goffman",
     "world": "social-sciences",
     "name": "Erving Goffman",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Interaction & Identity",
     "hook": "Why can everyday interaction resemble a performance?",
     "question": "Why can everyday interaction resemble a performance?",
@@ -645,13 +661,14 @@ export const socialSciencesConcepts = [
     "related": [
       "social-presentation-self",
       "social-presentation-self"
-    ]
+    ],
+    "deck": "Erving Goffman"
   },
   {
     "id": "social-presentation-self",
     "world": "social-sciences",
     "name": "Presentation of Self",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Interaction & Identity",
     "hook": "Why do people manage different impressions in different settings?",
     "question": "Why do people manage different impressions in different settings?",
@@ -682,13 +699,14 @@ export const socialSciencesConcepts = [
     "related": [
       "social-goffman",
       "social-goffman"
-    ]
+    ],
+    "deck": "Erving Goffman"
   },
   {
     "id": "social-bourdieu",
     "world": "social-sciences",
     "name": "Pierre Bourdieu",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "How can advantage persist without being simply inherited as cash?",
     "question": "How can advantage persist without being simply inherited as cash?",
@@ -721,13 +739,14 @@ export const socialSciencesConcepts = [
       "social-cultural-capital",
       "social-social-capital-bourdieu",
       "social-field-bourdieu"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-habitus",
     "world": "social-sciences",
     "name": "Habitus",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "How can society become embodied as instinctive tastes and dispositions?",
     "question": "How can society become embodied as instinctive tastes and dispositions?",
@@ -760,13 +779,14 @@ export const socialSciencesConcepts = [
       "social-social-capital-bourdieu",
       "social-field-bourdieu",
       "social-symbolic-power"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-cultural-capital",
     "world": "social-sciences",
     "name": "Cultural Capital",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "How can knowing the 'right' tastes, language or manners become an advantage?",
     "question": "How can knowing the 'right' tastes, language or manners become an advantage?",
@@ -799,13 +819,14 @@ export const socialSciencesConcepts = [
       "social-field-bourdieu",
       "social-symbolic-power",
       "social-bourdieu"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-social-capital-bourdieu",
     "world": "social-sciences",
     "name": "Social Capital",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "How can relationships themselves function like a resource?",
     "question": "How can relationships themselves function like a resource?",
@@ -838,13 +859,14 @@ export const socialSciencesConcepts = [
       "social-symbolic-power",
       "social-bourdieu",
       "social-habitus"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-field-bourdieu",
     "world": "social-sciences",
     "name": "Fields",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "Why might the rules of success differ between art, academia, politics and business?",
     "question": "Why might the rules of success differ between art, academia, politics and business?",
@@ -877,13 +899,14 @@ export const socialSciencesConcepts = [
       "social-bourdieu",
       "social-habitus",
       "social-cultural-capital"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-symbolic-power",
     "world": "social-sciences",
     "name": "Symbolic Power",
-    "pool": "Foundations & Thinkers",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Bourdieu",
     "hook": "How can classifications and labels exercise power without physical force?",
     "question": "How can classifications and labels exercise power without physical force?",
@@ -916,13 +939,14 @@ export const socialSciencesConcepts = [
       "social-habitus",
       "social-cultural-capital",
       "social-social-capital-bourdieu"
-    ]
+    ],
+    "deck": "Pierre Bourdieu"
   },
   {
     "id": "social-culture",
     "world": "social-sciences",
     "name": "Culture",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "What do people inherit socially rather than genetically?",
     "question": "What do people inherit socially rather than genetically?",
@@ -961,7 +985,7 @@ export const socialSciencesConcepts = [
     "id": "social-norms",
     "world": "social-sciences",
     "name": "Social Norms",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Why do people follow rules that were never written down?",
     "question": "Why do people follow rules that were never written down?",
@@ -1000,7 +1024,7 @@ export const socialSciencesConcepts = [
     "id": "social-values",
     "world": "social-sciences",
     "name": "Values",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "How do societies define what is desirable or important?",
     "question": "How do societies define what is desirable or important?",
@@ -1039,7 +1063,7 @@ export const socialSciencesConcepts = [
     "id": "social-socialization",
     "world": "social-sciences",
     "name": "Socialization",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Socialization",
     "hook": "How do children learn how to function inside a society?",
     "question": "How do children learn how to function inside a society?",
@@ -1077,7 +1101,7 @@ export const socialSciencesConcepts = [
     "id": "social-primary-socialization",
     "world": "social-sciences",
     "name": "Primary Socialization",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Socialization",
     "hook": "Why are early family environments so influential?",
     "question": "Why are early family environments so influential?",
@@ -1115,7 +1139,7 @@ export const socialSciencesConcepts = [
     "id": "social-secondary-socialization",
     "world": "social-sciences",
     "name": "Secondary Socialization",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Socialization",
     "hook": "Why do schools and workplaces teach more than formal skills?",
     "question": "Why do schools and workplaces teach more than formal skills?",
@@ -1153,7 +1177,7 @@ export const socialSciencesConcepts = [
     "id": "social-hidden-curriculum",
     "world": "social-sciences",
     "name": "Hidden Curriculum",
-    "pool": "Culture & Socialization",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Education",
     "hook": "What does school teach without putting it on the syllabus?",
     "question": "What does school teach without putting it on the syllabus?",
@@ -1191,7 +1215,7 @@ export const socialSciencesConcepts = [
     "id": "social-subculture",
     "world": "social-sciences",
     "name": "Subcultures",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "How can a group develop its own norms inside a larger society?",
     "question": "How can a group develop its own norms inside a larger society?",
@@ -1230,7 +1254,7 @@ export const socialSciencesConcepts = [
     "id": "social-counterculture",
     "world": "social-sciences",
     "name": "Countercultures",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "When does a subculture actively oppose dominant norms?",
     "question": "When does a subculture actively oppose dominant norms?",
@@ -1269,7 +1293,7 @@ export const socialSciencesConcepts = [
     "id": "social-cultural-diffusion",
     "world": "social-sciences",
     "name": "Cultural Diffusion",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "How do foods, fashions and ideas travel between societies?",
     "question": "How do foods, fashions and ideas travel between societies?",
@@ -1308,7 +1332,7 @@ export const socialSciencesConcepts = [
     "id": "social-cultural-lag",
     "world": "social-sciences",
     "name": "Cultural Lag",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Why can technology change faster than laws and norms?",
     "question": "Why can technology change faster than laws and norms?",
@@ -1347,7 +1371,7 @@ export const socialSciencesConcepts = [
     "id": "social-ethnocentrism",
     "world": "social-sciences",
     "name": "Ethnocentrism",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Why do people often judge another culture using their own culture's standards?",
     "question": "Why do people often judge another culture using their own culture's standards?",
@@ -1386,7 +1410,7 @@ export const socialSciencesConcepts = [
     "id": "social-cultural-relativism",
     "world": "social-sciences",
     "name": "Cultural Relativism",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "What does it mean to understand a practice in its cultural context?",
     "question": "What does it mean to understand a practice in its cultural context?",
@@ -1425,7 +1449,7 @@ export const socialSciencesConcepts = [
     "id": "social-ritual",
     "world": "social-sciences",
     "name": "Ritual",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Why do repetitive symbolic actions matter even when they have no obvious practical output?",
     "question": "Why do repetitive symbolic actions matter even when they have no obvious practical output?",
@@ -1464,7 +1488,7 @@ export const socialSciencesConcepts = [
     "id": "social-collective-memory",
     "world": "social-sciences",
     "name": "Collective Memory",
-    "pool": "Culture & Socialization",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Can societies remember?",
     "question": "Can societies remember?",
@@ -1503,7 +1527,7 @@ export const socialSciencesConcepts = [
     "id": "social-moral-panic",
     "world": "social-sciences",
     "name": "Moral Panic",
-    "pool": "Culture & Socialization",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Media & Society",
     "hook": "How can a social problem suddenly appear to threaten the entire moral order?",
     "question": "How can a social problem suddenly appear to threaten the entire moral order?",
@@ -1541,7 +1565,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-network",
     "world": "social-sciences",
     "name": "Social Networks",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why can who you know matter as much as what you know?",
     "question": "Why can who you know matter as much as what you know?",
@@ -1580,7 +1604,7 @@ export const socialSciencesConcepts = [
     "id": "social-weak-ties",
     "world": "social-sciences",
     "name": "Strength of Weak Ties",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why can acquaintances be better than close friends for finding new information?",
     "question": "Why can acquaintances be better than close friends for finding new information?",
@@ -1619,7 +1643,7 @@ export const socialSciencesConcepts = [
     "id": "social-structural-holes",
     "world": "social-sciences",
     "name": "Structural Holes",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why can connecting two disconnected groups create influence?",
     "question": "Why can connecting two disconnected groups create influence?",
@@ -1658,7 +1682,7 @@ export const socialSciencesConcepts = [
     "id": "social-homophily",
     "world": "social-sciences",
     "name": "Homophily",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why do social networks often fill with similar people?",
     "question": "Why do social networks often fill with similar people?",
@@ -1697,7 +1721,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-contagion",
     "world": "social-sciences",
     "name": "Social Contagion",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Can behaviors spread through networks?",
     "question": "Can behaviors spread through networks?",
@@ -1736,7 +1760,7 @@ export const socialSciencesConcepts = [
     "id": "social-collective-action",
     "world": "social-sciences",
     "name": "Collective Action",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Why can groups fail to achieve goals that all members would benefit from?",
     "question": "Why can groups fail to achieve goals that all members would benefit from?",
@@ -1775,7 +1799,7 @@ export const socialSciencesConcepts = [
     "id": "social-free-rider",
     "world": "social-sciences",
     "name": "Free-Rider Problem",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Why contribute if you can receive the benefit anyway?",
     "question": "Why contribute if you can receive the benefit anyway?",
@@ -1814,7 +1838,7 @@ export const socialSciencesConcepts = [
     "id": "social-threshold-model",
     "world": "social-sciences",
     "name": "Threshold Models",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Why can a protest suddenly explode after appearing tiny?",
     "question": "Why can a protest suddenly explode after appearing tiny?",
@@ -1853,7 +1877,7 @@ export const socialSciencesConcepts = [
     "id": "social-diffusion-innovation",
     "world": "social-sciences",
     "name": "Diffusion of Innovations",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why do new technologies spread slowly and then suddenly accelerate?",
     "question": "Why do new technologies spread slowly and then suddenly accelerate?",
@@ -1892,7 +1916,7 @@ export const socialSciencesConcepts = [
     "id": "social-crowd-behavior",
     "world": "social-sciences",
     "name": "Crowd Behavior",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Do people simply lose rationality in crowds?",
     "question": "Do people simply lose rationality in crowds?",
@@ -1931,7 +1955,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-movement",
     "world": "social-sciences",
     "name": "Social Movements",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "How does scattered dissatisfaction become organized collective action?",
     "question": "How does scattered dissatisfaction become organized collective action?",
@@ -1970,7 +1994,7 @@ export const socialSciencesConcepts = [
     "id": "social-resource-mobilization",
     "world": "social-sciences",
     "name": "Resource Mobilization",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Why is grievance alone rarely enough to sustain a movement?",
     "question": "Why is grievance alone rarely enough to sustain a movement?",
@@ -2009,7 +2033,7 @@ export const socialSciencesConcepts = [
     "id": "social-framing-movements",
     "world": "social-sciences",
     "name": "Movement Framing",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Collective Action",
     "hook": "Why does the way a problem is described affect mobilization?",
     "question": "Why does the way a problem is described affect mobilization?",
@@ -2048,7 +2072,7 @@ export const socialSciencesConcepts = [
     "id": "social-collective-efficacy",
     "world": "social-sciences",
     "name": "Collective Efficacy",
-    "pool": "Groups, Networks & Collective Behavior",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Communities",
     "hook": "Why are some neighborhoods better able to solve shared problems?",
     "question": "Why are some neighborhoods better able to solve shared problems?",
@@ -2086,7 +2110,7 @@ export const socialSciencesConcepts = [
     "id": "social-stratification",
     "world": "social-sciences",
     "name": "Social Stratification",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "Why do societies repeatedly form ranked layers?",
     "question": "Why do societies repeatedly form ranked layers?",
@@ -2125,7 +2149,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-class",
     "world": "social-sciences",
     "name": "Social Class",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "Is class just income?",
     "question": "Is class just income?",
@@ -2164,7 +2188,7 @@ export const socialSciencesConcepts = [
     "id": "social-status",
     "world": "social-sciences",
     "name": "Social Status",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "Why can prestige differ from wealth?",
     "question": "Why can prestige differ from wealth?",
@@ -2203,7 +2227,7 @@ export const socialSciencesConcepts = [
     "id": "social-life-chances",
     "world": "social-sciences",
     "name": "Life Chances",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "How can social position shape the probabilities of future outcomes?",
     "question": "How can social position shape the probabilities of future outcomes?",
@@ -2242,7 +2266,7 @@ export const socialSciencesConcepts = [
     "id": "social-mobility",
     "world": "social-sciences",
     "name": "Social Mobility",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Mobility",
     "hook": "What does it mean to move through a class structure?",
     "question": "What does it mean to move through a class structure?",
@@ -2280,7 +2304,7 @@ export const socialSciencesConcepts = [
     "id": "social-intergenerational-mobility",
     "world": "social-sciences",
     "name": "Intergenerational Mobility",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Mobility",
     "hook": "How strongly does parents' socioeconomic position predict their children's?",
     "question": "How strongly does parents' socioeconomic position predict their children's?",
@@ -2318,7 +2342,7 @@ export const socialSciencesConcepts = [
     "id": "social-absolute-relative-mobility",
     "world": "social-sciences",
     "name": "Absolute vs Relative Mobility",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Mobility",
     "hook": "Can most children become richer than their parents while class rank remains sticky?",
     "question": "Can most children become richer than their parents while class rank remains sticky?",
@@ -2356,7 +2380,7 @@ export const socialSciencesConcepts = [
     "id": "social-meritocracy",
     "world": "social-sciences",
     "name": "Meritocracy",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "What does a meritocratic system claim to reward?",
     "question": "What does a meritocratic system claim to reward?",
@@ -2395,7 +2419,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-reproduction",
     "world": "social-sciences",
     "name": "Social Reproduction",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "How can inequality persist from one generation to the next without explicit inheritance alone?",
     "question": "How can inequality persist from one generation to the next without explicit inheritance alone?",
@@ -2434,7 +2458,7 @@ export const socialSciencesConcepts = [
     "id": "social-intersectionality",
     "world": "social-sciences",
     "name": "Intersectionality",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "Why can social categories interact rather than simply add together?",
     "question": "Why can social categories interact rather than simply add together?",
@@ -2473,7 +2497,7 @@ export const socialSciencesConcepts = [
     "id": "social-relative-deprivation",
     "world": "social-sciences",
     "name": "Relative Deprivation",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Inequality, Class & Population",
     "topic": "Inequality",
     "hook": "Why can dissatisfaction rise even while absolute conditions improve?",
     "question": "Why can dissatisfaction rise even while absolute conditions improve?",
@@ -2512,7 +2536,7 @@ export const socialSciencesConcepts = [
     "id": "social-elite-theory",
     "world": "social-sciences",
     "name": "Elite Theory",
-    "pool": "Inequality, Class & Mobility",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Why do small groups often hold disproportionate influence?",
     "question": "Why do small groups often hold disproportionate influence?",
@@ -2551,7 +2575,7 @@ export const socialSciencesConcepts = [
     "id": "social-institution",
     "world": "social-sciences",
     "name": "Social Institutions",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "What makes marriage, markets or schools more than collections of individuals?",
     "question": "What makes marriage, markets or schools more than collections of individuals?",
@@ -2590,7 +2614,7 @@ export const socialSciencesConcepts = [
     "id": "social-formal-informal",
     "world": "social-sciences",
     "name": "Formal and Informal Institutions",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "Why can unwritten rules matter as much as law?",
     "question": "Why can unwritten rules matter as much as law?",
@@ -2629,7 +2653,7 @@ export const socialSciencesConcepts = [
     "id": "social-organization",
     "world": "social-sciences",
     "name": "Organizations",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Organizations",
     "hook": "Why do groups create formal roles and procedures?",
     "question": "Why do groups create formal roles and procedures?",
@@ -2668,7 +2692,7 @@ export const socialSciencesConcepts = [
     "id": "social-iron-law-oligarchy",
     "world": "social-sciences",
     "name": "Iron Law of Oligarchy",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Organizations",
     "hook": "Why might democratic organizations become controlled by a small leadership group?",
     "question": "Why might democratic organizations become controlled by a small leadership group?",
@@ -2707,7 +2731,7 @@ export const socialSciencesConcepts = [
     "id": "social-institutional-isomorphism",
     "world": "social-sciences",
     "name": "Institutional Isomorphism",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Organizations",
     "hook": "Why do organizations in the same field start looking alike?",
     "question": "Why do organizations in the same field start looking alike?",
@@ -2746,7 +2770,7 @@ export const socialSciencesConcepts = [
     "id": "social-path-dependence-social",
     "world": "social-sciences",
     "name": "Path Dependence",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "Why can an institution survive long after the conditions that created it disappear?",
     "question": "Why can an institution survive long after the conditions that created it disappear?",
@@ -2785,7 +2809,7 @@ export const socialSciencesConcepts = [
     "id": "social-legitimacy",
     "world": "social-sciences",
     "name": "Legitimacy",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Why do people comply with institutions even without immediate coercion?",
     "question": "Why do people comply with institutions even without immediate coercion?",
@@ -2824,7 +2848,7 @@ export const socialSciencesConcepts = [
     "id": "social-formalization",
     "world": "social-sciences",
     "name": "Formalization",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Organizations",
     "hook": "What happens when an organization replaces discretion with written rules?",
     "question": "What happens when an organization replaces discretion with written rules?",
@@ -2863,7 +2887,7 @@ export const socialSciencesConcepts = [
     "id": "social-institutional-trust",
     "world": "social-sciences",
     "name": "Institutional Trust",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "Why does trust in institutions matter?",
     "question": "Why does trust in institutions matter?",
@@ -2902,7 +2926,7 @@ export const socialSciencesConcepts = [
     "id": "social-professions",
     "world": "social-sciences",
     "name": "Professions",
-    "pool": "Institutions & Organizations",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Organizations",
     "hook": "How does an occupation become a profession?",
     "question": "How does an occupation become a profession?",
@@ -2941,7 +2965,7 @@ export const socialSciencesConcepts = [
     "id": "social-power",
     "world": "social-sciences",
     "name": "Social Power",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "What does it mean to have power over social outcomes?",
     "question": "What does it mean to have power over social outcomes?",
@@ -2980,7 +3004,7 @@ export const socialSciencesConcepts = [
     "id": "social-hard-soft-power-social",
     "world": "social-sciences",
     "name": "Coercion and Persuasion",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Does power always require force?",
     "question": "Does power always require force?",
@@ -3019,7 +3043,7 @@ export const socialSciencesConcepts = [
     "id": "social-agenda-setting",
     "world": "social-sciences",
     "name": "Agenda Setting",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Can power work by preventing an issue from being discussed?",
     "question": "Can power work by preventing an issue from being discussed?",
@@ -3058,7 +3082,7 @@ export const socialSciencesConcepts = [
     "id": "social-lukes-power",
     "world": "social-sciences",
     "name": "Three Dimensions of Power",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Can power shape what people perceive as possible or desirable?",
     "question": "Can power shape what people perceive as possible or desirable?",
@@ -3097,7 +3121,7 @@ export const socialSciencesConcepts = [
     "id": "social-hegemony",
     "world": "social-sciences",
     "name": "Hegemony",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "How can domination persist partly through consent?",
     "question": "How can domination persist partly through consent?",
@@ -3136,7 +3160,7 @@ export const socialSciencesConcepts = [
     "id": "social-civil-society",
     "world": "social-sciences",
     "name": "Civil Society",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "What exists socially between households, markets and the state?",
     "question": "What exists socially between households, markets and the state?",
@@ -3175,7 +3199,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-capital-putnam",
     "world": "social-sciences",
     "name": "Social Capital and Civic Life",
-    "pool": "Power, Politics & Society",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Networks",
     "hook": "Why might dense civic networks affect cooperation?",
     "question": "Why might dense civic networks affect cooperation?",
@@ -3214,7 +3238,7 @@ export const socialSciencesConcepts = [
     "id": "social-political-socialization",
     "world": "social-sciences",
     "name": "Political Socialization",
-    "pool": "Power, Politics & Society",
+    "pool": "Society, Culture & Identity",
     "topic": "Socialization",
     "hook": "How do people acquire political identities and orientations?",
     "question": "How do people acquire political identities and orientations?",
@@ -3252,7 +3276,7 @@ export const socialSciencesConcepts = [
     "id": "social-political-cleavages",
     "world": "social-sciences",
     "name": "Social Cleavages",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Power",
     "hook": "Why do some social divisions become durable political divisions?",
     "question": "Why do some social divisions become durable political divisions?",
@@ -3291,7 +3315,7 @@ export const socialSciencesConcepts = [
     "id": "social-state-society",
     "world": "social-sciences",
     "name": "State and Society",
-    "pool": "Power, Politics & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Institutions",
     "hook": "Why can't the state be understood separately from social groups?",
     "question": "Why can't the state be understood separately from social groups?",
@@ -3330,7 +3354,7 @@ export const socialSciencesConcepts = [
     "id": "social-demography",
     "world": "social-sciences",
     "name": "Demography",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "How can births, deaths and migration transform a society without anyone planning it?",
     "question": "How can births, deaths and migration transform a society without anyone planning it?",
@@ -3369,7 +3393,7 @@ export const socialSciencesConcepts = [
     "id": "social-fertility",
     "world": "social-sciences",
     "name": "Fertility",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "Why do birth rates differ dramatically across societies and historical periods?",
     "question": "Why do birth rates differ dramatically across societies and historical periods?",
@@ -3408,7 +3432,7 @@ export const socialSciencesConcepts = [
     "id": "social-mortality",
     "world": "social-sciences",
     "name": "Mortality",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "What can death rates reveal about a society?",
     "question": "What can death rates reveal about a society?",
@@ -3447,7 +3471,7 @@ export const socialSciencesConcepts = [
     "id": "social-migration",
     "world": "social-sciences",
     "name": "Migration",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Migration",
     "hook": "Why do people move across regions and borders?",
     "question": "Why do people move across regions and borders?",
@@ -3484,7 +3508,7 @@ export const socialSciencesConcepts = [
     "id": "social-migration-networks",
     "world": "social-sciences",
     "name": "Migration Networks",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Migration",
     "hook": "Why can migration continue even after the original economic gap shrinks?",
     "question": "Why can migration continue even after the original economic gap shrinks?",
@@ -3521,7 +3545,7 @@ export const socialSciencesConcepts = [
     "id": "social-urbanization",
     "world": "social-sciences",
     "name": "Urbanization",
-    "pool": "Demography & Population",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "Why has humanity increasingly concentrated in cities?",
     "question": "Why has humanity increasingly concentrated in cities?",
@@ -3560,7 +3584,7 @@ export const socialSciencesConcepts = [
     "id": "social-ageing",
     "world": "social-sciences",
     "name": "Population Ageing",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "What happens when societies have fewer births and longer lives?",
     "question": "What happens when societies have fewer births and longer lives?",
@@ -3599,7 +3623,7 @@ export const socialSciencesConcepts = [
     "id": "social-dependency-ratio",
     "world": "social-sciences",
     "name": "Dependency Ratio",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "Why does age structure matter economically and socially?",
     "question": "Why does age structure matter economically and socially?",
@@ -3638,7 +3662,7 @@ export const socialSciencesConcepts = [
     "id": "social-demographic-dividend",
     "world": "social-sciences",
     "name": "Demographic Dividend",
-    "pool": "Demography & Population",
+    "pool": "Inequality, Class & Population",
     "topic": "Demography",
     "hook": "How can a changing age structure temporarily support growth?",
     "question": "How can a changing age structure temporarily support growth?",
@@ -3677,7 +3701,7 @@ export const socialSciencesConcepts = [
     "id": "social-assortative-mating",
     "world": "social-sciences",
     "name": "Assortative Mating",
-    "pool": "Demography & Population",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Family",
     "hook": "Why do people often partner with others similar in education or social background?",
     "question": "Why do people often partner with others similar in education or social background?",
@@ -3716,7 +3740,7 @@ export const socialSciencesConcepts = [
     "id": "social-urban-sociology",
     "world": "social-sciences",
     "name": "Urban Sociology",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "How does dense city life change social relationships?",
     "question": "How does dense city life change social relationships?",
@@ -3755,7 +3779,7 @@ export const socialSciencesConcepts = [
     "id": "social-segregation",
     "world": "social-sciences",
     "name": "Residential Segregation",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "How can groups live in separate worlds inside the same city?",
     "question": "How can groups live in separate worlds inside the same city?",
@@ -3794,7 +3818,7 @@ export const socialSciencesConcepts = [
     "id": "social-neighborhood-effects",
     "world": "social-sciences",
     "name": "Neighborhood Effects",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "Can where you grow up influence outcomes beyond your family background?",
     "question": "Can where you grow up influence outcomes beyond your family background?",
@@ -3833,7 +3857,7 @@ export const socialSciencesConcepts = [
     "id": "social-gentrification",
     "world": "social-sciences",
     "name": "Gentrification",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "What happens when investment and higher-income residents enter a lower-income neighborhood?",
     "question": "What happens when investment and higher-income residents enter a lower-income neighborhood?",
@@ -3872,7 +3896,7 @@ export const socialSciencesConcepts = [
     "id": "social-social-disorganization",
     "world": "social-sciences",
     "name": "Social Disorganization",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Communities",
     "hook": "Why do some neighborhoods struggle to maintain informal social control?",
     "question": "Why do some neighborhoods struggle to maintain informal social control?",
@@ -3910,7 +3934,7 @@ export const socialSciencesConcepts = [
     "id": "social-third-places",
     "world": "social-sciences",
     "name": "Third Places",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Communities",
     "hook": "Why can cafés, parks and community spaces matter socially?",
     "question": "Why can cafés, parks and community spaces matter socially?",
@@ -3948,7 +3972,7 @@ export const socialSciencesConcepts = [
     "id": "social-gemeinschaft-gesellschaft",
     "world": "social-sciences",
     "name": "Gemeinschaft and Gesellschaft",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Communities",
     "hook": "How did early sociology describe the shift from village-like community to modern impersonal society?",
     "question": "How did early sociology describe the shift from village-like community to modern impersonal society?",
@@ -3986,7 +4010,7 @@ export const socialSciencesConcepts = [
     "id": "social-urban-anonymity",
     "world": "social-sciences",
     "name": "Urban Anonymity",
-    "pool": "Cities & Communities",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Cities",
     "hook": "Why can cities feel simultaneously crowded and anonymous?",
     "question": "Why can cities feel simultaneously crowded and anonymous?",
@@ -4025,7 +4049,7 @@ export const socialSciencesConcepts = [
     "id": "social-anthropology",
     "world": "social-sciences",
     "name": "Social Anthropology",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "How can studying radically different societies reveal assumptions in your own?",
     "question": "How can studying radically different societies reveal assumptions in your own?",
@@ -4064,7 +4088,7 @@ export const socialSciencesConcepts = [
     "id": "social-ethnography",
     "world": "social-sciences",
     "name": "Ethnography",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "What can months or years of living alongside a community reveal that a survey might miss?",
     "question": "What can months or years of living alongside a community reveal that a survey might miss?",
@@ -4103,7 +4127,7 @@ export const socialSciencesConcepts = [
     "id": "social-participant-observation",
     "world": "social-sciences",
     "name": "Participant Observation",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "How can a researcher study social life from inside it?",
     "question": "How can a researcher study social life from inside it?",
@@ -4142,7 +4166,7 @@ export const socialSciencesConcepts = [
     "id": "social-kinship",
     "world": "social-sciences",
     "name": "Kinship",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Family",
     "hook": "Why does 'family' mean different things across societies?",
     "question": "Why does 'family' mean different things across societies?",
@@ -4181,7 +4205,7 @@ export const socialSciencesConcepts = [
     "id": "social-gift-exchange",
     "world": "social-sciences",
     "name": "Gift Exchange",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "Why is a gift rarely just a free object?",
     "question": "Why is a gift rarely just a free object?",
@@ -4220,7 +4244,7 @@ export const socialSciencesConcepts = [
     "id": "social-reciprocity",
     "world": "social-sciences",
     "name": "Reciprocity",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "Why does returning favors matter across so many societies?",
     "question": "Why does returning favors matter across so many societies?",
@@ -4259,7 +4283,7 @@ export const socialSciencesConcepts = [
     "id": "social-rite-passage",
     "world": "social-sciences",
     "name": "Rites of Passage",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "Why do societies ritualize transitions such as adulthood, marriage or death?",
     "question": "Why do societies ritualize transitions such as adulthood, marriage or death?",
@@ -4298,7 +4322,7 @@ export const socialSciencesConcepts = [
     "id": "social-liminality",
     "world": "social-sciences",
     "name": "Liminality",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Culture",
     "hook": "What is special about being 'between' social statuses?",
     "question": "What is special about being 'between' social statuses?",
@@ -4337,7 +4361,7 @@ export const socialSciencesConcepts = [
     "id": "social-thick-description",
     "world": "social-sciences",
     "name": "Thick Description",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "Why isn't describing behavior enough to understand it?",
     "question": "Why isn't describing behavior enough to understand it?",
@@ -4376,7 +4400,7 @@ export const socialSciencesConcepts = [
     "id": "social-nature-culture",
     "world": "social-sciences",
     "name": "Nature and Culture",
-    "pool": "Anthropology & Human Variation",
+    "pool": "Society, Culture & Identity",
     "topic": "Anthropology",
     "hook": "How much of human behavior can be cleanly separated into biological versus cultural causes?",
     "question": "How much of human behavior can be cleanly separated into biological versus cultural causes?",
@@ -4415,7 +4439,7 @@ export const socialSciencesConcepts = [
     "id": "social-mass-media",
     "world": "social-sciences",
     "name": "Mass Media",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Media & Society",
     "hook": "How can media shape society without simply telling everyone what to think?",
     "question": "How can media shape society without simply telling everyone what to think?",
@@ -4453,7 +4477,7 @@ export const socialSciencesConcepts = [
     "id": "social-agenda-media",
     "world": "social-sciences",
     "name": "Media Agenda Setting",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Media & Society",
     "hook": "Can news affect what people think about even if not exactly what they think?",
     "question": "Can news affect what people think about even if not exactly what they think?",
@@ -4491,7 +4515,7 @@ export const socialSciencesConcepts = [
     "id": "social-framing-media",
     "world": "social-sciences",
     "name": "Media Framing",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Media & Society",
     "hook": "Why can two accurate descriptions of the same event produce different interpretations?",
     "question": "Why can two accurate descriptions of the same event produce different interpretations?",
@@ -4529,7 +4553,7 @@ export const socialSciencesConcepts = [
     "id": "social-filter-bubbles",
     "world": "social-sciences",
     "name": "Filter Bubbles",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Technology & Society",
     "hook": "Do algorithms necessarily trap everyone inside ideological bubbles?",
     "question": "Do algorithms necessarily trap everyone inside ideological bubbles?",
@@ -4568,7 +4592,7 @@ export const socialSciencesConcepts = [
     "id": "social-digital-divide",
     "world": "social-sciences",
     "name": "Digital Divide",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Technology & Society",
     "hook": "What inequality remains after most people technically have internet access?",
     "question": "What inequality remains after most people technically have internet access?",
@@ -4607,7 +4631,7 @@ export const socialSciencesConcepts = [
     "id": "social-platform-society",
     "world": "social-sciences",
     "name": "Platform Society",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Technology & Society",
     "hook": "What changes when social interaction is mediated by a few digital platforms?",
     "question": "What changes when social interaction is mediated by a few digital platforms?",
@@ -4646,7 +4670,7 @@ export const socialSciencesConcepts = [
     "id": "social-surveillance-society",
     "world": "social-sciences",
     "name": "Surveillance Society",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Technology & Society",
     "hook": "How does routine data collection alter social power?",
     "question": "How does routine data collection alter social power?",
@@ -4685,7 +4709,7 @@ export const socialSciencesConcepts = [
     "id": "social-networked-publics",
     "world": "social-sciences",
     "name": "Networked Publics",
-    "pool": "Media, Technology & Society",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Technology & Society",
     "hook": "How does public life change when communication is persistent, searchable and shareable?",
     "question": "How does public life change when communication is persistent, searchable and shareable?",
@@ -4724,7 +4748,7 @@ export const socialSciencesConcepts = [
     "id": "social-family-institution",
     "world": "social-sciences",
     "name": "Family as an Institution",
-    "pool": "Family, Education & Religion",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Family",
     "hook": "Why is family both intimate and social?",
     "question": "Why is family both intimate and social?",
@@ -4763,7 +4787,7 @@ export const socialSciencesConcepts = [
     "id": "social-household-family",
     "world": "social-sciences",
     "name": "Household vs Family",
-    "pool": "Family, Education & Religion",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Family",
     "hook": "Why aren't households and families the same thing?",
     "question": "Why aren't households and families the same thing?",
@@ -4802,7 +4826,7 @@ export const socialSciencesConcepts = [
     "id": "social-marriage-institution",
     "world": "social-sciences",
     "name": "Marriage",
-    "pool": "Family, Education & Religion",
+    "pool": "Groups, Communities & Social Behavior",
     "topic": "Family",
     "hook": "Why is marriage more than a private romantic decision?",
     "question": "Why is marriage more than a private romantic decision?",
@@ -4841,7 +4865,7 @@ export const socialSciencesConcepts = [
     "id": "social-education-institution",
     "world": "social-sciences",
     "name": "Education as an Institution",
-    "pool": "Family, Education & Religion",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Education",
     "hook": "Why does schooling do more than transfer knowledge?",
     "question": "Why does schooling do more than transfer knowledge?",
@@ -4879,7 +4903,7 @@ export const socialSciencesConcepts = [
     "id": "social-credentialism",
     "world": "social-sciences",
     "name": "Credentialism",
-    "pool": "Family, Education & Religion",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Education",
     "hook": "Why can degrees become required even when the job itself has not changed?",
     "question": "Why can degrees become required even when the job itself has not changed?",
@@ -4917,7 +4941,7 @@ export const socialSciencesConcepts = [
     "id": "social-school-tracking",
     "world": "social-sciences",
     "name": "Educational Tracking",
-    "pool": "Family, Education & Religion",
+    "pool": "Institutions, Power & Modern Society",
     "topic": "Education",
     "hook": "What happens when students are placed into different academic pathways?",
     "question": "What happens when students are placed into different academic pathways?",
@@ -4955,7 +4979,7 @@ export const socialSciencesConcepts = [
     "id": "social-religion-social",
     "world": "social-sciences",
     "name": "Sociology of Religion",
-    "pool": "Family, Education & Religion",
+    "pool": "Society, Culture & Identity",
     "topic": "Religion",
     "hook": "Why study religion as a social institution?",
     "question": "Why study religion as a social institution?",
@@ -4993,7 +5017,7 @@ export const socialSciencesConcepts = [
     "id": "social-secularization",
     "world": "social-sciences",
     "name": "Secularization",
-    "pool": "Family, Education & Religion",
+    "pool": "Society, Culture & Identity",
     "topic": "Religion",
     "hook": "Does modernization inevitably make religion disappear?",
     "question": "Does modernization inevitably make religion disappear?",
@@ -5031,7 +5055,7 @@ export const socialSciencesConcepts = [
     "id": "social-civil-religion",
     "world": "social-sciences",
     "name": "Civil Religion",
-    "pool": "Family, Education & Religion",
+    "pool": "Society, Culture & Identity",
     "topic": "Religion",
     "hook": "Can nations develop rituals and sacred symbols that resemble religion?",
     "question": "Can nations develop rituals and sacred symbols that resemble religion?",
@@ -5069,7 +5093,7 @@ export const socialSciencesConcepts = [
     "id": "social-protestant-ethic",
     "world": "social-sciences",
     "name": "Protestant Ethic Thesis",
-    "pool": "Family, Education & Religion",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Max Weber",
     "hook": "Did religious ideas contribute to the development of modern capitalism?",
     "question": "Did religious ideas contribute to the development of modern capitalism?",
@@ -5102,13 +5126,14 @@ export const socialSciencesConcepts = [
       "social-social-action-weber",
       "social-verstehen",
       "social-ideal-type"
-    ]
+    ],
+    "deck": "Max Weber"
   },
   {
     "id": "social-survey",
     "world": "social-sciences",
     "name": "Surveys",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "How can researchers infer patterns in millions of people from a much smaller sample?",
     "question": "How can researchers infer patterns in millions of people from a much smaller sample?",
@@ -5141,13 +5166,14 @@ export const socialSciencesConcepts = [
       "social-social-experiment",
       "social-natural-experiment",
       "social-longitudinal"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-representative-sample",
     "world": "social-sciences",
     "name": "Representative Sampling",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why is a huge biased sample sometimes worse than a small well-designed one?",
     "question": "Why is a huge biased sample sometimes worse than a small well-designed one?",
@@ -5180,13 +5206,14 @@ export const socialSciencesConcepts = [
       "social-natural-experiment",
       "social-longitudinal",
       "social-cross-sectional"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-social-experiment",
     "world": "social-sciences",
     "name": "Social Experiments",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "How can researchers test whether a social intervention caused an outcome?",
     "question": "How can researchers test whether a social intervention caused an outcome?",
@@ -5219,13 +5246,14 @@ export const socialSciencesConcepts = [
       "social-longitudinal",
       "social-cross-sectional",
       "social-qualitative"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-natural-experiment",
     "world": "social-sciences",
     "name": "Natural Experiments",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "How can real-world events sometimes approximate random assignment?",
     "question": "How can real-world events sometimes approximate random assignment?",
@@ -5258,13 +5286,14 @@ export const socialSciencesConcepts = [
       "social-cross-sectional",
       "social-qualitative",
       "social-mixed-methods"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-longitudinal",
     "world": "social-sciences",
     "name": "Longitudinal Studies",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why follow the same people for years?",
     "question": "Why follow the same people for years?",
@@ -5297,13 +5326,14 @@ export const socialSciencesConcepts = [
       "social-qualitative",
       "social-mixed-methods",
       "social-selection-bias-social"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-cross-sectional",
     "world": "social-sciences",
     "name": "Cross-Sectional Studies",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "What can a snapshot of many people tell you?",
     "question": "What can a snapshot of many people tell you?",
@@ -5336,13 +5366,14 @@ export const socialSciencesConcepts = [
       "social-mixed-methods",
       "social-selection-bias-social",
       "social-confounding-social"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-qualitative",
     "world": "social-sciences",
     "name": "Qualitative Research",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why use interviews when numbers exist?",
     "question": "Why use interviews when numbers exist?",
@@ -5375,13 +5406,14 @@ export const socialSciencesConcepts = [
       "social-selection-bias-social",
       "social-confounding-social",
       "social-ecological-fallacy"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-mixed-methods",
     "world": "social-sciences",
     "name": "Mixed Methods",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why combine statistical and qualitative evidence?",
     "question": "Why combine statistical and qualitative evidence?",
@@ -5414,13 +5446,14 @@ export const socialSciencesConcepts = [
       "social-confounding-social",
       "social-ecological-fallacy",
       "social-measurement-social"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-selection-bias-social",
     "world": "social-sciences",
     "name": "Selection Bias",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why can comparing people who chose different paths mislead you?",
     "question": "Why can comparing people who chose different paths mislead you?",
@@ -5453,13 +5486,14 @@ export const socialSciencesConcepts = [
       "social-ecological-fallacy",
       "social-measurement-social",
       "social-survey"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-confounding-social",
     "world": "social-sciences",
     "name": "Confounding",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why can two social variables move together without one causing the other?",
     "question": "Why can two social variables move together without one causing the other?",
@@ -5492,13 +5526,14 @@ export const socialSciencesConcepts = [
       "social-measurement-social",
       "social-survey",
       "social-representative-sample"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-ecological-fallacy",
     "world": "social-sciences",
     "name": "Ecological Fallacy",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "Why can't group-level patterns automatically be applied to individuals?",
     "question": "Why can't group-level patterns automatically be applied to individuals?",
@@ -5531,13 +5566,14 @@ export const socialSciencesConcepts = [
       "social-survey",
       "social-representative-sample",
       "social-social-experiment"
-    ]
+    ],
+    "deck": "Methods & Evidence"
   },
   {
     "id": "social-measurement-social",
     "world": "social-sciences",
     "name": "Measurement Validity",
-    "pool": "Methods & Evidence",
+    "pool": "Social Science Thinkers & Methods",
     "topic": "Methods",
     "hook": "How do you know a survey question actually measures the social concept you care about?",
     "question": "How do you know a survey question actually measures the social concept you care about?",
@@ -5570,6 +5606,672 @@ export const socialSciencesConcepts = [
       "social-representative-sample",
       "social-social-experiment",
       "social-natural-experiment"
-    ]
+    ],
+    "deck": "Methods & Evidence"
+  },
+  {
+    "id": "soc-durkheim-suicide",
+    "world": "social-sciences",
+    "name": "Durkheim on Suicide",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Émile Durkheim",
+    "hook": "Why did Durkheim study suicide sociologically?",
+    "question": "Why did Durkheim study suicide sociologically?",
+    "options": [
+      "Durkheim used differences in suicide rates to argue that even intensely personal acts can be patterned by social integration and regulation.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Durkheim used differences in suicide rates to argue that even intensely personal acts can be patterned by social integration and regulation.",
+    "examples": [
+      [
+        "Real-world example",
+        "Two communities with similar individuals can show different suicide rates when their levels of social integration differ."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Émile Durkheim's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Émile Durkheim"
+  },
+  {
+    "id": "soc-durkheim-collective-conscience",
+    "world": "social-sciences",
+    "name": "Collective Conscience",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Émile Durkheim",
+    "hook": "What did Durkheim mean by the collective conscience?",
+    "question": "What did Durkheim mean by the collective conscience?",
+    "options": [
+      "It is the shared body of beliefs and moral sentiments that helps bind a society together.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "It is the shared body of beliefs and moral sentiments that helps bind a society together.",
+    "examples": [
+      [
+        "Real-world example",
+        "Public rituals after a national tragedy can reaffirm a shared moral identity even among strangers."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Émile Durkheim's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Émile Durkheim"
+  },
+  {
+    "id": "soc-gof-stigma",
+    "world": "social-sciences",
+    "name": "Stigma",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Erving Goffman",
+    "hook": "How does Goffman explain stigma?",
+    "question": "How does Goffman explain stigma?",
+    "options": [
+      "Stigma arises when an attribute is socially interpreted as discrediting, changing how a person is categorized and treated in interaction.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Stigma arises when an attribute is socially interpreted as discrediting, changing how a person is categorized and treated in interaction.",
+    "examples": [
+      [
+        "Real-world example",
+        "Someone may conceal a medical condition in a job interview because they expect the label to shape how others see them."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Erving Goffman's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Erving Goffman"
+  },
+  {
+    "id": "soc-gof-facework",
+    "world": "social-sciences",
+    "name": "Face-Work",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Erving Goffman",
+    "hook": "What is face-work in everyday interaction?",
+    "question": "What is face-work in everyday interaction?",
+    "options": [
+      "Face-work is the effort people make to maintain a socially acceptable image of themselves and help interactions proceed without embarrassment.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Face-work is the effort people make to maintain a socially acceptable image of themselves and help interactions proceed without embarrassment.",
+    "examples": [
+      [
+        "Real-world example",
+        "When a friend forgets a name, others may smoothly change the subject instead of highlighting the mistake."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Erving Goffman's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Erving Goffman"
+  },
+  {
+    "id": "soc-gof-frontstage",
+    "world": "social-sciences",
+    "name": "Front Stage and Back Stage",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Erving Goffman",
+    "hook": "How do front-stage and back-stage behavior differ?",
+    "question": "How do front-stage and back-stage behavior differ?",
+    "options": [
+      "Front-stage behavior is performed for an audience according to expected roles, while back-stage settings allow people to drop or prepare those performances.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Front-stage behavior is performed for an audience according to expected roles, while back-stage settings allow people to drop or prepare those performances.",
+    "examples": [
+      [
+        "Real-world example",
+        "A restaurant server may remain cheerful with customers, then speak very differently with coworkers in the kitchen."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Erving Goffman's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Erving Goffman"
+  },
+  {
+    "id": "soc-gof-total-institutions",
+    "world": "social-sciences",
+    "name": "Total Institutions",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Erving Goffman",
+    "hook": "What did Goffman call a total institution?",
+    "question": "What did Goffman call a total institution?",
+    "options": [
+      "A total institution is a setting where many areas of life are organized under one authority and separated from ordinary social life.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A total institution is a setting where many areas of life are organized under one authority and separated from ordinary social life.",
+    "examples": [
+      [
+        "Real-world example",
+        "Prisons, some military boot camps and historical asylums can tightly structure sleeping, work, movement and interaction."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Erving Goffman's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Erving Goffman"
+  },
+  {
+    "id": "soc-marx-class-conflict",
+    "world": "social-sciences",
+    "name": "Class Conflict",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Karl Marx & Class",
+    "hook": "Why is class conflict central to Marx's sociology?",
+    "question": "Why is class conflict central to Marx's sociology?",
+    "options": [
+      "Marx treated classes as groups positioned differently within production, with conflicting interests over control, labor and the distribution of surplus.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx treated classes as groups positioned differently within production, with conflicting interests over control, labor and the distribution of surplus.",
+    "examples": [
+      [
+        "Real-world example",
+        "Workers bargaining over wages and owners bargaining over labor costs can have structurally opposed interests even when individuals get along."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Karl Marx & Class's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Karl Marx & Class"
+  },
+  {
+    "id": "soc-marx-bourgeoisie-proletariat",
+    "world": "social-sciences",
+    "name": "Bourgeoisie and Proletariat",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Karl Marx & Class",
+    "hook": "What distinguishes the bourgeoisie from the proletariat in Marx's analysis?",
+    "question": "What distinguishes the bourgeoisie from the proletariat in Marx's analysis?",
+    "options": [
+      "The distinction concerns control of productive assets: the bourgeoisie own capital, while proletarians primarily sell their labor power.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The distinction concerns control of productive assets: the bourgeoisie own capital, while proletarians primarily sell their labor power.",
+    "examples": [
+      [
+        "Real-world example",
+        "A factory owner earns returns from ownership while employees depend mainly on wages."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Karl Marx & Class's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Karl Marx & Class"
+  },
+  {
+    "id": "soc-marx-alienation",
+    "world": "social-sciences",
+    "name": "Alienation and Work",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Karl Marx & Class",
+    "hook": "How can work become alienating in Marx's account?",
+    "question": "How can work become alienating in Marx's account?",
+    "options": [
+      "Workers can become separated from the product, the activity of work, other people and their own capacities when labor is controlled as an external necessity.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Workers can become separated from the product, the activity of work, other people and their own capacities when labor is controlled as an external necessity.",
+    "examples": [
+      [
+        "Real-world example",
+        "A worker who repeats a tightly scripted task with no say over the product may experience work as something done to them rather than an expression of agency."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Karl Marx & Class's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Karl Marx & Class"
+  },
+  {
+    "id": "soc-marx-ideology",
+    "world": "social-sciences",
+    "name": "Ideology and Social Order",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Karl Marx & Class",
+    "hook": "How does ideology matter in Marxian social analysis?",
+    "question": "How does ideology matter in Marxian social analysis?",
+    "options": [
+      "Ideas can help stabilize social arrangements by making historically specific relations appear natural, inevitable or universal.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Ideas can help stabilize social arrangements by making historically specific relations appear natural, inevitable or universal.",
+    "examples": [
+      [
+        "Real-world example",
+        "A workplace hierarchy may be described as purely merit-based even when access to credentials and networks is very unequal."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Karl Marx & Class's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Karl Marx & Class"
+  },
+  {
+    "id": "soc-marx-vs-weber",
+    "world": "social-sciences",
+    "name": "Marx vs Weber on Stratification",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Karl Marx & Class",
+    "hook": "How does Weber broaden Marx's account of inequality?",
+    "question": "How does Weber broaden Marx's account of inequality?",
+    "options": [
+      "Marx emphasizes class relations rooted in production, while Weber distinguishes class, status and party as partly independent sources of social power.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx emphasizes class relations rooted in production, while Weber distinguishes class, status and party as partly independent sources of social power.",
+    "examples": [
+      [
+        "Real-world example",
+        "A professor may have high social status but modest wealth, while a wealthy entrepreneur may possess more economic power."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Karl Marx & Class's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Karl Marx & Class"
+  },
+  {
+    "id": "soc-simmel-stranger",
+    "world": "social-sciences",
+    "name": "The Stranger",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Georg Simmel",
+    "hook": "What is Simmel's sociological idea of the stranger?",
+    "question": "What is Simmel's sociological idea of the stranger?",
+    "options": [
+      "The stranger is simultaneously near and distant: part of a group yet not rooted in it in the same way as long-standing members.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The stranger is simultaneously near and distant: part of a group yet not rooted in it in the same way as long-standing members.",
+    "examples": [
+      [
+        "Real-world example",
+        "A newcomer in a small organization may be trusted with sensitive complaints precisely because they are less entangled in old loyalties."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Georg Simmel's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Georg Simmel"
+  },
+  {
+    "id": "soc-simmel-dyad-triad",
+    "world": "social-sciences",
+    "name": "Dyads and Triads",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Georg Simmel",
+    "hook": "Why does adding a third person qualitatively change a group?",
+    "question": "Why does adding a third person qualitatively change a group?",
+    "options": [
+      "A dyad depends directly on two members, while a triad allows coalitions, mediation and majority dynamics that cannot exist with only two.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A dyad depends directly on two members, while a triad allows coalitions, mediation and majority dynamics that cannot exist with only two.",
+    "examples": [
+      [
+        "Real-world example",
+        "Two coworkers in conflict may behave differently once a manager joins and can mediate or side with one person."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Georg Simmel's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Georg Simmel"
+  },
+  {
+    "id": "soc-simmel-metropolis",
+    "world": "social-sciences",
+    "name": "The Metropolis and Mental Life",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Georg Simmel",
+    "hook": "How did Simmel think city life shapes attention and social behavior?",
+    "question": "How did Simmel think city life shapes attention and social behavior?",
+    "options": [
+      "He argued that dense, rapid and impersonal urban stimulation encourages reserve, calculation and a protective 'blasé' attitude.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "He argued that dense, rapid and impersonal urban stimulation encourages reserve, calculation and a protective 'blasé' attitude.",
+    "examples": [
+      [
+        "Real-world example",
+        "A commuter in a packed station may deliberately ignore most strangers and stimuli just to function efficiently."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Georg Simmel's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Georg Simmel"
+  },
+  {
+    "id": "soc-simmel-form-content",
+    "world": "social-sciences",
+    "name": "Form and Content",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Georg Simmel",
+    "hook": "What did Simmel mean by separating social form from content?",
+    "question": "What did Simmel mean by separating social form from content?",
+    "options": [
+      "Different motives can generate similar patterns of interaction, so sociology can study forms such as competition, exchange or conflict across very different settings.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Different motives can generate similar patterns of interaction, so sociology can study forms such as competition, exchange or conflict across very different settings.",
+    "examples": [
+      [
+        "Real-world example",
+        "Competition between scientists and competition between businesses differ in content but can share structural features."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Georg Simmel's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Georg Simmel"
+  },
+  {
+    "id": "soc-found-structure-agency",
+    "world": "social-sciences",
+    "name": "Structure vs Agency",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Foundations of Sociology",
+    "hook": "What is the structure-agency problem?",
+    "question": "What is the structure-agency problem?",
+    "options": [
+      "It asks how much social behavior is shaped by institutions and patterned constraints versus people's capacity to act, interpret and change their circumstances.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "It asks how much social behavior is shaped by institutions and patterned constraints versus people's capacity to act, interpret and change their circumstances.",
+    "examples": [
+      [
+        "Real-world example",
+        "A graduate chooses a career personally, but wages, family expectations, credentials and labor-market opportunities shape the available options."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Foundations of Sociology's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Foundations of Sociology"
+  },
+  {
+    "id": "soc-found-micro-macro",
+    "world": "social-sciences",
+    "name": "Micro and Macro Sociology",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Foundations of Sociology",
+    "hook": "What is the difference between micro and macro sociology?",
+    "question": "What is the difference between micro and macro sociology?",
+    "options": [
+      "Micro sociology studies interaction and meaning in small-scale settings, while macro sociology studies large institutions, populations and structural patterns.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Micro sociology studies interaction and meaning in small-scale settings, while macro sociology studies large institutions, populations and structural patterns.",
+    "examples": [
+      [
+        "Real-world example",
+        "One study might examine conversation in classrooms while another examines national inequality in educational outcomes."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Foundations of Sociology's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Foundations of Sociology"
+  },
+  {
+    "id": "soc-compare-durkheim-weber",
+    "world": "social-sciences",
+    "name": "Durkheim vs Weber",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Max Weber",
+    "hook": "How do Durkheim and Weber differ in their starting point?",
+    "question": "How do Durkheim and Weber differ in their starting point?",
+    "options": [
+      "Durkheim emphasizes social facts and structures external to individuals, while Weber begins from meaningful social action and interpretive understanding.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Durkheim emphasizes social facts and structures external to individuals, while Weber begins from meaningful social action and interpretive understanding.",
+    "examples": [
+      [
+        "Real-world example",
+        "To study religion, Durkheim might emphasize collective rituals and cohesion, while Weber might ask how religious meanings shape economic conduct."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Max Weber's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Max Weber"
+  },
+  {
+    "id": "soc-compare-bourdieu-marx",
+    "world": "social-sciences",
+    "name": "Bourdieu vs Marx on Class",
+    "pool": "Social Science Thinkers & Methods",
+    "deck": "Pierre Bourdieu",
+    "hook": "How does Bourdieu expand the analysis of class beyond economic capital?",
+    "question": "How does Bourdieu expand the analysis of class beyond economic capital?",
+    "options": [
+      "Bourdieu adds cultural, social and symbolic capital and studies how tastes, credentials and networks reproduce hierarchy alongside wealth.",
+      "It means individual personality fully determines social outcomes.",
+      "It refers only to biological inheritance.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Bourdieu adds cultural, social and symbolic capital and studies how tastes, credentials and networks reproduce hierarchy alongside wealth.",
+    "examples": [
+      [
+        "Real-world example",
+        "Two families with similar incomes may offer very different cultural knowledge and professional networks to their children."
+      ],
+      [
+        "Compare",
+        "Ask how another sociological tradition would explain the same case."
+      ],
+      [
+        "Use it",
+        "Use the concept to identify a pattern, then check whether the evidence actually fits it."
+      ]
+    ],
+    "why": "It gives you a clearer map of Pierre Bourdieu's contribution to social science.",
+    "caveat": "Sociological concepts simplify complex social settings and should be tested against context and evidence.",
+    "related": [],
+    "topic": "Pierre Bourdieu"
   }
 ];
