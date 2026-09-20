@@ -7,6 +7,7 @@ const worlds=[
  {id:'neuroscience',name:'Neuroscience',desc:'Brain systems, memory, reward, sleep and behavior.',status:'next',target:'250–350'},
  {id:'body',name:'Body & Gym',desc:'Training-relevant anatomy, movement, hypertrophy and recovery.',status:'next',target:'120–180'},
  {id:'economics',name:'Economics',desc:'Markets, money, incentives, crises and institutions.',status:'planned',target:'400–600'},
+ {id:'social-sciences',name:'Social Sciences',desc:'Society, culture, institutions, power, groups, inequality and human organization.',target:'140+',status:'live'},
  {id:'philosophy',name:'Continental Philosophy',desc:'Thinkers and ideas about self, freedom, society and meaning.',status:'planned',target:'300–450'},
  {id:'europe',name:'European History',desc:'Events, people, institutions and long processes across Europe.',status:'planned',target:'900–1,200'},
  {id:'middle-east',name:'Middle East History',desc:'Empires, states, movements and turning points across the region.',status:'planned',target:'700–900'},
