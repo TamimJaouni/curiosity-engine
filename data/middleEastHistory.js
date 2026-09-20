@@ -6578,31 +6578,31 @@ export const middleEastHistoryConcepts = [
     "name": "British Occupation of Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes British Occupation of Iraq historically important?",
-    "question": "Which explanation best places British Occupation of Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with British Occupation of Iraq?",
+    "question": "Which statement best explains British Occupation of Iraq?",
     "options": [
-      "British Occupation of Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "British forces occupied the Ottoman provinces that became Iraq during World War I. The occupation and subsequent mandate plans generated resistance and established the framework in which Britain helped construct the new Iraqi state.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "British Occupation of Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "British forces occupied the Ottoman provinces that became Iraq during World War I. The occupation and subsequent mandate plans generated resistance and established the framework in which Britain helped construct the new Iraqi state.",
     "examples": [
       [
-        "Historical setting",
-        "Read British Occupation of Iraq together with Iraqi Revolt of 1920 rather than as an isolated fact."
+        "Context",
+        "Place British Occupation of Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with British Occupation of Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Kingdom of Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing British Occupation of Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "British Occupation of Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iraqi-revolt-of-1920",
@@ -6667,31 +6667,31 @@ export const middleEastHistoryConcepts = [
     "name": "Kingdom of Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Kingdom of Iraq historically important?",
-    "question": "Which explanation best places Kingdom of Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Kingdom of Iraq?",
+    "question": "Which statement best explains Kingdom of Iraq?",
     "options": [
-      "Kingdom of Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "The Hashemite Kingdom of Iraq was established in 1921 under Faisal I, combining former Ottoman provinces under a monarchy closely connected to Britain while Iraqi nationalists pressed for greater sovereignty.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kingdom of Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "The Hashemite Kingdom of Iraq was established in 1921 under Faisal I, combining former Ottoman provinces under a monarchy closely connected to Britain while Iraqi nationalists pressed for greater sovereignty.",
     "examples": [
       [
-        "Historical setting",
-        "Read Kingdom of Iraq together with Faisal I in Iraq rather than as an isolated fact."
+        "Context",
+        "Place Kingdom of Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Kingdom of Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Iraqi Independence to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Kingdom of Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Kingdom of Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-faisal-i-in-iraq",
@@ -6711,31 +6711,31 @@ export const middleEastHistoryConcepts = [
     "name": "Faisal I in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Faisal I in Iraq historically important?",
-    "question": "Which explanation best places Faisal I in Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Faisal I in Iraq?",
+    "question": "Which statement best explains Faisal I in Iraq?",
     "options": [
-      "Faisal I in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Britain supported Faisal ibn Hussein as king of Iraq in 1921 after his short-lived Arab government in Damascus was defeated by France. He became central to building institutions and negotiating the new state's relationship with Britain.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Faisal I in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Britain supported Faisal ibn Hussein as king of Iraq in 1921 after his short-lived Arab government in Damascus was defeated by France. He became central to building institutions and negotiating the new state's relationship with Britain.",
     "examples": [
       [
-        "Historical setting",
-        "Read Faisal I in Iraq together with Iraqi Independence rather than as an isolated fact."
+        "Context",
+        "Place Faisal I in Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Faisal I in Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to 1958 Iraqi Revolution to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Faisal I in Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Faisal I in Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iraqi-independence",
@@ -6755,31 +6755,31 @@ export const middleEastHistoryConcepts = [
     "name": "Iraqi Independence",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Iraqi Independence historically important?",
-    "question": "Which explanation best places Iraqi Independence in Middle Eastern history?",
+    "hook": "What changed in Iraq with Iraqi Independence?",
+    "question": "Which statement best explains Iraqi Independence?",
     "options": [
-      "Iraqi Independence belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Iraq entered the League of Nations in 1932 and formally ended the British mandate, although treaties preserved substantial British strategic influence and domestic political power remained concentrated among monarchy-linked elites.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iraqi Independence belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Iraq entered the League of Nations in 1932 and formally ended the British mandate, although treaties preserved substantial British strategic influence and domestic political power remained concentrated among monarchy-linked elites.",
     "examples": [
       [
-        "Historical setting",
-        "Read Iraqi Independence together with 1958 Iraqi Revolution rather than as an isolated fact."
+        "Context",
+        "Place Iraqi Independence in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Iraqi Independence."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Abd al-Karim Qasim to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Iraqi Independence makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Iraqi Independence is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1958-iraqi-revolution",
@@ -6799,31 +6799,31 @@ export const middleEastHistoryConcepts = [
     "name": "1958 Iraqi Revolution",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes 1958 Iraqi Revolution historically important?",
-    "question": "Which explanation best places 1958 Iraqi Revolution in Middle Eastern history?",
+    "hook": "What changed in Iraq with 1958 Iraqi Revolution?",
+    "question": "Which statement best explains 1958 Iraqi Revolution?",
     "options": [
-      "1958 Iraqi Revolution belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Army officers overthrew the Hashemite monarchy in July 1958, killed King Faisal II and other leading figures, and established a republic, transforming Iraq's political order and weakening Western-backed regional arrangements.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1958 Iraqi Revolution belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Army officers overthrew the Hashemite monarchy in July 1958, killed King Faisal II and other leading figures, and established a republic, transforming Iraq's political order and weakening Western-backed regional arrangements.",
     "examples": [
       [
-        "Historical setting",
-        "Read 1958 Iraqi Revolution together with Abd al-Karim Qasim rather than as an isolated fact."
+        "Context",
+        "Place 1958 Iraqi Revolution in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with 1958 Iraqi Revolution."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Ba'ath Party in Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing 1958 Iraqi Revolution makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "1958 Iraqi Revolution is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-abd-al-karim-qasim",
@@ -6843,31 +6843,31 @@ export const middleEastHistoryConcepts = [
     "name": "Abd al-Karim Qasim",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Abd al-Karim Qasim historically important?",
-    "question": "Which explanation best places Abd al-Karim Qasim in Middle Eastern history?",
+    "hook": "What changed in Iraq with Abd al-Karim Qasim?",
+    "question": "Which statement best explains Abd al-Karim Qasim?",
     "options": [
-      "Abd al-Karim Qasim belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Qasim emerged as Iraq's dominant leader after the 1958 revolution. His government pursued land reform and a more independent foreign policy while facing intense rivalry among communists, Arab nationalists, Kurds and military factions.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Abd al-Karim Qasim belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Qasim emerged as Iraq's dominant leader after the 1958 revolution. His government pursued land reform and a more independent foreign policy while facing intense rivalry among communists, Arab nationalists, Kurds and military factions.",
     "examples": [
       [
-        "Historical setting",
-        "Read Abd al-Karim Qasim together with Ba'ath Party in Iraq rather than as an isolated fact."
+        "Context",
+        "Place Abd al-Karim Qasim in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Abd al-Karim Qasim."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to 1968 Iraqi Coup to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Abd al-Karim Qasim makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Abd al-Karim Qasim is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ba-ath-party-in-iraq",
@@ -6887,31 +6887,31 @@ export const middleEastHistoryConcepts = [
     "name": "Ba'ath Party in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Ba'ath Party in Iraq historically important?",
-    "question": "Which explanation best places Ba'ath Party in Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Ba'ath Party in Iraq?",
+    "question": "Which statement best explains Ba'ath Party in Iraq?",
     "options": [
-      "Ba'ath Party in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Iraq's Ba'athists combined Arab nationalist and socialist language with increasingly centralized party rule. After returning to power in 1968, the party built institutions that eventually became dominated by Saddam Hussein.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ba'ath Party in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Iraq's Ba'athists combined Arab nationalist and socialist language with increasingly centralized party rule. After returning to power in 1968, the party built institutions that eventually became dominated by Saddam Hussein.",
     "examples": [
       [
-        "Historical setting",
-        "Read Ba'ath Party in Iraq together with 1968 Iraqi Coup rather than as an isolated fact."
+        "Context",
+        "Place Ba'ath Party in Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Ba'ath Party in Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Saddam Hussein to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Ba'ath Party in Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Ba'ath Party in Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-1968-iraqi-coup",
@@ -6931,31 +6931,31 @@ export const middleEastHistoryConcepts = [
     "name": "1968 Iraqi Coup",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes 1968 Iraqi Coup historically important?",
-    "question": "Which explanation best places 1968 Iraqi Coup in Middle Eastern history?",
+    "hook": "What changed in Iraq with 1968 Iraqi Coup?",
+    "question": "Which statement best explains 1968 Iraqi Coup?",
     "options": [
-      "1968 Iraqi Coup belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "The July 1968 coup brought the Ba'ath Party permanently to power in Iraq until 2003. Ahmed Hassan al-Bakr initially headed the regime while Saddam Hussein accumulated control over security and party institutions.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "1968 Iraqi Coup belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "The July 1968 coup brought the Ba'ath Party permanently to power in Iraq until 2003. Ahmed Hassan al-Bakr initially headed the regime while Saddam Hussein accumulated control over security and party institutions.",
     "examples": [
       [
-        "Historical setting",
-        "Read 1968 Iraqi Coup together with Saddam Hussein rather than as an isolated fact."
+        "Context",
+        "Place 1968 Iraqi Coup in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with 1968 Iraqi Coup."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Anfal Campaign to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing 1968 Iraqi Coup makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "1968 Iraqi Coup is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-saddam-hussein",
@@ -6975,31 +6975,31 @@ export const middleEastHistoryConcepts = [
     "name": "Saddam Hussein",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Saddam Hussein historically important?",
-    "question": "Which explanation best places Saddam Hussein in Middle Eastern history?",
+    "hook": "What changed in Iraq with Saddam Hussein?",
+    "question": "Which statement best explains Saddam Hussein?",
     "options": [
-      "Saddam Hussein belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Saddam Hussein formally became president in 1979 after years as a central Ba'athist power broker. His highly repressive rule included the Iran–Iraq War, the Anfal campaign, invasion of Kuwait and confrontation with international sanctions.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saddam Hussein belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Saddam Hussein formally became president in 1979 after years as a central Ba'athist power broker. His highly repressive rule included the Iran–Iraq War, the Anfal campaign, invasion of Kuwait and confrontation with international sanctions.",
     "examples": [
       [
-        "Historical setting",
-        "Read Saddam Hussein together with Anfal Campaign rather than as an isolated fact."
+        "Context",
+        "Place Saddam Hussein in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Saddam Hussein."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Iran–Iraq War in Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Saddam Hussein makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Saddam Hussein is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-anfal-campaign",
@@ -7019,31 +7019,31 @@ export const middleEastHistoryConcepts = [
     "name": "Anfal Campaign",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Anfal Campaign historically important?",
-    "question": "Which explanation best places Anfal Campaign in Middle Eastern history?",
+    "hook": "What changed in Iraq with Anfal Campaign?",
+    "question": "Which statement best explains Anfal Campaign?",
     "options": [
-      "Anfal Campaign belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "In 1988 Iraqi forces conducted the Anfal campaign against Kurdish areas, involving mass executions, village destruction, forced displacement and chemical attacks. Human Rights Watch and other investigators have characterized Anfal as genocide.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anfal Campaign belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "In 1988 Iraqi forces conducted the Anfal campaign against Kurdish areas, involving mass executions, village destruction, forced displacement and chemical attacks. Human Rights Watch and other investigators have characterized Anfal as genocide.",
     "examples": [
       [
-        "Historical setting",
-        "Read Anfal Campaign together with Iran–Iraq War in Iraq rather than as an isolated fact."
+        "Context",
+        "Place Anfal Campaign in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Anfal Campaign."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Invasion of Kuwait to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Anfal Campaign makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Anfal Campaign is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-iran-iraq-war-in-iraq",
@@ -7063,31 +7063,31 @@ export const middleEastHistoryConcepts = [
     "name": "Iran–Iraq War in Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Iran–Iraq War in Iraq historically important?",
-    "question": "Which explanation best places Iran–Iraq War in Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Iran–Iraq War in Iraq?",
+    "question": "Which statement best explains Iran–Iraq War in Iraq?",
     "options": [
-      "Iran–Iraq War in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Iraq invaded Iran in September 1980, beginning an eight-year war that caused enormous casualties and economic damage. Saddam's government sought territorial and strategic gains but the conflict ended in 1988 without a decisive victor.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Iran–Iraq War in Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Iraq invaded Iran in September 1980, beginning an eight-year war that caused enormous casualties and economic damage. Saddam's government sought territorial and strategic gains but the conflict ended in 1988 without a decisive victor.",
     "examples": [
       [
-        "Historical setting",
-        "Read Iran–Iraq War in Iraq together with Invasion of Kuwait rather than as an isolated fact."
+        "Context",
+        "Place Iran–Iraq War in Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Iran–Iraq War in Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Gulf War 1991 to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Iran–Iraq War in Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Iran–Iraq War in Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-invasion-of-kuwait",
@@ -7107,31 +7107,31 @@ export const middleEastHistoryConcepts = [
     "name": "Invasion of Kuwait",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Invasion of Kuwait historically important?",
-    "question": "Which explanation best places Invasion of Kuwait in Middle Eastern history?",
+    "hook": "What changed in Iraq with Invasion of Kuwait?",
+    "question": "Which statement best explains Invasion of Kuwait?",
     "options": [
-      "Invasion of Kuwait belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "Iraqi forces invaded and annexed Kuwait in August 1990 after disputes involving debt, oil and regional power. The move triggered international condemnation and a US-led coalition that expelled Iraqi forces in early 1991.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Invasion of Kuwait belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "Iraqi forces invaded and annexed Kuwait in August 1990 after disputes involving debt, oil and regional power. The move triggered international condemnation and a US-led coalition that expelled Iraqi forces in early 1991.",
     "examples": [
       [
-        "Historical setting",
-        "Read Invasion of Kuwait together with Gulf War 1991 rather than as an isolated fact."
+        "Context",
+        "Place Invasion of Kuwait in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Invasion of Kuwait."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Sanctions on Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Invasion of Kuwait makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Invasion of Kuwait is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-gulf-war-1991",
@@ -7151,31 +7151,31 @@ export const middleEastHistoryConcepts = [
     "name": "Gulf War 1991",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Gulf War 1991 historically important?",
-    "question": "Which explanation best places Gulf War 1991 in Middle Eastern history?",
+    "hook": "What changed in Iraq with Gulf War 1991?",
+    "question": "Which statement best explains Gulf War 1991?",
     "options": [
-      "Gulf War 1991 belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "A US-led international coalition launched military operations in January 1991 after Iraq refused to withdraw from Kuwait, destroying much of Iraq's military capacity and ending the occupation of Kuwait.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gulf War 1991 belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "A US-led international coalition launched military operations in January 1991 after Iraq refused to withdraw from Kuwait, destroying much of Iraq's military capacity and ending the occupation of Kuwait.",
     "examples": [
       [
-        "Historical setting",
-        "Read Gulf War 1991 together with Sanctions on Iraq rather than as an isolated fact."
+        "Context",
+        "Place Gulf War 1991 in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Gulf War 1991."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to 2003 Iraq War to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Gulf War 1991 makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Gulf War 1991 is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-sanctions-on-iraq",
@@ -7195,31 +7195,31 @@ export const middleEastHistoryConcepts = [
     "name": "Sanctions on Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Sanctions on Iraq historically important?",
-    "question": "Which explanation best places Sanctions on Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Sanctions on Iraq?",
+    "question": "Which statement best explains Sanctions on Iraq?",
     "options": [
-      "Sanctions on Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "After the Gulf War, sweeping UN sanctions remained linked to Iraqi disarmament obligations. The sanctions era produced severe economic and humanitarian hardship, while responsibility for its effects became intensely disputed among Iraq, the UN and major powers.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sanctions on Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "After the Gulf War, sweeping UN sanctions remained linked to Iraqi disarmament obligations. The sanctions era produced severe economic and humanitarian hardship, while responsibility for its effects became intensely disputed among Iraq, the UN and major powers.",
     "examples": [
       [
-        "Historical setting",
-        "Read Sanctions on Iraq together with 2003 Iraq War rather than as an isolated fact."
+        "Context",
+        "Place Sanctions on Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Sanctions on Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to De-Ba'athification to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Sanctions on Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Sanctions on Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-2003-iraq-war",
@@ -7284,31 +7284,31 @@ export const middleEastHistoryConcepts = [
     "name": "De-Ba'athification",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes De-Ba'athification historically important?",
-    "question": "Which explanation best places De-Ba'athification in Middle Eastern history?",
+    "hook": "What changed in Iraq with De-Ba'athification?",
+    "question": "Which statement best explains De-Ba'athification?",
     "options": [
-      "De-Ba'athification belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "After the 2003 invasion, the Coalition Provisional Authority removed senior Ba'ath Party members from public institutions. Critics argue that broad implementation excluded many experienced officials and aggravated instability, while supporters viewed it as necessary to dismantle the former regime.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "De-Ba'athification belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "After the 2003 invasion, the Coalition Provisional Authority removed senior Ba'ath Party members from public institutions. Critics argue that broad implementation excluded many experienced officials and aggravated instability, while supporters viewed it as necessary to dismantle the former regime.",
     "examples": [
       [
-        "Historical setting",
-        "Read De-Ba'athification together with Post-2003 Iraq rather than as an isolated fact."
+        "Context",
+        "Place De-Ba'athification in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with De-Ba'athification."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Rise of ISIS to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing De-Ba'athification makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "De-Ba'athification is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-post-2003-iraq",
@@ -7328,31 +7328,31 @@ export const middleEastHistoryConcepts = [
     "name": "Post-2003 Iraq",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Post-2003 Iraq historically important?",
-    "question": "Which explanation best places Post-2003 Iraq in Middle Eastern history?",
+    "hook": "What changed in Iraq with Post-2003 Iraq?",
+    "question": "Which statement best explains Post-2003 Iraq?",
     "options": [
-      "Post-2003 Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "After Saddam Hussein's removal, Iraq developed a new constitutional and electoral system amid occupation, insurgency, sectarian violence, Kurdish autonomy, militia power and strong regional and international involvement.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Post-2003 Iraq belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "After Saddam Hussein's removal, Iraq developed a new constitutional and electoral system amid occupation, insurgency, sectarian violence, Kurdish autonomy, militia power and strong regional and international involvement.",
     "examples": [
       [
-        "Historical setting",
-        "Read Post-2003 Iraq together with Rise of ISIS rather than as an isolated fact."
+        "Context",
+        "Place Post-2003 Iraq in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Post-2003 Iraq."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to Ottoman Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Post-2003 Iraq makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Post-2003 Iraq is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-rise-of-isis",
@@ -7372,31 +7372,31 @@ export const middleEastHistoryConcepts = [
     "name": "Rise of ISIS",
     "pool": "Iraq",
     "topic": "Iraq",
-    "hook": "What makes Rise of ISIS historically important?",
-    "question": "Which explanation best places Rise of ISIS in Middle Eastern history?",
+    "hook": "What changed in Iraq with Rise of ISIS?",
+    "question": "Which statement best explains Rise of ISIS?",
     "options": [
-      "Rise of ISIS belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
-      "It was principally a North African colonial institution",
-      "It was an early Islamic theological school",
+      "ISIS expanded dramatically in Iraq and Syria amid state breakdown, war and insurgent networks, capturing Mosul in 2014 and declaring a caliphate. Iraqi forces and their partners later retook its territorial strongholds, but the organization continued as an insurgent network.",
+      "It was primarily an Ottoman religious institution from the medieval period",
+      "It had little effect on the organization of the modern Iraqi state",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rise of ISIS belongs to the history of a state assembled from former Ottoman provinces under British influence and later transformed by monarchy, revolution, Ba'athist dictatorship, wars and foreign intervention. Iraq's ethnic, sectarian and regional diversity repeatedly interacted with struggles over central power.",
+    "reveal": "ISIS expanded dramatically in Iraq and Syria amid state breakdown, war and insurgent networks, capturing Mosul in 2014 and declaring a caliphate. Iraqi forces and their partners later retook its territorial strongholds, but the organization continued as an insurgent network.",
     "examples": [
       [
-        "Historical setting",
-        "Read Rise of ISIS together with Ottoman Iraq rather than as an isolated fact."
+        "Context",
+        "Place Rise of ISIS in the sequence from mandate-era state formation through monarchy, republican coups, Ba'athist rule and the post-2003 order."
       ],
       [
-        "What changed",
-        "Track the change in institutions, political authority, identity, territory or economic power associated with Rise of ISIS."
+        "Power",
+        "Ask which institutions, social groups and foreign actors gained or lost influence."
       ],
       [
-        "Next connection",
-        "Continue to British Occupation of Iraq to see how the same historical problem developed."
+        "Consequence",
+        "Trace how this episode affected later Iraqi state capacity, communal politics or regional relations."
       ]
     ],
-    "why": "Knowing Rise of ISIS makes the Iraq timeline easier to understand as a connected causal story.",
+    "why": "Rise of ISIS is part of the chain of events that explains why modern Iraqi politics developed as it did.",
     "caveat": "Historical outcomes usually have multiple causes; this card isolates one concept without implying it explains the entire period.",
     "related": [
       "meh-ottoman-iraq",
