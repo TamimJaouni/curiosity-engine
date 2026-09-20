@@ -146,7 +146,7 @@ export default function Home(){
     <div className="flashfront">
      <small>START HERE</small>
      <p>{concept.hook}</p>
-     {!revealed&&<button className="primary" onClick={()=>setRevealed(true)}>Learn this concept ↓</button>}
+     {!revealed&&<button className="primary" onClick={()=>setRevealed(true)}>Open flashcard ↓</button>}
     </div>
     {revealed&&<div className="flashcontent">
      <section><small>CORE IDEA</small><h3>What it means</h3><p>{concept.reveal}</p></section>
