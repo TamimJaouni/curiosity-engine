@@ -28,7 +28,8 @@ export default function Home(){
  const [screen,setScreen]=useState('home'),[cards,setCards]=useState([]),[concept,setConcept]=useState(null),[picked,setPicked]=useState(null),[seen,setSeen]=useState([]),[known,setKnown]=useState([]),[world,setWorld]=useState('psychology'),[topicIds,setTopicIds]=useState([]),[topicLabel,setTopicLabel]=useState('');
  useEffect(()=>{try{setSeen(JSON.parse(localStorage.getItem('ce-seen')||'[]'));setKnown(JSON.parse(localStorage.getItem('ce-known')||'[]'))}catch{}},[]);
  const persist=(s,k)=>{setSeen(s);setKnown(k);localStorage.setItem('ce-seen',JSON.stringify(s));localStorage.setItem('ce-known',JSON.stringify(k))};
- const worldConcepts=concepts.filter(c=>(c.world||'psychology')===world);\n const discover=(nextWorld=world)=>{const pool=concepts.filter(c=>(c.world||'psychology')===nextWorld);setWorld(nextWorld);setTopicIds([]);setTopicLabel('');setCards(diverseSample(pool,5,nextWorld===world?cards.map(x=>x.id):[]));setScreen('browse');setConcept(null);setPicked(null)};
+ const worldConcepts=concepts.filter(c=>(c.world||'psychology')===world);
+ const discover=(nextWorld=world)=>{const pool=concepts.filter(c=>(c.world||'psychology')===nextWorld);setWorld(nextWorld);setTopicIds([]);setTopicLabel('');setCards(diverseSample(pool,5,nextWorld===world?cards.map(x=>x.id):[]));setScreen('browse');setConcept(null);setPicked(null)};
  const open=c=>{setConcept(c);setPicked(null);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
  const answer=i=>{setPicked(i);if(i===concept.answer&&!known.includes(concept.id))persist(seen.includes(concept.id)?seen:[...seen,concept.id],[...known,concept.id])};
  const related=()=>open(worldConcepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)||worldConcepts.find(x=>x.id!==concept.id));
