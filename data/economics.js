@@ -10521,5 +10521,116 @@ export const economicsConcepts = [
       "econ-development-school"
     ],
     "topic": "Development Economics"
+  },
+  {
+    "id": "econ-public-choice-rent-seeking",
+    "world": "economics",
+    "name": "Rent-Seeking in Public Choice",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Public Choice",
+    "hook": "Why can political competition sometimes be about capturing privileges rather than creating value?",
+    "question": "What does public choice mean by rent-seeking?",
+    "options": [
+      "Using political influence to obtain special privileges or transfers rather than creating new economic value.",
+      "Charging rent for privately owned housing.",
+      "Any attempt by a business to earn accounting profit.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Public choice uses rent-seeking to describe resources spent trying to obtain politically created advantages such as protection, subsidies or exclusive rights.",
+    "examples": [
+      [
+        "Real-world example",
+        "An industry may spend heavily lobbying for an import restriction that raises its domestic profits by limiting competition."
+      ],
+      [
+        "Compare schools",
+        "Public choice focuses on the incentives facing political actors rather than assuming policy automatically maximizes social welfare."
+      ],
+      [
+        "Institutional angle",
+        "The cost includes not only the transfer itself but also resources spent competing to secure or defend the privilege."
+      ]
+    ],
+    "why": "It explains why policy can create concentrated benefits for organized groups even when the broader social costs are larger.",
+    "caveat": "Not all lobbying is rent-seeking; groups also provide information, represent interests and advocate for genuine public goods.",
+    "related": [
+      "econ-public-choice"
+    ],
+    "topic": "Public Choice"
+  },
+  {
+    "id": "econ-public-choice-regulatory-capture",
+    "world": "economics",
+    "name": "Regulatory Capture",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Public Choice",
+    "hook": "How can an agency created to regulate an industry start serving that industry's interests?",
+    "question": "What is regulatory capture?",
+    "options": [
+      "A situation in which regulated interests gain disproportionate influence over the regulator meant to oversee them.",
+      "A rule that permanently nationalizes a regulated industry.",
+      "A market in which firms cannot earn profit.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Regulatory capture occurs when regulated firms or groups gain enough influence that rules or enforcement increasingly reflect their interests rather than the regulator's public mandate.",
+    "examples": [
+      [
+        "Real-world example",
+        "A regulator may become unusually dependent on industry data, personnel and expertise, while many former officials later take jobs in the same industry."
+      ],
+      [
+        "Public choice lens",
+        "The theory asks what incentives face regulators, firms and politicians instead of treating regulation as automatically neutral."
+      ],
+      [
+        "Counterweight",
+        "Transparency, independent review and competing sources of expertise can reduce capture risks."
+      ]
+    ],
+    "why": "It helps explain why the design and governance of regulatory institutions matter as much as the formal rules they issue.",
+    "caveat": "Close regulator-industry contact is not by itself proof of capture; technical regulation often requires industry expertise.",
+    "related": [
+      "econ-public-choice"
+    ],
+    "topic": "Public Choice"
+  },
+  {
+    "id": "econ-public-choice-median-voter",
+    "world": "economics",
+    "name": "Median Voter Theorem",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Public Choice",
+    "hook": "Why can competing parties converge toward similar positions?",
+    "question": "Under its classic assumptions, what does the median voter theorem predict?",
+    "options": [
+      "Majority-rule competition can push vote-seeking candidates toward the preference of the median voter on a single policy dimension.",
+      "Every election will be won by the most ideologically extreme candidate.",
+      "Voters always choose randomly between parties.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "With single-peaked preferences on one dimension and two competing candidates, moving toward the median voter can be electorally advantageous.",
+    "examples": [
+      [
+        "Real-world example",
+        "Two candidates may soften positions on a dominant left-right issue to compete for voters near the middle of the electorate."
+      ],
+      [
+        "Assumptions matter",
+        "Multiple issues, turnout differences, primaries and strategic entry can break the simple convergence result."
+      ],
+      [
+        "Public choice lens",
+        "The theorem treats politicians as responding to electoral incentives rather than as passive implementers of an abstract social optimum."
+      ]
+    ],
+    "why": "It shows how political institutions and voter distributions can shape policy positions.",
+    "caveat": "Real elections are multidimensional and the theorem's assumptions often do not fully hold.",
+    "related": [
+      "econ-public-choice"
+    ],
+    "topic": "Public Choice"
   }
 ];
