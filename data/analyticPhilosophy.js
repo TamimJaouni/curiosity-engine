@@ -2,7 +2,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-gottlob-frege",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Gottlob Frege",
     "hook": "What problem or argument is Gottlob Frege really about?",
@@ -40,7 +40,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-sense-and-reference",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Sense and Reference",
     "hook": "What problem or argument is Sense and Reference really about?",
@@ -78,7 +78,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-concept-and-object",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Concept and Object",
     "hook": "What problem or argument is Concept and Object really about?",
@@ -116,7 +116,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-context-principle",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Context Principle",
     "hook": "What problem or argument is Context Principle really about?",
@@ -154,7 +154,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-frege-s-logicism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Frege's Logicism",
     "hook": "What problem or argument is Frege's Logicism really about?",
@@ -192,7 +192,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-bertrand-russell",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Bertrand Russell",
     "hook": "What problem or argument is Bertrand Russell really about?",
@@ -230,7 +230,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-russell-s-paradox",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Russell's Paradox",
     "hook": "What problem or argument is Russell's Paradox really about?",
@@ -268,7 +268,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-theory-of-descriptions",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Theory of Descriptions",
     "hook": "What problem or argument is Theory of Descriptions really about?",
@@ -306,7 +306,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-logical-atomism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Logical Atomism",
     "hook": "What problem or argument is Logical Atomism really about?",
@@ -344,7 +344,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-g-e-moore",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "G. E. Moore",
     "hook": "What problem or argument is G. E. Moore really about?",
@@ -382,7 +382,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moore-s-common-sense",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Moore's Common Sense",
     "hook": "What problem or argument is Moore's Common Sense really about?",
@@ -420,7 +420,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-open-question-argument",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Open Question Argument",
     "hook": "What problem or argument is Open Question Argument really about?",
@@ -458,7 +458,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-early-wittgenstein",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Early Wittgenstein",
     "hook": "What problem or argument is Early Wittgenstein really about?",
@@ -496,7 +496,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-picture-theory-of-meaning",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Picture Theory of Meaning",
     "hook": "What problem or argument is Picture Theory of Meaning really about?",
@@ -534,7 +534,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-logical-form",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Logical Form",
     "hook": "What problem or argument is Logical Form really about?",
@@ -572,7 +572,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-saying-and-showing",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Saying and Showing",
     "hook": "What problem or argument is Saying and Showing really about?",
@@ -610,7 +610,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-tractatus",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Tractatus",
     "hook": "What problem or argument is Tractatus really about?",
@@ -648,7 +648,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-propositional-logic",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Propositional Logic",
     "hook": "What problem or argument is Propositional Logic really about?",
@@ -686,7 +686,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-predicate-logic",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Predicate Logic",
     "hook": "What problem or argument is Predicate Logic really about?",
@@ -724,7 +724,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-quantification",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Quantification",
     "hook": "What problem or argument is Quantification really about?",
@@ -762,7 +762,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-validity-and-soundness",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Validity and Soundness",
     "hook": "What problem or argument is Validity and Soundness really about?",
@@ -800,7 +800,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-first-order-logic",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "First-Order Logic",
     "hook": "What problem or argument is First-Order Logic really about?",
@@ -838,7 +838,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-identity",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Identity",
     "hook": "What problem or argument is Identity really about?",
@@ -876,7 +876,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-set-theory",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Set Theory",
     "hook": "What problem or argument is Set Theory really about?",
@@ -914,7 +914,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-axiomatic-method",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Axiomatic Method",
     "hook": "What problem or argument is Axiomatic Method really about?",
@@ -952,7 +952,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-logicism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Logicism",
     "hook": "What problem or argument is Logicism really about?",
@@ -990,7 +990,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-formalism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Formalism",
     "hook": "What problem or argument is Formalism really about?",
@@ -1028,7 +1028,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-intuitionism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Intuitionism",
     "hook": "What problem or argument is Intuitionism really about?",
@@ -1066,7 +1066,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-hilbert-s-program",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Hilbert's Program",
     "hook": "What problem or argument is Hilbert's Program really about?",
@@ -1104,7 +1104,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-godel-s-incompleteness-theorems",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Gödel's Incompleteness Theorems",
     "hook": "What problem or argument is Gödel's Incompleteness Theorems really about?",
@@ -1142,7 +1142,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-tarski-s-theory-of-truth",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Tarski's Theory of Truth",
     "hook": "What problem or argument is Tarski's Theory of Truth really about?",
@@ -1180,7 +1180,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-model-theory",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Model Theory",
     "hook": "What problem or argument is Model Theory really about?",
@@ -1218,7 +1218,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-proof-theory",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Proof Theory",
     "hook": "What problem or argument is Proof Theory really about?",
@@ -1256,7 +1256,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-modal-logic",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Modal Logic",
     "hook": "What problem or argument is Modal Logic really about?",
@@ -1294,7 +1294,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-possible-worlds-semantics",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Possible Worlds Semantics",
     "hook": "What problem or argument is Possible Worlds Semantics really about?",
@@ -1332,7 +1332,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-necessity-and-possibility",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Necessity and Possibility",
     "hook": "What problem or argument is Necessity and Possibility really about?",
@@ -1370,7 +1370,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-counterfactual-logic",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logic & Foundations",
     "name": "Counterfactual Logic",
     "hook": "What problem or argument is Counterfactual Logic really about?",
@@ -1408,7 +1408,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-vienna-circle",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Vienna Circle",
     "hook": "What problem or argument is Vienna Circle really about?",
@@ -1446,7 +1446,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moritz-schlick",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Moritz Schlick",
     "hook": "What problem or argument is Moritz Schlick really about?",
@@ -1484,7 +1484,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-rudolf-carnap",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Rudolf Carnap",
     "hook": "What problem or argument is Rudolf Carnap really about?",
@@ -1522,7 +1522,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-otto-neurath",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Otto Neurath",
     "hook": "What problem or argument is Otto Neurath really about?",
@@ -1560,7 +1560,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-a-j-ayer",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "A. J. Ayer",
     "hook": "What problem or argument is A. J. Ayer really about?",
@@ -1598,7 +1598,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-verification-principle",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Verification Principle",
     "hook": "What problem or argument is Verification Principle really about?",
@@ -1636,7 +1636,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-analytic-synthetic-distinction",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Analytic–Synthetic Distinction",
     "hook": "What problem or argument is Analytic–Synthetic Distinction really about?",
@@ -1674,7 +1674,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-protocol-sentences",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Protocol Sentences",
     "hook": "What problem or argument is Protocol Sentences really about?",
@@ -1712,7 +1712,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-unity-of-science",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Unity of Science",
     "hook": "What problem or argument is Unity of Science really about?",
@@ -1750,7 +1750,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-carnap-s-principle-of-tolerance",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Carnap's Principle of Tolerance",
     "hook": "What problem or argument is Carnap's Principle of Tolerance really about?",
@@ -1788,7 +1788,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-internal-and-external-questions",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Internal and External Questions",
     "hook": "What problem or argument is Internal and External Questions really about?",
@@ -1826,7 +1826,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-metaphysics-as-pseudo-problem",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Metaphysics as Pseudo-Problem",
     "hook": "What problem or argument is Metaphysics as Pseudo-Problem really about?",
@@ -1864,7 +1864,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-quine",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Quine",
     "hook": "What problem or argument is Quine really about?",
@@ -1902,7 +1902,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-two-dogmas-of-empiricism",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Two Dogmas of Empiricism",
     "hook": "What problem or argument is Two Dogmas of Empiricism really about?",
@@ -1940,7 +1940,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-web-of-belief",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Web of Belief",
     "hook": "What problem or argument is Web of Belief really about?",
@@ -1978,7 +1978,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-underdetermination",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Underdetermination",
     "hook": "What problem or argument is Underdetermination really about?",
@@ -2016,7 +2016,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-naturalized-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Naturalized Epistemology",
     "hook": "What problem or argument is Naturalized Epistemology really about?",
@@ -2054,7 +2054,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-sellars",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Sellars",
     "hook": "What problem or argument is Sellars really about?",
@@ -2092,7 +2092,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-myth-of-the-given",
     "world": "analytic-philosophy",
-    "pool": "Philosophy of Science",
+    "pool": "Logic, Meaning & Language",
     "topic": "Logical Positivism & Its Critics",
     "name": "Myth of the Given",
     "hook": "What problem or argument is Myth of the Given really about?",
@@ -2130,7 +2130,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-later-wittgenstein",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Later Wittgenstein",
     "hook": "What problem or argument is Later Wittgenstein really about?",
@@ -2168,7 +2168,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-language-games",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Language Games",
     "hook": "What problem or argument is Language Games really about?",
@@ -2206,7 +2206,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-meaning-as-use",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Meaning as Use",
     "hook": "What problem or argument is Meaning as Use really about?",
@@ -2244,7 +2244,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-forms-of-life",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Forms of Life",
     "hook": "What problem or argument is Forms of Life really about?",
@@ -2282,7 +2282,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-rule-following",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Rule-Following",
     "hook": "What problem or argument is Rule-Following really about?",
@@ -2320,7 +2320,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-private-language-argument",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Private Language Argument",
     "hook": "What problem or argument is Private Language Argument really about?",
@@ -2358,7 +2358,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-family-resemblance",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Family Resemblance",
     "hook": "What problem or argument is Family Resemblance really about?",
@@ -2396,7 +2396,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-philosophical-investigations",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Philosophical Investigations",
     "hook": "What problem or argument is Philosophical Investigations really about?",
@@ -2434,7 +2434,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-j-l-austin",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "J. L. Austin",
     "hook": "What problem or argument is J. L. Austin really about?",
@@ -2472,7 +2472,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-speech-acts",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Speech Acts",
     "hook": "What problem or argument is Speech Acts really about?",
@@ -2510,7 +2510,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-performative-utterances",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Performative Utterances",
     "hook": "What problem or argument is Performative Utterances really about?",
@@ -2548,7 +2548,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-locution-illocution-and-perlocution",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Locution, Illocution and Perlocution",
     "hook": "What problem or argument is Locution, Illocution and Perlocution really about?",
@@ -2586,7 +2586,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-gilbert-ryle",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Gilbert Ryle",
     "hook": "What problem or argument is Gilbert Ryle really about?",
@@ -2624,7 +2624,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-category-mistake",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Category Mistake",
     "hook": "What problem or argument is Category Mistake really about?",
@@ -2662,7 +2662,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-ghost-in-the-machine",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Ghost in the Machine",
     "hook": "What problem or argument is Ghost in the Machine really about?",
@@ -2700,7 +2700,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-p-f-strawson",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "P. F. Strawson",
     "hook": "What problem or argument is P. F. Strawson really about?",
@@ -2738,7 +2738,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-descriptive-metaphysics",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Descriptive Metaphysics",
     "hook": "What problem or argument is Descriptive Metaphysics really about?",
@@ -2776,7 +2776,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-grice",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Grice",
     "hook": "What problem or argument is Grice really about?",
@@ -2814,7 +2814,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-conversational-implicature",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Conversational Implicature",
     "hook": "What problem or argument is Conversational Implicature really about?",
@@ -2852,7 +2852,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-cooperative-principle",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Cooperative Principle",
     "hook": "What problem or argument is Cooperative Principle really about?",
@@ -2890,7 +2890,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reference",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Reference",
     "hook": "What problem or argument is Reference really about?",
@@ -2928,7 +2928,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-descriptions-vs-names",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Descriptions vs Names",
     "hook": "What problem or argument is Descriptions vs Names really about?",
@@ -2966,7 +2966,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-kripke",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Kripke",
     "hook": "What problem or argument is Kripke really about?",
@@ -3004,7 +3004,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-rigid-designators",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Rigid Designators",
     "hook": "What problem or argument is Rigid Designators really about?",
@@ -3042,7 +3042,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-causal-theory-of-reference",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Causal Theory of Reference",
     "hook": "What problem or argument is Causal Theory of Reference really about?",
@@ -3080,7 +3080,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-necessary-a-posteriori",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Necessary A Posteriori",
     "hook": "What problem or argument is Necessary A Posteriori really about?",
@@ -3118,7 +3118,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-contingent-a-priori",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Contingent A Priori",
     "hook": "What problem or argument is Contingent A Priori really about?",
@@ -3156,7 +3156,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-putnam",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Putnam",
     "hook": "What problem or argument is Putnam really about?",
@@ -3194,7 +3194,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-semantic-externalism",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Semantic Externalism",
     "hook": "What problem or argument is Semantic Externalism really about?",
@@ -3232,7 +3232,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-twin-earth",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Twin Earth",
     "hook": "What problem or argument is Twin Earth really about?",
@@ -3270,7 +3270,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-division-of-linguistic-labor",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Division of Linguistic Labor",
     "hook": "What problem or argument is Division of Linguistic Labor really about?",
@@ -3308,7 +3308,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-davidson",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Davidson",
     "hook": "What problem or argument is Davidson really about?",
@@ -3346,7 +3346,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-truth-conditional-semantics",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Truth-Conditional Semantics",
     "hook": "What problem or argument is Truth-Conditional Semantics really about?",
@@ -3384,7 +3384,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-radical-interpretation",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Radical Interpretation",
     "hook": "What problem or argument is Radical Interpretation really about?",
@@ -3422,7 +3422,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-principle-of-charity",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Principle of Charity",
     "hook": "What problem or argument is Principle of Charity really about?",
@@ -3460,7 +3460,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-dummett",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Dummett",
     "hook": "What problem or argument is Dummett really about?",
@@ -3498,7 +3498,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-anti-realism-and-meaning",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Anti-Realism and Meaning",
     "hook": "What problem or argument is Anti-Realism and Meaning really about?",
@@ -3536,7 +3536,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-searle",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Searle",
     "hook": "What problem or argument is Searle really about?",
@@ -3574,7 +3574,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-indirect-speech-acts",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Indirect Speech Acts",
     "hook": "What problem or argument is Indirect Speech Acts really about?",
@@ -3612,7 +3612,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-indexicals",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Indexicals",
     "hook": "What problem or argument is Indexicals really about?",
@@ -3650,7 +3650,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-kaplan-on-demonstratives",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Kaplan on Demonstratives",
     "hook": "What problem or argument is Kaplan on Demonstratives really about?",
@@ -3688,7 +3688,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-context-sensitivity",
     "world": "analytic-philosophy",
-    "pool": "Logic & Philosophy of Language",
+    "pool": "Logic, Meaning & Language",
     "topic": "Philosophy of Language",
     "name": "Context Sensitivity",
     "hook": "What problem or argument is Context Sensitivity really about?",
@@ -3726,7 +3726,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-knowledge",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Knowledge",
     "hook": "What problem or argument is Knowledge really about?",
@@ -3764,7 +3764,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-justified-true-belief",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Justified True Belief",
     "hook": "What problem or argument is Justified True Belief really about?",
@@ -3802,7 +3802,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-gettier-problem",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Gettier Problem",
     "hook": "What problem or argument is Gettier Problem really about?",
@@ -3840,7 +3840,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-foundationalism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Foundationalism",
     "hook": "What problem or argument is Foundationalism really about?",
@@ -3878,7 +3878,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-coherentism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Coherentism",
     "hook": "What problem or argument is Coherentism really about?",
@@ -3916,7 +3916,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-infinitism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Infinitism",
     "hook": "What problem or argument is Infinitism really about?",
@@ -3954,7 +3954,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-internalism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Internalism",
     "hook": "What problem or argument is Internalism really about?",
@@ -3992,7 +3992,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-externalism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Externalism",
     "hook": "What problem or argument is Externalism really about?",
@@ -4030,7 +4030,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reliabilism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Reliabilism",
     "hook": "What problem or argument is Reliabilism really about?",
@@ -4068,7 +4068,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-goldman",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Goldman",
     "hook": "What problem or argument is Goldman really about?",
@@ -4106,7 +4106,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-virtue-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Virtue Epistemology",
     "hook": "What problem or argument is Virtue Epistemology really about?",
@@ -4144,7 +4144,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-ernest-sosa",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Ernest Sosa",
     "hook": "What problem or argument is Ernest Sosa really about?",
@@ -4182,7 +4182,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-testimonial-knowledge",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Testimonial Knowledge",
     "hook": "What problem or argument is Testimonial Knowledge really about?",
@@ -4220,7 +4220,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-epistemic-injustice",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Epistemic Injustice",
     "hook": "What problem or argument is Epistemic Injustice really about?",
@@ -4258,7 +4258,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-miranda-fricker",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Miranda Fricker",
     "hook": "What problem or argument is Miranda Fricker really about?",
@@ -4296,7 +4296,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-contextualism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Contextualism",
     "hook": "What problem or argument is Contextualism really about?",
@@ -4334,7 +4334,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-keith-derose",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Keith DeRose",
     "hook": "What problem or argument is Keith DeRose really about?",
@@ -4372,7 +4372,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-safety-condition",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Safety Condition",
     "hook": "What problem or argument is Safety Condition really about?",
@@ -4410,7 +4410,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-sensitivity-condition",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Sensitivity Condition",
     "hook": "What problem or argument is Sensitivity Condition really about?",
@@ -4448,7 +4448,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-nozick-on-knowledge",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Nozick on Knowledge",
     "hook": "What problem or argument is Nozick on Knowledge really about?",
@@ -4486,7 +4486,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-closure-principle",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Closure Principle",
     "hook": "What problem or argument is Closure Principle really about?",
@@ -4524,7 +4524,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-skepticism",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Skepticism",
     "hook": "What problem or argument is Skepticism really about?",
@@ -4562,7 +4562,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-brain-in-a-vat",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Brain in a Vat",
     "hook": "What problem or argument is Brain in a Vat really about?",
@@ -4600,7 +4600,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moorean-response",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Moorean Response",
     "hook": "What problem or argument is Moorean Response really about?",
@@ -4638,7 +4638,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-bayesian-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Epistemology",
     "name": "Bayesian Epistemology",
     "hook": "What problem or argument is Bayesian Epistemology really about?",
@@ -7716,7 +7716,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-metaethics",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Metaethics",
     "hook": "What problem or argument is Metaethics really about?",
@@ -7754,7 +7754,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moral-realism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Moral Realism",
     "hook": "What problem or argument is Moral Realism really about?",
@@ -7792,7 +7792,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moral-anti-realism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Moral Anti-Realism",
     "hook": "What problem or argument is Moral Anti-Realism really about?",
@@ -7830,7 +7830,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-naturalism-in-metaethics",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Naturalism in Metaethics",
     "hook": "What problem or argument is Naturalism in Metaethics really about?",
@@ -7868,7 +7868,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-non-naturalism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Non-Naturalism",
     "hook": "What problem or argument is Non-Naturalism really about?",
@@ -7906,7 +7906,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moore-s-naturalistic-fallacy",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Moore's Naturalistic Fallacy",
     "hook": "What problem or argument is Moore's Naturalistic Fallacy really about?",
@@ -7944,7 +7944,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-emotivism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Emotivism",
     "hook": "What problem or argument is Emotivism really about?",
@@ -7982,7 +7982,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-a-j-ayer-on-ethics",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "A. J. Ayer on Ethics",
     "hook": "What problem or argument is A. J. Ayer on Ethics really about?",
@@ -8020,7 +8020,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-prescriptivism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Prescriptivism",
     "hook": "What problem or argument is Prescriptivism really about?",
@@ -8058,7 +8058,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-r-m-hare",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "R. M. Hare",
     "hook": "What problem or argument is R. M. Hare really about?",
@@ -8096,7 +8096,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-error-theory",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Error Theory",
     "hook": "What problem or argument is Error Theory really about?",
@@ -8134,7 +8134,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-j-l-mackie",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "J. L. Mackie",
     "hook": "What problem or argument is J. L. Mackie really about?",
@@ -8172,7 +8172,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-queerness-argument",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Queerness Argument",
     "hook": "What problem or argument is Queerness Argument really about?",
@@ -8210,7 +8210,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-expressivism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Expressivism",
     "hook": "What problem or argument is Expressivism really about?",
@@ -8248,7 +8248,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-simon-blackburn",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Simon Blackburn",
     "hook": "What problem or argument is Simon Blackburn really about?",
@@ -8286,7 +8286,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-quasi-realism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Quasi-Realism",
     "hook": "What problem or argument is Quasi-Realism really about?",
@@ -8324,7 +8324,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reasons-internalism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Reasons Internalism",
     "hook": "What problem or argument is Reasons Internalism really about?",
@@ -8362,7 +8362,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reasons-externalism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Reasons Externalism",
     "hook": "What problem or argument is Reasons Externalism really about?",
@@ -8400,7 +8400,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-bernard-williams",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Bernard Williams",
     "hook": "What problem or argument is Bernard Williams really about?",
@@ -8438,7 +8438,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moral-luck",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Moral Luck",
     "hook": "What problem or argument is Moral Luck really about?",
@@ -8476,7 +8476,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-thomas-nagel-on-moral-luck",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Thomas Nagel on Moral Luck",
     "hook": "What problem or argument is Thomas Nagel on Moral Luck really about?",
@@ -8514,7 +8514,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-derek-parfit",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Derek Parfit",
     "hook": "What problem or argument is Derek Parfit really about?",
@@ -8552,7 +8552,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-personal-identity-and-ethics",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Personal Identity and Ethics",
     "hook": "What problem or argument is Personal Identity and Ethics really about?",
@@ -8590,7 +8590,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reasons-and-persons",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Reasons and Persons",
     "hook": "What problem or argument is Reasons and Persons really about?",
@@ -8628,7 +8628,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-population-ethics",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Population Ethics",
     "hook": "What problem or argument is Population Ethics really about?",
@@ -8666,7 +8666,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-repugnant-conclusion",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Repugnant Conclusion",
     "hook": "What problem or argument is Repugnant Conclusion really about?",
@@ -8704,7 +8704,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-contractualism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "Contractualism",
     "hook": "What problem or argument is Contractualism really about?",
@@ -8742,7 +8742,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-t-m-scanlon",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "T. M. Scanlon",
     "hook": "What problem or argument is T. M. Scanlon really about?",
@@ -8780,7 +8780,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-what-we-owe-to-each-other",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Ethics & Metaethics",
     "name": "What We Owe to Each Other",
     "hook": "What problem or argument is What We Owe to Each Other really about?",
@@ -8818,7 +8818,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-john-rawls",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "John Rawls",
     "hook": "What problem or argument is John Rawls really about?",
@@ -8856,7 +8856,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-original-position",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Original Position",
     "hook": "What problem or argument is Original Position really about?",
@@ -8894,7 +8894,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-veil-of-ignorance",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Veil of Ignorance",
     "hook": "What problem or argument is Veil of Ignorance really about?",
@@ -8932,7 +8932,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-justice-as-fairness",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Justice as Fairness",
     "hook": "What problem or argument is Justice as Fairness really about?",
@@ -8970,7 +8970,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-two-principles-of-justice",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Two Principles of Justice",
     "hook": "What problem or argument is Two Principles of Justice really about?",
@@ -9008,7 +9008,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-difference-principle",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Difference Principle",
     "hook": "What problem or argument is Difference Principle really about?",
@@ -9046,7 +9046,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reflective-equilibrium",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Reflective Equilibrium",
     "hook": "What problem or argument is Reflective Equilibrium really about?",
@@ -9084,7 +9084,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-political-liberalism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Political Liberalism",
     "hook": "What problem or argument is Political Liberalism really about?",
@@ -9122,7 +9122,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-overlapping-consensus",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Overlapping Consensus",
     "hook": "What problem or argument is Overlapping Consensus really about?",
@@ -9160,7 +9160,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-robert-nozick",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Robert Nozick",
     "hook": "What problem or argument is Robert Nozick really about?",
@@ -9198,7 +9198,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-entitlement-theory",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Entitlement Theory",
     "hook": "What problem or argument is Entitlement Theory really about?",
@@ -9236,7 +9236,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-wilt-chamberlain-argument",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Wilt Chamberlain Argument",
     "hook": "What problem or argument is Wilt Chamberlain Argument really about?",
@@ -9274,7 +9274,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-minimal-state",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Minimal State",
     "hook": "What problem or argument is Minimal State really about?",
@@ -9312,7 +9312,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-g-a-cohen",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "G. A. Cohen",
     "hook": "What problem or argument is G. A. Cohen really about?",
@@ -9350,7 +9350,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-luck-egalitarianism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Luck Egalitarianism",
     "hook": "What problem or argument is Luck Egalitarianism really about?",
@@ -9388,7 +9388,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-ronald-dworkin",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Ronald Dworkin",
     "hook": "What problem or argument is Ronald Dworkin really about?",
@@ -9426,7 +9426,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-equality-of-resources",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Equality of Resources",
     "hook": "What problem or argument is Equality of Resources really about?",
@@ -9464,7 +9464,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-capability-approach",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Capability Approach",
     "hook": "What problem or argument is Capability Approach really about?",
@@ -9502,7 +9502,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-amartya-sen",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Amartya Sen",
     "hook": "What problem or argument is Amartya Sen really about?",
@@ -9540,7 +9540,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-martha-nussbaum",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Martha Nussbaum",
     "hook": "What problem or argument is Martha Nussbaum really about?",
@@ -9578,7 +9578,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-analytical-marxism",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Analytical Marxism",
     "hook": "What problem or argument is Analytical Marxism really about?",
@@ -9616,7 +9616,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-john-roemer",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "John Roemer",
     "hook": "What problem or argument is John Roemer really about?",
@@ -9654,7 +9654,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-gerald-gaus",
     "world": "analytic-philosophy",
-    "pool": "Ethics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Political Philosophy",
     "name": "Gerald Gaus",
     "hook": "What problem or argument is Gerald Gaus really about?",
@@ -9692,7 +9692,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-philosophy-of-action",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Philosophy of Action",
     "hook": "What problem or argument is Philosophy of Action really about?",
@@ -9730,7 +9730,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-donald-davidson-on-action",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Donald Davidson on Action",
     "hook": "What problem or argument is Donald Davidson on Action really about?",
@@ -9768,7 +9768,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-actions-reasons-and-causes",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Actions, Reasons and Causes",
     "hook": "What problem or argument is Actions, Reasons and Causes really about?",
@@ -9806,7 +9806,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-anscombe",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Anscombe",
     "hook": "What problem or argument is Anscombe really about?",
@@ -9844,7 +9844,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-intention",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Intention",
     "hook": "What problem or argument is Intention really about?",
@@ -9882,7 +9882,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-practical-knowledge",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Practical Knowledge",
     "hook": "What problem or argument is Practical Knowledge really about?",
@@ -9920,7 +9920,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-free-will",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Free Will",
     "hook": "What problem or argument is Free Will really about?",
@@ -9958,7 +9958,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-determinism",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Determinism",
     "hook": "What problem or argument is Determinism really about?",
@@ -9996,7 +9996,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-compatibilism",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Compatibilism",
     "hook": "What problem or argument is Compatibilism really about?",
@@ -10034,7 +10034,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-incompatibilism",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Incompatibilism",
     "hook": "What problem or argument is Incompatibilism really about?",
@@ -10072,7 +10072,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-libertarian-free-will",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Libertarian Free Will",
     "hook": "What problem or argument is Libertarian Free Will really about?",
@@ -10110,7 +10110,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-harry-frankfurt",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Harry Frankfurt",
     "hook": "What problem or argument is Harry Frankfurt really about?",
@@ -10148,7 +10148,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-frankfurt-cases",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Frankfurt Cases",
     "hook": "What problem or argument is Frankfurt Cases really about?",
@@ -10186,7 +10186,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-principle-of-alternative-possibilities",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Principle of Alternative Possibilities",
     "hook": "What problem or argument is Principle of Alternative Possibilities really about?",
@@ -10224,7 +10224,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-second-order-desires",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Second-Order Desires",
     "hook": "What problem or argument is Second-Order Desires really about?",
@@ -10262,7 +10262,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reasons-responsiveness",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Reasons-Responsiveness",
     "hook": "What problem or argument is Reasons-Responsiveness really about?",
@@ -10300,7 +10300,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moral-responsibility",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Moral Responsibility",
     "hook": "What problem or argument is Moral Responsibility really about?",
@@ -10338,7 +10338,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reactive-attitudes",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Reactive Attitudes",
     "hook": "What problem or argument is Reactive Attitudes really about?",
@@ -10376,7 +10376,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-p-f-strawson-on-responsibility",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "P. F. Strawson on Responsibility",
     "hook": "What problem or argument is P. F. Strawson on Responsibility really about?",
@@ -10414,7 +10414,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-moral-responsibility-skepticism",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Action, Free Will & Responsibility",
     "name": "Moral Responsibility Skepticism",
     "hook": "What problem or argument is Moral Responsibility Skepticism really about?",
@@ -11098,7 +11098,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-analytic-philosophy-of-religion",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Analytic Philosophy of Religion",
     "hook": "What problem or argument is Analytic Philosophy of Religion really about?",
@@ -11136,7 +11136,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-ontological-argument",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Ontological Argument",
     "hook": "What problem or argument is Ontological Argument really about?",
@@ -11174,7 +11174,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-modal-ontological-argument",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Modal Ontological Argument",
     "hook": "What problem or argument is Modal Ontological Argument really about?",
@@ -11212,7 +11212,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-cosmological-argument",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Cosmological Argument",
     "hook": "What problem or argument is Cosmological Argument really about?",
@@ -11250,7 +11250,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-fine-tuning-argument",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Fine-Tuning Argument",
     "hook": "What problem or argument is Fine-Tuning Argument really about?",
@@ -11288,7 +11288,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-problem-of-evil",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Problem of Evil",
     "hook": "What problem or argument is Problem of Evil really about?",
@@ -11326,7 +11326,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-logical-problem-of-evil",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Logical Problem of Evil",
     "hook": "What problem or argument is Logical Problem of Evil really about?",
@@ -11364,7 +11364,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-evidential-problem-of-evil",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Evidential Problem of Evil",
     "hook": "What problem or argument is Evidential Problem of Evil really about?",
@@ -11402,7 +11402,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-free-will-defense",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Free Will Defense",
     "hook": "What problem or argument is Free Will Defense really about?",
@@ -11440,7 +11440,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-divine-hiddenness",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Divine Hiddenness",
     "hook": "What problem or argument is Divine Hiddenness really about?",
@@ -11478,7 +11478,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-j-l-schellenberg",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "J. L. Schellenberg",
     "hook": "What problem or argument is J. L. Schellenberg really about?",
@@ -11516,7 +11516,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-religious-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Religious Epistemology",
     "hook": "What problem or argument is Religious Epistemology really about?",
@@ -11554,7 +11554,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-reformed-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Reformed Epistemology",
     "hook": "What problem or argument is Reformed Epistemology really about?",
@@ -11592,7 +11592,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-alvin-plantinga",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Alvin Plantinga",
     "hook": "What problem or argument is Alvin Plantinga really about?",
@@ -11630,7 +11630,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-faith-and-reason",
     "world": "analytic-philosophy",
-    "pool": "Metaphysics",
+    "pool": "Ethics, Politics & Human Action",
     "topic": "Philosophy of Religion",
     "name": "Faith and Reason",
     "hook": "What problem or argument is Faith and Reason really about?",
@@ -11668,7 +11668,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-social-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Social Epistemology",
     "hook": "What problem or argument is Social Epistemology really about?",
@@ -11706,7 +11706,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-collective-knowledge",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Collective Knowledge",
     "hook": "What problem or argument is Collective Knowledge really about?",
@@ -11744,7 +11744,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-epistemic-dependence",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Epistemic Dependence",
     "hook": "What problem or argument is Epistemic Dependence really about?",
@@ -11782,7 +11782,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-expertise",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Expertise",
     "hook": "What problem or argument is Expertise really about?",
@@ -11820,7 +11820,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-peer-disagreement",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Peer Disagreement",
     "hook": "What problem or argument is Peer Disagreement really about?",
@@ -11858,7 +11858,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-group-belief",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Group Belief",
     "hook": "What problem or argument is Group Belief really about?",
@@ -11896,7 +11896,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-testimony",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Testimony",
     "hook": "What problem or argument is Testimony really about?",
@@ -11934,7 +11934,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-epistemic-authority",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Epistemic Authority",
     "hook": "What problem or argument is Epistemic Authority really about?",
@@ -11972,7 +11972,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-standpoint-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Standpoint Epistemology",
     "hook": "What problem or argument is Standpoint Epistemology really about?",
@@ -12010,7 +12010,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-conceptual-engineering",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Conceptual Engineering",
     "hook": "What problem or argument is Conceptual Engineering really about?",
@@ -12048,7 +12048,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-sally-haslanger",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Sally Haslanger",
     "hook": "What problem or argument is Sally Haslanger really about?",
@@ -12086,7 +12086,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-social-construction",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Social Construction",
     "hook": "What problem or argument is Social Construction really about?",
@@ -12124,7 +12124,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-ameliorative-analysis",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Ameliorative Analysis",
     "hook": "What problem or argument is Ameliorative Analysis really about?",
@@ -12162,7 +12162,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-experimental-philosophy",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Experimental Philosophy",
     "hook": "What problem or argument is Experimental Philosophy really about?",
@@ -12200,7 +12200,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-x-phi",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "X-Phi",
     "hook": "What problem or argument is X-Phi really about?",
@@ -12238,7 +12238,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-formal-epistemology",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Formal Epistemology",
     "hook": "What problem or argument is Formal Epistemology really about?",
@@ -12276,7 +12276,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-decision-theory",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Decision Theory",
     "hook": "What problem or argument is Decision Theory really about?",
@@ -12314,7 +12314,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-newcomb-s-problem",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Newcomb's Problem",
     "hook": "What problem or argument is Newcomb's Problem really about?",
@@ -12352,7 +12352,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-causal-decision-theory",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Causal Decision Theory",
     "hook": "What problem or argument is Causal Decision Theory really about?",
@@ -12390,7 +12390,7 @@ export const analyticPhilosophyConcepts = [
   {
     "id": "ap-evidential-decision-theory",
     "world": "analytic-philosophy",
-    "pool": "Epistemology",
+    "pool": "Knowledge & Epistemology",
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Evidential Decision Theory",
     "hook": "What problem or argument is Evidential Decision Theory really about?",
