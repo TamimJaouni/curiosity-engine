@@ -33,13 +33,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-amygdala",
       "neuro-prefrontal-cortex",
-      "neuro-motor-cortex"
+      "neuro-motor-cortex",
+      "neuro-somatosensory-cortex"
     ],
     "media": {
       "kind": "brain",
       "region": "hippocampus",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-amygdala",
@@ -75,13 +77,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-prefrontal-cortex",
       "neuro-motor-cortex",
-      "neuro-somatosensory-cortex"
+      "neuro-somatosensory-cortex",
+      "neuro-visual-cortex"
     ],
     "media": {
       "kind": "brain",
       "region": "amygdala",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-prefrontal-cortex",
@@ -117,13 +121,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-motor-cortex",
       "neuro-somatosensory-cortex",
-      "neuro-visual-cortex"
+      "neuro-visual-cortex",
+      "neuro-auditory-cortex"
     ],
     "media": {
       "kind": "brain",
       "region": "prefrontal-cortex",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-motor-cortex",
@@ -159,13 +165,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-somatosensory-cortex",
       "neuro-visual-cortex",
-      "neuro-auditory-cortex"
+      "neuro-auditory-cortex",
+      "neuro-broca-network"
     ],
     "media": {
       "kind": "brain",
       "region": "motor-cortex",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-somatosensory-cortex",
@@ -201,13 +209,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-visual-cortex",
       "neuro-auditory-cortex",
-      "neuro-broca-network"
+      "neuro-broca-network",
+      "neuro-language-network"
     ],
     "media": {
       "kind": "brain",
       "region": "somatosensory-cortex",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-visual-cortex",
@@ -243,13 +253,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-auditory-cortex",
       "neuro-broca-network",
-      "neuro-language-network"
+      "neuro-language-network",
+      "neuro-cerebellum"
     ],
     "media": {
       "kind": "brain",
       "region": "visual-cortex",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-auditory-cortex",
@@ -285,13 +297,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-broca-network",
       "neuro-language-network",
-      "neuro-cerebellum"
+      "neuro-cerebellum",
+      "neuro-basal-ganglia"
     ],
     "media": {
       "kind": "brain",
       "region": "auditory-cortex",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-broca-network",
@@ -327,13 +341,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-language-network",
       "neuro-cerebellum",
-      "neuro-basal-ganglia"
+      "neuro-basal-ganglia",
+      "neuro-thalamus"
     ],
     "media": {
       "kind": "brain",
       "region": "broca-area",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-language-network",
@@ -369,13 +385,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-cerebellum",
       "neuro-basal-ganglia",
-      "neuro-thalamus"
+      "neuro-thalamus",
+      "neuro-hypothalamus"
     ],
     "media": {
       "kind": "brain",
       "region": "language-network",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-cerebellum",
@@ -411,13 +429,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-basal-ganglia",
       "neuro-thalamus",
-      "neuro-hypothalamus"
+      "neuro-hypothalamus",
+      "neuro-brainstem"
     ],
     "media": {
       "kind": "brain",
       "region": "cerebellum",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-basal-ganglia",
@@ -453,13 +473,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-thalamus",
       "neuro-hypothalamus",
-      "neuro-brainstem"
+      "neuro-brainstem",
+      "neuro-corpus-callosum"
     ],
     "media": {
       "kind": "brain",
       "region": "basal-ganglia",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-thalamus",
@@ -495,13 +517,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-hypothalamus",
       "neuro-brainstem",
-      "neuro-corpus-callosum"
+      "neuro-corpus-callosum",
+      "neuro-insula"
     ],
     "media": {
       "kind": "brain",
       "region": "thalamus",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-hypothalamus",
@@ -537,13 +561,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-brainstem",
       "neuro-corpus-callosum",
-      "neuro-insula"
+      "neuro-insula",
+      "neuro-anterior-cingulate"
     ],
     "media": {
       "kind": "brain",
       "region": "hypothalamus",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-brainstem",
@@ -579,13 +605,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-corpus-callosum",
       "neuro-insula",
-      "neuro-anterior-cingulate"
+      "neuro-anterior-cingulate",
+      "neuro-nucleus-accumbens"
     ],
     "media": {
       "kind": "brain",
       "region": "brainstem",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-corpus-callosum",
@@ -621,13 +649,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-insula",
       "neuro-anterior-cingulate",
-      "neuro-nucleus-accumbens"
+      "neuro-nucleus-accumbens",
+      "neuro-ventral-tegmental"
     ],
     "media": {
       "kind": "brain",
       "region": "corpus-callosum",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-insula",
@@ -663,13 +693,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-anterior-cingulate",
       "neuro-nucleus-accumbens",
-      "neuro-ventral-tegmental"
+      "neuro-ventral-tegmental",
+      "neuro-substantia-nigra"
     ],
     "media": {
       "kind": "brain",
       "region": "insula",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-anterior-cingulate",
@@ -705,13 +737,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-nucleus-accumbens",
       "neuro-ventral-tegmental",
-      "neuro-substantia-nigra"
+      "neuro-substantia-nigra",
+      "neuro-hippocampus"
     ],
     "media": {
       "kind": "brain",
       "region": "anterior-cingulate",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-nucleus-accumbens",
@@ -747,13 +781,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-ventral-tegmental",
       "neuro-substantia-nigra",
-      "neuro-hippocampus"
+      "neuro-hippocampus",
+      "neuro-amygdala"
     ],
     "media": {
       "kind": "brain",
       "region": "nucleus-accumbens",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-ventral-tegmental",
@@ -789,13 +825,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-substantia-nigra",
       "neuro-hippocampus",
-      "neuro-amygdala"
+      "neuro-amygdala",
+      "neuro-prefrontal-cortex"
     ],
     "media": {
       "kind": "brain",
       "region": "vta",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-substantia-nigra",
@@ -831,13 +869,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-hippocampus",
       "neuro-amygdala",
-      "neuro-prefrontal-cortex"
+      "neuro-prefrontal-cortex",
+      "neuro-motor-cortex"
     ],
     "media": {
       "kind": "brain",
       "region": "substantia-nigra",
       "view": "highlight"
-    }
+    },
+    "topic": "Brain Anatomy"
   },
   {
     "id": "neuro-neuron",
@@ -873,8 +913,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-dendrite",
       "neuro-axon",
-      "neuro-synapse"
-    ]
+      "neuro-synapse",
+      "neuro-action-potential"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-dendrite",
@@ -910,8 +952,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-axon",
       "neuro-synapse",
-      "neuro-action-potential"
-    ]
+      "neuro-action-potential",
+      "neuro-resting-potential"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-axon",
@@ -947,8 +991,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-synapse",
       "neuro-action-potential",
-      "neuro-resting-potential"
-    ]
+      "neuro-resting-potential",
+      "neuro-ion-channels"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-synapse",
@@ -984,8 +1030,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-action-potential",
       "neuro-resting-potential",
-      "neuro-ion-channels"
-    ]
+      "neuro-ion-channels",
+      "neuro-refractory-period"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-action-potential",
@@ -1021,8 +1069,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-resting-potential",
       "neuro-ion-channels",
-      "neuro-refractory-period"
-    ]
+      "neuro-refractory-period",
+      "neuro-myelin"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-resting-potential",
@@ -1058,8 +1108,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-ion-channels",
       "neuro-refractory-period",
-      "neuro-myelin"
-    ]
+      "neuro-myelin",
+      "neuro-nodes-ranvier"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-ion-channels",
@@ -1095,8 +1147,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-refractory-period",
       "neuro-myelin",
-      "neuro-nodes-ranvier"
-    ]
+      "neuro-nodes-ranvier",
+      "neuro-neurotransmitter-release"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-refractory-period",
@@ -1132,8 +1186,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-myelin",
       "neuro-nodes-ranvier",
-      "neuro-neurotransmitter-release"
-    ]
+      "neuro-neurotransmitter-release",
+      "neuro-receptors"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-myelin",
@@ -1169,8 +1225,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-nodes-ranvier",
       "neuro-neurotransmitter-release",
-      "neuro-receptors"
-    ]
+      "neuro-receptors",
+      "neuro-excitatory-inhibitory"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-nodes-ranvier",
@@ -1206,8 +1264,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-neurotransmitter-release",
       "neuro-receptors",
-      "neuro-excitatory-inhibitory"
-    ]
+      "neuro-excitatory-inhibitory",
+      "neuro-temporal-summation"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-neurotransmitter-release",
@@ -1243,8 +1303,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-receptors",
       "neuro-excitatory-inhibitory",
-      "neuro-temporal-summation"
-    ]
+      "neuro-temporal-summation",
+      "neuro-spatial-summation"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-receptors",
@@ -1280,8 +1342,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-excitatory-inhibitory",
       "neuro-temporal-summation",
-      "neuro-spatial-summation"
-    ]
+      "neuro-spatial-summation",
+      "neuro-glia"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-excitatory-inhibitory",
@@ -1317,8 +1381,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-temporal-summation",
       "neuro-spatial-summation",
-      "neuro-glia"
-    ]
+      "neuro-glia",
+      "neuro-astrocytes"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-temporal-summation",
@@ -1354,8 +1420,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-spatial-summation",
       "neuro-glia",
-      "neuro-astrocytes"
-    ]
+      "neuro-astrocytes",
+      "neuro-microglia"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-spatial-summation",
@@ -1391,8 +1459,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-glia",
       "neuro-astrocytes",
-      "neuro-microglia"
-    ]
+      "neuro-microglia",
+      "neuro-oligodendrocytes"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-glia",
@@ -1428,8 +1498,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-astrocytes",
       "neuro-microglia",
-      "neuro-oligodendrocytes"
-    ]
+      "neuro-oligodendrocytes",
+      "neuro-blood-brain-barrier"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-astrocytes",
@@ -1465,8 +1537,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-microglia",
       "neuro-oligodendrocytes",
-      "neuro-blood-brain-barrier"
-    ]
+      "neuro-blood-brain-barrier",
+      "neuro-neuron"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-microglia",
@@ -1502,8 +1576,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-oligodendrocytes",
       "neuro-blood-brain-barrier",
-      "neuro-neuron"
-    ]
+      "neuro-neuron",
+      "neuro-dendrite"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-oligodendrocytes",
@@ -1539,8 +1615,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-blood-brain-barrier",
       "neuro-neuron",
-      "neuro-dendrite"
-    ]
+      "neuro-dendrite",
+      "neuro-axon"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-blood-brain-barrier",
@@ -1576,8 +1654,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-neuron",
       "neuro-dendrite",
-      "neuro-axon"
-    ]
+      "neuro-axon",
+      "neuro-synapse"
+    ],
+    "topic": "Neurons & Signaling"
   },
   {
     "id": "neuro-dopamine",
@@ -1613,8 +1693,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-reward-prediction-error",
       "neuro-serotonin",
-      "neuro-norepinephrine"
-    ]
+      "neuro-norepinephrine",
+      "neuro-acetylcholine"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-reward-prediction-error",
@@ -1650,8 +1732,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-serotonin",
       "neuro-norepinephrine",
-      "neuro-acetylcholine"
-    ]
+      "neuro-acetylcholine",
+      "neuro-glutamate"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-serotonin",
@@ -1687,8 +1771,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-norepinephrine",
       "neuro-acetylcholine",
-      "neuro-glutamate"
-    ]
+      "neuro-glutamate",
+      "neuro-gaba"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-norepinephrine",
@@ -1724,8 +1810,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-acetylcholine",
       "neuro-glutamate",
-      "neuro-gaba"
-    ]
+      "neuro-gaba",
+      "neuro-endorphins"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-acetylcholine",
@@ -1761,8 +1849,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-glutamate",
       "neuro-gaba",
-      "neuro-endorphins"
-    ]
+      "neuro-endorphins",
+      "neuro-cortisol"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-glutamate",
@@ -1798,8 +1888,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-gaba",
       "neuro-endorphins",
-      "neuro-cortisol"
-    ]
+      "neuro-cortisol",
+      "neuro-oxytocin"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-gaba",
@@ -1835,8 +1927,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-endorphins",
       "neuro-cortisol",
-      "neuro-oxytocin"
-    ]
+      "neuro-oxytocin",
+      "neuro-dopamine"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-endorphins",
@@ -1872,8 +1966,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-cortisol",
       "neuro-oxytocin",
-      "neuro-dopamine"
-    ]
+      "neuro-dopamine",
+      "neuro-reward-prediction-error"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-cortisol",
@@ -1909,8 +2005,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-oxytocin",
       "neuro-dopamine",
-      "neuro-reward-prediction-error"
-    ]
+      "neuro-reward-prediction-error",
+      "neuro-serotonin"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-oxytocin",
@@ -1946,8 +2044,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-dopamine",
       "neuro-reward-prediction-error",
-      "neuro-serotonin"
-    ]
+      "neuro-serotonin",
+      "neuro-norepinephrine"
+    ],
+    "topic": "Neurochemistry"
   },
   {
     "id": "neuro-neuroplasticity",
@@ -1983,8 +2083,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-long-term-potentiation",
       "neuro-long-term-depression",
-      "neuro-hebbian-learning"
-    ]
+      "neuro-hebbian-learning",
+      "neuro-synaptic-plasticity"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-long-term-potentiation",
@@ -2020,8 +2122,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-long-term-depression",
       "neuro-hebbian-learning",
-      "neuro-synaptic-plasticity"
-    ]
+      "neuro-synaptic-plasticity",
+      "neuro-critical-period"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-long-term-depression",
@@ -2057,8 +2161,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-hebbian-learning",
       "neuro-synaptic-plasticity",
-      "neuro-critical-period"
-    ]
+      "neuro-critical-period",
+      "neuro-motor-learning"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-hebbian-learning",
@@ -2094,8 +2200,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-synaptic-plasticity",
       "neuro-critical-period",
-      "neuro-motor-learning"
-    ]
+      "neuro-motor-learning",
+      "neuro-memory-consolidation-neural"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-synaptic-plasticity",
@@ -2131,8 +2239,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-critical-period",
       "neuro-motor-learning",
-      "neuro-memory-consolidation-neural"
-    ]
+      "neuro-memory-consolidation-neural",
+      "neuro-systems-consolidation"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-critical-period",
@@ -2168,8 +2278,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-motor-learning",
       "neuro-memory-consolidation-neural",
-      "neuro-systems-consolidation"
-    ]
+      "neuro-systems-consolidation",
+      "neuro-reconsolidation-neural"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-motor-learning",
@@ -2205,8 +2317,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-memory-consolidation-neural",
       "neuro-systems-consolidation",
-      "neuro-reconsolidation-neural"
-    ]
+      "neuro-reconsolidation-neural",
+      "neuro-neuroplasticity"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-memory-consolidation-neural",
@@ -2242,8 +2356,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-systems-consolidation",
       "neuro-reconsolidation-neural",
-      "neuro-neuroplasticity"
-    ]
+      "neuro-neuroplasticity",
+      "neuro-long-term-potentiation"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-systems-consolidation",
@@ -2279,8 +2395,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-reconsolidation-neural",
       "neuro-neuroplasticity",
-      "neuro-long-term-potentiation"
-    ]
+      "neuro-long-term-potentiation",
+      "neuro-long-term-depression"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-reconsolidation-neural",
@@ -2316,8 +2434,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-neuroplasticity",
       "neuro-long-term-potentiation",
-      "neuro-long-term-depression"
-    ]
+      "neuro-long-term-depression",
+      "neuro-hebbian-learning"
+    ],
+    "topic": "Learning & Plasticity"
   },
   {
     "id": "neuro-working-memory-neural",
@@ -2353,8 +2473,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-episodic-memory-neural",
       "neuro-semantic-memory-neural",
-      "neuro-procedural-memory-neural"
-    ]
+      "neuro-procedural-memory-neural",
+      "neuro-fear-memory"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-episodic-memory-neural",
@@ -2390,8 +2512,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-semantic-memory-neural",
       "neuro-procedural-memory-neural",
-      "neuro-fear-memory"
-    ]
+      "neuro-fear-memory",
+      "neuro-spatial-memory"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-semantic-memory-neural",
@@ -2427,8 +2551,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-procedural-memory-neural",
       "neuro-fear-memory",
-      "neuro-spatial-memory"
-    ]
+      "neuro-spatial-memory",
+      "neuro-place-cells"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-procedural-memory-neural",
@@ -2464,8 +2590,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-fear-memory",
       "neuro-spatial-memory",
-      "neuro-place-cells"
-    ]
+      "neuro-place-cells",
+      "neuro-grid-cells"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-fear-memory",
@@ -2501,8 +2629,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-spatial-memory",
       "neuro-place-cells",
-      "neuro-grid-cells"
-    ]
+      "neuro-grid-cells",
+      "neuro-engram"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-spatial-memory",
@@ -2538,8 +2668,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-place-cells",
       "neuro-grid-cells",
-      "neuro-engram"
-    ]
+      "neuro-engram",
+      "neuro-patient-hm"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-place-cells",
@@ -2575,8 +2707,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-grid-cells",
       "neuro-engram",
-      "neuro-patient-hm"
-    ]
+      "neuro-patient-hm",
+      "neuro-working-memory-neural"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-grid-cells",
@@ -2612,8 +2746,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-engram",
       "neuro-patient-hm",
-      "neuro-working-memory-neural"
-    ]
+      "neuro-working-memory-neural",
+      "neuro-episodic-memory-neural"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-engram",
@@ -2649,8 +2785,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-patient-hm",
       "neuro-working-memory-neural",
-      "neuro-episodic-memory-neural"
-    ]
+      "neuro-episodic-memory-neural",
+      "neuro-semantic-memory-neural"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-patient-hm",
@@ -2686,8 +2824,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-working-memory-neural",
       "neuro-episodic-memory-neural",
-      "neuro-semantic-memory-neural"
-    ]
+      "neuro-semantic-memory-neural",
+      "neuro-procedural-memory-neural"
+    ],
+    "topic": "Memory Systems"
   },
   {
     "id": "neuro-circadian-rhythm",
@@ -2723,8 +2863,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-suprachiasmatic",
       "neuro-melatonin",
-      "neuro-sleep-stages"
-    ]
+      "neuro-sleep-stages",
+      "neuro-slow-wave-sleep"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-suprachiasmatic",
@@ -2760,13 +2902,15 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-melatonin",
       "neuro-sleep-stages",
-      "neuro-slow-wave-sleep"
+      "neuro-slow-wave-sleep",
+      "neuro-rem-sleep"
     ],
     "media": {
       "kind": "brain",
       "region": "suprachiasmatic-nucleus",
       "view": "highlight"
-    }
+    },
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-melatonin",
@@ -2802,8 +2946,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-sleep-stages",
       "neuro-slow-wave-sleep",
-      "neuro-rem-sleep"
-    ]
+      "neuro-rem-sleep",
+      "neuro-sleep-spindles"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-sleep-stages",
@@ -2839,8 +2985,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-slow-wave-sleep",
       "neuro-rem-sleep",
-      "neuro-sleep-spindles"
-    ]
+      "neuro-sleep-spindles",
+      "neuro-sleep-deprivation"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-slow-wave-sleep",
@@ -2876,8 +3024,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-rem-sleep",
       "neuro-sleep-spindles",
-      "neuro-sleep-deprivation"
-    ]
+      "neuro-sleep-deprivation",
+      "neuro-sleep-memory-neural"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-rem-sleep",
@@ -2913,8 +3063,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-sleep-spindles",
       "neuro-sleep-deprivation",
-      "neuro-sleep-memory-neural"
-    ]
+      "neuro-sleep-memory-neural",
+      "neuro-adenosine"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-sleep-spindles",
@@ -2950,8 +3102,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-sleep-deprivation",
       "neuro-sleep-memory-neural",
-      "neuro-adenosine"
-    ]
+      "neuro-adenosine",
+      "neuro-circadian-rhythm"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-sleep-deprivation",
@@ -2987,8 +3141,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-sleep-memory-neural",
       "neuro-adenosine",
-      "neuro-circadian-rhythm"
-    ]
+      "neuro-circadian-rhythm",
+      "neuro-suprachiasmatic"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-sleep-memory-neural",
@@ -3024,8 +3180,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-adenosine",
       "neuro-circadian-rhythm",
-      "neuro-suprachiasmatic"
-    ]
+      "neuro-suprachiasmatic",
+      "neuro-melatonin"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-adenosine",
@@ -3061,8 +3219,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-circadian-rhythm",
       "neuro-suprachiasmatic",
-      "neuro-melatonin"
-    ]
+      "neuro-melatonin",
+      "neuro-sleep-stages"
+    ],
+    "topic": "Sleep & Rhythms"
   },
   {
     "id": "neuro-reward-system",
@@ -3098,8 +3258,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-wanting-liking",
       "neuro-incentive-salience",
-      "neuro-reinforcement-learning"
-    ]
+      "neuro-reinforcement-learning",
+      "neuro-habit-circuits"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-wanting-liking",
@@ -3135,8 +3297,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-incentive-salience",
       "neuro-reinforcement-learning",
-      "neuro-habit-circuits"
-    ]
+      "neuro-habit-circuits",
+      "neuro-goal-directed"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-incentive-salience",
@@ -3172,8 +3336,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-reinforcement-learning",
       "neuro-habit-circuits",
-      "neuro-goal-directed"
-    ]
+      "neuro-goal-directed",
+      "neuro-addiction-neurobiology"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-reinforcement-learning",
@@ -3209,8 +3375,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-habit-circuits",
       "neuro-goal-directed",
-      "neuro-addiction-neurobiology"
-    ]
+      "neuro-addiction-neurobiology",
+      "neuro-tolerance"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-habit-circuits",
@@ -3246,8 +3414,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-goal-directed",
       "neuro-addiction-neurobiology",
-      "neuro-tolerance"
-    ]
+      "neuro-tolerance",
+      "neuro-withdrawal"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-goal-directed",
@@ -3283,8 +3453,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-addiction-neurobiology",
       "neuro-tolerance",
-      "neuro-withdrawal"
-    ]
+      "neuro-withdrawal",
+      "neuro-cue-reactivity"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-addiction-neurobiology",
@@ -3320,8 +3492,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-tolerance",
       "neuro-withdrawal",
-      "neuro-cue-reactivity"
-    ]
+      "neuro-cue-reactivity",
+      "neuro-craving"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-tolerance",
@@ -3357,8 +3531,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-withdrawal",
       "neuro-cue-reactivity",
-      "neuro-craving"
-    ]
+      "neuro-craving",
+      "neuro-stress-relapse"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-withdrawal",
@@ -3394,8 +3570,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-cue-reactivity",
       "neuro-craving",
-      "neuro-stress-relapse"
-    ]
+      "neuro-stress-relapse",
+      "neuro-reward-system"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-cue-reactivity",
@@ -3431,8 +3609,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-craving",
       "neuro-stress-relapse",
-      "neuro-reward-system"
-    ]
+      "neuro-reward-system",
+      "neuro-wanting-liking"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-craving",
@@ -3468,8 +3648,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-stress-relapse",
       "neuro-reward-system",
-      "neuro-wanting-liking"
-    ]
+      "neuro-wanting-liking",
+      "neuro-incentive-salience"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-stress-relapse",
@@ -3505,8 +3687,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-reward-system",
       "neuro-wanting-liking",
-      "neuro-incentive-salience"
-    ]
+      "neuro-incentive-salience",
+      "neuro-reinforcement-learning"
+    ],
+    "topic": "Reward, Motivation & Addiction"
   },
   {
     "id": "neuro-visual-pathways",
@@ -3542,8 +3726,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-dorsal-ventral",
       "neuro-retina",
-      "neuro-blind-spot"
-    ]
+      "neuro-blind-spot",
+      "neuro-color-vision"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-dorsal-ventral",
@@ -3579,8 +3765,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-retina",
       "neuro-blind-spot",
-      "neuro-color-vision"
-    ]
+      "neuro-color-vision",
+      "neuro-motion-perception"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-retina",
@@ -3616,8 +3804,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-blind-spot",
       "neuro-color-vision",
-      "neuro-motion-perception"
-    ]
+      "neuro-motion-perception",
+      "neuro-face-perception"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-blind-spot",
@@ -3653,8 +3843,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-color-vision",
       "neuro-motion-perception",
-      "neuro-face-perception"
-    ]
+      "neuro-face-perception",
+      "neuro-prosopagnosia"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-color-vision",
@@ -3690,8 +3882,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-motion-perception",
       "neuro-face-perception",
-      "neuro-prosopagnosia"
-    ]
+      "neuro-prosopagnosia",
+      "neuro-phantom-limb"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-motion-perception",
@@ -3727,8 +3921,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-face-perception",
       "neuro-prosopagnosia",
-      "neuro-phantom-limb"
-    ]
+      "neuro-phantom-limb",
+      "neuro-motor-control"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-face-perception",
@@ -3764,8 +3960,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-prosopagnosia",
       "neuro-phantom-limb",
-      "neuro-motor-control"
-    ]
+      "neuro-motor-control",
+      "neuro-proprioception"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-prosopagnosia",
@@ -3801,8 +3999,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-phantom-limb",
       "neuro-motor-control",
-      "neuro-proprioception"
-    ]
+      "neuro-proprioception",
+      "neuro-mirror-neurons"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-phantom-limb",
@@ -3838,8 +4038,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-motor-control",
       "neuro-proprioception",
-      "neuro-mirror-neurons"
-    ]
+      "neuro-mirror-neurons",
+      "neuro-visual-pathways"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-motor-control",
@@ -3875,8 +4077,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-proprioception",
       "neuro-mirror-neurons",
-      "neuro-visual-pathways"
-    ]
+      "neuro-visual-pathways",
+      "neuro-dorsal-ventral"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-proprioception",
@@ -3912,8 +4116,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-mirror-neurons",
       "neuro-visual-pathways",
-      "neuro-dorsal-ventral"
-    ]
+      "neuro-dorsal-ventral",
+      "neuro-retina"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-mirror-neurons",
@@ -3949,8 +4155,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-visual-pathways",
       "neuro-dorsal-ventral",
-      "neuro-retina"
-    ]
+      "neuro-retina",
+      "neuro-blind-spot"
+    ],
+    "topic": "Perception & Action"
   },
   {
     "id": "neuro-hpa-axis",
@@ -3986,8 +4194,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-sympathetic",
       "neuro-parasympathetic",
-      "neuro-vagus"
-    ]
+      "neuro-vagus",
+      "neuro-interoception-neural"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-sympathetic",
@@ -4023,8 +4233,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-parasympathetic",
       "neuro-vagus",
-      "neuro-interoception-neural"
-    ]
+      "neuro-interoception-neural",
+      "neuro-homeostasis"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-parasympathetic",
@@ -4060,8 +4272,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-vagus",
       "neuro-interoception-neural",
-      "neuro-homeostasis"
-    ]
+      "neuro-homeostasis",
+      "neuro-allostasis"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-vagus",
@@ -4097,8 +4311,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-interoception-neural",
       "neuro-homeostasis",
-      "neuro-allostasis"
-    ]
+      "neuro-allostasis",
+      "neuro-chronic-stress"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-interoception-neural",
@@ -4134,8 +4350,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-homeostasis",
       "neuro-allostasis",
-      "neuro-chronic-stress"
-    ]
+      "neuro-chronic-stress",
+      "neuro-hpa-axis"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-homeostasis",
@@ -4171,8 +4389,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-allostasis",
       "neuro-chronic-stress",
-      "neuro-hpa-axis"
-    ]
+      "neuro-hpa-axis",
+      "neuro-sympathetic"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-allostasis",
@@ -4208,8 +4428,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-chronic-stress",
       "neuro-hpa-axis",
-      "neuro-sympathetic"
-    ]
+      "neuro-sympathetic",
+      "neuro-parasympathetic"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-chronic-stress",
@@ -4245,8 +4467,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-hpa-axis",
       "neuro-sympathetic",
-      "neuro-parasympathetic"
-    ]
+      "neuro-parasympathetic",
+      "neuro-vagus"
+    ],
+    "topic": "Stress & Body-Brain"
   },
   {
     "id": "neuro-eeg",
@@ -4282,8 +4506,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-fmri",
       "neuro-pet",
-      "neuro-tms"
-    ]
+      "neuro-tms",
+      "neuro-lesion-method"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-fmri",
@@ -4319,8 +4545,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-pet",
       "neuro-tms",
-      "neuro-lesion-method"
-    ]
+      "neuro-lesion-method",
+      "neuro-single-unit"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-pet",
@@ -4356,8 +4584,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-tms",
       "neuro-lesion-method",
-      "neuro-single-unit"
-    ]
+      "neuro-single-unit",
+      "neuro-connectome"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-tms",
@@ -4393,8 +4623,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-lesion-method",
       "neuro-single-unit",
-      "neuro-connectome"
-    ]
+      "neuro-connectome",
+      "neuro-correlation-causation-brain"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-lesion-method",
@@ -4430,8 +4662,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-single-unit",
       "neuro-connectome",
-      "neuro-correlation-causation-brain"
-    ]
+      "neuro-correlation-causation-brain",
+      "neuro-eeg"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-single-unit",
@@ -4467,8 +4701,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-connectome",
       "neuro-correlation-causation-brain",
-      "neuro-eeg"
-    ]
+      "neuro-eeg",
+      "neuro-fmri"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-connectome",
@@ -4504,8 +4740,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-correlation-causation-brain",
       "neuro-eeg",
-      "neuro-fmri"
-    ]
+      "neuro-fmri",
+      "neuro-pet"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-correlation-causation-brain",
@@ -4541,8 +4779,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-eeg",
       "neuro-fmri",
-      "neuro-pet"
-    ]
+      "neuro-pet",
+      "neuro-tms"
+    ],
+    "topic": "Brain Methods"
   },
   {
     "id": "neuro-split-brain",
@@ -4578,8 +4818,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-blindsight",
       "neuro-neglect",
-      "neuro-aphasia"
-    ]
+      "neuro-aphasia",
+      "neuro-amnesia"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-blindsight",
@@ -4615,8 +4857,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-neglect",
       "neuro-aphasia",
-      "neuro-amnesia"
-    ]
+      "neuro-amnesia",
+      "neuro-parkinson"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-neglect",
@@ -4652,8 +4896,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-aphasia",
       "neuro-amnesia",
-      "neuro-parkinson"
-    ]
+      "neuro-parkinson",
+      "neuro-alzheimer"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-aphasia",
@@ -4689,8 +4935,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-amnesia",
       "neuro-parkinson",
-      "neuro-alzheimer"
-    ]
+      "neuro-alzheimer",
+      "neuro-epilepsy"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-amnesia",
@@ -4726,8 +4974,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-parkinson",
       "neuro-alzheimer",
-      "neuro-epilepsy"
-    ]
+      "neuro-epilepsy",
+      "neuro-stroke"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-parkinson",
@@ -4763,8 +5013,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-alzheimer",
       "neuro-epilepsy",
-      "neuro-stroke"
-    ]
+      "neuro-stroke",
+      "neuro-concussion"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-alzheimer",
@@ -4800,8 +5052,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-epilepsy",
       "neuro-stroke",
-      "neuro-concussion"
-    ]
+      "neuro-concussion",
+      "neuro-split-brain"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-epilepsy",
@@ -4837,8 +5091,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-stroke",
       "neuro-concussion",
-      "neuro-split-brain"
-    ]
+      "neuro-split-brain",
+      "neuro-blindsight"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-stroke",
@@ -4874,8 +5130,10 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-concussion",
       "neuro-split-brain",
-      "neuro-blindsight"
-    ]
+      "neuro-blindsight",
+      "neuro-neglect"
+    ],
+    "topic": "Neurological Phenomena"
   },
   {
     "id": "neuro-concussion",
@@ -4911,7 +5169,9 @@ export const neuroscienceConcepts = [
     "related": [
       "neuro-split-brain",
       "neuro-blindsight",
-      "neuro-neglect"
-    ]
+      "neuro-neglect",
+      "neuro-aphasia"
+    ],
+    "topic": "Neurological Phenomena"
   }
 ];
