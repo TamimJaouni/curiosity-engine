@@ -2,7 +2,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-treaty-of-versailles",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Treaty of Versailles",
     "hook": "How did Treaty of Versailles change the Europe that came after it?",
@@ -40,7 +40,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-paris-peace-conference",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Paris Peace Conference",
     "hook": "How did Paris Peace Conference change the Europe that came after it?",
@@ -78,7 +78,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-league-of-nations",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "League of Nations",
     "hook": "How did League of Nations change the Europe that came after it?",
@@ -116,7 +116,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-self-determination-after-wwi",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Self-Determination after WWI",
     "hook": "How did Self-Determination after WWI change the Europe that came after it?",
@@ -154,7 +154,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-new-states-of-central-europe",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "New States of Central Europe",
     "hook": "How did New States of Central Europe change the Europe that came after it?",
@@ -192,7 +192,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-polish-soviet-war",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Polish–Soviet War",
     "hook": "How did Polish–Soviet War change the Europe that came after it?",
@@ -230,7 +230,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-treaty-of-trianon",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Treaty of Trianon",
     "hook": "How did Treaty of Trianon change the Europe that came after it?",
@@ -268,7 +268,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-weimar-republic",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Weimar Republic",
     "hook": "How did Weimar Republic change the Europe that came after it?",
@@ -306,7 +306,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-weimar-constitution",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Weimar Constitution",
     "hook": "How did Weimar Constitution change the Europe that came after it?",
@@ -344,7 +344,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-hyperinflation-1923",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Hyperinflation 1923",
     "hook": "How did Hyperinflation 1923 change the Europe that came after it?",
@@ -382,7 +382,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-ruhr-occupation",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Ruhr Occupation",
     "hook": "How did Ruhr Occupation change the Europe that came after it?",
@@ -420,7 +420,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-dawes-plan",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Dawes Plan",
     "hook": "How did Dawes Plan change the Europe that came after it?",
@@ -458,7 +458,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-locarno-treaties",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Locarno Treaties",
     "hook": "How did Locarno Treaties change the Europe that came after it?",
@@ -496,7 +496,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-kellogg-briand-pact",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Kellogg–Briand Pact",
     "hook": "How did Kellogg–Briand Pact change the Europe that came after it?",
@@ -534,7 +534,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-great-depression-in-europe",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Great Depression in Europe",
     "hook": "How did Great Depression in Europe change the Europe that came after it?",
@@ -572,7 +572,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-mass-unemployment",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Mass Unemployment",
     "hook": "How did Mass Unemployment change the Europe that came after it?",
@@ -610,7 +610,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-collapse-of-parliamentary-coalitions",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Collapse of Parliamentary Coalitions",
     "hook": "How did Collapse of Parliamentary Coalitions change the Europe that came after it?",
@@ -648,7 +648,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-authoritarian-turn-in-interwar-europe",
     "world": "modern-europe",
-    "pool": "Interwar Settlement & Fragile Democracies",
+    "pool": "Modern Europe",
     "topic": "Interwar Settlement & Fragile Democracies",
     "name": "Authoritarian Turn in Interwar Europe",
     "hook": "How did Authoritarian Turn in Interwar Europe change the Europe that came after it?",
@@ -686,7 +686,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-italian-fascism",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Italian Fascism",
     "hook": "How did Italian Fascism change the Europe that came after it?",
@@ -724,7 +724,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-benito-mussolini",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Benito Mussolini",
     "hook": "How did Benito Mussolini change the Europe that came after it?",
@@ -762,7 +762,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-march-on-rome",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "March on Rome",
     "hook": "How did March on Rome change the Europe that came after it?",
@@ -800,7 +800,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-corporatism-under-fascism",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Corporatism under Fascism",
     "hook": "How did Corporatism under Fascism change the Europe that came after it?",
@@ -838,7 +838,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-fascist-violence-and-squadristi",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Fascist Violence and Squadristi",
     "hook": "How did Fascist Violence and Squadristi change the Europe that came after it?",
@@ -876,7 +876,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lateran-accords",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Lateran Accords",
     "hook": "How did Lateran Accords change the Europe that came after it?",
@@ -914,7 +914,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nazism",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Nazism",
     "hook": "How did Nazism change the Europe that came after it?",
@@ -952,7 +952,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-adolf-hitler",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Adolf Hitler",
     "hook": "How did Adolf Hitler change the Europe that came after it?",
@@ -990,7 +990,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-beer-hall-putsch",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Beer Hall Putsch",
     "hook": "How did Beer Hall Putsch change the Europe that came after it?",
@@ -1028,7 +1028,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-mein-kampf",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Mein Kampf",
     "hook": "How did Mein Kampf change the Europe that came after it?",
@@ -1066,7 +1066,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nazi-electoral-rise",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Nazi Electoral Rise",
     "hook": "How did Nazi Electoral Rise change the Europe that came after it?",
@@ -1104,7 +1104,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-enabling-act-1933",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Enabling Act 1933",
     "hook": "How did Enabling Act 1933 change the Europe that came after it?",
@@ -1142,7 +1142,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-gleichschaltung",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Gleichschaltung",
     "hook": "How did Gleichschaltung change the Europe that came after it?",
@@ -1180,7 +1180,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-ss-and-police-state",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "SS and Police State",
     "hook": "How did SS and Police State change the Europe that came after it?",
@@ -1218,7 +1218,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nuremberg-laws",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Nuremberg Laws",
     "hook": "How did Nuremberg Laws change the Europe that came after it?",
@@ -1256,7 +1256,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-kristallnacht",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Kristallnacht",
     "hook": "How did Kristallnacht change the Europe that came after it?",
@@ -1294,7 +1294,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-propaganda-and-mass-politics",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Propaganda and Mass Politics",
     "hook": "How did Propaganda and Mass Politics change the Europe that came after it?",
@@ -1332,7 +1332,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-appeasement",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Appeasement",
     "hook": "How did Appeasement change the Europe that came after it?",
@@ -1370,7 +1370,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-munich-agreement",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Munich Agreement",
     "hook": "How did Munich Agreement change the Europe that came after it?",
@@ -1408,7 +1408,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-spanish-civil-war",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Spanish Civil War",
     "hook": "How did Spanish Civil War change the Europe that came after it?",
@@ -1446,7 +1446,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-francoist-spain",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Francoist Spain",
     "hook": "How did Francoist Spain change the Europe that came after it?",
@@ -1484,7 +1484,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-popular-fronts",
     "world": "modern-europe",
-    "pool": "Fascism, Nazism & Dictatorship",
+    "pool": "Modern Europe",
     "topic": "Fascism, Nazism & Dictatorship",
     "name": "Popular Fronts",
     "hook": "How did Popular Fronts change the Europe that came after it?",
@@ -1522,7 +1522,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-russian-civil-war-aftermath",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Russian Civil War Aftermath",
     "hook": "How did Russian Civil War Aftermath change the Europe that came after it?",
@@ -1560,7 +1560,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-new-economic-policy",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "New Economic Policy",
     "hook": "How did New Economic Policy change the Europe that came after it?",
@@ -1598,7 +1598,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lenin-s-succession",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Lenin's Succession",
     "hook": "How did Lenin's Succession change the Europe that came after it?",
@@ -1636,7 +1636,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-joseph-stalin",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Joseph Stalin",
     "hook": "How did Joseph Stalin change the Europe that came after it?",
@@ -1674,7 +1674,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-collectivization",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Collectivization",
     "hook": "How did Collectivization change the Europe that came after it?",
@@ -1712,7 +1712,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-dekulakization",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Dekulakization",
     "hook": "How did Dekulakization change the Europe that came after it?",
@@ -1750,7 +1750,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-holodomor",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Holodomor",
     "hook": "How did Holodomor change the Europe that came after it?",
@@ -1788,7 +1788,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-five-year-plans",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Five-Year Plans",
     "hook": "How did Five-Year Plans change the Europe that came after it?",
@@ -1826,7 +1826,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-forced-industrialization",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Forced Industrialization",
     "hook": "How did Forced Industrialization change the Europe that came after it?",
@@ -1864,7 +1864,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-great-purge",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Great Purge",
     "hook": "How did Great Purge change the Europe that came after it?",
@@ -1902,7 +1902,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-gulag-system",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Gulag System",
     "hook": "How did Gulag System change the Europe that came after it?",
@@ -1940,7 +1940,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-comintern",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Comintern",
     "hook": "How did Comintern change the Europe that came after it?",
@@ -1978,7 +1978,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-popular-front-strategy",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Popular Front Strategy",
     "hook": "How did Popular Front Strategy change the Europe that came after it?",
@@ -2016,7 +2016,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-molotov-ribbentrop-pact",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Molotov–Ribbentrop Pact",
     "hook": "How did Molotov–Ribbentrop Pact change the Europe that came after it?",
@@ -2054,7 +2054,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-soviet-annexations-1939-1940",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Soviet Annexations 1939–1940",
     "hook": "How did Soviet Annexations 1939–1940 change the Europe that came after it?",
@@ -2092,7 +2092,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-katyn-massacre",
     "world": "modern-europe",
-    "pool": "Soviet Communism & Eastern Europe",
+    "pool": "Modern Europe",
     "topic": "Soviet Communism & Eastern Europe",
     "name": "Katyn Massacre",
     "hook": "How did Katyn Massacre change the Europe that came after it?",
@@ -2130,7 +2130,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-invasion-of-poland-1939",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Invasion of Poland 1939",
     "hook": "How did Invasion of Poland 1939 change the Europe that came after it?",
@@ -2168,7 +2168,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-blitzkrieg",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Blitzkrieg",
     "hook": "How did Blitzkrieg change the Europe that came after it?",
@@ -2206,7 +2206,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-fall-of-france",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Fall of France",
     "hook": "How did Fall of France change the Europe that came after it?",
@@ -2244,7 +2244,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-battle-of-britain",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Battle of Britain",
     "hook": "How did Battle of Britain change the Europe that came after it?",
@@ -2282,7 +2282,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-the-blitz",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "The Blitz",
     "hook": "How did The Blitz change the Europe that came after it?",
@@ -2320,7 +2320,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-operation-barbarossa",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Operation Barbarossa",
     "hook": "How did Operation Barbarossa change the Europe that came after it?",
@@ -2358,7 +2358,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-siege-of-leningrad",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Siege of Leningrad",
     "hook": "How did Siege of Leningrad change the Europe that came after it?",
@@ -2396,7 +2396,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-battle-of-stalingrad",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Battle of Stalingrad",
     "hook": "How did Battle of Stalingrad change the Europe that came after it?",
@@ -2434,7 +2434,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eastern-front",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Eastern Front",
     "hook": "How did Eastern Front change the Europe that came after it?",
@@ -2472,7 +2472,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-resistance-movements",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Resistance Movements",
     "hook": "How did Resistance Movements change the Europe that came after it?",
@@ -2510,7 +2510,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-collaboration",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Collaboration",
     "hook": "How did Collaboration change the Europe that came after it?",
@@ -2548,7 +2548,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-partisan-warfare",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Partisan Warfare",
     "hook": "How did Partisan Warfare change the Europe that came after it?",
@@ -2586,7 +2586,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-strategic-bombing",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Strategic Bombing",
     "hook": "How did Strategic Bombing change the Europe that came after it?",
@@ -2624,7 +2624,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-d-day",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "D-Day",
     "hook": "How did D-Day change the Europe that came after it?",
@@ -2662,7 +2662,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-liberation-of-western-europe",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Liberation of Western Europe",
     "hook": "How did Liberation of Western Europe change the Europe that came after it?",
@@ -2700,7 +2700,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-fall-of-berlin",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Fall of Berlin",
     "hook": "How did Fall of Berlin change the Europe that came after it?",
@@ -2738,7 +2738,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-german-surrender-1945",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "German Surrender 1945",
     "hook": "How did German Surrender 1945 change the Europe that came after it?",
@@ -2776,7 +2776,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-wartime-occupation",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Wartime Occupation",
     "hook": "How did Wartime Occupation change the Europe that came after it?",
@@ -2814,7 +2814,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-civilian-displacement",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Civilian Displacement",
     "hook": "How did Civilian Displacement change the Europe that came after it?",
@@ -2852,7 +2852,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-total-war",
     "world": "modern-europe",
-    "pool": "World War II in Europe",
+    "pool": "Modern Europe",
     "topic": "World War II in Europe",
     "name": "Total War",
     "hook": "How did Total War change the Europe that came after it?",
@@ -2890,7 +2890,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-holocaust",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Holocaust",
     "hook": "How did Holocaust change the Europe that came after it?",
@@ -2928,7 +2928,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-final-solution",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Final Solution",
     "hook": "How did Final Solution change the Europe that came after it?",
@@ -2966,7 +2966,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-einsatzgruppen",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Einsatzgruppen",
     "hook": "How did Einsatzgruppen change the Europe that came after it?",
@@ -3004,7 +3004,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-wannsee-conference",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Wannsee Conference",
     "hook": "How did Wannsee Conference change the Europe that came after it?",
@@ -3042,7 +3042,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-deportation-trains",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Deportation Trains",
     "hook": "How did Deportation Trains change the Europe that came after it?",
@@ -3080,7 +3080,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-ghettos",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Ghettos",
     "hook": "How did Ghettos change the Europe that came after it?",
@@ -3118,7 +3118,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-auschwitz-birkenau",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Auschwitz-Birkenau",
     "hook": "How did Auschwitz-Birkenau change the Europe that came after it?",
@@ -3156,7 +3156,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-treblinka",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Treblinka",
     "hook": "How did Treblinka change the Europe that came after it?",
@@ -3194,7 +3194,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-jewish-resistance",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Jewish Resistance",
     "hook": "How did Jewish Resistance change the Europe that came after it?",
@@ -3232,7 +3232,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-warsaw-ghetto-uprising",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Warsaw Ghetto Uprising",
     "hook": "How did Warsaw Ghetto Uprising change the Europe that came after it?",
@@ -3270,7 +3270,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-roma-genocide",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Roma Genocide",
     "hook": "How did Roma Genocide change the Europe that came after it?",
@@ -3308,7 +3308,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nazi-persecution-of-disabled-people",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Nazi Persecution of Disabled People",
     "hook": "How did Nazi Persecution of Disabled People change the Europe that came after it?",
@@ -3346,7 +3346,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-liberation-of-the-camps",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Liberation of the Camps",
     "hook": "How did Liberation of the Camps change the Europe that came after it?",
@@ -3384,7 +3384,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nuremberg-trials",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Nuremberg Trials",
     "hook": "How did Nuremberg Trials change the Europe that came after it?",
@@ -3422,7 +3422,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-crimes-against-humanity",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Crimes Against Humanity",
     "hook": "How did Crimes Against Humanity change the Europe that came after it?",
@@ -3460,7 +3460,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-genocide-convention",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Genocide Convention",
     "hook": "How did Genocide Convention change the Europe that came after it?",
@@ -3498,7 +3498,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-holocaust-memory",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Holocaust Memory",
     "hook": "How did Holocaust Memory change the Europe that came after it?",
@@ -3536,7 +3536,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-denazification",
     "world": "modern-europe",
-    "pool": "Holocaust, Genocide & Memory",
+    "pool": "Modern Europe",
     "topic": "Holocaust, Genocide & Memory",
     "name": "Denazification",
     "hook": "How did Denazification change the Europe that came after it?",
@@ -3574,7 +3574,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-yalta-conference",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Yalta Conference",
     "hook": "How did Yalta Conference change the Europe that came after it?",
@@ -3612,7 +3612,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-potsdam-conference",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Potsdam Conference",
     "hook": "How did Potsdam Conference change the Europe that came after it?",
@@ -3650,7 +3650,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-occupation-of-germany",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Occupation of Germany",
     "hook": "How did Occupation of Germany change the Europe that came after it?",
@@ -3688,7 +3688,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-division-of-germany",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Division of Germany",
     "hook": "How did Division of Germany change the Europe that came after it?",
@@ -3726,7 +3726,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-berlin-blockade",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Berlin Blockade",
     "hook": "How did Berlin Blockade change the Europe that came after it?",
@@ -3764,7 +3764,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-berlin-airlift",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Berlin Airlift",
     "hook": "How did Berlin Airlift change the Europe that came after it?",
@@ -3802,7 +3802,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-federal-republic-of-germany",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Federal Republic of Germany",
     "hook": "How did Federal Republic of Germany change the Europe that came after it?",
@@ -3840,7 +3840,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-german-democratic-republic",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "German Democratic Republic",
     "hook": "How did German Democratic Republic change the Europe that came after it?",
@@ -3878,7 +3878,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-marshall-plan",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Marshall Plan",
     "hook": "How did Marshall Plan change the Europe that came after it?",
@@ -3916,7 +3916,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-comecon",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Comecon",
     "hook": "How did Comecon change the Europe that came after it?",
@@ -3954,7 +3954,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nato",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "NATO",
     "hook": "How did NATO change the Europe that came after it?",
@@ -3992,7 +3992,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-article-5",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Article 5",
     "hook": "How did Article 5 change the Europe that came after it?",
@@ -4030,7 +4030,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-warsaw-pact",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Warsaw Pact",
     "hook": "How did Warsaw Pact change the Europe that came after it?",
@@ -4068,7 +4068,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-iron-curtain",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Iron Curtain",
     "hook": "How did Iron Curtain change the Europe that came after it?",
@@ -4106,7 +4106,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-berlin-wall",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Berlin Wall",
     "hook": "How did Berlin Wall change the Europe that came after it?",
@@ -4144,7 +4144,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-hungarian-revolution-1956",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Hungarian Revolution 1956",
     "hook": "How did Hungarian Revolution 1956 change the Europe that came after it?",
@@ -4182,7 +4182,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-prague-spring",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Prague Spring",
     "hook": "How did Prague Spring change the Europe that came after it?",
@@ -4220,7 +4220,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-brezhnev-doctrine",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Brezhnev Doctrine",
     "hook": "How did Brezhnev Doctrine change the Europe that came after it?",
@@ -4258,7 +4258,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-ostpolitik",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Ostpolitik",
     "hook": "How did Ostpolitik change the Europe that came after it?",
@@ -4296,7 +4296,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-helsinki-accords",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Helsinki Accords",
     "hook": "How did Helsinki Accords change the Europe that came after it?",
@@ -4334,7 +4334,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nuclear-deterrence-in-europe",
     "world": "modern-europe",
-    "pool": "Postwar Settlement & Divided Europe",
+    "pool": "Modern Europe",
     "topic": "Postwar Settlement & Divided Europe",
     "name": "Nuclear Deterrence in Europe",
     "hook": "How did Nuclear Deterrence in Europe change the Europe that came after it?",
@@ -4372,7 +4372,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-schuman-declaration",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Schuman Declaration",
     "hook": "How did Schuman Declaration change the Europe that came after it?",
@@ -4410,7 +4410,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-coal-and-steel-community",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Coal and Steel Community",
     "hook": "How did European Coal and Steel Community change the Europe that came after it?",
@@ -4448,7 +4448,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-treaty-of-rome",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Treaty of Rome",
     "hook": "How did Treaty of Rome change the Europe that came after it?",
@@ -4486,7 +4486,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-economic-community",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Economic Community",
     "hook": "How did European Economic Community change the Europe that came after it?",
@@ -4524,7 +4524,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-common-agricultural-policy",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Common Agricultural Policy",
     "hook": "How did Common Agricultural Policy change the Europe that came after it?",
@@ -4562,7 +4562,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-commission",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Commission",
     "hook": "How did European Commission change the Europe that came after it?",
@@ -4600,7 +4600,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-council-of-the-european-union",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Council of the European Union",
     "hook": "How did Council of the European Union change the Europe that came after it?",
@@ -4638,7 +4638,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-parliament",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Parliament",
     "hook": "How did European Parliament change the Europe that came after it?",
@@ -4676,7 +4676,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-court-of-justice",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Court of Justice",
     "hook": "How did European Court of Justice change the Europe that came after it?",
@@ -4714,7 +4714,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-direct-effect-of-eu-law",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Direct Effect of EU Law",
     "hook": "How did Direct Effect of EU Law change the Europe that came after it?",
@@ -4752,7 +4752,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-primacy-of-eu-law",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Primacy of EU Law",
     "hook": "How did Primacy of EU Law change the Europe that came after it?",
@@ -4790,7 +4790,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-single-european-act",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Single European Act",
     "hook": "How did Single European Act change the Europe that came after it?",
@@ -4828,7 +4828,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-single-market",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Single Market",
     "hook": "How did Single Market change the Europe that came after it?",
@@ -4866,7 +4866,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-maastricht-treaty",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Maastricht Treaty",
     "hook": "How did Maastricht Treaty change the Europe that came after it?",
@@ -4904,7 +4904,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-union",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Union",
     "hook": "How did European Union change the Europe that came after it?",
@@ -4942,7 +4942,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-schengen-area",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Schengen Area",
     "hook": "How did Schengen Area change the Europe that came after it?",
@@ -4980,7 +4980,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-euro",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Euro",
     "hook": "How did Euro change the Europe that came after it?",
@@ -5018,7 +5018,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-central-bank",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "European Central Bank",
     "hook": "How did European Central Bank change the Europe that came after it?",
@@ -5056,7 +5056,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eu-enlargement",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "EU Enlargement",
     "hook": "How did EU Enlargement change the Europe that came after it?",
@@ -5094,7 +5094,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-2004-eu-enlargement",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "2004 EU Enlargement",
     "hook": "How did 2004 EU Enlargement change the Europe that came after it?",
@@ -5132,7 +5132,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lisbon-treaty",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Lisbon Treaty",
     "hook": "How did Lisbon Treaty change the Europe that came after it?",
@@ -5170,7 +5170,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-brexit",
     "world": "modern-europe",
-    "pool": "European Integration",
+    "pool": "Modern Europe",
     "topic": "European Integration",
     "name": "Brexit",
     "hook": "How did Brexit change the Europe that came after it?",
@@ -5208,7 +5208,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-postwar-reconstruction",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Postwar Reconstruction",
     "hook": "How did Postwar Reconstruction change the Europe that came after it?",
@@ -5246,7 +5246,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-welfare-state",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "European Welfare State",
     "hook": "How did European Welfare State change the Europe that came after it?",
@@ -5284,7 +5284,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-social-market-economy",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Social Market Economy",
     "hook": "How did Social Market Economy change the Europe that came after it?",
@@ -5322,7 +5322,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-postwar-economic-boom",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Postwar Economic Boom",
     "hook": "How did Postwar Economic Boom change the Europe that came after it?",
@@ -5360,7 +5360,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-gastarbeiter",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Gastarbeiter",
     "hook": "How did Gastarbeiter change the Europe that came after it?",
@@ -5398,7 +5398,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-decolonization-and-european-society",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Decolonization and European Society",
     "hook": "How did Decolonization and European Society change the Europe that came after it?",
@@ -5436,7 +5436,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-mass-consumer-society",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Mass Consumer Society",
     "hook": "How did Mass Consumer Society change the Europe that came after it?",
@@ -5474,7 +5474,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-television-and-politics",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Television and Politics",
     "hook": "How did Television and Politics change the Europe that came after it?",
@@ -5512,7 +5512,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-1968-protests",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "1968 Protests",
     "hook": "How did 1968 Protests change the Europe that came after it?",
@@ -5550,7 +5550,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-may-1968-in-france",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "May 1968 in France",
     "hook": "How did May 1968 in France change the Europe that came after it?",
@@ -5588,7 +5588,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-second-wave-feminism",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Second-Wave Feminism",
     "hook": "How did Second-Wave Feminism change the Europe that came after it?",
@@ -5626,7 +5626,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-sexual-revolution",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Sexual Revolution",
     "hook": "How did Sexual Revolution change the Europe that came after it?",
@@ -5664,7 +5664,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-environmental-movement",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Environmental Movement",
     "hook": "How did Environmental Movement change the Europe that came after it?",
@@ -5702,7 +5702,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-trade-union-power",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Trade Union Power",
     "hook": "How did Trade Union Power change the Europe that came after it?",
@@ -5740,7 +5740,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-deindustrialization",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Deindustrialization",
     "hook": "How did Deindustrialization change the Europe that came after it?",
@@ -5778,7 +5778,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-youth-culture",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Youth Culture",
     "hook": "How did Youth Culture change the Europe that came after it?",
@@ -5816,7 +5816,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-postwar-housing-estates",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Postwar Housing Estates",
     "hook": "How did Postwar Housing Estates change the Europe that came after it?",
@@ -5854,7 +5854,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-expansion-of-higher-education",
     "world": "modern-europe",
-    "pool": "Postwar Society, Welfare & Protest",
+    "pool": "Modern Europe",
     "topic": "Postwar Society, Welfare & Protest",
     "name": "Expansion of Higher Education",
     "hook": "How did Expansion of Higher Education change the Europe that came after it?",
@@ -5892,7 +5892,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-solidarity-in-poland",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Solidarity in Poland",
     "hook": "How did Solidarity in Poland change the Europe that came after it?",
@@ -5930,7 +5930,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lech-wa-esa",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Lech Wałęsa",
     "hook": "How did Lech Wałęsa change the Europe that came after it?",
@@ -5968,7 +5968,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-martial-law-in-poland",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Martial Law in Poland",
     "hook": "How did Martial Law in Poland change the Europe that came after it?",
@@ -6006,7 +6006,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-gorbachev",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Gorbachev",
     "hook": "How did Gorbachev change the Europe that came after it?",
@@ -6044,7 +6044,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-perestroika",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Perestroika",
     "hook": "How did Perestroika change the Europe that came after it?",
@@ -6082,7 +6082,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-glasnost",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Glasnost",
     "hook": "How did Glasnost change the Europe that came after it?",
@@ -6120,7 +6120,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-revolutions-of-1989",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Revolutions of 1989",
     "hook": "How did Revolutions of 1989 change the Europe that came after it?",
@@ -6158,7 +6158,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-fall-of-the-berlin-wall",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Fall of the Berlin Wall",
     "hook": "How did Fall of the Berlin Wall change the Europe that came after it?",
@@ -6196,7 +6196,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-velvet-revolution",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Velvet Revolution",
     "hook": "How did Velvet Revolution change the Europe that came after it?",
@@ -6234,7 +6234,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-romanian-revolution-1989",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Romanian Revolution 1989",
     "hook": "How did Romanian Revolution 1989 change the Europe that came after it?",
@@ -6272,7 +6272,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-german-reunification",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "German Reunification",
     "hook": "How did German Reunification change the Europe that came after it?",
@@ -6310,7 +6310,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-dissolution-of-the-soviet-union",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Dissolution of the Soviet Union",
     "hook": "How did Dissolution of the Soviet Union change the Europe that came after it?",
@@ -6348,7 +6348,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-post-communist-transition",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Post-Communist Transition",
     "hook": "How did Post-Communist Transition change the Europe that came after it?",
@@ -6386,7 +6386,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-shock-therapy",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Shock Therapy",
     "hook": "How did Shock Therapy change the Europe that came after it?",
@@ -6424,7 +6424,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-privatization-in-eastern-europe",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Privatization in Eastern Europe",
     "hook": "How did Privatization in Eastern Europe change the Europe that came after it?",
@@ -6462,7 +6462,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nato-enlargement",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "NATO Enlargement",
     "hook": "How did NATO Enlargement change the Europe that came after it?",
@@ -6500,7 +6500,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eu-eastern-enlargement",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "EU Eastern Enlargement",
     "hook": "How did EU Eastern Enlargement change the Europe that came after it?",
@@ -6538,7 +6538,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-post-soviet-russia",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Post-Soviet Russia",
     "hook": "How did Post-Soviet Russia change the Europe that came after it?",
@@ -6576,7 +6576,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-baltic-independence",
     "world": "modern-europe",
-    "pool": "End of Communism & Post-Soviet Europe",
+    "pool": "Modern Europe",
     "topic": "End of Communism & Post-Soviet Europe",
     "name": "Baltic Independence",
     "hook": "How did Baltic Independence change the Europe that came after it?",
@@ -6614,7 +6614,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-socialist-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Socialist Yugoslavia",
     "hook": "How did Socialist Yugoslavia change the Europe that came after it?",
@@ -6652,7 +6652,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-josip-broz-tito",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Josip Broz Tito",
     "hook": "How did Josip Broz Tito change the Europe that came after it?",
@@ -6690,7 +6690,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-non-aligned-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Non-Aligned Yugoslavia",
     "hook": "How did Non-Aligned Yugoslavia change the Europe that came after it?",
@@ -6728,7 +6728,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-yugoslav-federalism",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Yugoslav Federalism",
     "hook": "How did Yugoslav Federalism change the Europe that came after it?",
@@ -6766,7 +6766,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-death-of-tito",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Death of Tito",
     "hook": "How did Death of Tito change the Europe that came after it?",
@@ -6804,7 +6804,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-economic-crisis-in-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Economic Crisis in Yugoslavia",
     "hook": "How did Economic Crisis in Yugoslavia change the Europe that came after it?",
@@ -6842,7 +6842,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-rise-of-nationalism-in-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Rise of Nationalism in Yugoslavia",
     "hook": "How did Rise of Nationalism in Yugoslavia change the Europe that came after it?",
@@ -6880,7 +6880,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-breakup-of-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Breakup of Yugoslavia",
     "hook": "How did Breakup of Yugoslavia change the Europe that came after it?",
@@ -6918,7 +6918,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-croatian-war-of-independence",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Croatian War of Independence",
     "hook": "How did Croatian War of Independence change the Europe that came after it?",
@@ -6956,7 +6956,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-bosnian-war",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Bosnian War",
     "hook": "How did Bosnian War change the Europe that came after it?",
@@ -6994,7 +6994,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-siege-of-sarajevo",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Siege of Sarajevo",
     "hook": "How did Siege of Sarajevo change the Europe that came after it?",
@@ -7032,7 +7032,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-srebrenica-genocide",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Srebrenica Genocide",
     "hook": "How did Srebrenica Genocide change the Europe that came after it?",
@@ -7070,7 +7070,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-dayton-agreement",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Dayton Agreement",
     "hook": "How did Dayton Agreement change the Europe that came after it?",
@@ -7108,7 +7108,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-kosovo-war",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Kosovo War",
     "hook": "How did Kosovo War change the Europe that came after it?",
@@ -7146,7 +7146,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nato-intervention-in-kosovo",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "NATO Intervention in Kosovo",
     "hook": "How did NATO Intervention in Kosovo change the Europe that came after it?",
@@ -7184,7 +7184,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-international-criminal-tribunal-for-yugoslavia",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "International Criminal Tribunal for Yugoslavia",
     "hook": "How did International Criminal Tribunal for Yugoslavia change the Europe that came after it?",
@@ -7222,7 +7222,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-postwar-western-balkans",
     "world": "modern-europe",
-    "pool": "Yugoslavia & the Balkans",
+    "pool": "Modern Europe",
     "topic": "Yugoslavia & the Balkans",
     "name": "Postwar Western Balkans",
     "hook": "How did Postwar Western Balkans change the Europe that came after it?",
@@ -7260,7 +7260,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-euro-cash-introduction-2002",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Euro Cash Introduction 2002",
     "hook": "How did Euro Cash Introduction 2002 change the Europe that came after it?",
@@ -7298,7 +7298,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eu-big-bang-enlargement",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "EU Big Bang Enlargement",
     "hook": "How did EU Big Bang Enlargement change the Europe that came after it?",
@@ -7336,7 +7336,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-constitutional-treaty",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "European Constitutional Treaty",
     "hook": "How did European Constitutional Treaty change the Europe that came after it?",
@@ -7374,7 +7374,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lisbon-treaty-ratification",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Lisbon Treaty Ratification",
     "hook": "How did Lisbon Treaty Ratification change the Europe that came after it?",
@@ -7412,7 +7412,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-global-financial-crisis-in-europe",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Global Financial Crisis in Europe",
     "hook": "How did Global Financial Crisis in Europe change the Europe that came after it?",
@@ -7450,7 +7450,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eurozone-crisis",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Eurozone Crisis",
     "hook": "How did Eurozone Crisis change the Europe that came after it?",
@@ -7488,7 +7488,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-greek-debt-crisis",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Greek Debt Crisis",
     "hook": "How did Greek Debt Crisis change the Europe that came after it?",
@@ -7526,7 +7526,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-austerity-politics",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Austerity Politics",
     "hook": "How did Austerity Politics change the Europe that came after it?",
@@ -7564,7 +7564,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-sovereign-debt",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "European Sovereign Debt",
     "hook": "How did European Sovereign Debt change the Europe that came after it?",
@@ -7602,7 +7602,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-refugee-and-migration-crisis-2015",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Refugee and Migration Crisis 2015",
     "hook": "How did Refugee and Migration Crisis 2015 change the Europe that came after it?",
@@ -7640,7 +7640,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-brexit-referendum",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Brexit Referendum",
     "hook": "How did Brexit Referendum change the Europe that came after it?",
@@ -7678,7 +7678,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-brexit-withdrawal",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Brexit Withdrawal",
     "hook": "How did Brexit Withdrawal change the Europe that came after it?",
@@ -7716,7 +7716,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-covid-19-in-europe",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "COVID-19 in Europe",
     "hook": "How did COVID-19 in Europe change the Europe that came after it?",
@@ -7754,7 +7754,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nextgenerationeu",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "NextGenerationEU",
     "hook": "How did NextGenerationEU change the Europe that came after it?",
@@ -7792,7 +7792,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-energy-security-in-europe",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Energy Security in Europe",
     "hook": "How did Energy Security in Europe change the Europe that came after it?",
@@ -7830,7 +7830,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-demographic-ageing",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "Demographic Ageing",
     "hook": "How did Demographic Ageing change the Europe that came after it?",
@@ -7868,7 +7868,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-strategic-autonomy",
     "world": "modern-europe",
-    "pool": "Europe after 2000",
+    "pool": "Modern Europe",
     "topic": "Europe after 2000",
     "name": "European Strategic Autonomy",
     "hook": "How did European Strategic Autonomy change the Europe that came after it?",
@@ -7906,7 +7906,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-post-cold-war-security-order",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Post-Cold War Security Order",
     "hook": "How did Post-Cold War Security Order change the Europe that came after it?",
@@ -7944,7 +7944,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nato-russia-relations",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "NATO–Russia Relations",
     "hook": "How did NATO–Russia Relations change the Europe that came after it?",
@@ -7982,7 +7982,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-budapest-memorandum",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Budapest Memorandum",
     "hook": "How did Budapest Memorandum change the Europe that came after it?",
@@ -8020,7 +8020,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-orange-revolution",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Orange Revolution",
     "hook": "How did Orange Revolution change the Europe that came after it?",
@@ -8058,7 +8058,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-2008-russia-georgia-war",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "2008 Russia–Georgia War",
     "hook": "How did 2008 Russia–Georgia War change the Europe that came after it?",
@@ -8096,7 +8096,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-euromaidan",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Euromaidan",
     "hook": "How did Euromaidan change the Europe that came after it?",
@@ -8134,7 +8134,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-annexation-of-crimea-2014",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Annexation of Crimea 2014",
     "hook": "How did Annexation of Crimea 2014 change the Europe that came after it?",
@@ -8172,7 +8172,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-war-in-donbas",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "War in Donbas",
     "hook": "How did War in Donbas change the Europe that came after it?",
@@ -8210,7 +8210,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-minsk-agreements",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Minsk Agreements",
     "hook": "How did Minsk Agreements change the Europe that came after it?",
@@ -8248,7 +8248,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-russia-s-full-scale-invasion-of-ukraine-2022",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Russia's Full-Scale Invasion of Ukraine 2022",
     "hook": "How did Russia's Full-Scale Invasion of Ukraine 2022 change the Europe that came after it?",
@@ -8286,7 +8286,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-sanctions-on-russia",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "European Sanctions on Russia",
     "hook": "How did European Sanctions on Russia change the Europe that came after it?",
@@ -8324,7 +8324,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-military-aid-to-ukraine",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "European Military Aid to Ukraine",
     "hook": "How did European Military Aid to Ukraine change the Europe that came after it?",
@@ -8362,7 +8362,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-ukrainian-refugee-displacement",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Ukrainian Refugee Displacement",
     "hook": "How did Ukrainian Refugee Displacement change the Europe that came after it?",
@@ -8400,7 +8400,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-finland-joins-nato",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Finland Joins NATO",
     "hook": "How did Finland Joins NATO change the Europe that came after it?",
@@ -8438,7 +8438,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-sweden-joins-nato",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Sweden Joins NATO",
     "hook": "How did Sweden Joins NATO change the Europe that came after it?",
@@ -8476,7 +8476,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-european-defence-spending-debate",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "European Defence Spending Debate",
     "hook": "How did European Defence Spending Debate change the Europe that came after it?",
@@ -8514,7 +8514,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-russian-energy-dependence",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Russian Energy Dependence",
     "hook": "How did Russian Energy Dependence change the Europe that came after it?",
@@ -8552,7 +8552,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nord-stream",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "Nord Stream",
     "hook": "How did Nord Stream change the Europe that came after it?",
@@ -8590,7 +8590,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-eu-candidate-status-for-ukraine",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "EU Candidate Status for Ukraine",
     "hook": "How did EU Candidate Status for Ukraine change the Europe that came after it?",
@@ -8628,7 +8628,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-war-and-european-enlargement-debate",
     "world": "modern-europe",
-    "pool": "Russia, Ukraine & Europe's Security Order",
+    "pool": "Modern Europe",
     "topic": "Russia, Ukraine & Europe's Security Order",
     "name": "War and European Enlargement Debate",
     "hook": "How did War and European Enlargement Debate change the Europe that came after it?",
@@ -8666,7 +8666,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-yeltsin-and-the-west",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Yeltsin and the West",
     "hook": "Why is Yeltsin and the West important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8704,7 +8704,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-first-chechen-war",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "First Chechen War",
     "hook": "Why is First Chechen War important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8742,7 +8742,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-khasavyurt-accord",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Khasavyurt Accord",
     "hook": "Why is Khasavyurt Accord important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8780,7 +8780,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-second-chechen-war",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Second Chechen War",
     "hook": "Why is Second Chechen War important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8818,7 +8818,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-grozny-1999-2000",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Grozny 1999–2000",
     "hook": "Why is Grozny 1999–2000 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8856,7 +8856,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-putin-s-rise-1999-2000",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Putin's Rise 1999–2000",
     "hook": "Why is Putin's Rise 1999–2000 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8894,7 +8894,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-putin-s-early-western-outreach",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Putin's Early Western Outreach",
     "hook": "Why is Putin's Early Western Outreach important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8932,7 +8932,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-post-9-11-russia-west-cooperation",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Post-9/11 Russia–West Cooperation",
     "hook": "Why is Post-9/11 Russia–West Cooperation important for understanding the breakdown of the post-Cold-War European security order?",
@@ -8970,7 +8970,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-nato-russia-council-2002",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "NATO–Russia Council 2002",
     "hook": "Why is NATO–Russia Council 2002 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9008,7 +9008,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-iraq-war-and-russia-west-tensions",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Iraq War and Russia–West Tensions",
     "hook": "Why is Iraq War and Russia–West Tensions important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9046,7 +9046,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-colour-revolutions-and-kremlin-alarm",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Colour Revolutions and Kremlin Alarm",
     "hook": "Why is Colour Revolutions and Kremlin Alarm important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9084,7 +9084,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-munich-security-conference-speech-2007",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Munich Security Conference Speech 2007",
     "hook": "Why is Munich Security Conference Speech 2007 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9122,7 +9122,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-bucharest-nato-summit-2008",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Bucharest NATO Summit 2008",
     "hook": "Why is Bucharest NATO Summit 2008 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9160,7 +9160,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-august-2008-russo-georgian-war",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "August 2008 Russo-Georgian War",
     "hook": "Why is August 2008 Russo-Georgian War important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9198,7 +9198,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-recognition-of-abkhazia-and-south-ossetia",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Recognition of Abkhazia and South Ossetia",
     "hook": "Why is Recognition of Abkhazia and South Ossetia important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9236,7 +9236,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-medvedev-obama-reset",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Medvedev–Obama Reset",
     "hook": "Why is Medvedev–Obama Reset important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9274,7 +9274,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-lisbon-nato-russia-cooperation-2010",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Lisbon NATO–Russia Cooperation 2010",
     "hook": "Why is Lisbon NATO–Russia Cooperation 2010 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9312,7 +9312,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-putin-s-return-and-renewed-tension-2012",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "Putin's Return and Renewed Tension 2012",
     "hook": "Why is Putin's Return and Renewed Tension 2012 important for understanding the breakdown of the post-Cold-War European security order?",
@@ -9350,7 +9350,7 @@ export const modernEuropeanHistoryConcepts = [
   {
     "id": "meh-from-partnership-to-confrontation",
     "world": "modern-europe",
-    "pool": "Russia & the West, 1990s–2010s",
+    "pool": "Modern Europe",
     "topic": "Russia & the West, 1990s–2010s",
     "name": "From Partnership to Confrontation",
     "hook": "Why is From Partnership to Confrontation important for understanding the breakdown of the post-Cold-War European security order?",
