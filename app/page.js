@@ -1,6 +1,7 @@
 'use client';
 import {useEffect,useState} from 'react';
 import {concepts} from '../data/concepts';
+import {economicsDepth} from '../data/economicsDepth';
 
 const worlds=[
  {id:'psychology',name:'Psychology & Human Behavior',desc:'Mind, learning, emotion, relationships, development and psychological science.'},
@@ -34,6 +35,12 @@ const bodyMap={
  'rectus-femoris':['front',47,70],'hamstrings':['back',43,70],'adductors':['front',47,66],
  'calves':['back',43,85],'gastrocnemius':['back',43,83],'soleus':['back',43,88],'hip-flexors':['front',43,59]
 };
+
+function economicsParagraphs(concept){
+ const depth=economicsDepth.notes[concept.id];
+ const frame=economicsDepth.topicFrames[concept.topic];
+ return [concept.reveal,depth,frame].filter(Boolean);
+}
 
 function BodyVisual({media,name}){
  const p=bodyMap[media?.region]; if(!p)return null; const back=p[0]==='back';
@@ -143,19 +150,10 @@ export default function Home(){
    {concept.visual&&<div className="conceptvisual">{concept.visual}</div>}
 
    {concept.world==='economics'?<>
-    <div className="flashfront">
-     <small>START HERE</small>
-     <p>{concept.hook}</p>
-     {!revealed&&<button className="primary" onClick={()=>setRevealed(true)}>Open flashcard ↓</button>}
-    </div>
-    {revealed&&<div className="flashcontent">
-     <section><small>CORE IDEA</small><h3>What it means</h3><p>{concept.reveal}</p></section>
-     {concept.context&&<section><small>WIDER CONTEXT</small><h3>Where it fits</h3><p>{concept.context}</p></section>}
-     {concept.studyLens&&<section><small>HOW TO THINK ABOUT IT</small><h3>Study lens</h3><p>{concept.studyLens}</p></section>}
-     <section><small>CONNECTIONS</small><h3>Implications & examples</h3><div className="examples">{concept.examples.map(([a,b],i)=><div key={a+i}><b>{a}</b><p>{b}</p></div>)}</div></section>
-     <div className="why"><small>WHY IT MATTERS</small><p>{concept.why}</p>{concept.caveat&&<p className="caveat"><b>Keep in mind:</b> {concept.caveat}</p>}</div>
-     <div className="next"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
-    </div>}
+    <article className="econdeep">
+     {economicsParagraphs(concept).map((paragraph,i)=><p className={i===0?'econlead':''} key={i}>{paragraph}</p>)}
+    </article>
+    <div className="next econnext"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
    </>:<>
     <p className="question">{concept.question}</p>
     <div className="answers">{concept.options.map((o,i)=><button disabled={picked!==null} className={picked===null?'':i===concept.answer?'correct':picked===i?'wrong':''} onClick={()=>answer(i)} key={i}><span>{String.fromCharCode(65+i)}</span>{o}</button>)}</div>
