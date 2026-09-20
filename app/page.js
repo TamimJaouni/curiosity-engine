@@ -87,7 +87,7 @@ export default function Home(){
   </nav>
 
   {screen==='home'&&<section className="hero">
-   <div className="eyebrow">STUDY BY CURIOSITY</div>
+   <div className="eyebrow">CURIOSITY-DRIVEN STUDY</div>
    <h1>Learn one useful idea at a time.</h1>
    <p className="lead">Choose a subject, follow a question, test your intuition, then move deeper when something catches you.</p>
    <div className="heroactions"><button className="primary big" onClick={()=>chooseWorld('psychology')}>Start learning →</button><button className="ghost big" onClick={()=>setScreen('worlds')}>Browse worlds</button></div>
