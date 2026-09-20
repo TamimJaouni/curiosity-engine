@@ -3,7 +3,7 @@ export const economicsConcepts = [
     "id": "econ-classical",
     "world": "economics",
     "name": "Classical Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What did early classical economists focus on?",
     "question": "What did early classical economists focus on?",
     "options": [
@@ -36,13 +36,14 @@ export const economicsConcepts = [
       "econ-ricardo",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "school": "Classical Economics"
   },
   {
     "id": "econ-adam-smith",
     "world": "economics",
     "name": "Adam Smith",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why is Adam Smith central to economic thought?",
     "question": "Why is Adam Smith central to economic thought?",
     "options": [
@@ -75,13 +76,14 @@ export const economicsConcepts = [
       "econ-malthus",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "school": "Classical Economics"
   },
   {
     "id": "econ-division-labor",
     "world": "economics",
     "name": "Division of Labor",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why can splitting production into specialized tasks raise output?",
     "question": "Why can splitting production into specialized tasks raise output?",
     "options": [
@@ -114,13 +116,14 @@ export const economicsConcepts = [
       "econ-marxian",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "school": "Classical Economics"
   },
   {
     "id": "econ-ricardo",
     "world": "economics",
     "name": "David Ricardo",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What idea is Ricardo especially famous for in trade theory?",
     "question": "What idea is Ricardo especially famous for in trade theory?",
     "options": [
@@ -153,13 +156,14 @@ export const economicsConcepts = [
       "econ-surplus-value",
       "econ-marginalism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Classical Economics"
   },
   {
     "id": "econ-malthus",
     "world": "economics",
     "name": "Thomas Malthus",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why did Malthus worry about population growth?",
     "question": "Why did Malthus worry about population growth?",
     "options": [
@@ -192,13 +196,14 @@ export const economicsConcepts = [
       "econ-marginalism",
       "econ-neoclassical"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Classical Economics"
   },
   {
     "id": "econ-marxian",
     "world": "economics",
     "name": "Marxian Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What does Marxian economics put at the center of capitalism?",
     "question": "What does Marxian economics put at the center of capitalism?",
     "options": [
@@ -231,13 +236,14 @@ export const economicsConcepts = [
       "econ-neoclassical",
       "econ-labor-theory-value-marx"
     ],
-    "topic": "Marx & Marxian Economics"
+    "topic": "Marx & Marxian Economics",
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-surplus-value",
     "world": "economics",
     "name": "Surplus Value",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What role does surplus value play in Marxian theory?",
     "question": "What role does surplus value play in Marxian theory?",
     "options": [
@@ -270,13 +276,14 @@ export const economicsConcepts = [
       "econ-marshall",
       "econ-labor-theory-value-marx"
     ],
-    "topic": "Marx & Marxian Economics"
+    "topic": "Marx & Marxian Economics",
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-marginalism",
     "world": "economics",
     "name": "Marginal Revolution",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What changed when economists began reasoning at the margin?",
     "question": "What changed when economists began reasoning at the margin?",
     "options": [
@@ -309,13 +316,14 @@ export const economicsConcepts = [
       "econ-keynesian",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Neoclassical Economics"
   },
   {
     "id": "econ-neoclassical",
     "world": "economics",
     "name": "Neoclassical Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What is the core analytical style of neoclassical economics?",
     "question": "What is the core analytical style of neoclassical economics?",
     "options": [
@@ -348,13 +356,14 @@ export const economicsConcepts = [
       "econ-keynes",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Neoclassical Economics"
   },
   {
     "id": "econ-marshall",
     "world": "economics",
     "name": "Alfred Marshall",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why is Marshall important to modern microeconomics?",
     "question": "Why is Marshall important to modern microeconomics?",
     "options": [
@@ -387,13 +396,14 @@ export const economicsConcepts = [
       "econ-post-keynesian",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Neoclassical Economics"
   },
   {
     "id": "econ-keynesian",
     "world": "economics",
     "name": "Keynesian Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Can an economy remain depressed because total spending is too weak?",
     "question": "Can an economy remain depressed because total spending is too weak?",
     "options": [
@@ -426,13 +436,14 @@ export const economicsConcepts = [
       "econ-monetarism",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-keynes",
     "world": "economics",
     "name": "John Maynard Keynes",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What was Keynes's central challenge to older macroeconomic thinking?",
     "question": "What was Keynes's central challenge to older macroeconomic thinking?",
     "options": [
@@ -465,13 +476,14 @@ export const economicsConcepts = [
       "econ-friedman",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-post-keynesian",
     "world": "economics",
     "name": "Post-Keynesian Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What does Post-Keynesian economics emphasize beyond standard equilibrium models?",
     "question": "What does Post-Keynesian economics emphasize beyond standard equilibrium models?",
     "options": [
@@ -504,13 +516,14 @@ export const economicsConcepts = [
       "econ-austrian",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-monetarism",
     "world": "economics",
     "name": "Monetarism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why did monetarists put money at the center of macroeconomic stability?",
     "question": "Why did monetarists put money at the center of macroeconomic stability?",
     "options": [
@@ -543,13 +556,14 @@ export const economicsConcepts = [
       "econ-hayek",
       "econ-quantity-money"
     ],
-    "topic": "Friedman & Monetarism"
+    "topic": "Friedman & Monetarism",
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-friedman",
     "world": "economics",
     "name": "Milton Friedman",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Which economist is most associated with modern monetarism?",
     "question": "Which economist is most associated with modern monetarism?",
     "options": [
@@ -582,13 +596,14 @@ export const economicsConcepts = [
       "econ-mises",
       "econ-quantity-money"
     ],
-    "topic": "Friedman & Monetarism"
+    "topic": "Friedman & Monetarism",
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-austrian",
     "world": "economics",
     "name": "Austrian School",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why does the Austrian School emphasize dispersed knowledge?",
     "question": "Why does the Austrian School emphasize dispersed knowledge?",
     "options": [
@@ -621,13 +636,14 @@ export const economicsConcepts = [
       "econ-institutional",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "school": "Austrian School"
   },
   {
     "id": "econ-hayek",
     "world": "economics",
     "name": "Friedrich Hayek",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What was Hayek's knowledge problem?",
     "question": "What was Hayek's knowledge problem?",
     "options": [
@@ -660,13 +676,14 @@ export const economicsConcepts = [
       "econ-new-institutional",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "school": "Austrian School"
   },
   {
     "id": "econ-mises",
     "world": "economics",
     "name": "Ludwig von Mises",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What problem did Mises raise about socialist calculation?",
     "question": "What problem did Mises raise about socialist calculation?",
     "options": [
@@ -699,13 +716,14 @@ export const economicsConcepts = [
       "econ-behavioral",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "school": "Austrian School"
   },
   {
     "id": "econ-institutional",
     "world": "economics",
     "name": "Institutional Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why might laws and norms matter as much as prices?",
     "question": "Why might laws and norms matter as much as prices?",
     "options": [
@@ -738,13 +756,14 @@ export const economicsConcepts = [
       "econ-public-choice",
       "econ-north-institutions"
     ],
-    "topic": "Institutional Economics"
+    "topic": "Institutional Economics",
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-new-institutional",
     "world": "economics",
     "name": "New Institutional Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why do transaction costs matter for firms and institutions?",
     "question": "Why do transaction costs matter for firms and institutions?",
     "options": [
@@ -777,13 +796,14 @@ export const economicsConcepts = [
       "econ-new-classical",
       "econ-north-institutions"
     ],
-    "topic": "Institutional Economics"
+    "topic": "Institutional Economics",
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-behavioral",
     "world": "economics",
     "name": "Behavioral Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What happens when economic models incorporate systematic psychological patterns?",
     "question": "What happens when economic models incorporate systematic psychological patterns?",
     "options": [
@@ -816,13 +836,14 @@ export const economicsConcepts = [
       "econ-new-keynesian",
       "econ-prospect-theory-econ"
     ],
-    "topic": "Behavioral Economics"
+    "topic": "Behavioral Economics",
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-public-choice",
     "world": "economics",
     "name": "Public Choice",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What happens when economists analyze politicians and bureaucrats as incentive-responsive actors?",
     "question": "What happens when economists analyze politicians and bureaucrats as incentive-responsive actors?",
     "options": [
@@ -855,13 +876,14 @@ export const economicsConcepts = [
       "econ-supply-side",
       "econ-development-school"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Public Choice"
   },
   {
     "id": "econ-new-classical",
     "world": "economics",
     "name": "New Classical Macroeconomics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What happens if people form expectations about policy and adjust their behavior?",
     "question": "What happens if people form expectations about policy and adjust their behavior?",
     "options": [
@@ -894,13 +916,14 @@ export const economicsConcepts = [
       "econ-development-school",
       "econ-ordoliberalism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "New Classical Economics"
   },
   {
     "id": "econ-new-keynesian",
     "world": "economics",
     "name": "New Keynesian Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "How can Keynesian outcomes arise from microeconomic frictions?",
     "question": "How can Keynesian outcomes arise from microeconomic frictions?",
     "options": [
@@ -933,13 +956,14 @@ export const economicsConcepts = [
       "econ-ordoliberalism",
       "econ-effective-demand"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "school": "New Keynesian Economics"
   },
   {
     "id": "econ-supply-side",
     "world": "economics",
     "name": "Supply-Side Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What does supply-side analysis emphasize?",
     "question": "What does supply-side analysis emphasize?",
     "options": [
@@ -972,13 +996,14 @@ export const economicsConcepts = [
       "econ-physiocrats",
       "econ-mercantilism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Supply-Side Economics"
   },
   {
     "id": "econ-development-school",
     "world": "economics",
     "name": "Development Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why can't growth in poorer economies be understood only as 'more capital'?",
     "question": "Why can't growth in poorer economies be understood only as 'more capital'?",
     "options": [
@@ -1011,13 +1036,14 @@ export const economicsConcepts = [
       "econ-mercantilism",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Development Economics"
   },
   {
     "id": "econ-ordoliberalism",
     "world": "economics",
     "name": "Ordoliberalism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What is the state's role in ordoliberal thought?",
     "question": "What is the state's role in ordoliberal thought?",
     "options": [
@@ -1050,13 +1076,14 @@ export const economicsConcepts = [
       "econ-schumpeter",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Ordoliberalism"
   },
   {
     "id": "econ-physiocrats",
     "world": "economics",
     "name": "Physiocrats",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why did an eighteenth-century school treat agriculture as uniquely productive?",
     "question": "Why did an eighteenth-century school treat agriculture as uniquely productive?",
     "options": [
@@ -1089,13 +1116,14 @@ export const economicsConcepts = [
       "econ-creative-destruction",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Physiocracy"
   },
   {
     "id": "econ-mercantilism",
     "world": "economics",
     "name": "Mercantilism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why did early modern states pursue trade surpluses and bullion?",
     "question": "Why did early modern states pursue trade surpluses and bullion?",
     "options": [
@@ -1128,13 +1156,14 @@ export const economicsConcepts = [
       "econ-georgism",
       "econ-ricardo"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Mercantilism"
   },
   {
     "id": "econ-schumpeter",
     "world": "economics",
     "name": "Joseph Schumpeter",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "What is creative destruction?",
     "question": "What is creative destruction?",
     "options": [
@@ -1167,13 +1196,14 @@ export const economicsConcepts = [
       "econ-classical",
       "econ-entrepreneur-schumpeter"
     ],
-    "topic": "Schumpeter & Innovation"
+    "topic": "Schumpeter & Innovation",
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-creative-destruction",
     "world": "economics",
     "name": "Creative Destruction",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why can economic progress destroy existing jobs and firms?",
     "question": "Why can economic progress destroy existing jobs and firms?",
     "options": [
@@ -1206,13 +1236,14 @@ export const economicsConcepts = [
       "econ-adam-smith",
       "econ-entrepreneur-schumpeter"
     ],
-    "topic": "Schumpeter & Innovation"
+    "topic": "Schumpeter & Innovation",
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-georgism",
     "world": "economics",
     "name": "Georgism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "hook": "Why did Henry George focus on land rents?",
     "question": "Why did Henry George focus on land rents?",
     "options": [
@@ -1245,7 +1276,8 @@ export const economicsConcepts = [
       "econ-division-labor",
       "econ-ricardo"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "school": "Georgism"
   },
   {
     "id": "econ-scarcity",
@@ -6282,7 +6314,7 @@ export const economicsConcepts = [
     "id": "econ-effective-demand",
     "world": "economics",
     "name": "Effective Demand",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Why can an economy produce less than it is physically capable of?",
     "question": "Why can an economy produce less than it is physically capable of?",
@@ -6315,13 +6347,14 @@ export const economicsConcepts = [
       "econ-liquidity-preference",
       "econ-animal-spirits",
       "econ-underemployment-equilibrium"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-paradox-thrift",
     "world": "economics",
     "name": "Paradox of Thrift",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Can everyone trying to save more make total saving harder?",
     "question": "Can everyone trying to save more make total saving harder?",
@@ -6354,13 +6387,14 @@ export const economicsConcepts = [
       "econ-animal-spirits",
       "econ-underemployment-equilibrium",
       "econ-marginal-efficiency-capital"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-liquidity-preference",
     "world": "economics",
     "name": "Liquidity Preference",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Why might people hold money even when bonds pay interest?",
     "question": "Why might people hold money even when bonds pay interest?",
@@ -6393,13 +6427,14 @@ export const economicsConcepts = [
       "econ-underemployment-equilibrium",
       "econ-marginal-efficiency-capital",
       "econ-sticky-prices"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-animal-spirits",
     "world": "economics",
     "name": "Animal Spirits",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Why can investment swing even without a proportional change in current profits?",
     "question": "Why can investment swing even without a proportional change in current profits?",
@@ -6432,13 +6467,14 @@ export const economicsConcepts = [
       "econ-marginal-efficiency-capital",
       "econ-sticky-prices",
       "econ-automatic-stabilizers"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-underemployment-equilibrium",
     "world": "economics",
     "name": "Underemployment Equilibrium",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Can an economy settle with persistent unemployment?",
     "question": "Can an economy settle with persistent unemployment?",
@@ -6471,13 +6507,14 @@ export const economicsConcepts = [
       "econ-sticky-prices",
       "econ-automatic-stabilizers",
       "econ-liquidity-trap"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-marginal-efficiency-capital",
     "world": "economics",
     "name": "Marginal Efficiency of Capital",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "How did Keynes think firms compare investment projects?",
     "question": "How did Keynes think firms compare investment projects?",
@@ -6510,13 +6547,14 @@ export const economicsConcepts = [
       "econ-automatic-stabilizers",
       "econ-liquidity-trap",
       "econ-keynes-vs-hayek"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-sticky-prices",
     "world": "economics",
     "name": "Sticky Prices",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Why don't prices instantly adjust after every shock?",
     "question": "Why don't prices instantly adjust after every shock?",
@@ -6549,13 +6587,14 @@ export const economicsConcepts = [
       "econ-liquidity-trap",
       "econ-keynes-vs-hayek",
       "econ-keynesian"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-automatic-stabilizers",
     "world": "economics",
     "name": "Automatic Stabilizers",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "How can fiscal policy react without a new law each recession?",
     "question": "How can fiscal policy react without a new law each recession?",
@@ -6588,13 +6627,14 @@ export const economicsConcepts = [
       "econ-keynes-vs-hayek",
       "econ-keynesian",
       "econ-keynes"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-liquidity-trap",
     "world": "economics",
     "name": "Liquidity Trap",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "Why can cutting short-term rates stop having much effect?",
     "question": "Why can cutting short-term rates stop having much effect?",
@@ -6627,13 +6667,14 @@ export const economicsConcepts = [
       "econ-keynesian",
       "econ-keynes",
       "econ-post-keynesian"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-keynes-vs-hayek",
     "world": "economics",
     "name": "Keynes–Hayek Debate",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Keynesian Economics",
     "hook": "What fundamentally separated Keynes and Hayek on downturns?",
     "question": "What fundamentally separated Keynes and Hayek on downturns?",
@@ -6666,13 +6707,14 @@ export const economicsConcepts = [
       "econ-keynes",
       "econ-post-keynesian",
       "econ-new-keynesian"
-    ]
+    ],
+    "school": "Keynesian & Post-Keynesian Economics"
   },
   {
     "id": "econ-labor-theory-value-marx",
     "world": "economics",
     "name": "Marx's Value Theory",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "How did Marx connect labor, value and capitalist production?",
     "question": "How did Marx connect labor, value and capitalist production?",
@@ -6705,13 +6747,14 @@ export const economicsConcepts = [
       "econ-commodity-fetishism",
       "econ-alienation-marx",
       "econ-reserve-army"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-commodity",
     "world": "economics",
     "name": "Commodity",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why is the commodity central in Marx's analysis?",
     "question": "Why is the commodity central in Marx's analysis?",
@@ -6744,13 +6787,14 @@ export const economicsConcepts = [
       "econ-alienation-marx",
       "econ-reserve-army",
       "econ-organic-composition"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-commodity-fetishism",
     "world": "economics",
     "name": "Commodity Fetishism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "What does Marx mean by social relations appearing as relations between things?",
     "question": "What does Marx mean by social relations appearing as relations between things?",
@@ -6783,13 +6827,14 @@ export const economicsConcepts = [
       "econ-reserve-army",
       "econ-organic-composition",
       "econ-falling-profit"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-alienation-marx",
     "world": "economics",
     "name": "Alienation in Marx",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "How can work become alienating under capitalism?",
     "question": "How can work become alienating under capitalism?",
@@ -6822,13 +6867,14 @@ export const economicsConcepts = [
       "econ-organic-composition",
       "econ-falling-profit",
       "econ-primitive-accumulation"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-reserve-army",
     "world": "economics",
     "name": "Reserve Army of Labor",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why might unemployment matter structurally in Marxian theory?",
     "question": "Why might unemployment matter structurally in Marxian theory?",
@@ -6861,13 +6907,14 @@ export const economicsConcepts = [
       "econ-falling-profit",
       "econ-primitive-accumulation",
       "econ-class-struggle"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-organic-composition",
     "world": "economics",
     "name": "Organic Composition of Capital",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why does Marx distinguish investment in machinery from labor?",
     "question": "Why does Marx distinguish investment in machinery from labor?",
@@ -6900,13 +6947,14 @@ export const economicsConcepts = [
       "econ-primitive-accumulation",
       "econ-class-struggle",
       "econ-marx-crisis"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-falling-profit",
     "world": "economics",
     "name": "Tendency of the Rate of Profit to Fall",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why did Marx think accumulation could pressure profit rates?",
     "question": "Why did Marx think accumulation could pressure profit rates?",
@@ -6939,13 +6987,14 @@ export const economicsConcepts = [
       "econ-class-struggle",
       "econ-marx-crisis",
       "econ-marxian"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-primitive-accumulation",
     "world": "economics",
     "name": "Primitive Accumulation",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "How did Marx describe capitalism's historical preconditions?",
     "question": "How did Marx describe capitalism's historical preconditions?",
@@ -6978,13 +7027,14 @@ export const economicsConcepts = [
       "econ-marx-crisis",
       "econ-marxian",
       "econ-surplus-value"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-class-struggle",
     "world": "economics",
     "name": "Class Struggle",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why does Marx treat class conflict as historically important?",
     "question": "Why does Marx treat class conflict as historically important?",
@@ -7017,13 +7067,14 @@ export const economicsConcepts = [
       "econ-marxian",
       "econ-surplus-value",
       "econ-labor-theory-value-marx"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-marx-crisis",
     "world": "economics",
     "name": "Marxian Crisis Theory",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Marx & Marxian Economics",
     "hook": "Why are crises not merely accidents in Marxian analysis?",
     "question": "Why are crises not merely accidents in Marxian analysis?",
@@ -7056,13 +7107,14 @@ export const economicsConcepts = [
       "econ-surplus-value",
       "econ-labor-theory-value-marx",
       "econ-commodity"
-    ]
+    ],
+    "school": "Marxian Economics"
   },
   {
     "id": "econ-knowledge-problem",
     "world": "economics",
     "name": "Knowledge Problem",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Why can't a planner simply collect all the information needed to run an economy?",
     "question": "Why can't a planner simply collect all the information needed to run an economy?",
@@ -7095,13 +7147,14 @@ export const economicsConcepts = [
       "econ-spontaneous-order",
       "econ-austrian-business-cycle",
       "econ-malinvestment"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-price-signals-hayek",
     "world": "economics",
     "name": "Prices as Signals",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "What information can a rising price communicate?",
     "question": "What information can a rising price communicate?",
@@ -7134,13 +7187,14 @@ export const economicsConcepts = [
       "econ-austrian-business-cycle",
       "econ-malinvestment",
       "econ-entrepreneurial-discovery"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-spontaneous-order",
     "world": "economics",
     "name": "Spontaneous Order",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Can complex economic order emerge without central design?",
     "question": "Can complex economic order emerge without central design?",
@@ -7173,13 +7227,14 @@ export const economicsConcepts = [
       "econ-malinvestment",
       "econ-entrepreneurial-discovery",
       "econ-subjective-value"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-austrian-business-cycle",
     "world": "economics",
     "name": "Austrian Business Cycle Theory",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "How does Austrian business-cycle theory explain booms and busts?",
     "question": "How does Austrian business-cycle theory explain booms and busts?",
@@ -7212,13 +7267,14 @@ export const economicsConcepts = [
       "econ-entrepreneurial-discovery",
       "econ-subjective-value",
       "econ-economic-calculation"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-malinvestment",
     "world": "economics",
     "name": "Malinvestment",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "What does 'malinvestment' mean in Austrian theory?",
     "question": "What does 'malinvestment' mean in Austrian theory?",
@@ -7251,13 +7307,14 @@ export const economicsConcepts = [
       "econ-subjective-value",
       "econ-economic-calculation",
       "econ-rule-law-hayek"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-entrepreneurial-discovery",
     "world": "economics",
     "name": "Entrepreneurial Discovery",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "What role does the entrepreneur play in Austrian economics?",
     "question": "What role does the entrepreneur play in Austrian economics?",
@@ -7290,13 +7347,14 @@ export const economicsConcepts = [
       "econ-economic-calculation",
       "econ-rule-law-hayek",
       "econ-hayek-competition-discovery"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-subjective-value",
     "world": "economics",
     "name": "Subjective Value",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Why doesn't an object's economic value come only from the labor used to make it?",
     "question": "Why doesn't an object's economic value come only from the labor used to make it?",
@@ -7329,13 +7387,14 @@ export const economicsConcepts = [
       "econ-rule-law-hayek",
       "econ-hayek-competition-discovery",
       "econ-austrian"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-economic-calculation",
     "world": "economics",
     "name": "Economic Calculation",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Why are market prices important for comparing radically different uses of resources?",
     "question": "Why are market prices important for comparing radically different uses of resources?",
@@ -7368,13 +7427,14 @@ export const economicsConcepts = [
       "econ-hayek-competition-discovery",
       "econ-austrian",
       "econ-hayek"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-rule-law-hayek",
     "world": "economics",
     "name": "Rule of Law in Hayek",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Why did Hayek care about general, predictable rules?",
     "question": "Why did Hayek care about general, predictable rules?",
@@ -7407,13 +7467,14 @@ export const economicsConcepts = [
       "econ-austrian",
       "econ-hayek",
       "econ-mises"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-hayek-competition-discovery",
     "world": "economics",
     "name": "Competition as Discovery",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Hayek & Austrian Economics",
     "hook": "Why might competition reveal information rather than merely allocate known resources?",
     "question": "Why might competition reveal information rather than merely allocate known resources?",
@@ -7446,13 +7507,14 @@ export const economicsConcepts = [
       "econ-hayek",
       "econ-mises",
       "econ-knowledge-problem"
-    ]
+    ],
+    "school": "Austrian School"
   },
   {
     "id": "econ-quantity-money",
     "world": "economics",
     "name": "Quantity Theory of Money",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "What links money growth and nominal spending in monetarist analysis?",
     "question": "What links money growth and nominal spending in monetarist analysis?",
@@ -7485,13 +7547,14 @@ export const economicsConcepts = [
       "econ-permanent-income",
       "econ-natural-rate-friedman",
       "econ-adaptive-expectations"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-inflation-monetary",
     "world": "economics",
     "name": "Friedman on Inflation",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "What did Friedman mean by calling inflation a monetary phenomenon?",
     "question": "What did Friedman mean by calling inflation a monetary phenomenon?",
@@ -7524,13 +7587,14 @@ export const economicsConcepts = [
       "econ-natural-rate-friedman",
       "econ-adaptive-expectations",
       "econ-monetary-rule"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-permanent-income",
     "world": "economics",
     "name": "Permanent Income Hypothesis",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "Why might a temporary bonus affect spending less than a permanent raise?",
     "question": "Why might a temporary bonus affect spending less than a permanent raise?",
@@ -7563,13 +7627,14 @@ export const economicsConcepts = [
       "econ-adaptive-expectations",
       "econ-monetary-rule",
       "econ-great-depression-friedman"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-natural-rate-friedman",
     "world": "economics",
     "name": "Friedman's Natural Rate",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "Why did Friedman reject a permanent inflation-unemployment tradeoff?",
     "question": "Why did Friedman reject a permanent inflation-unemployment tradeoff?",
@@ -7602,13 +7667,14 @@ export const economicsConcepts = [
       "econ-monetary-rule",
       "econ-great-depression-friedman",
       "econ-floating-rates-friedman"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-adaptive-expectations",
     "world": "economics",
     "name": "Adaptive Expectations",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "How can yesterday's inflation shape tomorrow's expectations?",
     "question": "How can yesterday's inflation shape tomorrow's expectations?",
@@ -7641,13 +7707,14 @@ export const economicsConcepts = [
       "econ-great-depression-friedman",
       "econ-floating-rates-friedman",
       "econ-school-vouchers-friedman"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-monetary-rule",
     "world": "economics",
     "name": "Monetary Rules",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "Why did Friedman prefer predictable rules to activist fine-tuning?",
     "question": "Why did Friedman prefer predictable rules to activist fine-tuning?",
@@ -7680,13 +7747,14 @@ export const economicsConcepts = [
       "econ-floating-rates-friedman",
       "econ-school-vouchers-friedman",
       "econ-negative-income-tax"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-great-depression-friedman",
     "world": "economics",
     "name": "Friedman and the Great Depression",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "What did Friedman and Schwartz blame for deepening the Depression?",
     "question": "What did Friedman and Schwartz blame for deepening the Depression?",
@@ -7719,13 +7787,14 @@ export const economicsConcepts = [
       "econ-school-vouchers-friedman",
       "econ-negative-income-tax",
       "econ-monetarism"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-floating-rates-friedman",
     "world": "economics",
     "name": "Friedman and Floating Exchange Rates",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "Why did Friedman favor flexible exchange rates?",
     "question": "Why did Friedman favor flexible exchange rates?",
@@ -7758,13 +7827,14 @@ export const economicsConcepts = [
       "econ-negative-income-tax",
       "econ-monetarism",
       "econ-friedman"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-school-vouchers-friedman",
     "world": "economics",
     "name": "Friedman and School Vouchers",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "Why did Friedman propose separating school finance from school provision?",
     "question": "Why did Friedman propose separating school finance from school provision?",
@@ -7797,13 +7867,14 @@ export const economicsConcepts = [
       "econ-monetarism",
       "econ-friedman",
       "econ-quantity-money"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-negative-income-tax",
     "world": "economics",
     "name": "Negative Income Tax",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Friedman & Monetarism",
     "hook": "How did Friedman propose supporting low incomes without many separate welfare programs?",
     "question": "How did Friedman propose supporting low incomes without many separate welfare programs?",
@@ -7836,13 +7907,14 @@ export const economicsConcepts = [
       "econ-friedman",
       "econ-quantity-money",
       "econ-inflation-monetary"
-    ]
+    ],
+    "school": "Monetarism & Chicago School"
   },
   {
     "id": "econ-invisible-hand",
     "world": "economics",
     "name": "Invisible Hand",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "Did Smith believe selfishness always produces good outcomes?",
     "question": "Did Smith believe selfishness always produces good outcomes?",
@@ -7875,13 +7947,14 @@ export const economicsConcepts = [
       "econ-smith-moral-sentiments",
       "econ-smith-specialization",
       "econ-smith-market-size"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-self-interest",
     "world": "economics",
     "name": "Smith on Self-Interest",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "What did Smith mean by appealing to the butcher's self-interest?",
     "question": "What did Smith mean by appealing to the butcher's self-interest?",
@@ -7914,13 +7987,14 @@ export const economicsConcepts = [
       "econ-smith-specialization",
       "econ-smith-market-size",
       "econ-smith-public-works"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-moral-sentiments",
     "world": "economics",
     "name": "Theory of Moral Sentiments",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "Why is Smith's moral philosophy important for understanding his economics?",
     "question": "Why is Smith's moral philosophy important for understanding his economics?",
@@ -7953,13 +8027,14 @@ export const economicsConcepts = [
       "econ-smith-market-size",
       "econ-smith-public-works",
       "econ-smith-mercantilism"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-specialization",
     "world": "economics",
     "name": "Smith on Specialization",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "Why was the pin factory famous?",
     "question": "Why was the pin factory famous?",
@@ -7992,13 +8067,14 @@ export const economicsConcepts = [
       "econ-smith-public-works",
       "econ-smith-mercantilism",
       "econ-smith-wages-profits-rents"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-market-size",
     "world": "economics",
     "name": "Extent of the Market",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "What limits specialization?",
     "question": "What limits specialization?",
@@ -8031,13 +8107,14 @@ export const economicsConcepts = [
       "econ-smith-mercantilism",
       "econ-smith-wages-profits-rents",
       "econ-classical"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-public-works",
     "world": "economics",
     "name": "Smith on Public Works",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "Did Smith think government had no economic role?",
     "question": "Did Smith think government had no economic role?",
@@ -8070,13 +8147,14 @@ export const economicsConcepts = [
       "econ-smith-wages-profits-rents",
       "econ-classical",
       "econ-adam-smith"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-mercantilism",
     "world": "economics",
     "name": "Smith Against Mercantilism",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "Why did Smith criticize trade restrictions?",
     "question": "Why did Smith criticize trade restrictions?",
@@ -8109,13 +8187,14 @@ export const economicsConcepts = [
       "econ-classical",
       "econ-adam-smith",
       "econ-division-labor"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-smith-wages-profits-rents",
     "world": "economics",
     "name": "Wages, Profits and Rents",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Adam Smith & Classical Economics",
     "hook": "How did classical economists divide national income?",
     "question": "How did classical economists divide national income?",
@@ -8148,13 +8227,14 @@ export const economicsConcepts = [
       "econ-adam-smith",
       "econ-division-labor",
       "econ-invisible-hand"
-    ]
+    ],
+    "school": "Classical Economics"
   },
   {
     "id": "econ-entrepreneur-schumpeter",
     "world": "economics",
     "name": "Schumpeterian Entrepreneur",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Who disrupts the circular flow in Schumpeter's theory?",
     "question": "Who disrupts the circular flow in Schumpeter's theory?",
@@ -8187,13 +8267,14 @@ export const economicsConcepts = [
       "econ-business-cycles-schumpeter",
       "econ-capitalism-success",
       "econ-innovation-diffusion"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-innovation-rents",
     "world": "economics",
     "name": "Innovation Rents",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Why can temporary market power encourage innovation?",
     "question": "Why can temporary market power encourage innovation?",
@@ -8226,13 +8307,14 @@ export const economicsConcepts = [
       "econ-capitalism-success",
       "econ-innovation-diffusion",
       "econ-general-purpose-tech"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-business-cycles-schumpeter",
     "world": "economics",
     "name": "Schumpeterian Business Cycles",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "How did Schumpeter connect innovation to economic fluctuations?",
     "question": "How did Schumpeter connect innovation to economic fluctuations?",
@@ -8265,13 +8347,14 @@ export const economicsConcepts = [
       "econ-innovation-diffusion",
       "econ-general-purpose-tech",
       "econ-incumbent-disruption"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-capitalism-success",
     "world": "economics",
     "name": "Capitalism's Success Paradox",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Why did Schumpeter think capitalism's success could undermine its own support?",
     "question": "Why did Schumpeter think capitalism's success could undermine its own support?",
@@ -8304,13 +8387,14 @@ export const economicsConcepts = [
       "econ-general-purpose-tech",
       "econ-incumbent-disruption",
       "econ-dynamic-competition"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-innovation-diffusion",
     "world": "economics",
     "name": "Innovation Diffusion",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Why does invention alone not transform productivity?",
     "question": "Why does invention alone not transform productivity?",
@@ -8343,13 +8427,14 @@ export const economicsConcepts = [
       "econ-incumbent-disruption",
       "econ-dynamic-competition",
       "econ-schumpeter"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-general-purpose-tech",
     "world": "economics",
     "name": "General-Purpose Technologies",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Why do electricity and computing take decades to reshape economies?",
     "question": "Why do electricity and computing take decades to reshape economies?",
@@ -8382,13 +8467,14 @@ export const economicsConcepts = [
       "econ-dynamic-competition",
       "econ-schumpeter",
       "econ-creative-destruction"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-incumbent-disruption",
     "world": "economics",
     "name": "Incumbents and Disruption",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Why can successful firms struggle with new technologies?",
     "question": "Why can successful firms struggle with new technologies?",
@@ -8421,13 +8507,14 @@ export const economicsConcepts = [
       "econ-schumpeter",
       "econ-creative-destruction",
       "econ-entrepreneur-schumpeter"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-dynamic-competition",
     "world": "economics",
     "name": "Dynamic Competition",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Schumpeter & Innovation",
     "hook": "Is competition only about today's price?",
     "question": "Is competition only about today's price?",
@@ -8460,13 +8547,14 @@ export const economicsConcepts = [
       "econ-creative-destruction",
       "econ-entrepreneur-schumpeter",
       "econ-innovation-rents"
-    ]
+    ],
+    "school": "Schumpeterian & Evolutionary Economics"
   },
   {
     "id": "econ-north-institutions",
     "world": "economics",
     "name": "Douglass North on Institutions",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "What did Douglass North mean by institutions?",
     "question": "What did Douglass North mean by institutions?",
@@ -8499,13 +8587,14 @@ export const economicsConcepts = [
       "econ-credible-commitment",
       "econ-transaction-cost-institutions",
       "econ-property-rights-growth"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-path-dependence",
     "world": "economics",
     "name": "Path Dependence",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Why can history constrain today's economic options?",
     "question": "Why can history constrain today's economic options?",
@@ -8538,13 +8627,14 @@ export const economicsConcepts = [
       "econ-transaction-cost-institutions",
       "econ-property-rights-growth",
       "econ-informal-institutions"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-credible-commitment",
     "world": "economics",
     "name": "Credible Commitment",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Why does promising not to seize investment matter for growth?",
     "question": "Why does promising not to seize investment matter for growth?",
@@ -8577,13 +8667,14 @@ export const economicsConcepts = [
       "econ-property-rights-growth",
       "econ-informal-institutions",
       "econ-institutional-persistence"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-transaction-cost-institutions",
     "world": "economics",
     "name": "Institutions and Transaction Costs",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Why do different rules change how much trade occurs?",
     "question": "Why do different rules change how much trade occurs?",
@@ -8616,13 +8707,14 @@ export const economicsConcepts = [
       "econ-informal-institutions",
       "econ-institutional-persistence",
       "econ-inclusive-extractive"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-property-rights-growth",
     "world": "economics",
     "name": "Property Rights and Investment",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Why can insecure ownership discourage investment?",
     "question": "Why can insecure ownership discourage investment?",
@@ -8655,13 +8747,14 @@ export const economicsConcepts = [
       "econ-institutional-persistence",
       "econ-inclusive-extractive",
       "econ-institutional"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-informal-institutions",
     "world": "economics",
     "name": "Informal Institutions",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Can unwritten norms be economically powerful?",
     "question": "Can unwritten norms be economically powerful?",
@@ -8694,13 +8787,14 @@ export const economicsConcepts = [
       "econ-inclusive-extractive",
       "econ-institutional",
       "econ-new-institutional"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-institutional-persistence",
     "world": "economics",
     "name": "Institutional Persistence",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "Why can inefficient institutions survive?",
     "question": "Why can inefficient institutions survive?",
@@ -8733,13 +8827,14 @@ export const economicsConcepts = [
       "econ-institutional",
       "econ-new-institutional",
       "econ-north-institutions"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-inclusive-extractive",
     "world": "economics",
     "name": "Inclusive and Extractive Institutions",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Institutional Economics",
     "hook": "What does the inclusive-versus-extractive framework try to explain?",
     "question": "What does the inclusive-versus-extractive framework try to explain?",
@@ -8772,13 +8867,14 @@ export const economicsConcepts = [
       "econ-new-institutional",
       "econ-north-institutions",
       "econ-path-dependence"
-    ]
+    ],
+    "school": "Institutional & New Institutional Economics"
   },
   {
     "id": "econ-prospect-theory-econ",
     "world": "economics",
     "name": "Prospect Theory in Economics",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "Why do gains and losses depend on a reference point?",
     "question": "Why do gains and losses depend on a reference point?",
@@ -8811,13 +8907,14 @@ export const economicsConcepts = [
       "econ-hyperbolic-econ",
       "econ-behavioral-public-policy",
       "econ-kahneman-tversky"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-mental-accounting-econ",
     "world": "economics",
     "name": "Mental Accounting",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "Why do people treat identical money differently depending on its label?",
     "question": "Why do people treat identical money differently depending on its label?",
@@ -8850,13 +8947,14 @@ export const economicsConcepts = [
       "econ-behavioral-public-policy",
       "econ-kahneman-tversky",
       "econ-thaler"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-hyperbolic-econ",
     "world": "economics",
     "name": "Hyperbolic Discounting",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "Why can preferences reverse as temptation gets closer?",
     "question": "Why can preferences reverse as temptation gets closer?",
@@ -8889,13 +8987,14 @@ export const economicsConcepts = [
       "econ-kahneman-tversky",
       "econ-thaler",
       "econ-bounded-self-control"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-behavioral-public-policy",
     "world": "economics",
     "name": "Behavioral Public Policy",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "How can psychology change policy design?",
     "question": "How can psychology change policy design?",
@@ -8928,13 +9027,14 @@ export const economicsConcepts = [
       "econ-thaler",
       "econ-bounded-self-control",
       "econ-fairness-preferences"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-kahneman-tversky",
     "world": "economics",
     "name": "Kahneman and Tversky",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "Why were Kahneman and Tversky transformative for economics?",
     "question": "Why were Kahneman and Tversky transformative for economics?",
@@ -8967,13 +9067,14 @@ export const economicsConcepts = [
       "econ-bounded-self-control",
       "econ-fairness-preferences",
       "econ-behavioral"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-thaler",
     "world": "economics",
     "name": "Richard Thaler",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "What did Thaler add to behavioral economics?",
     "question": "What did Thaler add to behavioral economics?",
@@ -9006,13 +9107,14 @@ export const economicsConcepts = [
       "econ-fairness-preferences",
       "econ-behavioral",
       "econ-prospect-theory-econ"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-bounded-self-control",
     "world": "economics",
     "name": "Self-Control Problems",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "How can one person behave like competing selves over time?",
     "question": "How can one person behave like competing selves over time?",
@@ -9045,13 +9147,14 @@ export const economicsConcepts = [
       "econ-behavioral",
       "econ-prospect-theory-econ",
       "econ-mental-accounting-econ"
-    ]
+    ],
+    "school": "Behavioral Economics"
   },
   {
     "id": "econ-fairness-preferences",
     "world": "economics",
     "name": "Fairness Preferences",
-    "pool": "Schools of Economic Thought",
+    "pool": "Schools & History of Economic Thought",
     "topic": "Behavioral Economics",
     "hook": "Why might someone reject free money in an unfair bargain?",
     "question": "Why might someone reject free money in an unfair bargain?",
@@ -9084,6 +9187,1339 @@ export const economicsConcepts = [
       "econ-prospect-theory-econ",
       "econ-mental-accounting-econ",
       "econ-hyperbolic-econ"
-    ]
+    ],
+    "school": "Behavioral Economics"
+  },
+  {
+    "id": "econ-marginal-utility",
+    "world": "economics",
+    "name": "Marginal Utility",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Neoclassical Economics",
+    "hook": "Why did marginal utility become central to neoclassical value theory?",
+    "question": "Why did marginal utility become central to neoclassical value theory?",
+    "options": [
+      "Marginal utility focuses on the additional satisfaction from one more unit of a good, helping explain choices at the margin.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marginal utility focuses on the additional satisfaction from one more unit of a good, helping explain choices at the margin.",
+    "examples": [
+      [
+        "Real-world example",
+        "A shopper may value the first bottle of water highly but the fifth much less because additional units satisfy less urgent wants."
+      ],
+      [
+        "Compare schools",
+        "Ask how Neoclassical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Neoclassical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Neoclassical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-marginalism"
+    ],
+    "topic": "Neoclassical Economics"
+  },
+  {
+    "id": "econ-general-equilibrium",
+    "world": "economics",
+    "name": "General Equilibrium",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Neoclassical Economics",
+    "hook": "What does general equilibrium analysis try to explain?",
+    "question": "What does general equilibrium analysis try to explain?",
+    "options": [
+      "General equilibrium studies how prices and quantities across many interconnected markets can be determined simultaneously.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "General equilibrium studies how prices and quantities across many interconnected markets can be determined simultaneously.",
+    "examples": [
+      [
+        "Real-world example",
+        "A rise in energy prices can alter transport, manufacturing, wages and consumption together rather than affecting only one isolated market."
+      ],
+      [
+        "Compare schools",
+        "Ask how Neoclassical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Neoclassical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Neoclassical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-marginalism"
+    ],
+    "topic": "Neoclassical Economics"
+  },
+  {
+    "id": "econ-rational-ignorance",
+    "world": "economics",
+    "name": "Rational Ignorance",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Public Choice",
+    "hook": "Why might voters remain poorly informed even when elections matter?",
+    "question": "Why might voters remain poorly informed even when elections matter?",
+    "options": [
+      "Public choice theory notes that becoming deeply informed is costly while one person's probability of changing an election result is usually tiny.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Public choice theory notes that becoming deeply informed is costly while one person's probability of changing an election result is usually tiny.",
+    "examples": [
+      [
+        "Real-world example",
+        "A voter may spend hours comparing phone plans but only minutes studying a complicated municipal referendum."
+      ],
+      [
+        "Compare schools",
+        "Ask how Public Choice would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Public Choice rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Public Choice.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-public-choice"
+    ],
+    "topic": "Public Choice"
+  },
+  {
+    "id": "econ-rational-expectations",
+    "world": "economics",
+    "name": "Rational Expectations",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Classical Economics",
+    "hook": "What distinguishes rational expectations from simply assuming people are always correct?",
+    "question": "What distinguishes rational expectations from simply assuming people are always correct?",
+    "options": [
+      "Rational expectations means forecasts use available information and the structure of the economy without making systematic predictable errors.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Rational expectations means forecasts use available information and the structure of the economy without making systematic predictable errors.",
+    "examples": [
+      [
+        "Real-world example",
+        "If a central bank repeatedly follows the same rule, firms and households may begin incorporating that rule into wage and price decisions."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Classical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Classical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Classical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-classical"
+    ],
+    "topic": "New Classical Economics"
+  },
+  {
+    "id": "econ-lucas-critique",
+    "world": "economics",
+    "name": "Lucas Critique",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Classical Economics",
+    "hook": "Why can historical statistical relationships fail after a major policy change?",
+    "question": "Why can historical statistical relationships fail after a major policy change?",
+    "options": [
+      "The Lucas critique argues that policy changes can alter people's expectations and behavior, so past empirical relationships may not remain stable.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The Lucas critique argues that policy changes can alter people's expectations and behavior, so past empirical relationships may not remain stable.",
+    "examples": [
+      [
+        "Real-world example",
+        "A tax rule estimated under one policy regime may produce different labor responses once households understand a permanent new regime."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Classical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Classical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Classical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-classical"
+    ],
+    "topic": "New Classical Economics"
+  },
+  {
+    "id": "econ-policy-ineffectiveness",
+    "world": "economics",
+    "name": "Policy Ineffectiveness Proposition",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Classical Economics",
+    "hook": "Why might predictable monetary policy have weaker real effects in some new classical models?",
+    "question": "Why might predictable monetary policy have weaker real effects in some new classical models?",
+    "options": [
+      "In models with rational expectations and flexible prices, anticipated monetary policy can be incorporated into decisions before it changes real output.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "In models with rational expectations and flexible prices, anticipated monetary policy can be incorporated into decisions before it changes real output.",
+    "examples": [
+      [
+        "Real-world example",
+        "If everyone expects a fully predictable monetary expansion, wages and prices may adjust before employment changes much."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Classical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Classical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Classical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-classical"
+    ],
+    "topic": "New Classical Economics"
+  },
+  {
+    "id": "econ-real-business-cycles",
+    "world": "economics",
+    "name": "Real Business Cycle Theory",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Classical Economics",
+    "hook": "What kind of shocks drive fluctuations in real business cycle models?",
+    "question": "What kind of shocks drive fluctuations in real business cycle models?",
+    "options": [
+      "Real business cycle models emphasize real shocks such as productivity changes and the way optimizing households and firms respond over time.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Real business cycle models emphasize real shocks such as productivity changes and the way optimizing households and firms respond over time.",
+    "examples": [
+      [
+        "Real-world example",
+        "A large productivity improvement can raise output, investment and labor demand without requiring a monetary disturbance."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Classical Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Classical Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Classical Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-classical"
+    ],
+    "topic": "New Classical Economics"
+  },
+  {
+    "id": "econ-menu-costs",
+    "world": "economics",
+    "name": "Menu Costs",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Keynesian Economics",
+    "hook": "How can very small costs of changing prices matter for the whole economy?",
+    "question": "How can very small costs of changing prices matter for the whole economy?",
+    "options": [
+      "Menu-cost models show how even modest price-adjustment costs can make firms change prices infrequently, creating short-run nominal rigidity.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Menu-cost models show how even modest price-adjustment costs can make firms change prices infrequently, creating short-run nominal rigidity.",
+    "examples": [
+      [
+        "Real-world example",
+        "A restaurant may delay reprinting menus after a small cost increase and absorb the change temporarily."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Keynesian Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Keynesian Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Keynesian Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-keynesian"
+    ],
+    "topic": "New Keynesian Economics"
+  },
+  {
+    "id": "econ-efficiency-wages",
+    "world": "economics",
+    "name": "Efficiency Wages",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Keynesian Economics",
+    "hook": "Why might a firm deliberately pay above the market-clearing wage?",
+    "question": "Why might a firm deliberately pay above the market-clearing wage?",
+    "options": [
+      "Efficiency-wage models propose that higher pay can improve effort, retention, morale or applicant quality enough to be worthwhile.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Efficiency-wage models propose that higher pay can improve effort, retention, morale or applicant quality enough to be worthwhile.",
+    "examples": [
+      [
+        "Real-world example",
+        "A warehouse may pay above nearby competitors to reduce costly turnover and absenteeism."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Keynesian Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Keynesian Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Keynesian Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-keynesian"
+    ],
+    "topic": "New Keynesian Economics"
+  },
+  {
+    "id": "econ-calvo-pricing",
+    "world": "economics",
+    "name": "Calvo Pricing",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Keynesian Economics",
+    "hook": "How do New Keynesian models represent staggered price adjustment?",
+    "question": "How do New Keynesian models represent staggered price adjustment?",
+    "options": [
+      "Calvo pricing assumes that only a fraction of firms can reset prices in any period, producing gradual aggregate price adjustment.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Calvo pricing assumes that only a fraction of firms can reset prices in any period, producing gradual aggregate price adjustment.",
+    "examples": [
+      [
+        "Real-world example",
+        "After an economy-wide cost shock, some firms update prices immediately while others remain temporarily stuck at old prices."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Keynesian Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Keynesian Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Keynesian Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-keynesian"
+    ],
+    "topic": "New Keynesian Economics"
+  },
+  {
+    "id": "econ-nk-phillips-curve",
+    "world": "economics",
+    "name": "New Keynesian Phillips Curve",
+    "pool": "Schools & History of Economic Thought",
+    "school": "New Keynesian Economics",
+    "hook": "What links inflation to economic conditions in the New Keynesian Phillips Curve?",
+    "question": "What links inflation to economic conditions in the New Keynesian Phillips Curve?",
+    "options": [
+      "The New Keynesian Phillips Curve connects current inflation to expected future inflation and measures of real marginal cost or economic slack.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The New Keynesian Phillips Curve connects current inflation to expected future inflation and measures of real marginal cost or economic slack.",
+    "examples": [
+      [
+        "Real-world example",
+        "Central banks use related models to think about how demand conditions and inflation expectations interact."
+      ],
+      [
+        "Compare schools",
+        "Ask how New Keynesian Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped New Keynesian Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with New Keynesian Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-new-keynesian"
+    ],
+    "topic": "New Keynesian Economics"
+  },
+  {
+    "id": "econ-laffer-curve",
+    "world": "economics",
+    "name": "Laffer Curve",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Supply-Side Economics",
+    "hook": "What does the Laffer Curve actually claim?",
+    "question": "What does the Laffer Curve actually claim?",
+    "options": [
+      "The Laffer Curve states that tax revenue can be low at both a zero tax rate and an extremely high rate, implying a revenue-maximizing rate somewhere between.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The Laffer Curve states that tax revenue can be low at both a zero tax rate and an extremely high rate, implying a revenue-maximizing rate somewhere between.",
+    "examples": [
+      [
+        "Real-world example",
+        "Cutting a tax rate raises revenue only if behavioral responses are strong enough; the curve itself does not say where today's tax rate sits."
+      ],
+      [
+        "Compare schools",
+        "Ask how Supply-Side Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Supply-Side Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Supply-Side Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-supply-side"
+    ],
+    "topic": "Supply-Side Economics"
+  },
+  {
+    "id": "econ-marginal-tax-incentives",
+    "world": "economics",
+    "name": "Marginal Tax Rates & Incentives",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Supply-Side Economics",
+    "hook": "Why do supply-side economists focus on marginal rather than average tax rates?",
+    "question": "Why do supply-side economists focus on marginal rather than average tax rates?",
+    "options": [
+      "Marginal tax rates affect the return to an additional hour worked, an additional investment or an additional unit of taxable income.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marginal tax rates affect the return to an additional hour worked, an additional investment or an additional unit of taxable income.",
+    "examples": [
+      [
+        "Real-world example",
+        "A worker deciding whether overtime is worthwhile responds to the tax on the next euro earned, not just the average tax paid."
+      ],
+      [
+        "Compare schools",
+        "Ask how Supply-Side Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Supply-Side Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Supply-Side Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-supply-side"
+    ],
+    "topic": "Supply-Side Economics"
+  },
+  {
+    "id": "econ-capital-formation",
+    "world": "economics",
+    "name": "Capital Formation",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Supply-Side Economics",
+    "hook": "How can policy affect the incentive to accumulate productive capital?",
+    "question": "How can policy affect the incentive to accumulate productive capital?",
+    "options": [
+      "Supply-side analysis emphasizes how taxes, regulation and expected returns influence saving, investment and capital formation.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Supply-side analysis emphasizes how taxes, regulation and expected returns influence saving, investment and capital formation.",
+    "examples": [
+      [
+        "Real-world example",
+        "Accelerated depreciation can change the after-tax return on buying new machinery."
+      ],
+      [
+        "Compare schools",
+        "Ask how Supply-Side Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Supply-Side Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Supply-Side Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-supply-side"
+    ],
+    "topic": "Supply-Side Economics"
+  },
+  {
+    "id": "econ-deregulation-supply",
+    "world": "economics",
+    "name": "Deregulation & Supply",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Supply-Side Economics",
+    "hook": "Why can removing some regulations increase productive capacity?",
+    "question": "Why can removing some regulations increase productive capacity?",
+    "options": [
+      "When rules impose barriers that exceed their benefits, reducing them can lower entry costs and expand supply, though poorly designed deregulation can create other risks.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "When rules impose barriers that exceed their benefits, reducing them can lower entry costs and expand supply, though poorly designed deregulation can create other risks.",
+    "examples": [
+      [
+        "Real-world example",
+        "Simplifying business-entry permits may make it easier for new firms to compete while safety rules can still remain."
+      ],
+      [
+        "Compare schools",
+        "Ask how Supply-Side Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Supply-Side Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Supply-Side Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-supply-side"
+    ],
+    "topic": "Supply-Side Economics"
+  },
+  {
+    "id": "econ-lewis-model",
+    "world": "economics",
+    "name": "Lewis Dual-Sector Model",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Development Economics",
+    "hook": "How can labor move during structural transformation?",
+    "question": "How can labor move during structural transformation?",
+    "options": [
+      "The Lewis model describes development as labor moving from a low-productivity traditional sector toward a higher-productivity modern sector.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The Lewis model describes development as labor moving from a low-productivity traditional sector toward a higher-productivity modern sector.",
+    "examples": [
+      [
+        "Real-world example",
+        "Workers moving from subsistence agriculture into manufacturing can raise measured productivity while transforming cities and wages."
+      ],
+      [
+        "Compare schools",
+        "Ask how Development Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Development Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Development Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-development-school"
+    ],
+    "topic": "Development Economics"
+  },
+  {
+    "id": "econ-big-push",
+    "world": "economics",
+    "name": "Big Push",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Development Economics",
+    "hook": "Why might many investments need to happen together?",
+    "question": "Why might many investments need to happen together?",
+    "options": [
+      "Big-push theories argue that complementary investments can be unprofitable in isolation but viable when coordinated at sufficient scale.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Big-push theories argue that complementary investments can be unprofitable in isolation but viable when coordinated at sufficient scale.",
+    "examples": [
+      [
+        "Real-world example",
+        "A factory may not invest without reliable electricity and roads, while infrastructure investment becomes more valuable when factories also arrive."
+      ],
+      [
+        "Compare schools",
+        "Ask how Development Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Development Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Development Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-development-school"
+    ],
+    "topic": "Development Economics"
+  },
+  {
+    "id": "econ-import-substitution",
+    "world": "economics",
+    "name": "Import Substitution Industrialization",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Development Economics",
+    "hook": "What is import substitution industrialization?",
+    "question": "What is import substitution industrialization?",
+    "options": [
+      "Import substitution seeks to develop domestic industries by replacing imported manufactured goods with home production, often using tariffs or quotas.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Import substitution seeks to develop domestic industries by replacing imported manufactured goods with home production, often using tariffs or quotas.",
+    "examples": [
+      [
+        "Real-world example",
+        "A government may protect a domestic automobile industry so local production can develop behind trade barriers."
+      ],
+      [
+        "Compare schools",
+        "Ask how Development Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Development Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Development Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-development-school"
+    ],
+    "topic": "Development Economics"
+  },
+  {
+    "id": "econ-export-led-growth",
+    "world": "economics",
+    "name": "Export-Led Growth",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Development Economics",
+    "hook": "What is the basic logic of export-led development?",
+    "question": "What is the basic logic of export-led development?",
+    "options": [
+      "Export-led strategies use foreign demand, specialization and integration into global markets to support industrial expansion and productivity growth.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Export-led strategies use foreign demand, specialization and integration into global markets to support industrial expansion and productivity growth.",
+    "examples": [
+      [
+        "Real-world example",
+        "An economy may build manufacturing clusters that first scale by selling electronics or garments abroad."
+      ],
+      [
+        "Compare schools",
+        "Ask how Development Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Development Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Development Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-development-school"
+    ],
+    "topic": "Development Economics"
+  },
+  {
+    "id": "econ-competitive-order",
+    "world": "economics",
+    "name": "Competitive Order",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Ordoliberalism",
+    "hook": "Why does ordoliberalism emphasize the rules surrounding markets?",
+    "question": "Why does ordoliberalism emphasize the rules surrounding markets?",
+    "options": [
+      "Ordoliberalism argues that competition depends on a stable legal and institutional order rather than emerging automatically from laissez-faire.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Ordoliberalism argues that competition depends on a stable legal and institutional order rather than emerging automatically from laissez-faire.",
+    "examples": [
+      [
+        "Real-world example",
+        "Strong competition law can prevent dominant firms from using market power to block new entrants."
+      ],
+      [
+        "Compare schools",
+        "Ask how Ordoliberalism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Ordoliberalism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Ordoliberalism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-ordoliberalism"
+    ],
+    "topic": "Ordoliberalism"
+  },
+  {
+    "id": "econ-anti-cartel",
+    "world": "economics",
+    "name": "Anti-Cartel Policy",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Ordoliberalism",
+    "hook": "Why are cartels a central concern in ordoliberal thought?",
+    "question": "Why are cartels a central concern in ordoliberal thought?",
+    "options": [
+      "Ordoliberals view cartels and concentrated private power as threats to a functioning competitive order.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Ordoliberals view cartels and concentrated private power as threats to a functioning competitive order.",
+    "examples": [
+      [
+        "Real-world example",
+        "Authorities breaking up price-fixing agreements protect the competitive process rather than setting the market price themselves."
+      ],
+      [
+        "Compare schools",
+        "Ask how Ordoliberalism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Ordoliberalism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Ordoliberalism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-ordoliberalism"
+    ],
+    "topic": "Ordoliberalism"
+  },
+  {
+    "id": "econ-strong-state-rules",
+    "world": "economics",
+    "name": "Strong State, Limited Discretion",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Ordoliberalism",
+    "hook": "How can ordoliberalism favor a strong state while distrusting day-to-day intervention?",
+    "question": "How can ordoliberalism favor a strong state while distrusting day-to-day intervention?",
+    "options": [
+      "The tradition favors a state strong enough to enforce general rules and competition, while limiting discretionary political management of individual market outcomes.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The tradition favors a state strong enough to enforce general rules and competition, while limiting discretionary political management of individual market outcomes.",
+    "examples": [
+      [
+        "Real-world example",
+        "A government can enforce bankruptcy, property and competition law without deciding which ordinary firm should win."
+      ],
+      [
+        "Compare schools",
+        "Ask how Ordoliberalism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Ordoliberalism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Ordoliberalism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-ordoliberalism"
+    ],
+    "topic": "Ordoliberalism"
+  },
+  {
+    "id": "econ-social-market-economy",
+    "world": "economics",
+    "name": "Social Market Economy",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Ordoliberalism",
+    "hook": "How is the social market economy connected to ordoliberal ideas?",
+    "question": "How is the social market economy connected to ordoliberal ideas?",
+    "options": [
+      "The social market economy combines competitive markets with a legal framework and social protections, strongly influencing postwar West German economic policy.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The social market economy combines competitive markets with a legal framework and social protections, strongly influencing postwar West German economic policy.",
+    "examples": [
+      [
+        "Real-world example",
+        "Germany's postwar model paired competition policy and monetary stability with social insurance systems."
+      ],
+      [
+        "Compare schools",
+        "Ask how Ordoliberalism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Ordoliberalism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Ordoliberalism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-ordoliberalism"
+    ],
+    "topic": "Ordoliberalism"
+  },
+  {
+    "id": "econ-tableau-economique",
+    "world": "economics",
+    "name": "Tableau Économique",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Physiocracy",
+    "hook": "Why is Quesnay's Tableau Économique historically important?",
+    "question": "Why is Quesnay's Tableau Économique historically important?",
+    "options": [
+      "The Tableau Économique was an early attempt to represent circular flows of production and income between social classes.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The Tableau Économique was an early attempt to represent circular flows of production and income between social classes.",
+    "examples": [
+      [
+        "Real-world example",
+        "It anticipated the idea that one sector's spending becomes another sector's income in a connected economic system."
+      ],
+      [
+        "Compare schools",
+        "Ask how Physiocracy would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Physiocracy rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Physiocracy.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-physiocrats"
+    ],
+    "topic": "Physiocracy"
+  },
+  {
+    "id": "econ-net-product",
+    "world": "economics",
+    "name": "Net Product",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Physiocracy",
+    "hook": "What did the Physiocrats mean by a net product?",
+    "question": "What did the Physiocrats mean by a net product?",
+    "options": [
+      "Physiocrats argued that agriculture generated a surplus above the inputs needed for production and treated this surplus as the economy's fundamental net product.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Physiocrats argued that agriculture generated a surplus above the inputs needed for production and treated this surplus as the economy's fundamental net product.",
+    "examples": [
+      [
+        "Real-world example",
+        "A harvest exceeding seed, subsistence and other inputs was viewed as the source from which rents and other incomes could ultimately be paid."
+      ],
+      [
+        "Compare schools",
+        "Ask how Physiocracy would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Physiocracy rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Physiocracy.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-physiocrats"
+    ],
+    "topic": "Physiocracy"
+  },
+  {
+    "id": "econ-land-single-tax",
+    "world": "economics",
+    "name": "Single Tax on Land",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Physiocracy",
+    "hook": "Why did Physiocrats favor taxing land rents?",
+    "question": "Why did Physiocrats favor taxing land rents?",
+    "options": [
+      "Because they viewed agricultural land as the source of the net surplus, many Physiocrats favored concentrating taxation on land rent.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Because they viewed agricultural land as the source of the net surplus, many Physiocrats favored concentrating taxation on land rent.",
+    "examples": [
+      [
+        "Real-world example",
+        "Instead of many internal taxes and tolls, they proposed a simpler levy tied to the agricultural surplus."
+      ],
+      [
+        "Compare schools",
+        "Ask how Physiocracy would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Physiocracy rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Physiocracy.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-physiocrats"
+    ],
+    "topic": "Physiocracy"
+  },
+  {
+    "id": "econ-laissez-faire-physiocrats",
+    "world": "economics",
+    "name": "Physiocratic Laissez-Faire",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Physiocracy",
+    "hook": "Why did Physiocrats oppose many internal trade restrictions?",
+    "question": "Why did Physiocrats oppose many internal trade restrictions?",
+    "options": [
+      "Physiocrats generally favored freer grain trade and fewer internal barriers, believing a natural economic order worked better with less arbitrary interference.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Physiocrats generally favored freer grain trade and fewer internal barriers, believing a natural economic order worked better with less arbitrary interference.",
+    "examples": [
+      [
+        "Real-world example",
+        "Removing internal tolls could allow grain to move more easily from surplus regions to deficit regions."
+      ],
+      [
+        "Compare schools",
+        "Ask how Physiocracy would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Physiocracy rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Physiocracy.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-physiocrats"
+    ],
+    "topic": "Physiocracy"
+  },
+  {
+    "id": "econ-bullionism",
+    "world": "economics",
+    "name": "Bullionism",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Mercantilism",
+    "hook": "Why were precious-metal reserves associated with national power in mercantilist thinking?",
+    "question": "Why were precious-metal reserves associated with national power in mercantilist thinking?",
+    "options": [
+      "Many mercantilist writers treated accumulated gold and silver as strategically important because they supported state finance, armies and international payments.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Many mercantilist writers treated accumulated gold and silver as strategically important because they supported state finance, armies and international payments.",
+    "examples": [
+      [
+        "Real-world example",
+        "A government might restrict bullion exports during wartime because reserves were seen as part of national financial strength."
+      ],
+      [
+        "Compare schools",
+        "Ask how Mercantilism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Mercantilism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Mercantilism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-mercantilism"
+    ],
+    "topic": "Mercantilism"
+  },
+  {
+    "id": "econ-trade-surplus",
+    "world": "economics",
+    "name": "Trade Surplus Strategy",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Mercantilism",
+    "hook": "Why did mercantilist policies often promote exports and restrain imports?",
+    "question": "Why did mercantilist policies often promote exports and restrain imports?",
+    "options": [
+      "Mercantilist policy commonly sought a favorable trade balance to strengthen domestic production and increase inflows of money or bullion.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Mercantilist policy commonly sought a favorable trade balance to strengthen domestic production and increase inflows of money or bullion.",
+    "examples": [
+      [
+        "Real-world example",
+        "A state might subsidize textile exports while placing tariffs on competing imported cloth."
+      ],
+      [
+        "Compare schools",
+        "Ask how Mercantilism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Mercantilism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Mercantilism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-mercantilism"
+    ],
+    "topic": "Mercantilism"
+  },
+  {
+    "id": "econ-navigation-acts",
+    "world": "economics",
+    "name": "Navigation Acts",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Mercantilism",
+    "hook": "How did navigation laws fit mercantilist strategy?",
+    "question": "How did navigation laws fit mercantilist strategy?",
+    "options": [
+      "Navigation laws reserved parts of trade and shipping for domestic vessels or merchants to build national commercial and naval capacity.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Navigation laws reserved parts of trade and shipping for domestic vessels or merchants to build national commercial and naval capacity.",
+    "examples": [
+      [
+        "Real-world example",
+        "England's Navigation Acts tied trade rules to the development of English shipping and imperial commerce."
+      ],
+      [
+        "Compare schools",
+        "Ask how Mercantilism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Mercantilism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Mercantilism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-mercantilism"
+    ],
+    "topic": "Mercantilism"
+  },
+  {
+    "id": "econ-colonial-monopoly",
+    "world": "economics",
+    "name": "Colonial Monopoly",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Mercantilism",
+    "hook": "Why were colonies central to many mercantilist systems?",
+    "question": "Why were colonies central to many mercantilist systems?",
+    "options": [
+      "Colonial rules often directed raw materials and trade toward the imperial center while reserving colonial markets for metropolitan producers.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Colonial rules often directed raw materials and trade toward the imperial center while reserving colonial markets for metropolitan producers.",
+    "examples": [
+      [
+        "Real-world example",
+        "A colony could be required to sell specified commodities through merchants from the ruling empire."
+      ],
+      [
+        "Compare schools",
+        "Ask how Mercantilism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Mercantilism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Mercantilism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-mercantilism"
+    ],
+    "topic": "Mercantilism"
+  },
+  {
+    "id": "econ-henry-george",
+    "world": "economics",
+    "name": "Henry George",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Georgism",
+    "hook": "What problem was Henry George trying to explain?",
+    "question": "What problem was Henry George trying to explain?",
+    "options": [
+      "George argued that economic progress could raise land values and rents while leaving poverty unresolved, because gains tied to location accrued to landowners.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "George argued that economic progress could raise land values and rents while leaving poverty unresolved, because gains tied to location accrued to landowners.",
+    "examples": [
+      [
+        "Real-world example",
+        "A new railway station can raise nearby land prices even when the owner did nothing to create the transport investment."
+      ],
+      [
+        "Compare schools",
+        "Ask how Georgism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Georgism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Georgism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-georgism"
+    ],
+    "topic": "Georgism"
+  },
+  {
+    "id": "econ-land-value-tax",
+    "world": "economics",
+    "name": "Land Value Tax",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Georgism",
+    "hook": "What makes a land value tax different from a tax on buildings?",
+    "question": "What makes a land value tax different from a tax on buildings?",
+    "options": [
+      "A land value tax targets the unimproved value of land rather than the structures or improvements placed on it.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A land value tax targets the unimproved value of land rather than the structures or improvements placed on it.",
+    "examples": [
+      [
+        "Real-world example",
+        "Two equally sized neighboring plots could face similar land taxes even if one owner builds a house and the other leaves the plot empty."
+      ],
+      [
+        "Compare schools",
+        "Ask how Georgism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Georgism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Georgism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-georgism"
+    ],
+    "topic": "Georgism"
+  },
+  {
+    "id": "econ-land-rent",
+    "world": "economics",
+    "name": "Economic Rent of Land",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Georgism",
+    "hook": "Why is land rent central to Georgist analysis?",
+    "question": "Why is land rent central to Georgist analysis?",
+    "options": [
+      "Because the supply of locations is fixed, increases in demand for desirable places can be capitalized into land rents and prices.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Because the supply of locations is fixed, increases in demand for desirable places can be capitalized into land rents and prices.",
+    "examples": [
+      [
+        "Real-world example",
+        "A booming city can make centrally located plots dramatically more valuable without any corresponding increase in the physical quantity of land."
+      ],
+      [
+        "Compare schools",
+        "Ask how Georgism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Georgism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Georgism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-georgism"
+    ],
+    "topic": "Georgism"
+  },
+  {
+    "id": "econ-single-tax-george",
+    "world": "economics",
+    "name": "The Single-Tax Proposal",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Georgism",
+    "hook": "What did the Georgist single-tax idea seek to do?",
+    "question": "What did the Georgist single-tax idea seek to do?",
+    "options": [
+      "George proposed financing much of government from land-value taxation while reducing taxes that penalize labor and productive investment.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "George proposed financing much of government from land-value taxation while reducing taxes that penalize labor and productive investment.",
+    "examples": [
+      [
+        "Real-world example",
+        "The proposal tries to capture socially created location value without taxing an extra hour of work or a newly constructed building."
+      ],
+      [
+        "Compare schools",
+        "Ask how Georgism would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Georgism rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Georgism.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-georgism"
+    ],
+    "topic": "Georgism"
+  },
+  {
+    "id": "econ-poverty-traps",
+    "world": "economics",
+    "name": "Poverty Traps",
+    "pool": "Schools & History of Economic Thought",
+    "school": "Development Economics",
+    "hook": "How can low income reproduce itself over time?",
+    "question": "How can low income reproduce itself over time?",
+    "options": [
+      "A poverty trap occurs when low income constrains investment in health, education or capital in ways that keep future productivity and income low.",
+      "It mainly argues that economic outcomes are determined by personality traits rather than institutions or incentives.",
+      "It is a rule saying governments should always maximize short-run output regardless of costs.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A poverty trap occurs when low income constrains investment in health, education or capital in ways that keep future productivity and income low.",
+    "examples": [
+      [
+        "Real-world example",
+        "A household that cannot finance schooling may remain stuck in low-productivity work across generations."
+      ],
+      [
+        "Compare schools",
+        "Ask how Development Economics would interpret the same problem differently from another economic tradition."
+      ],
+      [
+        "Historical context",
+        "Place the idea inside the debates that shaped Development Economics rather than treating it as a timeless rule."
+      ]
+    ],
+    "why": "This idea helps explain the mechanisms and policy debates associated with Development Economics.",
+    "caveat": "Economic schools contain internal disagreements, and the usefulness of a model depends on its assumptions, evidence and context.",
+    "related": [
+      "econ-development-school"
+    ],
+    "topic": "Development Economics"
   }
 ];
