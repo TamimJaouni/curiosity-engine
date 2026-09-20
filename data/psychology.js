@@ -33,8 +33,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attentional-blink",
       "psy-signal-detection",
-      "psy-pareidolia"
-    ]
+      "psy-pareidolia",
+      "psy-sensory-adaptation"
+    ],
+    "topic": "Attention & Perception"
   },
   {
     "id": "psy-attentional-blink",
@@ -70,8 +72,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-signal-detection",
       "psy-pareidolia",
-      "psy-sensory-adaptation"
-    ]
+      "psy-sensory-adaptation",
+      "psy-selective-attention"
+    ],
+    "topic": "Attention & Perception"
   },
   {
     "id": "psy-signal-detection",
@@ -107,8 +111,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-pareidolia",
       "psy-sensory-adaptation",
-      "psy-selective-attention"
-    ]
+      "psy-selective-attention",
+      "psy-attentional-blink"
+    ],
+    "topic": "Attention & Perception"
   },
   {
     "id": "psy-pareidolia",
@@ -144,8 +150,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-sensory-adaptation",
       "psy-selective-attention",
-      "psy-attentional-blink"
-    ]
+      "psy-attentional-blink",
+      "psy-signal-detection"
+    ],
+    "topic": "Attention & Perception"
   },
   {
     "id": "psy-sensory-adaptation",
@@ -181,8 +189,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-selective-attention",
       "psy-attentional-blink",
-      "psy-signal-detection"
-    ]
+      "psy-signal-detection",
+      "psy-pareidolia"
+    ],
+    "topic": "Attention & Perception"
   },
   {
     "id": "psy-episodic-memory",
@@ -218,8 +228,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-semantic-memory",
       "psy-procedural-memory",
-      "psy-source-monitoring"
-    ]
+      "psy-source-monitoring",
+      "psy-misinformation-effect"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-semantic-memory",
@@ -255,8 +267,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-procedural-memory",
       "psy-source-monitoring",
-      "psy-misinformation-effect"
-    ]
+      "psy-misinformation-effect",
+      "psy-tip-tongue"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-procedural-memory",
@@ -292,8 +306,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-source-monitoring",
       "psy-misinformation-effect",
-      "psy-episodic-memory"
-    ]
+      "psy-episodic-memory",
+      "psy-tip-tongue"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-source-monitoring",
@@ -329,8 +345,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-misinformation-effect",
       "psy-episodic-memory",
-      "psy-semantic-memory"
-    ]
+      "psy-semantic-memory",
+      "psy-tip-tongue"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-misinformation-effect",
@@ -366,8 +384,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-episodic-memory",
       "psy-semantic-memory",
-      "psy-procedural-memory"
-    ]
+      "psy-procedural-memory",
+      "psy-tip-tongue"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-retrieval-practice",
@@ -403,8 +423,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-interleaving",
       "psy-classical-conditioning",
-      "psy-operant-conditioning"
-    ]
+      "psy-operant-conditioning",
+      "psy-negative-reinforcement"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-interleaving",
@@ -440,8 +462,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-classical-conditioning",
       "psy-operant-conditioning",
-      "psy-negative-reinforcement"
-    ]
+      "psy-negative-reinforcement",
+      "psy-habituation"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-classical-conditioning",
@@ -477,8 +501,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-operant-conditioning",
       "psy-negative-reinforcement",
-      "psy-habituation"
-    ]
+      "psy-habituation",
+      "psy-observational-learning"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-operant-conditioning",
@@ -514,8 +540,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-negative-reinforcement",
       "psy-habituation",
-      "psy-observational-learning"
-    ]
+      "psy-observational-learning",
+      "psy-retrieval-practice"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-negative-reinforcement",
@@ -551,8 +579,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-habituation",
       "psy-observational-learning",
-      "psy-retrieval-practice"
-    ]
+      "psy-retrieval-practice",
+      "psy-interleaving"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-habituation",
@@ -588,8 +618,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-observational-learning",
       "psy-retrieval-practice",
-      "psy-interleaving"
-    ]
+      "psy-interleaving",
+      "psy-classical-conditioning"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-observational-learning",
@@ -625,8 +657,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-retrieval-practice",
       "psy-interleaving",
-      "psy-classical-conditioning"
-    ]
+      "psy-classical-conditioning",
+      "psy-operant-conditioning"
+    ],
+    "topic": "Learning & Conditioning"
   },
   {
     "id": "psy-self-efficacy",
@@ -663,7 +697,8 @@ export const psychologyConcepts = [
       "psy-intrinsic-motivation",
       "psy-self-determination",
       "psy-implementation-intentions"
-    ]
+    ],
+    "topic": "Motivation"
   },
   {
     "id": "psy-intrinsic-motivation",
@@ -700,7 +735,8 @@ export const psychologyConcepts = [
       "psy-self-determination",
       "psy-implementation-intentions",
       "psy-self-efficacy"
-    ]
+    ],
+    "topic": "Motivation"
   },
   {
     "id": "psy-self-determination",
@@ -737,7 +773,8 @@ export const psychologyConcepts = [
       "psy-implementation-intentions",
       "psy-self-efficacy",
       "psy-intrinsic-motivation"
-    ]
+    ],
+    "topic": "Motivation"
   },
   {
     "id": "psy-implementation-intentions",
@@ -774,7 +811,8 @@ export const psychologyConcepts = [
       "psy-self-efficacy",
       "psy-intrinsic-motivation",
       "psy-self-determination"
-    ]
+    ],
+    "topic": "Motivation"
   },
   {
     "id": "psy-delay-discounting",
@@ -810,8 +848,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-anchoring",
       "psy-availability",
-      "psy-hindsight"
-    ]
+      "psy-hindsight",
+      "psy-planning-fallacy"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-anchoring",
@@ -847,8 +887,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-availability",
       "psy-hindsight",
-      "psy-planning-fallacy"
-    ]
+      "psy-planning-fallacy",
+      "psy-default-effect"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-availability",
@@ -884,8 +926,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hindsight",
       "psy-planning-fallacy",
-      "psy-default-effect"
-    ]
+      "psy-default-effect",
+      "psy-prospect-theory"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-hindsight",
@@ -921,8 +965,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-planning-fallacy",
       "psy-default-effect",
-      "psy-delay-discounting"
-    ]
+      "psy-delay-discounting",
+      "psy-prospect-theory"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-planning-fallacy",
@@ -958,8 +1004,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-default-effect",
       "psy-delay-discounting",
-      "psy-anchoring"
-    ]
+      "psy-anchoring",
+      "psy-prospect-theory"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-default-effect",
@@ -995,8 +1043,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-delay-discounting",
       "psy-anchoring",
-      "psy-availability"
-    ]
+      "psy-availability",
+      "psy-prospect-theory"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-metacognition",
@@ -1030,8 +1080,12 @@ export const psychologyConcepts = [
     "why": "Accurate self-monitoring helps allocate attention and practice.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-explanatory-depth"
-    ]
+      "psy-explanatory-depth",
+      "psy-regression-mean",
+      "psy-executive-functions",
+      "psy-functional-fixedness"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-explanatory-depth",
@@ -1065,8 +1119,12 @@ export const psychologyConcepts = [
     "why": "Attempting an explanation can expose gaps hidden by familiarity.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-metacognition"
-    ]
+      "psy-metacognition",
+      "psy-regression-mean",
+      "psy-executive-functions",
+      "psy-functional-fixedness"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-regression-mean",
@@ -1099,7 +1157,13 @@ export const psychologyConcepts = [
     ],
     "why": "It prevents mistaking ordinary statistical fluctuation for causal effects.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
-    "related": []
+    "related": [
+      "psy-executive-functions",
+      "psy-functional-fixedness",
+      "psy-categorization",
+      "psy-concept-formation"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-group-polarization",
@@ -1135,8 +1199,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-pluralistic-ignorance",
       "psy-normative-influence",
-      "psy-informational-influence"
-    ]
+      "psy-informational-influence",
+      "psy-reciprocity"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-pluralistic-ignorance",
@@ -1172,8 +1238,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-normative-influence",
       "psy-informational-influence",
-      "psy-reciprocity"
-    ]
+      "psy-reciprocity",
+      "psy-halo-effect"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-normative-influence",
@@ -1209,8 +1277,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-informational-influence",
       "psy-reciprocity",
-      "psy-halo-effect"
-    ]
+      "psy-halo-effect",
+      "psy-in-group-bias"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-informational-influence",
@@ -1246,8 +1316,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reciprocity",
       "psy-halo-effect",
-      "psy-in-group-bias"
-    ]
+      "psy-in-group-bias",
+      "psy-social-identity"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-reciprocity",
@@ -1283,8 +1355,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-halo-effect",
       "psy-in-group-bias",
-      "psy-group-polarization"
-    ]
+      "psy-group-polarization",
+      "psy-social-identity"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-halo-effect",
@@ -1320,8 +1394,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-in-group-bias",
       "psy-group-polarization",
-      "psy-pluralistic-ignorance"
-    ]
+      "psy-pluralistic-ignorance",
+      "psy-social-identity"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-in-group-bias",
@@ -1357,8 +1433,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-group-polarization",
       "psy-pluralistic-ignorance",
-      "psy-normative-influence"
-    ]
+      "psy-normative-influence",
+      "psy-social-identity"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-attachment",
@@ -1394,8 +1472,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-disclosure",
       "psy-rejection-sensitivity",
-      "psy-reciprocal-liking"
-    ]
+      "psy-reciprocal-liking",
+      "psy-attachment-secure"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-self-disclosure",
@@ -1431,8 +1511,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-rejection-sensitivity",
       "psy-reciprocal-liking",
-      "psy-attachment-secure"
-    ]
+      "psy-attachment-secure",
+      "psy-attachment-anxious"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-rejection-sensitivity",
@@ -1468,8 +1550,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reciprocal-liking",
       "psy-attachment-secure",
-      "psy-attachment-anxious"
-    ]
+      "psy-attachment-anxious",
+      "psy-attachment-avoidant"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-emotion-regulation",
@@ -1503,8 +1587,12 @@ export const psychologyConcepts = [
     "why": "Strategies differ in timing, cost and usefulness across situations.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-reappraisal"
-    ]
+      "psy-reappraisal",
+      "psy-basic-emotions",
+      "psy-constructionist-emotion",
+      "psy-appraisal-theory"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-reappraisal",
@@ -1538,8 +1626,12 @@ export const psychologyConcepts = [
     "why": "Interpretation is one route through which emotion can be regulated.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-emotion-regulation"
-    ]
+      "psy-emotion-regulation",
+      "psy-basic-emotions",
+      "psy-constructionist-emotion",
+      "psy-appraisal-theory"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-rumination",
@@ -1575,8 +1667,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-avoidance",
       "psy-exposure",
-      "psy-behavioral-activation"
-    ]
+      "psy-behavioral-activation",
+      "psy-placebo"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-avoidance",
@@ -1612,8 +1706,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-exposure",
       "psy-behavioral-activation",
-      "psy-fear-conditioning"
-    ]
+      "psy-fear-conditioning",
+      "psy-placebo"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-exposure",
@@ -1649,8 +1745,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-behavioral-activation",
       "psy-fear-conditioning",
-      "psy-safety-learning"
-    ]
+      "psy-safety-learning",
+      "psy-placebo"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-behavioral-activation",
@@ -1686,8 +1784,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-fear-conditioning",
       "psy-safety-learning",
-      "psy-avoidance-learning"
-    ]
+      "psy-avoidance-learning",
+      "psy-placebo"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-theory-mind",
@@ -1721,8 +1821,12 @@ export const psychologyConcepts = [
     "why": "Understanding minds supports prediction, communication and social coordination.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-joint-attention"
-    ]
+      "psy-joint-attention",
+      "psy-temperament",
+      "psy-goodness-fit",
+      "psy-stranger-anxiety"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-joint-attention",
@@ -1756,8 +1860,12 @@ export const psychologyConcepts = [
     "why": "It supports language learning and social communication.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-theory-mind"
-    ]
+      "psy-theory-mind",
+      "psy-temperament",
+      "psy-goodness-fit",
+      "psy-stranger-anxiety"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-executive-functions",
@@ -1790,7 +1898,13 @@ export const psychologyConcepts = [
     ],
     "why": "They support goal-directed behavior across learning and everyday life.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
-    "related": []
+    "related": [
+      "psy-functional-fixedness",
+      "psy-categorization",
+      "psy-concept-formation",
+      "psy-prototype-theory"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-tip-tongue",
@@ -1823,7 +1937,13 @@ export const psychologyConcepts = [
     ],
     "why": "Memory access can fail while partial information remains available.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
-    "related": []
+    "related": [
+      "psy-episodic-memory",
+      "psy-semantic-memory",
+      "psy-procedural-memory",
+      "psy-source-monitoring"
+    ],
+    "topic": "Memory"
   },
   {
     "id": "psy-functional-fixedness",
@@ -1856,7 +1976,13 @@ export const psychologyConcepts = [
     ],
     "why": "Prior knowledge can constrain creative problem solving.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
-    "related": []
+    "related": [
+      "psy-categorization",
+      "psy-concept-formation",
+      "psy-prototype-theory",
+      "psy-lexical-access"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-big-five",
@@ -1890,8 +2016,12 @@ export const psychologyConcepts = [
     "why": "Dimensional traits provide a descriptive map without implying five fixed kinds of people.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-person-situation"
-    ]
+      "psy-person-situation",
+      "psy-conscientiousness",
+      "psy-extraversion",
+      "psy-agreeableness"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-person-situation",
@@ -1925,8 +2055,12 @@ export const psychologyConcepts = [
     "why": "Traits predict tendencies while situations influence when those tendencies appear.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-big-five"
-    ]
+      "psy-big-five",
+      "psy-conscientiousness",
+      "psy-extraversion",
+      "psy-agreeableness"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-weird-samples",
@@ -1962,8 +2096,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-replication",
       "psy-publication-bias",
-      "psy-effect-size"
-    ]
+      "psy-effect-size",
+      "psy-correlation-causation"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-replication",
@@ -1999,8 +2135,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-publication-bias",
       "psy-effect-size",
-      "psy-correlation-causation"
-    ]
+      "psy-correlation-causation",
+      "psy-demand-characteristics"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-publication-bias",
@@ -2036,8 +2174,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-effect-size",
       "psy-correlation-causation",
-      "psy-demand-characteristics"
-    ]
+      "psy-demand-characteristics",
+      "psy-reliability"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-effect-size",
@@ -2073,8 +2213,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-correlation-causation",
       "psy-demand-characteristics",
-      "psy-weird-samples"
-    ]
+      "psy-weird-samples",
+      "psy-reliability"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-correlation-causation",
@@ -2110,8 +2252,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-demand-characteristics",
       "psy-weird-samples",
-      "psy-replication"
-    ]
+      "psy-replication",
+      "psy-reliability"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-demand-characteristics",
@@ -2147,8 +2291,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-weird-samples",
       "psy-replication",
-      "psy-publication-bias"
-    ]
+      "psy-publication-bias",
+      "psy-reliability"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-placebo",
@@ -2181,7 +2327,13 @@ export const psychologyConcepts = [
     ],
     "why": "Outcomes can reflect both specific treatment mechanisms and contextual effects.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
-    "related": []
+    "related": [
+      "psy-fear-conditioning",
+      "psy-safety-learning",
+      "psy-avoidance-learning",
+      "psy-exposure-inhibitory"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-self-concept",
@@ -2217,8 +2369,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-schema",
       "psy-self-awareness",
-      "psy-self-discrepancy"
-    ]
+      "psy-self-discrepancy",
+      "psy-possible-selves"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-self-schema",
@@ -2254,8 +2408,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-awareness",
       "psy-self-discrepancy",
-      "psy-possible-selves"
-    ]
+      "psy-possible-selves",
+      "psy-narrative-identity"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-self-awareness",
@@ -2291,8 +2447,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-discrepancy",
       "psy-possible-selves",
-      "psy-narrative-identity"
-    ]
+      "psy-narrative-identity",
+      "psy-self-perception"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-self-discrepancy",
@@ -2328,8 +2486,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-possible-selves",
       "psy-narrative-identity",
-      "psy-self-perception"
-    ]
+      "psy-self-perception",
+      "psy-introspection-illusion"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-possible-selves",
@@ -2365,8 +2525,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-narrative-identity",
       "psy-self-perception",
-      "psy-introspection-illusion"
-    ]
+      "psy-introspection-illusion",
+      "psy-agency"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-narrative-identity",
@@ -2402,8 +2564,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-perception",
       "psy-introspection-illusion",
-      "psy-agency"
-    ]
+      "psy-agency",
+      "psy-body-ownership"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-self-perception",
@@ -2439,8 +2603,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-introspection-illusion",
       "psy-agency",
-      "psy-body-ownership"
-    ]
+      "psy-body-ownership",
+      "psy-rubber-hand"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-introspection-illusion",
@@ -2476,8 +2642,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-agency",
       "psy-body-ownership",
-      "psy-rubber-hand"
-    ]
+      "psy-rubber-hand",
+      "psy-mind-wandering"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-agency",
@@ -2513,8 +2681,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-body-ownership",
       "psy-rubber-hand",
-      "psy-mind-wandering"
-    ]
+      "psy-mind-wandering",
+      "psy-default-mode"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-body-ownership",
@@ -2550,8 +2720,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-rubber-hand",
       "psy-mind-wandering",
-      "psy-default-mode"
-    ]
+      "psy-default-mode",
+      "psy-meta-awareness"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-rubber-hand",
@@ -2587,8 +2759,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mind-wandering",
       "psy-default-mode",
-      "psy-meta-awareness"
-    ]
+      "psy-meta-awareness",
+      "psy-depersonalization"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-mind-wandering",
@@ -2624,8 +2798,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-default-mode",
       "psy-meta-awareness",
-      "psy-depersonalization"
-    ]
+      "psy-depersonalization",
+      "psy-derealization"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-default-mode",
@@ -2661,8 +2837,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-meta-awareness",
       "psy-depersonalization",
-      "psy-derealization"
-    ]
+      "psy-derealization",
+      "psy-lucid-dreaming"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-meta-awareness",
@@ -2698,8 +2876,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-depersonalization",
       "psy-derealization",
-      "psy-lucid-dreaming"
-    ]
+      "psy-lucid-dreaming",
+      "psy-dreaming"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-depersonalization",
@@ -2735,8 +2915,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-derealization",
       "psy-lucid-dreaming",
-      "psy-dreaming"
-    ]
+      "psy-dreaming",
+      "psy-blindsight"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-derealization",
@@ -2772,8 +2954,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-lucid-dreaming",
       "psy-dreaming",
-      "psy-blindsight"
-    ]
+      "psy-blindsight",
+      "psy-split-brain"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-lucid-dreaming",
@@ -2809,8 +2993,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-dreaming",
       "psy-blindsight",
-      "psy-split-brain"
-    ]
+      "psy-split-brain",
+      "psy-self-concept"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-dreaming",
@@ -2846,8 +3032,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-blindsight",
       "psy-split-brain",
-      "psy-self-concept"
-    ]
+      "psy-self-concept",
+      "psy-self-schema"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-blindsight",
@@ -2883,8 +3071,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-split-brain",
       "psy-self-concept",
-      "psy-self-schema"
-    ]
+      "psy-self-schema",
+      "psy-self-awareness"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-split-brain",
@@ -2920,8 +3110,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-concept",
       "psy-self-schema",
-      "psy-self-awareness"
-    ]
+      "psy-self-awareness",
+      "psy-self-discrepancy"
+    ],
+    "topic": "Consciousness & Self"
   },
   {
     "id": "psy-prospect-theory",
@@ -2957,8 +3149,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reference-dependence",
       "psy-risk-aversion",
-      "psy-ambiguity-aversion"
-    ]
+      "psy-ambiguity-aversion",
+      "psy-certainty-effect"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-reference-dependence",
@@ -2994,8 +3188,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-risk-aversion",
       "psy-ambiguity-aversion",
-      "psy-certainty-effect"
-    ]
+      "psy-certainty-effect",
+      "psy-omission-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-risk-aversion",
@@ -3031,8 +3227,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-ambiguity-aversion",
       "psy-certainty-effect",
-      "psy-omission-bias"
-    ]
+      "psy-omission-bias",
+      "psy-outcome-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-ambiguity-aversion",
@@ -3068,8 +3266,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-certainty-effect",
       "psy-omission-bias",
-      "psy-outcome-bias"
-    ]
+      "psy-outcome-bias",
+      "psy-survivorship-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-certainty-effect",
@@ -3105,8 +3305,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-omission-bias",
       "psy-outcome-bias",
-      "psy-survivorship-bias"
-    ]
+      "psy-survivorship-bias",
+      "psy-selection-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-omission-bias",
@@ -3142,8 +3344,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-outcome-bias",
       "psy-survivorship-bias",
-      "psy-selection-bias"
-    ]
+      "psy-selection-bias",
+      "psy-belief-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-outcome-bias",
@@ -3179,8 +3383,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-survivorship-bias",
       "psy-selection-bias",
-      "psy-belief-bias"
-    ]
+      "psy-belief-bias",
+      "psy-myside-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-survivorship-bias",
@@ -3216,8 +3422,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-selection-bias",
       "psy-belief-bias",
-      "psy-myside-bias"
-    ]
+      "psy-myside-bias",
+      "psy-affect-forecasting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-selection-bias",
@@ -3253,8 +3461,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-belief-bias",
       "psy-myside-bias",
-      "psy-affect-forecasting"
-    ]
+      "psy-affect-forecasting",
+      "psy-impact-bias"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-belief-bias",
@@ -3290,8 +3500,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-myside-bias",
       "psy-affect-forecasting",
-      "psy-impact-bias"
-    ]
+      "psy-impact-bias",
+      "psy-duration-neglect"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-myside-bias",
@@ -3327,8 +3539,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-affect-forecasting",
       "psy-impact-bias",
-      "psy-duration-neglect"
-    ]
+      "psy-duration-neglect",
+      "psy-probability-weighting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-affect-forecasting",
@@ -3364,8 +3578,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-impact-bias",
       "psy-duration-neglect",
-      "psy-probability-weighting"
-    ]
+      "psy-probability-weighting",
+      "psy-compromise-effect"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-impact-bias",
@@ -3401,8 +3617,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-duration-neglect",
       "psy-probability-weighting",
-      "psy-compromise-effect"
-    ]
+      "psy-compromise-effect",
+      "psy-choice-overload"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-duration-neglect",
@@ -3438,8 +3656,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-probability-weighting",
       "psy-compromise-effect",
-      "psy-choice-overload"
-    ]
+      "psy-choice-overload",
+      "psy-paradox-choice"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-probability-weighting",
@@ -3475,8 +3695,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-compromise-effect",
       "psy-choice-overload",
-      "psy-paradox-choice"
-    ]
+      "psy-paradox-choice",
+      "psy-maximizing"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-compromise-effect",
@@ -3512,8 +3734,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-choice-overload",
       "psy-paradox-choice",
-      "psy-maximizing"
-    ]
+      "psy-maximizing",
+      "psy-hyperbolic-discounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-choice-overload",
@@ -3549,8 +3773,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-paradox-choice",
       "psy-maximizing",
-      "psy-hyperbolic-discounting"
-    ]
+      "psy-hyperbolic-discounting",
+      "psy-precommitment"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-paradox-choice",
@@ -3586,8 +3812,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-maximizing",
       "psy-hyperbolic-discounting",
-      "psy-precommitment"
-    ]
+      "psy-precommitment",
+      "psy-mental-accounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-maximizing",
@@ -3623,8 +3851,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hyperbolic-discounting",
       "psy-precommitment",
-      "psy-mental-accounting"
-    ]
+      "psy-mental-accounting",
+      "psy-money-illusion"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-hyperbolic-discounting",
@@ -3660,8 +3890,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-precommitment",
       "psy-mental-accounting",
-      "psy-money-illusion"
-    ]
+      "psy-money-illusion",
+      "psy-hot-cold-empathy-gap"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-precommitment",
@@ -3697,8 +3929,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mental-accounting",
       "psy-money-illusion",
-      "psy-hot-cold-empathy-gap"
-    ]
+      "psy-hot-cold-empathy-gap",
+      "psy-identifiable-victim"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-mental-accounting",
@@ -3734,8 +3968,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-money-illusion",
       "psy-hot-cold-empathy-gap",
-      "psy-identifiable-victim"
-    ]
+      "psy-identifiable-victim",
+      "psy-delay-discounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-money-illusion",
@@ -3771,8 +4007,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hot-cold-empathy-gap",
       "psy-identifiable-victim",
-      "psy-prospect-theory"
-    ]
+      "psy-prospect-theory",
+      "psy-delay-discounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-hot-cold-empathy-gap",
@@ -3808,8 +4046,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-identifiable-victim",
       "psy-prospect-theory",
-      "psy-reference-dependence"
-    ]
+      "psy-reference-dependence",
+      "psy-delay-discounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-identifiable-victim",
@@ -3845,8 +4085,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-prospect-theory",
       "psy-reference-dependence",
-      "psy-risk-aversion"
-    ]
+      "psy-risk-aversion",
+      "psy-delay-discounting"
+    ],
+    "topic": "Decision-making"
   },
   {
     "id": "psy-social-identity",
@@ -3882,8 +4124,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-minimal-group",
       "psy-realistic-conflict",
-      "psy-stereotyping"
-    ]
+      "psy-stereotyping",
+      "psy-implicit-attitudes"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-minimal-group",
@@ -3919,8 +4163,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-realistic-conflict",
       "psy-stereotyping",
-      "psy-implicit-attitudes"
-    ]
+      "psy-implicit-attitudes",
+      "psy-prejudice"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-realistic-conflict",
@@ -3956,8 +4202,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-stereotyping",
       "psy-implicit-attitudes",
-      "psy-prejudice"
-    ]
+      "psy-prejudice",
+      "psy-discrimination"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-stereotyping",
@@ -3993,8 +4241,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-implicit-attitudes",
       "psy-prejudice",
-      "psy-discrimination"
-    ]
+      "psy-discrimination",
+      "psy-just-world"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-implicit-attitudes",
@@ -4030,8 +4280,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-prejudice",
       "psy-discrimination",
-      "psy-just-world"
-    ]
+      "psy-just-world",
+      "psy-system-justification"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-prejudice",
@@ -4067,8 +4319,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-discrimination",
       "psy-just-world",
-      "psy-system-justification"
-    ]
+      "psy-system-justification",
+      "psy-social-dominance"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-discrimination",
@@ -4104,8 +4358,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-just-world",
       "psy-system-justification",
-      "psy-social-dominance"
-    ]
+      "psy-social-dominance",
+      "psy-authority-obedience"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-just-world",
@@ -4141,8 +4397,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-system-justification",
       "psy-social-dominance",
-      "psy-authority-obedience"
-    ]
+      "psy-authority-obedience",
+      "psy-minority-influence"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-system-justification",
@@ -4178,8 +4436,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-dominance",
       "psy-authority-obedience",
-      "psy-minority-influence"
-    ]
+      "psy-minority-influence",
+      "psy-social-norms"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-social-dominance",
@@ -4215,8 +4475,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-authority-obedience",
       "psy-minority-influence",
-      "psy-social-norms"
-    ]
+      "psy-social-norms",
+      "psy-social-contagion"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-authority-obedience",
@@ -4252,8 +4514,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-minority-influence",
       "psy-social-norms",
-      "psy-social-contagion"
-    ]
+      "psy-social-contagion",
+      "psy-emotional-contagion"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-minority-influence",
@@ -4289,8 +4553,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-norms",
       "psy-social-contagion",
-      "psy-emotional-contagion"
-    ]
+      "psy-emotional-contagion",
+      "psy-collective-action"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-social-norms",
@@ -4326,8 +4592,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-contagion",
       "psy-emotional-contagion",
-      "psy-collective-action"
-    ]
+      "psy-collective-action",
+      "psy-free-rider"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-social-contagion",
@@ -4363,8 +4631,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emotional-contagion",
       "psy-collective-action",
-      "psy-free-rider"
-    ]
+      "psy-free-rider",
+      "psy-social-dilemmas"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-emotional-contagion",
@@ -4400,8 +4670,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-collective-action",
       "psy-free-rider",
-      "psy-social-dilemmas"
-    ]
+      "psy-social-dilemmas",
+      "psy-costly-signaling"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-collective-action",
@@ -4437,8 +4709,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-free-rider",
       "psy-social-dilemmas",
-      "psy-costly-signaling"
-    ]
+      "psy-costly-signaling",
+      "psy-reputation"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-free-rider",
@@ -4474,8 +4748,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-dilemmas",
       "psy-costly-signaling",
-      "psy-reputation"
-    ]
+      "psy-reputation",
+      "psy-gossip"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-social-dilemmas",
@@ -4511,8 +4787,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-costly-signaling",
       "psy-reputation",
-      "psy-gossip"
-    ]
+      "psy-gossip",
+      "psy-third-party-punishment"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-costly-signaling",
@@ -4548,8 +4826,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reputation",
       "psy-gossip",
-      "psy-third-party-punishment"
-    ]
+      "psy-third-party-punishment",
+      "psy-altruistic-punishment"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-reputation",
@@ -4585,8 +4865,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-gossip",
       "psy-third-party-punishment",
-      "psy-altruistic-punishment"
-    ]
+      "psy-altruistic-punishment",
+      "psy-moral-licensing"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-gossip",
@@ -4622,8 +4904,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-third-party-punishment",
       "psy-altruistic-punishment",
-      "psy-moral-licensing"
-    ]
+      "psy-moral-licensing",
+      "psy-moral-cleansing"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-third-party-punishment",
@@ -4659,8 +4943,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-altruistic-punishment",
       "psy-moral-licensing",
-      "psy-moral-cleansing"
-    ]
+      "psy-moral-cleansing",
+      "psy-door-in-face"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-altruistic-punishment",
@@ -4696,8 +4982,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-moral-licensing",
       "psy-moral-cleansing",
-      "psy-door-in-face"
-    ]
+      "psy-door-in-face",
+      "psy-foot-in-door"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-moral-licensing",
@@ -4733,8 +5021,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-moral-cleansing",
       "psy-door-in-face",
-      "psy-foot-in-door"
-    ]
+      "psy-foot-in-door",
+      "psy-low-ball"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-moral-cleansing",
@@ -4770,8 +5060,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-door-in-face",
       "psy-foot-in-door",
-      "psy-low-ball"
-    ]
+      "psy-low-ball",
+      "psy-that's-not-all"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-door-in-face",
@@ -4807,8 +5099,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-foot-in-door",
       "psy-low-ball",
-      "psy-that's-not-all"
-    ]
+      "psy-that's-not-all",
+      "psy-scarcity-persuasion"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-foot-in-door",
@@ -4844,8 +5138,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-low-ball",
       "psy-that's-not-all",
-      "psy-scarcity-persuasion"
-    ]
+      "psy-scarcity-persuasion",
+      "psy-reactance-persuasion"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-low-ball",
@@ -4881,8 +5177,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-that's-not-all",
       "psy-scarcity-persuasion",
-      "psy-reactance-persuasion"
-    ]
+      "psy-reactance-persuasion",
+      "psy-group-polarization"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-that's-not-all",
@@ -4918,8 +5216,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-scarcity-persuasion",
       "psy-reactance-persuasion",
-      "psy-social-identity"
-    ]
+      "psy-social-identity",
+      "psy-group-polarization"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-scarcity-persuasion",
@@ -4955,8 +5255,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reactance-persuasion",
       "psy-social-identity",
-      "psy-minimal-group"
-    ]
+      "psy-minimal-group",
+      "psy-group-polarization"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-reactance-persuasion",
@@ -4992,8 +5294,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-identity",
       "psy-minimal-group",
-      "psy-realistic-conflict"
-    ]
+      "psy-realistic-conflict",
+      "psy-group-polarization"
+    ],
+    "topic": "Social Influence"
   },
   {
     "id": "psy-basic-emotions",
@@ -5029,8 +5333,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-constructionist-emotion",
       "psy-appraisal-theory",
-      "psy-valence-arousal"
-    ]
+      "psy-valence-arousal",
+      "psy-circumplex-affect"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-constructionist-emotion",
@@ -5066,8 +5372,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-appraisal-theory",
       "psy-valence-arousal",
-      "psy-circumplex-affect"
-    ]
+      "psy-circumplex-affect",
+      "psy-emotion-differentiation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-appraisal-theory",
@@ -5103,8 +5411,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-valence-arousal",
       "psy-circumplex-affect",
-      "psy-emotion-differentiation"
-    ]
+      "psy-emotion-differentiation",
+      "psy-emotional-granularity"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-valence-arousal",
@@ -5140,8 +5450,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-circumplex-affect",
       "psy-emotion-differentiation",
-      "psy-emotional-granularity"
-    ]
+      "psy-emotional-granularity",
+      "psy-alexithymia"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-circumplex-affect",
@@ -5177,8 +5489,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emotion-differentiation",
       "psy-emotional-granularity",
-      "psy-alexithymia"
-    ]
+      "psy-alexithymia",
+      "psy-interoception"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-emotion-differentiation",
@@ -5214,8 +5528,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emotional-granularity",
       "psy-alexithymia",
-      "psy-interoception"
-    ]
+      "psy-interoception",
+      "psy-arousal-misattribution"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-emotional-granularity",
@@ -5251,8 +5567,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-alexithymia",
       "psy-interoception",
-      "psy-arousal-misattribution"
-    ]
+      "psy-arousal-misattribution",
+      "psy-broaden-build"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-alexithymia",
@@ -5288,8 +5606,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-interoception",
       "psy-arousal-misattribution",
-      "psy-broaden-build"
-    ]
+      "psy-broaden-build",
+      "psy-hedonic-adaptation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-interoception",
@@ -5325,8 +5645,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-arousal-misattribution",
       "psy-broaden-build",
-      "psy-hedonic-adaptation"
-    ]
+      "psy-hedonic-adaptation",
+      "psy-negativity-bias"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-arousal-misattribution",
@@ -5362,8 +5684,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-broaden-build",
       "psy-hedonic-adaptation",
-      "psy-negativity-bias"
-    ]
+      "psy-negativity-bias",
+      "psy-positivity-effect"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-broaden-build",
@@ -5399,8 +5723,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hedonic-adaptation",
       "psy-negativity-bias",
-      "psy-positivity-effect"
-    ]
+      "psy-positivity-effect",
+      "psy-regret"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-hedonic-adaptation",
@@ -5436,8 +5762,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-negativity-bias",
       "psy-positivity-effect",
-      "psy-regret"
-    ]
+      "psy-regret",
+      "psy-disappointment"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-negativity-bias",
@@ -5473,8 +5801,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-positivity-effect",
       "psy-regret",
-      "psy-disappointment"
-    ]
+      "psy-disappointment",
+      "psy-envy"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-positivity-effect",
@@ -5510,8 +5840,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-regret",
       "psy-disappointment",
-      "psy-envy"
-    ]
+      "psy-envy",
+      "psy-jealousy"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-regret",
@@ -5547,8 +5879,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-disappointment",
       "psy-envy",
-      "psy-jealousy"
-    ]
+      "psy-jealousy",
+      "psy-guilt"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-disappointment",
@@ -5584,8 +5918,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-envy",
       "psy-jealousy",
-      "psy-guilt"
-    ]
+      "psy-guilt",
+      "psy-shame"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-envy",
@@ -5621,8 +5957,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-jealousy",
       "psy-guilt",
-      "psy-shame"
-    ]
+      "psy-shame",
+      "psy-pride"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-jealousy",
@@ -5658,8 +5996,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-guilt",
       "psy-shame",
-      "psy-pride"
-    ]
+      "psy-pride",
+      "psy-gratitude"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-guilt",
@@ -5695,8 +6035,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-shame",
       "psy-pride",
-      "psy-gratitude"
-    ]
+      "psy-gratitude",
+      "psy-awe"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-shame",
@@ -5732,8 +6074,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-pride",
       "psy-gratitude",
-      "psy-awe"
-    ]
+      "psy-awe",
+      "psy-nostalgia"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-pride",
@@ -5769,8 +6113,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-gratitude",
       "psy-awe",
-      "psy-nostalgia"
-    ]
+      "psy-nostalgia",
+      "psy-empathy"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-gratitude",
@@ -5806,8 +6152,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-awe",
       "psy-nostalgia",
-      "psy-empathy"
-    ]
+      "psy-empathy",
+      "psy-empathic-concern"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-awe",
@@ -5843,8 +6191,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-nostalgia",
       "psy-empathy",
-      "psy-empathic-concern"
-    ]
+      "psy-empathic-concern",
+      "psy-compassion"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-nostalgia",
@@ -5880,8 +6230,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-empathy",
       "psy-empathic-concern",
-      "psy-compassion"
-    ]
+      "psy-compassion",
+      "psy-emotion-labeling"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-empathy",
@@ -5917,8 +6269,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-empathic-concern",
       "psy-compassion",
-      "psy-emotion-labeling"
-    ]
+      "psy-emotion-labeling",
+      "psy-suppression"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-empathic-concern",
@@ -5954,8 +6308,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-compassion",
       "psy-emotion-labeling",
-      "psy-suppression"
-    ]
+      "psy-suppression",
+      "psy-acceptance"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-compassion",
@@ -5991,8 +6347,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emotion-labeling",
       "psy-suppression",
-      "psy-acceptance"
-    ]
+      "psy-acceptance",
+      "psy-distancing"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-emotion-labeling",
@@ -6028,8 +6386,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-suppression",
       "psy-acceptance",
-      "psy-distancing"
-    ]
+      "psy-distancing",
+      "psy-motivation-crowding"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-suppression",
@@ -6065,8 +6425,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-acceptance",
       "psy-distancing",
-      "psy-motivation-crowding"
-    ]
+      "psy-motivation-crowding",
+      "psy-approach-avoidance"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-acceptance",
@@ -6102,8 +6464,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-distancing",
       "psy-motivation-crowding",
-      "psy-approach-avoidance"
-    ]
+      "psy-approach-avoidance",
+      "psy-achievement-motivation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-distancing",
@@ -6139,8 +6503,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-motivation-crowding",
       "psy-approach-avoidance",
-      "psy-achievement-motivation"
-    ]
+      "psy-achievement-motivation",
+      "psy-goal-orientation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-motivation-crowding",
@@ -6176,8 +6542,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-approach-avoidance",
       "psy-achievement-motivation",
-      "psy-goal-orientation"
-    ]
+      "psy-goal-orientation",
+      "psy-expectancy-value"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-approach-avoidance",
@@ -6213,8 +6581,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-achievement-motivation",
       "psy-goal-orientation",
-      "psy-expectancy-value"
-    ]
+      "psy-expectancy-value",
+      "psy-emotion-regulation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-achievement-motivation",
@@ -6250,8 +6620,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-goal-orientation",
       "psy-expectancy-value",
-      "psy-basic-emotions"
-    ]
+      "psy-basic-emotions",
+      "psy-emotion-regulation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-goal-orientation",
@@ -6287,8 +6659,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-expectancy-value",
       "psy-basic-emotions",
-      "psy-constructionist-emotion"
-    ]
+      "psy-constructionist-emotion",
+      "psy-emotion-regulation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-expectancy-value",
@@ -6324,8 +6698,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-basic-emotions",
       "psy-constructionist-emotion",
-      "psy-appraisal-theory"
-    ]
+      "psy-appraisal-theory",
+      "psy-emotion-regulation"
+    ],
+    "topic": "Emotion & Motivation"
   },
   {
     "id": "psy-reciprocal-liking",
@@ -6361,8 +6737,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attachment-secure",
       "psy-attachment-anxious",
-      "psy-attachment-avoidant"
-    ]
+      "psy-attachment-avoidant",
+      "psy-internal-working-model"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-attachment-secure",
@@ -6398,8 +6776,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attachment-anxious",
       "psy-attachment-avoidant",
-      "psy-internal-working-model"
-    ]
+      "psy-internal-working-model",
+      "psy-adult-attachment"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-attachment-anxious",
@@ -6435,8 +6815,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attachment-avoidant",
       "psy-internal-working-model",
-      "psy-adult-attachment"
-    ]
+      "psy-adult-attachment",
+      "psy-equity-theory"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-attachment-avoidant",
@@ -6472,8 +6854,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-internal-working-model",
       "psy-adult-attachment",
-      "psy-equity-theory"
-    ]
+      "psy-equity-theory",
+      "psy-interdependence"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-internal-working-model",
@@ -6509,8 +6893,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-adult-attachment",
       "psy-equity-theory",
-      "psy-interdependence"
-    ]
+      "psy-interdependence",
+      "psy-investment-model"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-adult-attachment",
@@ -6546,8 +6932,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-equity-theory",
       "psy-interdependence",
-      "psy-investment-model"
-    ]
+      "psy-investment-model",
+      "psy-commitment"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-equity-theory",
@@ -6583,8 +6971,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-interdependence",
       "psy-investment-model",
-      "psy-commitment"
-    ]
+      "psy-commitment",
+      "psy-perceived-responsiveness"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-interdependence",
@@ -6620,8 +7010,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-investment-model",
       "psy-commitment",
-      "psy-perceived-responsiveness"
-    ]
+      "psy-perceived-responsiveness",
+      "psy-self-expansion"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-investment-model",
@@ -6657,8 +7049,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-commitment",
       "psy-perceived-responsiveness",
-      "psy-self-expansion"
-    ]
+      "psy-self-expansion",
+      "psy-relationship-attributions"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-commitment",
@@ -6694,8 +7088,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-perceived-responsiveness",
       "psy-self-expansion",
-      "psy-relationship-attributions"
-    ]
+      "psy-relationship-attributions",
+      "psy-demand-withdraw"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-perceived-responsiveness",
@@ -6731,8 +7127,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-expansion",
       "psy-relationship-attributions",
-      "psy-demand-withdraw"
-    ]
+      "psy-demand-withdraw",
+      "psy-conflict-repair"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-self-expansion",
@@ -6768,8 +7166,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-relationship-attributions",
       "psy-demand-withdraw",
-      "psy-conflict-repair"
-    ]
+      "psy-conflict-repair",
+      "psy-forgiveness"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-relationship-attributions",
@@ -6805,8 +7205,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-demand-withdraw",
       "psy-conflict-repair",
-      "psy-forgiveness"
-    ]
+      "psy-forgiveness",
+      "psy-trust"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-demand-withdraw",
@@ -6842,8 +7244,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-conflict-repair",
       "psy-forgiveness",
-      "psy-trust"
-    ]
+      "psy-trust",
+      "psy-betrayal"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-conflict-repair",
@@ -6879,8 +7283,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-forgiveness",
       "psy-trust",
-      "psy-betrayal"
-    ]
+      "psy-betrayal",
+      "psy-ostracism"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-forgiveness",
@@ -6916,8 +7322,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-trust",
       "psy-betrayal",
-      "psy-ostracism"
-    ]
+      "psy-ostracism",
+      "psy-social-rejection"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-trust",
@@ -6953,8 +7361,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-betrayal",
       "psy-ostracism",
-      "psy-social-rejection"
-    ]
+      "psy-social-rejection",
+      "psy-loneliness"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-betrayal",
@@ -6990,8 +7400,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-ostracism",
       "psy-social-rejection",
-      "psy-loneliness"
-    ]
+      "psy-loneliness",
+      "psy-social-support"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-ostracism",
@@ -7027,8 +7439,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-rejection",
       "psy-loneliness",
-      "psy-social-support"
-    ]
+      "psy-social-support",
+      "psy-attachment-safe-haven"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-social-rejection",
@@ -7064,8 +7478,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-loneliness",
       "psy-social-support",
-      "psy-attachment-safe-haven"
-    ]
+      "psy-attachment-safe-haven",
+      "psy-parasocial"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-loneliness",
@@ -7101,8 +7517,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-support",
       "psy-attachment-safe-haven",
-      "psy-parasocial"
-    ]
+      "psy-parasocial",
+      "psy-social-penetration"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-social-support",
@@ -7138,8 +7556,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attachment-safe-haven",
       "psy-parasocial",
-      "psy-social-penetration"
-    ]
+      "psy-social-penetration",
+      "psy-similarity-dissimilarity"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-attachment-safe-haven",
@@ -7175,8 +7595,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-parasocial",
       "psy-social-penetration",
-      "psy-similarity-dissimilarity"
-    ]
+      "psy-similarity-dissimilarity",
+      "psy-attachment"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-parasocial",
@@ -7212,8 +7634,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-penetration",
       "psy-similarity-dissimilarity",
-      "psy-attachment"
-    ]
+      "psy-attachment",
+      "psy-self-disclosure"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-social-penetration",
@@ -7249,8 +7673,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-similarity-dissimilarity",
       "psy-attachment",
-      "psy-self-disclosure"
-    ]
+      "psy-self-disclosure",
+      "psy-rejection-sensitivity"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-similarity-dissimilarity",
@@ -7286,8 +7712,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attachment",
       "psy-self-disclosure",
-      "psy-rejection-sensitivity"
-    ]
+      "psy-rejection-sensitivity",
+      "psy-reciprocal-liking"
+    ],
+    "topic": "Relationships & Attachment"
   },
   {
     "id": "psy-temperament",
@@ -7323,8 +7751,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-goodness-fit",
       "psy-stranger-anxiety",
-      "psy-separation-anxiety"
-    ]
+      "psy-separation-anxiety",
+      "psy-social-referencing"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-goodness-fit",
@@ -7360,8 +7790,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-stranger-anxiety",
       "psy-separation-anxiety",
-      "psy-social-referencing"
-    ]
+      "psy-social-referencing",
+      "psy-still-face"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-stranger-anxiety",
@@ -7397,8 +7829,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-separation-anxiety",
       "psy-social-referencing",
-      "psy-still-face"
-    ]
+      "psy-still-face",
+      "psy-deferred-imitation"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-separation-anxiety",
@@ -7434,8 +7868,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-referencing",
       "psy-still-face",
-      "psy-deferred-imitation"
-    ]
+      "psy-deferred-imitation",
+      "psy-imitation-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-social-referencing",
@@ -7471,8 +7907,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-still-face",
       "psy-deferred-imitation",
-      "psy-imitation-development"
-    ]
+      "psy-imitation-development",
+      "psy-language-babbling"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-still-face",
@@ -7508,8 +7946,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-deferred-imitation",
       "psy-imitation-development",
-      "psy-language-babbling"
-    ]
+      "psy-language-babbling",
+      "psy-fast-mapping"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-deferred-imitation",
@@ -7545,8 +7985,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-imitation-development",
       "psy-language-babbling",
-      "psy-fast-mapping"
-    ]
+      "psy-fast-mapping",
+      "psy-overextension"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-imitation-development",
@@ -7582,8 +8024,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-language-babbling",
       "psy-fast-mapping",
-      "psy-overextension"
-    ]
+      "psy-overextension",
+      "psy-critical-period-language"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-language-babbling",
@@ -7619,8 +8063,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-fast-mapping",
       "psy-overextension",
-      "psy-critical-period-language"
-    ]
+      "psy-critical-period-language",
+      "psy-phoneme-tuning"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-fast-mapping",
@@ -7656,8 +8102,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-overextension",
       "psy-critical-period-language",
-      "psy-phoneme-tuning"
-    ]
+      "psy-phoneme-tuning",
+      "psy-egocentrism-piaget"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-overextension",
@@ -7693,8 +8141,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-critical-period-language",
       "psy-phoneme-tuning",
-      "psy-egocentrism-piaget"
-    ]
+      "psy-egocentrism-piaget",
+      "psy-conservation"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-critical-period-language",
@@ -7730,8 +8180,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-phoneme-tuning",
       "psy-egocentrism-piaget",
-      "psy-conservation"
-    ]
+      "psy-conservation",
+      "psy-scaffolding"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-phoneme-tuning",
@@ -7767,8 +8219,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-egocentrism-piaget",
       "psy-conservation",
-      "psy-scaffolding"
-    ]
+      "psy-scaffolding",
+      "psy-zone-proximal"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-egocentrism-piaget",
@@ -7804,8 +8258,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-conservation",
       "psy-scaffolding",
-      "psy-zone-proximal"
-    ]
+      "psy-zone-proximal",
+      "psy-executive-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-conservation",
@@ -7841,8 +8297,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-scaffolding",
       "psy-zone-proximal",
-      "psy-executive-development"
-    ]
+      "psy-executive-development",
+      "psy-delay-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-scaffolding",
@@ -7878,8 +8336,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-zone-proximal",
       "psy-executive-development",
-      "psy-delay-development"
-    ]
+      "psy-delay-development",
+      "psy-adolescent-risk"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-zone-proximal",
@@ -7915,8 +8375,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-executive-development",
       "psy-delay-development",
-      "psy-adolescent-risk"
-    ]
+      "psy-adolescent-risk",
+      "psy-peer-influence-adolescence"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-executive-development",
@@ -7952,8 +8414,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-delay-development",
       "psy-adolescent-risk",
-      "psy-peer-influence-adolescence"
-    ]
+      "psy-peer-influence-adolescence",
+      "psy-identity-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-delay-development",
@@ -7989,8 +8453,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-adolescent-risk",
       "psy-peer-influence-adolescence",
-      "psy-identity-development"
-    ]
+      "psy-identity-development",
+      "psy-emerging-adulthood"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-adolescent-risk",
@@ -8026,8 +8492,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-peer-influence-adolescence",
       "psy-identity-development",
-      "psy-emerging-adulthood"
-    ]
+      "psy-emerging-adulthood",
+      "psy-parenting-styles"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-peer-influence-adolescence",
@@ -8063,8 +8531,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-identity-development",
       "psy-emerging-adulthood",
-      "psy-parenting-styles"
-    ]
+      "psy-parenting-styles",
+      "psy-authoritative-parenting"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-identity-development",
@@ -8100,8 +8570,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emerging-adulthood",
       "psy-parenting-styles",
-      "psy-authoritative-parenting"
-    ]
+      "psy-authoritative-parenting",
+      "psy-authoritarian-parenting"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-emerging-adulthood",
@@ -8137,8 +8609,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-parenting-styles",
       "psy-authoritative-parenting",
-      "psy-authoritarian-parenting"
-    ]
+      "psy-authoritarian-parenting",
+      "psy-behavioral-genetics"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-parenting-styles",
@@ -8174,8 +8648,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-authoritative-parenting",
       "psy-authoritarian-parenting",
-      "psy-behavioral-genetics"
-    ]
+      "psy-behavioral-genetics",
+      "psy-gene-environment"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-authoritative-parenting",
@@ -8211,8 +8687,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-authoritarian-parenting",
       "psy-behavioral-genetics",
-      "psy-gene-environment"
-    ]
+      "psy-gene-environment",
+      "psy-resilience-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-authoritarian-parenting",
@@ -8248,8 +8726,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-behavioral-genetics",
       "psy-gene-environment",
-      "psy-resilience-development"
-    ]
+      "psy-resilience-development",
+      "psy-adverse-childhood"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-behavioral-genetics",
@@ -8285,8 +8765,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-gene-environment",
       "psy-resilience-development",
-      "psy-adverse-childhood"
-    ]
+      "psy-adverse-childhood",
+      "psy-developmental-cascades"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-gene-environment",
@@ -8322,8 +8804,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-resilience-development",
       "psy-adverse-childhood",
-      "psy-developmental-cascades"
-    ]
+      "psy-developmental-cascades",
+      "psy-lifespan-development"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-resilience-development",
@@ -8359,8 +8843,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-adverse-childhood",
       "psy-developmental-cascades",
-      "psy-lifespan-development"
-    ]
+      "psy-lifespan-development",
+      "psy-theory-mind"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-adverse-childhood",
@@ -8396,8 +8882,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-developmental-cascades",
       "psy-lifespan-development",
-      "psy-temperament"
-    ]
+      "psy-temperament",
+      "psy-theory-mind"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-developmental-cascades",
@@ -8433,8 +8921,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-lifespan-development",
       "psy-temperament",
-      "psy-goodness-fit"
-    ]
+      "psy-goodness-fit",
+      "psy-theory-mind"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-lifespan-development",
@@ -8470,8 +8960,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-temperament",
       "psy-goodness-fit",
-      "psy-stranger-anxiety"
-    ]
+      "psy-stranger-anxiety",
+      "psy-theory-mind"
+    ],
+    "topic": "Development"
   },
   {
     "id": "psy-fear-conditioning",
@@ -8507,8 +8999,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-safety-learning",
       "psy-avoidance-learning",
-      "psy-exposure-inhibitory"
-    ]
+      "psy-exposure-inhibitory",
+      "psy-anxiety-sensitivity"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-safety-learning",
@@ -8544,8 +9038,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-avoidance-learning",
       "psy-exposure-inhibitory",
-      "psy-anxiety-sensitivity"
-    ]
+      "psy-anxiety-sensitivity",
+      "psy-intolerance-uncertainty"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-avoidance-learning",
@@ -8581,8 +9077,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-exposure-inhibitory",
       "psy-anxiety-sensitivity",
-      "psy-intolerance-uncertainty"
-    ]
+      "psy-intolerance-uncertainty",
+      "psy-worry"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-exposure-inhibitory",
@@ -8618,8 +9116,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-anxiety-sensitivity",
       "psy-intolerance-uncertainty",
-      "psy-worry"
-    ]
+      "psy-worry",
+      "psy-thought-suppression"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-anxiety-sensitivity",
@@ -8655,8 +9155,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-intolerance-uncertainty",
       "psy-worry",
-      "psy-thought-suppression"
-    ]
+      "psy-thought-suppression",
+      "psy-white-bear"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-intolerance-uncertainty",
@@ -8692,8 +9194,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-worry",
       "psy-thought-suppression",
-      "psy-white-bear"
-    ]
+      "psy-white-bear",
+      "psy-intrusive-thoughts"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-worry",
@@ -8729,8 +9233,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-thought-suppression",
       "psy-white-bear",
-      "psy-intrusive-thoughts"
-    ]
+      "psy-intrusive-thoughts",
+      "psy-obsessions"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-thought-suppression",
@@ -8766,8 +9272,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-white-bear",
       "psy-intrusive-thoughts",
-      "psy-obsessions"
-    ]
+      "psy-obsessions",
+      "psy-safety-behaviors"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-white-bear",
@@ -8803,8 +9311,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-intrusive-thoughts",
       "psy-obsessions",
-      "psy-safety-behaviors"
-    ]
+      "psy-safety-behaviors",
+      "psy-interoceptive-exposure"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-intrusive-thoughts",
@@ -8840,8 +9350,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-obsessions",
       "psy-safety-behaviors",
-      "psy-interoceptive-exposure"
-    ]
+      "psy-interoceptive-exposure",
+      "psy-behavioral-experiments"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-obsessions",
@@ -8877,8 +9389,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-safety-behaviors",
       "psy-interoceptive-exposure",
-      "psy-behavioral-experiments"
-    ]
+      "psy-behavioral-experiments",
+      "psy-cognitive-defusion"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-safety-behaviors",
@@ -8914,8 +9428,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-interoceptive-exposure",
       "psy-behavioral-experiments",
-      "psy-cognitive-defusion"
-    ]
+      "psy-cognitive-defusion",
+      "psy-psychological-flexibility"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-interoceptive-exposure",
@@ -8951,8 +9467,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-behavioral-experiments",
       "psy-cognitive-defusion",
-      "psy-psychological-flexibility"
-    ]
+      "psy-psychological-flexibility",
+      "psy-experiential-avoidance"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-behavioral-experiments",
@@ -8988,8 +9506,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-cognitive-defusion",
       "psy-psychological-flexibility",
-      "psy-experiential-avoidance"
-    ]
+      "psy-experiential-avoidance",
+      "psy-mindfulness"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-cognitive-defusion",
@@ -9025,8 +9545,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-psychological-flexibility",
       "psy-experiential-avoidance",
-      "psy-mindfulness"
-    ]
+      "psy-mindfulness",
+      "psy-decentering"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-psychological-flexibility",
@@ -9062,8 +9584,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-experiential-avoidance",
       "psy-mindfulness",
-      "psy-decentering"
-    ]
+      "psy-decentering",
+      "psy-self-compassion"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-experiential-avoidance",
@@ -9099,8 +9623,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mindfulness",
       "psy-decentering",
-      "psy-self-compassion"
-    ]
+      "psy-self-compassion",
+      "psy-ruminative-response"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-mindfulness",
@@ -9136,8 +9662,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-decentering",
       "psy-self-compassion",
-      "psy-ruminative-response"
-    ]
+      "psy-ruminative-response",
+      "psy-hopelessness"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-decentering",
@@ -9173,8 +9701,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-compassion",
       "psy-ruminative-response",
-      "psy-hopelessness"
-    ]
+      "psy-hopelessness",
+      "psy-attributional-style"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-self-compassion",
@@ -9210,8 +9740,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-ruminative-response",
       "psy-hopelessness",
-      "psy-attributional-style"
-    ]
+      "psy-attributional-style",
+      "psy-behavioral-inhibition"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-ruminative-response",
@@ -9247,8 +9779,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hopelessness",
       "psy-attributional-style",
-      "psy-behavioral-inhibition"
-    ]
+      "psy-behavioral-inhibition",
+      "psy-reward-sensitivity"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-hopelessness",
@@ -9284,8 +9818,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-attributional-style",
       "psy-behavioral-inhibition",
-      "psy-reward-sensitivity"
-    ]
+      "psy-reward-sensitivity",
+      "psy-insomnia-conditioning"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-attributional-style",
@@ -9321,8 +9857,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-behavioral-inhibition",
       "psy-reward-sensitivity",
-      "psy-insomnia-conditioning"
-    ]
+      "psy-insomnia-conditioning",
+      "psy-trauma-memory"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-behavioral-inhibition",
@@ -9358,8 +9896,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reward-sensitivity",
       "psy-insomnia-conditioning",
-      "psy-trauma-memory"
-    ]
+      "psy-trauma-memory",
+      "psy-fear-generalization"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-reward-sensitivity",
@@ -9395,8 +9935,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-insomnia-conditioning",
       "psy-trauma-memory",
-      "psy-fear-generalization"
-    ]
+      "psy-fear-generalization",
+      "psy-dissociation"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-insomnia-conditioning",
@@ -9432,8 +9974,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-trauma-memory",
       "psy-fear-generalization",
-      "psy-dissociation"
-    ]
+      "psy-dissociation",
+      "psy-health-anxiety"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-trauma-memory",
@@ -9469,8 +10013,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-fear-generalization",
       "psy-dissociation",
-      "psy-health-anxiety"
-    ]
+      "psy-health-anxiety",
+      "psy-catastrophizing"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-fear-generalization",
@@ -9506,8 +10052,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-dissociation",
       "psy-health-anxiety",
-      "psy-catastrophizing"
-    ]
+      "psy-catastrophizing",
+      "psy-pain-catastrophizing"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-dissociation",
@@ -9543,8 +10091,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-health-anxiety",
       "psy-catastrophizing",
-      "psy-pain-catastrophizing"
-    ]
+      "psy-pain-catastrophizing",
+      "psy-placebo-analgesia"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-health-anxiety",
@@ -9580,8 +10130,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-catastrophizing",
       "psy-pain-catastrophizing",
-      "psy-placebo-analgesia"
-    ]
+      "psy-placebo-analgesia",
+      "psy-therapeutic-alliance"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-catastrophizing",
@@ -9617,8 +10169,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-pain-catastrophizing",
       "psy-placebo-analgesia",
-      "psy-therapeutic-alliance"
-    ]
+      "psy-therapeutic-alliance",
+      "psy-common-factors"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-pain-catastrophizing",
@@ -9654,8 +10208,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-placebo-analgesia",
       "psy-therapeutic-alliance",
-      "psy-common-factors"
-    ]
+      "psy-common-factors",
+      "psy-rumination"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-placebo-analgesia",
@@ -9691,8 +10247,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-therapeutic-alliance",
       "psy-common-factors",
-      "psy-rumination"
-    ]
+      "psy-rumination",
+      "psy-avoidance"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-therapeutic-alliance",
@@ -9728,8 +10286,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-common-factors",
       "psy-rumination",
-      "psy-avoidance"
-    ]
+      "psy-avoidance",
+      "psy-exposure"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-common-factors",
@@ -9765,8 +10325,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-rumination",
       "psy-avoidance",
-      "psy-exposure"
-    ]
+      "psy-exposure",
+      "psy-behavioral-activation"
+    ],
+    "topic": "Mental Health & Therapy"
   },
   {
     "id": "psy-conscientiousness",
@@ -9802,8 +10364,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-extraversion",
       "psy-agreeableness",
-      "psy-neuroticism"
-    ]
+      "psy-neuroticism",
+      "psy-openness"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-extraversion",
@@ -9839,8 +10403,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-agreeableness",
       "psy-neuroticism",
-      "psy-openness"
-    ]
+      "psy-openness",
+      "psy-trait-situation"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-agreeableness",
@@ -9876,8 +10442,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-neuroticism",
       "psy-openness",
-      "psy-trait-situation"
-    ]
+      "psy-trait-situation",
+      "psy-person-environment-fit"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-neuroticism",
@@ -9913,8 +10481,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-openness",
       "psy-trait-situation",
-      "psy-person-environment-fit"
-    ]
+      "psy-person-environment-fit",
+      "psy-personality-development"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-openness",
@@ -9950,8 +10520,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-trait-situation",
       "psy-person-environment-fit",
-      "psy-personality-development"
-    ]
+      "psy-personality-development",
+      "psy-self-monitoring"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-trait-situation",
@@ -9987,8 +10559,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-person-environment-fit",
       "psy-personality-development",
-      "psy-self-monitoring"
-    ]
+      "psy-self-monitoring",
+      "psy-need-cognition"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-person-environment-fit",
@@ -10024,8 +10598,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-personality-development",
       "psy-self-monitoring",
-      "psy-need-cognition"
-    ]
+      "psy-need-cognition",
+      "psy-need-closure"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-personality-development",
@@ -10061,8 +10637,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-monitoring",
       "psy-need-cognition",
-      "psy-need-closure"
-    ]
+      "psy-need-closure",
+      "psy-tolerance-ambiguity"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-self-monitoring",
@@ -10098,8 +10676,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-need-cognition",
       "psy-need-closure",
-      "psy-tolerance-ambiguity"
-    ]
+      "psy-tolerance-ambiguity",
+      "psy-sensation-seeking"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-need-cognition",
@@ -10135,8 +10715,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-need-closure",
       "psy-tolerance-ambiguity",
-      "psy-sensation-seeking"
-    ]
+      "psy-sensation-seeking",
+      "psy-impulsivity"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-need-closure",
@@ -10172,8 +10754,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-tolerance-ambiguity",
       "psy-sensation-seeking",
-      "psy-impulsivity"
-    ]
+      "psy-impulsivity",
+      "psy-perfectionism"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-tolerance-ambiguity",
@@ -10209,8 +10793,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-sensation-seeking",
       "psy-impulsivity",
-      "psy-perfectionism"
-    ]
+      "psy-perfectionism",
+      "psy-narcissism"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-sensation-seeking",
@@ -10246,8 +10832,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-impulsivity",
       "psy-perfectionism",
-      "psy-narcissism"
-    ]
+      "psy-narcissism",
+      "psy-machiavellianism"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-impulsivity",
@@ -10283,8 +10871,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-perfectionism",
       "psy-narcissism",
-      "psy-machiavellianism"
-    ]
+      "psy-machiavellianism",
+      "psy-psychopathy-traits"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-perfectionism",
@@ -10320,8 +10910,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-narcissism",
       "psy-machiavellianism",
-      "psy-psychopathy-traits"
-    ]
+      "psy-psychopathy-traits",
+      "psy-dark-triad"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-narcissism",
@@ -10357,8 +10949,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-machiavellianism",
       "psy-psychopathy-traits",
-      "psy-dark-triad"
-    ]
+      "psy-dark-triad",
+      "psy-honesty-humility"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-machiavellianism",
@@ -10394,8 +10988,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-psychopathy-traits",
       "psy-dark-triad",
-      "psy-honesty-humility"
-    ]
+      "psy-honesty-humility",
+      "psy-emotional-intelligence"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-psychopathy-traits",
@@ -10431,8 +11027,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-dark-triad",
       "psy-honesty-humility",
-      "psy-emotional-intelligence"
-    ]
+      "psy-emotional-intelligence",
+      "psy-trait-empathy"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-dark-triad",
@@ -10468,8 +11066,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-honesty-humility",
       "psy-emotional-intelligence",
-      "psy-trait-empathy"
-    ]
+      "psy-trait-empathy",
+      "psy-optimism"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-honesty-humility",
@@ -10505,8 +11105,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-emotional-intelligence",
       "psy-trait-empathy",
-      "psy-optimism"
-    ]
+      "psy-optimism",
+      "psy-hardiness"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-emotional-intelligence",
@@ -10542,8 +11144,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-trait-empathy",
       "psy-optimism",
-      "psy-hardiness"
-    ]
+      "psy-hardiness",
+      "psy-resilience"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-trait-empathy",
@@ -10579,8 +11183,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-optimism",
       "psy-hardiness",
-      "psy-resilience"
-    ]
+      "psy-resilience",
+      "psy-self-esteem"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-optimism",
@@ -10616,8 +11222,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hardiness",
       "psy-resilience",
-      "psy-self-esteem"
-    ]
+      "psy-self-esteem",
+      "psy-contingent-self-esteem"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-hardiness",
@@ -10653,8 +11261,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-resilience",
       "psy-self-esteem",
-      "psy-contingent-self-esteem"
-    ]
+      "psy-contingent-self-esteem",
+      "psy-regulatory-focus"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-resilience",
@@ -10690,8 +11300,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-esteem",
       "psy-contingent-self-esteem",
-      "psy-regulatory-focus"
-    ]
+      "psy-regulatory-focus",
+      "psy-big-five"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-self-esteem",
@@ -10727,8 +11339,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-contingent-self-esteem",
       "psy-regulatory-focus",
-      "psy-conscientiousness"
-    ]
+      "psy-conscientiousness",
+      "psy-big-five"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-contingent-self-esteem",
@@ -10764,8 +11378,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-regulatory-focus",
       "psy-conscientiousness",
-      "psy-extraversion"
-    ]
+      "psy-extraversion",
+      "psy-big-five"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-regulatory-focus",
@@ -10801,8 +11417,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-conscientiousness",
       "psy-extraversion",
-      "psy-agreeableness"
-    ]
+      "psy-agreeableness",
+      "psy-big-five"
+    ],
+    "topic": "Personality"
   },
   {
     "id": "psy-reliability",
@@ -10838,8 +11456,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-validity",
       "psy-construct-validity",
-      "psy-internal-validity"
-    ]
+      "psy-internal-validity",
+      "psy-external-validity"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-validity",
@@ -10875,8 +11495,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-construct-validity",
       "psy-internal-validity",
-      "psy-external-validity"
-    ]
+      "psy-external-validity",
+      "psy-ecological-validity"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-construct-validity",
@@ -10912,8 +11534,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-internal-validity",
       "psy-external-validity",
-      "psy-ecological-validity"
-    ]
+      "psy-ecological-validity",
+      "psy-measurement-error"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-internal-validity",
@@ -10949,8 +11573,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-external-validity",
       "psy-ecological-validity",
-      "psy-measurement-error"
-    ]
+      "psy-measurement-error",
+      "psy-test-retest"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-external-validity",
@@ -10986,8 +11612,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-ecological-validity",
       "psy-measurement-error",
-      "psy-test-retest"
-    ]
+      "psy-test-retest",
+      "psy-interrater"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-ecological-validity",
@@ -11023,8 +11651,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-measurement-error",
       "psy-test-retest",
-      "psy-interrater"
-    ]
+      "psy-interrater",
+      "psy-operationalization"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-measurement-error",
@@ -11060,8 +11690,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-test-retest",
       "psy-interrater",
-      "psy-operationalization"
-    ]
+      "psy-operationalization",
+      "psy-confound"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-test-retest",
@@ -11097,8 +11729,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-interrater",
       "psy-operationalization",
-      "psy-confound"
-    ]
+      "psy-confound",
+      "psy-randomization"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-interrater",
@@ -11134,8 +11768,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-operationalization",
       "psy-confound",
-      "psy-randomization"
-    ]
+      "psy-randomization",
+      "psy-blinding"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-operationalization",
@@ -11171,8 +11807,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-confound",
       "psy-randomization",
-      "psy-blinding"
-    ]
+      "psy-blinding",
+      "psy-double-blind"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-confound",
@@ -11208,8 +11846,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-randomization",
       "psy-blinding",
-      "psy-double-blind"
-    ]
+      "psy-double-blind",
+      "psy-control-group"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-randomization",
@@ -11245,8 +11885,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-blinding",
       "psy-double-blind",
-      "psy-control-group"
-    ]
+      "psy-control-group",
+      "psy-within-subject"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-blinding",
@@ -11282,8 +11924,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-double-blind",
       "psy-control-group",
-      "psy-within-subject"
-    ]
+      "psy-within-subject",
+      "psy-between-subject"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-double-blind",
@@ -11319,8 +11963,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-control-group",
       "psy-within-subject",
-      "psy-between-subject"
-    ]
+      "psy-between-subject",
+      "psy-longitudinal"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-control-group",
@@ -11356,8 +12002,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-within-subject",
       "psy-between-subject",
-      "psy-longitudinal"
-    ]
+      "psy-longitudinal",
+      "psy-cross-sectional"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-within-subject",
@@ -11393,8 +12041,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-between-subject",
       "psy-longitudinal",
-      "psy-cross-sectional"
-    ]
+      "psy-cross-sectional",
+      "psy-natural-experiment"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-between-subject",
@@ -11430,8 +12080,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-longitudinal",
       "psy-cross-sectional",
-      "psy-natural-experiment"
-    ]
+      "psy-natural-experiment",
+      "psy-quasi-experiment"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-longitudinal",
@@ -11467,8 +12119,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-cross-sectional",
       "psy-natural-experiment",
-      "psy-quasi-experiment"
-    ]
+      "psy-quasi-experiment",
+      "psy-meta-analysis"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-cross-sectional",
@@ -11504,8 +12158,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-natural-experiment",
       "psy-quasi-experiment",
-      "psy-meta-analysis"
-    ]
+      "psy-meta-analysis",
+      "psy-systematic-review"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-natural-experiment",
@@ -11541,8 +12197,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-quasi-experiment",
       "psy-meta-analysis",
-      "psy-systematic-review"
-    ]
+      "psy-systematic-review",
+      "psy-confidence-interval"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-quasi-experiment",
@@ -11578,8 +12236,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-meta-analysis",
       "psy-systematic-review",
-      "psy-confidence-interval"
-    ]
+      "psy-confidence-interval",
+      "psy-statistical-power"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-meta-analysis",
@@ -11615,8 +12275,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-systematic-review",
       "psy-confidence-interval",
-      "psy-statistical-power"
-    ]
+      "psy-statistical-power",
+      "psy-false-positive"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-systematic-review",
@@ -11652,8 +12314,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-confidence-interval",
       "psy-statistical-power",
-      "psy-false-positive"
-    ]
+      "psy-false-positive",
+      "psy-false-negative"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-confidence-interval",
@@ -11689,8 +12353,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-statistical-power",
       "psy-false-positive",
-      "psy-false-negative"
-    ]
+      "psy-false-negative",
+      "psy-multiple-comparisons"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-statistical-power",
@@ -11726,8 +12392,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-false-positive",
       "psy-false-negative",
-      "psy-multiple-comparisons"
-    ]
+      "psy-multiple-comparisons",
+      "psy-preregistration"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-false-positive",
@@ -11763,8 +12431,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-false-negative",
       "psy-multiple-comparisons",
-      "psy-preregistration"
-    ]
+      "psy-preregistration",
+      "psy-registered-reports"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-false-negative",
@@ -11800,8 +12470,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-multiple-comparisons",
       "psy-preregistration",
-      "psy-registered-reports"
-    ]
+      "psy-registered-reports",
+      "psy-open-data"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-multiple-comparisons",
@@ -11837,8 +12509,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-preregistration",
       "psy-registered-reports",
-      "psy-open-data"
-    ]
+      "psy-open-data",
+      "psy-open-materials"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-preregistration",
@@ -11874,8 +12548,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-registered-reports",
       "psy-open-data",
-      "psy-open-materials"
-    ]
+      "psy-open-materials",
+      "psy-replication-crisis"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-registered-reports",
@@ -11911,8 +12587,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-open-data",
       "psy-open-materials",
-      "psy-replication-crisis"
-    ]
+      "psy-replication-crisis",
+      "psy-file-drawer"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-open-data",
@@ -11948,8 +12626,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-open-materials",
       "psy-replication-crisis",
-      "psy-file-drawer"
-    ]
+      "psy-file-drawer",
+      "psy-small-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-open-materials",
@@ -11985,8 +12665,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-replication-crisis",
       "psy-file-drawer",
-      "psy-small-samples"
-    ]
+      "psy-small-samples",
+      "psy-sampling-bias"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-replication-crisis",
@@ -12022,8 +12704,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-file-drawer",
       "psy-small-samples",
-      "psy-sampling-bias"
-    ]
+      "psy-sampling-bias",
+      "psy-convenience-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-file-drawer",
@@ -12059,8 +12743,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-small-samples",
       "psy-sampling-bias",
-      "psy-convenience-samples"
-    ]
+      "psy-convenience-samples",
+      "psy-measurement-invariance"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-small-samples",
@@ -12096,8 +12782,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-sampling-bias",
       "psy-convenience-samples",
-      "psy-measurement-invariance"
-    ]
+      "psy-measurement-invariance",
+      "psy-cross-cultural-validity"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-sampling-bias",
@@ -12133,8 +12821,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-convenience-samples",
       "psy-measurement-invariance",
-      "psy-cross-cultural-validity"
-    ]
+      "psy-cross-cultural-validity",
+      "psy-observer-expectancy"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-convenience-samples",
@@ -12170,8 +12860,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-measurement-invariance",
       "psy-cross-cultural-validity",
-      "psy-observer-expectancy"
-    ]
+      "psy-observer-expectancy",
+      "psy-hawthorne"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-measurement-invariance",
@@ -12207,8 +12899,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-cross-cultural-validity",
       "psy-observer-expectancy",
-      "psy-hawthorne"
-    ]
+      "psy-hawthorne",
+      "psy-social-desirability"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-cross-cultural-validity",
@@ -12244,8 +12938,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-observer-expectancy",
       "psy-hawthorne",
-      "psy-social-desirability"
-    ]
+      "psy-social-desirability",
+      "psy-reverse-causality"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-observer-expectancy",
@@ -12281,8 +12977,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-hawthorne",
       "psy-social-desirability",
-      "psy-reverse-causality"
-    ]
+      "psy-reverse-causality",
+      "psy-third-variable"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-hawthorne",
@@ -12318,8 +13016,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-desirability",
       "psy-reverse-causality",
-      "psy-third-variable"
-    ]
+      "psy-third-variable",
+      "psy-bayesian-reasoning"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-social-desirability",
@@ -12355,8 +13055,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reverse-causality",
       "psy-third-variable",
-      "psy-bayesian-reasoning"
-    ]
+      "psy-bayesian-reasoning",
+      "psy-open-science"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-reverse-causality",
@@ -12392,8 +13094,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-third-variable",
       "psy-bayesian-reasoning",
-      "psy-open-science"
-    ]
+      "psy-open-science",
+      "psy-weird-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-third-variable",
@@ -12429,8 +13133,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-bayesian-reasoning",
       "psy-open-science",
-      "psy-reliability"
-    ]
+      "psy-reliability",
+      "psy-weird-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-bayesian-reasoning",
@@ -12466,8 +13172,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-open-science",
       "psy-reliability",
-      "psy-validity"
-    ]
+      "psy-validity",
+      "psy-weird-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-open-science",
@@ -12503,8 +13211,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reliability",
       "psy-validity",
-      "psy-construct-validity"
-    ]
+      "psy-construct-validity",
+      "psy-weird-samples"
+    ],
+    "topic": "Psychology Methods"
   },
   {
     "id": "psy-categorization",
@@ -12540,8 +13250,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-concept-formation",
       "psy-prototype-theory",
-      "psy-lexical-access"
-    ]
+      "psy-lexical-access",
+      "psy-semantic-priming"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-concept-formation",
@@ -12577,8 +13289,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-prototype-theory",
       "psy-lexical-access",
-      "psy-semantic-priming"
-    ]
+      "psy-semantic-priming",
+      "psy-garden-path"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-prototype-theory",
@@ -12614,8 +13328,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-lexical-access",
       "psy-semantic-priming",
-      "psy-garden-path"
-    ]
+      "psy-garden-path",
+      "psy-linguistic-relativity"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-lexical-access",
@@ -12651,8 +13367,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-semantic-priming",
       "psy-garden-path",
-      "psy-linguistic-relativity"
-    ]
+      "psy-linguistic-relativity",
+      "psy-categorical-perception"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-semantic-priming",
@@ -12688,8 +13406,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-garden-path",
       "psy-linguistic-relativity",
-      "psy-categorical-perception"
-    ]
+      "psy-categorical-perception",
+      "psy-speech-segmentation"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-garden-path",
@@ -12725,8 +13445,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-linguistic-relativity",
       "psy-categorical-perception",
-      "psy-speech-segmentation"
-    ]
+      "psy-speech-segmentation",
+      "psy-phonological-loop"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-linguistic-relativity",
@@ -12762,8 +13484,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-categorical-perception",
       "psy-speech-segmentation",
-      "psy-phonological-loop"
-    ]
+      "psy-phonological-loop",
+      "psy-inner-speech"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-categorical-perception",
@@ -12799,8 +13523,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-speech-segmentation",
       "psy-phonological-loop",
-      "psy-inner-speech"
-    ]
+      "psy-inner-speech",
+      "psy-bilingualism"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-speech-segmentation",
@@ -12836,8 +13562,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-phonological-loop",
       "psy-inner-speech",
-      "psy-bilingualism"
-    ]
+      "psy-bilingualism",
+      "psy-code-switching"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-phonological-loop",
@@ -12873,8 +13601,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-inner-speech",
       "psy-bilingualism",
-      "psy-code-switching"
-    ]
+      "psy-code-switching",
+      "psy-metaphor-cognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-inner-speech",
@@ -12910,8 +13640,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-bilingualism",
       "psy-code-switching",
-      "psy-metaphor-cognition"
-    ]
+      "psy-metaphor-cognition",
+      "psy-embodied-cognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-bilingualism",
@@ -12947,8 +13679,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-code-switching",
       "psy-metaphor-cognition",
-      "psy-embodied-cognition"
-    ]
+      "psy-embodied-cognition",
+      "psy-mental-imagery"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-code-switching",
@@ -12984,8 +13718,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-metaphor-cognition",
       "psy-embodied-cognition",
-      "psy-mental-imagery"
-    ]
+      "psy-mental-imagery",
+      "psy-mental-rotation"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-metaphor-cognition",
@@ -13021,8 +13757,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-embodied-cognition",
       "psy-mental-imagery",
-      "psy-mental-rotation"
-    ]
+      "psy-mental-rotation",
+      "psy-spatial-cognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-embodied-cognition",
@@ -13058,8 +13796,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mental-imagery",
       "psy-mental-rotation",
-      "psy-spatial-cognition"
-    ]
+      "psy-spatial-cognition",
+      "psy-cognitive-map"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-mental-imagery",
@@ -13095,8 +13835,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mental-rotation",
       "psy-spatial-cognition",
-      "psy-cognitive-map"
-    ]
+      "psy-cognitive-map",
+      "psy-numerical-cognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-mental-rotation",
@@ -13132,8 +13874,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-spatial-cognition",
       "psy-cognitive-map",
-      "psy-numerical-cognition"
-    ]
+      "psy-numerical-cognition",
+      "psy-problem-representation"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-spatial-cognition",
@@ -13169,8 +13913,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-cognitive-map",
       "psy-numerical-cognition",
-      "psy-problem-representation"
-    ]
+      "psy-problem-representation",
+      "psy-analogical-reasoning"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-cognitive-map",
@@ -13206,8 +13952,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-numerical-cognition",
       "psy-problem-representation",
-      "psy-analogical-reasoning"
-    ]
+      "psy-analogical-reasoning",
+      "psy-insight-problem"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-numerical-cognition",
@@ -13243,8 +13991,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-problem-representation",
       "psy-analogical-reasoning",
-      "psy-insight-problem"
-    ]
+      "psy-insight-problem",
+      "psy-confirmation-problem-solving"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-problem-representation",
@@ -13280,8 +14030,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-analogical-reasoning",
       "psy-insight-problem",
-      "psy-confirmation-problem-solving"
-    ]
+      "psy-confirmation-problem-solving",
+      "psy-expertise"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-analogical-reasoning",
@@ -13317,8 +14069,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-insight-problem",
       "psy-confirmation-problem-solving",
-      "psy-expertise"
-    ]
+      "psy-expertise",
+      "psy-deliberate-practice"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-insight-problem",
@@ -13354,8 +14108,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-confirmation-problem-solving",
       "psy-expertise",
-      "psy-deliberate-practice"
-    ]
+      "psy-deliberate-practice",
+      "psy-transfer-learning"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-confirmation-problem-solving",
@@ -13391,8 +14147,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-expertise",
       "psy-deliberate-practice",
-      "psy-transfer-learning"
-    ]
+      "psy-transfer-learning",
+      "psy-metaphor-framing"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-expertise",
@@ -13428,8 +14186,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-deliberate-practice",
       "psy-transfer-learning",
-      "psy-metaphor-framing"
-    ]
+      "psy-metaphor-framing",
+      "psy-metacognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-deliberate-practice",
@@ -13465,8 +14225,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-transfer-learning",
       "psy-metaphor-framing",
-      "psy-categorization"
-    ]
+      "psy-categorization",
+      "psy-metacognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-transfer-learning",
@@ -13502,8 +14264,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-metaphor-framing",
       "psy-categorization",
-      "psy-concept-formation"
-    ]
+      "psy-concept-formation",
+      "psy-metacognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-metaphor-framing",
@@ -13539,8 +14303,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-categorization",
       "psy-concept-formation",
-      "psy-prototype-theory"
-    ]
+      "psy-prototype-theory",
+      "psy-metacognition"
+    ],
+    "topic": "Cognition & Thinking"
   },
   {
     "id": "psy-kin-selection",
@@ -13576,8 +14342,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-reciprocal-altruism",
       "psy-parental-investment",
-      "psy-sexual-selection"
-    ]
+      "psy-sexual-selection",
+      "psy-mate-choice"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-reciprocal-altruism",
@@ -13613,8 +14381,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-parental-investment",
       "psy-sexual-selection",
-      "psy-mate-choice"
-    ]
+      "psy-mate-choice",
+      "psy-cooperation-evolution"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-parental-investment",
@@ -13650,8 +14420,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-sexual-selection",
       "psy-mate-choice",
-      "psy-cooperation-evolution"
-    ]
+      "psy-cooperation-evolution",
+      "psy-costly-signals"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-sexual-selection",
@@ -13687,8 +14459,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-mate-choice",
       "psy-cooperation-evolution",
-      "psy-costly-signals"
-    ]
+      "psy-costly-signals",
+      "psy-life-history"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-mate-choice",
@@ -13724,8 +14498,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-cooperation-evolution",
       "psy-costly-signals",
-      "psy-life-history"
-    ]
+      "psy-life-history",
+      "psy-coalitional-psychology"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-cooperation-evolution",
@@ -13761,8 +14537,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-costly-signals",
       "psy-life-history",
-      "psy-coalitional-psychology"
-    ]
+      "psy-coalitional-psychology",
+      "psy-status"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-costly-signals",
@@ -13798,8 +14576,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-life-history",
       "psy-coalitional-psychology",
-      "psy-status"
-    ]
+      "psy-status",
+      "psy-prestige"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-life-history",
@@ -13835,8 +14615,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-coalitional-psychology",
       "psy-status",
-      "psy-prestige"
-    ]
+      "psy-prestige",
+      "psy-dominance"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-coalitional-psychology",
@@ -13872,8 +14654,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-status",
       "psy-prestige",
-      "psy-dominance"
-    ]
+      "psy-dominance",
+      "psy-social-learning-evolution"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-status",
@@ -13909,8 +14693,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-prestige",
       "psy-dominance",
-      "psy-social-learning-evolution"
-    ]
+      "psy-social-learning-evolution",
+      "psy-kin-selection"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-prestige",
@@ -13946,8 +14732,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-dominance",
       "psy-social-learning-evolution",
-      "psy-kin-selection"
-    ]
+      "psy-kin-selection",
+      "psy-reciprocal-altruism"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-dominance",
@@ -13983,8 +14771,10 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-learning-evolution",
       "psy-kin-selection",
-      "psy-reciprocal-altruism"
-    ]
+      "psy-reciprocal-altruism",
+      "psy-parental-investment"
+    ],
+    "topic": "Evolution & Behavior"
   },
   {
     "id": "psy-social-learning-evolution",
@@ -14020,7 +14810,9 @@ export const psychologyConcepts = [
     "related": [
       "psy-kin-selection",
       "psy-reciprocal-altruism",
-      "psy-parental-investment"
-    ]
+      "psy-parental-investment",
+      "psy-sexual-selection"
+    ],
+    "topic": "Evolution & Behavior"
   }
 ];
