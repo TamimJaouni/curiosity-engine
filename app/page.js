@@ -27,7 +27,7 @@ export default function Home(){
  const [screen,setScreen]=useState('home'),[cards,setCards]=useState([]),[concept,setConcept]=useState(null),[picked,setPicked]=useState(null),[seen,setSeen]=useState([]),[known,setKnown]=useState([]);
  useEffect(()=>{try{setSeen(JSON.parse(localStorage.getItem('ce-seen')||'[]'));setKnown(JSON.parse(localStorage.getItem('ce-known')||'[]'))}catch{}},[]);
  const persist=(s,k)=>{setSeen(s);setKnown(k);localStorage.setItem('ce-seen',JSON.stringify(s));localStorage.setItem('ce-known',JSON.stringify(k))};
- const discover=()=>{setCards(diverseSample(concepts));setScreen('browse');setConcept(null);setPicked(null)};
+ const discover=()=>{setCards(diverseSample(concepts,5,cards.map(x=>x.id)));setScreen('browse');setConcept(null);setPicked(null)};
  const open=c=>{setConcept(c);setPicked(null);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
  const answer=i=>{setPicked(i);if(i===concept.answer&&!known.includes(concept.id))persist(seen.includes(concept.id)?seen:[...seen,concept.id],[...known,concept.id])};
  const related=()=>open(concepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)||concepts.find(x=>x.id!==concept.id));
