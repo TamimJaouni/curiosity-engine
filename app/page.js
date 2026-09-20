@@ -8,7 +8,7 @@ const worlds=[
  {id:'body',name:'Body & Gym',desc:'Training-relevant anatomy, movement, hypertrophy and recovery.',status:'next',target:'120–180'},
  {id:'economics',name:'Economics',desc:'Markets, money, incentives, crises and institutions.',status:'planned',target:'400–600'},
  {id:'social-sciences',name:'Social Sciences',desc:'Society, culture, institutions, power, groups, inequality and human organization.',target:'140+',status:'live'},
- {id:'philosophy',name:'Continental Philosophy',desc:'German Idealism, phenomenology, existentialism, critical theory and post-structuralism',status:'planned',target:'300–450'},{id:'analytic-philosophy',name:'Analytic Philosophy',desc:'Logic, language, mind, knowledge, science, metaphysics and analytic ethics.',target:'200+',status:'planned'},
+ {id:'philosophy',name:'Continental Philosophy',desc:'German Idealism, phenomenology, existentialism, critical theory and post-structuralism',status:'planned',target:'300–450'},{id:'analytic-philosophy',name:'Analytic Philosophy',desc:'Logic, language, mind, knowledge, science, metaphysics and analytic ethics.',target:'327',status:'live'},
  {id:'europe',name:'European History',desc:'Events, people, institutions and long processes across Europe.',status:'planned',target:'900–1,200'},
  {id:'middle-east',name:'Middle East History',desc:'Empires, states, movements and turning points across the region.',status:'planned',target:'700–900'},
  {id:'gulf',name:'UAE & The Gulf',desc:'Federation, oil, society, states and Gulf political economy.',status:'planned',target:'200–350'}
