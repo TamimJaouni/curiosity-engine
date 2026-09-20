@@ -3,7 +3,7 @@ export const psychologyConcepts = [
     "id": "psy-selective-attention",
     "world": "psychology",
     "name": "Selective Attention",
-    "pool": "Attention & Perception",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why can focusing on one thing make other visible things disappear?",
     "question": "Why can focusing on one thing make other visible things disappear?",
     "options": [
@@ -42,7 +42,7 @@ export const psychologyConcepts = [
     "id": "psy-attentional-blink",
     "world": "psychology",
     "name": "Attentional Blink",
-    "pool": "Attention & Perception",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why can noticing one target make you briefly miss the next?",
     "question": "Why can noticing one target make you briefly miss the next?",
     "options": [
@@ -81,7 +81,7 @@ export const psychologyConcepts = [
     "id": "psy-signal-detection",
     "world": "psychology",
     "name": "Signal Detection Theory",
-    "pool": "Attention & Perception",
+    "pool": "Cognition, Memory & Perception",
     "hook": "When evidence is noisy, how do you decide whether a signal is really there?",
     "question": "When evidence is noisy, how do you decide whether a signal is really there?",
     "options": [
@@ -120,7 +120,7 @@ export const psychologyConcepts = [
     "id": "psy-pareidolia",
     "world": "psychology",
     "name": "Pareidolia",
-    "pool": "Attention & Perception",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do faces appear in clouds and random textures?",
     "question": "Why do faces appear in clouds and random textures?",
     "options": [
@@ -159,7 +159,7 @@ export const psychologyConcepts = [
     "id": "psy-sensory-adaptation",
     "world": "psychology",
     "name": "Sensory Adaptation",
-    "pool": "Attention & Perception",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do you stop noticing a constant smell?",
     "question": "Why do you stop noticing a constant smell?",
     "options": [
@@ -198,7 +198,7 @@ export const psychologyConcepts = [
     "id": "psy-episodic-memory",
     "world": "psychology",
     "name": "Episodic Memory",
-    "pool": "Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What lets you mentally revisit a particular event?",
     "question": "What lets you mentally revisit a particular event?",
     "options": [
@@ -237,7 +237,7 @@ export const psychologyConcepts = [
     "id": "psy-semantic-memory",
     "world": "psychology",
     "name": "Semantic Memory",
-    "pool": "Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "How can you know a fact without remembering when you learned it?",
     "question": "How can you know a fact without remembering when you learned it?",
     "options": [
@@ -276,7 +276,7 @@ export const psychologyConcepts = [
     "id": "psy-procedural-memory",
     "world": "psychology",
     "name": "Procedural Memory",
-    "pool": "Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why can you know how to do something but struggle to explain it?",
     "question": "Why can you know how to do something but struggle to explain it?",
     "options": [
@@ -315,7 +315,7 @@ export const psychologyConcepts = [
     "id": "psy-source-monitoring",
     "world": "psychology",
     "name": "Source Monitoring",
-    "pool": "Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "How can you remember information but forget where it came from?",
     "question": "How can you remember information but forget where it came from?",
     "options": [
@@ -354,7 +354,7 @@ export const psychologyConcepts = [
     "id": "psy-misinformation-effect",
     "world": "psychology",
     "name": "Misinformation Effect",
-    "pool": "Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Can later information alter memory for an earlier event?",
     "question": "Can later information alter memory for an earlier event?",
     "options": [
@@ -393,7 +393,7 @@ export const psychologyConcepts = [
     "id": "psy-retrieval-practice",
     "world": "psychology",
     "name": "Retrieval Practice",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why can testing yourself beat rereading?",
     "question": "Why can testing yourself beat rereading?",
     "options": [
@@ -432,7 +432,7 @@ export const psychologyConcepts = [
     "id": "psy-interleaving",
     "world": "psychology",
     "name": "Interleaving",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why mix problem types instead of practicing one block at a time?",
     "question": "Why mix problem types instead of practicing one block at a time?",
     "options": [
@@ -471,7 +471,7 @@ export const psychologyConcepts = [
     "id": "psy-classical-conditioning",
     "world": "psychology",
     "name": "Classical Conditioning",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "How can a neutral cue start triggering a learned response?",
     "question": "How can a neutral cue start triggering a learned response?",
     "options": [
@@ -510,7 +510,7 @@ export const psychologyConcepts = [
     "id": "psy-operant-conditioning",
     "world": "psychology",
     "name": "Operant Conditioning",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "How do consequences reshape behavior?",
     "question": "How do consequences reshape behavior?",
     "options": [
@@ -549,7 +549,7 @@ export const psychologyConcepts = [
     "id": "psy-negative-reinforcement",
     "world": "psychology",
     "name": "Negative Reinforcement",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why is negative reinforcement not punishment?",
     "question": "Why is negative reinforcement not punishment?",
     "options": [
@@ -588,7 +588,7 @@ export const psychologyConcepts = [
     "id": "psy-habituation",
     "world": "psychology",
     "name": "Habituation",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why does a repeated harmless sound gradually stop bothering you?",
     "question": "Why does a repeated harmless sound gradually stop bothering you?",
     "options": [
@@ -627,7 +627,7 @@ export const psychologyConcepts = [
     "id": "psy-observational-learning",
     "world": "psychology",
     "name": "Observational Learning",
-    "pool": "Learning",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "How can you learn without directly trying something yourself?",
     "question": "How can you learn without directly trying something yourself?",
     "options": [
@@ -666,7 +666,7 @@ export const psychologyConcepts = [
     "id": "psy-self-efficacy",
     "world": "psychology",
     "name": "Self-Efficacy",
-    "pool": "Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why does believing you can execute a task affect whether you attempt it?",
     "question": "Why does believing you can execute a task affect whether you attempt it?",
     "options": [
@@ -704,7 +704,7 @@ export const psychologyConcepts = [
     "id": "psy-intrinsic-motivation",
     "world": "psychology",
     "name": "Intrinsic Motivation",
-    "pool": "Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What makes an activity rewarding without an external prize?",
     "question": "What makes an activity rewarding without an external prize?",
     "options": [
@@ -742,7 +742,7 @@ export const psychologyConcepts = [
     "id": "psy-self-determination",
     "world": "psychology",
     "name": "Self-Determination Theory",
-    "pool": "Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What needs are proposed to support high-quality motivation?",
     "question": "What needs are proposed to support high-quality motivation?",
     "options": [
@@ -780,7 +780,7 @@ export const psychologyConcepts = [
     "id": "psy-implementation-intentions",
     "world": "psychology",
     "name": "Implementation Intentions",
-    "pool": "Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why can an if-then plan outperform a vague intention?",
     "question": "Why can an if-then plan outperform a vague intention?",
     "options": [
@@ -818,7 +818,7 @@ export const psychologyConcepts = [
     "id": "psy-delay-discounting",
     "world": "psychology",
     "name": "Delay Discounting",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why can a smaller reward now beat a larger reward later?",
     "question": "Why can a smaller reward now beat a larger reward later?",
     "options": [
@@ -857,7 +857,7 @@ export const psychologyConcepts = [
     "id": "psy-anchoring",
     "world": "psychology",
     "name": "Anchoring",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why can an arbitrary starting number pull later estimates toward it?",
     "question": "Why can an arbitrary starting number pull later estimates toward it?",
     "options": [
@@ -896,7 +896,7 @@ export const psychologyConcepts = [
     "id": "psy-availability",
     "world": "psychology",
     "name": "Availability Heuristic",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why can vivid examples make an event feel more common?",
     "question": "Why can vivid examples make an event feel more common?",
     "options": [
@@ -935,7 +935,7 @@ export const psychologyConcepts = [
     "id": "psy-hindsight",
     "world": "psychology",
     "name": "Hindsight Bias",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why does an outcome seem obvious after you know it happened?",
     "question": "Why does an outcome seem obvious after you know it happened?",
     "options": [
@@ -974,7 +974,7 @@ export const psychologyConcepts = [
     "id": "psy-planning-fallacy",
     "world": "psychology",
     "name": "Planning Fallacy",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do projects so often take longer than expected?",
     "question": "Why do projects so often take longer than expected?",
     "options": [
@@ -1013,7 +1013,7 @@ export const psychologyConcepts = [
     "id": "psy-default-effect",
     "world": "psychology",
     "name": "Default Effect",
-    "pool": "Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why does the preselected option matter?",
     "question": "Why does the preselected option matter?",
     "options": [
@@ -1052,7 +1052,7 @@ export const psychologyConcepts = [
     "id": "psy-metacognition",
     "world": "psychology",
     "name": "Metacognition",
-    "pool": "Metacognition",
+    "pool": "Cognition, Memory & Perception",
     "hook": "How well do you know what you know?",
     "question": "How well do you know what you know?",
     "options": [
@@ -1091,7 +1091,7 @@ export const psychologyConcepts = [
     "id": "psy-explanatory-depth",
     "world": "psychology",
     "name": "Illusion of Explanatory Depth",
-    "pool": "Metacognition",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do familiar mechanisms seem easy to explain until you try?",
     "question": "Why do familiar mechanisms seem easy to explain until you try?",
     "options": [
@@ -1130,7 +1130,7 @@ export const psychologyConcepts = [
     "id": "psy-regression-mean",
     "world": "psychology",
     "name": "Regression to the Mean",
-    "pool": "Reasoning",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why are extreme performances often followed by less extreme ones?",
     "question": "Why are extreme performances often followed by less extreme ones?",
     "options": [
@@ -1169,7 +1169,7 @@ export const psychologyConcepts = [
     "id": "psy-group-polarization",
     "world": "psychology",
     "name": "Group Polarization",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why can discussion push a like-minded group toward a more extreme position?",
     "question": "Why can discussion push a like-minded group toward a more extreme position?",
     "options": [
@@ -1208,7 +1208,7 @@ export const psychologyConcepts = [
     "id": "psy-pluralistic-ignorance",
     "world": "psychology",
     "name": "Pluralistic Ignorance",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What if everyone privately disagrees but thinks everyone else agrees?",
     "question": "What if everyone privately disagrees but thinks everyone else agrees?",
     "options": [
@@ -1247,7 +1247,7 @@ export const psychologyConcepts = [
     "id": "psy-normative-influence",
     "world": "psychology",
     "name": "Normative Social Influence",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why agree publicly when you privately doubt the group?",
     "question": "Why agree publicly when you privately doubt the group?",
     "options": [
@@ -1286,7 +1286,7 @@ export const psychologyConcepts = [
     "id": "psy-informational-influence",
     "world": "psychology",
     "name": "Informational Social Influence",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "When does the crowd become evidence about reality?",
     "question": "When does the crowd become evidence about reality?",
     "options": [
@@ -1325,7 +1325,7 @@ export const psychologyConcepts = [
     "id": "psy-reciprocity",
     "world": "psychology",
     "name": "Norm of Reciprocity",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why does receiving a favor create pressure to return one?",
     "question": "Why does receiving a favor create pressure to return one?",
     "options": [
@@ -1364,7 +1364,7 @@ export const psychologyConcepts = [
     "id": "psy-halo-effect",
     "world": "psychology",
     "name": "Halo Effect",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why can one positive trait spill into unrelated judgments?",
     "question": "Why can one positive trait spill into unrelated judgments?",
     "options": [
@@ -1403,7 +1403,7 @@ export const psychologyConcepts = [
     "id": "psy-in-group-bias",
     "world": "psychology",
     "name": "In-Group Bias",
-    "pool": "Social psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why can simply dividing people into groups change judgment?",
     "question": "Why can simply dividing people into groups change judgment?",
     "options": [
@@ -1442,7 +1442,7 @@ export const psychologyConcepts = [
     "id": "psy-attachment",
     "world": "psychology",
     "name": "Attachment Theory",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "How do close relationships relate to security and exploration?",
     "question": "How do close relationships relate to security and exploration?",
     "options": [
@@ -1481,7 +1481,7 @@ export const psychologyConcepts = [
     "id": "psy-self-disclosure",
     "world": "psychology",
     "name": "Self-Disclosure",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "How does revealing personal information change closeness?",
     "question": "How does revealing personal information change closeness?",
     "options": [
@@ -1520,7 +1520,7 @@ export const psychologyConcepts = [
     "id": "psy-rejection-sensitivity",
     "world": "psychology",
     "name": "Rejection Sensitivity",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why can expecting rejection make ambiguous signals feel threatening?",
     "question": "Why can expecting rejection make ambiguous signals feel threatening?",
     "options": [
@@ -1559,7 +1559,7 @@ export const psychologyConcepts = [
     "id": "psy-emotion-regulation",
     "world": "psychology",
     "name": "Emotion Regulation",
-    "pool": "Emotion",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What happens between feeling an emotion and deciding what to do with it?",
     "question": "What happens between feeling an emotion and deciding what to do with it?",
     "options": [
@@ -1598,7 +1598,7 @@ export const psychologyConcepts = [
     "id": "psy-reappraisal",
     "world": "psychology",
     "name": "Cognitive Reappraisal",
-    "pool": "Emotion",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Can changing your interpretation change your emotional response?",
     "question": "Can changing your interpretation change your emotional response?",
     "options": [
@@ -1637,7 +1637,7 @@ export const psychologyConcepts = [
     "id": "psy-rumination",
     "world": "psychology",
     "name": "Rumination",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why can repeatedly analyzing distress make it persist?",
     "question": "Why can repeatedly analyzing distress make it persist?",
     "options": [
@@ -1676,7 +1676,7 @@ export const psychologyConcepts = [
     "id": "psy-avoidance",
     "world": "psychology",
     "name": "Avoidance",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why can escaping anxiety now make anxiety stronger later?",
     "question": "Why can escaping anxiety now make anxiety stronger later?",
     "options": [
@@ -1715,7 +1715,7 @@ export const psychologyConcepts = [
     "id": "psy-exposure",
     "world": "psychology",
     "name": "Exposure Therapy",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "How can approaching a feared situation reduce fear?",
     "question": "How can approaching a feared situation reduce fear?",
     "options": [
@@ -1754,7 +1754,7 @@ export const psychologyConcepts = [
     "id": "psy-behavioral-activation",
     "world": "psychology",
     "name": "Behavioral Activation",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Can action sometimes come before motivation?",
     "question": "Can action sometimes come before motivation?",
     "options": [
@@ -1793,7 +1793,7 @@ export const psychologyConcepts = [
     "id": "psy-theory-mind",
     "world": "psychology",
     "name": "Theory of Mind",
-    "pool": "Development",
+    "pool": "Development, Personality & Evolution",
     "hook": "How do children learn that another person can hold a false belief?",
     "question": "How do children learn that another person can hold a false belief?",
     "options": [
@@ -1832,7 +1832,7 @@ export const psychologyConcepts = [
     "id": "psy-joint-attention",
     "world": "psychology",
     "name": "Joint Attention",
-    "pool": "Development",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why is following another person's gaze developmentally important?",
     "question": "Why is following another person's gaze developmentally important?",
     "options": [
@@ -1871,7 +1871,7 @@ export const psychologyConcepts = [
     "id": "psy-executive-functions",
     "world": "psychology",
     "name": "Executive Functions",
-    "pool": "Cognition",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What helps you hold a goal, resist distraction and switch strategies?",
     "question": "What helps you hold a goal, resist distraction and switch strategies?",
     "options": [
@@ -1910,7 +1910,7 @@ export const psychologyConcepts = [
     "id": "psy-tip-tongue",
     "world": "psychology",
     "name": "Tip-of-the-Tongue State",
-    "pool": "Language & Memory",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why can a word feel almost available while refusing to appear?",
     "question": "Why can a word feel almost available while refusing to appear?",
     "options": [
@@ -1949,7 +1949,7 @@ export const psychologyConcepts = [
     "id": "psy-functional-fixedness",
     "world": "psychology",
     "name": "Functional Fixedness",
-    "pool": "Problem Solving",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why is it hard to see a familiar object as a tool for a new purpose?",
     "question": "Why is it hard to see a familiar object as a tool for a new purpose?",
     "options": [
@@ -1988,7 +1988,7 @@ export const psychologyConcepts = [
     "id": "psy-big-five",
     "world": "psychology",
     "name": "Big Five Personality Traits",
-    "pool": "Personality",
+    "pool": "Development, Personality & Evolution",
     "hook": "Can personality differences be summarized without rigid types?",
     "question": "Can personality differences be summarized without rigid types?",
     "options": [
@@ -2027,7 +2027,7 @@ export const psychologyConcepts = [
     "id": "psy-person-situation",
     "world": "psychology",
     "name": "Person-Situation Interaction",
-    "pool": "Personality",
+    "pool": "Development, Personality & Evolution",
     "hook": "Is behavior caused by personality or circumstances?",
     "question": "Is behavior caused by personality or circumstances?",
     "options": [
@@ -2066,7 +2066,7 @@ export const psychologyConcepts = [
     "id": "psy-weird-samples",
     "world": "psychology",
     "name": "WEIRD Samples",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Who gets studied when psychology generalizes about people?",
     "question": "Who gets studied when psychology generalizes about people?",
     "options": [
@@ -2105,7 +2105,7 @@ export const psychologyConcepts = [
     "id": "psy-replication",
     "world": "psychology",
     "name": "Replication",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why repeat a study that already produced a result?",
     "question": "Why repeat a study that already produced a result?",
     "options": [
@@ -2144,7 +2144,7 @@ export const psychologyConcepts = [
     "id": "psy-publication-bias",
     "world": "psychology",
     "name": "Publication Bias",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What if positive results are easier to publish than null results?",
     "question": "What if positive results are easier to publish than null results?",
     "options": [
@@ -2183,7 +2183,7 @@ export const psychologyConcepts = [
     "id": "psy-effect-size",
     "world": "psychology",
     "name": "Effect Size",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why is statistical significance not enough?",
     "question": "Why is statistical significance not enough?",
     "options": [
@@ -2222,7 +2222,7 @@ export const psychologyConcepts = [
     "id": "psy-correlation-causation",
     "world": "psychology",
     "name": "Correlation vs Causation",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "If two things move together, did one cause the other?",
     "question": "If two things move together, did one cause the other?",
     "options": [
@@ -2261,7 +2261,7 @@ export const psychologyConcepts = [
     "id": "psy-demand-characteristics",
     "world": "psychology",
     "name": "Demand Characteristics",
-    "pool": "Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Can people change behavior because they think they know a study's purpose?",
     "question": "Can people change behavior because they think they know a study's purpose?",
     "options": [
@@ -2300,7 +2300,7 @@ export const psychologyConcepts = [
     "id": "psy-placebo",
     "world": "psychology",
     "name": "Placebo Effects",
-    "pool": "Clinical & Methods",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "How can treatment context change symptoms without a specific active ingredient?",
     "question": "How can treatment context change symptoms without a specific active ingredient?",
     "options": [
@@ -2339,7 +2339,7 @@ export const psychologyConcepts = [
     "id": "psy-self-concept",
     "world": "psychology",
     "name": "Self-Concept",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Self-Concept show up most clearly?",
     "question": "Which statement best introduces Self-Concept?",
     "options": [
@@ -2378,7 +2378,7 @@ export const psychologyConcepts = [
     "id": "psy-self-schema",
     "world": "psychology",
     "name": "Self-Schemas",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Self-Schemas?",
     "question": "Which statement best introduces Self-Schemas?",
     "options": [
@@ -2417,7 +2417,7 @@ export const psychologyConcepts = [
     "id": "psy-self-awareness",
     "world": "psychology",
     "name": "Self-Awareness",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Self-Awareness?",
     "question": "Which statement best introduces Self-Awareness?",
     "options": [
@@ -2456,7 +2456,7 @@ export const psychologyConcepts = [
     "id": "psy-self-discrepancy",
     "world": "psychology",
     "name": "Self-Discrepancy Theory",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Self-Discrepancy Theory?",
     "question": "Which statement best introduces Self-Discrepancy Theory?",
     "options": [
@@ -2495,7 +2495,7 @@ export const psychologyConcepts = [
     "id": "psy-possible-selves",
     "world": "psychology",
     "name": "Possible Selves",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Possible Selves?",
     "question": "Which statement best introduces Possible Selves?",
     "options": [
@@ -2534,7 +2534,7 @@ export const psychologyConcepts = [
     "id": "psy-narrative-identity",
     "world": "psychology",
     "name": "Narrative Identity",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Narrative Identity?",
     "question": "Which statement best introduces Narrative Identity?",
     "options": [
@@ -2573,7 +2573,7 @@ export const psychologyConcepts = [
     "id": "psy-self-perception",
     "world": "psychology",
     "name": "Self-Perception Theory",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Self-Perception Theory show up most clearly?",
     "question": "Which statement best introduces Self-Perception Theory?",
     "options": [
@@ -2612,7 +2612,7 @@ export const psychologyConcepts = [
     "id": "psy-introspection-illusion",
     "world": "psychology",
     "name": "Introspection Illusion",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Introspection Illusion?",
     "question": "Which statement best introduces Introspection Illusion?",
     "options": [
@@ -2651,7 +2651,7 @@ export const psychologyConcepts = [
     "id": "psy-agency",
     "world": "psychology",
     "name": "Sense of Agency",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Sense of Agency?",
     "question": "Which statement best introduces Sense of Agency?",
     "options": [
@@ -2690,7 +2690,7 @@ export const psychologyConcepts = [
     "id": "psy-body-ownership",
     "world": "psychology",
     "name": "Body Ownership",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Body Ownership?",
     "question": "Which statement best introduces Body Ownership?",
     "options": [
@@ -2729,7 +2729,7 @@ export const psychologyConcepts = [
     "id": "psy-rubber-hand",
     "world": "psychology",
     "name": "Rubber Hand Illusion",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Rubber Hand Illusion show up most clearly?",
     "question": "Which statement best introduces Rubber Hand Illusion?",
     "options": [
@@ -2768,7 +2768,7 @@ export const psychologyConcepts = [
     "id": "psy-mind-wandering",
     "world": "psychology",
     "name": "Mind Wandering",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Mind Wandering?",
     "question": "Which statement best introduces Mind Wandering?",
     "options": [
@@ -2807,7 +2807,7 @@ export const psychologyConcepts = [
     "id": "psy-default-mode",
     "world": "psychology",
     "name": "Default Mode Network and Self-Thought",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Default Mode Network and Self-Thought show up most clearly?",
     "question": "Which statement best introduces Default Mode Network and Self-Thought?",
     "options": [
@@ -2846,7 +2846,7 @@ export const psychologyConcepts = [
     "id": "psy-meta-awareness",
     "world": "psychology",
     "name": "Meta-Awareness",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Meta-Awareness?",
     "question": "Which statement best introduces Meta-Awareness?",
     "options": [
@@ -2885,7 +2885,7 @@ export const psychologyConcepts = [
     "id": "psy-depersonalization",
     "world": "psychology",
     "name": "Depersonalization",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Depersonalization?",
     "question": "Which statement best introduces Depersonalization?",
     "options": [
@@ -2924,7 +2924,7 @@ export const psychologyConcepts = [
     "id": "psy-derealization",
     "world": "psychology",
     "name": "Derealization",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Derealization?",
     "question": "Which statement best introduces Derealization?",
     "options": [
@@ -2963,7 +2963,7 @@ export const psychologyConcepts = [
     "id": "psy-lucid-dreaming",
     "world": "psychology",
     "name": "Lucid Dreaming",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Lucid Dreaming show up most clearly?",
     "question": "Which statement best introduces Lucid Dreaming?",
     "options": [
@@ -3002,7 +3002,7 @@ export const psychologyConcepts = [
     "id": "psy-dreaming",
     "world": "psychology",
     "name": "Dreaming",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Dreaming?",
     "question": "Which statement best introduces Dreaming?",
     "options": [
@@ -3041,7 +3041,7 @@ export const psychologyConcepts = [
     "id": "psy-blindsight",
     "world": "psychology",
     "name": "Blindsight",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Blindsight?",
     "question": "Which statement best introduces Blindsight?",
     "options": [
@@ -3080,7 +3080,7 @@ export const psychologyConcepts = [
     "id": "psy-split-brain",
     "world": "psychology",
     "name": "Split-Brain Research",
-    "pool": "Consciousness & Self",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Split-Brain Research show up most clearly?",
     "question": "Which statement best introduces Split-Brain Research?",
     "options": [
@@ -3119,7 +3119,7 @@ export const psychologyConcepts = [
     "id": "psy-prospect-theory",
     "world": "psychology",
     "name": "Prospect Theory",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Prospect Theory show up most clearly?",
     "question": "Which statement best introduces Prospect Theory?",
     "options": [
@@ -3158,7 +3158,7 @@ export const psychologyConcepts = [
     "id": "psy-reference-dependence",
     "world": "psychology",
     "name": "Reference Dependence",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Reference Dependence?",
     "question": "Which statement best introduces Reference Dependence?",
     "options": [
@@ -3197,7 +3197,7 @@ export const psychologyConcepts = [
     "id": "psy-risk-aversion",
     "world": "psychology",
     "name": "Risk Aversion",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Risk Aversion?",
     "question": "Which statement best introduces Risk Aversion?",
     "options": [
@@ -3236,7 +3236,7 @@ export const psychologyConcepts = [
     "id": "psy-ambiguity-aversion",
     "world": "psychology",
     "name": "Ambiguity Aversion",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Which situation is most relevant to Ambiguity Aversion?",
     "question": "Which statement best introduces Ambiguity Aversion?",
     "options": [
@@ -3275,7 +3275,7 @@ export const psychologyConcepts = [
     "id": "psy-certainty-effect",
     "world": "psychology",
     "name": "Certainty Effect",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Certainty Effect show up most clearly?",
     "question": "Which statement best introduces Certainty Effect?",
     "options": [
@@ -3314,7 +3314,7 @@ export const psychologyConcepts = [
     "id": "psy-omission-bias",
     "world": "psychology",
     "name": "Omission Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Omission Bias?",
     "question": "Which statement best introduces Omission Bias?",
     "options": [
@@ -3353,7 +3353,7 @@ export const psychologyConcepts = [
     "id": "psy-outcome-bias",
     "world": "psychology",
     "name": "Outcome Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Outcome Bias show up most clearly?",
     "question": "Which statement best introduces Outcome Bias?",
     "options": [
@@ -3392,7 +3392,7 @@ export const psychologyConcepts = [
     "id": "psy-survivorship-bias",
     "world": "psychology",
     "name": "Survivorship Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Survivorship Bias?",
     "question": "Which statement best introduces Survivorship Bias?",
     "options": [
@@ -3431,7 +3431,7 @@ export const psychologyConcepts = [
     "id": "psy-selection-bias",
     "world": "psychology",
     "name": "Selection Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Selection Bias?",
     "question": "Which statement best introduces Selection Bias?",
     "options": [
@@ -3470,7 +3470,7 @@ export const psychologyConcepts = [
     "id": "psy-belief-bias",
     "world": "psychology",
     "name": "Belief Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Belief Bias show up most clearly?",
     "question": "Which statement best introduces Belief Bias?",
     "options": [
@@ -3509,7 +3509,7 @@ export const psychologyConcepts = [
     "id": "psy-myside-bias",
     "world": "psychology",
     "name": "Myside Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Myside Bias?",
     "question": "Which statement best introduces Myside Bias?",
     "options": [
@@ -3548,7 +3548,7 @@ export const psychologyConcepts = [
     "id": "psy-affect-forecasting",
     "world": "psychology",
     "name": "Affective Forecasting",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Affective Forecasting show up most clearly?",
     "question": "Which statement best introduces Affective Forecasting?",
     "options": [
@@ -3587,7 +3587,7 @@ export const psychologyConcepts = [
     "id": "psy-impact-bias",
     "world": "psychology",
     "name": "Impact Bias",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Impact Bias?",
     "question": "Which statement best introduces Impact Bias?",
     "options": [
@@ -3626,7 +3626,7 @@ export const psychologyConcepts = [
     "id": "psy-duration-neglect",
     "world": "psychology",
     "name": "Duration Neglect",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Which situation is most relevant to Duration Neglect?",
     "question": "Which statement best introduces Duration Neglect?",
     "options": [
@@ -3665,7 +3665,7 @@ export const psychologyConcepts = [
     "id": "psy-probability-weighting",
     "world": "psychology",
     "name": "Probability Weighting",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Probability Weighting?",
     "question": "Which statement best introduces Probability Weighting?",
     "options": [
@@ -3704,7 +3704,7 @@ export const psychologyConcepts = [
     "id": "psy-compromise-effect",
     "world": "psychology",
     "name": "Compromise Effect",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Compromise Effect?",
     "question": "Which statement best introduces Compromise Effect?",
     "options": [
@@ -3743,7 +3743,7 @@ export const psychologyConcepts = [
     "id": "psy-choice-overload",
     "world": "psychology",
     "name": "Choice Overload",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Which situation is most relevant to Choice Overload?",
     "question": "Which statement best introduces Choice Overload?",
     "options": [
@@ -3782,7 +3782,7 @@ export const psychologyConcepts = [
     "id": "psy-paradox-choice",
     "world": "psychology",
     "name": "Choice and Satisfaction",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Choice and Satisfaction show up most clearly?",
     "question": "Which statement best introduces Choice and Satisfaction?",
     "options": [
@@ -3821,7 +3821,7 @@ export const psychologyConcepts = [
     "id": "psy-maximizing",
     "world": "psychology",
     "name": "Maximizing vs Satisficing",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Maximizing vs Satisficing?",
     "question": "Which statement best introduces Maximizing vs Satisficing?",
     "options": [
@@ -3860,7 +3860,7 @@ export const psychologyConcepts = [
     "id": "psy-hyperbolic-discounting",
     "world": "psychology",
     "name": "Hyperbolic Discounting",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Hyperbolic Discounting?",
     "question": "Which statement best introduces Hyperbolic Discounting?",
     "options": [
@@ -3899,7 +3899,7 @@ export const psychologyConcepts = [
     "id": "psy-precommitment",
     "world": "psychology",
     "name": "Precommitment",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Which situation is most relevant to Precommitment?",
     "question": "Which statement best introduces Precommitment?",
     "options": [
@@ -3938,7 +3938,7 @@ export const psychologyConcepts = [
     "id": "psy-mental-accounting",
     "world": "psychology",
     "name": "Mental Accounting",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Where might Mental Accounting show up most clearly?",
     "question": "Which statement best introduces Mental Accounting?",
     "options": [
@@ -3977,7 +3977,7 @@ export const psychologyConcepts = [
     "id": "psy-money-illusion",
     "world": "psychology",
     "name": "Money Illusion",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Which situation is most relevant to Money Illusion?",
     "question": "Which statement best introduces Money Illusion?",
     "options": [
@@ -4016,7 +4016,7 @@ export const psychologyConcepts = [
     "id": "psy-hot-cold-empathy-gap",
     "world": "psychology",
     "name": "Hot-Cold Empathy Gap",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "What is the central idea behind Hot-Cold Empathy Gap?",
     "question": "Which statement best introduces Hot-Cold Empathy Gap?",
     "options": [
@@ -4055,7 +4055,7 @@ export const psychologyConcepts = [
     "id": "psy-identifiable-victim",
     "world": "psychology",
     "name": "Identifiable Victim Effect",
-    "pool": "Judgment & Decision-making",
+    "pool": "Learning, Judgment & Decision-Making",
     "hook": "Why do psychologists study Identifiable Victim Effect?",
     "question": "Which statement best introduces Identifiable Victim Effect?",
     "options": [
@@ -4094,7 +4094,7 @@ export const psychologyConcepts = [
     "id": "psy-social-identity",
     "world": "psychology",
     "name": "Social Identity Theory",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Social Identity Theory show up most clearly?",
     "question": "Which statement best introduces Social Identity Theory?",
     "options": [
@@ -4133,7 +4133,7 @@ export const psychologyConcepts = [
     "id": "psy-minimal-group",
     "world": "psychology",
     "name": "Minimal Group Paradigm",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Minimal Group Paradigm?",
     "question": "Which statement best introduces Minimal Group Paradigm?",
     "options": [
@@ -4172,7 +4172,7 @@ export const psychologyConcepts = [
     "id": "psy-realistic-conflict",
     "world": "psychology",
     "name": "Realistic Conflict Theory",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Realistic Conflict Theory?",
     "question": "Which statement best introduces Realistic Conflict Theory?",
     "options": [
@@ -4211,7 +4211,7 @@ export const psychologyConcepts = [
     "id": "psy-stereotyping",
     "world": "psychology",
     "name": "Stereotyping",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Stereotyping show up most clearly?",
     "question": "Which statement best introduces Stereotyping?",
     "options": [
@@ -4250,7 +4250,7 @@ export const psychologyConcepts = [
     "id": "psy-implicit-attitudes",
     "world": "psychology",
     "name": "Implicit Attitudes",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Implicit Attitudes?",
     "question": "Which statement best introduces Implicit Attitudes?",
     "options": [
@@ -4289,7 +4289,7 @@ export const psychologyConcepts = [
     "id": "psy-prejudice",
     "world": "psychology",
     "name": "Prejudice",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Prejudice?",
     "question": "Which statement best introduces Prejudice?",
     "options": [
@@ -4328,7 +4328,7 @@ export const psychologyConcepts = [
     "id": "psy-discrimination",
     "world": "psychology",
     "name": "Discrimination",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Discrimination?",
     "question": "Which statement best introduces Discrimination?",
     "options": [
@@ -4367,7 +4367,7 @@ export const psychologyConcepts = [
     "id": "psy-just-world",
     "world": "psychology",
     "name": "Just-World Belief",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Just-World Belief show up most clearly?",
     "question": "Which statement best introduces Just-World Belief?",
     "options": [
@@ -4406,7 +4406,7 @@ export const psychologyConcepts = [
     "id": "psy-system-justification",
     "world": "psychology",
     "name": "System Justification Theory",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind System Justification Theory?",
     "question": "Which statement best introduces System Justification Theory?",
     "options": [
@@ -4445,7 +4445,7 @@ export const psychologyConcepts = [
     "id": "psy-social-dominance",
     "world": "psychology",
     "name": "Social Dominance Orientation",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Social Dominance Orientation?",
     "question": "Which statement best introduces Social Dominance Orientation?",
     "options": [
@@ -4484,7 +4484,7 @@ export const psychologyConcepts = [
     "id": "psy-authority-obedience",
     "world": "psychology",
     "name": "Obedience to Authority",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Obedience to Authority?",
     "question": "Which statement best introduces Obedience to Authority?",
     "options": [
@@ -4523,7 +4523,7 @@ export const psychologyConcepts = [
     "id": "psy-minority-influence",
     "world": "psychology",
     "name": "Minority Influence",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Minority Influence show up most clearly?",
     "question": "Which statement best introduces Minority Influence?",
     "options": [
@@ -4562,7 +4562,7 @@ export const psychologyConcepts = [
     "id": "psy-social-norms",
     "world": "psychology",
     "name": "Social Norms",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Social Norms?",
     "question": "Which statement best introduces Social Norms?",
     "options": [
@@ -4601,7 +4601,7 @@ export const psychologyConcepts = [
     "id": "psy-social-contagion",
     "world": "psychology",
     "name": "Social Contagion",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Social Contagion?",
     "question": "Which statement best introduces Social Contagion?",
     "options": [
@@ -4640,7 +4640,7 @@ export const psychologyConcepts = [
     "id": "psy-emotional-contagion",
     "world": "psychology",
     "name": "Emotional Contagion",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Emotional Contagion?",
     "question": "Which statement best introduces Emotional Contagion?",
     "options": [
@@ -4679,7 +4679,7 @@ export const psychologyConcepts = [
     "id": "psy-collective-action",
     "world": "psychology",
     "name": "Collective Action",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Collective Action show up most clearly?",
     "question": "Which statement best introduces Collective Action?",
     "options": [
@@ -4718,7 +4718,7 @@ export const psychologyConcepts = [
     "id": "psy-free-rider",
     "world": "psychology",
     "name": "Free-Rider Problem",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Free-Rider Problem?",
     "question": "Which statement best introduces Free-Rider Problem?",
     "options": [
@@ -4757,7 +4757,7 @@ export const psychologyConcepts = [
     "id": "psy-social-dilemmas",
     "world": "psychology",
     "name": "Social Dilemmas",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Social Dilemmas?",
     "question": "Which statement best introduces Social Dilemmas?",
     "options": [
@@ -4796,7 +4796,7 @@ export const psychologyConcepts = [
     "id": "psy-costly-signaling",
     "world": "psychology",
     "name": "Costly Signaling",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Costly Signaling?",
     "question": "Which statement best introduces Costly Signaling?",
     "options": [
@@ -4835,7 +4835,7 @@ export const psychologyConcepts = [
     "id": "psy-reputation",
     "world": "psychology",
     "name": "Reputation",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Reputation?",
     "question": "Which statement best introduces Reputation?",
     "options": [
@@ -4874,7 +4874,7 @@ export const psychologyConcepts = [
     "id": "psy-gossip",
     "world": "psychology",
     "name": "Gossip and Social Information",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Gossip and Social Information?",
     "question": "Which statement best introduces Gossip and Social Information?",
     "options": [
@@ -4913,7 +4913,7 @@ export const psychologyConcepts = [
     "id": "psy-third-party-punishment",
     "world": "psychology",
     "name": "Third-Party Punishment",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Third-Party Punishment show up most clearly?",
     "question": "Which statement best introduces Third-Party Punishment?",
     "options": [
@@ -4952,7 +4952,7 @@ export const psychologyConcepts = [
     "id": "psy-altruistic-punishment",
     "world": "psychology",
     "name": "Altruistic Punishment",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Altruistic Punishment?",
     "question": "Which statement best introduces Altruistic Punishment?",
     "options": [
@@ -4991,7 +4991,7 @@ export const psychologyConcepts = [
     "id": "psy-moral-licensing",
     "world": "psychology",
     "name": "Moral Licensing",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Moral Licensing?",
     "question": "Which statement best introduces Moral Licensing?",
     "options": [
@@ -5030,7 +5030,7 @@ export const psychologyConcepts = [
     "id": "psy-moral-cleansing",
     "world": "psychology",
     "name": "Moral Cleansing",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Moral Cleansing?",
     "question": "Which statement best introduces Moral Cleansing?",
     "options": [
@@ -5069,7 +5069,7 @@ export const psychologyConcepts = [
     "id": "psy-door-in-face",
     "world": "psychology",
     "name": "Door-in-the-Face Technique",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Door-in-the-Face Technique show up most clearly?",
     "question": "Which statement best introduces Door-in-the-Face Technique?",
     "options": [
@@ -5108,7 +5108,7 @@ export const psychologyConcepts = [
     "id": "psy-foot-in-door",
     "world": "psychology",
     "name": "Foot-in-the-Door Technique",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Foot-in-the-Door Technique?",
     "question": "Which statement best introduces Foot-in-the-Door Technique?",
     "options": [
@@ -5147,7 +5147,7 @@ export const psychologyConcepts = [
     "id": "psy-low-ball",
     "world": "psychology",
     "name": "Low-Ball Technique",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Low-Ball Technique?",
     "question": "Which statement best introduces Low-Ball Technique?",
     "options": [
@@ -5186,7 +5186,7 @@ export const psychologyConcepts = [
     "id": "psy-that's-not-all",
     "world": "psychology",
     "name": "That's-Not-All Technique",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to That's-Not-All Technique?",
     "question": "Which statement best introduces That's-Not-All Technique?",
     "options": [
@@ -5225,7 +5225,7 @@ export const psychologyConcepts = [
     "id": "psy-scarcity-persuasion",
     "world": "psychology",
     "name": "Scarcity in Persuasion",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Scarcity in Persuasion show up most clearly?",
     "question": "Which statement best introduces Scarcity in Persuasion?",
     "options": [
@@ -5264,7 +5264,7 @@ export const psychologyConcepts = [
     "id": "psy-reactance-persuasion",
     "world": "psychology",
     "name": "Reactance to Persuasion",
-    "pool": "Social Psychology",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Reactance to Persuasion show up most clearly?",
     "question": "Which statement best introduces Reactance to Persuasion?",
     "options": [
@@ -5303,7 +5303,7 @@ export const psychologyConcepts = [
     "id": "psy-basic-emotions",
     "world": "psychology",
     "name": "Basic Emotion Theories",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Basic Emotion Theories show up most clearly?",
     "question": "Which statement best introduces Basic Emotion Theories?",
     "options": [
@@ -5342,7 +5342,7 @@ export const psychologyConcepts = [
     "id": "psy-constructionist-emotion",
     "world": "psychology",
     "name": "Constructionist Theories of Emotion",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Constructionist Theories of Emotion?",
     "question": "Which statement best introduces Constructionist Theories of Emotion?",
     "options": [
@@ -5381,7 +5381,7 @@ export const psychologyConcepts = [
     "id": "psy-appraisal-theory",
     "world": "psychology",
     "name": "Appraisal Theories of Emotion",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Appraisal Theories of Emotion?",
     "question": "Which statement best introduces Appraisal Theories of Emotion?",
     "options": [
@@ -5420,7 +5420,7 @@ export const psychologyConcepts = [
     "id": "psy-valence-arousal",
     "world": "psychology",
     "name": "Valence and Arousal",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Valence and Arousal?",
     "question": "Which statement best introduces Valence and Arousal?",
     "options": [
@@ -5459,7 +5459,7 @@ export const psychologyConcepts = [
     "id": "psy-circumplex-affect",
     "world": "psychology",
     "name": "Circumplex Model of Affect",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Circumplex Model of Affect show up most clearly?",
     "question": "Which statement best introduces Circumplex Model of Affect?",
     "options": [
@@ -5498,7 +5498,7 @@ export const psychologyConcepts = [
     "id": "psy-emotion-differentiation",
     "world": "psychology",
     "name": "Emotion Differentiation",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Emotion Differentiation?",
     "question": "Which statement best introduces Emotion Differentiation?",
     "options": [
@@ -5537,7 +5537,7 @@ export const psychologyConcepts = [
     "id": "psy-emotional-granularity",
     "world": "psychology",
     "name": "Emotional Granularity",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Emotional Granularity?",
     "question": "Which statement best introduces Emotional Granularity?",
     "options": [
@@ -5576,7 +5576,7 @@ export const psychologyConcepts = [
     "id": "psy-alexithymia",
     "world": "psychology",
     "name": "Alexithymia",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Alexithymia?",
     "question": "Which statement best introduces Alexithymia?",
     "options": [
@@ -5615,7 +5615,7 @@ export const psychologyConcepts = [
     "id": "psy-interoception",
     "world": "psychology",
     "name": "Interoception",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Interoception show up most clearly?",
     "question": "Which statement best introduces Interoception?",
     "options": [
@@ -5654,7 +5654,7 @@ export const psychologyConcepts = [
     "id": "psy-arousal-misattribution",
     "world": "psychology",
     "name": "Arousal Misattribution",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Arousal Misattribution?",
     "question": "Which statement best introduces Arousal Misattribution?",
     "options": [
@@ -5693,7 +5693,7 @@ export const psychologyConcepts = [
     "id": "psy-broaden-build",
     "world": "psychology",
     "name": "Broaden-and-Build Theory",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Broaden-and-Build Theory?",
     "question": "Which statement best introduces Broaden-and-Build Theory?",
     "options": [
@@ -5732,7 +5732,7 @@ export const psychologyConcepts = [
     "id": "psy-hedonic-adaptation",
     "world": "psychology",
     "name": "Hedonic Adaptation",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Hedonic Adaptation?",
     "question": "Which statement best introduces Hedonic Adaptation?",
     "options": [
@@ -5771,7 +5771,7 @@ export const psychologyConcepts = [
     "id": "psy-negativity-bias",
     "world": "psychology",
     "name": "Negativity Bias",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Negativity Bias show up most clearly?",
     "question": "Which statement best introduces Negativity Bias?",
     "options": [
@@ -5810,7 +5810,7 @@ export const psychologyConcepts = [
     "id": "psy-positivity-effect",
     "world": "psychology",
     "name": "Positivity Effect in Aging",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Positivity Effect in Aging?",
     "question": "Which statement best introduces Positivity Effect in Aging?",
     "options": [
@@ -5849,7 +5849,7 @@ export const psychologyConcepts = [
     "id": "psy-regret",
     "world": "psychology",
     "name": "Regret",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Regret show up most clearly?",
     "question": "Which statement best introduces Regret?",
     "options": [
@@ -5888,7 +5888,7 @@ export const psychologyConcepts = [
     "id": "psy-disappointment",
     "world": "psychology",
     "name": "Disappointment",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Disappointment?",
     "question": "Which statement best introduces Disappointment?",
     "options": [
@@ -5927,7 +5927,7 @@ export const psychologyConcepts = [
     "id": "psy-envy",
     "world": "psychology",
     "name": "Envy",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Envy?",
     "question": "Which statement best introduces Envy?",
     "options": [
@@ -5966,7 +5966,7 @@ export const psychologyConcepts = [
     "id": "psy-jealousy",
     "world": "psychology",
     "name": "Jealousy",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Jealousy?",
     "question": "Which statement best introduces Jealousy?",
     "options": [
@@ -6005,7 +6005,7 @@ export const psychologyConcepts = [
     "id": "psy-guilt",
     "world": "psychology",
     "name": "Guilt",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Guilt show up most clearly?",
     "question": "Which statement best introduces Guilt?",
     "options": [
@@ -6044,7 +6044,7 @@ export const psychologyConcepts = [
     "id": "psy-shame",
     "world": "psychology",
     "name": "Shame",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Shame?",
     "question": "Which statement best introduces Shame?",
     "options": [
@@ -6083,7 +6083,7 @@ export const psychologyConcepts = [
     "id": "psy-pride",
     "world": "psychology",
     "name": "Pride",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Pride?",
     "question": "Which statement best introduces Pride?",
     "options": [
@@ -6122,7 +6122,7 @@ export const psychologyConcepts = [
     "id": "psy-gratitude",
     "world": "psychology",
     "name": "Gratitude",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Gratitude?",
     "question": "Which statement best introduces Gratitude?",
     "options": [
@@ -6161,7 +6161,7 @@ export const psychologyConcepts = [
     "id": "psy-awe",
     "world": "psychology",
     "name": "Awe",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Awe show up most clearly?",
     "question": "Which statement best introduces Awe?",
     "options": [
@@ -6200,7 +6200,7 @@ export const psychologyConcepts = [
     "id": "psy-nostalgia",
     "world": "psychology",
     "name": "Nostalgia",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Nostalgia?",
     "question": "Which statement best introduces Nostalgia?",
     "options": [
@@ -6239,7 +6239,7 @@ export const psychologyConcepts = [
     "id": "psy-empathy",
     "world": "psychology",
     "name": "Empathy",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Empathy?",
     "question": "Which statement best introduces Empathy?",
     "options": [
@@ -6278,7 +6278,7 @@ export const psychologyConcepts = [
     "id": "psy-empathic-concern",
     "world": "psychology",
     "name": "Empathic Concern",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Empathic Concern?",
     "question": "Which statement best introduces Empathic Concern?",
     "options": [
@@ -6317,7 +6317,7 @@ export const psychologyConcepts = [
     "id": "psy-compassion",
     "world": "psychology",
     "name": "Compassion",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Compassion?",
     "question": "Which statement best introduces Compassion?",
     "options": [
@@ -6356,7 +6356,7 @@ export const psychologyConcepts = [
     "id": "psy-emotion-labeling",
     "world": "psychology",
     "name": "Affect Labeling",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Affect Labeling?",
     "question": "Which statement best introduces Affect Labeling?",
     "options": [
@@ -6395,7 +6395,7 @@ export const psychologyConcepts = [
     "id": "psy-suppression",
     "world": "psychology",
     "name": "Expressive Suppression",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Expressive Suppression?",
     "question": "Which statement best introduces Expressive Suppression?",
     "options": [
@@ -6434,7 +6434,7 @@ export const psychologyConcepts = [
     "id": "psy-acceptance",
     "world": "psychology",
     "name": "Emotional Acceptance",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Emotional Acceptance?",
     "question": "Which statement best introduces Emotional Acceptance?",
     "options": [
@@ -6473,7 +6473,7 @@ export const psychologyConcepts = [
     "id": "psy-distancing",
     "world": "psychology",
     "name": "Psychological Distancing",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Psychological Distancing show up most clearly?",
     "question": "Which statement best introduces Psychological Distancing?",
     "options": [
@@ -6512,7 +6512,7 @@ export const psychologyConcepts = [
     "id": "psy-motivation-crowding",
     "world": "psychology",
     "name": "Motivational Crowding",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Motivational Crowding?",
     "question": "Which statement best introduces Motivational Crowding?",
     "options": [
@@ -6551,7 +6551,7 @@ export const psychologyConcepts = [
     "id": "psy-approach-avoidance",
     "world": "psychology",
     "name": "Approach-Avoidance Motivation",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Why do psychologists study Approach-Avoidance Motivation?",
     "question": "Which statement best introduces Approach-Avoidance Motivation?",
     "options": [
@@ -6590,7 +6590,7 @@ export const psychologyConcepts = [
     "id": "psy-achievement-motivation",
     "world": "psychology",
     "name": "Achievement Motivation",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Which situation is most relevant to Achievement Motivation?",
     "question": "Which statement best introduces Achievement Motivation?",
     "options": [
@@ -6629,7 +6629,7 @@ export const psychologyConcepts = [
     "id": "psy-goal-orientation",
     "world": "psychology",
     "name": "Goal Orientation",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "What is the central idea behind Goal Orientation?",
     "question": "Which statement best introduces Goal Orientation?",
     "options": [
@@ -6668,7 +6668,7 @@ export const psychologyConcepts = [
     "id": "psy-expectancy-value",
     "world": "psychology",
     "name": "Expectancy-Value Theory",
-    "pool": "Emotion & Motivation",
+    "pool": "Emotion, Motivation & Self",
     "hook": "Where might Expectancy-Value Theory show up most clearly?",
     "question": "Which statement best introduces Expectancy-Value Theory?",
     "options": [
@@ -6707,7 +6707,7 @@ export const psychologyConcepts = [
     "id": "psy-reciprocal-liking",
     "world": "psychology",
     "name": "Reciprocal Liking",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Reciprocal Liking?",
     "question": "Which statement best introduces Reciprocal Liking?",
     "options": [
@@ -6746,7 +6746,7 @@ export const psychologyConcepts = [
     "id": "psy-attachment-secure",
     "world": "psychology",
     "name": "Secure Attachment",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Secure Attachment show up most clearly?",
     "question": "Which statement best introduces Secure Attachment?",
     "options": [
@@ -6785,7 +6785,7 @@ export const psychologyConcepts = [
     "id": "psy-attachment-anxious",
     "world": "psychology",
     "name": "Anxious Attachment",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Anxious Attachment?",
     "question": "Which statement best introduces Anxious Attachment?",
     "options": [
@@ -6824,7 +6824,7 @@ export const psychologyConcepts = [
     "id": "psy-attachment-avoidant",
     "world": "psychology",
     "name": "Avoidant Attachment",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Avoidant Attachment?",
     "question": "Which statement best introduces Avoidant Attachment?",
     "options": [
@@ -6863,7 +6863,7 @@ export const psychologyConcepts = [
     "id": "psy-internal-working-model",
     "world": "psychology",
     "name": "Internal Working Models",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Internal Working Models?",
     "question": "Which statement best introduces Internal Working Models?",
     "options": [
@@ -6902,7 +6902,7 @@ export const psychologyConcepts = [
     "id": "psy-adult-attachment",
     "world": "psychology",
     "name": "Adult Attachment",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Adult Attachment show up most clearly?",
     "question": "Which statement best introduces Adult Attachment?",
     "options": [
@@ -6941,7 +6941,7 @@ export const psychologyConcepts = [
     "id": "psy-equity-theory",
     "world": "psychology",
     "name": "Equity Theory",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Equity Theory?",
     "question": "Which statement best introduces Equity Theory?",
     "options": [
@@ -6980,7 +6980,7 @@ export const psychologyConcepts = [
     "id": "psy-interdependence",
     "world": "psychology",
     "name": "Interdependence Theory",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Interdependence Theory show up most clearly?",
     "question": "Which statement best introduces Interdependence Theory?",
     "options": [
@@ -7019,7 +7019,7 @@ export const psychologyConcepts = [
     "id": "psy-investment-model",
     "world": "psychology",
     "name": "Investment Model",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Investment Model?",
     "question": "Which statement best introduces Investment Model?",
     "options": [
@@ -7058,7 +7058,7 @@ export const psychologyConcepts = [
     "id": "psy-commitment",
     "world": "psychology",
     "name": "Relationship Commitment",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Relationship Commitment?",
     "question": "Which statement best introduces Relationship Commitment?",
     "options": [
@@ -7097,7 +7097,7 @@ export const psychologyConcepts = [
     "id": "psy-perceived-responsiveness",
     "world": "psychology",
     "name": "Perceived Responsiveness",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Perceived Responsiveness?",
     "question": "Which statement best introduces Perceived Responsiveness?",
     "options": [
@@ -7136,7 +7136,7 @@ export const psychologyConcepts = [
     "id": "psy-self-expansion",
     "world": "psychology",
     "name": "Self-Expansion Theory",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Self-Expansion Theory?",
     "question": "Which statement best introduces Self-Expansion Theory?",
     "options": [
@@ -7175,7 +7175,7 @@ export const psychologyConcepts = [
     "id": "psy-relationship-attributions",
     "world": "psychology",
     "name": "Relationship Attributions",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Relationship Attributions show up most clearly?",
     "question": "Which statement best introduces Relationship Attributions?",
     "options": [
@@ -7214,7 +7214,7 @@ export const psychologyConcepts = [
     "id": "psy-demand-withdraw",
     "world": "psychology",
     "name": "Demand-Withdraw Pattern",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Demand-Withdraw Pattern?",
     "question": "Which statement best introduces Demand-Withdraw Pattern?",
     "options": [
@@ -7253,7 +7253,7 @@ export const psychologyConcepts = [
     "id": "psy-conflict-repair",
     "world": "psychology",
     "name": "Conflict Repair",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Conflict Repair?",
     "question": "Which statement best introduces Conflict Repair?",
     "options": [
@@ -7292,7 +7292,7 @@ export const psychologyConcepts = [
     "id": "psy-forgiveness",
     "world": "psychology",
     "name": "Forgiveness",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Forgiveness?",
     "question": "Which statement best introduces Forgiveness?",
     "options": [
@@ -7331,7 +7331,7 @@ export const psychologyConcepts = [
     "id": "psy-trust",
     "world": "psychology",
     "name": "Interpersonal Trust",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Interpersonal Trust show up most clearly?",
     "question": "Which statement best introduces Interpersonal Trust?",
     "options": [
@@ -7370,7 +7370,7 @@ export const psychologyConcepts = [
     "id": "psy-betrayal",
     "world": "psychology",
     "name": "Betrayal",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Betrayal?",
     "question": "Which statement best introduces Betrayal?",
     "options": [
@@ -7409,7 +7409,7 @@ export const psychologyConcepts = [
     "id": "psy-ostracism",
     "world": "psychology",
     "name": "Ostracism",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Ostracism?",
     "question": "Which statement best introduces Ostracism?",
     "options": [
@@ -7448,7 +7448,7 @@ export const psychologyConcepts = [
     "id": "psy-social-rejection",
     "world": "psychology",
     "name": "Social Rejection",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Which situation is most relevant to Social Rejection?",
     "question": "Which statement best introduces Social Rejection?",
     "options": [
@@ -7487,7 +7487,7 @@ export const psychologyConcepts = [
     "id": "psy-loneliness",
     "world": "psychology",
     "name": "Loneliness",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Loneliness show up most clearly?",
     "question": "Which statement best introduces Loneliness?",
     "options": [
@@ -7526,7 +7526,7 @@ export const psychologyConcepts = [
     "id": "psy-social-support",
     "world": "psychology",
     "name": "Social Support",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Social Support?",
     "question": "Which statement best introduces Social Support?",
     "options": [
@@ -7565,7 +7565,7 @@ export const psychologyConcepts = [
     "id": "psy-attachment-safe-haven",
     "world": "psychology",
     "name": "Safe Haven",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Safe Haven?",
     "question": "Which statement best introduces Safe Haven?",
     "options": [
@@ -7604,7 +7604,7 @@ export const psychologyConcepts = [
     "id": "psy-parasocial",
     "world": "psychology",
     "name": "Parasocial Relationships",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Where might Parasocial Relationships show up most clearly?",
     "question": "Which statement best introduces Parasocial Relationships?",
     "options": [
@@ -7643,7 +7643,7 @@ export const psychologyConcepts = [
     "id": "psy-social-penetration",
     "world": "psychology",
     "name": "Social Penetration Theory",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "What is the central idea behind Social Penetration Theory?",
     "question": "Which statement best introduces Social Penetration Theory?",
     "options": [
@@ -7682,7 +7682,7 @@ export const psychologyConcepts = [
     "id": "psy-similarity-dissimilarity",
     "world": "psychology",
     "name": "Similarity-Dissimilarity Effect",
-    "pool": "Relationships",
+    "pool": "Social Psychology & Relationships",
     "hook": "Why do psychologists study Similarity-Dissimilarity Effect?",
     "question": "Which statement best introduces Similarity-Dissimilarity Effect?",
     "options": [
@@ -7721,7 +7721,7 @@ export const psychologyConcepts = [
     "id": "psy-temperament",
     "world": "psychology",
     "name": "Temperament",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Temperament show up most clearly?",
     "question": "Which statement best introduces Temperament?",
     "options": [
@@ -7760,7 +7760,7 @@ export const psychologyConcepts = [
     "id": "psy-goodness-fit",
     "world": "psychology",
     "name": "Goodness of Fit",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Goodness of Fit?",
     "question": "Which statement best introduces Goodness of Fit?",
     "options": [
@@ -7799,7 +7799,7 @@ export const psychologyConcepts = [
     "id": "psy-stranger-anxiety",
     "world": "psychology",
     "name": "Stranger Anxiety",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Stranger Anxiety?",
     "question": "Which statement best introduces Stranger Anxiety?",
     "options": [
@@ -7838,7 +7838,7 @@ export const psychologyConcepts = [
     "id": "psy-separation-anxiety",
     "world": "psychology",
     "name": "Separation Anxiety",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Separation Anxiety?",
     "question": "Which statement best introduces Separation Anxiety?",
     "options": [
@@ -7877,7 +7877,7 @@ export const psychologyConcepts = [
     "id": "psy-social-referencing",
     "world": "psychology",
     "name": "Social Referencing",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Social Referencing show up most clearly?",
     "question": "Which statement best introduces Social Referencing?",
     "options": [
@@ -7916,7 +7916,7 @@ export const psychologyConcepts = [
     "id": "psy-still-face",
     "world": "psychology",
     "name": "Still-Face Paradigm",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Still-Face Paradigm?",
     "question": "Which statement best introduces Still-Face Paradigm?",
     "options": [
@@ -7955,7 +7955,7 @@ export const psychologyConcepts = [
     "id": "psy-deferred-imitation",
     "world": "psychology",
     "name": "Deferred Imitation",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Deferred Imitation?",
     "question": "Which statement best introduces Deferred Imitation?",
     "options": [
@@ -7994,7 +7994,7 @@ export const psychologyConcepts = [
     "id": "psy-imitation-development",
     "world": "psychology",
     "name": "Imitation in Development",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Imitation in Development?",
     "question": "Which statement best introduces Imitation in Development?",
     "options": [
@@ -8033,7 +8033,7 @@ export const psychologyConcepts = [
     "id": "psy-language-babbling",
     "world": "psychology",
     "name": "Babbling",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Babbling show up most clearly?",
     "question": "Which statement best introduces Babbling?",
     "options": [
@@ -8072,7 +8072,7 @@ export const psychologyConcepts = [
     "id": "psy-fast-mapping",
     "world": "psychology",
     "name": "Fast Mapping",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Fast Mapping?",
     "question": "Which statement best introduces Fast Mapping?",
     "options": [
@@ -8111,7 +8111,7 @@ export const psychologyConcepts = [
     "id": "psy-overextension",
     "world": "psychology",
     "name": "Word Overextension",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Word Overextension?",
     "question": "Which statement best introduces Word Overextension?",
     "options": [
@@ -8150,7 +8150,7 @@ export const psychologyConcepts = [
     "id": "psy-critical-period-language",
     "world": "psychology",
     "name": "Sensitive Periods in Language",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Sensitive Periods in Language show up most clearly?",
     "question": "Which statement best introduces Sensitive Periods in Language?",
     "options": [
@@ -8189,7 +8189,7 @@ export const psychologyConcepts = [
     "id": "psy-phoneme-tuning",
     "world": "psychology",
     "name": "Perceptual Narrowing",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Perceptual Narrowing?",
     "question": "Which statement best introduces Perceptual Narrowing?",
     "options": [
@@ -8228,7 +8228,7 @@ export const psychologyConcepts = [
     "id": "psy-egocentrism-piaget",
     "world": "psychology",
     "name": "Childhood Egocentrism",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Childhood Egocentrism?",
     "question": "Which statement best introduces Childhood Egocentrism?",
     "options": [
@@ -8267,7 +8267,7 @@ export const psychologyConcepts = [
     "id": "psy-conservation",
     "world": "psychology",
     "name": "Conservation Tasks",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Conservation Tasks?",
     "question": "Which statement best introduces Conservation Tasks?",
     "options": [
@@ -8306,7 +8306,7 @@ export const psychologyConcepts = [
     "id": "psy-scaffolding",
     "world": "psychology",
     "name": "Scaffolding",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Scaffolding?",
     "question": "Which statement best introduces Scaffolding?",
     "options": [
@@ -8345,7 +8345,7 @@ export const psychologyConcepts = [
     "id": "psy-zone-proximal",
     "world": "psychology",
     "name": "Zone of Proximal Development",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Zone of Proximal Development?",
     "question": "Which statement best introduces Zone of Proximal Development?",
     "options": [
@@ -8384,7 +8384,7 @@ export const psychologyConcepts = [
     "id": "psy-executive-development",
     "world": "psychology",
     "name": "Executive Function Development",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Executive Function Development show up most clearly?",
     "question": "Which statement best introduces Executive Function Development?",
     "options": [
@@ -8423,7 +8423,7 @@ export const psychologyConcepts = [
     "id": "psy-delay-development",
     "world": "psychology",
     "name": "Delay of Gratification",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Delay of Gratification?",
     "question": "Which statement best introduces Delay of Gratification?",
     "options": [
@@ -8462,7 +8462,7 @@ export const psychologyConcepts = [
     "id": "psy-adolescent-risk",
     "world": "psychology",
     "name": "Adolescent Risk Taking",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Adolescent Risk Taking?",
     "question": "Which statement best introduces Adolescent Risk Taking?",
     "options": [
@@ -8501,7 +8501,7 @@ export const psychologyConcepts = [
     "id": "psy-peer-influence-adolescence",
     "world": "psychology",
     "name": "Adolescent Peer Influence",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Adolescent Peer Influence?",
     "question": "Which statement best introduces Adolescent Peer Influence?",
     "options": [
@@ -8540,7 +8540,7 @@ export const psychologyConcepts = [
     "id": "psy-identity-development",
     "world": "psychology",
     "name": "Identity Development",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Identity Development show up most clearly?",
     "question": "Which statement best introduces Identity Development?",
     "options": [
@@ -8579,7 +8579,7 @@ export const psychologyConcepts = [
     "id": "psy-emerging-adulthood",
     "world": "psychology",
     "name": "Emerging Adulthood",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Emerging Adulthood?",
     "question": "Which statement best introduces Emerging Adulthood?",
     "options": [
@@ -8618,7 +8618,7 @@ export const psychologyConcepts = [
     "id": "psy-parenting-styles",
     "world": "psychology",
     "name": "Parenting Styles",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Parenting Styles show up most clearly?",
     "question": "Which statement best introduces Parenting Styles?",
     "options": [
@@ -8657,7 +8657,7 @@ export const psychologyConcepts = [
     "id": "psy-authoritative-parenting",
     "world": "psychology",
     "name": "Authoritative Parenting",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Authoritative Parenting?",
     "question": "Which statement best introduces Authoritative Parenting?",
     "options": [
@@ -8696,7 +8696,7 @@ export const psychologyConcepts = [
     "id": "psy-authoritarian-parenting",
     "world": "psychology",
     "name": "Authoritarian Parenting",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Authoritarian Parenting?",
     "question": "Which statement best introduces Authoritarian Parenting?",
     "options": [
@@ -8735,7 +8735,7 @@ export const psychologyConcepts = [
     "id": "psy-behavioral-genetics",
     "world": "psychology",
     "name": "Behavioral Genetics",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Behavioral Genetics show up most clearly?",
     "question": "Which statement best introduces Behavioral Genetics?",
     "options": [
@@ -8774,7 +8774,7 @@ export const psychologyConcepts = [
     "id": "psy-gene-environment",
     "world": "psychology",
     "name": "Gene-Environment Interaction",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Gene-Environment Interaction?",
     "question": "Which statement best introduces Gene-Environment Interaction?",
     "options": [
@@ -8813,7 +8813,7 @@ export const psychologyConcepts = [
     "id": "psy-resilience-development",
     "world": "psychology",
     "name": "Developmental Resilience",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Developmental Resilience show up most clearly?",
     "question": "Which statement best introduces Developmental Resilience?",
     "options": [
@@ -8852,7 +8852,7 @@ export const psychologyConcepts = [
     "id": "psy-adverse-childhood",
     "world": "psychology",
     "name": "Adverse Childhood Experiences",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Adverse Childhood Experiences?",
     "question": "Which statement best introduces Adverse Childhood Experiences?",
     "options": [
@@ -8891,7 +8891,7 @@ export const psychologyConcepts = [
     "id": "psy-developmental-cascades",
     "world": "psychology",
     "name": "Developmental Cascades",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Developmental Cascades?",
     "question": "Which statement best introduces Developmental Cascades?",
     "options": [
@@ -8930,7 +8930,7 @@ export const psychologyConcepts = [
     "id": "psy-lifespan-development",
     "world": "psychology",
     "name": "Lifespan Development",
-    "pool": "Developmental Psychology",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Lifespan Development?",
     "question": "Which statement best introduces Lifespan Development?",
     "options": [
@@ -8969,7 +8969,7 @@ export const psychologyConcepts = [
     "id": "psy-fear-conditioning",
     "world": "psychology",
     "name": "Fear Conditioning",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Fear Conditioning show up most clearly?",
     "question": "Which statement best introduces Fear Conditioning?",
     "options": [
@@ -9008,7 +9008,7 @@ export const psychologyConcepts = [
     "id": "psy-safety-learning",
     "world": "psychology",
     "name": "Safety Learning",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Safety Learning?",
     "question": "Which statement best introduces Safety Learning?",
     "options": [
@@ -9047,7 +9047,7 @@ export const psychologyConcepts = [
     "id": "psy-avoidance-learning",
     "world": "psychology",
     "name": "Avoidance Learning",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Avoidance Learning?",
     "question": "Which statement best introduces Avoidance Learning?",
     "options": [
@@ -9086,7 +9086,7 @@ export const psychologyConcepts = [
     "id": "psy-exposure-inhibitory",
     "world": "psychology",
     "name": "Inhibitory Learning in Exposure",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Inhibitory Learning in Exposure?",
     "question": "Which statement best introduces Inhibitory Learning in Exposure?",
     "options": [
@@ -9125,7 +9125,7 @@ export const psychologyConcepts = [
     "id": "psy-anxiety-sensitivity",
     "world": "psychology",
     "name": "Anxiety Sensitivity",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Anxiety Sensitivity?",
     "question": "Which statement best introduces Anxiety Sensitivity?",
     "options": [
@@ -9164,7 +9164,7 @@ export const psychologyConcepts = [
     "id": "psy-intolerance-uncertainty",
     "world": "psychology",
     "name": "Intolerance of Uncertainty",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Intolerance of Uncertainty show up most clearly?",
     "question": "Which statement best introduces Intolerance of Uncertainty?",
     "options": [
@@ -9203,7 +9203,7 @@ export const psychologyConcepts = [
     "id": "psy-worry",
     "world": "psychology",
     "name": "Worry",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Worry?",
     "question": "Which statement best introduces Worry?",
     "options": [
@@ -9242,7 +9242,7 @@ export const psychologyConcepts = [
     "id": "psy-thought-suppression",
     "world": "psychology",
     "name": "Thought Suppression",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Thought Suppression?",
     "question": "Which statement best introduces Thought Suppression?",
     "options": [
@@ -9281,7 +9281,7 @@ export const psychologyConcepts = [
     "id": "psy-white-bear",
     "world": "psychology",
     "name": "Ironic Thought Rebound",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Ironic Thought Rebound show up most clearly?",
     "question": "Which statement best introduces Ironic Thought Rebound?",
     "options": [
@@ -9320,7 +9320,7 @@ export const psychologyConcepts = [
     "id": "psy-intrusive-thoughts",
     "world": "psychology",
     "name": "Intrusive Thoughts",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Intrusive Thoughts?",
     "question": "Which statement best introduces Intrusive Thoughts?",
     "options": [
@@ -9359,7 +9359,7 @@ export const psychologyConcepts = [
     "id": "psy-obsessions",
     "world": "psychology",
     "name": "Obsessions",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Obsessions?",
     "question": "Which statement best introduces Obsessions?",
     "options": [
@@ -9398,7 +9398,7 @@ export const psychologyConcepts = [
     "id": "psy-safety-behaviors",
     "world": "psychology",
     "name": "Safety Behaviors",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Safety Behaviors show up most clearly?",
     "question": "Which statement best introduces Safety Behaviors?",
     "options": [
@@ -9437,7 +9437,7 @@ export const psychologyConcepts = [
     "id": "psy-interoceptive-exposure",
     "world": "psychology",
     "name": "Interoceptive Exposure",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Interoceptive Exposure?",
     "question": "Which statement best introduces Interoceptive Exposure?",
     "options": [
@@ -9476,7 +9476,7 @@ export const psychologyConcepts = [
     "id": "psy-behavioral-experiments",
     "world": "psychology",
     "name": "Behavioral Experiments",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Behavioral Experiments?",
     "question": "Which statement best introduces Behavioral Experiments?",
     "options": [
@@ -9515,7 +9515,7 @@ export const psychologyConcepts = [
     "id": "psy-cognitive-defusion",
     "world": "psychology",
     "name": "Cognitive Defusion",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Cognitive Defusion?",
     "question": "Which statement best introduces Cognitive Defusion?",
     "options": [
@@ -9554,7 +9554,7 @@ export const psychologyConcepts = [
     "id": "psy-psychological-flexibility",
     "world": "psychology",
     "name": "Psychological Flexibility",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Psychological Flexibility show up most clearly?",
     "question": "Which statement best introduces Psychological Flexibility?",
     "options": [
@@ -9593,7 +9593,7 @@ export const psychologyConcepts = [
     "id": "psy-experiential-avoidance",
     "world": "psychology",
     "name": "Experiential Avoidance",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Experiential Avoidance?",
     "question": "Which statement best introduces Experiential Avoidance?",
     "options": [
@@ -9632,7 +9632,7 @@ export const psychologyConcepts = [
     "id": "psy-mindfulness",
     "world": "psychology",
     "name": "Mindfulness",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Mindfulness?",
     "question": "Which statement best introduces Mindfulness?",
     "options": [
@@ -9671,7 +9671,7 @@ export const psychologyConcepts = [
     "id": "psy-decentering",
     "world": "psychology",
     "name": "Decentering",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Decentering?",
     "question": "Which statement best introduces Decentering?",
     "options": [
@@ -9710,7 +9710,7 @@ export const psychologyConcepts = [
     "id": "psy-self-compassion",
     "world": "psychology",
     "name": "Self-Compassion",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Self-Compassion show up most clearly?",
     "question": "Which statement best introduces Self-Compassion?",
     "options": [
@@ -9749,7 +9749,7 @@ export const psychologyConcepts = [
     "id": "psy-ruminative-response",
     "world": "psychology",
     "name": "Ruminative Response Style",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Ruminative Response Style?",
     "question": "Which statement best introduces Ruminative Response Style?",
     "options": [
@@ -9788,7 +9788,7 @@ export const psychologyConcepts = [
     "id": "psy-hopelessness",
     "world": "psychology",
     "name": "Hopelessness",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Hopelessness?",
     "question": "Which statement best introduces Hopelessness?",
     "options": [
@@ -9827,7 +9827,7 @@ export const psychologyConcepts = [
     "id": "psy-attributional-style",
     "world": "psychology",
     "name": "Attributional Style",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Attributional Style?",
     "question": "Which statement best introduces Attributional Style?",
     "options": [
@@ -9866,7 +9866,7 @@ export const psychologyConcepts = [
     "id": "psy-behavioral-inhibition",
     "world": "psychology",
     "name": "Behavioral Inhibition",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Behavioral Inhibition show up most clearly?",
     "question": "Which statement best introduces Behavioral Inhibition?",
     "options": [
@@ -9905,7 +9905,7 @@ export const psychologyConcepts = [
     "id": "psy-reward-sensitivity",
     "world": "psychology",
     "name": "Reward Sensitivity",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Reward Sensitivity?",
     "question": "Which statement best introduces Reward Sensitivity?",
     "options": [
@@ -9944,7 +9944,7 @@ export const psychologyConcepts = [
     "id": "psy-insomnia-conditioning",
     "world": "psychology",
     "name": "Conditioned Arousal in Insomnia",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Conditioned Arousal in Insomnia?",
     "question": "Which statement best introduces Conditioned Arousal in Insomnia?",
     "options": [
@@ -9983,7 +9983,7 @@ export const psychologyConcepts = [
     "id": "psy-trauma-memory",
     "world": "psychology",
     "name": "Trauma and Memory",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Trauma and Memory?",
     "question": "Which statement best introduces Trauma and Memory?",
     "options": [
@@ -10022,7 +10022,7 @@ export const psychologyConcepts = [
     "id": "psy-fear-generalization",
     "world": "psychology",
     "name": "Fear Generalization",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Fear Generalization?",
     "question": "Which statement best introduces Fear Generalization?",
     "options": [
@@ -10061,7 +10061,7 @@ export const psychologyConcepts = [
     "id": "psy-dissociation",
     "world": "psychology",
     "name": "Dissociation",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Dissociation show up most clearly?",
     "question": "Which statement best introduces Dissociation?",
     "options": [
@@ -10100,7 +10100,7 @@ export const psychologyConcepts = [
     "id": "psy-health-anxiety",
     "world": "psychology",
     "name": "Health Anxiety",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Health Anxiety?",
     "question": "Which statement best introduces Health Anxiety?",
     "options": [
@@ -10139,7 +10139,7 @@ export const psychologyConcepts = [
     "id": "psy-catastrophizing",
     "world": "psychology",
     "name": "Catastrophizing",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Catastrophizing?",
     "question": "Which statement best introduces Catastrophizing?",
     "options": [
@@ -10178,7 +10178,7 @@ export const psychologyConcepts = [
     "id": "psy-pain-catastrophizing",
     "world": "psychology",
     "name": "Pain Catastrophizing",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Pain Catastrophizing show up most clearly?",
     "question": "Which statement best introduces Pain Catastrophizing?",
     "options": [
@@ -10217,7 +10217,7 @@ export const psychologyConcepts = [
     "id": "psy-placebo-analgesia",
     "world": "psychology",
     "name": "Placebo Analgesia",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Placebo Analgesia?",
     "question": "Which statement best introduces Placebo Analgesia?",
     "options": [
@@ -10256,7 +10256,7 @@ export const psychologyConcepts = [
     "id": "psy-therapeutic-alliance",
     "world": "psychology",
     "name": "Therapeutic Alliance",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Therapeutic Alliance?",
     "question": "Which statement best introduces Therapeutic Alliance?",
     "options": [
@@ -10295,7 +10295,7 @@ export const psychologyConcepts = [
     "id": "psy-common-factors",
     "world": "psychology",
     "name": "Common Factors in Therapy",
-    "pool": "Clinical Psychology",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Common Factors in Therapy?",
     "question": "Which statement best introduces Common Factors in Therapy?",
     "options": [
@@ -10334,7 +10334,7 @@ export const psychologyConcepts = [
     "id": "psy-conscientiousness",
     "world": "psychology",
     "name": "Conscientiousness",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Conscientiousness show up most clearly?",
     "question": "Which statement best introduces Conscientiousness?",
     "options": [
@@ -10373,7 +10373,7 @@ export const psychologyConcepts = [
     "id": "psy-extraversion",
     "world": "psychology",
     "name": "Extraversion",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Extraversion?",
     "question": "Which statement best introduces Extraversion?",
     "options": [
@@ -10412,7 +10412,7 @@ export const psychologyConcepts = [
     "id": "psy-agreeableness",
     "world": "psychology",
     "name": "Agreeableness",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Agreeableness?",
     "question": "Which statement best introduces Agreeableness?",
     "options": [
@@ -10451,7 +10451,7 @@ export const psychologyConcepts = [
     "id": "psy-neuroticism",
     "world": "psychology",
     "name": "Neuroticism",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Neuroticism?",
     "question": "Which statement best introduces Neuroticism?",
     "options": [
@@ -10490,7 +10490,7 @@ export const psychologyConcepts = [
     "id": "psy-openness",
     "world": "psychology",
     "name": "Openness to Experience",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Openness to Experience show up most clearly?",
     "question": "Which statement best introduces Openness to Experience?",
     "options": [
@@ -10529,7 +10529,7 @@ export const psychologyConcepts = [
     "id": "psy-trait-situation",
     "world": "psychology",
     "name": "Trait Activation",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Trait Activation?",
     "question": "Which statement best introduces Trait Activation?",
     "options": [
@@ -10568,7 +10568,7 @@ export const psychologyConcepts = [
     "id": "psy-person-environment-fit",
     "world": "psychology",
     "name": "Person-Environment Fit",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Person-Environment Fit?",
     "question": "Which statement best introduces Person-Environment Fit?",
     "options": [
@@ -10607,7 +10607,7 @@ export const psychologyConcepts = [
     "id": "psy-personality-development",
     "world": "psychology",
     "name": "Personality Development",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Personality Development show up most clearly?",
     "question": "Which statement best introduces Personality Development?",
     "options": [
@@ -10646,7 +10646,7 @@ export const psychologyConcepts = [
     "id": "psy-self-monitoring",
     "world": "psychology",
     "name": "Self-Monitoring",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Self-Monitoring?",
     "question": "Which statement best introduces Self-Monitoring?",
     "options": [
@@ -10685,7 +10685,7 @@ export const psychologyConcepts = [
     "id": "psy-need-cognition",
     "world": "psychology",
     "name": "Need for Cognition",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Need for Cognition show up most clearly?",
     "question": "Which statement best introduces Need for Cognition?",
     "options": [
@@ -10724,7 +10724,7 @@ export const psychologyConcepts = [
     "id": "psy-need-closure",
     "world": "psychology",
     "name": "Need for Closure",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Need for Closure?",
     "question": "Which statement best introduces Need for Closure?",
     "options": [
@@ -10763,7 +10763,7 @@ export const psychologyConcepts = [
     "id": "psy-tolerance-ambiguity",
     "world": "psychology",
     "name": "Tolerance for Ambiguity",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Tolerance for Ambiguity?",
     "question": "Which statement best introduces Tolerance for Ambiguity?",
     "options": [
@@ -10802,7 +10802,7 @@ export const psychologyConcepts = [
     "id": "psy-sensation-seeking",
     "world": "psychology",
     "name": "Sensation Seeking",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Sensation Seeking?",
     "question": "Which statement best introduces Sensation Seeking?",
     "options": [
@@ -10841,7 +10841,7 @@ export const psychologyConcepts = [
     "id": "psy-impulsivity",
     "world": "psychology",
     "name": "Impulsivity",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Impulsivity show up most clearly?",
     "question": "Which statement best introduces Impulsivity?",
     "options": [
@@ -10880,7 +10880,7 @@ export const psychologyConcepts = [
     "id": "psy-perfectionism",
     "world": "psychology",
     "name": "Perfectionism",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Perfectionism?",
     "question": "Which statement best introduces Perfectionism?",
     "options": [
@@ -10919,7 +10919,7 @@ export const psychologyConcepts = [
     "id": "psy-narcissism",
     "world": "psychology",
     "name": "Narcissism",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Narcissism?",
     "question": "Which statement best introduces Narcissism?",
     "options": [
@@ -10958,7 +10958,7 @@ export const psychologyConcepts = [
     "id": "psy-machiavellianism",
     "world": "psychology",
     "name": "Machiavellianism",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Machiavellianism show up most clearly?",
     "question": "Which statement best introduces Machiavellianism?",
     "options": [
@@ -10997,7 +10997,7 @@ export const psychologyConcepts = [
     "id": "psy-psychopathy-traits",
     "world": "psychology",
     "name": "Psychopathic Traits",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Psychopathic Traits?",
     "question": "Which statement best introduces Psychopathic Traits?",
     "options": [
@@ -11036,7 +11036,7 @@ export const psychologyConcepts = [
     "id": "psy-dark-triad",
     "world": "psychology",
     "name": "Dark Triad",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Dark Triad?",
     "question": "Which statement best introduces Dark Triad?",
     "options": [
@@ -11075,7 +11075,7 @@ export const psychologyConcepts = [
     "id": "psy-honesty-humility",
     "world": "psychology",
     "name": "Honesty-Humility",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Honesty-Humility?",
     "question": "Which statement best introduces Honesty-Humility?",
     "options": [
@@ -11114,7 +11114,7 @@ export const psychologyConcepts = [
     "id": "psy-emotional-intelligence",
     "world": "psychology",
     "name": "Emotional Intelligence",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Emotional Intelligence show up most clearly?",
     "question": "Which statement best introduces Emotional Intelligence?",
     "options": [
@@ -11153,7 +11153,7 @@ export const psychologyConcepts = [
     "id": "psy-trait-empathy",
     "world": "psychology",
     "name": "Trait Empathy",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Trait Empathy?",
     "question": "Which statement best introduces Trait Empathy?",
     "options": [
@@ -11192,7 +11192,7 @@ export const psychologyConcepts = [
     "id": "psy-optimism",
     "world": "psychology",
     "name": "Dispositional Optimism",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Dispositional Optimism?",
     "question": "Which statement best introduces Dispositional Optimism?",
     "options": [
@@ -11231,7 +11231,7 @@ export const psychologyConcepts = [
     "id": "psy-hardiness",
     "world": "psychology",
     "name": "Psychological Hardiness",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Psychological Hardiness show up most clearly?",
     "question": "Which statement best introduces Psychological Hardiness?",
     "options": [
@@ -11270,7 +11270,7 @@ export const psychologyConcepts = [
     "id": "psy-resilience",
     "world": "psychology",
     "name": "Resilience",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Resilience?",
     "question": "Which statement best introduces Resilience?",
     "options": [
@@ -11309,7 +11309,7 @@ export const psychologyConcepts = [
     "id": "psy-self-esteem",
     "world": "psychology",
     "name": "Self-Esteem",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Self-Esteem?",
     "question": "Which statement best introduces Self-Esteem?",
     "options": [
@@ -11348,7 +11348,7 @@ export const psychologyConcepts = [
     "id": "psy-contingent-self-esteem",
     "world": "psychology",
     "name": "Contingent Self-Esteem",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Contingent Self-Esteem?",
     "question": "Which statement best introduces Contingent Self-Esteem?",
     "options": [
@@ -11387,7 +11387,7 @@ export const psychologyConcepts = [
     "id": "psy-regulatory-focus",
     "world": "psychology",
     "name": "Regulatory Focus",
-    "pool": "Personality & Individual Differences",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Regulatory Focus?",
     "question": "Which statement best introduces Regulatory Focus?",
     "options": [
@@ -11426,7 +11426,7 @@ export const psychologyConcepts = [
     "id": "psy-reliability",
     "world": "psychology",
     "name": "Reliability",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Reliability show up most clearly?",
     "question": "Which statement best introduces Reliability?",
     "options": [
@@ -11465,7 +11465,7 @@ export const psychologyConcepts = [
     "id": "psy-validity",
     "world": "psychology",
     "name": "Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Validity?",
     "question": "Which statement best introduces Validity?",
     "options": [
@@ -11504,7 +11504,7 @@ export const psychologyConcepts = [
     "id": "psy-construct-validity",
     "world": "psychology",
     "name": "Construct Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Construct Validity?",
     "question": "Which statement best introduces Construct Validity?",
     "options": [
@@ -11543,7 +11543,7 @@ export const psychologyConcepts = [
     "id": "psy-internal-validity",
     "world": "psychology",
     "name": "Internal Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Internal Validity?",
     "question": "Which statement best introduces Internal Validity?",
     "options": [
@@ -11582,7 +11582,7 @@ export const psychologyConcepts = [
     "id": "psy-external-validity",
     "world": "psychology",
     "name": "External Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might External Validity show up most clearly?",
     "question": "Which statement best introduces External Validity?",
     "options": [
@@ -11621,7 +11621,7 @@ export const psychologyConcepts = [
     "id": "psy-ecological-validity",
     "world": "psychology",
     "name": "Ecological Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Ecological Validity?",
     "question": "Which statement best introduces Ecological Validity?",
     "options": [
@@ -11660,7 +11660,7 @@ export const psychologyConcepts = [
     "id": "psy-measurement-error",
     "world": "psychology",
     "name": "Measurement Error",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Measurement Error?",
     "question": "Which statement best introduces Measurement Error?",
     "options": [
@@ -11699,7 +11699,7 @@ export const psychologyConcepts = [
     "id": "psy-test-retest",
     "world": "psychology",
     "name": "Test-Retest Reliability",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Test-Retest Reliability?",
     "question": "Which statement best introduces Test-Retest Reliability?",
     "options": [
@@ -11738,7 +11738,7 @@ export const psychologyConcepts = [
     "id": "psy-interrater",
     "world": "psychology",
     "name": "Inter-Rater Reliability",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Inter-Rater Reliability show up most clearly?",
     "question": "Which statement best introduces Inter-Rater Reliability?",
     "options": [
@@ -11777,7 +11777,7 @@ export const psychologyConcepts = [
     "id": "psy-operationalization",
     "world": "psychology",
     "name": "Operationalization",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Operationalization?",
     "question": "Which statement best introduces Operationalization?",
     "options": [
@@ -11816,7 +11816,7 @@ export const psychologyConcepts = [
     "id": "psy-confound",
     "world": "psychology",
     "name": "Confounding",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Confounding?",
     "question": "Which statement best introduces Confounding?",
     "options": [
@@ -11855,7 +11855,7 @@ export const psychologyConcepts = [
     "id": "psy-randomization",
     "world": "psychology",
     "name": "Randomization",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Randomization show up most clearly?",
     "question": "Which statement best introduces Randomization?",
     "options": [
@@ -11894,7 +11894,7 @@ export const psychologyConcepts = [
     "id": "psy-blinding",
     "world": "psychology",
     "name": "Blinding",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Blinding?",
     "question": "Which statement best introduces Blinding?",
     "options": [
@@ -11933,7 +11933,7 @@ export const psychologyConcepts = [
     "id": "psy-double-blind",
     "world": "psychology",
     "name": "Double-Blind Design",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Double-Blind Design?",
     "question": "Which statement best introduces Double-Blind Design?",
     "options": [
@@ -11972,7 +11972,7 @@ export const psychologyConcepts = [
     "id": "psy-control-group",
     "world": "psychology",
     "name": "Control Groups",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Control Groups?",
     "question": "Which statement best introduces Control Groups?",
     "options": [
@@ -12011,7 +12011,7 @@ export const psychologyConcepts = [
     "id": "psy-within-subject",
     "world": "psychology",
     "name": "Within-Subjects Design",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Within-Subjects Design show up most clearly?",
     "question": "Which statement best introduces Within-Subjects Design?",
     "options": [
@@ -12050,7 +12050,7 @@ export const psychologyConcepts = [
     "id": "psy-between-subject",
     "world": "psychology",
     "name": "Between-Subjects Design",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Between-Subjects Design?",
     "question": "Which statement best introduces Between-Subjects Design?",
     "options": [
@@ -12089,7 +12089,7 @@ export const psychologyConcepts = [
     "id": "psy-longitudinal",
     "world": "psychology",
     "name": "Longitudinal Studies",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Longitudinal Studies?",
     "question": "Which statement best introduces Longitudinal Studies?",
     "options": [
@@ -12128,7 +12128,7 @@ export const psychologyConcepts = [
     "id": "psy-cross-sectional",
     "world": "psychology",
     "name": "Cross-Sectional Studies",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Cross-Sectional Studies show up most clearly?",
     "question": "Which statement best introduces Cross-Sectional Studies?",
     "options": [
@@ -12167,7 +12167,7 @@ export const psychologyConcepts = [
     "id": "psy-natural-experiment",
     "world": "psychology",
     "name": "Natural Experiments",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Natural Experiments?",
     "question": "Which statement best introduces Natural Experiments?",
     "options": [
@@ -12206,7 +12206,7 @@ export const psychologyConcepts = [
     "id": "psy-quasi-experiment",
     "world": "psychology",
     "name": "Quasi-Experiments",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Quasi-Experiments?",
     "question": "Which statement best introduces Quasi-Experiments?",
     "options": [
@@ -12245,7 +12245,7 @@ export const psychologyConcepts = [
     "id": "psy-meta-analysis",
     "world": "psychology",
     "name": "Meta-Analysis",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Meta-Analysis show up most clearly?",
     "question": "Which statement best introduces Meta-Analysis?",
     "options": [
@@ -12284,7 +12284,7 @@ export const psychologyConcepts = [
     "id": "psy-systematic-review",
     "world": "psychology",
     "name": "Systematic Review",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Systematic Review?",
     "question": "Which statement best introduces Systematic Review?",
     "options": [
@@ -12323,7 +12323,7 @@ export const psychologyConcepts = [
     "id": "psy-confidence-interval",
     "world": "psychology",
     "name": "Confidence Intervals",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Confidence Intervals?",
     "question": "Which statement best introduces Confidence Intervals?",
     "options": [
@@ -12362,7 +12362,7 @@ export const psychologyConcepts = [
     "id": "psy-statistical-power",
     "world": "psychology",
     "name": "Statistical Power",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Statistical Power?",
     "question": "Which statement best introduces Statistical Power?",
     "options": [
@@ -12401,7 +12401,7 @@ export const psychologyConcepts = [
     "id": "psy-false-positive",
     "world": "psychology",
     "name": "False Positives",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might False Positives show up most clearly?",
     "question": "Which statement best introduces False Positives?",
     "options": [
@@ -12440,7 +12440,7 @@ export const psychologyConcepts = [
     "id": "psy-false-negative",
     "world": "psychology",
     "name": "False Negatives",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind False Negatives?",
     "question": "Which statement best introduces False Negatives?",
     "options": [
@@ -12479,7 +12479,7 @@ export const psychologyConcepts = [
     "id": "psy-multiple-comparisons",
     "world": "psychology",
     "name": "Multiple Comparisons",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Multiple Comparisons?",
     "question": "Which statement best introduces Multiple Comparisons?",
     "options": [
@@ -12518,7 +12518,7 @@ export const psychologyConcepts = [
     "id": "psy-preregistration",
     "world": "psychology",
     "name": "Preregistration",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Preregistration?",
     "question": "Which statement best introduces Preregistration?",
     "options": [
@@ -12557,7 +12557,7 @@ export const psychologyConcepts = [
     "id": "psy-registered-reports",
     "world": "psychology",
     "name": "Registered Reports",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Registered Reports show up most clearly?",
     "question": "Which statement best introduces Registered Reports?",
     "options": [
@@ -12596,7 +12596,7 @@ export const psychologyConcepts = [
     "id": "psy-open-data",
     "world": "psychology",
     "name": "Open Data",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Open Data?",
     "question": "Which statement best introduces Open Data?",
     "options": [
@@ -12635,7 +12635,7 @@ export const psychologyConcepts = [
     "id": "psy-open-materials",
     "world": "psychology",
     "name": "Open Materials",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Open Materials?",
     "question": "Which statement best introduces Open Materials?",
     "options": [
@@ -12674,7 +12674,7 @@ export const psychologyConcepts = [
     "id": "psy-replication-crisis",
     "world": "psychology",
     "name": "Replication Crisis",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Replication Crisis?",
     "question": "Which statement best introduces Replication Crisis?",
     "options": [
@@ -12713,7 +12713,7 @@ export const psychologyConcepts = [
     "id": "psy-file-drawer",
     "world": "psychology",
     "name": "File Drawer Problem",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might File Drawer Problem show up most clearly?",
     "question": "Which statement best introduces File Drawer Problem?",
     "options": [
@@ -12752,7 +12752,7 @@ export const psychologyConcepts = [
     "id": "psy-small-samples",
     "world": "psychology",
     "name": "Small Sample Problems",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Small Sample Problems?",
     "question": "Which statement best introduces Small Sample Problems?",
     "options": [
@@ -12791,7 +12791,7 @@ export const psychologyConcepts = [
     "id": "psy-sampling-bias",
     "world": "psychology",
     "name": "Sampling Bias",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Sampling Bias?",
     "question": "Which statement best introduces Sampling Bias?",
     "options": [
@@ -12830,7 +12830,7 @@ export const psychologyConcepts = [
     "id": "psy-convenience-samples",
     "world": "psychology",
     "name": "Convenience Samples",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Convenience Samples?",
     "question": "Which statement best introduces Convenience Samples?",
     "options": [
@@ -12869,7 +12869,7 @@ export const psychologyConcepts = [
     "id": "psy-measurement-invariance",
     "world": "psychology",
     "name": "Measurement Invariance",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Measurement Invariance show up most clearly?",
     "question": "Which statement best introduces Measurement Invariance?",
     "options": [
@@ -12908,7 +12908,7 @@ export const psychologyConcepts = [
     "id": "psy-cross-cultural-validity",
     "world": "psychology",
     "name": "Cross-Cultural Validity",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Cross-Cultural Validity?",
     "question": "Which statement best introduces Cross-Cultural Validity?",
     "options": [
@@ -12947,7 +12947,7 @@ export const psychologyConcepts = [
     "id": "psy-observer-expectancy",
     "world": "psychology",
     "name": "Observer-Expectancy Effect",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Observer-Expectancy Effect?",
     "question": "Which statement best introduces Observer-Expectancy Effect?",
     "options": [
@@ -12986,7 +12986,7 @@ export const psychologyConcepts = [
     "id": "psy-hawthorne",
     "world": "psychology",
     "name": "Hawthorne Effect Debate",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Hawthorne Effect Debate?",
     "question": "Which statement best introduces Hawthorne Effect Debate?",
     "options": [
@@ -13025,7 +13025,7 @@ export const psychologyConcepts = [
     "id": "psy-social-desirability",
     "world": "psychology",
     "name": "Social Desirability Bias",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Where might Social Desirability Bias show up most clearly?",
     "question": "Which statement best introduces Social Desirability Bias?",
     "options": [
@@ -13064,7 +13064,7 @@ export const psychologyConcepts = [
     "id": "psy-reverse-causality",
     "world": "psychology",
     "name": "Reverse Causality",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Why do psychologists study Reverse Causality?",
     "question": "Which statement best introduces Reverse Causality?",
     "options": [
@@ -13103,7 +13103,7 @@ export const psychologyConcepts = [
     "id": "psy-third-variable",
     "world": "psychology",
     "name": "Third-Variable Problem",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Third-Variable Problem?",
     "question": "Which statement best introduces Third-Variable Problem?",
     "options": [
@@ -13142,7 +13142,7 @@ export const psychologyConcepts = [
     "id": "psy-bayesian-reasoning",
     "world": "psychology",
     "name": "Bayesian Reasoning",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "What is the central idea behind Bayesian Reasoning?",
     "question": "Which statement best introduces Bayesian Reasoning?",
     "options": [
@@ -13181,7 +13181,7 @@ export const psychologyConcepts = [
     "id": "psy-open-science",
     "world": "psychology",
     "name": "Open Science",
-    "pool": "Methods & Controversies",
+    "pool": "Clinical Psychology & Psychological Science",
     "hook": "Which situation is most relevant to Open Science?",
     "question": "Which statement best introduces Open Science?",
     "options": [
@@ -13220,7 +13220,7 @@ export const psychologyConcepts = [
     "id": "psy-categorization",
     "world": "psychology",
     "name": "Categorization",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Categorization show up most clearly?",
     "question": "Which statement best introduces Categorization?",
     "options": [
@@ -13259,7 +13259,7 @@ export const psychologyConcepts = [
     "id": "psy-concept-formation",
     "world": "psychology",
     "name": "Concept Formation",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Concept Formation?",
     "question": "Which statement best introduces Concept Formation?",
     "options": [
@@ -13298,7 +13298,7 @@ export const psychologyConcepts = [
     "id": "psy-prototype-theory",
     "world": "psychology",
     "name": "Prototype Theory",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Prototype Theory?",
     "question": "Which statement best introduces Prototype Theory?",
     "options": [
@@ -13337,7 +13337,7 @@ export const psychologyConcepts = [
     "id": "psy-lexical-access",
     "world": "psychology",
     "name": "Lexical Access",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Lexical Access?",
     "question": "Which statement best introduces Lexical Access?",
     "options": [
@@ -13376,7 +13376,7 @@ export const psychologyConcepts = [
     "id": "psy-semantic-priming",
     "world": "psychology",
     "name": "Semantic Priming",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Semantic Priming show up most clearly?",
     "question": "Which statement best introduces Semantic Priming?",
     "options": [
@@ -13415,7 +13415,7 @@ export const psychologyConcepts = [
     "id": "psy-garden-path",
     "world": "psychology",
     "name": "Garden-Path Sentences",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Garden-Path Sentences?",
     "question": "Which statement best introduces Garden-Path Sentences?",
     "options": [
@@ -13454,7 +13454,7 @@ export const psychologyConcepts = [
     "id": "psy-linguistic-relativity",
     "world": "psychology",
     "name": "Linguistic Relativity",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Linguistic Relativity?",
     "question": "Which statement best introduces Linguistic Relativity?",
     "options": [
@@ -13493,7 +13493,7 @@ export const psychologyConcepts = [
     "id": "psy-categorical-perception",
     "world": "psychology",
     "name": "Categorical Perception",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Categorical Perception show up most clearly?",
     "question": "Which statement best introduces Categorical Perception?",
     "options": [
@@ -13532,7 +13532,7 @@ export const psychologyConcepts = [
     "id": "psy-speech-segmentation",
     "world": "psychology",
     "name": "Speech Segmentation",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Speech Segmentation?",
     "question": "Which statement best introduces Speech Segmentation?",
     "options": [
@@ -13571,7 +13571,7 @@ export const psychologyConcepts = [
     "id": "psy-phonological-loop",
     "world": "psychology",
     "name": "Phonological Loop",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Phonological Loop?",
     "question": "Which statement best introduces Phonological Loop?",
     "options": [
@@ -13610,7 +13610,7 @@ export const psychologyConcepts = [
     "id": "psy-inner-speech",
     "world": "psychology",
     "name": "Inner Speech",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Inner Speech?",
     "question": "Which statement best introduces Inner Speech?",
     "options": [
@@ -13649,7 +13649,7 @@ export const psychologyConcepts = [
     "id": "psy-bilingualism",
     "world": "psychology",
     "name": "Bilingual Cognition",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Bilingual Cognition show up most clearly?",
     "question": "Which statement best introduces Bilingual Cognition?",
     "options": [
@@ -13688,7 +13688,7 @@ export const psychologyConcepts = [
     "id": "psy-code-switching",
     "world": "psychology",
     "name": "Code-Switching",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Code-Switching?",
     "question": "Which statement best introduces Code-Switching?",
     "options": [
@@ -13727,7 +13727,7 @@ export const psychologyConcepts = [
     "id": "psy-metaphor-cognition",
     "world": "psychology",
     "name": "Conceptual Metaphor",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Conceptual Metaphor?",
     "question": "Which statement best introduces Conceptual Metaphor?",
     "options": [
@@ -13766,7 +13766,7 @@ export const psychologyConcepts = [
     "id": "psy-embodied-cognition",
     "world": "psychology",
     "name": "Embodied Cognition",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Embodied Cognition show up most clearly?",
     "question": "Which statement best introduces Embodied Cognition?",
     "options": [
@@ -13805,7 +13805,7 @@ export const psychologyConcepts = [
     "id": "psy-mental-imagery",
     "world": "psychology",
     "name": "Mental Imagery",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Mental Imagery?",
     "question": "Which statement best introduces Mental Imagery?",
     "options": [
@@ -13844,7 +13844,7 @@ export const psychologyConcepts = [
     "id": "psy-mental-rotation",
     "world": "psychology",
     "name": "Mental Rotation",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Mental Rotation?",
     "question": "Which statement best introduces Mental Rotation?",
     "options": [
@@ -13883,7 +13883,7 @@ export const psychologyConcepts = [
     "id": "psy-spatial-cognition",
     "world": "psychology",
     "name": "Spatial Cognition",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Spatial Cognition?",
     "question": "Which statement best introduces Spatial Cognition?",
     "options": [
@@ -13922,7 +13922,7 @@ export const psychologyConcepts = [
     "id": "psy-cognitive-map",
     "world": "psychology",
     "name": "Cognitive Maps",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Cognitive Maps show up most clearly?",
     "question": "Which statement best introduces Cognitive Maps?",
     "options": [
@@ -13961,7 +13961,7 @@ export const psychologyConcepts = [
     "id": "psy-numerical-cognition",
     "world": "psychology",
     "name": "Numerical Cognition",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Numerical Cognition?",
     "question": "Which statement best introduces Numerical Cognition?",
     "options": [
@@ -14000,7 +14000,7 @@ export const psychologyConcepts = [
     "id": "psy-problem-representation",
     "world": "psychology",
     "name": "Problem Representation",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Problem Representation show up most clearly?",
     "question": "Which statement best introduces Problem Representation?",
     "options": [
@@ -14039,7 +14039,7 @@ export const psychologyConcepts = [
     "id": "psy-analogical-reasoning",
     "world": "psychology",
     "name": "Analogical Reasoning",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "What is the central idea behind Analogical Reasoning?",
     "question": "Which statement best introduces Analogical Reasoning?",
     "options": [
@@ -14078,7 +14078,7 @@ export const psychologyConcepts = [
     "id": "psy-insight-problem",
     "world": "psychology",
     "name": "Insight Problems",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Insight Problems?",
     "question": "Which statement best introduces Insight Problems?",
     "options": [
@@ -14117,7 +14117,7 @@ export const psychologyConcepts = [
     "id": "psy-confirmation-problem-solving",
     "world": "psychology",
     "name": "Confirmation in Problem Solving",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Confirmation in Problem Solving?",
     "question": "Which statement best introduces Confirmation in Problem Solving?",
     "options": [
@@ -14156,7 +14156,7 @@ export const psychologyConcepts = [
     "id": "psy-expertise",
     "world": "psychology",
     "name": "Expertise",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Why do psychologists study Expertise?",
     "question": "Which statement best introduces Expertise?",
     "options": [
@@ -14195,7 +14195,7 @@ export const psychologyConcepts = [
     "id": "psy-deliberate-practice",
     "world": "psychology",
     "name": "Deliberate Practice",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Deliberate Practice?",
     "question": "Which statement best introduces Deliberate Practice?",
     "options": [
@@ -14234,7 +14234,7 @@ export const psychologyConcepts = [
     "id": "psy-transfer-learning",
     "world": "psychology",
     "name": "Transfer of Learning",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Where might Transfer of Learning show up most clearly?",
     "question": "Which statement best introduces Transfer of Learning?",
     "options": [
@@ -14273,7 +14273,7 @@ export const psychologyConcepts = [
     "id": "psy-metaphor-framing",
     "world": "psychology",
     "name": "Metaphorical Framing",
-    "pool": "Language & Thought",
+    "pool": "Cognition, Memory & Perception",
     "hook": "Which situation is most relevant to Metaphorical Framing?",
     "question": "Which statement best introduces Metaphorical Framing?",
     "options": [
@@ -14312,7 +14312,7 @@ export const psychologyConcepts = [
     "id": "psy-kin-selection",
     "world": "psychology",
     "name": "Kin Selection",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Kin Selection show up most clearly?",
     "question": "Which statement best introduces Kin Selection?",
     "options": [
@@ -14351,7 +14351,7 @@ export const psychologyConcepts = [
     "id": "psy-reciprocal-altruism",
     "world": "psychology",
     "name": "Reciprocal Altruism",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Reciprocal Altruism?",
     "question": "Which statement best introduces Reciprocal Altruism?",
     "options": [
@@ -14390,7 +14390,7 @@ export const psychologyConcepts = [
     "id": "psy-parental-investment",
     "world": "psychology",
     "name": "Parental Investment",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Parental Investment?",
     "question": "Which statement best introduces Parental Investment?",
     "options": [
@@ -14429,7 +14429,7 @@ export const psychologyConcepts = [
     "id": "psy-sexual-selection",
     "world": "psychology",
     "name": "Sexual Selection",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Sexual Selection show up most clearly?",
     "question": "Which statement best introduces Sexual Selection?",
     "options": [
@@ -14468,7 +14468,7 @@ export const psychologyConcepts = [
     "id": "psy-mate-choice",
     "world": "psychology",
     "name": "Mate Choice",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Mate Choice?",
     "question": "Which statement best introduces Mate Choice?",
     "options": [
@@ -14507,7 +14507,7 @@ export const psychologyConcepts = [
     "id": "psy-cooperation-evolution",
     "world": "psychology",
     "name": "Evolution of Cooperation",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Evolution of Cooperation?",
     "question": "Which statement best introduces Evolution of Cooperation?",
     "options": [
@@ -14546,7 +14546,7 @@ export const psychologyConcepts = [
     "id": "psy-costly-signals",
     "world": "psychology",
     "name": "Costly Signals",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Costly Signals?",
     "question": "Which statement best introduces Costly Signals?",
     "options": [
@@ -14585,7 +14585,7 @@ export const psychologyConcepts = [
     "id": "psy-life-history",
     "world": "psychology",
     "name": "Life History Theory",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Life History Theory?",
     "question": "Which statement best introduces Life History Theory?",
     "options": [
@@ -14624,7 +14624,7 @@ export const psychologyConcepts = [
     "id": "psy-coalitional-psychology",
     "world": "psychology",
     "name": "Coalitional Psychology",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Coalitional Psychology?",
     "question": "Which statement best introduces Coalitional Psychology?",
     "options": [
@@ -14663,7 +14663,7 @@ export const psychologyConcepts = [
     "id": "psy-status",
     "world": "psychology",
     "name": "Status",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Where might Status show up most clearly?",
     "question": "Which statement best introduces Status?",
     "options": [
@@ -14702,7 +14702,7 @@ export const psychologyConcepts = [
     "id": "psy-prestige",
     "world": "psychology",
     "name": "Prestige",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "What is the central idea behind Prestige?",
     "question": "Which statement best introduces Prestige?",
     "options": [
@@ -14741,7 +14741,7 @@ export const psychologyConcepts = [
     "id": "psy-dominance",
     "world": "psychology",
     "name": "Dominance",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Why do psychologists study Dominance?",
     "question": "Which statement best introduces Dominance?",
     "options": [
@@ -14780,7 +14780,7 @@ export const psychologyConcepts = [
     "id": "psy-social-learning-evolution",
     "world": "psychology",
     "name": "Cultural Social Learning",
-    "pool": "Evolution & Behavior",
+    "pool": "Development, Personality & Evolution",
     "hook": "Which situation is most relevant to Cultural Social Learning?",
     "question": "Which statement best introduces Cultural Social Learning?",
     "options": [
