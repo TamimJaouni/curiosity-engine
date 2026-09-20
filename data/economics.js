@@ -33,8 +33,10 @@ export const economicsConcepts = [
     "related": [
       "econ-adam-smith",
       "econ-division-labor",
-      "econ-ricardo"
-    ]
+      "econ-ricardo",
+      "econ-invisible-hand"
+    ],
+    "topic": "Adam Smith & Classical Economics"
   },
   {
     "id": "econ-adam-smith",
@@ -70,8 +72,10 @@ export const economicsConcepts = [
     "related": [
       "econ-division-labor",
       "econ-ricardo",
-      "econ-malthus"
-    ]
+      "econ-malthus",
+      "econ-invisible-hand"
+    ],
+    "topic": "Adam Smith & Classical Economics"
   },
   {
     "id": "econ-division-labor",
@@ -107,8 +111,10 @@ export const economicsConcepts = [
     "related": [
       "econ-ricardo",
       "econ-malthus",
-      "econ-marxian"
-    ]
+      "econ-marxian",
+      "econ-invisible-hand"
+    ],
+    "topic": "Adam Smith & Classical Economics"
   },
   {
     "id": "econ-ricardo",
@@ -144,8 +150,10 @@ export const economicsConcepts = [
     "related": [
       "econ-malthus",
       "econ-marxian",
-      "econ-surplus-value"
-    ]
+      "econ-surplus-value",
+      "econ-marginalism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-malthus",
@@ -181,8 +189,10 @@ export const economicsConcepts = [
     "related": [
       "econ-marxian",
       "econ-surplus-value",
-      "econ-marginalism"
-    ]
+      "econ-marginalism",
+      "econ-neoclassical"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-marxian",
@@ -218,8 +228,10 @@ export const economicsConcepts = [
     "related": [
       "econ-surplus-value",
       "econ-marginalism",
-      "econ-neoclassical"
-    ]
+      "econ-neoclassical",
+      "econ-labor-theory-value-marx"
+    ],
+    "topic": "Marx & Marxian Economics"
   },
   {
     "id": "econ-surplus-value",
@@ -255,8 +267,10 @@ export const economicsConcepts = [
     "related": [
       "econ-marginalism",
       "econ-neoclassical",
-      "econ-marshall"
-    ]
+      "econ-marshall",
+      "econ-labor-theory-value-marx"
+    ],
+    "topic": "Marx & Marxian Economics"
   },
   {
     "id": "econ-marginalism",
@@ -292,8 +306,10 @@ export const economicsConcepts = [
     "related": [
       "econ-neoclassical",
       "econ-marshall",
-      "econ-keynesian"
-    ]
+      "econ-keynesian",
+      "econ-public-choice"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-neoclassical",
@@ -329,8 +345,10 @@ export const economicsConcepts = [
     "related": [
       "econ-marshall",
       "econ-keynesian",
-      "econ-keynes"
-    ]
+      "econ-keynes",
+      "econ-public-choice"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-marshall",
@@ -366,8 +384,10 @@ export const economicsConcepts = [
     "related": [
       "econ-keynesian",
       "econ-keynes",
-      "econ-post-keynesian"
-    ]
+      "econ-post-keynesian",
+      "econ-public-choice"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-keynesian",
@@ -403,8 +423,10 @@ export const economicsConcepts = [
     "related": [
       "econ-keynes",
       "econ-post-keynesian",
-      "econ-monetarism"
-    ]
+      "econ-monetarism",
+      "econ-new-keynesian"
+    ],
+    "topic": "Keynesian Economics"
   },
   {
     "id": "econ-keynes",
@@ -440,8 +462,10 @@ export const economicsConcepts = [
     "related": [
       "econ-post-keynesian",
       "econ-monetarism",
-      "econ-friedman"
-    ]
+      "econ-friedman",
+      "econ-new-keynesian"
+    ],
+    "topic": "Keynesian Economics"
   },
   {
     "id": "econ-post-keynesian",
@@ -477,8 +501,10 @@ export const economicsConcepts = [
     "related": [
       "econ-monetarism",
       "econ-friedman",
-      "econ-austrian"
-    ]
+      "econ-austrian",
+      "econ-new-keynesian"
+    ],
+    "topic": "Keynesian Economics"
   },
   {
     "id": "econ-monetarism",
@@ -514,8 +540,10 @@ export const economicsConcepts = [
     "related": [
       "econ-friedman",
       "econ-austrian",
-      "econ-hayek"
-    ]
+      "econ-hayek",
+      "econ-quantity-money"
+    ],
+    "topic": "Friedman & Monetarism"
   },
   {
     "id": "econ-friedman",
@@ -551,8 +579,10 @@ export const economicsConcepts = [
     "related": [
       "econ-austrian",
       "econ-hayek",
-      "econ-mises"
-    ]
+      "econ-mises",
+      "econ-quantity-money"
+    ],
+    "topic": "Friedman & Monetarism"
   },
   {
     "id": "econ-austrian",
@@ -588,8 +618,10 @@ export const economicsConcepts = [
     "related": [
       "econ-hayek",
       "econ-mises",
-      "econ-institutional"
-    ]
+      "econ-institutional",
+      "econ-knowledge-problem"
+    ],
+    "topic": "Hayek & Austrian Economics"
   },
   {
     "id": "econ-hayek",
@@ -625,8 +657,10 @@ export const economicsConcepts = [
     "related": [
       "econ-mises",
       "econ-institutional",
-      "econ-new-institutional"
-    ]
+      "econ-new-institutional",
+      "econ-knowledge-problem"
+    ],
+    "topic": "Hayek & Austrian Economics"
   },
   {
     "id": "econ-mises",
@@ -662,8 +696,10 @@ export const economicsConcepts = [
     "related": [
       "econ-institutional",
       "econ-new-institutional",
-      "econ-behavioral"
-    ]
+      "econ-behavioral",
+      "econ-knowledge-problem"
+    ],
+    "topic": "Hayek & Austrian Economics"
   },
   {
     "id": "econ-institutional",
@@ -699,8 +735,10 @@ export const economicsConcepts = [
     "related": [
       "econ-new-institutional",
       "econ-behavioral",
-      "econ-public-choice"
-    ]
+      "econ-public-choice",
+      "econ-north-institutions"
+    ],
+    "topic": "Institutional Economics"
   },
   {
     "id": "econ-new-institutional",
@@ -736,8 +774,10 @@ export const economicsConcepts = [
     "related": [
       "econ-behavioral",
       "econ-public-choice",
-      "econ-new-classical"
-    ]
+      "econ-new-classical",
+      "econ-north-institutions"
+    ],
+    "topic": "Institutional Economics"
   },
   {
     "id": "econ-behavioral",
@@ -773,8 +813,10 @@ export const economicsConcepts = [
     "related": [
       "econ-public-choice",
       "econ-new-classical",
-      "econ-new-keynesian"
-    ]
+      "econ-new-keynesian",
+      "econ-prospect-theory-econ"
+    ],
+    "topic": "Behavioral Economics"
   },
   {
     "id": "econ-public-choice",
@@ -810,8 +852,10 @@ export const economicsConcepts = [
     "related": [
       "econ-new-classical",
       "econ-new-keynesian",
-      "econ-supply-side"
-    ]
+      "econ-supply-side",
+      "econ-development-school"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-new-classical",
@@ -847,8 +891,10 @@ export const economicsConcepts = [
     "related": [
       "econ-new-keynesian",
       "econ-supply-side",
-      "econ-development-school"
-    ]
+      "econ-development-school",
+      "econ-ordoliberalism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-new-keynesian",
@@ -884,8 +930,10 @@ export const economicsConcepts = [
     "related": [
       "econ-supply-side",
       "econ-development-school",
-      "econ-ordoliberalism"
-    ]
+      "econ-ordoliberalism",
+      "econ-effective-demand"
+    ],
+    "topic": "Keynesian Economics"
   },
   {
     "id": "econ-supply-side",
@@ -921,8 +969,10 @@ export const economicsConcepts = [
     "related": [
       "econ-development-school",
       "econ-ordoliberalism",
-      "econ-physiocrats"
-    ]
+      "econ-physiocrats",
+      "econ-mercantilism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-development-school",
@@ -958,8 +1008,10 @@ export const economicsConcepts = [
     "related": [
       "econ-ordoliberalism",
       "econ-physiocrats",
-      "econ-mercantilism"
-    ]
+      "econ-mercantilism",
+      "econ-georgism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-ordoliberalism",
@@ -995,8 +1047,10 @@ export const economicsConcepts = [
     "related": [
       "econ-physiocrats",
       "econ-mercantilism",
-      "econ-schumpeter"
-    ]
+      "econ-schumpeter",
+      "econ-georgism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-physiocrats",
@@ -1032,8 +1086,10 @@ export const economicsConcepts = [
     "related": [
       "econ-mercantilism",
       "econ-schumpeter",
-      "econ-creative-destruction"
-    ]
+      "econ-creative-destruction",
+      "econ-georgism"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-mercantilism",
@@ -1069,8 +1125,10 @@ export const economicsConcepts = [
     "related": [
       "econ-schumpeter",
       "econ-creative-destruction",
-      "econ-georgism"
-    ]
+      "econ-georgism",
+      "econ-ricardo"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-schumpeter",
@@ -1106,8 +1164,10 @@ export const economicsConcepts = [
     "related": [
       "econ-creative-destruction",
       "econ-georgism",
-      "econ-classical"
-    ]
+      "econ-classical",
+      "econ-entrepreneur-schumpeter"
+    ],
+    "topic": "Schumpeter & Innovation"
   },
   {
     "id": "econ-creative-destruction",
@@ -1143,8 +1203,10 @@ export const economicsConcepts = [
     "related": [
       "econ-georgism",
       "econ-classical",
-      "econ-adam-smith"
-    ]
+      "econ-adam-smith",
+      "econ-entrepreneur-schumpeter"
+    ],
+    "topic": "Schumpeter & Innovation"
   },
   {
     "id": "econ-georgism",
@@ -1180,8 +1242,10 @@ export const economicsConcepts = [
     "related": [
       "econ-classical",
       "econ-adam-smith",
-      "econ-division-labor"
-    ]
+      "econ-division-labor",
+      "econ-ricardo"
+    ],
+    "topic": "Schools & Thinkers"
   },
   {
     "id": "econ-scarcity",
@@ -1217,8 +1281,10 @@ export const economicsConcepts = [
     "related": [
       "econ-opportunity-cost",
       "econ-marginal-thinking",
-      "econ-sunk-cost"
-    ]
+      "econ-sunk-cost",
+      "econ-supply"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-opportunity-cost",
@@ -1254,8 +1320,10 @@ export const economicsConcepts = [
     "related": [
       "econ-marginal-thinking",
       "econ-sunk-cost",
-      "econ-supply"
-    ]
+      "econ-supply",
+      "econ-demand"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-marginal-thinking",
@@ -1291,8 +1359,10 @@ export const economicsConcepts = [
     "related": [
       "econ-sunk-cost",
       "econ-supply",
-      "econ-demand"
-    ]
+      "econ-demand",
+      "econ-equilibrium"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-sunk-cost",
@@ -1328,8 +1398,10 @@ export const economicsConcepts = [
     "related": [
       "econ-supply",
       "econ-demand",
-      "econ-equilibrium"
-    ]
+      "econ-equilibrium",
+      "econ-elasticity"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-supply",
@@ -1365,8 +1437,10 @@ export const economicsConcepts = [
     "related": [
       "econ-demand",
       "econ-equilibrium",
-      "econ-elasticity"
-    ]
+      "econ-elasticity",
+      "econ-consumer-surplus"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-demand",
@@ -1402,8 +1476,10 @@ export const economicsConcepts = [
     "related": [
       "econ-equilibrium",
       "econ-elasticity",
-      "econ-consumer-surplus"
-    ]
+      "econ-consumer-surplus",
+      "econ-producer-surplus"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-equilibrium",
@@ -1439,8 +1515,10 @@ export const economicsConcepts = [
     "related": [
       "econ-elasticity",
       "econ-consumer-surplus",
-      "econ-producer-surplus"
-    ]
+      "econ-producer-surplus",
+      "econ-price-ceiling"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-elasticity",
@@ -1476,8 +1554,10 @@ export const economicsConcepts = [
     "related": [
       "econ-consumer-surplus",
       "econ-producer-surplus",
-      "econ-price-ceiling"
-    ]
+      "econ-price-ceiling",
+      "econ-price-floor"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-consumer-surplus",
@@ -1513,8 +1593,10 @@ export const economicsConcepts = [
     "related": [
       "econ-producer-surplus",
       "econ-price-ceiling",
-      "econ-price-floor"
-    ]
+      "econ-price-floor",
+      "econ-tax-incidence"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-producer-surplus",
@@ -1550,8 +1632,10 @@ export const economicsConcepts = [
     "related": [
       "econ-price-ceiling",
       "econ-price-floor",
-      "econ-tax-incidence"
-    ]
+      "econ-tax-incidence",
+      "econ-deadweight-loss"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-price-ceiling",
@@ -1587,8 +1671,10 @@ export const economicsConcepts = [
     "related": [
       "econ-price-floor",
       "econ-tax-incidence",
-      "econ-deadweight-loss"
-    ]
+      "econ-deadweight-loss",
+      "econ-externality"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-price-floor",
@@ -1624,8 +1710,10 @@ export const economicsConcepts = [
     "related": [
       "econ-tax-incidence",
       "econ-deadweight-loss",
-      "econ-externality"
-    ]
+      "econ-externality",
+      "econ-public-good"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-tax-incidence",
@@ -1661,8 +1749,10 @@ export const economicsConcepts = [
     "related": [
       "econ-deadweight-loss",
       "econ-externality",
-      "econ-public-good"
-    ]
+      "econ-public-good",
+      "econ-common-resource"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-deadweight-loss",
@@ -1698,8 +1788,10 @@ export const economicsConcepts = [
     "related": [
       "econ-externality",
       "econ-public-good",
-      "econ-common-resource"
-    ]
+      "econ-common-resource",
+      "econ-asymmetric-info"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-externality",
@@ -1735,8 +1827,10 @@ export const economicsConcepts = [
     "related": [
       "econ-public-good",
       "econ-common-resource",
-      "econ-asymmetric-info"
-    ]
+      "econ-asymmetric-info",
+      "econ-adverse-selection"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-public-good",
@@ -1772,8 +1866,10 @@ export const economicsConcepts = [
     "related": [
       "econ-common-resource",
       "econ-asymmetric-info",
-      "econ-adverse-selection"
-    ]
+      "econ-adverse-selection",
+      "econ-moral-hazard"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-common-resource",
@@ -1809,8 +1905,10 @@ export const economicsConcepts = [
     "related": [
       "econ-asymmetric-info",
       "econ-adverse-selection",
-      "econ-moral-hazard"
-    ]
+      "econ-moral-hazard",
+      "econ-principal-agent"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-asymmetric-info",
@@ -1846,8 +1944,10 @@ export const economicsConcepts = [
     "related": [
       "econ-adverse-selection",
       "econ-moral-hazard",
-      "econ-principal-agent"
-    ]
+      "econ-principal-agent",
+      "econ-transaction-cost"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-adverse-selection",
@@ -1883,8 +1983,10 @@ export const economicsConcepts = [
     "related": [
       "econ-moral-hazard",
       "econ-principal-agent",
-      "econ-transaction-cost"
-    ]
+      "econ-transaction-cost",
+      "econ-property-rights"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-moral-hazard",
@@ -1920,8 +2022,10 @@ export const economicsConcepts = [
     "related": [
       "econ-principal-agent",
       "econ-transaction-cost",
-      "econ-property-rights"
-    ]
+      "econ-property-rights",
+      "econ-network-effects"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-principal-agent",
@@ -1957,8 +2061,10 @@ export const economicsConcepts = [
     "related": [
       "econ-transaction-cost",
       "econ-property-rights",
-      "econ-network-effects"
-    ]
+      "econ-network-effects",
+      "econ-economies-scale"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-transaction-cost",
@@ -1994,8 +2100,10 @@ export const economicsConcepts = [
     "related": [
       "econ-property-rights",
       "econ-network-effects",
-      "econ-economies-scale"
-    ]
+      "econ-economies-scale",
+      "econ-diminishing-returns"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-property-rights",
@@ -2031,8 +2139,10 @@ export const economicsConcepts = [
     "related": [
       "econ-network-effects",
       "econ-economies-scale",
-      "econ-diminishing-returns"
-    ]
+      "econ-diminishing-returns",
+      "econ-perfect-competition"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-network-effects",
@@ -2068,8 +2178,10 @@ export const economicsConcepts = [
     "related": [
       "econ-economies-scale",
       "econ-diminishing-returns",
-      "econ-perfect-competition"
-    ]
+      "econ-perfect-competition",
+      "econ-monopoly"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-economies-scale",
@@ -2105,8 +2217,10 @@ export const economicsConcepts = [
     "related": [
       "econ-diminishing-returns",
       "econ-perfect-competition",
-      "econ-monopoly"
-    ]
+      "econ-monopoly",
+      "econ-oligopoly"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-diminishing-returns",
@@ -2142,8 +2256,10 @@ export const economicsConcepts = [
     "related": [
       "econ-perfect-competition",
       "econ-monopoly",
-      "econ-oligopoly"
-    ]
+      "econ-oligopoly",
+      "econ-game-theory"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-perfect-competition",
@@ -2179,8 +2295,10 @@ export const economicsConcepts = [
     "related": [
       "econ-monopoly",
       "econ-oligopoly",
-      "econ-game-theory"
-    ]
+      "econ-game-theory",
+      "econ-nash-equilibrium"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-monopoly",
@@ -2216,8 +2334,10 @@ export const economicsConcepts = [
     "related": [
       "econ-oligopoly",
       "econ-game-theory",
-      "econ-nash-equilibrium"
-    ]
+      "econ-nash-equilibrium",
+      "econ-prisoners-dilemma"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-oligopoly",
@@ -2253,8 +2373,10 @@ export const economicsConcepts = [
     "related": [
       "econ-game-theory",
       "econ-nash-equilibrium",
-      "econ-prisoners-dilemma"
-    ]
+      "econ-prisoners-dilemma",
+      "econ-comparative-advantage"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-game-theory",
@@ -2290,8 +2412,10 @@ export const economicsConcepts = [
     "related": [
       "econ-nash-equilibrium",
       "econ-prisoners-dilemma",
-      "econ-comparative-advantage"
-    ]
+      "econ-comparative-advantage",
+      "econ-scarcity"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-nash-equilibrium",
@@ -2327,8 +2451,10 @@ export const economicsConcepts = [
     "related": [
       "econ-prisoners-dilemma",
       "econ-comparative-advantage",
-      "econ-scarcity"
-    ]
+      "econ-scarcity",
+      "econ-opportunity-cost"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-prisoners-dilemma",
@@ -2364,8 +2490,10 @@ export const economicsConcepts = [
     "related": [
       "econ-comparative-advantage",
       "econ-scarcity",
-      "econ-opportunity-cost"
-    ]
+      "econ-opportunity-cost",
+      "econ-marginal-thinking"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-comparative-advantage",
@@ -2401,8 +2529,10 @@ export const economicsConcepts = [
     "related": [
       "econ-scarcity",
       "econ-opportunity-cost",
-      "econ-marginal-thinking"
-    ]
+      "econ-marginal-thinking",
+      "econ-sunk-cost"
+    ],
+    "topic": "Microeconomics"
   },
   {
     "id": "econ-gdp",
@@ -2438,8 +2568,10 @@ export const economicsConcepts = [
     "related": [
       "econ-real-gdp",
       "econ-gdp-per-capita",
-      "econ-inflation"
-    ]
+      "econ-inflation",
+      "econ-deflation"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-real-gdp",
@@ -2475,8 +2607,10 @@ export const economicsConcepts = [
     "related": [
       "econ-gdp-per-capita",
       "econ-inflation",
-      "econ-deflation"
-    ]
+      "econ-deflation",
+      "econ-stagflation"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-gdp-per-capita",
@@ -2512,8 +2646,10 @@ export const economicsConcepts = [
     "related": [
       "econ-inflation",
       "econ-deflation",
-      "econ-stagflation"
-    ]
+      "econ-stagflation",
+      "econ-unemployment"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-inflation",
@@ -2549,8 +2685,10 @@ export const economicsConcepts = [
     "related": [
       "econ-deflation",
       "econ-stagflation",
-      "econ-unemployment"
-    ]
+      "econ-unemployment",
+      "econ-natural-rate"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-deflation",
@@ -2586,8 +2724,10 @@ export const economicsConcepts = [
     "related": [
       "econ-stagflation",
       "econ-unemployment",
-      "econ-natural-rate"
-    ]
+      "econ-natural-rate",
+      "econ-business-cycle"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-stagflation",
@@ -2623,8 +2763,10 @@ export const economicsConcepts = [
     "related": [
       "econ-unemployment",
       "econ-natural-rate",
-      "econ-business-cycle"
-    ]
+      "econ-business-cycle",
+      "econ-recession"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-unemployment",
@@ -2660,8 +2802,10 @@ export const economicsConcepts = [
     "related": [
       "econ-natural-rate",
       "econ-business-cycle",
-      "econ-recession"
-    ]
+      "econ-recession",
+      "econ-aggregate-demand"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-natural-rate",
@@ -2697,8 +2841,10 @@ export const economicsConcepts = [
     "related": [
       "econ-business-cycle",
       "econ-recession",
-      "econ-aggregate-demand"
-    ]
+      "econ-aggregate-demand",
+      "econ-aggregate-supply"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-business-cycle",
@@ -2734,8 +2880,10 @@ export const economicsConcepts = [
     "related": [
       "econ-recession",
       "econ-aggregate-demand",
-      "econ-aggregate-supply"
-    ]
+      "econ-aggregate-supply",
+      "econ-multiplier"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-recession",
@@ -2771,8 +2919,10 @@ export const economicsConcepts = [
     "related": [
       "econ-aggregate-demand",
       "econ-aggregate-supply",
-      "econ-multiplier"
-    ]
+      "econ-multiplier",
+      "econ-output-gap"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-aggregate-demand",
@@ -2808,8 +2958,10 @@ export const economicsConcepts = [
     "related": [
       "econ-aggregate-supply",
       "econ-multiplier",
-      "econ-output-gap"
-    ]
+      "econ-output-gap",
+      "econ-phillips-curve"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-aggregate-supply",
@@ -2845,8 +2997,10 @@ export const economicsConcepts = [
     "related": [
       "econ-multiplier",
       "econ-output-gap",
-      "econ-phillips-curve"
-    ]
+      "econ-phillips-curve",
+      "econ-expectations"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-multiplier",
@@ -2882,8 +3036,10 @@ export const economicsConcepts = [
     "related": [
       "econ-output-gap",
       "econ-phillips-curve",
-      "econ-expectations"
-    ]
+      "econ-expectations",
+      "econ-productivity"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-output-gap",
@@ -2919,8 +3075,10 @@ export const economicsConcepts = [
     "related": [
       "econ-phillips-curve",
       "econ-expectations",
-      "econ-productivity"
-    ]
+      "econ-productivity",
+      "econ-tfp"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-phillips-curve",
@@ -2956,8 +3114,10 @@ export const economicsConcepts = [
     "related": [
       "econ-expectations",
       "econ-productivity",
-      "econ-tfp"
-    ]
+      "econ-tfp",
+      "econ-potential-output"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-expectations",
@@ -2993,8 +3153,10 @@ export const economicsConcepts = [
     "related": [
       "econ-productivity",
       "econ-tfp",
-      "econ-potential-output"
-    ]
+      "econ-potential-output",
+      "econ-gdp"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-productivity",
@@ -3030,8 +3192,10 @@ export const economicsConcepts = [
     "related": [
       "econ-tfp",
       "econ-potential-output",
-      "econ-gdp"
-    ]
+      "econ-gdp",
+      "econ-real-gdp"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-tfp",
@@ -3067,8 +3231,10 @@ export const economicsConcepts = [
     "related": [
       "econ-potential-output",
       "econ-gdp",
-      "econ-real-gdp"
-    ]
+      "econ-real-gdp",
+      "econ-gdp-per-capita"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-potential-output",
@@ -3104,8 +3270,10 @@ export const economicsConcepts = [
     "related": [
       "econ-gdp",
       "econ-real-gdp",
-      "econ-gdp-per-capita"
-    ]
+      "econ-gdp-per-capita",
+      "econ-inflation"
+    ],
+    "topic": "Macroeconomics"
   },
   {
     "id": "econ-money-functions",
@@ -3141,8 +3309,10 @@ export const economicsConcepts = [
     "related": [
       "econ-fractional-banking",
       "econ-money-creation",
-      "econ-central-bank"
-    ]
+      "econ-central-bank",
+      "econ-policy-rate"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-fractional-banking",
@@ -3178,8 +3348,10 @@ export const economicsConcepts = [
     "related": [
       "econ-money-creation",
       "econ-central-bank",
-      "econ-policy-rate"
-    ]
+      "econ-policy-rate",
+      "econ-quantitative-easing"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-money-creation",
@@ -3215,8 +3387,10 @@ export const economicsConcepts = [
     "related": [
       "econ-central-bank",
       "econ-policy-rate",
-      "econ-quantitative-easing"
-    ]
+      "econ-quantitative-easing",
+      "econ-quantitative-tightening"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-central-bank",
@@ -3252,8 +3426,10 @@ export const economicsConcepts = [
     "related": [
       "econ-policy-rate",
       "econ-quantitative-easing",
-      "econ-quantitative-tightening"
-    ]
+      "econ-quantitative-tightening",
+      "econ-yield-curve"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-policy-rate",
@@ -3289,8 +3465,10 @@ export const economicsConcepts = [
     "related": [
       "econ-quantitative-easing",
       "econ-quantitative-tightening",
-      "econ-yield-curve"
-    ]
+      "econ-yield-curve",
+      "econ-real-interest"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-quantitative-easing",
@@ -3326,8 +3504,10 @@ export const economicsConcepts = [
     "related": [
       "econ-quantitative-tightening",
       "econ-yield-curve",
-      "econ-real-interest"
-    ]
+      "econ-real-interest",
+      "econ-compound-interest"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-quantitative-tightening",
@@ -3363,8 +3543,10 @@ export const economicsConcepts = [
     "related": [
       "econ-yield-curve",
       "econ-real-interest",
-      "econ-compound-interest"
-    ]
+      "econ-compound-interest",
+      "econ-present-value"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-yield-curve",
@@ -3400,8 +3582,10 @@ export const economicsConcepts = [
     "related": [
       "econ-real-interest",
       "econ-compound-interest",
-      "econ-present-value"
-    ]
+      "econ-present-value",
+      "econ-risk-return"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-real-interest",
@@ -3437,8 +3621,10 @@ export const economicsConcepts = [
     "related": [
       "econ-compound-interest",
       "econ-present-value",
-      "econ-risk-return"
-    ]
+      "econ-risk-return",
+      "econ-diversification"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-compound-interest",
@@ -3474,8 +3660,10 @@ export const economicsConcepts = [
     "related": [
       "econ-present-value",
       "econ-risk-return",
-      "econ-diversification"
-    ]
+      "econ-diversification",
+      "econ-bond-price-yield"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-present-value",
@@ -3511,8 +3699,10 @@ export const economicsConcepts = [
     "related": [
       "econ-risk-return",
       "econ-diversification",
-      "econ-bond-price-yield"
-    ]
+      "econ-bond-price-yield",
+      "econ-bank-run"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-risk-return",
@@ -3548,8 +3738,10 @@ export const economicsConcepts = [
     "related": [
       "econ-diversification",
       "econ-bond-price-yield",
-      "econ-bank-run"
-    ]
+      "econ-bank-run",
+      "econ-deposit-insurance"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-diversification",
@@ -3585,8 +3777,10 @@ export const economicsConcepts = [
     "related": [
       "econ-bond-price-yield",
       "econ-bank-run",
-      "econ-deposit-insurance"
-    ]
+      "econ-deposit-insurance",
+      "econ-lender-last-resort"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-bond-price-yield",
@@ -3622,8 +3816,10 @@ export const economicsConcepts = [
     "related": [
       "econ-bank-run",
       "econ-deposit-insurance",
-      "econ-lender-last-resort"
-    ]
+      "econ-lender-last-resort",
+      "econ-financial-leverage"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-bank-run",
@@ -3659,8 +3855,10 @@ export const economicsConcepts = [
     "related": [
       "econ-deposit-insurance",
       "econ-lender-last-resort",
-      "econ-financial-leverage"
-    ]
+      "econ-financial-leverage",
+      "econ-liquidity"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-deposit-insurance",
@@ -3696,8 +3894,10 @@ export const economicsConcepts = [
     "related": [
       "econ-lender-last-resort",
       "econ-financial-leverage",
-      "econ-liquidity"
-    ]
+      "econ-liquidity",
+      "econ-credit-cycle"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-lender-last-resort",
@@ -3733,8 +3933,10 @@ export const economicsConcepts = [
     "related": [
       "econ-financial-leverage",
       "econ-liquidity",
-      "econ-credit-cycle"
-    ]
+      "econ-credit-cycle",
+      "econ-money-functions"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-financial-leverage",
@@ -3770,8 +3972,10 @@ export const economicsConcepts = [
     "related": [
       "econ-liquidity",
       "econ-credit-cycle",
-      "econ-money-functions"
-    ]
+      "econ-money-functions",
+      "econ-fractional-banking"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-liquidity",
@@ -3807,8 +4011,10 @@ export const economicsConcepts = [
     "related": [
       "econ-credit-cycle",
       "econ-money-functions",
-      "econ-fractional-banking"
-    ]
+      "econ-fractional-banking",
+      "econ-money-creation"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-credit-cycle",
@@ -3844,8 +4050,10 @@ export const economicsConcepts = [
     "related": [
       "econ-money-functions",
       "econ-fractional-banking",
-      "econ-money-creation"
-    ]
+      "econ-money-creation",
+      "econ-central-bank"
+    ],
+    "topic": "Money, Banking & Finance"
   },
   {
     "id": "econ-absolute-advantage",
@@ -3881,8 +4089,10 @@ export const economicsConcepts = [
     "related": [
       "econ-trade-gains",
       "econ-tariff",
-      "econ-quota"
-    ]
+      "econ-quota",
+      "econ-exchange-rate"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-trade-gains",
@@ -3918,8 +4128,10 @@ export const economicsConcepts = [
     "related": [
       "econ-tariff",
       "econ-quota",
-      "econ-exchange-rate"
-    ]
+      "econ-exchange-rate",
+      "econ-currency-appreciation"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-tariff",
@@ -3955,8 +4167,10 @@ export const economicsConcepts = [
     "related": [
       "econ-quota",
       "econ-exchange-rate",
-      "econ-currency-appreciation"
-    ]
+      "econ-currency-appreciation",
+      "econ-current-account"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-quota",
@@ -3992,8 +4206,10 @@ export const economicsConcepts = [
     "related": [
       "econ-exchange-rate",
       "econ-currency-appreciation",
-      "econ-current-account"
-    ]
+      "econ-current-account",
+      "econ-capital-flows"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-exchange-rate",
@@ -4029,8 +4245,10 @@ export const economicsConcepts = [
     "related": [
       "econ-currency-appreciation",
       "econ-current-account",
-      "econ-capital-flows"
-    ]
+      "econ-capital-flows",
+      "econ-impossible-trinity"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-currency-appreciation",
@@ -4066,8 +4284,10 @@ export const economicsConcepts = [
     "related": [
       "econ-current-account",
       "econ-capital-flows",
-      "econ-impossible-trinity"
-    ]
+      "econ-impossible-trinity",
+      "econ-currency-crisis"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-current-account",
@@ -4103,8 +4323,10 @@ export const economicsConcepts = [
     "related": [
       "econ-capital-flows",
       "econ-impossible-trinity",
-      "econ-currency-crisis"
-    ]
+      "econ-currency-crisis",
+      "econ-global-value-chains"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-capital-flows",
@@ -4140,8 +4362,10 @@ export const economicsConcepts = [
     "related": [
       "econ-impossible-trinity",
       "econ-currency-crisis",
-      "econ-global-value-chains"
-    ]
+      "econ-global-value-chains",
+      "econ-absolute-advantage"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-impossible-trinity",
@@ -4177,8 +4401,10 @@ export const economicsConcepts = [
     "related": [
       "econ-currency-crisis",
       "econ-global-value-chains",
-      "econ-absolute-advantage"
-    ]
+      "econ-absolute-advantage",
+      "econ-trade-gains"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-currency-crisis",
@@ -4214,8 +4440,10 @@ export const economicsConcepts = [
     "related": [
       "econ-global-value-chains",
       "econ-absolute-advantage",
-      "econ-trade-gains"
-    ]
+      "econ-trade-gains",
+      "econ-tariff"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-global-value-chains",
@@ -4251,8 +4479,10 @@ export const economicsConcepts = [
     "related": [
       "econ-absolute-advantage",
       "econ-trade-gains",
-      "econ-tariff"
-    ]
+      "econ-tariff",
+      "econ-quota"
+    ],
+    "topic": "Trade & Global Economy"
   },
   {
     "id": "econ-economic-growth",
@@ -4288,8 +4518,10 @@ export const economicsConcepts = [
     "related": [
       "econ-human-capital",
       "econ-institutions-growth",
-      "econ-state-capacity"
-    ]
+      "econ-state-capacity",
+      "econ-poverty-trap"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-human-capital",
@@ -4325,8 +4557,10 @@ export const economicsConcepts = [
     "related": [
       "econ-institutions-growth",
       "econ-state-capacity",
-      "econ-poverty-trap"
-    ]
+      "econ-poverty-trap",
+      "econ-structural-transformation"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-institutions-growth",
@@ -4362,8 +4596,10 @@ export const economicsConcepts = [
     "related": [
       "econ-state-capacity",
       "econ-poverty-trap",
-      "econ-structural-transformation"
-    ]
+      "econ-structural-transformation",
+      "econ-demographic-transition"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-state-capacity",
@@ -4399,8 +4635,10 @@ export const economicsConcepts = [
     "related": [
       "econ-poverty-trap",
       "econ-structural-transformation",
-      "econ-demographic-transition"
-    ]
+      "econ-demographic-transition",
+      "econ-middle-income-trap"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-poverty-trap",
@@ -4436,8 +4674,10 @@ export const economicsConcepts = [
     "related": [
       "econ-structural-transformation",
       "econ-demographic-transition",
-      "econ-middle-income-trap"
-    ]
+      "econ-middle-income-trap",
+      "econ-resource-curse"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-structural-transformation",
@@ -4473,8 +4713,10 @@ export const economicsConcepts = [
     "related": [
       "econ-demographic-transition",
       "econ-middle-income-trap",
-      "econ-resource-curse"
-    ]
+      "econ-resource-curse",
+      "econ-dutch-disease"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-demographic-transition",
@@ -4510,8 +4752,10 @@ export const economicsConcepts = [
     "related": [
       "econ-middle-income-trap",
       "econ-resource-curse",
-      "econ-dutch-disease"
-    ]
+      "econ-dutch-disease",
+      "econ-microfinance"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-middle-income-trap",
@@ -4547,8 +4791,10 @@ export const economicsConcepts = [
     "related": [
       "econ-resource-curse",
       "econ-dutch-disease",
-      "econ-microfinance"
-    ]
+      "econ-microfinance",
+      "econ-randomized-development"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-resource-curse",
@@ -4584,8 +4830,10 @@ export const economicsConcepts = [
     "related": [
       "econ-dutch-disease",
       "econ-microfinance",
-      "econ-randomized-development"
-    ]
+      "econ-randomized-development",
+      "econ-economic-growth"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-dutch-disease",
@@ -4621,8 +4869,10 @@ export const economicsConcepts = [
     "related": [
       "econ-microfinance",
       "econ-randomized-development",
-      "econ-economic-growth"
-    ]
+      "econ-economic-growth",
+      "econ-human-capital"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-microfinance",
@@ -4658,8 +4908,10 @@ export const economicsConcepts = [
     "related": [
       "econ-randomized-development",
       "econ-economic-growth",
-      "econ-human-capital"
-    ]
+      "econ-human-capital",
+      "econ-institutions-growth"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-randomized-development",
@@ -4695,8 +4947,10 @@ export const economicsConcepts = [
     "related": [
       "econ-economic-growth",
       "econ-human-capital",
-      "econ-institutions-growth"
-    ]
+      "econ-institutions-growth",
+      "econ-state-capacity"
+    ],
+    "topic": "Development & Institutions"
   },
   {
     "id": "econ-income-inequality",
@@ -4732,8 +4986,10 @@ export const economicsConcepts = [
     "related": [
       "econ-wealth-inequality",
       "econ-gini",
-      "econ-labor-supply"
-    ]
+      "econ-labor-supply",
+      "econ-human-capital-wage"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-wealth-inequality",
@@ -4769,8 +5025,10 @@ export const economicsConcepts = [
     "related": [
       "econ-gini",
       "econ-labor-supply",
-      "econ-human-capital-wage"
-    ]
+      "econ-human-capital-wage",
+      "econ-minimum-wage"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-gini",
@@ -4806,8 +5064,10 @@ export const economicsConcepts = [
     "related": [
       "econ-labor-supply",
       "econ-human-capital-wage",
-      "econ-minimum-wage"
-    ]
+      "econ-minimum-wage",
+      "econ-monopsony"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-labor-supply",
@@ -4843,8 +5103,10 @@ export const economicsConcepts = [
     "related": [
       "econ-human-capital-wage",
       "econ-minimum-wage",
-      "econ-monopsony"
-    ]
+      "econ-monopsony",
+      "econ-unions"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-human-capital-wage",
@@ -4880,8 +5142,10 @@ export const economicsConcepts = [
     "related": [
       "econ-minimum-wage",
       "econ-monopsony",
-      "econ-unions"
-    ]
+      "econ-unions",
+      "econ-efficiency-wage"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-minimum-wage",
@@ -4917,8 +5181,10 @@ export const economicsConcepts = [
     "related": [
       "econ-monopsony",
       "econ-unions",
-      "econ-efficiency-wage"
-    ]
+      "econ-efficiency-wage",
+      "econ-rent-seeking"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-monopsony",
@@ -4954,8 +5220,10 @@ export const economicsConcepts = [
     "related": [
       "econ-unions",
       "econ-efficiency-wage",
-      "econ-rent-seeking"
-    ]
+      "econ-rent-seeking",
+      "econ-regulatory-capture"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-unions",
@@ -4991,8 +5259,10 @@ export const economicsConcepts = [
     "related": [
       "econ-efficiency-wage",
       "econ-rent-seeking",
-      "econ-regulatory-capture"
-    ]
+      "econ-regulatory-capture",
+      "econ-collective-action-econ"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-efficiency-wage",
@@ -5028,8 +5298,10 @@ export const economicsConcepts = [
     "related": [
       "econ-rent-seeking",
       "econ-regulatory-capture",
-      "econ-collective-action-econ"
-    ]
+      "econ-collective-action-econ",
+      "econ-median-voter"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-rent-seeking",
@@ -5065,8 +5337,10 @@ export const economicsConcepts = [
     "related": [
       "econ-regulatory-capture",
       "econ-collective-action-econ",
-      "econ-median-voter"
-    ]
+      "econ-median-voter",
+      "econ-concentrated-benefits"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-regulatory-capture",
@@ -5102,8 +5376,10 @@ export const economicsConcepts = [
     "related": [
       "econ-collective-action-econ",
       "econ-median-voter",
-      "econ-concentrated-benefits"
-    ]
+      "econ-concentrated-benefits",
+      "econ-income-inequality"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-collective-action-econ",
@@ -5139,8 +5415,10 @@ export const economicsConcepts = [
     "related": [
       "econ-median-voter",
       "econ-concentrated-benefits",
-      "econ-income-inequality"
-    ]
+      "econ-income-inequality",
+      "econ-wealth-inequality"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-median-voter",
@@ -5176,8 +5454,10 @@ export const economicsConcepts = [
     "related": [
       "econ-concentrated-benefits",
       "econ-income-inequality",
-      "econ-wealth-inequality"
-    ]
+      "econ-wealth-inequality",
+      "econ-gini"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-concentrated-benefits",
@@ -5213,8 +5493,10 @@ export const economicsConcepts = [
     "related": [
       "econ-income-inequality",
       "econ-wealth-inequality",
-      "econ-gini"
-    ]
+      "econ-gini",
+      "econ-labor-supply"
+    ],
+    "topic": "Inequality, Labor & Political Economy"
   },
   {
     "id": "econ-great-depression",
@@ -5250,8 +5532,10 @@ export const economicsConcepts = [
     "related": [
       "econ-gold-standard",
       "econ-bretton-woods",
-      "econ-stagflation-70s"
-    ]
+      "econ-stagflation-70s",
+      "econ-volcker-shock"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-gold-standard",
@@ -5287,8 +5571,10 @@ export const economicsConcepts = [
     "related": [
       "econ-bretton-woods",
       "econ-stagflation-70s",
-      "econ-volcker-shock"
-    ]
+      "econ-volcker-shock",
+      "econ-asian-crisis"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-bretton-woods",
@@ -5324,8 +5610,10 @@ export const economicsConcepts = [
     "related": [
       "econ-stagflation-70s",
       "econ-volcker-shock",
-      "econ-asian-crisis"
-    ]
+      "econ-asian-crisis",
+      "econ-dotcom"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-stagflation-70s",
@@ -5361,8 +5649,10 @@ export const economicsConcepts = [
     "related": [
       "econ-volcker-shock",
       "econ-asian-crisis",
-      "econ-dotcom"
-    ]
+      "econ-dotcom",
+      "econ-global-financial-crisis"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-volcker-shock",
@@ -5398,8 +5688,10 @@ export const economicsConcepts = [
     "related": [
       "econ-asian-crisis",
       "econ-dotcom",
-      "econ-global-financial-crisis"
-    ]
+      "econ-global-financial-crisis",
+      "econ-euro-crisis"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-asian-crisis",
@@ -5435,8 +5727,10 @@ export const economicsConcepts = [
     "related": [
       "econ-dotcom",
       "econ-global-financial-crisis",
-      "econ-euro-crisis"
-    ]
+      "econ-euro-crisis",
+      "econ-pandemic-economics"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-dotcom",
@@ -5472,8 +5766,10 @@ export const economicsConcepts = [
     "related": [
       "econ-global-financial-crisis",
       "econ-euro-crisis",
-      "econ-pandemic-economics"
-    ]
+      "econ-pandemic-economics",
+      "econ-great-depression"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-global-financial-crisis",
@@ -5509,8 +5805,10 @@ export const economicsConcepts = [
     "related": [
       "econ-euro-crisis",
       "econ-pandemic-economics",
-      "econ-great-depression"
-    ]
+      "econ-great-depression",
+      "econ-gold-standard"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-euro-crisis",
@@ -5546,8 +5844,10 @@ export const economicsConcepts = [
     "related": [
       "econ-pandemic-economics",
       "econ-great-depression",
-      "econ-gold-standard"
-    ]
+      "econ-gold-standard",
+      "econ-bretton-woods"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-pandemic-economics",
@@ -5583,8 +5883,10 @@ export const economicsConcepts = [
     "related": [
       "econ-great-depression",
       "econ-gold-standard",
-      "econ-bretton-woods"
-    ]
+      "econ-bretton-woods",
+      "econ-stagflation-70s"
+    ],
+    "topic": "Crises & Economic History"
   },
   {
     "id": "econ-bounded-rationality",
@@ -5620,8 +5922,10 @@ export const economicsConcepts = [
     "related": [
       "econ-loss-aversion-econ",
       "econ-present-bias",
-      "econ-nudge"
-    ]
+      "econ-nudge",
+      "econ-default-econ"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-loss-aversion-econ",
@@ -5657,8 +5961,10 @@ export const economicsConcepts = [
     "related": [
       "econ-present-bias",
       "econ-nudge",
-      "econ-default-econ"
-    ]
+      "econ-default-econ",
+      "econ-information-cascade"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-present-bias",
@@ -5694,8 +6000,10 @@ export const economicsConcepts = [
     "related": [
       "econ-nudge",
       "econ-default-econ",
-      "econ-information-cascade"
-    ]
+      "econ-information-cascade",
+      "econ-signaling"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-nudge",
@@ -5731,8 +6039,10 @@ export const economicsConcepts = [
     "related": [
       "econ-default-econ",
       "econ-information-cascade",
-      "econ-signaling"
-    ]
+      "econ-signaling",
+      "econ-screening"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-default-econ",
@@ -5768,8 +6078,10 @@ export const economicsConcepts = [
     "related": [
       "econ-information-cascade",
       "econ-signaling",
-      "econ-screening"
-    ]
+      "econ-screening",
+      "econ-winner-curse"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-information-cascade",
@@ -5805,8 +6117,10 @@ export const economicsConcepts = [
     "related": [
       "econ-signaling",
       "econ-screening",
-      "econ-winner-curse"
-    ]
+      "econ-winner-curse",
+      "econ-market-design"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-signaling",
@@ -5842,8 +6156,10 @@ export const economicsConcepts = [
     "related": [
       "econ-screening",
       "econ-winner-curse",
-      "econ-market-design"
-    ]
+      "econ-market-design",
+      "econ-bounded-rationality"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-screening",
@@ -5879,8 +6195,10 @@ export const economicsConcepts = [
     "related": [
       "econ-winner-curse",
       "econ-market-design",
-      "econ-bounded-rationality"
-    ]
+      "econ-bounded-rationality",
+      "econ-loss-aversion-econ"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-winner-curse",
@@ -5916,8 +6234,10 @@ export const economicsConcepts = [
     "related": [
       "econ-market-design",
       "econ-bounded-rationality",
-      "econ-loss-aversion-econ"
-    ]
+      "econ-loss-aversion-econ",
+      "econ-present-bias"
+    ],
+    "topic": "Behavioral & Information Economics"
   },
   {
     "id": "econ-market-design",
@@ -5953,7 +6273,2817 @@ export const economicsConcepts = [
     "related": [
       "econ-bounded-rationality",
       "econ-loss-aversion-econ",
-      "econ-present-bias"
+      "econ-present-bias",
+      "econ-nudge"
+    ],
+    "topic": "Behavioral & Information Economics"
+  },
+  {
+    "id": "econ-effective-demand",
+    "world": "economics",
+    "name": "Effective Demand",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Why can an economy produce less than it is physically capable of?",
+    "question": "Why can an economy produce less than it is physically capable of?",
+    "options": [
+      "Keynesian analysis emphasizes that firms respond to expected sales, so weak aggregate demand can leave labor and capital underused.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Keynesian analysis emphasizes that firms respond to expected sales, so weak aggregate demand can leave labor and capital underused.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Effective Demand to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-paradox-thrift",
+      "econ-liquidity-preference",
+      "econ-animal-spirits",
+      "econ-underemployment-equilibrium"
+    ]
+  },
+  {
+    "id": "econ-paradox-thrift",
+    "world": "economics",
+    "name": "Paradox of Thrift",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Can everyone trying to save more make total saving harder?",
+    "question": "Can everyone trying to save more make total saving harder?",
+    "options": [
+      "If many households cut spending simultaneously during a downturn, income can fall enough that aggregate saving does not rise as intended.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "If many households cut spending simultaneously during a downturn, income can fall enough that aggregate saving does not rise as intended.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Paradox of Thrift to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-liquidity-preference",
+      "econ-animal-spirits",
+      "econ-underemployment-equilibrium",
+      "econ-marginal-efficiency-capital"
+    ]
+  },
+  {
+    "id": "econ-liquidity-preference",
+    "world": "economics",
+    "name": "Liquidity Preference",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Why might people hold money even when bonds pay interest?",
+    "question": "Why might people hold money even when bonds pay interest?",
+    "options": [
+      "Keynes used liquidity preference to explain money demand under uncertainty and how interest rates help balance preferences for liquid versus interest-bearing assets.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Keynes used liquidity preference to explain money demand under uncertainty and how interest rates help balance preferences for liquid versus interest-bearing assets.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Liquidity Preference to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-animal-spirits",
+      "econ-underemployment-equilibrium",
+      "econ-marginal-efficiency-capital",
+      "econ-sticky-prices"
+    ]
+  },
+  {
+    "id": "econ-animal-spirits",
+    "world": "economics",
+    "name": "Animal Spirits",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Why can investment swing even without a proportional change in current profits?",
+    "question": "Why can investment swing even without a proportional change in current profits?",
+    "options": [
+      "Keynes used 'animal spirits' to describe confidence and spontaneous expectations that influence investment when the future is deeply uncertain.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Keynes used 'animal spirits' to describe confidence and spontaneous expectations that influence investment when the future is deeply uncertain.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Animal Spirits to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-underemployment-equilibrium",
+      "econ-marginal-efficiency-capital",
+      "econ-sticky-prices",
+      "econ-automatic-stabilizers"
+    ]
+  },
+  {
+    "id": "econ-underemployment-equilibrium",
+    "world": "economics",
+    "name": "Underemployment Equilibrium",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Can an economy settle with persistent unemployment?",
+    "question": "Can an economy settle with persistent unemployment?",
+    "options": [
+      "Keynes argued that aggregate demand can be too weak for full employment even without an automatic force quickly restoring it.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Keynes argued that aggregate demand can be too weak for full employment even without an automatic force quickly restoring it.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Underemployment Equilibrium to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-marginal-efficiency-capital",
+      "econ-sticky-prices",
+      "econ-automatic-stabilizers",
+      "econ-liquidity-trap"
+    ]
+  },
+  {
+    "id": "econ-marginal-efficiency-capital",
+    "world": "economics",
+    "name": "Marginal Efficiency of Capital",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "How did Keynes think firms compare investment projects?",
+    "question": "How did Keynes think firms compare investment projects?",
+    "options": [
+      "The marginal efficiency of capital is the expected return on an additional capital asset relative to its cost and financing conditions.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The marginal efficiency of capital is the expected return on an additional capital asset relative to its cost and financing conditions.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Marginal Efficiency of Capital to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-sticky-prices",
+      "econ-automatic-stabilizers",
+      "econ-liquidity-trap",
+      "econ-keynes-vs-hayek"
+    ]
+  },
+  {
+    "id": "econ-sticky-prices",
+    "world": "economics",
+    "name": "Sticky Prices",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Why don't prices instantly adjust after every shock?",
+    "question": "Why don't prices instantly adjust after every shock?",
+    "options": [
+      "New Keynesian models use price and wage rigidities to explain why changes in demand can affect real output and employment in the short run.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "New Keynesian models use price and wage rigidities to explain why changes in demand can affect real output and employment in the short run.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Sticky Prices to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-automatic-stabilizers",
+      "econ-liquidity-trap",
+      "econ-keynes-vs-hayek",
+      "econ-keynesian"
+    ]
+  },
+  {
+    "id": "econ-automatic-stabilizers",
+    "world": "economics",
+    "name": "Automatic Stabilizers",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "How can fiscal policy react without a new law each recession?",
+    "question": "How can fiscal policy react without a new law each recession?",
+    "options": [
+      "Taxes and transfers automatically change with incomes and employment, cushioning household spending and aggregate demand.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Taxes and transfers automatically change with incomes and employment, cushioning household spending and aggregate demand.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Automatic Stabilizers to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-liquidity-trap",
+      "econ-keynes-vs-hayek",
+      "econ-keynesian",
+      "econ-keynes"
+    ]
+  },
+  {
+    "id": "econ-liquidity-trap",
+    "world": "economics",
+    "name": "Liquidity Trap",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "Why can cutting short-term rates stop having much effect?",
+    "question": "Why can cutting short-term rates stop having much effect?",
+    "options": [
+      "In a liquidity trap, very low rates and strong demand for safe liquid assets can weaken conventional monetary transmission.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "In a liquidity trap, very low rates and strong demand for safe liquid assets can weaken conventional monetary transmission.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Liquidity Trap to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-keynes-vs-hayek",
+      "econ-keynesian",
+      "econ-keynes",
+      "econ-post-keynesian"
+    ]
+  },
+  {
+    "id": "econ-keynes-vs-hayek",
+    "world": "economics",
+    "name": "Keynes–Hayek Debate",
+    "pool": "Schools & Thinkers",
+    "topic": "Keynesian Economics",
+    "hook": "What fundamentally separated Keynes and Hayek on downturns?",
+    "question": "What fundamentally separated Keynes and Hayek on downturns?",
+    "options": [
+      "Their debate contrasted demand-management arguments with concerns about distorted relative prices, capital structure and the limits of policy knowledge.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Their debate contrasted demand-management arguments with concerns about distorted relative prices, capital structure and the limits of policy knowledge.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Keynes–Hayek Debate to the broader Keynesian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Keynesian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-keynesian",
+      "econ-keynes",
+      "econ-post-keynesian",
+      "econ-new-keynesian"
+    ]
+  },
+  {
+    "id": "econ-labor-theory-value-marx",
+    "world": "economics",
+    "name": "Marx's Value Theory",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "How did Marx connect labor, value and capitalist production?",
+    "question": "How did Marx connect labor, value and capitalist production?",
+    "options": [
+      "Marx analyzed commodity values through socially necessary labor time while distinguishing value from market price and using the framework to study exploitation and accumulation.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx analyzed commodity values through socially necessary labor time while distinguishing value from market price and using the framework to study exploitation and accumulation.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Marx's Value Theory to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-commodity",
+      "econ-commodity-fetishism",
+      "econ-alienation-marx",
+      "econ-reserve-army"
+    ]
+  },
+  {
+    "id": "econ-commodity",
+    "world": "economics",
+    "name": "Commodity",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why is the commodity central in Marx's analysis?",
+    "question": "Why is the commodity central in Marx's analysis?",
+    "options": [
+      "A commodity combines use value with exchange value and is produced for exchange, making it a basic unit of capitalist social relations in Marx's framework.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A commodity combines use value with exchange value and is produced for exchange, making it a basic unit of capitalist social relations in Marx's framework.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Commodity to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-commodity-fetishism",
+      "econ-alienation-marx",
+      "econ-reserve-army",
+      "econ-organic-composition"
+    ]
+  },
+  {
+    "id": "econ-commodity-fetishism",
+    "world": "economics",
+    "name": "Commodity Fetishism",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "What does Marx mean by social relations appearing as relations between things?",
+    "question": "What does Marx mean by social relations appearing as relations between things?",
+    "options": [
+      "Commodity fetishism describes how market exchange can obscure the human social relations and production arrangements behind commodities.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Commodity fetishism describes how market exchange can obscure the human social relations and production arrangements behind commodities.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Commodity Fetishism to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-alienation-marx",
+      "econ-reserve-army",
+      "econ-organic-composition",
+      "econ-falling-profit"
+    ]
+  },
+  {
+    "id": "econ-alienation-marx",
+    "world": "economics",
+    "name": "Alienation in Marx",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "How can work become alienating under capitalism?",
+    "question": "How can work become alienating under capitalism?",
+    "options": [
+      "Marx's early writings describe alienation from the product, productive activity, other people and human creative capacities under particular labor arrangements.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx's early writings describe alienation from the product, productive activity, other people and human creative capacities under particular labor arrangements.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Alienation in Marx to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-reserve-army",
+      "econ-organic-composition",
+      "econ-falling-profit",
+      "econ-primitive-accumulation"
+    ]
+  },
+  {
+    "id": "econ-reserve-army",
+    "world": "economics",
+    "name": "Reserve Army of Labor",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why might unemployment matter structurally in Marxian theory?",
+    "question": "Why might unemployment matter structurally in Marxian theory?",
+    "options": [
+      "Marx argued that a reserve of available labor can discipline wages and workers while expanding and contracting with accumulation.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx argued that a reserve of available labor can discipline wages and workers while expanding and contracting with accumulation.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Reserve Army of Labor to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-organic-composition",
+      "econ-falling-profit",
+      "econ-primitive-accumulation",
+      "econ-class-struggle"
+    ]
+  },
+  {
+    "id": "econ-organic-composition",
+    "world": "economics",
+    "name": "Organic Composition of Capital",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why does Marx distinguish investment in machinery from labor?",
+    "question": "Why does Marx distinguish investment in machinery from labor?",
+    "options": [
+      "The concept tracks the relation between capital invested in means of production and labor power within Marx's theory of accumulation.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The concept tracks the relation between capital invested in means of production and labor power within Marx's theory of accumulation.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Organic Composition of Capital to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-falling-profit",
+      "econ-primitive-accumulation",
+      "econ-class-struggle",
+      "econ-marx-crisis"
+    ]
+  },
+  {
+    "id": "econ-falling-profit",
+    "world": "economics",
+    "name": "Tendency of the Rate of Profit to Fall",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why did Marx think accumulation could pressure profit rates?",
+    "question": "Why did Marx think accumulation could pressure profit rates?",
+    "options": [
+      "Marx argued that rising capital intensity could create downward pressure on profit rates, while also identifying counteracting forces; the claim remains debated.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marx argued that rising capital intensity could create downward pressure on profit rates, while also identifying counteracting forces; the claim remains debated.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Tendency of the Rate of Profit to Fall to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-primitive-accumulation",
+      "econ-class-struggle",
+      "econ-marx-crisis",
+      "econ-marxian"
+    ]
+  },
+  {
+    "id": "econ-primitive-accumulation",
+    "world": "economics",
+    "name": "Primitive Accumulation",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "How did Marx describe capitalism's historical preconditions?",
+    "question": "How did Marx describe capitalism's historical preconditions?",
+    "options": [
+      "Primitive accumulation refers to processes that separated producers from means of production and concentrated assets, creating wage labor and capital ownership.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Primitive accumulation refers to processes that separated producers from means of production and concentrated assets, creating wage labor and capital ownership.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Primitive Accumulation to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-class-struggle",
+      "econ-marx-crisis",
+      "econ-marxian",
+      "econ-surplus-value"
+    ]
+  },
+  {
+    "id": "econ-class-struggle",
+    "world": "economics",
+    "name": "Class Struggle",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why does Marx treat class conflict as historically important?",
+    "question": "Why does Marx treat class conflict as historically important?",
+    "options": [
+      "Marxian theory emphasizes conflicts between groups positioned differently within systems of ownership and production.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marxian theory emphasizes conflicts between groups positioned differently within systems of ownership and production.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Class Struggle to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-marx-crisis",
+      "econ-marxian",
+      "econ-surplus-value",
+      "econ-labor-theory-value-marx"
+    ]
+  },
+  {
+    "id": "econ-marx-crisis",
+    "world": "economics",
+    "name": "Marxian Crisis Theory",
+    "pool": "Schools & Thinkers",
+    "topic": "Marx & Marxian Economics",
+    "hook": "Why are crises not merely accidents in Marxian analysis?",
+    "question": "Why are crises not merely accidents in Marxian analysis?",
+    "options": [
+      "Marxian traditions connect crises to accumulation, profitability, credit, disproportionality and tensions between production and realization, with several competing interpretations.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Marxian traditions connect crises to accumulation, profitability, credit, disproportionality and tensions between production and realization, with several competing interpretations.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Marxian Crisis Theory to the broader Marx & Marxian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Marx & Marxian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-marxian",
+      "econ-surplus-value",
+      "econ-labor-theory-value-marx",
+      "econ-commodity"
+    ]
+  },
+  {
+    "id": "econ-knowledge-problem",
+    "world": "economics",
+    "name": "Knowledge Problem",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Why can't a planner simply collect all the information needed to run an economy?",
+    "question": "Why can't a planner simply collect all the information needed to run an economy?",
+    "options": [
+      "Hayek argued that much relevant knowledge is local, tacit and constantly changing, so coordination requires mechanisms that use dispersed information.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Hayek argued that much relevant knowledge is local, tacit and constantly changing, so coordination requires mechanisms that use dispersed information.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Knowledge Problem to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-price-signals-hayek",
+      "econ-spontaneous-order",
+      "econ-austrian-business-cycle",
+      "econ-malinvestment"
+    ]
+  },
+  {
+    "id": "econ-price-signals-hayek",
+    "world": "economics",
+    "name": "Prices as Signals",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "What information can a rising price communicate?",
+    "question": "What information can a rising price communicate?",
+    "options": [
+      "In Hayek's account, prices compress scattered information about relative scarcity and demand, helping people adjust without knowing the full cause.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "In Hayek's account, prices compress scattered information about relative scarcity and demand, helping people adjust without knowing the full cause.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Prices as Signals to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-spontaneous-order",
+      "econ-austrian-business-cycle",
+      "econ-malinvestment",
+      "econ-entrepreneurial-discovery"
+    ]
+  },
+  {
+    "id": "econ-spontaneous-order",
+    "world": "economics",
+    "name": "Spontaneous Order",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Can complex economic order emerge without central design?",
+    "question": "Can complex economic order emerge without central design?",
+    "options": [
+      "Hayek used spontaneous order for institutions and patterns that emerge from many decentralized actions rather than a single directing plan.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Hayek used spontaneous order for institutions and patterns that emerge from many decentralized actions rather than a single directing plan.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Spontaneous Order to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-austrian-business-cycle",
+      "econ-malinvestment",
+      "econ-entrepreneurial-discovery",
+      "econ-subjective-value"
+    ]
+  },
+  {
+    "id": "econ-austrian-business-cycle",
+    "world": "economics",
+    "name": "Austrian Business Cycle Theory",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "How does Austrian business-cycle theory explain booms and busts?",
+    "question": "How does Austrian business-cycle theory explain booms and busts?",
+    "options": [
+      "The theory argues that artificially low interest rates can distort intertemporal investment and capital structure, producing unsustainable booms; its empirical importance is disputed.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The theory argues that artificially low interest rates can distort intertemporal investment and capital structure, producing unsustainable booms; its empirical importance is disputed.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Austrian Business Cycle Theory to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-malinvestment",
+      "econ-entrepreneurial-discovery",
+      "econ-subjective-value",
+      "econ-economic-calculation"
+    ]
+  },
+  {
+    "id": "econ-malinvestment",
+    "world": "economics",
+    "name": "Malinvestment",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "What does 'malinvestment' mean in Austrian theory?",
+    "question": "What does 'malinvestment' mean in Austrian theory?",
+    "options": [
+      "Malinvestment refers to investment patterns that appear profitable under distorted signals but prove unsustainable when underlying intertemporal conditions reassert themselves.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Malinvestment refers to investment patterns that appear profitable under distorted signals but prove unsustainable when underlying intertemporal conditions reassert themselves.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Malinvestment to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-entrepreneurial-discovery",
+      "econ-subjective-value",
+      "econ-economic-calculation",
+      "econ-rule-law-hayek"
+    ]
+  },
+  {
+    "id": "econ-entrepreneurial-discovery",
+    "world": "economics",
+    "name": "Entrepreneurial Discovery",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "What role does the entrepreneur play in Austrian economics?",
+    "question": "What role does the entrepreneur play in Austrian economics?",
+    "options": [
+      "Austrian economists emphasize entrepreneurs noticing price discrepancies, unmet wants and new opportunities, thereby driving market adjustment.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Austrian economists emphasize entrepreneurs noticing price discrepancies, unmet wants and new opportunities, thereby driving market adjustment.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Entrepreneurial Discovery to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-subjective-value",
+      "econ-economic-calculation",
+      "econ-rule-law-hayek",
+      "econ-hayek-competition-discovery"
+    ]
+  },
+  {
+    "id": "econ-subjective-value",
+    "world": "economics",
+    "name": "Subjective Value",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Why doesn't an object's economic value come only from the labor used to make it?",
+    "question": "Why doesn't an object's economic value come only from the labor used to make it?",
+    "options": [
+      "Austrian and marginalist traditions emphasize that value depends on individuals' preferences and the marginal importance of goods to them.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Austrian and marginalist traditions emphasize that value depends on individuals' preferences and the marginal importance of goods to them.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Subjective Value to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-economic-calculation",
+      "econ-rule-law-hayek",
+      "econ-hayek-competition-discovery",
+      "econ-austrian"
+    ]
+  },
+  {
+    "id": "econ-economic-calculation",
+    "world": "economics",
+    "name": "Economic Calculation",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Why are market prices important for comparing radically different uses of resources?",
+    "question": "Why are market prices important for comparing radically different uses of resources?",
+    "options": [
+      "Mises argued that prices for capital goods allow entrepreneurs to compare heterogeneous inputs and alternatives in a common monetary calculation.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Mises argued that prices for capital goods allow entrepreneurs to compare heterogeneous inputs and alternatives in a common monetary calculation.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Economic Calculation to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-rule-law-hayek",
+      "econ-hayek-competition-discovery",
+      "econ-austrian",
+      "econ-hayek"
+    ]
+  },
+  {
+    "id": "econ-rule-law-hayek",
+    "world": "economics",
+    "name": "Rule of Law in Hayek",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Why did Hayek care about general, predictable rules?",
+    "question": "Why did Hayek care about general, predictable rules?",
+    "options": [
+      "Hayek argued that abstract and predictable legal rules allow individuals to form plans while limiting discretionary coercion.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Hayek argued that abstract and predictable legal rules allow individuals to form plans while limiting discretionary coercion.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Rule of Law in Hayek to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-hayek-competition-discovery",
+      "econ-austrian",
+      "econ-hayek",
+      "econ-mises"
+    ]
+  },
+  {
+    "id": "econ-hayek-competition-discovery",
+    "world": "economics",
+    "name": "Competition as Discovery",
+    "pool": "Schools & Thinkers",
+    "topic": "Hayek & Austrian Economics",
+    "hook": "Why might competition reveal information rather than merely allocate known resources?",
+    "question": "Why might competition reveal information rather than merely allocate known resources?",
+    "options": [
+      "Hayek described competition as a discovery procedure through which firms uncover costs, preferences and opportunities that were not known in advance.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Hayek described competition as a discovery procedure through which firms uncover costs, preferences and opportunities that were not known in advance.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Competition as Discovery to the broader Hayek & Austrian Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Hayek & Austrian Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-austrian",
+      "econ-hayek",
+      "econ-mises",
+      "econ-knowledge-problem"
+    ]
+  },
+  {
+    "id": "econ-quantity-money",
+    "world": "economics",
+    "name": "Quantity Theory of Money",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "What links money growth and nominal spending in monetarist analysis?",
+    "question": "What links money growth and nominal spending in monetarist analysis?",
+    "options": [
+      "Modern quantity-theory approaches emphasize a relationship among money, velocity, prices and real output, while recognizing that velocity and transmission can vary.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Modern quantity-theory approaches emphasize a relationship among money, velocity, prices and real output, while recognizing that velocity and transmission can vary.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Quantity Theory of Money to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-inflation-monetary",
+      "econ-permanent-income",
+      "econ-natural-rate-friedman",
+      "econ-adaptive-expectations"
+    ]
+  },
+  {
+    "id": "econ-inflation-monetary",
+    "world": "economics",
+    "name": "Friedman on Inflation",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "What did Friedman mean by calling inflation a monetary phenomenon?",
+    "question": "What did Friedman mean by calling inflation a monetary phenomenon?",
+    "options": [
+      "Friedman argued that sustained inflation requires money growth persistently exceeding real output growth over the long run, though short-run inflation dynamics can involve many shocks.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Friedman argued that sustained inflation requires money growth persistently exceeding real output growth over the long run, though short-run inflation dynamics can involve many shocks.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Friedman on Inflation to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-permanent-income",
+      "econ-natural-rate-friedman",
+      "econ-adaptive-expectations",
+      "econ-monetary-rule"
+    ]
+  },
+  {
+    "id": "econ-permanent-income",
+    "world": "economics",
+    "name": "Permanent Income Hypothesis",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "Why might a temporary bonus affect spending less than a permanent raise?",
+    "question": "Why might a temporary bonus affect spending less than a permanent raise?",
+    "options": [
+      "Friedman's permanent-income hypothesis says consumption responds strongly to expected long-run resources rather than one-off income changes.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Friedman's permanent-income hypothesis says consumption responds strongly to expected long-run resources rather than one-off income changes.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Permanent Income Hypothesis to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-natural-rate-friedman",
+      "econ-adaptive-expectations",
+      "econ-monetary-rule",
+      "econ-great-depression-friedman"
+    ]
+  },
+  {
+    "id": "econ-natural-rate-friedman",
+    "world": "economics",
+    "name": "Friedman's Natural Rate",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "Why did Friedman reject a permanent inflation-unemployment tradeoff?",
+    "question": "Why did Friedman reject a permanent inflation-unemployment tradeoff?",
+    "options": [
+      "Friedman argued that once expectations adjust, attempts to hold unemployment below its natural rate mainly produce accelerating inflation.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Friedman argued that once expectations adjust, attempts to hold unemployment below its natural rate mainly produce accelerating inflation.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Friedman's Natural Rate to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-adaptive-expectations",
+      "econ-monetary-rule",
+      "econ-great-depression-friedman",
+      "econ-floating-rates-friedman"
+    ]
+  },
+  {
+    "id": "econ-adaptive-expectations",
+    "world": "economics",
+    "name": "Adaptive Expectations",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "How can yesterday's inflation shape tomorrow's expectations?",
+    "question": "How can yesterday's inflation shape tomorrow's expectations?",
+    "options": [
+      "Adaptive-expectations models update forecasts partly from past forecast errors, an idea important in older monetarist models.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Adaptive-expectations models update forecasts partly from past forecast errors, an idea important in older monetarist models.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Adaptive Expectations to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-monetary-rule",
+      "econ-great-depression-friedman",
+      "econ-floating-rates-friedman",
+      "econ-school-vouchers-friedman"
+    ]
+  },
+  {
+    "id": "econ-monetary-rule",
+    "world": "economics",
+    "name": "Monetary Rules",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "Why did Friedman prefer predictable rules to activist fine-tuning?",
+    "question": "Why did Friedman prefer predictable rules to activist fine-tuning?",
+    "options": [
+      "Friedman worried that long and variable policy lags could make discretionary stabilization destabilizing and advocated more predictable monetary policy.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Friedman worried that long and variable policy lags could make discretionary stabilization destabilizing and advocated more predictable monetary policy.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Monetary Rules to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-great-depression-friedman",
+      "econ-floating-rates-friedman",
+      "econ-school-vouchers-friedman",
+      "econ-negative-income-tax"
+    ]
+  },
+  {
+    "id": "econ-great-depression-friedman",
+    "world": "economics",
+    "name": "Friedman and the Great Depression",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "What did Friedman and Schwartz blame for deepening the Depression?",
+    "question": "What did Friedman and Schwartz blame for deepening the Depression?",
+    "options": [
+      "They argued that banking failures and contraction of the money supply turned a severe downturn into a much deeper depression, strongly influencing later monetary history.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "They argued that banking failures and contraction of the money supply turned a severe downturn into a much deeper depression, strongly influencing later monetary history.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Friedman and the Great Depression to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-floating-rates-friedman",
+      "econ-school-vouchers-friedman",
+      "econ-negative-income-tax",
+      "econ-monetarism"
+    ]
+  },
+  {
+    "id": "econ-floating-rates-friedman",
+    "world": "economics",
+    "name": "Friedman and Floating Exchange Rates",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "Why did Friedman favor flexible exchange rates?",
+    "question": "Why did Friedman favor flexible exchange rates?",
+    "options": [
+      "He argued that flexible rates could absorb external adjustments while allowing greater monetary-policy autonomy than fixed-rate systems.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "He argued that flexible rates could absorb external adjustments while allowing greater monetary-policy autonomy than fixed-rate systems.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Friedman and Floating Exchange Rates to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-school-vouchers-friedman",
+      "econ-negative-income-tax",
+      "econ-monetarism",
+      "econ-friedman"
+    ]
+  },
+  {
+    "id": "econ-school-vouchers-friedman",
+    "world": "economics",
+    "name": "Friedman and School Vouchers",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "Why did Friedman propose separating school finance from school provision?",
+    "question": "Why did Friedman propose separating school finance from school provision?",
+    "options": [
+      "Friedman argued that public financing could coexist with parental choice among competing schools through vouchers, a proposal that remains politically and empirically debated.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Friedman argued that public financing could coexist with parental choice among competing schools through vouchers, a proposal that remains politically and empirically debated.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Friedman and School Vouchers to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-negative-income-tax",
+      "econ-monetarism",
+      "econ-friedman",
+      "econ-quantity-money"
+    ]
+  },
+  {
+    "id": "econ-negative-income-tax",
+    "world": "economics",
+    "name": "Negative Income Tax",
+    "pool": "Schools & Thinkers",
+    "topic": "Friedman & Monetarism",
+    "hook": "How did Friedman propose supporting low incomes without many separate welfare programs?",
+    "question": "How did Friedman propose supporting low incomes without many separate welfare programs?",
+    "options": [
+      "A negative income tax would supplement earnings below a threshold through the tax system, creating a simplified income floor with explicit work incentives.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "A negative income tax would supplement earnings below a threshold through the tax system, creating a simplified income floor with explicit work incentives.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Negative Income Tax to the broader Friedman & Monetarism tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Friedman & Monetarism rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-monetarism",
+      "econ-friedman",
+      "econ-quantity-money",
+      "econ-inflation-monetary"
+    ]
+  },
+  {
+    "id": "econ-invisible-hand",
+    "world": "economics",
+    "name": "Invisible Hand",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "Did Smith believe selfishness always produces good outcomes?",
+    "question": "Did Smith believe selfishness always produces good outcomes?",
+    "options": [
+      "No. Smith used the invisible-hand metaphor sparingly; his broader work analyzed how self-interest can coordinate through markets under institutions, competition and moral constraints.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "No. Smith used the invisible-hand metaphor sparingly; his broader work analyzed how self-interest can coordinate through markets under institutions, competition and moral constraints.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Invisible Hand to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-self-interest",
+      "econ-smith-moral-sentiments",
+      "econ-smith-specialization",
+      "econ-smith-market-size"
+    ]
+  },
+  {
+    "id": "econ-smith-self-interest",
+    "world": "economics",
+    "name": "Smith on Self-Interest",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "What did Smith mean by appealing to the butcher's self-interest?",
+    "question": "What did Smith mean by appealing to the butcher's self-interest?",
+    "options": [
+      "Smith observed that exchange often works by appealing to others' interests, not that humans are motivated only by selfishness.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Smith observed that exchange often works by appealing to others' interests, not that humans are motivated only by selfishness.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Smith on Self-Interest to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-moral-sentiments",
+      "econ-smith-specialization",
+      "econ-smith-market-size",
+      "econ-smith-public-works"
+    ]
+  },
+  {
+    "id": "econ-smith-moral-sentiments",
+    "world": "economics",
+    "name": "Theory of Moral Sentiments",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "Why is Smith's moral philosophy important for understanding his economics?",
+    "question": "Why is Smith's moral philosophy important for understanding his economics?",
+    "options": [
+      "Smith emphasized sympathy, social norms and the impartial spectator, showing that his view of human motivation was broader than narrow self-interest.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Smith emphasized sympathy, social norms and the impartial spectator, showing that his view of human motivation was broader than narrow self-interest.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Theory of Moral Sentiments to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-specialization",
+      "econ-smith-market-size",
+      "econ-smith-public-works",
+      "econ-smith-mercantilism"
+    ]
+  },
+  {
+    "id": "econ-smith-specialization",
+    "world": "economics",
+    "name": "Smith on Specialization",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "Why was the pin factory famous?",
+    "question": "Why was the pin factory famous?",
+    "options": [
+      "Smith used pin production to show how division of labor can dramatically raise productivity through specialization and task organization.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Smith used pin production to show how division of labor can dramatically raise productivity through specialization and task organization.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Smith on Specialization to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-market-size",
+      "econ-smith-public-works",
+      "econ-smith-mercantilism",
+      "econ-smith-wages-profits-rents"
+    ]
+  },
+  {
+    "id": "econ-smith-market-size",
+    "world": "economics",
+    "name": "Extent of the Market",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "What limits specialization?",
+    "question": "What limits specialization?",
+    "options": [
+      "Smith argued that the division of labor is limited by the extent of the market: larger markets support finer specialization.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Smith argued that the division of labor is limited by the extent of the market: larger markets support finer specialization.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Extent of the Market to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-public-works",
+      "econ-smith-mercantilism",
+      "econ-smith-wages-profits-rents",
+      "econ-classical"
+    ]
+  },
+  {
+    "id": "econ-smith-public-works",
+    "world": "economics",
+    "name": "Smith on Public Works",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "Did Smith think government had no economic role?",
+    "question": "Did Smith think government had no economic role?",
+    "options": [
+      "No. He assigned government roles in defense, justice and certain public works and institutions that private incentives may underprovide.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "No. He assigned government roles in defense, justice and certain public works and institutions that private incentives may underprovide.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Smith on Public Works to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-mercantilism",
+      "econ-smith-wages-profits-rents",
+      "econ-classical",
+      "econ-adam-smith"
+    ]
+  },
+  {
+    "id": "econ-smith-mercantilism",
+    "world": "economics",
+    "name": "Smith Against Mercantilism",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "Why did Smith criticize trade restrictions?",
+    "question": "Why did Smith criticize trade restrictions?",
+    "options": [
+      "He argued that mercantilist privileges often benefited protected producers at consumers' expense and misunderstood national wealth as bullion rather than productive capacity.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "He argued that mercantilist privileges often benefited protected producers at consumers' expense and misunderstood national wealth as bullion rather than productive capacity.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Smith Against Mercantilism to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-smith-wages-profits-rents",
+      "econ-classical",
+      "econ-adam-smith",
+      "econ-division-labor"
+    ]
+  },
+  {
+    "id": "econ-smith-wages-profits-rents",
+    "world": "economics",
+    "name": "Wages, Profits and Rents",
+    "pool": "Schools & Thinkers",
+    "topic": "Adam Smith & Classical Economics",
+    "hook": "How did classical economists divide national income?",
+    "question": "How did classical economists divide national income?",
+    "options": [
+      "Smith and later classical economists analyzed distribution among wages to labor, profits to capital and rents to landowners.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Smith and later classical economists analyzed distribution among wages to labor, profits to capital and rents to landowners.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Wages, Profits and Rents to the broader Adam Smith & Classical Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Adam Smith & Classical Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-classical",
+      "econ-adam-smith",
+      "econ-division-labor",
+      "econ-invisible-hand"
+    ]
+  },
+  {
+    "id": "econ-entrepreneur-schumpeter",
+    "world": "economics",
+    "name": "Schumpeterian Entrepreneur",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Who disrupts the circular flow in Schumpeter's theory?",
+    "question": "Who disrupts the circular flow in Schumpeter's theory?",
+    "options": [
+      "The entrepreneur introduces new combinations such as products, production methods, markets and organizational forms.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The entrepreneur introduces new combinations such as products, production methods, markets and organizational forms.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Schumpeterian Entrepreneur to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-innovation-rents",
+      "econ-business-cycles-schumpeter",
+      "econ-capitalism-success",
+      "econ-innovation-diffusion"
+    ]
+  },
+  {
+    "id": "econ-innovation-rents",
+    "world": "economics",
+    "name": "Innovation Rents",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Why can temporary market power encourage innovation?",
+    "question": "Why can temporary market power encourage innovation?",
+    "options": [
+      "Successful innovation can create temporary excess returns that reward risky discovery, while persistent monopoly can also suppress competition and diffusion.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Successful innovation can create temporary excess returns that reward risky discovery, while persistent monopoly can also suppress competition and diffusion.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Innovation Rents to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-business-cycles-schumpeter",
+      "econ-capitalism-success",
+      "econ-innovation-diffusion",
+      "econ-general-purpose-tech"
+    ]
+  },
+  {
+    "id": "econ-business-cycles-schumpeter",
+    "world": "economics",
+    "name": "Schumpeterian Business Cycles",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "How did Schumpeter connect innovation to economic fluctuations?",
+    "question": "How did Schumpeter connect innovation to economic fluctuations?",
+    "options": [
+      "He argued that clusters of innovations and investment can generate waves of expansion and restructuring, though modern cycle theory uses many additional mechanisms.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "He argued that clusters of innovations and investment can generate waves of expansion and restructuring, though modern cycle theory uses many additional mechanisms.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Schumpeterian Business Cycles to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-capitalism-success",
+      "econ-innovation-diffusion",
+      "econ-general-purpose-tech",
+      "econ-incumbent-disruption"
+    ]
+  },
+  {
+    "id": "econ-capitalism-success",
+    "world": "economics",
+    "name": "Capitalism's Success Paradox",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Why did Schumpeter think capitalism's success could undermine its own support?",
+    "question": "Why did Schumpeter think capitalism's success could undermine its own support?",
+    "options": [
+      "He speculated that capitalist development could erode the social groups and institutions that defended it, even while producing material progress.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "He speculated that capitalist development could erode the social groups and institutions that defended it, even while producing material progress.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Capitalism's Success Paradox to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-innovation-diffusion",
+      "econ-general-purpose-tech",
+      "econ-incumbent-disruption",
+      "econ-dynamic-competition"
+    ]
+  },
+  {
+    "id": "econ-innovation-diffusion",
+    "world": "economics",
+    "name": "Innovation Diffusion",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Why does invention alone not transform productivity?",
+    "question": "Why does invention alone not transform productivity?",
+    "options": [
+      "Economic impact depends on adoption, complementary investment, skills, infrastructure and organizational change, not merely the initial invention.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Economic impact depends on adoption, complementary investment, skills, infrastructure and organizational change, not merely the initial invention.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Innovation Diffusion to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-general-purpose-tech",
+      "econ-incumbent-disruption",
+      "econ-dynamic-competition",
+      "econ-schumpeter"
+    ]
+  },
+  {
+    "id": "econ-general-purpose-tech",
+    "world": "economics",
+    "name": "General-Purpose Technologies",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Why do electricity and computing take decades to reshape economies?",
+    "question": "Why do electricity and computing take decades to reshape economies?",
+    "options": [
+      "General-purpose technologies spread across sectors and require complementary innovations, so productivity effects can arrive with long delays.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "General-purpose technologies spread across sectors and require complementary innovations, so productivity effects can arrive with long delays.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect General-Purpose Technologies to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-incumbent-disruption",
+      "econ-dynamic-competition",
+      "econ-schumpeter",
+      "econ-creative-destruction"
+    ]
+  },
+  {
+    "id": "econ-incumbent-disruption",
+    "world": "economics",
+    "name": "Incumbents and Disruption",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Why can successful firms struggle with new technologies?",
+    "question": "Why can successful firms struggle with new technologies?",
+    "options": [
+      "Incumbents may have assets, customers and incentives tied to existing technologies, creating organizational barriers to disruptive change.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Incumbents may have assets, customers and incentives tied to existing technologies, creating organizational barriers to disruptive change.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Incumbents and Disruption to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-dynamic-competition",
+      "econ-schumpeter",
+      "econ-creative-destruction",
+      "econ-entrepreneur-schumpeter"
+    ]
+  },
+  {
+    "id": "econ-dynamic-competition",
+    "world": "economics",
+    "name": "Dynamic Competition",
+    "pool": "Schools & Thinkers",
+    "topic": "Schumpeter & Innovation",
+    "hook": "Is competition only about today's price?",
+    "question": "Is competition only about today's price?",
+    "options": [
+      "Schumpeterian competition emphasizes innovation, entry and technological change over time, not only static price competition among existing products.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Schumpeterian competition emphasizes innovation, entry and technological change over time, not only static price competition among existing products.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Dynamic Competition to the broader Schumpeter & Innovation tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Schumpeter & Innovation rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-schumpeter",
+      "econ-creative-destruction",
+      "econ-entrepreneur-schumpeter",
+      "econ-innovation-rents"
+    ]
+  },
+  {
+    "id": "econ-north-institutions",
+    "world": "economics",
+    "name": "Douglass North on Institutions",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "What did Douglass North mean by institutions?",
+    "question": "What did Douglass North mean by institutions?",
+    "options": [
+      "North described institutions as the formal and informal rules that structure human interaction and shape transaction costs and incentives.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "North described institutions as the formal and informal rules that structure human interaction and shape transaction costs and incentives.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Douglass North on Institutions to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-path-dependence",
+      "econ-credible-commitment",
+      "econ-transaction-cost-institutions",
+      "econ-property-rights-growth"
+    ]
+  },
+  {
+    "id": "econ-path-dependence",
+    "world": "economics",
+    "name": "Path Dependence",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Why can history constrain today's economic options?",
+    "question": "Why can history constrain today's economic options?",
+    "options": [
+      "Path dependence describes processes in which earlier choices and institutions alter later costs and possibilities, making outcomes partly history-dependent.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Path dependence describes processes in which earlier choices and institutions alter later costs and possibilities, making outcomes partly history-dependent.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Path Dependence to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-credible-commitment",
+      "econ-transaction-cost-institutions",
+      "econ-property-rights-growth",
+      "econ-informal-institutions"
+    ]
+  },
+  {
+    "id": "econ-credible-commitment",
+    "world": "economics",
+    "name": "Credible Commitment",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Why does promising not to seize investment matter for growth?",
+    "question": "Why does promising not to seize investment matter for growth?",
+    "options": [
+      "Investment rises when governments and counterparties can credibly commit to rules and contracts rather than opportunistically changing them later.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Investment rises when governments and counterparties can credibly commit to rules and contracts rather than opportunistically changing them later.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Credible Commitment to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-transaction-cost-institutions",
+      "econ-property-rights-growth",
+      "econ-informal-institutions",
+      "econ-institutional-persistence"
+    ]
+  },
+  {
+    "id": "econ-transaction-cost-institutions",
+    "world": "economics",
+    "name": "Institutions and Transaction Costs",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Why do different rules change how much trade occurs?",
+    "question": "Why do different rules change how much trade occurs?",
+    "options": [
+      "Institutions can reduce or raise the costs of finding partners, enforcing contracts, resolving disputes and protecting rights.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Institutions can reduce or raise the costs of finding partners, enforcing contracts, resolving disputes and protecting rights.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Institutions and Transaction Costs to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-property-rights-growth",
+      "econ-informal-institutions",
+      "econ-institutional-persistence",
+      "econ-inclusive-extractive"
+    ]
+  },
+  {
+    "id": "econ-property-rights-growth",
+    "world": "economics",
+    "name": "Property Rights and Investment",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Why can insecure ownership discourage investment?",
+    "question": "Why can insecure ownership discourage investment?",
+    "options": [
+      "If future returns may be confiscated or contested, people have weaker incentives to invest in assets whose payoff arrives later.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "If future returns may be confiscated or contested, people have weaker incentives to invest in assets whose payoff arrives later.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Property Rights and Investment to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-informal-institutions",
+      "econ-institutional-persistence",
+      "econ-inclusive-extractive",
+      "econ-institutional"
+    ]
+  },
+  {
+    "id": "econ-informal-institutions",
+    "world": "economics",
+    "name": "Informal Institutions",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Can unwritten norms be economically powerful?",
+    "question": "Can unwritten norms be economically powerful?",
+    "options": [
+      "Trust, conventions, social sanctions and customary practices can shape exchange and enforcement even without formal law.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Trust, conventions, social sanctions and customary practices can shape exchange and enforcement even without formal law.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Informal Institutions to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-institutional-persistence",
+      "econ-inclusive-extractive",
+      "econ-institutional",
+      "econ-new-institutional"
+    ]
+  },
+  {
+    "id": "econ-institutional-persistence",
+    "world": "economics",
+    "name": "Institutional Persistence",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "Why can inefficient institutions survive?",
+    "question": "Why can inefficient institutions survive?",
+    "options": [
+      "Institutions create winners, expectations and complementary arrangements that can make reform costly even when alternatives could be more productive.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Institutions create winners, expectations and complementary arrangements that can make reform costly even when alternatives could be more productive.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Institutional Persistence to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-inclusive-extractive",
+      "econ-institutional",
+      "econ-new-institutional",
+      "econ-north-institutions"
+    ]
+  },
+  {
+    "id": "econ-inclusive-extractive",
+    "world": "economics",
+    "name": "Inclusive and Extractive Institutions",
+    "pool": "Schools & Thinkers",
+    "topic": "Institutional Economics",
+    "hook": "What does the inclusive-versus-extractive framework try to explain?",
+    "question": "What does the inclusive-versus-extractive framework try to explain?",
+    "options": [
+      "The framework contrasts institutions that broadly enable participation and secure rights with those concentrating power and rents; its explanatory scope is influential but debated.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The framework contrasts institutions that broadly enable participation and secure rights with those concentrating power and rents; its explanatory scope is influential but debated.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Inclusive and Extractive Institutions to the broader Institutional Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Institutional Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-institutional",
+      "econ-new-institutional",
+      "econ-north-institutions",
+      "econ-path-dependence"
+    ]
+  },
+  {
+    "id": "econ-prospect-theory-econ",
+    "world": "economics",
+    "name": "Prospect Theory in Economics",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "Why do gains and losses depend on a reference point?",
+    "question": "Why do gains and losses depend on a reference point?",
+    "options": [
+      "Prospect theory models choices using reference-dependent value, loss aversion and nonlinear probability weighting rather than expected utility alone.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Prospect theory models choices using reference-dependent value, loss aversion and nonlinear probability weighting rather than expected utility alone.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Prospect Theory in Economics to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-mental-accounting-econ",
+      "econ-hyperbolic-econ",
+      "econ-behavioral-public-policy",
+      "econ-kahneman-tversky"
+    ]
+  },
+  {
+    "id": "econ-mental-accounting-econ",
+    "world": "economics",
+    "name": "Mental Accounting",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "Why do people treat identical money differently depending on its label?",
+    "question": "Why do people treat identical money differently depending on its label?",
+    "options": [
+      "Mental accounting describes how people organize money into psychological accounts that affect spending and saving decisions.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Mental accounting describes how people organize money into psychological accounts that affect spending and saving decisions.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Mental Accounting to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-hyperbolic-econ",
+      "econ-behavioral-public-policy",
+      "econ-kahneman-tversky",
+      "econ-thaler"
+    ]
+  },
+  {
+    "id": "econ-hyperbolic-econ",
+    "world": "economics",
+    "name": "Hyperbolic Discounting",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "Why can preferences reverse as temptation gets closer?",
+    "question": "Why can preferences reverse as temptation gets closer?",
+    "options": [
+      "Hyperbolic-style discounting gives disproportionate weight to immediate rewards, allowing today's plan to conflict with tomorrow's action.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Hyperbolic-style discounting gives disproportionate weight to immediate rewards, allowing today's plan to conflict with tomorrow's action.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Hyperbolic Discounting to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-behavioral-public-policy",
+      "econ-kahneman-tversky",
+      "econ-thaler",
+      "econ-bounded-self-control"
+    ]
+  },
+  {
+    "id": "econ-behavioral-public-policy",
+    "world": "economics",
+    "name": "Behavioral Public Policy",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "How can psychology change policy design?",
+    "question": "How can psychology change policy design?",
+    "options": [
+      "Behavioral public policy uses evidence about defaults, attention, simplification and decision errors while raising questions about autonomy, heterogeneity and institutional design.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Behavioral public policy uses evidence about defaults, attention, simplification and decision errors while raising questions about autonomy, heterogeneity and institutional design.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Behavioral Public Policy to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-kahneman-tversky",
+      "econ-thaler",
+      "econ-bounded-self-control",
+      "econ-fairness-preferences"
+    ]
+  },
+  {
+    "id": "econ-kahneman-tversky",
+    "world": "economics",
+    "name": "Kahneman and Tversky",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "Why were Kahneman and Tversky transformative for economics?",
+    "question": "Why were Kahneman and Tversky transformative for economics?",
+    "options": [
+      "Their experiments documented systematic departures from standard choice models and helped establish judgment and decision-making as a foundation for behavioral economics.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Their experiments documented systematic departures from standard choice models and helped establish judgment and decision-making as a foundation for behavioral economics.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Kahneman and Tversky to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-thaler",
+      "econ-bounded-self-control",
+      "econ-fairness-preferences",
+      "econ-behavioral"
+    ]
+  },
+  {
+    "id": "econ-thaler",
+    "world": "economics",
+    "name": "Richard Thaler",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "What did Thaler add to behavioral economics?",
+    "question": "What did Thaler add to behavioral economics?",
+    "options": [
+      "Thaler developed applications involving mental accounting, self-control, fairness and choice architecture, helping integrate behavioral evidence into economics.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Thaler developed applications involving mental accounting, self-control, fairness and choice architecture, helping integrate behavioral evidence into economics.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Richard Thaler to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-bounded-self-control",
+      "econ-fairness-preferences",
+      "econ-behavioral",
+      "econ-prospect-theory-econ"
+    ]
+  },
+  {
+    "id": "econ-bounded-self-control",
+    "world": "economics",
+    "name": "Self-Control Problems",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "How can one person behave like competing selves over time?",
+    "question": "How can one person behave like competing selves over time?",
+    "options": [
+      "Behavioral models represent conflicts between immediate temptation and longer-term plans, explaining demand for commitment devices.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Behavioral models represent conflicts between immediate temptation and longer-term plans, explaining demand for commitment devices.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Self-Control Problems to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-fairness-preferences",
+      "econ-behavioral",
+      "econ-prospect-theory-econ",
+      "econ-mental-accounting-econ"
+    ]
+  },
+  {
+    "id": "econ-fairness-preferences",
+    "world": "economics",
+    "name": "Fairness Preferences",
+    "pool": "Schools & Thinkers",
+    "topic": "Behavioral Economics",
+    "hook": "Why might someone reject free money in an unfair bargain?",
+    "question": "Why might someone reject free money in an unfair bargain?",
+    "options": [
+      "Experimental economics finds that many people care about fairness, reciprocity or intentions as well as their own material payoff.",
+      "The opposite is always true",
+      "Economists use the term only as a historical label with no analytical meaning",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Experimental economics finds that many people care about fairness, reciprocity or intentions as well as their own material payoff.",
+    "examples": [
+      [
+        "Follow the idea",
+        "Connect Fairness Preferences to the broader Behavioral Economics tradition and ask what mechanism the theory emphasizes."
+      ],
+      [
+        "Compare schools",
+        "Contrast the explanation with another school that starts from different assumptions or mechanisms."
+      ],
+      [
+        "Use evidence",
+        "Separate the historical argument from what later empirical research supports, modifies or rejects."
+      ]
+    ],
+    "why": "This gives the Behavioral Economics rabbit hole more depth than a single overview card.",
+    "caveat": "Schools of thought contain internal disagreements and evolve over time; this card summarizes one influential idea rather than a complete doctrine.",
+    "related": [
+      "econ-behavioral",
+      "econ-prospect-theory-econ",
+      "econ-mental-accounting-econ",
+      "econ-hyperbolic-econ"
     ]
   }
 ];
