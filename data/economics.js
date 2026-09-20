@@ -36,7 +36,9 @@ export const economicsConcepts = [
       "econ-ricardo",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-adam-smith",
@@ -75,7 +77,9 @@ export const economicsConcepts = [
       "econ-malthus",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-division-labor",
@@ -114,7 +118,9 @@ export const economicsConcepts = [
       "econ-marxian",
       "econ-invisible-hand"
     ],
-    "topic": "Adam Smith & Classical Economics"
+    "topic": "Adam Smith & Classical Economics",
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-ricardo",
@@ -153,7 +159,9 @@ export const economicsConcepts = [
       "econ-surplus-value",
       "econ-marginalism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-malthus",
@@ -192,7 +200,9 @@ export const economicsConcepts = [
       "econ-marginalism",
       "econ-neoclassical"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-marxian",
@@ -231,7 +241,9 @@ export const economicsConcepts = [
       "econ-neoclassical",
       "econ-labor-theory-value-marx"
     ],
-    "topic": "Marx & Marxian Economics"
+    "topic": "Marx & Marxian Economics",
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-surplus-value",
@@ -270,7 +282,9 @@ export const economicsConcepts = [
       "econ-marshall",
       "econ-labor-theory-value-marx"
     ],
-    "topic": "Marx & Marxian Economics"
+    "topic": "Marx & Marxian Economics",
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-marginalism",
@@ -309,7 +323,9 @@ export const economicsConcepts = [
       "econ-keynesian",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-neoclassical",
@@ -348,7 +364,9 @@ export const economicsConcepts = [
       "econ-keynes",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-marshall",
@@ -387,7 +405,9 @@ export const economicsConcepts = [
       "econ-post-keynesian",
       "econ-public-choice"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-keynesian",
@@ -426,7 +446,9 @@ export const economicsConcepts = [
       "econ-monetarism",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-keynes",
@@ -465,7 +487,9 @@ export const economicsConcepts = [
       "econ-friedman",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-post-keynesian",
@@ -504,7 +528,9 @@ export const economicsConcepts = [
       "econ-austrian",
       "econ-new-keynesian"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-monetarism",
@@ -543,7 +569,9 @@ export const economicsConcepts = [
       "econ-hayek",
       "econ-quantity-money"
     ],
-    "topic": "Friedman & Monetarism"
+    "topic": "Friedman & Monetarism",
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-friedman",
@@ -582,7 +610,9 @@ export const economicsConcepts = [
       "econ-mises",
       "econ-quantity-money"
     ],
-    "topic": "Friedman & Monetarism"
+    "topic": "Friedman & Monetarism",
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-austrian",
@@ -621,7 +651,9 @@ export const economicsConcepts = [
       "econ-institutional",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-hayek",
@@ -660,7 +692,9 @@ export const economicsConcepts = [
       "econ-new-institutional",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-mises",
@@ -699,7 +733,9 @@ export const economicsConcepts = [
       "econ-behavioral",
       "econ-knowledge-problem"
     ],
-    "topic": "Hayek & Austrian Economics"
+    "topic": "Hayek & Austrian Economics",
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-institutional",
@@ -738,7 +774,9 @@ export const economicsConcepts = [
       "econ-public-choice",
       "econ-north-institutions"
     ],
-    "topic": "Institutional Economics"
+    "topic": "Institutional Economics",
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-new-institutional",
@@ -777,7 +815,9 @@ export const economicsConcepts = [
       "econ-new-classical",
       "econ-north-institutions"
     ],
-    "topic": "Institutional Economics"
+    "topic": "Institutional Economics",
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-behavioral",
@@ -816,7 +856,9 @@ export const economicsConcepts = [
       "econ-new-keynesian",
       "econ-prospect-theory-econ"
     ],
-    "topic": "Behavioral Economics"
+    "topic": "Behavioral Economics",
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-public-choice",
@@ -855,7 +897,9 @@ export const economicsConcepts = [
       "econ-supply-side",
       "econ-development-school"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-new-classical",
@@ -894,7 +938,9 @@ export const economicsConcepts = [
       "econ-development-school",
       "econ-ordoliberalism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-new-keynesian",
@@ -933,7 +979,9 @@ export const economicsConcepts = [
       "econ-ordoliberalism",
       "econ-effective-demand"
     ],
-    "topic": "Keynesian Economics"
+    "topic": "Keynesian Economics",
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-supply-side",
@@ -972,7 +1020,9 @@ export const economicsConcepts = [
       "econ-physiocrats",
       "econ-mercantilism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-development-school",
@@ -1011,7 +1061,9 @@ export const economicsConcepts = [
       "econ-mercantilism",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-ordoliberalism",
@@ -1050,7 +1102,9 @@ export const economicsConcepts = [
       "econ-schumpeter",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-physiocrats",
@@ -1089,7 +1143,9 @@ export const economicsConcepts = [
       "econ-creative-destruction",
       "econ-georgism"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-mercantilism",
@@ -1128,7 +1184,9 @@ export const economicsConcepts = [
       "econ-georgism",
       "econ-ricardo"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-schumpeter",
@@ -1167,7 +1225,9 @@ export const economicsConcepts = [
       "econ-classical",
       "econ-entrepreneur-schumpeter"
     ],
-    "topic": "Schumpeter & Innovation"
+    "topic": "Schumpeter & Innovation",
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-creative-destruction",
@@ -1206,7 +1266,9 @@ export const economicsConcepts = [
       "econ-adam-smith",
       "econ-entrepreneur-schumpeter"
     ],
-    "topic": "Schumpeter & Innovation"
+    "topic": "Schumpeter & Innovation",
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-georgism",
@@ -1245,7 +1307,9 @@ export const economicsConcepts = [
       "econ-division-labor",
       "econ-ricardo"
     ],
-    "topic": "Schools & Thinkers"
+    "topic": "Schools & Thinkers",
+    "context": "This belongs to the history of economic thought. The point is not to memorize a thinker, but to see which problem they thought was central, what mechanism they emphasized, and how later schools accepted, modified or rejected that framework.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-scarcity",
@@ -1284,7 +1348,9 @@ export const economicsConcepts = [
       "econ-sunk-cost",
       "econ-supply"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-opportunity-cost",
@@ -1323,7 +1389,9 @@ export const economicsConcepts = [
       "econ-supply",
       "econ-demand"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-marginal-thinking",
@@ -1362,7 +1430,9 @@ export const economicsConcepts = [
       "econ-demand",
       "econ-equilibrium"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-sunk-cost",
@@ -1401,7 +1471,9 @@ export const economicsConcepts = [
       "econ-equilibrium",
       "econ-elasticity"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-supply",
@@ -1440,7 +1512,9 @@ export const economicsConcepts = [
       "econ-elasticity",
       "econ-consumer-surplus"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-demand",
@@ -1479,7 +1553,9 @@ export const economicsConcepts = [
       "econ-consumer-surplus",
       "econ-producer-surplus"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-equilibrium",
@@ -1518,7 +1594,9 @@ export const economicsConcepts = [
       "econ-producer-surplus",
       "econ-price-ceiling"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-elasticity",
@@ -1557,7 +1635,9 @@ export const economicsConcepts = [
       "econ-price-ceiling",
       "econ-price-floor"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-consumer-surplus",
@@ -1596,7 +1676,9 @@ export const economicsConcepts = [
       "econ-price-floor",
       "econ-tax-incidence"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-producer-surplus",
@@ -1635,7 +1717,9 @@ export const economicsConcepts = [
       "econ-tax-incidence",
       "econ-deadweight-loss"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-price-ceiling",
@@ -1674,7 +1758,9 @@ export const economicsConcepts = [
       "econ-deadweight-loss",
       "econ-externality"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-price-floor",
@@ -1713,7 +1799,9 @@ export const economicsConcepts = [
       "econ-externality",
       "econ-public-good"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-tax-incidence",
@@ -1752,7 +1840,9 @@ export const economicsConcepts = [
       "econ-public-good",
       "econ-common-resource"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-deadweight-loss",
@@ -1791,7 +1881,9 @@ export const economicsConcepts = [
       "econ-common-resource",
       "econ-asymmetric-info"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-externality",
@@ -1830,7 +1922,9 @@ export const economicsConcepts = [
       "econ-asymmetric-info",
       "econ-adverse-selection"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-public-good",
@@ -1869,7 +1963,9 @@ export const economicsConcepts = [
       "econ-adverse-selection",
       "econ-moral-hazard"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-common-resource",
@@ -1908,7 +2004,9 @@ export const economicsConcepts = [
       "econ-moral-hazard",
       "econ-principal-agent"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-asymmetric-info",
@@ -1947,7 +2045,9 @@ export const economicsConcepts = [
       "econ-principal-agent",
       "econ-transaction-cost"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-adverse-selection",
@@ -1986,7 +2086,9 @@ export const economicsConcepts = [
       "econ-transaction-cost",
       "econ-property-rights"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-moral-hazard",
@@ -2025,7 +2127,9 @@ export const economicsConcepts = [
       "econ-property-rights",
       "econ-network-effects"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-principal-agent",
@@ -2064,7 +2168,9 @@ export const economicsConcepts = [
       "econ-network-effects",
       "econ-economies-scale"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-transaction-cost",
@@ -2103,7 +2209,9 @@ export const economicsConcepts = [
       "econ-economies-scale",
       "econ-diminishing-returns"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-property-rights",
@@ -2142,7 +2250,9 @@ export const economicsConcepts = [
       "econ-diminishing-returns",
       "econ-perfect-competition"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-network-effects",
@@ -2181,7 +2291,9 @@ export const economicsConcepts = [
       "econ-perfect-competition",
       "econ-monopoly"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-economies-scale",
@@ -2220,7 +2332,9 @@ export const economicsConcepts = [
       "econ-monopoly",
       "econ-oligopoly"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-diminishing-returns",
@@ -2259,7 +2373,9 @@ export const economicsConcepts = [
       "econ-oligopoly",
       "econ-game-theory"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-perfect-competition",
@@ -2298,7 +2414,9 @@ export const economicsConcepts = [
       "econ-game-theory",
       "econ-nash-equilibrium"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-monopoly",
@@ -2337,7 +2455,9 @@ export const economicsConcepts = [
       "econ-nash-equilibrium",
       "econ-prisoners-dilemma"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-oligopoly",
@@ -2376,7 +2496,9 @@ export const economicsConcepts = [
       "econ-prisoners-dilemma",
       "econ-comparative-advantage"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-game-theory",
@@ -2415,7 +2537,9 @@ export const economicsConcepts = [
       "econ-comparative-advantage",
       "econ-scarcity"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-nash-equilibrium",
@@ -2454,7 +2578,9 @@ export const economicsConcepts = [
       "econ-scarcity",
       "econ-opportunity-cost"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-prisoners-dilemma",
@@ -2493,7 +2619,9 @@ export const economicsConcepts = [
       "econ-opportunity-cost",
       "econ-marginal-thinking"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-comparative-advantage",
@@ -2532,7 +2660,9 @@ export const economicsConcepts = [
       "econ-marginal-thinking",
       "econ-sunk-cost"
     ],
-    "topic": "Microeconomics"
+    "topic": "Microeconomics",
+    "context": "Microeconomics studies how individuals, firms and institutions make choices under constraints and how those choices interact through markets. The key habit is to identify incentives, marginal changes, opportunity costs and the institutional rules surrounding exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-gdp",
@@ -2571,7 +2701,9 @@ export const economicsConcepts = [
       "econ-inflation",
       "econ-deflation"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-real-gdp",
@@ -2610,7 +2742,9 @@ export const economicsConcepts = [
       "econ-deflation",
       "econ-stagflation"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-gdp-per-capita",
@@ -2649,7 +2783,9 @@ export const economicsConcepts = [
       "econ-stagflation",
       "econ-unemployment"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-inflation",
@@ -2688,7 +2824,9 @@ export const economicsConcepts = [
       "econ-unemployment",
       "econ-natural-rate"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-deflation",
@@ -2727,7 +2865,9 @@ export const economicsConcepts = [
       "econ-natural-rate",
       "econ-business-cycle"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-stagflation",
@@ -2766,7 +2906,9 @@ export const economicsConcepts = [
       "econ-business-cycle",
       "econ-recession"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-unemployment",
@@ -2805,7 +2947,9 @@ export const economicsConcepts = [
       "econ-recession",
       "econ-aggregate-demand"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-natural-rate",
@@ -2844,7 +2988,9 @@ export const economicsConcepts = [
       "econ-aggregate-demand",
       "econ-aggregate-supply"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-business-cycle",
@@ -2883,7 +3029,9 @@ export const economicsConcepts = [
       "econ-aggregate-supply",
       "econ-multiplier"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-recession",
@@ -2922,7 +3070,9 @@ export const economicsConcepts = [
       "econ-multiplier",
       "econ-output-gap"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-aggregate-demand",
@@ -2961,7 +3111,9 @@ export const economicsConcepts = [
       "econ-output-gap",
       "econ-phillips-curve"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-aggregate-supply",
@@ -3000,7 +3152,9 @@ export const economicsConcepts = [
       "econ-phillips-curve",
       "econ-expectations"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-multiplier",
@@ -3039,7 +3193,9 @@ export const economicsConcepts = [
       "econ-expectations",
       "econ-productivity"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-output-gap",
@@ -3078,7 +3234,9 @@ export const economicsConcepts = [
       "econ-productivity",
       "econ-tfp"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-phillips-curve",
@@ -3117,7 +3275,9 @@ export const economicsConcepts = [
       "econ-tfp",
       "econ-potential-output"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-expectations",
@@ -3156,7 +3316,9 @@ export const economicsConcepts = [
       "econ-potential-output",
       "econ-gdp"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-productivity",
@@ -3195,7 +3357,9 @@ export const economicsConcepts = [
       "econ-gdp",
       "econ-real-gdp"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-tfp",
@@ -3234,7 +3398,9 @@ export const economicsConcepts = [
       "econ-real-gdp",
       "econ-gdp-per-capita"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-potential-output",
@@ -3273,7 +3439,9 @@ export const economicsConcepts = [
       "econ-gdp-per-capita",
       "econ-inflation"
     ],
-    "topic": "Macroeconomics"
+    "topic": "Macroeconomics",
+    "context": "Macroeconomics studies economy-wide outcomes such as growth, unemployment, inflation and business cycles. Individual decisions matter, but aggregation, expectations, financial conditions and policy can create effects that are not obvious from a single household or firm.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-money-functions",
@@ -3312,7 +3480,9 @@ export const economicsConcepts = [
       "econ-central-bank",
       "econ-policy-rate"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-fractional-banking",
@@ -3351,7 +3521,9 @@ export const economicsConcepts = [
       "econ-policy-rate",
       "econ-quantitative-easing"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-money-creation",
@@ -3390,7 +3562,9 @@ export const economicsConcepts = [
       "econ-quantitative-easing",
       "econ-quantitative-tightening"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-central-bank",
@@ -3429,7 +3603,9 @@ export const economicsConcepts = [
       "econ-quantitative-tightening",
       "econ-yield-curve"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-policy-rate",
@@ -3468,7 +3644,9 @@ export const economicsConcepts = [
       "econ-yield-curve",
       "econ-real-interest"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-quantitative-easing",
@@ -3507,7 +3685,9 @@ export const economicsConcepts = [
       "econ-real-interest",
       "econ-compound-interest"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-quantitative-tightening",
@@ -3546,7 +3726,9 @@ export const economicsConcepts = [
       "econ-compound-interest",
       "econ-present-value"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-yield-curve",
@@ -3585,7 +3767,9 @@ export const economicsConcepts = [
       "econ-present-value",
       "econ-risk-return"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-real-interest",
@@ -3624,7 +3808,9 @@ export const economicsConcepts = [
       "econ-risk-return",
       "econ-diversification"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-compound-interest",
@@ -3663,7 +3849,9 @@ export const economicsConcepts = [
       "econ-diversification",
       "econ-bond-price-yield"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-present-value",
@@ -3702,7 +3890,9 @@ export const economicsConcepts = [
       "econ-bond-price-yield",
       "econ-bank-run"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-risk-return",
@@ -3741,7 +3931,9 @@ export const economicsConcepts = [
       "econ-bank-run",
       "econ-deposit-insurance"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-diversification",
@@ -3780,7 +3972,9 @@ export const economicsConcepts = [
       "econ-deposit-insurance",
       "econ-lender-last-resort"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-bond-price-yield",
@@ -3819,7 +4013,9 @@ export const economicsConcepts = [
       "econ-lender-last-resort",
       "econ-financial-leverage"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-bank-run",
@@ -3858,7 +4054,9 @@ export const economicsConcepts = [
       "econ-financial-leverage",
       "econ-liquidity"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-deposit-insurance",
@@ -3897,7 +4095,9 @@ export const economicsConcepts = [
       "econ-liquidity",
       "econ-credit-cycle"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-lender-last-resort",
@@ -3936,7 +4136,9 @@ export const economicsConcepts = [
       "econ-credit-cycle",
       "econ-money-functions"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-financial-leverage",
@@ -3975,7 +4177,9 @@ export const economicsConcepts = [
       "econ-money-functions",
       "econ-fractional-banking"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-liquidity",
@@ -4014,7 +4218,9 @@ export const economicsConcepts = [
       "econ-fractional-banking",
       "econ-money-creation"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-credit-cycle",
@@ -4053,7 +4259,9 @@ export const economicsConcepts = [
       "econ-money-creation",
       "econ-central-bank"
     ],
-    "topic": "Money, Banking & Finance"
+    "topic": "Money, Banking & Finance",
+    "context": "This topic concerns how money, credit, balance sheets, interest rates and financial institutions move purchasing power across time and between actors. The core issue is usually the tradeoff between enabling productive risk-taking and creating financial fragility.",
+    "studyLens": "Follow the balance sheets and incentives. Ask who owes what to whom, how leverage or liquidity changes, and what happens if expectations reverse."
   },
   {
     "id": "econ-absolute-advantage",
@@ -4092,7 +4300,9 @@ export const economicsConcepts = [
       "econ-quota",
       "econ-exchange-rate"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-trade-gains",
@@ -4131,7 +4341,9 @@ export const economicsConcepts = [
       "econ-exchange-rate",
       "econ-currency-appreciation"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-tariff",
@@ -4170,7 +4382,9 @@ export const economicsConcepts = [
       "econ-currency-appreciation",
       "econ-current-account"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-quota",
@@ -4209,7 +4423,9 @@ export const economicsConcepts = [
       "econ-current-account",
       "econ-capital-flows"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-exchange-rate",
@@ -4248,7 +4464,9 @@ export const economicsConcepts = [
       "econ-capital-flows",
       "econ-impossible-trinity"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-currency-appreciation",
@@ -4287,7 +4505,9 @@ export const economicsConcepts = [
       "econ-impossible-trinity",
       "econ-currency-crisis"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-current-account",
@@ -4326,7 +4546,9 @@ export const economicsConcepts = [
       "econ-currency-crisis",
       "econ-global-value-chains"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-capital-flows",
@@ -4365,7 +4587,9 @@ export const economicsConcepts = [
       "econ-global-value-chains",
       "econ-absolute-advantage"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-impossible-trinity",
@@ -4404,7 +4628,9 @@ export const economicsConcepts = [
       "econ-absolute-advantage",
       "econ-trade-gains"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-currency-crisis",
@@ -4443,7 +4669,9 @@ export const economicsConcepts = [
       "econ-trade-gains",
       "econ-tariff"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-global-value-chains",
@@ -4482,7 +4710,9 @@ export const economicsConcepts = [
       "econ-tariff",
       "econ-quota"
     ],
-    "topic": "Trade & Global Economy"
+    "topic": "Trade & Global Economy",
+    "context": "International economics studies specialization, cross-border exchange, capital flows and exchange rates. Aggregate gains can coexist with concentrated losses, so distribution and institutions matter alongside efficiency.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-economic-growth",
@@ -4521,7 +4751,9 @@ export const economicsConcepts = [
       "econ-state-capacity",
       "econ-poverty-trap"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-human-capital",
@@ -4560,7 +4792,9 @@ export const economicsConcepts = [
       "econ-poverty-trap",
       "econ-structural-transformation"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-institutions-growth",
@@ -4599,7 +4833,9 @@ export const economicsConcepts = [
       "econ-structural-transformation",
       "econ-demographic-transition"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-state-capacity",
@@ -4638,7 +4874,9 @@ export const economicsConcepts = [
       "econ-demographic-transition",
       "econ-middle-income-trap"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-poverty-trap",
@@ -4677,7 +4915,9 @@ export const economicsConcepts = [
       "econ-middle-income-trap",
       "econ-resource-curse"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-structural-transformation",
@@ -4716,7 +4956,9 @@ export const economicsConcepts = [
       "econ-resource-curse",
       "econ-dutch-disease"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-demographic-transition",
@@ -4755,7 +4997,9 @@ export const economicsConcepts = [
       "econ-dutch-disease",
       "econ-microfinance"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-middle-income-trap",
@@ -4794,7 +5038,9 @@ export const economicsConcepts = [
       "econ-microfinance",
       "econ-randomized-development"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-resource-curse",
@@ -4833,7 +5079,9 @@ export const economicsConcepts = [
       "econ-randomized-development",
       "econ-economic-growth"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-dutch-disease",
@@ -4872,7 +5120,9 @@ export const economicsConcepts = [
       "econ-economic-growth",
       "econ-human-capital"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-microfinance",
@@ -4911,7 +5161,9 @@ export const economicsConcepts = [
       "econ-human-capital",
       "econ-institutions-growth"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-randomized-development",
@@ -4950,7 +5202,9 @@ export const economicsConcepts = [
       "econ-institutions-growth",
       "econ-state-capacity"
     ],
-    "topic": "Development & Institutions"
+    "topic": "Development & Institutions",
+    "context": "Development economics asks why productivity, income, health and state capacity differ so sharply across countries and over time. Geography, institutions, human capital, technology, politics and historical path dependence often interact rather than supplying one simple explanation.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-income-inequality",
@@ -4989,7 +5243,9 @@ export const economicsConcepts = [
       "econ-labor-supply",
       "econ-human-capital-wage"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-wealth-inequality",
@@ -5028,7 +5284,9 @@ export const economicsConcepts = [
       "econ-human-capital-wage",
       "econ-minimum-wage"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-gini",
@@ -5067,7 +5325,9 @@ export const economicsConcepts = [
       "econ-minimum-wage",
       "econ-monopsony"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-labor-supply",
@@ -5106,7 +5366,9 @@ export const economicsConcepts = [
       "econ-monopsony",
       "econ-unions"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-human-capital-wage",
@@ -5145,7 +5407,9 @@ export const economicsConcepts = [
       "econ-unions",
       "econ-efficiency-wage"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-minimum-wage",
@@ -5184,7 +5448,9 @@ export const economicsConcepts = [
       "econ-efficiency-wage",
       "econ-rent-seeking"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-monopsony",
@@ -5223,7 +5489,9 @@ export const economicsConcepts = [
       "econ-rent-seeking",
       "econ-regulatory-capture"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-unions",
@@ -5262,7 +5530,9 @@ export const economicsConcepts = [
       "econ-regulatory-capture",
       "econ-collective-action-econ"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-efficiency-wage",
@@ -5301,7 +5571,9 @@ export const economicsConcepts = [
       "econ-collective-action-econ",
       "econ-median-voter"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-rent-seeking",
@@ -5340,7 +5612,9 @@ export const economicsConcepts = [
       "econ-median-voter",
       "econ-concentrated-benefits"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-regulatory-capture",
@@ -5379,7 +5653,9 @@ export const economicsConcepts = [
       "econ-concentrated-benefits",
       "econ-income-inequality"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-collective-action-econ",
@@ -5418,7 +5694,9 @@ export const economicsConcepts = [
       "econ-income-inequality",
       "econ-wealth-inequality"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-median-voter",
@@ -5457,7 +5735,9 @@ export const economicsConcepts = [
       "econ-wealth-inequality",
       "econ-gini"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-concentrated-benefits",
@@ -5496,7 +5776,9 @@ export const economicsConcepts = [
       "econ-gini",
       "econ-labor-supply"
     ],
-    "topic": "Inequality, Labor & Political Economy"
+    "topic": "Inequality, Labor & Political Economy",
+    "context": "This area examines how income, wealth, bargaining power, labor markets and political institutions distribute economic gains and losses. Efficiency and distribution are related but distinct questions, and policy choices often move both.",
+    "studyLens": "Separate aggregate effects from distributional effects. A policy can raise total income while creating visible losers, which helps explain why economically beneficial arrangements can still be politically contested."
   },
   {
     "id": "econ-great-depression",
@@ -5535,7 +5817,9 @@ export const economicsConcepts = [
       "econ-stagflation-70s",
       "econ-volcker-shock"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-gold-standard",
@@ -5574,7 +5858,9 @@ export const economicsConcepts = [
       "econ-volcker-shock",
       "econ-asian-crisis"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-bretton-woods",
@@ -5613,7 +5899,9 @@ export const economicsConcepts = [
       "econ-asian-crisis",
       "econ-dotcom"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-stagflation-70s",
@@ -5652,7 +5940,9 @@ export const economicsConcepts = [
       "econ-dotcom",
       "econ-global-financial-crisis"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-volcker-shock",
@@ -5691,7 +5981,9 @@ export const economicsConcepts = [
       "econ-global-financial-crisis",
       "econ-euro-crisis"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-asian-crisis",
@@ -5730,7 +6022,9 @@ export const economicsConcepts = [
       "econ-euro-crisis",
       "econ-pandemic-economics"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-dotcom",
@@ -5769,7 +6063,9 @@ export const economicsConcepts = [
       "econ-pandemic-economics",
       "econ-great-depression"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-global-financial-crisis",
@@ -5808,7 +6104,9 @@ export const economicsConcepts = [
       "econ-great-depression",
       "econ-gold-standard"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-euro-crisis",
@@ -5847,7 +6145,9 @@ export const economicsConcepts = [
       "econ-gold-standard",
       "econ-bretton-woods"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-pandemic-economics",
@@ -5886,7 +6186,9 @@ export const economicsConcepts = [
       "econ-bretton-woods",
       "econ-stagflation-70s"
     ],
-    "topic": "Crises & Economic History"
+    "topic": "Crises & Economic History",
+    "context": "Economic history uses real episodes to test how financial systems, policy regimes, institutions and expectations behave under stress. Crises are valuable because mechanisms that remain hidden in normal times often become visible when systems break.",
+    "studyLens": "Keep the time horizon in view. A policy or shock can have different short-run and long-run effects, and macroeconomic relationships can change when expectations or institutions change."
   },
   {
     "id": "econ-bounded-rationality",
@@ -5925,7 +6227,9 @@ export const economicsConcepts = [
       "econ-nudge",
       "econ-default-econ"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-loss-aversion-econ",
@@ -5964,7 +6268,9 @@ export const economicsConcepts = [
       "econ-default-econ",
       "econ-information-cascade"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-present-bias",
@@ -6003,7 +6309,9 @@ export const economicsConcepts = [
       "econ-information-cascade",
       "econ-signaling"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-nudge",
@@ -6042,7 +6350,9 @@ export const economicsConcepts = [
       "econ-signaling",
       "econ-screening"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-default-econ",
@@ -6081,7 +6391,9 @@ export const economicsConcepts = [
       "econ-screening",
       "econ-winner-curse"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-information-cascade",
@@ -6120,7 +6432,9 @@ export const economicsConcepts = [
       "econ-winner-curse",
       "econ-market-design"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-signaling",
@@ -6159,7 +6473,9 @@ export const economicsConcepts = [
       "econ-market-design",
       "econ-bounded-rationality"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-screening",
@@ -6198,7 +6514,9 @@ export const economicsConcepts = [
       "econ-bounded-rationality",
       "econ-loss-aversion-econ"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-winner-curse",
@@ -6237,7 +6555,9 @@ export const economicsConcepts = [
       "econ-loss-aversion-econ",
       "econ-present-bias"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-market-design",
@@ -6276,7 +6596,9 @@ export const economicsConcepts = [
       "econ-present-bias",
       "econ-nudge"
     ],
-    "topic": "Behavioral & Information Economics"
+    "topic": "Behavioral & Information Economics",
+    "context": "Information economics studies what happens when people possess different information or cannot fully observe quality, effort or risk. Behavioral approaches add systematic limits in attention, forecasting and self-control, making real markets less frictionless than textbook exchange.",
+    "studyLens": "A useful way to test the idea is to ask what changes at the margin, who faces the incentive, what constraint binds, and whether prices capture all relevant costs and benefits."
   },
   {
     "id": "econ-effective-demand",
@@ -6315,7 +6637,9 @@ export const economicsConcepts = [
       "econ-liquidity-preference",
       "econ-animal-spirits",
       "econ-underemployment-equilibrium"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-paradox-thrift",
@@ -6354,7 +6678,9 @@ export const economicsConcepts = [
       "econ-animal-spirits",
       "econ-underemployment-equilibrium",
       "econ-marginal-efficiency-capital"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-liquidity-preference",
@@ -6393,7 +6719,9 @@ export const economicsConcepts = [
       "econ-underemployment-equilibrium",
       "econ-marginal-efficiency-capital",
       "econ-sticky-prices"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-animal-spirits",
@@ -6432,7 +6760,9 @@ export const economicsConcepts = [
       "econ-marginal-efficiency-capital",
       "econ-sticky-prices",
       "econ-automatic-stabilizers"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-underemployment-equilibrium",
@@ -6471,7 +6801,9 @@ export const economicsConcepts = [
       "econ-sticky-prices",
       "econ-automatic-stabilizers",
       "econ-liquidity-trap"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-marginal-efficiency-capital",
@@ -6510,7 +6842,9 @@ export const economicsConcepts = [
       "econ-automatic-stabilizers",
       "econ-liquidity-trap",
       "econ-keynes-vs-hayek"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-sticky-prices",
@@ -6549,7 +6883,9 @@ export const economicsConcepts = [
       "econ-liquidity-trap",
       "econ-keynes-vs-hayek",
       "econ-keynesian"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-automatic-stabilizers",
@@ -6588,7 +6924,9 @@ export const economicsConcepts = [
       "econ-keynes-vs-hayek",
       "econ-keynesian",
       "econ-keynes"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-liquidity-trap",
@@ -6627,7 +6965,9 @@ export const economicsConcepts = [
       "econ-keynesian",
       "econ-keynes",
       "econ-post-keynesian"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-keynes-vs-hayek",
@@ -6666,7 +7006,9 @@ export const economicsConcepts = [
       "econ-keynes",
       "econ-post-keynesian",
       "econ-new-keynesian"
-    ]
+    ],
+    "context": "Keynesian economics focuses on aggregate demand, uncertainty, investment, unemployment and the possibility that economies can remain below full employment. It became especially influential for thinking about recessions and stabilization policy.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-labor-theory-value-marx",
@@ -6705,7 +7047,9 @@ export const economicsConcepts = [
       "econ-commodity-fetishism",
       "econ-alienation-marx",
       "econ-reserve-army"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-commodity",
@@ -6744,7 +7088,9 @@ export const economicsConcepts = [
       "econ-alienation-marx",
       "econ-reserve-army",
       "econ-organic-composition"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-commodity-fetishism",
@@ -6783,7 +7129,9 @@ export const economicsConcepts = [
       "econ-reserve-army",
       "econ-organic-composition",
       "econ-falling-profit"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-alienation-marx",
@@ -6822,7 +7170,9 @@ export const economicsConcepts = [
       "econ-organic-composition",
       "econ-falling-profit",
       "econ-primitive-accumulation"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-reserve-army",
@@ -6861,7 +7211,9 @@ export const economicsConcepts = [
       "econ-falling-profit",
       "econ-primitive-accumulation",
       "econ-class-struggle"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-organic-composition",
@@ -6900,7 +7252,9 @@ export const economicsConcepts = [
       "econ-primitive-accumulation",
       "econ-class-struggle",
       "econ-marx-crisis"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-falling-profit",
@@ -6939,7 +7293,9 @@ export const economicsConcepts = [
       "econ-class-struggle",
       "econ-marx-crisis",
       "econ-marxian"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-primitive-accumulation",
@@ -6978,7 +7334,9 @@ export const economicsConcepts = [
       "econ-marx-crisis",
       "econ-marxian",
       "econ-surplus-value"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-class-struggle",
@@ -7017,7 +7375,9 @@ export const economicsConcepts = [
       "econ-marxian",
       "econ-surplus-value",
       "econ-labor-theory-value-marx"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-marx-crisis",
@@ -7056,7 +7416,9 @@ export const economicsConcepts = [
       "econ-surplus-value",
       "econ-labor-theory-value-marx",
       "econ-commodity"
-    ]
+    ],
+    "context": "Marxian economics analyzes capitalism through production, ownership, class relations, accumulation and crisis. Its vocabulary often differs from mainstream economics, so the useful question is how its concepts reorganize what counts as the central economic problem.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-knowledge-problem",
@@ -7095,7 +7457,9 @@ export const economicsConcepts = [
       "econ-spontaneous-order",
       "econ-austrian-business-cycle",
       "econ-malinvestment"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-price-signals-hayek",
@@ -7134,7 +7498,9 @@ export const economicsConcepts = [
       "econ-austrian-business-cycle",
       "econ-malinvestment",
       "econ-entrepreneurial-discovery"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-spontaneous-order",
@@ -7173,7 +7539,9 @@ export const economicsConcepts = [
       "econ-malinvestment",
       "econ-entrepreneurial-discovery",
       "econ-subjective-value"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-austrian-business-cycle",
@@ -7212,7 +7580,9 @@ export const economicsConcepts = [
       "econ-entrepreneurial-discovery",
       "econ-subjective-value",
       "econ-economic-calculation"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-malinvestment",
@@ -7251,7 +7621,9 @@ export const economicsConcepts = [
       "econ-subjective-value",
       "econ-economic-calculation",
       "econ-rule-law-hayek"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-entrepreneurial-discovery",
@@ -7290,7 +7662,9 @@ export const economicsConcepts = [
       "econ-economic-calculation",
       "econ-rule-law-hayek",
       "econ-hayek-competition-discovery"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-subjective-value",
@@ -7329,7 +7703,9 @@ export const economicsConcepts = [
       "econ-rule-law-hayek",
       "econ-hayek-competition-discovery",
       "econ-austrian"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-economic-calculation",
@@ -7368,7 +7744,9 @@ export const economicsConcepts = [
       "econ-hayek-competition-discovery",
       "econ-austrian",
       "econ-hayek"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-rule-law-hayek",
@@ -7407,7 +7785,9 @@ export const economicsConcepts = [
       "econ-austrian",
       "econ-hayek",
       "econ-mises"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-hayek-competition-discovery",
@@ -7446,7 +7826,9 @@ export const economicsConcepts = [
       "econ-hayek",
       "econ-mises",
       "econ-knowledge-problem"
-    ]
+    ],
+    "context": "Austrian economics emphasizes dispersed knowledge, subjective value, entrepreneurial discovery and the coordinating role of prices. Its strongest questions concern what centralized decision-makers can know and how institutions process information.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-quantity-money",
@@ -7485,7 +7867,9 @@ export const economicsConcepts = [
       "econ-permanent-income",
       "econ-natural-rate-friedman",
       "econ-adaptive-expectations"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-inflation-monetary",
@@ -7524,7 +7908,9 @@ export const economicsConcepts = [
       "econ-natural-rate-friedman",
       "econ-adaptive-expectations",
       "econ-monetary-rule"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-permanent-income",
@@ -7563,7 +7949,9 @@ export const economicsConcepts = [
       "econ-adaptive-expectations",
       "econ-monetary-rule",
       "econ-great-depression-friedman"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-natural-rate-friedman",
@@ -7602,7 +7990,9 @@ export const economicsConcepts = [
       "econ-monetary-rule",
       "econ-great-depression-friedman",
       "econ-floating-rates-friedman"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-adaptive-expectations",
@@ -7641,7 +8031,9 @@ export const economicsConcepts = [
       "econ-great-depression-friedman",
       "econ-floating-rates-friedman",
       "econ-school-vouchers-friedman"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-monetary-rule",
@@ -7680,7 +8072,9 @@ export const economicsConcepts = [
       "econ-floating-rates-friedman",
       "econ-school-vouchers-friedman",
       "econ-negative-income-tax"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-great-depression-friedman",
@@ -7719,7 +8113,9 @@ export const economicsConcepts = [
       "econ-school-vouchers-friedman",
       "econ-negative-income-tax",
       "econ-monetarism"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-floating-rates-friedman",
@@ -7758,7 +8154,9 @@ export const economicsConcepts = [
       "econ-negative-income-tax",
       "econ-monetarism",
       "econ-friedman"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-school-vouchers-friedman",
@@ -7797,7 +8195,9 @@ export const economicsConcepts = [
       "econ-monetarism",
       "econ-friedman",
       "econ-quantity-money"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-negative-income-tax",
@@ -7836,7 +8236,9 @@ export const economicsConcepts = [
       "econ-friedman",
       "econ-quantity-money",
       "econ-inflation-monetary"
-    ]
+    ],
+    "context": "Monetarist ideas emphasize the role of money, expectations and policy rules in macroeconomic stability. This tradition often asks whether discretionary government intervention stabilizes the economy or instead creates additional uncertainty and inflation.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-invisible-hand",
@@ -7875,7 +8277,9 @@ export const economicsConcepts = [
       "econ-smith-moral-sentiments",
       "econ-smith-specialization",
       "econ-smith-market-size"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-self-interest",
@@ -7914,7 +8318,9 @@ export const economicsConcepts = [
       "econ-smith-specialization",
       "econ-smith-market-size",
       "econ-smith-public-works"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-moral-sentiments",
@@ -7953,7 +8359,9 @@ export const economicsConcepts = [
       "econ-smith-market-size",
       "econ-smith-public-works",
       "econ-smith-mercantilism"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-specialization",
@@ -7992,7 +8400,9 @@ export const economicsConcepts = [
       "econ-smith-public-works",
       "econ-smith-mercantilism",
       "econ-smith-wages-profits-rents"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-market-size",
@@ -8031,7 +8441,9 @@ export const economicsConcepts = [
       "econ-smith-mercantilism",
       "econ-smith-wages-profits-rents",
       "econ-classical"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-public-works",
@@ -8070,7 +8482,9 @@ export const economicsConcepts = [
       "econ-smith-wages-profits-rents",
       "econ-classical",
       "econ-adam-smith"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-mercantilism",
@@ -8109,7 +8523,9 @@ export const economicsConcepts = [
       "econ-classical",
       "econ-adam-smith",
       "econ-division-labor"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-smith-wages-profits-rents",
@@ -8148,7 +8564,9 @@ export const economicsConcepts = [
       "econ-adam-smith",
       "econ-division-labor",
       "econ-invisible-hand"
-    ]
+    ],
+    "context": "This sits inside the classical tradition that tried to explain how specialization, exchange, production and distribution generate national wealth. It is useful to read these ideas historically: classical economists were analyzing commercial societies before modern marginalism, macroeconomics and national accounting existed.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-entrepreneur-schumpeter",
@@ -8187,7 +8605,9 @@ export const economicsConcepts = [
       "econ-business-cycles-schumpeter",
       "econ-capitalism-success",
       "econ-innovation-diffusion"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-innovation-rents",
@@ -8226,7 +8646,9 @@ export const economicsConcepts = [
       "econ-capitalism-success",
       "econ-innovation-diffusion",
       "econ-general-purpose-tech"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-business-cycles-schumpeter",
@@ -8265,7 +8687,9 @@ export const economicsConcepts = [
       "econ-innovation-diffusion",
       "econ-general-purpose-tech",
       "econ-incumbent-disruption"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-capitalism-success",
@@ -8304,7 +8728,9 @@ export const economicsConcepts = [
       "econ-general-purpose-tech",
       "econ-incumbent-disruption",
       "econ-dynamic-competition"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-innovation-diffusion",
@@ -8343,7 +8769,9 @@ export const economicsConcepts = [
       "econ-incumbent-disruption",
       "econ-dynamic-competition",
       "econ-schumpeter"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-general-purpose-tech",
@@ -8382,7 +8810,9 @@ export const economicsConcepts = [
       "econ-dynamic-competition",
       "econ-schumpeter",
       "econ-creative-destruction"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-incumbent-disruption",
@@ -8421,7 +8851,9 @@ export const economicsConcepts = [
       "econ-schumpeter",
       "econ-creative-destruction",
       "econ-entrepreneur-schumpeter"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-dynamic-competition",
@@ -8460,7 +8892,9 @@ export const economicsConcepts = [
       "econ-creative-destruction",
       "econ-entrepreneur-schumpeter",
       "econ-innovation-rents"
-    ]
+    ],
+    "context": "Schumpeterian economics puts innovation, entrepreneurship and creative destruction at the center of capitalist development. The economy is viewed less as a static equilibrium and more as a process in which new technologies and firms repeatedly disrupt old structures.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-north-institutions",
@@ -8499,7 +8933,9 @@ export const economicsConcepts = [
       "econ-credible-commitment",
       "econ-transaction-cost-institutions",
       "econ-property-rights-growth"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-path-dependence",
@@ -8538,7 +8974,9 @@ export const economicsConcepts = [
       "econ-transaction-cost-institutions",
       "econ-property-rights-growth",
       "econ-informal-institutions"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-credible-commitment",
@@ -8577,7 +9015,9 @@ export const economicsConcepts = [
       "econ-property-rights-growth",
       "econ-informal-institutions",
       "econ-institutional-persistence"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-transaction-cost-institutions",
@@ -8616,7 +9056,9 @@ export const economicsConcepts = [
       "econ-informal-institutions",
       "econ-institutional-persistence",
       "econ-inclusive-extractive"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-property-rights-growth",
@@ -8655,7 +9097,9 @@ export const economicsConcepts = [
       "econ-institutional-persistence",
       "econ-inclusive-extractive",
       "econ-institutional"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-informal-institutions",
@@ -8694,7 +9138,9 @@ export const economicsConcepts = [
       "econ-inclusive-extractive",
       "econ-institutional",
       "econ-new-institutional"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-institutional-persistence",
@@ -8733,7 +9179,9 @@ export const economicsConcepts = [
       "econ-institutional",
       "econ-new-institutional",
       "econ-north-institutions"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-inclusive-extractive",
@@ -8772,7 +9220,9 @@ export const economicsConcepts = [
       "econ-new-institutional",
       "econ-north-institutions",
       "econ-path-dependence"
-    ]
+    ],
+    "context": "Institutional economics studies how formal rules, property rights, norms, transaction costs and political structures shape economic behavior. It is especially useful for explaining why similar resources or technologies can produce very different outcomes across societies.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-prospect-theory-econ",
@@ -8811,7 +9261,9 @@ export const economicsConcepts = [
       "econ-hyperbolic-econ",
       "econ-behavioral-public-policy",
       "econ-kahneman-tversky"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-mental-accounting-econ",
@@ -8850,7 +9302,9 @@ export const economicsConcepts = [
       "econ-behavioral-public-policy",
       "econ-kahneman-tversky",
       "econ-thaler"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-hyperbolic-econ",
@@ -8889,7 +9343,9 @@ export const economicsConcepts = [
       "econ-kahneman-tversky",
       "econ-thaler",
       "econ-bounded-self-control"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-behavioral-public-policy",
@@ -8928,7 +9384,9 @@ export const economicsConcepts = [
       "econ-thaler",
       "econ-bounded-self-control",
       "econ-fairness-preferences"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-kahneman-tversky",
@@ -8967,7 +9425,9 @@ export const economicsConcepts = [
       "econ-bounded-self-control",
       "econ-fairness-preferences",
       "econ-behavioral"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-thaler",
@@ -9006,7 +9466,9 @@ export const economicsConcepts = [
       "econ-fairness-preferences",
       "econ-behavioral",
       "econ-prospect-theory-econ"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-bounded-self-control",
@@ -9045,7 +9507,9 @@ export const economicsConcepts = [
       "econ-behavioral",
       "econ-prospect-theory-econ",
       "econ-mental-accounting-econ"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   },
   {
     "id": "econ-fairness-preferences",
@@ -9084,6 +9548,8 @@ export const economicsConcepts = [
       "econ-prospect-theory-econ",
       "econ-mental-accounting-econ",
       "econ-hyperbolic-econ"
-    ]
+    ],
+    "context": "Behavioral economics studies systematic departures from simple models of perfectly rational choice. Rather than assuming error means irrationality in a vague sense, it asks which psychological mechanisms predictably affect judgment, saving, risk and choice.",
+    "studyLens": "When studying this card, separate the descriptive claim about how an economy works from the normative claim about what policy should do. Schools often disagree because they emphasize different mechanisms, time horizons or institutional assumptions."
   }
 ];
