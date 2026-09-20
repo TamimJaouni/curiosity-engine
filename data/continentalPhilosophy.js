@@ -914,7 +914,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-young-marx",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Young Marx",
     "hook": "What philosophical problem is Young Marx trying to solve or expose?",
@@ -952,7 +952,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-alienation",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Alienation",
     "hook": "What philosophical problem is Alienation trying to solve or expose?",
@@ -990,7 +990,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-species-being",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Species-Being",
     "hook": "What philosophical problem is Species-Being trying to solve or expose?",
@@ -1028,7 +1028,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-historical-materialism",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Historical Materialism",
     "hook": "What philosophical problem is Historical Materialism trying to solve or expose?",
@@ -1066,7 +1066,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-forces-and-relations-of-production",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Forces and Relations of Production",
     "hook": "What philosophical problem is Forces and Relations of Production trying to solve or expose?",
@@ -1104,7 +1104,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-base-and-superstructure",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Base and Superstructure",
     "hook": "What philosophical problem is Base and Superstructure trying to solve or expose?",
@@ -1142,7 +1142,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ideology-in-marx",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Ideology in Marx",
     "hook": "What philosophical problem is Ideology in Marx trying to solve or expose?",
@@ -1180,7 +1180,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-commodity",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Commodity",
     "hook": "What philosophical problem is Commodity trying to solve or expose?",
@@ -1218,7 +1218,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-use-value-and-exchange-value",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Use Value and Exchange Value",
     "hook": "What philosophical problem is Use Value and Exchange Value trying to solve or expose?",
@@ -1256,7 +1256,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-commodity-fetishism",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Commodity Fetishism",
     "hook": "What philosophical problem is Commodity Fetishism trying to solve or expose?",
@@ -1294,7 +1294,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-labor-theory-of-value",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Labor Theory of Value",
     "hook": "What philosophical problem is Labor Theory of Value trying to solve or expose?",
@@ -1332,7 +1332,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-surplus-value",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Surplus Value",
     "hook": "What philosophical problem is Surplus Value trying to solve or expose?",
@@ -1370,7 +1370,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-exploitation",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Exploitation",
     "hook": "What philosophical problem is Exploitation trying to solve or expose?",
@@ -1408,7 +1408,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-primitive-accumulation",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Primitive Accumulation",
     "hook": "What philosophical problem is Primitive Accumulation trying to solve or expose?",
@@ -1446,7 +1446,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-class-struggle",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Class Struggle",
     "hook": "What philosophical problem is Class Struggle trying to solve or expose?",
@@ -1484,7 +1484,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-proletariat",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Proletariat",
     "hook": "What philosophical problem is Proletariat trying to solve or expose?",
@@ -1522,7 +1522,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-capital-accumulation",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Capital Accumulation",
     "hook": "What philosophical problem is Capital Accumulation trying to solve or expose?",
@@ -1560,7 +1560,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-crisis-in-capitalism",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Crisis in Capitalism",
     "hook": "What philosophical problem is Crisis in Capitalism trying to solve or expose?",
@@ -1598,7 +1598,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-marx-on-religion",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Marx on Religion",
     "hook": "What philosophical problem is Marx on Religion trying to solve or expose?",
@@ -1636,7 +1636,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-marx-s-critique-of-hegel",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Marx's Critique of Hegel",
     "hook": "What philosophical problem is Marx's Critique of Hegel trying to solve or expose?",
@@ -1674,7 +1674,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-lukacs",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Lukács",
     "hook": "What philosophical problem is Lukács trying to solve or expose?",
@@ -1712,7 +1712,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-reification",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Reification",
     "hook": "What philosophical problem is Reification trying to solve or expose?",
@@ -1750,7 +1750,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-class-consciousness",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Class Consciousness",
     "hook": "What philosophical problem is Class Consciousness trying to solve or expose?",
@@ -1788,7 +1788,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-gramsci",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Gramsci",
     "hook": "What philosophical problem is Gramsci trying to solve or expose?",
@@ -1826,7 +1826,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-cultural-hegemony",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Cultural Hegemony",
     "hook": "What philosophical problem is Cultural Hegemony trying to solve or expose?",
@@ -1864,7 +1864,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-organic-intellectuals",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Organic Intellectuals",
     "hook": "What philosophical problem is Organic Intellectuals trying to solve or expose?",
@@ -1902,7 +1902,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-war-of-position",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "War of Position",
     "hook": "What philosophical problem is War of Position trying to solve or expose?",
@@ -1940,7 +1940,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-althusser",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Althusser",
     "hook": "What philosophical problem is Althusser trying to solve or expose?",
@@ -1978,7 +1978,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ideological-state-apparatuses",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Ideological State Apparatuses",
     "hook": "What philosophical problem is Ideological State Apparatuses trying to solve or expose?",
@@ -2016,7 +2016,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-interpellation",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Interpellation",
     "hook": "What philosophical problem is Interpellation trying to solve or expose?",
@@ -2054,7 +2054,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-overdetermination",
     "world": "philosophy",
-    "pool": "Marx & Marxism",
+    "pool": "Marxism & Critical Theory",
     "topic": "Marx & Marxism",
     "name": "Overdetermination",
     "hook": "What philosophical problem is Overdetermination trying to solve or expose?",
@@ -2092,7 +2092,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-schopenhauer",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Schopenhauer",
     "hook": "What philosophical problem is Schopenhauer trying to solve or expose?",
@@ -2130,7 +2130,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-world-as-representation",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "World as Representation",
     "hook": "What philosophical problem is World as Representation trying to solve or expose?",
@@ -2168,7 +2168,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-will-in-schopenhauer",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Will in Schopenhauer",
     "hook": "What philosophical problem is Will in Schopenhauer trying to solve or expose?",
@@ -2206,7 +2206,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-pessimism",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Pessimism",
     "hook": "What philosophical problem is Pessimism trying to solve or expose?",
@@ -2244,7 +2244,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-aesthetic-escape",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Aesthetic Escape",
     "hook": "What philosophical problem is Aesthetic Escape trying to solve or expose?",
@@ -2282,7 +2282,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-compassion-in-schopenhauer",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Compassion in Schopenhauer",
     "hook": "What philosophical problem is Compassion in Schopenhauer trying to solve or expose?",
@@ -2320,7 +2320,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-kierkegaard",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Kierkegaard",
     "hook": "What philosophical problem is Kierkegaard trying to solve or expose?",
@@ -2358,7 +2358,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-aesthetic-ethical-and-religious-stages",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Aesthetic, Ethical and Religious Stages",
     "hook": "What philosophical problem is Aesthetic, Ethical and Religious Stages trying to solve or expose?",
@@ -2396,7 +2396,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-kierkegaardian-anxiety",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Kierkegaardian Anxiety",
     "hook": "What philosophical problem is Kierkegaardian Anxiety trying to solve or expose?",
@@ -2434,7 +2434,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-despair",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Despair",
     "hook": "What philosophical problem is Despair trying to solve or expose?",
@@ -2472,7 +2472,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-leap-of-faith",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "The Leap of Faith",
     "hook": "What philosophical problem is The Leap of Faith trying to solve or expose?",
@@ -2510,7 +2510,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-subjective-truth",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Subjective Truth",
     "hook": "What philosophical problem is Subjective Truth trying to solve or expose?",
@@ -2548,7 +2548,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-knight-of-faith",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Knight of Faith",
     "hook": "What philosophical problem is Knight of Faith trying to solve or expose?",
@@ -2586,7 +2586,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-absurd-in-kierkegaard",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "The Absurd in Kierkegaard",
     "hook": "What philosophical problem is The Absurd in Kierkegaard trying to solve or expose?",
@@ -2624,7 +2624,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-nietzsche",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Nietzsche",
     "hook": "What philosophical problem is Nietzsche trying to solve or expose?",
@@ -2662,7 +2662,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-apollonian-and-dionysian",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Apollonian and Dionysian",
     "hook": "What philosophical problem is Apollonian and Dionysian trying to solve or expose?",
@@ -2700,7 +2700,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-death-of-god",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Death of God",
     "hook": "What philosophical problem is Death of God trying to solve or expose?",
@@ -2738,7 +2738,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-nihilism",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Nihilism",
     "hook": "What philosophical problem is Nihilism trying to solve or expose?",
@@ -2776,7 +2776,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-passive-and-active-nihilism",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Passive and Active Nihilism",
     "hook": "What philosophical problem is Passive and Active Nihilism trying to solve or expose?",
@@ -2814,7 +2814,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-will-to-power",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Will to Power",
     "hook": "What philosophical problem is Will to Power trying to solve or expose?",
@@ -2852,7 +2852,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-perspectivism",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Perspectivism",
     "hook": "What philosophical problem is Perspectivism trying to solve or expose?",
@@ -2890,7 +2890,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-genealogy",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Genealogy",
     "hook": "What philosophical problem is Genealogy trying to solve or expose?",
@@ -2928,7 +2928,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-master-and-slave-morality",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Master and Slave Morality",
     "hook": "What philosophical problem is Master and Slave Morality trying to solve or expose?",
@@ -2966,7 +2966,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ressentiment",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Ressentiment",
     "hook": "What philosophical problem is Ressentiment trying to solve or expose?",
@@ -3004,7 +3004,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-bad-conscience",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Bad Conscience",
     "hook": "What philosophical problem is Bad Conscience trying to solve or expose?",
@@ -3042,7 +3042,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ascetic-ideal",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Ascetic Ideal",
     "hook": "What philosophical problem is Ascetic Ideal trying to solve or expose?",
@@ -3080,7 +3080,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ubermensch",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Übermensch",
     "hook": "What philosophical problem is Übermensch trying to solve or expose?",
@@ -3118,7 +3118,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-eternal-recurrence",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Eternal Recurrence",
     "hook": "What philosophical problem is Eternal Recurrence trying to solve or expose?",
@@ -3156,7 +3156,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-amor-fati",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Amor Fati",
     "hook": "What philosophical problem is Amor Fati trying to solve or expose?",
@@ -3194,7 +3194,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-nietzsche-on-truth",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Nietzsche on Truth",
     "hook": "What philosophical problem is Nietzsche on Truth trying to solve or expose?",
@@ -3232,7 +3232,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-nietzsche-s-critique-of-christianity",
     "world": "philosophy",
-    "pool": "Schopenhauer, Kierkegaard & Nietzsche",
+    "pool": "Existentialism",
     "topic": "Schopenhauer, Kierkegaard & Nietzsche",
     "name": "Nietzsche's Critique of Christianity",
     "hook": "What philosophical problem is Nietzsche's Critique of Christianity trying to solve or expose?",
@@ -3270,7 +3270,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-brentano-and-intentionality",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Brentano and Intentionality",
     "hook": "What philosophical problem is Brentano and Intentionality trying to solve or expose?",
@@ -3308,7 +3308,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-husserl",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Husserl",
     "hook": "What philosophical problem is Husserl trying to solve or expose?",
@@ -3346,7 +3346,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-intentionality",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Intentionality",
     "hook": "What philosophical problem is Intentionality trying to solve or expose?",
@@ -3384,7 +3384,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-natural-attitude",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Natural Attitude",
     "hook": "What philosophical problem is Natural Attitude trying to solve or expose?",
@@ -3422,7 +3422,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-epoche",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Epoché",
     "hook": "What philosophical problem is Epoché trying to solve or expose?",
@@ -3460,7 +3460,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-phenomenological-reduction",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Phenomenological Reduction",
     "hook": "What philosophical problem is Phenomenological Reduction trying to solve or expose?",
@@ -3498,7 +3498,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-noesis-and-noema",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Noesis and Noema",
     "hook": "What philosophical problem is Noesis and Noema trying to solve or expose?",
@@ -3536,7 +3536,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-eidetic-reduction",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Eidetic Reduction",
     "hook": "What philosophical problem is Eidetic Reduction trying to solve or expose?",
@@ -3574,7 +3574,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-intersubjectivity",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Intersubjectivity",
     "hook": "What philosophical problem is Intersubjectivity trying to solve or expose?",
@@ -3612,7 +3612,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-lifeworld",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Lifeworld",
     "hook": "What philosophical problem is Lifeworld trying to solve or expose?",
@@ -3650,7 +3650,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-crisis-of-european-sciences",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Crisis of European Sciences",
     "hook": "What philosophical problem is Crisis of European Sciences trying to solve or expose?",
@@ -3688,7 +3688,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-max-scheler",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Max Scheler",
     "hook": "What philosophical problem is Max Scheler trying to solve or expose?",
@@ -3726,7 +3726,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-material-value-ethics",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Material Value Ethics",
     "hook": "What philosophical problem is Material Value Ethics trying to solve or expose?",
@@ -3764,7 +3764,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-edith-stein",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Edith Stein",
     "hook": "What philosophical problem is Edith Stein trying to solve or expose?",
@@ -3802,7 +3802,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-empathy-in-stein",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Empathy in Stein",
     "hook": "What philosophical problem is Empathy in Stein trying to solve or expose?",
@@ -3840,7 +3840,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-merleau-ponty",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Merleau-Ponty",
     "hook": "What philosophical problem is Merleau-Ponty trying to solve or expose?",
@@ -3878,7 +3878,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-embodiment",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Embodiment",
     "hook": "What philosophical problem is Embodiment trying to solve or expose?",
@@ -3916,7 +3916,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-body-schema",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Body Schema",
     "hook": "What philosophical problem is Body Schema trying to solve or expose?",
@@ -3954,7 +3954,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-perception-in-merleau-ponty",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Perception in Merleau-Ponty",
     "hook": "What philosophical problem is Perception in Merleau-Ponty trying to solve or expose?",
@@ -3992,7 +3992,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-chiasm",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Chiasm",
     "hook": "What philosophical problem is Chiasm trying to solve or expose?",
@@ -4030,7 +4030,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-flesh-of-the-world",
     "world": "philosophy",
-    "pool": "Phenomenology",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Phenomenology",
     "name": "Flesh of the World",
     "hook": "What philosophical problem is Flesh of the World trying to solve or expose?",
@@ -4068,7 +4068,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-heidegger",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Heidegger",
     "hook": "What philosophical problem is Heidegger trying to solve or expose?",
@@ -4106,7 +4106,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-question-of-being",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "The Question of Being",
     "hook": "What philosophical problem is The Question of Being trying to solve or expose?",
@@ -4144,7 +4144,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-being-and-beings",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Being and Beings",
     "hook": "What philosophical problem is Being and Beings trying to solve or expose?",
@@ -4182,7 +4182,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dasein",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Dasein",
     "hook": "What philosophical problem is Dasein trying to solve or expose?",
@@ -4220,7 +4220,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-being-in-the-world",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Being-in-the-World",
     "hook": "What philosophical problem is Being-in-the-World trying to solve or expose?",
@@ -4258,7 +4258,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-thrownness",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Thrownness",
     "hook": "What philosophical problem is Thrownness trying to solve or expose?",
@@ -4296,7 +4296,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-facticity",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Facticity",
     "hook": "What philosophical problem is Facticity trying to solve or expose?",
@@ -4334,7 +4334,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-care-sorge",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Care (Sorge)",
     "hook": "What philosophical problem is Care (Sorge) trying to solve or expose?",
@@ -4372,7 +4372,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ready-to-hand",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Ready-to-Hand",
     "hook": "What philosophical problem is Ready-to-Hand trying to solve or expose?",
@@ -4410,7 +4410,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-present-at-hand",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Present-at-Hand",
     "hook": "What philosophical problem is Present-at-Hand trying to solve or expose?",
@@ -4448,7 +4448,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-they-das-man",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "The They (Das Man)",
     "hook": "What philosophical problem is The They (Das Man) trying to solve or expose?",
@@ -4486,7 +4486,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-falling",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Falling",
     "hook": "What philosophical problem is Falling trying to solve or expose?",
@@ -4524,7 +4524,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-mood-and-attunement",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Mood and Attunement",
     "hook": "What philosophical problem is Mood and Attunement trying to solve or expose?",
@@ -4562,7 +4562,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-anxiety-in-heidegger",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Anxiety in Heidegger",
     "hook": "What philosophical problem is Anxiety in Heidegger trying to solve or expose?",
@@ -4600,7 +4600,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-being-toward-death",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Being-toward-Death",
     "hook": "What philosophical problem is Being-toward-Death trying to solve or expose?",
@@ -4638,7 +4638,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-authenticity",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Authenticity",
     "hook": "What philosophical problem is Authenticity trying to solve or expose?",
@@ -4676,7 +4676,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-resoluteness",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Resoluteness",
     "hook": "What philosophical problem is Resoluteness trying to solve or expose?",
@@ -4714,7 +4714,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-temporality",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Temporality",
     "hook": "What philosophical problem is Temporality trying to solve or expose?",
@@ -4752,7 +4752,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ontological-difference",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Ontological Difference",
     "hook": "What philosophical problem is Ontological Difference trying to solve or expose?",
@@ -4790,7 +4790,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-heidegger-s-later-turn",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Heidegger's Later Turn",
     "hook": "What philosophical problem is Heidegger's Later Turn trying to solve or expose?",
@@ -4828,7 +4828,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-technology-as-enframing",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Technology as Enframing",
     "hook": "What philosophical problem is Technology as Enframing trying to solve or expose?",
@@ -4866,7 +4866,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-clearing",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "The Clearing",
     "hook": "What philosophical problem is The Clearing trying to solve or expose?",
@@ -4904,7 +4904,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dwelling",
     "world": "philosophy",
-    "pool": "Heidegger",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Heidegger",
     "name": "Dwelling",
     "hook": "What philosophical problem is Dwelling trying to solve or expose?",
@@ -5892,7 +5892,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-frankfurt-school",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Frankfurt School",
     "hook": "What philosophical problem is Frankfurt School trying to solve or expose?",
@@ -5930,7 +5930,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-institute-for-social-research",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Institute for Social Research",
     "hook": "What philosophical problem is Institute for Social Research trying to solve or expose?",
@@ -5968,7 +5968,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-max-horkheimer",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Max Horkheimer",
     "hook": "What philosophical problem is Max Horkheimer trying to solve or expose?",
@@ -6006,7 +6006,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-traditional-and-critical-theory",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Traditional and Critical Theory",
     "hook": "What philosophical problem is Traditional and Critical Theory trying to solve or expose?",
@@ -6044,7 +6044,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-critical-theory",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Critical Theory",
     "hook": "What philosophical problem is Critical Theory trying to solve or expose?",
@@ -6082,7 +6082,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-instrumental-reason",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Instrumental Reason",
     "hook": "What philosophical problem is Instrumental Reason trying to solve or expose?",
@@ -6120,7 +6120,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-theodor-adorno",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Theodor Adorno",
     "hook": "What philosophical problem is Theodor Adorno trying to solve or expose?",
@@ -6158,7 +6158,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-negative-dialectics",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Negative Dialectics",
     "hook": "What philosophical problem is Negative Dialectics trying to solve or expose?",
@@ -6196,7 +6196,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-nonidentity",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Nonidentity",
     "hook": "What philosophical problem is Nonidentity trying to solve or expose?",
@@ -6234,7 +6234,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-culture-industry",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Culture Industry",
     "hook": "What philosophical problem is Culture Industry trying to solve or expose?",
@@ -6272,7 +6272,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dialectic-of-enlightenment",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Dialectic of Enlightenment",
     "hook": "What philosophical problem is Dialectic of Enlightenment trying to solve or expose?",
@@ -6310,7 +6310,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-authoritarian-personality",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Authoritarian Personality",
     "hook": "What philosophical problem is Authoritarian Personality trying to solve or expose?",
@@ -6348,7 +6348,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-minima-moralia",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Minima Moralia",
     "hook": "What philosophical problem is Minima Moralia trying to solve or expose?",
@@ -6386,7 +6386,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-herbert-marcuse",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Herbert Marcuse",
     "hook": "What philosophical problem is Herbert Marcuse trying to solve or expose?",
@@ -6424,7 +6424,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-one-dimensional-man",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "One-Dimensional Man",
     "hook": "What philosophical problem is One-Dimensional Man trying to solve or expose?",
@@ -6462,7 +6462,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-repressive-tolerance",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Repressive Tolerance",
     "hook": "What philosophical problem is Repressive Tolerance trying to solve or expose?",
@@ -6500,7 +6500,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-false-needs",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "False Needs",
     "hook": "What philosophical problem is False Needs trying to solve or expose?",
@@ -6538,7 +6538,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-technological-rationality",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Technological Rationality",
     "hook": "What philosophical problem is Technological Rationality trying to solve or expose?",
@@ -6576,7 +6576,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-eros-and-civilization",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Eros and Civilization",
     "hook": "What philosophical problem is Eros and Civilization trying to solve or expose?",
@@ -6614,7 +6614,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-walter-benjamin",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Walter Benjamin",
     "hook": "What philosophical problem is Walter Benjamin trying to solve or expose?",
@@ -6652,7 +6652,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-aura",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Aura",
     "hook": "What philosophical problem is Aura trying to solve or expose?",
@@ -6690,7 +6690,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-mechanical-reproduction",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Mechanical Reproduction",
     "hook": "What philosophical problem is Mechanical Reproduction trying to solve or expose?",
@@ -6728,7 +6728,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-history-s-angel",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "History's Angel",
     "hook": "What philosophical problem is History's Angel trying to solve or expose?",
@@ -6766,7 +6766,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-erich-fromm",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Erich Fromm",
     "hook": "What philosophical problem is Erich Fromm trying to solve or expose?",
@@ -6804,7 +6804,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-escape-from-freedom",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Escape from Freedom",
     "hook": "What philosophical problem is Escape from Freedom trying to solve or expose?",
@@ -6842,7 +6842,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-friedrich-pollock",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Friedrich Pollock",
     "hook": "What philosophical problem is Friedrich Pollock trying to solve or expose?",
@@ -6880,7 +6880,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-state-capitalism",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "State Capitalism",
     "hook": "What philosophical problem is State Capitalism trying to solve or expose?",
@@ -6918,7 +6918,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-jurgen-habermas",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Jürgen Habermas",
     "hook": "What philosophical problem is Jürgen Habermas trying to solve or expose?",
@@ -6956,7 +6956,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-public-sphere",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Public Sphere",
     "hook": "What philosophical problem is Public Sphere trying to solve or expose?",
@@ -6994,7 +6994,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-communicative-action",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Communicative Action",
     "hook": "What philosophical problem is Communicative Action trying to solve or expose?",
@@ -7032,7 +7032,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-system-and-lifeworld",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "System and Lifeworld",
     "hook": "What philosophical problem is System and Lifeworld trying to solve or expose?",
@@ -7070,7 +7070,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-discourse-ethics",
     "world": "philosophy",
-    "pool": "Frankfurt School",
+    "pool": "Marxism & Critical Theory",
     "topic": "Frankfurt School",
     "name": "Discourse Ethics",
     "hook": "What philosophical problem is Discourse Ethics trying to solve or expose?",
@@ -7108,7 +7108,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-schleiermacher",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Schleiermacher",
     "hook": "What philosophical problem is Schleiermacher trying to solve or expose?",
@@ -7146,7 +7146,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-hermeneutic-circle",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Hermeneutic Circle",
     "hook": "What philosophical problem is Hermeneutic Circle trying to solve or expose?",
@@ -7184,7 +7184,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dilthey",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Dilthey",
     "hook": "What philosophical problem is Dilthey trying to solve or expose?",
@@ -7222,7 +7222,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-understanding-and-explanation",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Understanding and Explanation",
     "hook": "What philosophical problem is Understanding and Explanation trying to solve or expose?",
@@ -7260,7 +7260,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-lived-experience-erlebnis",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Lived Experience (Erlebnis)",
     "hook": "What philosophical problem is Lived Experience (Erlebnis) trying to solve or expose?",
@@ -7298,7 +7298,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-gadamer",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Gadamer",
     "hook": "What philosophical problem is Gadamer trying to solve or expose?",
@@ -7336,7 +7336,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-truth-and-method",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Truth and Method",
     "hook": "What philosophical problem is Truth and Method trying to solve or expose?",
@@ -7374,7 +7374,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-prejudice-in-gadamer",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Prejudice in Gadamer",
     "hook": "What philosophical problem is Prejudice in Gadamer trying to solve or expose?",
@@ -7412,7 +7412,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-historically-effected-consciousness",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Historically Effected Consciousness",
     "hook": "What philosophical problem is Historically Effected Consciousness trying to solve or expose?",
@@ -7450,7 +7450,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-fusion-of-horizons",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Fusion of Horizons",
     "hook": "What philosophical problem is Fusion of Horizons trying to solve or expose?",
@@ -7488,7 +7488,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-play-in-gadamer",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Play in Gadamer",
     "hook": "What philosophical problem is Play in Gadamer trying to solve or expose?",
@@ -7526,7 +7526,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-application-in-interpretation",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Application in Interpretation",
     "hook": "What philosophical problem is Application in Interpretation trying to solve or expose?",
@@ -7564,7 +7564,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ricoeur",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Ricoeur",
     "hook": "What philosophical problem is Ricoeur trying to solve or expose?",
@@ -7602,7 +7602,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-hermeneutics-of-suspicion",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Hermeneutics of Suspicion",
     "hook": "What philosophical problem is Hermeneutics of Suspicion trying to solve or expose?",
@@ -7640,7 +7640,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-symbol-gives-rise-to-thought",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Symbol Gives Rise to Thought",
     "hook": "What philosophical problem is Symbol Gives Rise to Thought trying to solve or expose?",
@@ -7678,7 +7678,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-narrative-identity",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Narrative Identity",
     "hook": "What philosophical problem is Narrative Identity trying to solve or expose?",
@@ -7716,7 +7716,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-distanciation",
     "world": "philosophy",
-    "pool": "Hermeneutics",
+    "pool": "Phenomenology & Hermeneutics",
     "topic": "Hermeneutics",
     "name": "Distanciation",
     "hook": "What philosophical problem is Distanciation trying to solve or expose?",
@@ -7754,7 +7754,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-saussure",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Saussure",
     "hook": "What philosophical problem is Saussure trying to solve or expose?",
@@ -7792,7 +7792,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-signifier-and-signified",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Signifier and Signified",
     "hook": "What philosophical problem is Signifier and Signified trying to solve or expose?",
@@ -7830,7 +7830,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-arbitrariness-of-the-sign",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Arbitrariness of the Sign",
     "hook": "What philosophical problem is Arbitrariness of the Sign trying to solve or expose?",
@@ -7868,7 +7868,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-langue-and-parole",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Langue and Parole",
     "hook": "What philosophical problem is Langue and Parole trying to solve or expose?",
@@ -7906,7 +7906,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-synchronic-and-diachronic",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Synchronic and Diachronic",
     "hook": "What philosophical problem is Synchronic and Diachronic trying to solve or expose?",
@@ -7944,7 +7944,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-levi-strauss",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Lévi-Strauss",
     "hook": "What philosophical problem is Lévi-Strauss trying to solve or expose?",
@@ -7982,7 +7982,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-structural-anthropology",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Structural Anthropology",
     "hook": "What philosophical problem is Structural Anthropology trying to solve or expose?",
@@ -8020,7 +8020,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-binary-oppositions",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Binary Oppositions",
     "hook": "What philosophical problem is Binary Oppositions trying to solve or expose?",
@@ -8058,7 +8058,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-myth-as-structure",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Myth as Structure",
     "hook": "What philosophical problem is Myth as Structure trying to solve or expose?",
@@ -8096,7 +8096,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-barthes",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Barthes",
     "hook": "What philosophical problem is Barthes trying to solve or expose?",
@@ -8134,7 +8134,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-mythologies",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Mythologies",
     "hook": "What philosophical problem is Mythologies trying to solve or expose?",
@@ -8172,7 +8172,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-denotation-and-connotation",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Denotation and Connotation",
     "hook": "What philosophical problem is Denotation and Connotation trying to solve or expose?",
@@ -8210,7 +8210,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-death-of-the-author",
     "world": "philosophy",
-    "pool": "Structuralism & Semiotics",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Structuralism & Semiotics",
     "name": "Death of the Author",
     "hook": "What philosophical problem is Death of the Author trying to solve or expose?",
@@ -8248,7 +8248,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-foucault",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Foucault",
     "hook": "What philosophical problem is Foucault trying to solve or expose?",
@@ -8286,7 +8286,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-archaeology",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Archaeology",
     "hook": "What philosophical problem is Archaeology trying to solve or expose?",
@@ -8324,7 +8324,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-episteme",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Episteme",
     "hook": "What philosophical problem is Episteme trying to solve or expose?",
@@ -8362,7 +8362,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-discourse",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Discourse",
     "hook": "What philosophical problem is Discourse trying to solve or expose?",
@@ -8400,7 +8400,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-genealogy-in-foucault",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Genealogy in Foucault",
     "hook": "What philosophical problem is Genealogy in Foucault trying to solve or expose?",
@@ -8438,7 +8438,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-power-knowledge",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Power/Knowledge",
     "hook": "What philosophical problem is Power/Knowledge trying to solve or expose?",
@@ -8476,7 +8476,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-disciplinary-power",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Disciplinary Power",
     "hook": "What philosophical problem is Disciplinary Power trying to solve or expose?",
@@ -8514,7 +8514,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-panopticism",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Panopticism",
     "hook": "What philosophical problem is Panopticism trying to solve or expose?",
@@ -8552,7 +8552,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-docile-bodies",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Docile Bodies",
     "hook": "What philosophical problem is Docile Bodies trying to solve or expose?",
@@ -8590,7 +8590,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-normalization",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Normalization",
     "hook": "What philosophical problem is Normalization trying to solve or expose?",
@@ -8628,7 +8628,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-examination",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Examination",
     "hook": "What philosophical problem is Examination trying to solve or expose?",
@@ -8666,7 +8666,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-biopower",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Biopower",
     "hook": "What philosophical problem is Biopower trying to solve or expose?",
@@ -8704,7 +8704,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-biopolitics",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Biopolitics",
     "hook": "What philosophical problem is Biopolitics trying to solve or expose?",
@@ -8742,7 +8742,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-governmentality",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Governmentality",
     "hook": "What philosophical problem is Governmentality trying to solve or expose?",
@@ -8780,7 +8780,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-pastoral-power",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Pastoral Power",
     "hook": "What philosophical problem is Pastoral Power trying to solve or expose?",
@@ -8818,7 +8818,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-technologies-of-the-self",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Technologies of the Self",
     "hook": "What philosophical problem is Technologies of the Self trying to solve or expose?",
@@ -8856,7 +8856,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-care-of-the-self",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Care of the Self",
     "hook": "What philosophical problem is Care of the Self trying to solve or expose?",
@@ -8894,7 +8894,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-parrhesia",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Parrhesia",
     "hook": "What philosophical problem is Parrhesia trying to solve or expose?",
@@ -8932,7 +8932,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-history-of-sexuality",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "History of Sexuality",
     "hook": "What philosophical problem is History of Sexuality trying to solve or expose?",
@@ -8970,7 +8970,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-repressive-hypothesis",
     "world": "philosophy",
-    "pool": "Foucault",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Foucault",
     "name": "Repressive Hypothesis",
     "hook": "What philosophical problem is Repressive Hypothesis trying to solve or expose?",
@@ -9008,7 +9008,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-derrida",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Derrida",
     "hook": "What philosophical problem is Derrida trying to solve or expose?",
@@ -9046,7 +9046,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-deconstruction",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Deconstruction",
     "hook": "What philosophical problem is Deconstruction trying to solve or expose?",
@@ -9084,7 +9084,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-differance",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Différance",
     "hook": "What philosophical problem is Différance trying to solve or expose?",
@@ -9122,7 +9122,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-trace",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Trace",
     "hook": "What philosophical problem is Trace trying to solve or expose?",
@@ -9160,7 +9160,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-supplement",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Supplement",
     "hook": "What philosophical problem is Supplement trying to solve or expose?",
@@ -9198,7 +9198,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-logocentrism",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Logocentrism",
     "hook": "What philosophical problem is Logocentrism trying to solve or expose?",
@@ -9236,7 +9236,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-metaphysics-of-presence",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Metaphysics of Presence",
     "hook": "What philosophical problem is Metaphysics of Presence trying to solve or expose?",
@@ -9274,7 +9274,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-iterability",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Iterability",
     "hook": "What philosophical problem is Iterability trying to solve or expose?",
@@ -9312,7 +9312,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-pharmakon",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Pharmakon",
     "hook": "What philosophical problem is Pharmakon trying to solve or expose?",
@@ -9350,7 +9350,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-writing-and-speech",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Writing and Speech",
     "hook": "What philosophical problem is Writing and Speech trying to solve or expose?",
@@ -9388,7 +9388,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-undecidability",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Undecidability",
     "hook": "What philosophical problem is Undecidability trying to solve or expose?",
@@ -9426,7 +9426,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-justice-and-deconstruction",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Justice and Deconstruction",
     "hook": "What philosophical problem is Justice and Deconstruction trying to solve or expose?",
@@ -9464,7 +9464,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-hospitality",
     "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Derrida & Deconstruction",
     "name": "Hospitality",
     "hook": "What philosophical problem is Hospitality trying to solve or expose?",
@@ -9502,7 +9502,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-deleuze",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Deleuze",
     "hook": "What philosophical problem is Deleuze trying to solve or expose?",
@@ -9540,7 +9540,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-difference-in-itself",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Difference in Itself",
     "hook": "What philosophical problem is Difference in Itself trying to solve or expose?",
@@ -9578,7 +9578,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-repetition",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Repetition",
     "hook": "What philosophical problem is Repetition trying to solve or expose?",
@@ -9616,7 +9616,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-virtual-and-actual",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Virtual and Actual",
     "hook": "What philosophical problem is Virtual and Actual trying to solve or expose?",
@@ -9654,7 +9654,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-becoming",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Becoming",
     "hook": "What philosophical problem is Becoming trying to solve or expose?",
@@ -9692,7 +9692,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-multiplicity",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Multiplicity",
     "hook": "What philosophical problem is Multiplicity trying to solve or expose?",
@@ -9730,7 +9730,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-rhizome",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Rhizome",
     "hook": "What philosophical problem is Rhizome trying to solve or expose?",
@@ -9768,7 +9768,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-assemblage",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Assemblage",
     "hook": "What philosophical problem is Assemblage trying to solve or expose?",
@@ -9806,7 +9806,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-deterritorialization",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Deterritorialization",
     "hook": "What philosophical problem is Deterritorialization trying to solve or expose?",
@@ -9844,7 +9844,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-reterritorialization",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Reterritorialization",
     "hook": "What philosophical problem is Reterritorialization trying to solve or expose?",
@@ -9882,7 +9882,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-guattari",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Guattari",
     "hook": "What philosophical problem is Guattari trying to solve or expose?",
@@ -9920,7 +9920,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-desiring-production",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Desiring-Production",
     "hook": "What philosophical problem is Desiring-Production trying to solve or expose?",
@@ -9958,7 +9958,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-body-without-organs",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Body without Organs",
     "hook": "What philosophical problem is Body without Organs trying to solve or expose?",
@@ -9996,7 +9996,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-anti-oedipus",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Anti-Oedipus",
     "hook": "What philosophical problem is Anti-Oedipus trying to solve or expose?",
@@ -10034,7 +10034,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-schizoanalysis",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Schizoanalysis",
     "hook": "What philosophical problem is Schizoanalysis trying to solve or expose?",
@@ -10072,7 +10072,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-smooth-and-striated-space",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Smooth and Striated Space",
     "hook": "What philosophical problem is Smooth and Striated Space trying to solve or expose?",
@@ -10110,7 +10110,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-minor-literature",
     "world": "philosophy",
-    "pool": "Deleuze & Guattari",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Deleuze & Guattari",
     "name": "Minor Literature",
     "hook": "What philosophical problem is Minor Literature trying to solve or expose?",
@@ -10148,7 +10148,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-freud",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Freud",
     "hook": "What philosophical problem is Freud trying to solve or expose?",
@@ -10186,7 +10186,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-unconscious",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "The Unconscious",
     "hook": "What philosophical problem is The Unconscious trying to solve or expose?",
@@ -10224,7 +10224,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-repression",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Repression",
     "hook": "What philosophical problem is Repression trying to solve or expose?",
@@ -10262,7 +10262,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-id-ego-and-superego",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Id, Ego and Superego",
     "hook": "What philosophical problem is Id, Ego and Superego trying to solve or expose?",
@@ -10300,7 +10300,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-pleasure-principle",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Pleasure Principle",
     "hook": "What philosophical problem is Pleasure Principle trying to solve or expose?",
@@ -10338,7 +10338,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-death-drive",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Death Drive",
     "hook": "What philosophical problem is Death Drive trying to solve or expose?",
@@ -10376,7 +10376,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dream-work",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Dream-Work",
     "hook": "What philosophical problem is Dream-Work trying to solve or expose?",
@@ -10414,7 +10414,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-oedipus-complex",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Oedipus Complex",
     "hook": "What philosophical problem is Oedipus Complex trying to solve or expose?",
@@ -10452,7 +10452,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-civilization-and-its-discontents",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Civilization and Its Discontents",
     "hook": "What philosophical problem is Civilization and Its Discontents trying to solve or expose?",
@@ -10490,7 +10490,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-lacan",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Lacan",
     "hook": "What philosophical problem is Lacan trying to solve or expose?",
@@ -10528,7 +10528,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-mirror-stage",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Mirror Stage",
     "hook": "What philosophical problem is Mirror Stage trying to solve or expose?",
@@ -10566,7 +10566,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-imaginary-symbolic-and-real",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Imaginary, Symbolic and Real",
     "hook": "What philosophical problem is Imaginary, Symbolic and Real trying to solve or expose?",
@@ -10604,7 +10604,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-big-other",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "The Big Other",
     "hook": "What philosophical problem is The Big Other trying to solve or expose?",
@@ -10642,7 +10642,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-desire-in-lacan",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Desire in Lacan",
     "hook": "What philosophical problem is Desire in Lacan trying to solve or expose?",
@@ -10680,7 +10680,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-lack",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Lack",
     "hook": "What philosophical problem is Lack trying to solve or expose?",
@@ -10718,7 +10718,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-objet-petit-a",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Objet Petit A",
     "hook": "What philosophical problem is Objet Petit A trying to solve or expose?",
@@ -10756,7 +10756,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-unconscious-is-structured-like-a-language",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "The Unconscious Is Structured Like a Language",
     "hook": "What philosophical problem is The Unconscious Is Structured Like a Language trying to solve or expose?",
@@ -10794,7 +10794,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-jouissance",
     "world": "philosophy",
-    "pool": "Psychoanalysis & Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Psychoanalysis & Continental Thought",
     "name": "Jouissance",
     "hook": "What philosophical problem is Jouissance trying to solve or expose?",
@@ -10832,7 +10832,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-buber",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Buber",
     "hook": "What philosophical problem is Buber trying to solve or expose?",
@@ -10870,7 +10870,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-i-thou",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "I–Thou",
     "hook": "What philosophical problem is I–Thou trying to solve or expose?",
@@ -10908,7 +10908,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-levinas",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Levinas",
     "hook": "What philosophical problem is Levinas trying to solve or expose?",
@@ -10946,7 +10946,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-face-of-the-other",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Face of the Other",
     "hook": "What philosophical problem is Face of the Other trying to solve or expose?",
@@ -10984,7 +10984,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ethics-as-first-philosophy",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Ethics as First Philosophy",
     "hook": "What philosophical problem is Ethics as First Philosophy trying to solve or expose?",
@@ -11022,7 +11022,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-infinite-responsibility",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Infinite Responsibility",
     "hook": "What philosophical problem is Infinite Responsibility trying to solve or expose?",
@@ -11060,7 +11060,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-totality-and-infinity",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Totality and Infinity",
     "hook": "What philosophical problem is Totality and Infinity trying to solve or expose?",
@@ -11098,7 +11098,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-otherwise-than-being",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Otherwise than Being",
     "hook": "What philosophical problem is Otherwise than Being trying to solve or expose?",
@@ -11136,7 +11136,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-derrida-on-hospitality",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Derrida on Hospitality",
     "hook": "What philosophical problem is Derrida on Hospitality trying to solve or expose?",
@@ -11174,7 +11174,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-gift-and-responsibility",
     "world": "philosophy",
-    "pool": "Ethics, Otherness & Responsibility",
+    "pool": "Existentialism",
     "topic": "Ethics, Otherness & Responsibility",
     "name": "Gift and Responsibility",
     "hook": "What philosophical problem is Gift and Responsibility trying to solve or expose?",
@@ -11212,7 +11212,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-hannah-arendt",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Hannah Arendt",
     "hook": "What philosophical problem is Hannah Arendt trying to solve or expose?",
@@ -11250,7 +11250,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-human-condition",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "The Human Condition",
     "hook": "What philosophical problem is The Human Condition trying to solve or expose?",
@@ -11288,7 +11288,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-labor-work-and-action",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Labor, Work and Action",
     "hook": "What philosophical problem is Labor, Work and Action trying to solve or expose?",
@@ -11326,7 +11326,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-public-realm",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Public Realm",
     "hook": "What philosophical problem is Public Realm trying to solve or expose?",
@@ -11364,7 +11364,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-natality",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Natality",
     "hook": "What philosophical problem is Natality trying to solve or expose?",
@@ -11402,7 +11402,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-plurality",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Plurality",
     "hook": "What philosophical problem is Plurality trying to solve or expose?",
@@ -11440,7 +11440,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-banality-of-evil",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Banality of Evil",
     "hook": "What philosophical problem is Banality of Evil trying to solve or expose?",
@@ -11478,7 +11478,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-origins-of-totalitarianism",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Origins of Totalitarianism",
     "hook": "What philosophical problem is Origins of Totalitarianism trying to solve or expose?",
@@ -11516,7 +11516,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-frantz-fanon",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Frantz Fanon",
     "hook": "What philosophical problem is Frantz Fanon trying to solve or expose?",
@@ -11554,7 +11554,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-black-skin-white-masks",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Black Skin, White Masks",
     "hook": "What philosophical problem is Black Skin, White Masks trying to solve or expose?",
@@ -11592,7 +11592,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-colonial-alienation",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Colonial Alienation",
     "hook": "What philosophical problem is Colonial Alienation trying to solve or expose?",
@@ -11630,7 +11630,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-the-wretched-of-the-earth",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "The Wretched of the Earth",
     "hook": "What philosophical problem is The Wretched of the Earth trying to solve or expose?",
@@ -11668,7 +11668,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-violence-in-fanon",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Violence in Fanon",
     "hook": "What philosophical problem is Violence in Fanon trying to solve or expose?",
@@ -11706,7 +11706,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-national-consciousness",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "National Consciousness",
     "hook": "What philosophical problem is National Consciousness trying to solve or expose?",
@@ -11744,7 +11744,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-aime-cesaire",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Aimé Césaire",
     "hook": "What philosophical problem is Aimé Césaire trying to solve or expose?",
@@ -11782,7 +11782,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-discourse-on-colonialism",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Discourse on Colonialism",
     "hook": "What philosophical problem is Discourse on Colonialism trying to solve or expose?",
@@ -11820,7 +11820,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-simone-weil",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Simone Weil",
     "hook": "What philosophical problem is Simone Weil trying to solve or expose?",
@@ -11858,7 +11858,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-rootedness",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Rootedness",
     "hook": "What philosophical problem is Rootedness trying to solve or expose?",
@@ -11896,7 +11896,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-power-and-force",
     "world": "philosophy",
-    "pool": "Politics, Colonialism & Emancipation",
+    "pool": "Marxism & Critical Theory",
     "topic": "Politics, Colonialism & Emancipation",
     "name": "Power and Force",
     "hook": "What philosophical problem is Power and Force trying to solve or expose?",
@@ -11934,7 +11934,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-kristeva",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Kristeva",
     "hook": "What philosophical problem is Kristeva trying to solve or expose?",
@@ -11972,7 +11972,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-abjection",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Abjection",
     "hook": "What philosophical problem is Abjection trying to solve or expose?",
@@ -12010,7 +12010,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-intertextuality",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Intertextuality",
     "hook": "What philosophical problem is Intertextuality trying to solve or expose?",
@@ -12048,7 +12048,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-irigaray",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Irigaray",
     "hook": "What philosophical problem is Irigaray trying to solve or expose?",
@@ -12086,7 +12086,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-sexual-difference",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Sexual Difference",
     "hook": "What philosophical problem is Sexual Difference trying to solve or expose?",
@@ -12124,7 +12124,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-butler",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Butler",
     "hook": "What philosophical problem is Butler trying to solve or expose?",
@@ -12162,7 +12162,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-gender-performativity",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Gender Performativity",
     "hook": "What philosophical problem is Gender Performativity trying to solve or expose?",
@@ -12200,7 +12200,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-performativity-vs-performance",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Performativity vs Performance",
     "hook": "What philosophical problem is Performativity vs Performance trying to solve or expose?",
@@ -12238,7 +12238,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-agamben",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Agamben",
     "hook": "What philosophical problem is Agamben trying to solve or expose?",
@@ -12276,7 +12276,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-bare-life",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Bare Life",
     "hook": "What philosophical problem is Bare Life trying to solve or expose?",
@@ -12314,7 +12314,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-state-of-exception",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "State of Exception",
     "hook": "What philosophical problem is State of Exception trying to solve or expose?",
@@ -12352,7 +12352,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-homo-sacer",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Homo Sacer",
     "hook": "What philosophical problem is Homo Sacer trying to solve or expose?",
@@ -12390,7 +12390,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ranciere",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Rancière",
     "hook": "What philosophical problem is Rancière trying to solve or expose?",
@@ -12428,7 +12428,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-distribution-of-the-sensible",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Distribution of the Sensible",
     "hook": "What philosophical problem is Distribution of the Sensible trying to solve or expose?",
@@ -12466,7 +12466,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-dissensus",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Dissensus",
     "hook": "What philosophical problem is Dissensus trying to solve or expose?",
@@ -12504,7 +12504,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-zizek",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Žižek",
     "hook": "What philosophical problem is Žižek trying to solve or expose?",
@@ -12542,7 +12542,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-ideology-and-cynicism",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Ideology and Cynicism",
     "hook": "What philosophical problem is Ideology and Cynicism trying to solve or expose?",
@@ -12580,7 +12580,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-sublime-object-of-ideology",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Sublime Object of Ideology",
     "hook": "What philosophical problem is Sublime Object of Ideology trying to solve or expose?",
@@ -12618,7 +12618,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-badiou",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Badiou",
     "hook": "What philosophical problem is Badiou trying to solve or expose?",
@@ -12656,7 +12656,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-event-in-badiou",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Event in Badiou",
     "hook": "What philosophical problem is Event in Badiou trying to solve or expose?",
@@ -12694,7 +12694,7 @@ export const continentalPhilosophyConcepts = [
   {
     "id": "cp-truth-procedure",
     "world": "philosophy",
-    "pool": "Later Continental Thought",
+    "pool": "Structuralism & Post-Structuralism",
     "topic": "Later Continental Thought",
     "name": "Truth Procedure",
     "hook": "What philosophical problem is Truth Procedure trying to solve or expose?",
