@@ -8070,7 +8070,7 @@ export const modernEuropeanHistoryConcepts = [
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "2008 Russia–Georgia War belongs to the history of how unresolved post-Cold-War security questions, Russian policy, Ukrainian political change and Euro-Atlantic institutions shaped today's European security crisis. The important historical question is not just what happened, but which institutions, interests and pressures produced it and what changed afterward.",
+    "reveal": "The August 2008 war followed years of unresolved conflict over South Ossetia and Abkhazia and rapidly worsening Russia–Georgia relations. Georgia's attack on Tskhinvali triggered large-scale Russian military intervention; Russian forces then operated well beyond South Ossetia. An EU-mediated six-point agreement ended the main fighting, and Russia later recognized Abkhazia and South Ossetia as independent.",
     "examples": [
       [
         "Before",
@@ -8086,7 +8086,7 @@ export const modernEuropeanHistoryConcepts = [
       ]
     ],
     "why": "2008 Russia–Georgia War helps explain how unresolved post-Cold-War security questions, Russian policy, Ukrainian political change and Euro-Atlantic institutions shaped today's European security crisis.",
-    "caveat": "Historical causation is rarely monocausal. This card emphasizes a major connection without implying that one event or actor alone determined later outcomes.",
+    "caveat": "Responsibility for the escalation and legality of particular actions remain heavily contested. The EU-sponsored fact-finding process treated the conflict as a sequence with responsibilities and violations that cannot be reduced to a single simple narrative.",
     "related": [
       "meh-euromaidan",
       "meh-annexation-of-crimea-2014",
@@ -8661,6 +8661,728 @@ export const modernEuropeanHistoryConcepts = [
       "meh-post-cold-war-security-order",
       "meh-nato-russia-relations",
       "meh-budapest-memorandum"
+    ]
+  },
+  {
+    "id": "meh-yeltsin-and-the-west",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Yeltsin and the West",
+    "hook": "Why is Yeltsin and the West important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Yeltsin and the West?",
+    "options": [
+      "Boris Yeltsin's Russia pursued cooperation with Western governments and institutions while also resisting aspects of the emerging post-Cold-War order. The relationship mixed economic and diplomatic integration with disputes over NATO enlargement, the Balkans and Russia's domestic instability.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Boris Yeltsin's Russia pursued cooperation with Western governments and institutions while also resisting aspects of the emerging post-Cold-War order. The relationship mixed economic and diplomatic integration with disputes over NATO enlargement, the Balkans and Russia's domestic instability.",
+    "examples": [
+      [
+        "Before",
+        "Place Yeltsin and the West in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Yeltsin and the West."
+      ],
+      [
+        "Connection",
+        "Trace how Yeltsin and the West helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Yeltsin and the West matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-first-chechen-war",
+      "meh-khasavyurt-accord",
+      "meh-second-chechen-war"
+    ]
+  },
+  {
+    "id": "meh-first-chechen-war",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "First Chechen War",
+    "hook": "Why is First Chechen War important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures First Chechen War?",
+    "options": [
+      "From 1994 to 1996, Russian federal forces fought separatist forces in Chechnya after Moscow attempted to restore federal control. The war devastated Grozny, caused very large civilian losses and ended with Russian withdrawal and unresolved status for Chechnya.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "From 1994 to 1996, Russian federal forces fought separatist forces in Chechnya after Moscow attempted to restore federal control. The war devastated Grozny, caused very large civilian losses and ended with Russian withdrawal and unresolved status for Chechnya.",
+    "examples": [
+      [
+        "Before",
+        "Place First Chechen War in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after First Chechen War."
+      ],
+      [
+        "Connection",
+        "Trace how First Chechen War helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "First Chechen War matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-khasavyurt-accord",
+      "meh-second-chechen-war",
+      "meh-grozny-1999-2000"
+    ]
+  },
+  {
+    "id": "meh-khasavyurt-accord",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Khasavyurt Accord",
+    "hook": "Why is Khasavyurt Accord important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Khasavyurt Accord?",
+    "options": [
+      "The 1996 Khasavyurt Accord ended major fighting in the First Chechen War and postponed a final decision on Chechnya's political status. It produced a fragile peace rather than a durable settlement.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The 1996 Khasavyurt Accord ended major fighting in the First Chechen War and postponed a final decision on Chechnya's political status. It produced a fragile peace rather than a durable settlement.",
+    "examples": [
+      [
+        "Before",
+        "Place Khasavyurt Accord in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Khasavyurt Accord."
+      ],
+      [
+        "Connection",
+        "Trace how Khasavyurt Accord helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Khasavyurt Accord matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-second-chechen-war",
+      "meh-grozny-1999-2000",
+      "meh-putin-s-rise-1999-2000"
+    ]
+  },
+  {
+    "id": "meh-second-chechen-war",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Second Chechen War",
+    "hook": "Why is Second Chechen War important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Second Chechen War?",
+    "options": [
+      "War resumed in 1999 after armed incursions from Chechnya into Dagestan and a wider security crisis in Russia. Federal forces re-established control over Chechnya, and Moscow later transferred substantial local authority to a loyal Chechen leadership.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "War resumed in 1999 after armed incursions from Chechnya into Dagestan and a wider security crisis in Russia. Federal forces re-established control over Chechnya, and Moscow later transferred substantial local authority to a loyal Chechen leadership.",
+    "examples": [
+      [
+        "Before",
+        "Place Second Chechen War in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Second Chechen War."
+      ],
+      [
+        "Connection",
+        "Trace how Second Chechen War helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Second Chechen War matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-grozny-1999-2000",
+      "meh-putin-s-rise-1999-2000",
+      "meh-putin-s-early-western-outreach"
+    ]
+  },
+  {
+    "id": "meh-grozny-1999-2000",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Grozny 1999–2000",
+    "hook": "Why is Grozny 1999–2000 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Grozny 1999–2000?",
+    "options": [
+      "The battle for Grozny during the Second Chechen War involved intense bombardment and urban combat. The destruction of the city became emblematic of the scale and brutality of the conflict.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The battle for Grozny during the Second Chechen War involved intense bombardment and urban combat. The destruction of the city became emblematic of the scale and brutality of the conflict.",
+    "examples": [
+      [
+        "Before",
+        "Place Grozny 1999–2000 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Grozny 1999–2000."
+      ],
+      [
+        "Connection",
+        "Trace how Grozny 1999–2000 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Grozny 1999–2000 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-putin-s-rise-1999-2000",
+      "meh-putin-s-early-western-outreach",
+      "meh-post-9-11-russia-west-cooperation"
+    ]
+  },
+  {
+    "id": "meh-putin-s-rise-1999-2000",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Putin's Rise 1999–2000",
+    "hook": "Why is Putin's Rise 1999–2000 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Putin's Rise 1999–2000?",
+    "options": [
+      "Vladimir Putin rose from prime minister in 1999 to acting president and then elected president in 2000. The renewed Chechen war, promises to restore state authority and the consolidation of federal power formed part of the political context of his ascent.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Vladimir Putin rose from prime minister in 1999 to acting president and then elected president in 2000. The renewed Chechen war, promises to restore state authority and the consolidation of federal power formed part of the political context of his ascent.",
+    "examples": [
+      [
+        "Before",
+        "Place Putin's Rise 1999–2000 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Putin's Rise 1999–2000."
+      ],
+      [
+        "Connection",
+        "Trace how Putin's Rise 1999–2000 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Putin's Rise 1999–2000 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-putin-s-early-western-outreach",
+      "meh-post-9-11-russia-west-cooperation",
+      "meh-nato-russia-council-2002"
+    ]
+  },
+  {
+    "id": "meh-putin-s-early-western-outreach",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Putin's Early Western Outreach",
+    "hook": "Why is Putin's Early Western Outreach important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Putin's Early Western Outreach?",
+    "options": [
+      "During Putin's early presidency, Russia sought pragmatic cooperation with the United States and European states even while important disagreements remained. The period is essential for understanding that later confrontation was preceded by a genuine phase of engagement.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "During Putin's early presidency, Russia sought pragmatic cooperation with the United States and European states even while important disagreements remained. The period is essential for understanding that later confrontation was preceded by a genuine phase of engagement.",
+    "examples": [
+      [
+        "Before",
+        "Place Putin's Early Western Outreach in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Putin's Early Western Outreach."
+      ],
+      [
+        "Connection",
+        "Trace how Putin's Early Western Outreach helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Putin's Early Western Outreach matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-post-9-11-russia-west-cooperation",
+      "meh-nato-russia-council-2002",
+      "meh-iraq-war-and-russia-west-tensions"
+    ]
+  },
+  {
+    "id": "meh-post-9-11-russia-west-cooperation",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Post-9/11 Russia–West Cooperation",
+    "hook": "Why is Post-9/11 Russia–West Cooperation important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Post-9/11 Russia–West Cooperation?",
+    "options": [
+      "After the 11 September 2001 attacks, Russia supported the U.S.-led campaign against al-Qaeda, shared intelligence and accepted a larger Western security presence in Central Asia. NATO officials at the time described the relationship as entering a markedly more cooperative phase.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "After the 11 September 2001 attacks, Russia supported the U.S.-led campaign against al-Qaeda, shared intelligence and accepted a larger Western security presence in Central Asia. NATO officials at the time described the relationship as entering a markedly more cooperative phase.",
+    "examples": [
+      [
+        "Before",
+        "Place Post-9/11 Russia–West Cooperation in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Post-9/11 Russia–West Cooperation."
+      ],
+      [
+        "Connection",
+        "Trace how Post-9/11 Russia–West Cooperation helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Post-9/11 Russia–West Cooperation matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-nato-russia-council-2002",
+      "meh-iraq-war-and-russia-west-tensions",
+      "meh-colour-revolutions-and-kremlin-alarm"
+    ]
+  },
+  {
+    "id": "meh-nato-russia-council-2002",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "NATO–Russia Council 2002",
+    "hook": "Why is NATO–Russia Council 2002 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures NATO–Russia Council 2002?",
+    "options": [
+      "Created in 2002, the NATO–Russia Council gave Russia and NATO members a new forum for consultation and cooperation on issues including terrorism, arms control and military contacts. It represented the high point of institutionalized post-Cold-War security cooperation.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Created in 2002, the NATO–Russia Council gave Russia and NATO members a new forum for consultation and cooperation on issues including terrorism, arms control and military contacts. It represented the high point of institutionalized post-Cold-War security cooperation.",
+    "examples": [
+      [
+        "Before",
+        "Place NATO–Russia Council 2002 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after NATO–Russia Council 2002."
+      ],
+      [
+        "Connection",
+        "Trace how NATO–Russia Council 2002 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "NATO–Russia Council 2002 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-iraq-war-and-russia-west-tensions",
+      "meh-colour-revolutions-and-kremlin-alarm",
+      "meh-munich-security-conference-speech-2007"
+    ]
+  },
+  {
+    "id": "meh-iraq-war-and-russia-west-tensions",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Iraq War and Russia–West Tensions",
+    "hook": "Why is Iraq War and Russia–West Tensions important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Iraq War and Russia–West Tensions?",
+    "options": [
+      "Russia opposed the 2003 U.S.-led invasion of Iraq, joining France and Germany in resisting the war at the UN Security Council. The dispute did not end Russia–West cooperation, but it reinforced disagreements over American power and the rules of international intervention.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Russia opposed the 2003 U.S.-led invasion of Iraq, joining France and Germany in resisting the war at the UN Security Council. The dispute did not end Russia–West cooperation, but it reinforced disagreements over American power and the rules of international intervention.",
+    "examples": [
+      [
+        "Before",
+        "Place Iraq War and Russia–West Tensions in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Iraq War and Russia–West Tensions."
+      ],
+      [
+        "Connection",
+        "Trace how Iraq War and Russia–West Tensions helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Iraq War and Russia–West Tensions matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-colour-revolutions-and-kremlin-alarm",
+      "meh-munich-security-conference-speech-2007",
+      "meh-bucharest-nato-summit-2008"
+    ]
+  },
+  {
+    "id": "meh-colour-revolutions-and-kremlin-alarm",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Colour Revolutions and Kremlin Alarm",
+    "hook": "Why is Colour Revolutions and Kremlin Alarm important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Colour Revolutions and Kremlin Alarm?",
+    "options": [
+      "The Rose Revolution in Georgia, Orange Revolution in Ukraine and other post-Soviet protest movements were welcomed by many Western governments but increasingly interpreted by the Kremlin as Western-backed challenges to Russian influence and regime security.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The Rose Revolution in Georgia, Orange Revolution in Ukraine and other post-Soviet protest movements were welcomed by many Western governments but increasingly interpreted by the Kremlin as Western-backed challenges to Russian influence and regime security.",
+    "examples": [
+      [
+        "Before",
+        "Place Colour Revolutions and Kremlin Alarm in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Colour Revolutions and Kremlin Alarm."
+      ],
+      [
+        "Connection",
+        "Trace how Colour Revolutions and Kremlin Alarm helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Colour Revolutions and Kremlin Alarm matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-munich-security-conference-speech-2007",
+      "meh-bucharest-nato-summit-2008",
+      "meh-august-2008-russo-georgian-war"
+    ]
+  },
+  {
+    "id": "meh-munich-security-conference-speech-2007",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Munich Security Conference Speech 2007",
+    "hook": "Why is Munich Security Conference Speech 2007 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Munich Security Conference Speech 2007?",
+    "options": [
+      "In his 2007 Munich speech, Putin sharply criticized what he described as a unipolar international order, U.S. power, NATO enlargement and missile-defence plans. The speech is widely treated as an important public marker of Russia's growing dissatisfaction with the post-Cold-War European security order.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "In his 2007 Munich speech, Putin sharply criticized what he described as a unipolar international order, U.S. power, NATO enlargement and missile-defence plans. The speech is widely treated as an important public marker of Russia's growing dissatisfaction with the post-Cold-War European security order.",
+    "examples": [
+      [
+        "Before",
+        "Place Munich Security Conference Speech 2007 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Munich Security Conference Speech 2007."
+      ],
+      [
+        "Connection",
+        "Trace how Munich Security Conference Speech 2007 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Munich Security Conference Speech 2007 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-bucharest-nato-summit-2008",
+      "meh-august-2008-russo-georgian-war",
+      "meh-recognition-of-abkhazia-and-south-ossetia"
+    ]
+  },
+  {
+    "id": "meh-bucharest-nato-summit-2008",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Bucharest NATO Summit 2008",
+    "hook": "Why is Bucharest NATO Summit 2008 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Bucharest NATO Summit 2008?",
+    "options": [
+      "At Bucharest in April 2008, NATO declared that Ukraine and Georgia 'will become members' but did not grant them Membership Action Plans. The compromise became a major reference point in later arguments over NATO enlargement, deterrence and Russian security perceptions.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "At Bucharest in April 2008, NATO declared that Ukraine and Georgia 'will become members' but did not grant them Membership Action Plans. The compromise became a major reference point in later arguments over NATO enlargement, deterrence and Russian security perceptions.",
+    "examples": [
+      [
+        "Before",
+        "Place Bucharest NATO Summit 2008 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Bucharest NATO Summit 2008."
+      ],
+      [
+        "Connection",
+        "Trace how Bucharest NATO Summit 2008 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Bucharest NATO Summit 2008 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-august-2008-russo-georgian-war",
+      "meh-recognition-of-abkhazia-and-south-ossetia",
+      "meh-medvedev-obama-reset"
+    ]
+  },
+  {
+    "id": "meh-august-2008-russo-georgian-war",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "August 2008 Russo-Georgian War",
+    "hook": "Why is August 2008 Russo-Georgian War important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures August 2008 Russo-Georgian War?",
+    "options": [
+      "After escalating tensions around South Ossetia and Abkhazia, war broke out between Georgia and Russia in August 2008. The conflict ended with an EU-mediated ceasefire and became a major warning that unresolved post-Soviet borders and security alignments could produce interstate war.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "After escalating tensions around South Ossetia and Abkhazia, war broke out between Georgia and Russia in August 2008. The conflict ended with an EU-mediated ceasefire and became a major warning that unresolved post-Soviet borders and security alignments could produce interstate war.",
+    "examples": [
+      [
+        "Before",
+        "Place August 2008 Russo-Georgian War in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after August 2008 Russo-Georgian War."
+      ],
+      [
+        "Connection",
+        "Trace how August 2008 Russo-Georgian War helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "August 2008 Russo-Georgian War matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-recognition-of-abkhazia-and-south-ossetia",
+      "meh-medvedev-obama-reset",
+      "meh-lisbon-nato-russia-cooperation-2010"
+    ]
+  },
+  {
+    "id": "meh-recognition-of-abkhazia-and-south-ossetia",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Recognition of Abkhazia and South Ossetia",
+    "hook": "Why is Recognition of Abkhazia and South Ossetia important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Recognition of Abkhazia and South Ossetia?",
+    "options": [
+      "After the 2008 war, Russia recognized Abkhazia and South Ossetia as independent states. Georgia and most of the international community continued to regard them as parts of Georgia, deepening the rupture between Russia and Western governments.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "After the 2008 war, Russia recognized Abkhazia and South Ossetia as independent states. Georgia and most of the international community continued to regard them as parts of Georgia, deepening the rupture between Russia and Western governments.",
+    "examples": [
+      [
+        "Before",
+        "Place Recognition of Abkhazia and South Ossetia in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Recognition of Abkhazia and South Ossetia."
+      ],
+      [
+        "Connection",
+        "Trace how Recognition of Abkhazia and South Ossetia helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Recognition of Abkhazia and South Ossetia matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-medvedev-obama-reset",
+      "meh-lisbon-nato-russia-cooperation-2010",
+      "meh-putin-s-return-and-renewed-tension-2012"
+    ]
+  },
+  {
+    "id": "meh-medvedev-obama-reset",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Medvedev–Obama Reset",
+    "hook": "Why is Medvedev–Obama Reset important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Medvedev–Obama Reset?",
+    "options": [
+      "From 2009, the United States and Russia attempted a limited 'reset' focused on practical cooperation, including arms control, Afghanistan and sanctions on Iran. The episode shows that deterioration after 2008 was not yet seen as irreversible.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "From 2009, the United States and Russia attempted a limited 'reset' focused on practical cooperation, including arms control, Afghanistan and sanctions on Iran. The episode shows that deterioration after 2008 was not yet seen as irreversible.",
+    "examples": [
+      [
+        "Before",
+        "Place Medvedev–Obama Reset in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Medvedev–Obama Reset."
+      ],
+      [
+        "Connection",
+        "Trace how Medvedev–Obama Reset helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Medvedev–Obama Reset matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-lisbon-nato-russia-cooperation-2010",
+      "meh-putin-s-return-and-renewed-tension-2012",
+      "meh-from-partnership-to-confrontation"
+    ]
+  },
+  {
+    "id": "meh-lisbon-nato-russia-cooperation-2010",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Lisbon NATO–Russia Cooperation 2010",
+    "hook": "Why is Lisbon NATO–Russia Cooperation 2010 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Lisbon NATO–Russia Cooperation 2010?",
+    "options": [
+      "At the 2010 Lisbon summit, NATO and Russia still pursued cooperation and discussed a possible strategic partnership, even after the Georgia war. This illustrates how the relationship oscillated between rivalry and renewed engagement before the later breakdown.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "At the 2010 Lisbon summit, NATO and Russia still pursued cooperation and discussed a possible strategic partnership, even after the Georgia war. This illustrates how the relationship oscillated between rivalry and renewed engagement before the later breakdown.",
+    "examples": [
+      [
+        "Before",
+        "Place Lisbon NATO–Russia Cooperation 2010 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Lisbon NATO–Russia Cooperation 2010."
+      ],
+      [
+        "Connection",
+        "Trace how Lisbon NATO–Russia Cooperation 2010 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Lisbon NATO–Russia Cooperation 2010 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-putin-s-return-and-renewed-tension-2012",
+      "meh-from-partnership-to-confrontation",
+      "meh-yeltsin-and-the-west"
+    ]
+  },
+  {
+    "id": "meh-putin-s-return-and-renewed-tension-2012",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "Putin's Return and Renewed Tension 2012",
+    "hook": "Why is Putin's Return and Renewed Tension 2012 important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures Putin's Return and Renewed Tension 2012?",
+    "options": [
+      "Putin's return to the presidency in 2012 coincided with growing mistrust over domestic protests, missile defence, NATO policy, Libya, Syria and competing visions of the post-Soviet space. Relations increasingly shifted from managed disagreement toward systemic confrontation.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "Putin's return to the presidency in 2012 coincided with growing mistrust over domestic protests, missile defence, NATO policy, Libya, Syria and competing visions of the post-Soviet space. Relations increasingly shifted from managed disagreement toward systemic confrontation.",
+    "examples": [
+      [
+        "Before",
+        "Place Putin's Return and Renewed Tension 2012 in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after Putin's Return and Renewed Tension 2012."
+      ],
+      [
+        "Connection",
+        "Trace how Putin's Return and Renewed Tension 2012 helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "Putin's Return and Renewed Tension 2012 matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-from-partnership-to-confrontation",
+      "meh-yeltsin-and-the-west",
+      "meh-first-chechen-war"
+    ]
+  },
+  {
+    "id": "meh-from-partnership-to-confrontation",
+    "world": "modern-europe",
+    "pool": "Russia & the West, 1990s–2010s",
+    "topic": "Russia & the West, 1990s–2010s",
+    "name": "From Partnership to Confrontation",
+    "hook": "Why is From Partnership to Confrontation important for understanding the breakdown of the post-Cold-War European security order?",
+    "question": "Which framing best captures From Partnership to Confrontation?",
+    "options": [
+      "The post-Cold-War Russia–West relationship did not deteriorate in one step. It moved through cycles of cooperation and conflict, with NATO enlargement, Kosovo, Chechnya, colour revolutions, missile defence, Georgia and domestic political change all contributing to a widening security and political divide before the 2014 Ukraine crisis.",
+      "It had little connection to wider European security and did not shape later Russia–West relations.",
+      "It marked a complete and immediate end to all cooperation between Russia and Western states.",
+      "I don’t know"
+    ],
+    "answer": 0,
+    "reveal": "The post-Cold-War Russia–West relationship did not deteriorate in one step. It moved through cycles of cooperation and conflict, with NATO enlargement, Kosovo, Chechnya, colour revolutions, missile defence, Georgia and domestic political change all contributing to a widening security and political divide before the 2014 Ukraine crisis.",
+    "examples": [
+      [
+        "Before",
+        "Place From Partnership to Confrontation in the sequence of cooperation and disagreement that came before it."
+      ],
+      [
+        "Turning point",
+        "Identify what changed in Russian, European or NATO expectations after From Partnership to Confrontation."
+      ],
+      [
+        "Connection",
+        "Trace how From Partnership to Confrontation helps explain later disputes over Georgia, Ukraine, NATO or the post-Soviet space."
+      ]
+    ],
+    "why": "From Partnership to Confrontation matters because today's confrontation emerged through a sequence of earlier choices, conflicts and failed or partial attempts at cooperation.",
+    "caveat": "The causes of Russia–West deterioration are contested. This card separates documented events from competing interpretations of responsibility and motive.",
+    "related": [
+      "meh-yeltsin-and-the-west",
+      "meh-first-chechen-war",
+      "meh-khasavyurt-accord"
     ]
   }
 ];
