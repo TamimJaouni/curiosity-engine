@@ -1394,7 +1394,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-disclosure",
       "psy-rejection-sensitivity",
-      "psy-mere-proximity"
+      "psy-reciprocal-liking"
     ]
   },
   {
@@ -1430,8 +1430,8 @@ export const psychologyConcepts = [
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
       "psy-rejection-sensitivity",
-      "psy-mere-proximity",
-      "psy-propinquity"
+      "psy-reciprocal-liking",
+      "psy-attachment-secure"
     ]
   },
   {
@@ -1466,9 +1466,9 @@ export const psychologyConcepts = [
     "why": "Expectations can shape interpretation and behavior in relationships.",
     "caveat": "Effects vary across people, tasks, cultures and study designs; this card is a compact introduction, not a universal rule.",
     "related": [
-      "psy-mere-proximity",
-      "psy-propinquity",
-      "psy-matching-hypothesis"
+      "psy-reciprocal-liking",
+      "psy-attachment-secure",
+      "psy-attachment-anxious"
     ]
   },
   {
@@ -2217,7 +2217,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-schema",
       "psy-self-awareness",
-      "psy-private-self-consciousness"
+      "psy-self-discrepancy"
     ]
   },
   {
@@ -2253,8 +2253,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-self-awareness",
-      "psy-private-self-consciousness",
-      "psy-public-self-consciousness"
+      "psy-self-discrepancy",
+      "psy-possible-selves"
     ]
   },
   {
@@ -2287,80 +2287,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Self-Awareness adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-private-self-consciousness",
-      "psy-public-self-consciousness",
-      "psy-self-discrepancy"
-    ]
-  },
-  {
-    "id": "psy-private-self-consciousness",
-    "world": "psychology",
-    "name": "Private Self-Consciousness",
-    "pool": "Consciousness & Self",
-    "hook": "Which situation is most relevant to Private Self-Consciousness?",
-    "question": "Which statement best introduces Private Self-Consciousness?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to consciousness & self.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Private Self-Consciousness belongs to consciousness & self. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which private self-consciousness could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating private self-consciousness as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of private self-consciousness needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Private Self-Consciousness adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-public-self-consciousness",
-      "psy-self-discrepancy",
-      "psy-possible-selves"
-    ]
-  },
-  {
-    "id": "psy-public-self-consciousness",
-    "world": "psychology",
-    "name": "Public Self-Consciousness",
-    "pool": "Consciousness & Self",
-    "hook": "Where might Public Self-Consciousness show up most clearly?",
-    "question": "Which statement best introduces Public Self-Consciousness?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in consciousness & self.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Public Self-Consciousness belongs to consciousness & self. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which public self-consciousness could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating public self-consciousness as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of public self-consciousness needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Public Self-Consciousness adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-self-discrepancy",
@@ -2587,7 +2513,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-body-ownership",
       "psy-rubber-hand",
-      "psy-minimal-self"
+      "psy-mind-wandering"
     ]
   },
   {
@@ -2623,8 +2549,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-rubber-hand",
-      "psy-minimal-self",
-      "psy-autobiographical-self"
+      "psy-mind-wandering",
+      "psy-default-mode"
     ]
   },
   {
@@ -2657,80 +2583,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Rubber Hand Illusion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-minimal-self",
-      "psy-autobiographical-self",
-      "psy-mind-wandering"
-    ]
-  },
-  {
-    "id": "psy-minimal-self",
-    "world": "psychology",
-    "name": "Minimal Self",
-    "pool": "Consciousness & Self",
-    "hook": "What is the central idea behind Minimal Self?",
-    "question": "Which statement best introduces Minimal Self?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within consciousness & self.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Minimal Self belongs to consciousness & self. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which minimal self could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating minimal self as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of minimal self needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Minimal Self adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-autobiographical-self",
-      "psy-mind-wandering",
-      "psy-default-mode"
-    ]
-  },
-  {
-    "id": "psy-autobiographical-self",
-    "world": "psychology",
-    "name": "Autobiographical Self",
-    "pool": "Consciousness & Self",
-    "hook": "Why do psychologists study Autobiographical Self?",
-    "question": "Which statement best introduces Autobiographical Self?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about consciousness & self.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Autobiographical Self belongs to consciousness & self. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which autobiographical self could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating autobiographical self as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of autobiographical self needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Autobiographical Self adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-mind-wandering",
@@ -2920,7 +2772,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-lucid-dreaming",
       "psy-dreaming",
-      "psy-altered-consciousness"
+      "psy-blindsight"
     ]
   },
   {
@@ -2956,8 +2808,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-dreaming",
-      "psy-altered-consciousness",
-      "psy-blindsight"
+      "psy-blindsight",
+      "psy-split-brain"
     ]
   },
   {
@@ -2990,43 +2842,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Dreaming adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-altered-consciousness",
-      "psy-blindsight",
-      "psy-split-brain"
-    ]
-  },
-  {
-    "id": "psy-altered-consciousness",
-    "world": "psychology",
-    "name": "Altered States of Consciousness",
-    "pool": "Consciousness & Self",
-    "hook": "Why do psychologists study Altered States of Consciousness?",
-    "question": "Which statement best introduces Altered States of Consciousness?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about consciousness & self.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Altered States of Consciousness belongs to consciousness & self. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which altered states of consciousness could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating altered states of consciousness as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of altered states of consciousness needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Altered States of Consciousness adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-blindsight",
@@ -3253,7 +3068,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-certainty-effect",
       "psy-omission-bias",
-      "psy-commission-bias"
+      "psy-outcome-bias"
     ]
   },
   {
@@ -3289,8 +3104,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-omission-bias",
-      "psy-commission-bias",
-      "psy-normalcy-bias"
+      "psy-outcome-bias",
+      "psy-survivorship-bias"
     ]
   },
   {
@@ -3323,80 +3138,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Omission Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-commission-bias",
-      "psy-normalcy-bias",
-      "psy-outcome-bias"
-    ]
-  },
-  {
-    "id": "psy-commission-bias",
-    "world": "psychology",
-    "name": "Commission Bias",
-    "pool": "Judgment & Decision-making",
-    "hook": "Why do psychologists study Commission Bias?",
-    "question": "Which statement best introduces Commission Bias?",
-    "options": [
-      "It helps organize evidence about judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Commission Bias belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which commission bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating commission bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of commission bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Commission Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-normalcy-bias",
-      "psy-outcome-bias",
-      "psy-survivorship-bias"
-    ]
-  },
-  {
-    "id": "psy-normalcy-bias",
-    "world": "psychology",
-    "name": "Normalcy Bias",
-    "pool": "Judgment & Decision-making",
-    "hook": "Which situation is most relevant to Normalcy Bias?",
-    "question": "Which statement best introduces Normalcy Bias?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to judgment & decision-making.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Normalcy Bias belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which normalcy bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating normalcy bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of normalcy bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Normalcy Bias adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-outcome-bias",
@@ -3438,7 +3179,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-survivorship-bias",
       "psy-selection-bias",
-      "psy-confirmation-search"
+      "psy-belief-bias"
     ]
   },
   {
@@ -3474,8 +3215,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-selection-bias",
-      "psy-confirmation-search",
-      "psy-belief-bias"
+      "psy-belief-bias",
+      "psy-myside-bias"
     ]
   },
   {
@@ -3510,46 +3251,9 @@ export const psychologyConcepts = [
     "why": "Selection Bias adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-confirmation-search",
-      "psy-belief-bias",
-      "psy-myside-bias"
-    ]
-  },
-  {
-    "id": "psy-confirmation-search",
-    "world": "psychology",
-    "name": "Positive Test Strategy",
-    "pool": "Judgment & Decision-making",
-    "hook": "Which situation is most relevant to Positive Test Strategy?",
-    "question": "Which statement best introduces Positive Test Strategy?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to judgment & decision-making.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Positive Test Strategy belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which positive test strategy could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating positive test strategy as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of positive test strategy needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Positive Test Strategy adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-belief-bias",
       "psy-myside-bias",
-      "psy-attribute-substitution"
+      "psy-affect-forecasting"
     ]
   },
   {
@@ -3585,8 +3289,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-myside-bias",
-      "psy-attribute-substitution",
-      "psy-recognition-heuristic"
+      "psy-affect-forecasting",
+      "psy-impact-bias"
     ]
   },
   {
@@ -3621,83 +3325,9 @@ export const psychologyConcepts = [
     "why": "Myside Bias adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-attribute-substitution",
-      "psy-recognition-heuristic",
-      "psy-affect-forecasting"
-    ]
-  },
-  {
-    "id": "psy-attribute-substitution",
-    "world": "psychology",
-    "name": "Attribute Substitution",
-    "pool": "Judgment & Decision-making",
-    "hook": "Why do psychologists study Attribute Substitution?",
-    "question": "Which statement best introduces Attribute Substitution?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about judgment & decision-making.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Attribute Substitution belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which attribute substitution could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating attribute substitution as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of attribute substitution needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Attribute Substitution adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-recognition-heuristic",
-      "psy-affect-forecasting",
-      "psy-impact-bias"
-    ]
-  },
-  {
-    "id": "psy-recognition-heuristic",
-    "world": "psychology",
-    "name": "Recognition Heuristic",
-    "pool": "Judgment & Decision-making",
-    "hook": "Which situation is most relevant to Recognition Heuristic?",
-    "question": "Which statement best introduces Recognition Heuristic?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Recognition Heuristic belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which recognition heuristic could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating recognition heuristic as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of recognition heuristic needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Recognition Heuristic adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-affect-forecasting",
       "psy-impact-bias",
-      "psy-focalism"
+      "psy-duration-neglect"
     ]
   },
   {
@@ -3733,8 +3363,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-impact-bias",
-      "psy-focalism",
-      "psy-duration-neglect"
+      "psy-duration-neglect",
+      "psy-probability-weighting"
     ]
   },
   {
@@ -3769,46 +3399,9 @@ export const psychologyConcepts = [
     "why": "Impact Bias adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-focalism",
       "psy-duration-neglect",
-      "psy-scope-insensitivity"
-    ]
-  },
-  {
-    "id": "psy-focalism",
-    "world": "psychology",
-    "name": "Focalism",
-    "pool": "Judgment & Decision-making",
-    "hook": "Why do psychologists study Focalism?",
-    "question": "Which statement best introduces Focalism?",
-    "options": [
-      "It helps organize evidence about judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Focalism belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which focalism could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating focalism as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of focalism needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Focalism adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-duration-neglect",
-      "psy-scope-insensitivity",
-      "psy-zero-risk"
+      "psy-probability-weighting",
+      "psy-compromise-effect"
     ]
   },
   {
@@ -3843,83 +3436,9 @@ export const psychologyConcepts = [
     "why": "Duration Neglect adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-scope-insensitivity",
-      "psy-zero-risk",
-      "psy-probability-weighting"
-    ]
-  },
-  {
-    "id": "psy-scope-insensitivity",
-    "world": "psychology",
-    "name": "Scope Insensitivity",
-    "pool": "Judgment & Decision-making",
-    "hook": "Where might Scope Insensitivity show up most clearly?",
-    "question": "Which statement best introduces Scope Insensitivity?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in judgment & decision-making.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Scope Insensitivity belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which scope insensitivity could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating scope insensitivity as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of scope insensitivity needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Scope Insensitivity adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-zero-risk",
       "psy-probability-weighting",
-      "psy-denominator-neglect"
-    ]
-  },
-  {
-    "id": "psy-zero-risk",
-    "world": "psychology",
-    "name": "Zero-Risk Bias",
-    "pool": "Judgment & Decision-making",
-    "hook": "What is the central idea behind Zero-Risk Bias?",
-    "question": "Which statement best introduces Zero-Risk Bias?",
-    "options": [
-      "It is used to investigate a question within judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Zero-Risk Bias belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which zero-risk bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating zero-risk bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of zero-risk bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Zero-Risk Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-probability-weighting",
-      "psy-denominator-neglect",
-      "psy-ratio-bias"
+      "psy-compromise-effect",
+      "psy-choice-overload"
     ]
   },
   {
@@ -3952,117 +3471,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Probability Weighting adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-denominator-neglect",
-      "psy-ratio-bias",
-      "psy-partition-dependence"
-    ]
-  },
-  {
-    "id": "psy-denominator-neglect",
-    "world": "psychology",
-    "name": "Denominator Neglect",
-    "pool": "Judgment & Decision-making",
-    "hook": "Which situation is most relevant to Denominator Neglect?",
-    "question": "Which statement best introduces Denominator Neglect?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to judgment & decision-making.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Denominator Neglect belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which denominator neglect could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating denominator neglect as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of denominator neglect needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Denominator Neglect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-ratio-bias",
-      "psy-partition-dependence",
-      "psy-compromise-effect"
-    ]
-  },
-  {
-    "id": "psy-ratio-bias",
-    "world": "psychology",
-    "name": "Ratio Bias",
-    "pool": "Judgment & Decision-making",
-    "hook": "Where might Ratio Bias show up most clearly?",
-    "question": "Which statement best introduces Ratio Bias?",
-    "options": [
-      "It describes a pattern or mechanism studied in judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Ratio Bias belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which ratio bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating ratio bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of ratio bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Ratio Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-partition-dependence",
-      "psy-compromise-effect",
-      "psy-choice-overload"
-    ]
-  },
-  {
-    "id": "psy-partition-dependence",
-    "world": "psychology",
-    "name": "Partition Dependence",
-    "pool": "Judgment & Decision-making",
-    "hook": "What is the central idea behind Partition Dependence?",
-    "question": "Which statement best introduces Partition Dependence?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within judgment & decision-making.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Partition Dependence belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which partition dependence could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating partition dependence as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of partition dependence needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Partition Dependence adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-compromise-effect",
@@ -4252,7 +3660,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-precommitment",
       "psy-mental-accounting",
-      "psy-transaction-utility"
+      "psy-money-illusion"
     ]
   },
   {
@@ -4288,8 +3696,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-mental-accounting",
-      "psy-transaction-utility",
-      "psy-pain-of-paying"
+      "psy-money-illusion",
+      "psy-hot-cold-empathy-gap"
     ]
   },
   {
@@ -4324,83 +3732,9 @@ export const psychologyConcepts = [
     "why": "Mental Accounting adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-transaction-utility",
-      "psy-pain-of-paying",
-      "psy-money-illusion"
-    ]
-  },
-  {
-    "id": "psy-transaction-utility",
-    "world": "psychology",
-    "name": "Transaction Utility",
-    "pool": "Judgment & Decision-making",
-    "hook": "What is the central idea behind Transaction Utility?",
-    "question": "Which statement best introduces Transaction Utility?",
-    "options": [
-      "It is used to investigate a question within judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Transaction Utility belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which transaction utility could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating transaction utility as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of transaction utility needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Transaction Utility adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-pain-of-paying",
       "psy-money-illusion",
-      "psy-projection-bias"
-    ]
-  },
-  {
-    "id": "psy-pain-of-paying",
-    "world": "psychology",
-    "name": "Pain of Paying",
-    "pool": "Judgment & Decision-making",
-    "hook": "Why do psychologists study Pain of Paying?",
-    "question": "Which statement best introduces Pain of Paying?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about judgment & decision-making.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Pain of Paying belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which pain of paying could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating pain of paying as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of pain of paying needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Pain of Paying adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-money-illusion",
-      "psy-projection-bias",
-      "psy-hot-cold-empathy-gap"
+      "psy-hot-cold-empathy-gap",
+      "psy-identifiable-victim"
     ]
   },
   {
@@ -4435,46 +3769,9 @@ export const psychologyConcepts = [
     "why": "Money Illusion adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-projection-bias",
-      "psy-hot-cold-empathy-gap",
-      "psy-identifiable-victim"
-    ]
-  },
-  {
-    "id": "psy-projection-bias",
-    "world": "psychology",
-    "name": "Projection Bias",
-    "pool": "Judgment & Decision-making",
-    "hook": "Where might Projection Bias show up most clearly?",
-    "question": "Which statement best introduces Projection Bias?",
-    "options": [
-      "It describes a pattern or mechanism studied in judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Projection Bias belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which projection bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating projection bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of projection bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Projection Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-hot-cold-empathy-gap",
       "psy-identifiable-victim",
-      "psy-omission-action"
+      "psy-prospect-theory"
     ]
   },
   {
@@ -4510,8 +3807,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-identifiable-victim",
-      "psy-omission-action",
-      "psy-prospect-theory"
+      "psy-prospect-theory",
+      "psy-reference-dependence"
     ]
   },
   {
@@ -4544,43 +3841,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Identifiable Victim Effect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-omission-action",
-      "psy-prospect-theory",
-      "psy-reference-dependence"
-    ]
-  },
-  {
-    "id": "psy-omission-action",
-    "world": "psychology",
-    "name": "Action-Omission Asymmetry",
-    "pool": "Judgment & Decision-making",
-    "hook": "Which situation is most relevant to Action-Omission Asymmetry?",
-    "question": "Which statement best introduces Action-Omission Asymmetry?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to judgment & decision-making.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Action-Omission Asymmetry belongs to judgment & decision-making. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which action-omission asymmetry could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating action-omission asymmetry as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of action-omission asymmetry needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Action-Omission Asymmetry adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-prospect-theory",
@@ -4622,7 +3882,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-minimal-group",
       "psy-realistic-conflict",
-      "psy-common-ingroup"
+      "psy-stereotyping"
     ]
   },
   {
@@ -4658,8 +3918,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-realistic-conflict",
-      "psy-common-ingroup",
-      "psy-stereotyping"
+      "psy-stereotyping",
+      "psy-implicit-attitudes"
     ]
   },
   {
@@ -4692,43 +3952,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Realistic Conflict Theory adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-common-ingroup",
-      "psy-stereotyping",
-      "psy-implicit-attitudes"
-    ]
-  },
-  {
-    "id": "psy-common-ingroup",
-    "world": "psychology",
-    "name": "Common Ingroup Identity",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Common Ingroup Identity?",
-    "question": "Which statement best introduces Common Ingroup Identity?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Common Ingroup Identity belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which common ingroup identity could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating common ingroup identity as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of common ingroup identity needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Common Ingroup Identity adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-stereotyping",
@@ -5029,7 +4252,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-minority-influence",
       "psy-social-norms",
-      "psy-descriptive-norms"
+      "psy-social-contagion"
     ]
   },
   {
@@ -5065,8 +4288,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-social-norms",
-      "psy-descriptive-norms",
-      "psy-injunctive-norms"
+      "psy-social-contagion",
+      "psy-emotional-contagion"
     ]
   },
   {
@@ -5101,120 +4324,9 @@ export const psychologyConcepts = [
     "why": "Social Norms adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-descriptive-norms",
-      "psy-injunctive-norms",
-      "psy-norm-misperception"
-    ]
-  },
-  {
-    "id": "psy-descriptive-norms",
-    "world": "psychology",
-    "name": "Descriptive Norms",
-    "pool": "Social Psychology",
-    "hook": "Why do psychologists study Descriptive Norms?",
-    "question": "Which statement best introduces Descriptive Norms?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about social psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Descriptive Norms belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which descriptive norms could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating descriptive norms as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of descriptive norms needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Descriptive Norms adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-injunctive-norms",
-      "psy-norm-misperception",
-      "psy-social-contagion"
-    ]
-  },
-  {
-    "id": "psy-injunctive-norms",
-    "world": "psychology",
-    "name": "Injunctive Norms",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Injunctive Norms?",
-    "question": "Which statement best introduces Injunctive Norms?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Injunctive Norms belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which injunctive norms could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating injunctive norms as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of injunctive norms needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Injunctive Norms adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-norm-misperception",
-      "psy-social-contagion",
-      "psy-emotional-contagion"
-    ]
-  },
-  {
-    "id": "psy-norm-misperception",
-    "world": "psychology",
-    "name": "Norm Misperception",
-    "pool": "Social Psychology",
-    "hook": "Where might Norm Misperception show up most clearly?",
-    "question": "Which statement best introduces Norm Misperception?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in social psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Norm Misperception belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which norm misperception could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating norm misperception as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of norm misperception needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Norm Misperception adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-social-contagion",
       "psy-emotional-contagion",
-      "psy-behavioral-mimicry"
+      "psy-collective-action"
     ]
   },
   {
@@ -5250,8 +4362,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-emotional-contagion",
-      "psy-behavioral-mimicry",
-      "psy-chameleon-effect"
+      "psy-collective-action",
+      "psy-free-rider"
     ]
   },
   {
@@ -5284,191 +4396,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Emotional Contagion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-behavioral-mimicry",
-      "psy-chameleon-effect",
-      "psy-audience-effect"
-    ]
-  },
-  {
-    "id": "psy-behavioral-mimicry",
-    "world": "psychology",
-    "name": "Behavioral Mimicry",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Behavioral Mimicry?",
-    "question": "Which statement best introduces Behavioral Mimicry?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Behavioral Mimicry belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which behavioral mimicry could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating behavioral mimicry as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of behavioral mimicry needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Behavioral Mimicry adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-chameleon-effect",
-      "psy-audience-effect",
-      "psy-evaluation-apprehension"
-    ]
-  },
-  {
-    "id": "psy-chameleon-effect",
-    "world": "psychology",
-    "name": "Chameleon Effect",
-    "pool": "Social Psychology",
-    "hook": "Where might Chameleon Effect show up most clearly?",
-    "question": "Which statement best introduces Chameleon Effect?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in social psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Chameleon Effect belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which chameleon effect could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating chameleon effect as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of chameleon effect needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Chameleon Effect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-audience-effect",
-      "psy-evaluation-apprehension",
-      "psy-social-inhibition"
-    ]
-  },
-  {
-    "id": "psy-audience-effect",
-    "world": "psychology",
-    "name": "Audience Effects",
-    "pool": "Social Psychology",
-    "hook": "What is the central idea behind Audience Effects?",
-    "question": "Which statement best introduces Audience Effects?",
-    "options": [
-      "It is used to investigate a question within social psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Audience Effects belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which audience effects could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating audience effects as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of audience effects needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Audience Effects adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-evaluation-apprehension",
-      "psy-social-inhibition",
-      "psy-collective-action"
-    ]
-  },
-  {
-    "id": "psy-evaluation-apprehension",
-    "world": "psychology",
-    "name": "Evaluation Apprehension",
-    "pool": "Social Psychology",
-    "hook": "Why do psychologists study Evaluation Apprehension?",
-    "question": "Which statement best introduces Evaluation Apprehension?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about social psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Evaluation Apprehension belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which evaluation apprehension could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating evaluation apprehension as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of evaluation apprehension needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Evaluation Apprehension adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-social-inhibition",
-      "psy-collective-action",
-      "psy-free-rider"
-    ]
-  },
-  {
-    "id": "psy-social-inhibition",
-    "world": "psychology",
-    "name": "Social Inhibition",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Social Inhibition?",
-    "question": "Which statement best introduces Social Inhibition?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Social Inhibition belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which social inhibition could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating social inhibition as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of social inhibition needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Social Inhibition adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-collective-action",
@@ -5510,7 +4437,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-free-rider",
       "psy-social-dilemmas",
-      "psy-tragedy-commons"
+      "psy-costly-signaling"
     ]
   },
   {
@@ -5546,8 +4473,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-social-dilemmas",
-      "psy-tragedy-commons",
-      "psy-tit-for-tat"
+      "psy-costly-signaling",
+      "psy-reputation"
     ]
   },
   {
@@ -5580,80 +4507,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Social Dilemmas adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-tragedy-commons",
-      "psy-tit-for-tat",
-      "psy-costly-signaling"
-    ]
-  },
-  {
-    "id": "psy-tragedy-commons",
-    "world": "psychology",
-    "name": "Commons Dilemmas",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Commons Dilemmas?",
-    "question": "Which statement best introduces Commons Dilemmas?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Commons Dilemmas belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which commons dilemmas could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating commons dilemmas as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of commons dilemmas needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Commons Dilemmas adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-tit-for-tat",
-      "psy-costly-signaling",
-      "psy-reputation"
-    ]
-  },
-  {
-    "id": "psy-tit-for-tat",
-    "world": "psychology",
-    "name": "Reciprocal Cooperation",
-    "pool": "Social Psychology",
-    "hook": "Where might Reciprocal Cooperation show up most clearly?",
-    "question": "Which statement best introduces Reciprocal Cooperation?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in social psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Reciprocal Cooperation belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which reciprocal cooperation could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating reciprocal cooperation as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of reciprocal cooperation needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Reciprocal Cooperation adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-costly-signaling",
@@ -6028,7 +4881,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-that's-not-all",
       "psy-scarcity-persuasion",
-      "psy-authority-cue"
+      "psy-reactance-persuasion"
     ]
   },
   {
@@ -6064,8 +4917,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-scarcity-persuasion",
-      "psy-authority-cue",
-      "psy-liking-persuasion"
+      "psy-reactance-persuasion",
+      "psy-social-identity"
     ]
   },
   {
@@ -6098,117 +4951,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Scarcity in Persuasion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-authority-cue",
-      "psy-liking-persuasion",
-      "psy-unity-persuasion"
-    ]
-  },
-  {
-    "id": "psy-authority-cue",
-    "world": "psychology",
-    "name": "Authority Cues",
-    "pool": "Social Psychology",
-    "hook": "What is the central idea behind Authority Cues?",
-    "question": "Which statement best introduces Authority Cues?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within social psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Authority Cues belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which authority cues could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating authority cues as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of authority cues needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Authority Cues adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-liking-persuasion",
-      "psy-unity-persuasion",
-      "psy-reactance-persuasion"
-    ]
-  },
-  {
-    "id": "psy-liking-persuasion",
-    "world": "psychology",
-    "name": "Liking and Persuasion",
-    "pool": "Social Psychology",
-    "hook": "Why do psychologists study Liking and Persuasion?",
-    "question": "Which statement best introduces Liking and Persuasion?",
-    "options": [
-      "It helps organize evidence about social psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Liking and Persuasion belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which liking and persuasion could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating liking and persuasion as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of liking and persuasion needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Liking and Persuasion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-unity-persuasion",
-      "psy-reactance-persuasion",
-      "psy-social-identity"
-    ]
-  },
-  {
-    "id": "psy-unity-persuasion",
-    "world": "psychology",
-    "name": "Shared Identity and Persuasion",
-    "pool": "Social Psychology",
-    "hook": "Which situation is most relevant to Shared Identity and Persuasion?",
-    "question": "Which statement best introduces Shared Identity and Persuasion?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to social psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Shared Identity and Persuasion belongs to social psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which shared identity and persuasion could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating shared identity and persuasion as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of shared identity and persuasion needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Shared Identity and Persuasion adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-reactance-persuasion",
@@ -6694,7 +5436,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-negativity-bias",
       "psy-positivity-effect",
-      "psy-loss-emotion"
+      "psy-regret"
     ]
   },
   {
@@ -6730,8 +5472,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-positivity-effect",
-      "psy-loss-emotion",
-      "psy-anticipatory-emotion"
+      "psy-regret",
+      "psy-disappointment"
     ]
   },
   {
@@ -6764,80 +5506,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Positivity Effect in Aging adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-loss-emotion",
-      "psy-anticipatory-emotion",
-      "psy-regret"
-    ]
-  },
-  {
-    "id": "psy-loss-emotion",
-    "world": "psychology",
-    "name": "Loss and Emotion",
-    "pool": "Emotion & Motivation",
-    "hook": "Why do psychologists study Loss and Emotion?",
-    "question": "Which statement best introduces Loss and Emotion?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about emotion & motivation.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Loss and Emotion belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which loss and emotion could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating loss and emotion as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of loss and emotion needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Loss and Emotion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-anticipatory-emotion",
-      "psy-regret",
-      "psy-disappointment"
-    ]
-  },
-  {
-    "id": "psy-anticipatory-emotion",
-    "world": "psychology",
-    "name": "Anticipatory Emotion",
-    "pool": "Emotion & Motivation",
-    "hook": "Which situation is most relevant to Anticipatory Emotion?",
-    "question": "Which statement best introduces Anticipatory Emotion?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to emotion & motivation.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Anticipatory Emotion belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which anticipatory emotion could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating anticipatory emotion as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of anticipatory emotion needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Anticipatory Emotion adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-regret",
@@ -7212,7 +5880,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-empathy",
       "psy-empathic-concern",
-      "psy-personal-distress"
+      "psy-compassion"
     ]
   },
   {
@@ -7248,8 +5916,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-empathic-concern",
-      "psy-personal-distress",
-      "psy-compassion"
+      "psy-compassion",
+      "psy-emotion-labeling"
     ]
   },
   {
@@ -7284,46 +5952,9 @@ export const psychologyConcepts = [
     "why": "Empathic Concern adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-personal-distress",
-      "psy-compassion",
-      "psy-emotion-labeling"
-    ]
-  },
-  {
-    "id": "psy-personal-distress",
-    "world": "psychology",
-    "name": "Personal Distress",
-    "pool": "Emotion & Motivation",
-    "hook": "Where might Personal Distress show up most clearly?",
-    "question": "Which statement best introduces Personal Distress?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in emotion & motivation.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Personal Distress belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which personal distress could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating personal distress as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of personal distress needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Personal Distress adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-compassion",
       "psy-emotion-labeling",
-      "psy-situation-selection"
+      "psy-suppression"
     ]
   },
   {
@@ -7359,8 +5990,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-emotion-labeling",
-      "psy-situation-selection",
-      "psy-attentional-deployment"
+      "psy-suppression",
+      "psy-acceptance"
     ]
   },
   {
@@ -7393,117 +6024,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Affect Labeling adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-situation-selection",
-      "psy-attentional-deployment",
-      "psy-response-modulation"
-    ]
-  },
-  {
-    "id": "psy-situation-selection",
-    "world": "psychology",
-    "name": "Situation Selection",
-    "pool": "Emotion & Motivation",
-    "hook": "Which situation is most relevant to Situation Selection?",
-    "question": "Which statement best introduces Situation Selection?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to emotion & motivation.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Situation Selection belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which situation selection could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating situation selection as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of situation selection needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Situation Selection adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-attentional-deployment",
-      "psy-response-modulation",
-      "psy-suppression"
-    ]
-  },
-  {
-    "id": "psy-attentional-deployment",
-    "world": "psychology",
-    "name": "Attentional Deployment",
-    "pool": "Emotion & Motivation",
-    "hook": "Where might Attentional Deployment show up most clearly?",
-    "question": "Which statement best introduces Attentional Deployment?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in emotion & motivation.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Attentional Deployment belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which attentional deployment could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating attentional deployment as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of attentional deployment needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Attentional Deployment adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-response-modulation",
-      "psy-suppression",
-      "psy-acceptance"
-    ]
-  },
-  {
-    "id": "psy-response-modulation",
-    "world": "psychology",
-    "name": "Response Modulation",
-    "pool": "Emotion & Motivation",
-    "hook": "What is the central idea behind Response Modulation?",
-    "question": "Which statement best introduces Response Modulation?",
-    "options": [
-      "It is used to investigate a question within emotion & motivation.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Response Modulation belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which response modulation could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating response modulation as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of response modulation needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Response Modulation adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-suppression",
@@ -7656,7 +6176,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-approach-avoidance",
       "psy-achievement-motivation",
-      "psy-need-achievement"
+      "psy-goal-orientation"
     ]
   },
   {
@@ -7692,8 +6212,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-achievement-motivation",
-      "psy-need-achievement",
-      "psy-goal-orientation"
+      "psy-goal-orientation",
+      "psy-expectancy-value"
     ]
   },
   {
@@ -7728,46 +6248,9 @@ export const psychologyConcepts = [
     "why": "Achievement Motivation adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-need-achievement",
       "psy-goal-orientation",
-      "psy-mastery-goals"
-    ]
-  },
-  {
-    "id": "psy-need-achievement",
-    "world": "psychology",
-    "name": "Need for Achievement",
-    "pool": "Emotion & Motivation",
-    "hook": "Where might Need for Achievement show up most clearly?",
-    "question": "Which statement best introduces Need for Achievement?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in emotion & motivation.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Need for Achievement belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which need for achievement could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating need for achievement as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of need for achievement needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Need for Achievement adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-goal-orientation",
-      "psy-mastery-goals",
-      "psy-performance-goals"
+      "psy-expectancy-value",
+      "psy-basic-emotions"
     ]
   },
   {
@@ -7800,80 +6283,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Goal Orientation adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-mastery-goals",
-      "psy-performance-goals",
-      "psy-expectancy-value"
-    ]
-  },
-  {
-    "id": "psy-mastery-goals",
-    "world": "psychology",
-    "name": "Mastery Goals",
-    "pool": "Emotion & Motivation",
-    "hook": "Why do psychologists study Mastery Goals?",
-    "question": "Which statement best introduces Mastery Goals?",
-    "options": [
-      "It helps organize evidence about emotion & motivation.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Mastery Goals belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which mastery goals could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating mastery goals as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of mastery goals needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Mastery Goals adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-performance-goals",
-      "psy-expectancy-value",
-      "psy-basic-emotions"
-    ]
-  },
-  {
-    "id": "psy-performance-goals",
-    "world": "psychology",
-    "name": "Performance Goals",
-    "pool": "Emotion & Motivation",
-    "hook": "Which situation is most relevant to Performance Goals?",
-    "question": "Which statement best introduces Performance Goals?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to emotion & motivation.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Performance Goals belongs to emotion & motivation. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which performance goals could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating performance goals as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of performance goals needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Performance Goals adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-expectancy-value",
@@ -7919,117 +6328,6 @@ export const psychologyConcepts = [
     ]
   },
   {
-    "id": "psy-mere-proximity",
-    "world": "psychology",
-    "name": "Mere Proximity",
-    "pool": "Relationships",
-    "hook": "Which situation is most relevant to Mere Proximity?",
-    "question": "Which statement best introduces Mere Proximity?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to relationships.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Mere Proximity belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which mere proximity could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating mere proximity as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of mere proximity needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Mere Proximity adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-propinquity",
-      "psy-matching-hypothesis",
-      "psy-reciprocal-liking"
-    ]
-  },
-  {
-    "id": "psy-propinquity",
-    "world": "psychology",
-    "name": "Propinquity Effect",
-    "pool": "Relationships",
-    "hook": "Where might Propinquity Effect show up most clearly?",
-    "question": "Which statement best introduces Propinquity Effect?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in relationships.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Propinquity Effect belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which propinquity effect could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating propinquity effect as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of propinquity effect needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Propinquity Effect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-matching-hypothesis",
-      "psy-reciprocal-liking",
-      "psy-familiarity-attraction"
-    ]
-  },
-  {
-    "id": "psy-matching-hypothesis",
-    "world": "psychology",
-    "name": "Matching Hypothesis",
-    "pool": "Relationships",
-    "hook": "What is the central idea behind Matching Hypothesis?",
-    "question": "Which statement best introduces Matching Hypothesis?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within relationships.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Matching Hypothesis belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which matching hypothesis could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating matching hypothesis as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of matching hypothesis needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Matching Hypothesis adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-reciprocal-liking",
-      "psy-familiarity-attraction",
-      "psy-attachment-secure"
-    ]
-  },
-  {
     "id": "psy-reciprocal-liking",
     "world": "psychology",
     "name": "Reciprocal Liking",
@@ -8059,43 +6357,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Reciprocal Liking adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-familiarity-attraction",
-      "psy-attachment-secure",
-      "psy-attachment-anxious"
-    ]
-  },
-  {
-    "id": "psy-familiarity-attraction",
-    "world": "psychology",
-    "name": "Familiarity and Attraction",
-    "pool": "Relationships",
-    "hook": "Which situation is most relevant to Familiarity and Attraction?",
-    "question": "Which statement best introduces Familiarity and Attraction?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to relationships.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Familiarity and Attraction belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which familiarity and attraction could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating familiarity and attraction as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of familiarity and attraction needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Familiarity and Attraction adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-attachment-secure",
@@ -8211,7 +6472,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-internal-working-model",
       "psy-adult-attachment",
-      "psy-communal-relationships"
+      "psy-equity-theory"
     ]
   },
   {
@@ -8247,8 +6508,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-adult-attachment",
-      "psy-communal-relationships",
-      "psy-exchange-relationships"
+      "psy-equity-theory",
+      "psy-interdependence"
     ]
   },
   {
@@ -8283,83 +6544,9 @@ export const psychologyConcepts = [
     "why": "Adult Attachment adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-communal-relationships",
-      "psy-exchange-relationships",
-      "psy-equity-theory"
-    ]
-  },
-  {
-    "id": "psy-communal-relationships",
-    "world": "psychology",
-    "name": "Communal Relationships",
-    "pool": "Relationships",
-    "hook": "What is the central idea behind Communal Relationships?",
-    "question": "Which statement best introduces Communal Relationships?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within relationships.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Communal Relationships belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which communal relationships could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating communal relationships as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of communal relationships needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Communal Relationships adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-exchange-relationships",
-      "psy-equity-theory",
-      "psy-interdependence"
-    ]
-  },
-  {
-    "id": "psy-exchange-relationships",
-    "world": "psychology",
-    "name": "Exchange Relationships",
-    "pool": "Relationships",
-    "hook": "Why do psychologists study Exchange Relationships?",
-    "question": "Which statement best introduces Exchange Relationships?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about relationships.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Exchange Relationships belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which exchange relationships could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating exchange relationships as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of exchange relationships needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Exchange Relationships adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-equity-theory",
       "psy-interdependence",
-      "psy-comparison-level"
+      "psy-investment-model"
     ]
   },
   {
@@ -8395,8 +6582,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-interdependence",
-      "psy-comparison-level",
-      "psy-investment-model"
+      "psy-investment-model",
+      "psy-commitment"
     ]
   },
   {
@@ -8431,46 +6618,9 @@ export const psychologyConcepts = [
     "why": "Interdependence Theory adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-comparison-level",
-      "psy-investment-model",
-      "psy-commitment"
-    ]
-  },
-  {
-    "id": "psy-comparison-level",
-    "world": "psychology",
-    "name": "Comparison Level",
-    "pool": "Relationships",
-    "hook": "What is the central idea behind Comparison Level?",
-    "question": "Which statement best introduces Comparison Level?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within relationships.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Comparison Level belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which comparison level could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating comparison level as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of comparison level needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Comparison Level adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-investment-model",
       "psy-commitment",
-      "psy-accommodation"
+      "psy-perceived-responsiveness"
     ]
   },
   {
@@ -8506,8 +6656,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-commitment",
-      "psy-accommodation",
-      "psy-capitalization"
+      "psy-perceived-responsiveness",
+      "psy-self-expansion"
     ]
   },
   {
@@ -8542,120 +6692,9 @@ export const psychologyConcepts = [
     "why": "Relationship Commitment adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-accommodation",
-      "psy-capitalization",
-      "psy-active-constructive"
-    ]
-  },
-  {
-    "id": "psy-accommodation",
-    "world": "psychology",
-    "name": "Accommodation in Relationships",
-    "pool": "Relationships",
-    "hook": "Where might Accommodation in Relationships show up most clearly?",
-    "question": "Which statement best introduces Accommodation in Relationships?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in relationships.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Accommodation in Relationships belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which accommodation in relationships could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating accommodation in relationships as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of accommodation in relationships needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Accommodation in Relationships adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-capitalization",
-      "psy-active-constructive",
-      "psy-perceived-responsiveness"
-    ]
-  },
-  {
-    "id": "psy-capitalization",
-    "world": "psychology",
-    "name": "Capitalization",
-    "pool": "Relationships",
-    "hook": "What is the central idea behind Capitalization?",
-    "question": "Which statement best introduces Capitalization?",
-    "options": [
-      "It is used to investigate a question within relationships.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Capitalization belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which capitalization could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating capitalization as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of capitalization needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Capitalization adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-active-constructive",
       "psy-perceived-responsiveness",
-      "psy-intimacy-process"
-    ]
-  },
-  {
-    "id": "psy-active-constructive",
-    "world": "psychology",
-    "name": "Active-Constructive Responding",
-    "pool": "Relationships",
-    "hook": "Why do psychologists study Active-Constructive Responding?",
-    "question": "Which statement best introduces Active-Constructive Responding?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about relationships.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Active-Constructive Responding belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which active-constructive responding could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating active-constructive responding as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of active-constructive responding needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Active-Constructive Responding adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-perceived-responsiveness",
-      "psy-intimacy-process",
-      "psy-self-expansion"
+      "psy-self-expansion",
+      "psy-relationship-attributions"
     ]
   },
   {
@@ -8690,46 +6729,9 @@ export const psychologyConcepts = [
     "why": "Perceived Responsiveness adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-intimacy-process",
       "psy-self-expansion",
-      "psy-Michelangelo-phenomenon"
-    ]
-  },
-  {
-    "id": "psy-intimacy-process",
-    "world": "psychology",
-    "name": "Interpersonal Process Model of Intimacy",
-    "pool": "Relationships",
-    "hook": "Where might Interpersonal Process Model of Intimacy show up most clearly?",
-    "question": "Which statement best introduces Interpersonal Process Model of Intimacy?",
-    "options": [
-      "It describes a pattern or mechanism studied in relationships.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Interpersonal Process Model of Intimacy belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which interpersonal process model of intimacy could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating interpersonal process model of intimacy as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of interpersonal process model of intimacy needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Interpersonal Process Model of Intimacy adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-self-expansion",
-      "psy-Michelangelo-phenomenon",
-      "psy-partner-idealization"
+      "psy-relationship-attributions",
+      "psy-demand-withdraw"
     ]
   },
   {
@@ -8762,80 +6764,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Self-Expansion Theory adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-Michelangelo-phenomenon",
-      "psy-partner-idealization",
-      "psy-relationship-attributions"
-    ]
-  },
-  {
-    "id": "psy-Michelangelo-phenomenon",
-    "world": "psychology",
-    "name": "Michelangelo Phenomenon",
-    "pool": "Relationships",
-    "hook": "Why do psychologists study Michelangelo Phenomenon?",
-    "question": "Which statement best introduces Michelangelo Phenomenon?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about relationships.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Michelangelo Phenomenon belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which michelangelo phenomenon could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating michelangelo phenomenon as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of michelangelo phenomenon needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Michelangelo Phenomenon adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-partner-idealization",
-      "psy-relationship-attributions",
-      "psy-demand-withdraw"
-    ]
-  },
-  {
-    "id": "psy-partner-idealization",
-    "world": "psychology",
-    "name": "Partner Idealization",
-    "pool": "Relationships",
-    "hook": "Which situation is most relevant to Partner Idealization?",
-    "question": "Which statement best introduces Partner Idealization?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to relationships.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Partner Idealization belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which partner idealization could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating partner idealization as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of partner idealization needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Partner Idealization adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-relationship-attributions",
@@ -9173,7 +7101,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-social-support",
       "psy-attachment-safe-haven",
-      "psy-attachment-protest"
+      "psy-parasocial"
     ]
   },
   {
@@ -9209,8 +7137,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-attachment-safe-haven",
-      "psy-attachment-protest",
-      "psy-parasocial"
+      "psy-parasocial",
+      "psy-social-penetration"
     ]
   },
   {
@@ -9243,43 +7171,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Safe Haven adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-attachment-protest",
-      "psy-parasocial",
-      "psy-social-penetration"
-    ]
-  },
-  {
-    "id": "psy-attachment-protest",
-    "world": "psychology",
-    "name": "Separation Protest",
-    "pool": "Relationships",
-    "hook": "Which situation is most relevant to Separation Protest?",
-    "question": "Which statement best introduces Separation Protest?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to relationships.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Separation Protest belongs to relationships. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which separation protest could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating separation protest as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of separation protest needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Separation Protest adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-parasocial",
@@ -9728,7 +7619,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-fast-mapping",
       "psy-overextension",
-      "psy-underextension"
+      "psy-critical-period-language"
     ]
   },
   {
@@ -9764,8 +7655,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-overextension",
-      "psy-underextension",
-      "psy-critical-period-language"
+      "psy-critical-period-language",
+      "psy-phoneme-tuning"
     ]
   },
   {
@@ -9798,43 +7689,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Word Overextension adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-underextension",
-      "psy-critical-period-language",
-      "psy-phoneme-tuning"
-    ]
-  },
-  {
-    "id": "psy-underextension",
-    "world": "psychology",
-    "name": "Word Underextension",
-    "pool": "Developmental Psychology",
-    "hook": "Which situation is most relevant to Word Underextension?",
-    "question": "Which statement best introduces Word Underextension?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to developmental psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Word Underextension belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which word underextension could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating word underextension as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of word underextension needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Word Underextension adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-critical-period-language",
@@ -9913,7 +7767,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-egocentrism-piaget",
       "psy-conservation",
-      "psy-centration"
+      "psy-scaffolding"
     ]
   },
   {
@@ -9949,8 +7803,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-conservation",
-      "psy-centration",
-      "psy-scaffolding"
+      "psy-scaffolding",
+      "psy-zone-proximal"
     ]
   },
   {
@@ -9985,46 +7839,9 @@ export const psychologyConcepts = [
     "why": "Conservation Tasks adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-centration",
-      "psy-scaffolding",
-      "psy-zone-proximal"
-    ]
-  },
-  {
-    "id": "psy-centration",
-    "world": "psychology",
-    "name": "Centration",
-    "pool": "Developmental Psychology",
-    "hook": "Where might Centration show up most clearly?",
-    "question": "Which statement best introduces Centration?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in developmental psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Centration belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which centration could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating centration as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of centration needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Centration adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-scaffolding",
       "psy-zone-proximal",
-      "psy-private-speech"
+      "psy-executive-development"
     ]
   },
   {
@@ -10060,8 +7877,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-zone-proximal",
-      "psy-private-speech",
-      "psy-executive-development"
+      "psy-executive-development",
+      "psy-delay-development"
     ]
   },
   {
@@ -10094,43 +7911,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Zone of Proximal Development adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-private-speech",
-      "psy-executive-development",
-      "psy-delay-development"
-    ]
-  },
-  {
-    "id": "psy-private-speech",
-    "world": "psychology",
-    "name": "Private Speech",
-    "pool": "Developmental Psychology",
-    "hook": "Which situation is most relevant to Private Speech?",
-    "question": "Which statement best introduces Private Speech?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to developmental psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Private Speech belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which private speech could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating private speech as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of private speech needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Private Speech adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-executive-development",
@@ -10246,7 +8026,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-peer-influence-adolescence",
       "psy-identity-development",
-      "psy-identity-exploration"
+      "psy-emerging-adulthood"
     ]
   },
   {
@@ -10282,8 +8062,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-identity-development",
-      "psy-identity-exploration",
-      "psy-identity-commitment"
+      "psy-emerging-adulthood",
+      "psy-parenting-styles"
     ]
   },
   {
@@ -10316,80 +8096,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Identity Development adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-identity-exploration",
-      "psy-identity-commitment",
-      "psy-emerging-adulthood"
-    ]
-  },
-  {
-    "id": "psy-identity-exploration",
-    "world": "psychology",
-    "name": "Identity Exploration",
-    "pool": "Developmental Psychology",
-    "hook": "What is the central idea behind Identity Exploration?",
-    "question": "Which statement best introduces Identity Exploration?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within developmental psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Identity Exploration belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which identity exploration could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating identity exploration as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of identity exploration needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Identity Exploration adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-identity-commitment",
-      "psy-emerging-adulthood",
-      "psy-parenting-styles"
-    ]
-  },
-  {
-    "id": "psy-identity-commitment",
-    "world": "psychology",
-    "name": "Identity Commitment",
-    "pool": "Developmental Psychology",
-    "hook": "Why do psychologists study Identity Commitment?",
-    "question": "Which statement best introduces Identity Commitment?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about developmental psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Identity Commitment belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which identity commitment could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating identity commitment as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of identity commitment needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Identity Commitment adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-emerging-adulthood",
@@ -10468,7 +8174,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-authoritative-parenting",
       "psy-authoritarian-parenting",
-      "psy-permissive-parenting"
+      "psy-behavioral-genetics"
     ]
   },
   {
@@ -10504,8 +8210,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-authoritarian-parenting",
-      "psy-permissive-parenting",
-      "psy-behavioral-genetics"
+      "psy-behavioral-genetics",
+      "psy-gene-environment"
     ]
   },
   {
@@ -10540,46 +8246,9 @@ export const psychologyConcepts = [
     "why": "Authoritarian Parenting adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-permissive-parenting",
-      "psy-behavioral-genetics",
-      "psy-gene-environment"
-    ]
-  },
-  {
-    "id": "psy-permissive-parenting",
-    "world": "psychology",
-    "name": "Permissive Parenting",
-    "pool": "Developmental Psychology",
-    "hook": "Which situation is most relevant to Permissive Parenting?",
-    "question": "Which statement best introduces Permissive Parenting?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to developmental psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Permissive Parenting belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which permissive parenting could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating permissive parenting as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of permissive parenting needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Permissive Parenting adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-behavioral-genetics",
       "psy-gene-environment",
-      "psy-gene-environment-correlation"
+      "psy-resilience-development"
     ]
   },
   {
@@ -10615,8 +8284,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-gene-environment",
-      "psy-gene-environment-correlation",
-      "psy-differential-susceptibility"
+      "psy-resilience-development",
+      "psy-adverse-childhood"
     ]
   },
   {
@@ -10649,80 +8318,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Gene-Environment Interaction adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-gene-environment-correlation",
-      "psy-differential-susceptibility",
-      "psy-resilience-development"
-    ]
-  },
-  {
-    "id": "psy-gene-environment-correlation",
-    "world": "psychology",
-    "name": "Gene-Environment Correlation",
-    "pool": "Developmental Psychology",
-    "hook": "Why do psychologists study Gene-Environment Correlation?",
-    "question": "Which statement best introduces Gene-Environment Correlation?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about developmental psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Gene-Environment Correlation belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which gene-environment correlation could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating gene-environment correlation as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of gene-environment correlation needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Gene-Environment Correlation adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-differential-susceptibility",
-      "psy-resilience-development",
-      "psy-adverse-childhood"
-    ]
-  },
-  {
-    "id": "psy-differential-susceptibility",
-    "world": "psychology",
-    "name": "Differential Susceptibility",
-    "pool": "Developmental Psychology",
-    "hook": "Which situation is most relevant to Differential Susceptibility?",
-    "question": "Which statement best introduces Differential Susceptibility?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to developmental psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Differential Susceptibility belongs to developmental psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which differential susceptibility could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating differential susceptibility as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of differential susceptibility needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Differential Susceptibility adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-resilience-development",
@@ -10949,7 +8544,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-avoidance-learning",
       "psy-exposure-inhibitory",
-      "psy-extinction-recovery"
+      "psy-anxiety-sensitivity"
     ]
   },
   {
@@ -10985,8 +8580,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-exposure-inhibitory",
-      "psy-extinction-recovery",
-      "psy-renewal-effect"
+      "psy-anxiety-sensitivity",
+      "psy-intolerance-uncertainty"
     ]
   },
   {
@@ -11019,117 +8614,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Inhibitory Learning in Exposure adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-extinction-recovery",
-      "psy-renewal-effect",
-      "psy-reinstatement"
-    ]
-  },
-  {
-    "id": "psy-extinction-recovery",
-    "world": "psychology",
-    "name": "Spontaneous Recovery",
-    "pool": "Clinical Psychology",
-    "hook": "Where might Spontaneous Recovery show up most clearly?",
-    "question": "Which statement best introduces Spontaneous Recovery?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in clinical psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Spontaneous Recovery belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which spontaneous recovery could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating spontaneous recovery as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of spontaneous recovery needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Spontaneous Recovery adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-renewal-effect",
-      "psy-reinstatement",
-      "psy-anxiety-sensitivity"
-    ]
-  },
-  {
-    "id": "psy-renewal-effect",
-    "world": "psychology",
-    "name": "Renewal Effect",
-    "pool": "Clinical Psychology",
-    "hook": "What is the central idea behind Renewal Effect?",
-    "question": "Which statement best introduces Renewal Effect?",
-    "options": [
-      "It is used to investigate a question within clinical psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Renewal Effect belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which renewal effect could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating renewal effect as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of renewal effect needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Renewal Effect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-reinstatement",
-      "psy-anxiety-sensitivity",
-      "psy-intolerance-uncertainty"
-    ]
-  },
-  {
-    "id": "psy-reinstatement",
-    "world": "psychology",
-    "name": "Reinstatement of Fear",
-    "pool": "Clinical Psychology",
-    "hook": "Why do psychologists study Reinstatement of Fear?",
-    "question": "Which statement best introduces Reinstatement of Fear?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about clinical psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Reinstatement of Fear belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which reinstatement of fear could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating reinstatement of fear as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of reinstatement of fear needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Reinstatement of Fear adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-anxiety-sensitivity",
@@ -11171,7 +8655,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-intolerance-uncertainty",
       "psy-worry",
-      "psy-metacognitive-worry"
+      "psy-thought-suppression"
     ]
   },
   {
@@ -11207,8 +8691,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-worry",
-      "psy-metacognitive-worry",
-      "psy-thought-suppression"
+      "psy-thought-suppression",
+      "psy-white-bear"
     ]
   },
   {
@@ -11241,43 +8725,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Worry adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-metacognitive-worry",
-      "psy-thought-suppression",
-      "psy-white-bear"
-    ]
-  },
-  {
-    "id": "psy-metacognitive-worry",
-    "world": "psychology",
-    "name": "Metacognitive Beliefs",
-    "pool": "Clinical Psychology",
-    "hook": "Why do psychologists study Metacognitive Beliefs?",
-    "question": "Which statement best introduces Metacognitive Beliefs?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about clinical psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Metacognitive Beliefs belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which metacognitive beliefs could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating metacognitive beliefs as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of metacognitive beliefs needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Metacognitive Beliefs adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-thought-suppression",
@@ -11356,7 +8803,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-intrusive-thoughts",
       "psy-obsessions",
-      "psy-negative-reinforcement-clinical"
+      "psy-safety-behaviors"
     ]
   },
   {
@@ -11392,8 +8839,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-obsessions",
-      "psy-negative-reinforcement-clinical",
-      "psy-safety-behaviors"
+      "psy-safety-behaviors",
+      "psy-interoceptive-exposure"
     ]
   },
   {
@@ -11426,43 +8873,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Obsessions adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-negative-reinforcement-clinical",
-      "psy-safety-behaviors",
-      "psy-interoceptive-exposure"
-    ]
-  },
-  {
-    "id": "psy-negative-reinforcement-clinical",
-    "world": "psychology",
-    "name": "Negative Reinforcement in Symptoms",
-    "pool": "Clinical Psychology",
-    "hook": "Which situation is most relevant to Negative Reinforcement in Symptoms?",
-    "question": "Which statement best introduces Negative Reinforcement in Symptoms?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to clinical psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Negative Reinforcement in Symptoms belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which negative reinforcement in symptoms could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating negative reinforcement in symptoms as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of negative reinforcement in symptoms needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Negative Reinforcement in Symptoms adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-safety-behaviors",
@@ -11911,7 +9321,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-behavioral-inhibition",
       "psy-reward-sensitivity",
-      "psy-learned-safety"
+      "psy-insomnia-conditioning"
     ]
   },
   {
@@ -11947,8 +9357,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-reward-sensitivity",
-      "psy-learned-safety",
-      "psy-emotion-avoidance"
+      "psy-insomnia-conditioning",
+      "psy-trauma-memory"
     ]
   },
   {
@@ -11981,117 +9391,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Reward Sensitivity adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-learned-safety",
-      "psy-emotion-avoidance",
-      "psy-sleep-anxiety"
-    ]
-  },
-  {
-    "id": "psy-learned-safety",
-    "world": "psychology",
-    "name": "Learned Safety",
-    "pool": "Clinical Psychology",
-    "hook": "Why do psychologists study Learned Safety?",
-    "question": "Which statement best introduces Learned Safety?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about clinical psychology.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Learned Safety belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which learned safety could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating learned safety as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of learned safety needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Learned Safety adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-emotion-avoidance",
-      "psy-sleep-anxiety",
-      "psy-insomnia-conditioning"
-    ]
-  },
-  {
-    "id": "psy-emotion-avoidance",
-    "world": "psychology",
-    "name": "Emotion Avoidance",
-    "pool": "Clinical Psychology",
-    "hook": "Which situation is most relevant to Emotion Avoidance?",
-    "question": "Which statement best introduces Emotion Avoidance?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to clinical psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Emotion Avoidance belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which emotion avoidance could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating emotion avoidance as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of emotion avoidance needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Emotion Avoidance adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-sleep-anxiety",
-      "psy-insomnia-conditioning",
-      "psy-trauma-memory"
-    ]
-  },
-  {
-    "id": "psy-sleep-anxiety",
-    "world": "psychology",
-    "name": "Sleep and Anxiety",
-    "pool": "Clinical Psychology",
-    "hook": "Where might Sleep and Anxiety show up most clearly?",
-    "question": "Which statement best introduces Sleep and Anxiety?",
-    "options": [
-      "It describes a pattern or mechanism studied in clinical psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Sleep and Anxiety belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which sleep and anxiety could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating sleep and anxiety as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of sleep and anxiety needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Sleep and Anxiety adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-insomnia-conditioning",
@@ -12170,7 +9469,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-fear-generalization",
       "psy-dissociation",
-      "psy-somatic-attention"
+      "psy-health-anxiety"
     ]
   },
   {
@@ -12206,8 +9505,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-dissociation",
-      "psy-somatic-attention",
-      "psy-health-anxiety"
+      "psy-health-anxiety",
+      "psy-catastrophizing"
     ]
   },
   {
@@ -12240,43 +9539,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Dissociation adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-somatic-attention",
-      "psy-health-anxiety",
-      "psy-catastrophizing"
-    ]
-  },
-  {
-    "id": "psy-somatic-attention",
-    "world": "psychology",
-    "name": "Somatic Attention",
-    "pool": "Clinical Psychology",
-    "hook": "What is the central idea behind Somatic Attention?",
-    "question": "Which statement best introduces Somatic Attention?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within clinical psychology.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Somatic Attention belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which somatic attention could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating somatic attention as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of somatic attention needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Somatic Attention adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-health-anxiety",
@@ -12429,7 +9691,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-therapeutic-alliance",
       "psy-common-factors",
-      "psy-response-expectancy"
+      "psy-rumination"
     ]
   },
   {
@@ -12465,8 +9727,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-common-factors",
-      "psy-response-expectancy",
-      "psy-rumination"
+      "psy-rumination",
+      "psy-avoidance"
     ]
   },
   {
@@ -12499,43 +9761,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Common Factors in Therapy adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-response-expectancy",
-      "psy-rumination",
-      "psy-avoidance"
-    ]
-  },
-  {
-    "id": "psy-response-expectancy",
-    "world": "psychology",
-    "name": "Response Expectancy",
-    "pool": "Clinical Psychology",
-    "hook": "Where might Response Expectancy show up most clearly?",
-    "question": "Which statement best introduces Response Expectancy?",
-    "options": [
-      "It describes a pattern or mechanism studied in clinical psychology.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Response Expectancy belongs to clinical psychology. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which response expectancy could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating response expectancy as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of response expectancy needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Response Expectancy adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-rumination",
@@ -12651,7 +9876,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-neuroticism",
       "psy-openness",
-      "psy-facet-traits"
+      "psy-trait-situation"
     ]
   },
   {
@@ -12687,8 +9912,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-openness",
-      "psy-facet-traits",
-      "psy-trait-situation"
+      "psy-trait-situation",
+      "psy-person-environment-fit"
     ]
   },
   {
@@ -12721,43 +9946,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Openness to Experience adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-facet-traits",
-      "psy-trait-situation",
-      "psy-person-environment-fit"
-    ]
-  },
-  {
-    "id": "psy-facet-traits",
-    "world": "psychology",
-    "name": "Personality Facets",
-    "pool": "Personality & Individual Differences",
-    "hook": "What is the central idea behind Personality Facets?",
-    "question": "Which statement best introduces Personality Facets?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within personality & individual differences.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Personality Facets belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which personality facets could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating personality facets as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of personality facets needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Personality Facets adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-trait-situation",
@@ -12799,7 +9987,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-person-environment-fit",
       "psy-personality-development",
-      "psy-rank-order-stability"
+      "psy-self-monitoring"
     ]
   },
   {
@@ -12835,8 +10023,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-personality-development",
-      "psy-rank-order-stability",
-      "psy-mean-level-change"
+      "psy-self-monitoring",
+      "psy-need-cognition"
     ]
   },
   {
@@ -12869,80 +10057,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Personality Development adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-rank-order-stability",
-      "psy-mean-level-change",
-      "psy-self-monitoring"
-    ]
-  },
-  {
-    "id": "psy-rank-order-stability",
-    "world": "psychology",
-    "name": "Rank-Order Stability",
-    "pool": "Personality & Individual Differences",
-    "hook": "What is the central idea behind Rank-Order Stability?",
-    "question": "Which statement best introduces Rank-Order Stability?",
-    "options": [
-      "It is used to investigate a question within personality & individual differences.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Rank-Order Stability belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which rank-order stability could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating rank-order stability as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of rank-order stability needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Rank-Order Stability adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-mean-level-change",
-      "psy-self-monitoring",
-      "psy-need-cognition"
-    ]
-  },
-  {
-    "id": "psy-mean-level-change",
-    "world": "psychology",
-    "name": "Mean-Level Personality Change",
-    "pool": "Personality & Individual Differences",
-    "hook": "Why do psychologists study Mean-Level Personality Change?",
-    "question": "Which statement best introduces Mean-Level Personality Change?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about personality & individual differences.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Mean-Level Personality Change belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which mean-level personality change could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating mean-level personality change as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of mean-level personality change needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Mean-Level Personality Change adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-self-monitoring",
@@ -13095,7 +10209,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-sensation-seeking",
       "psy-impulsivity",
-      "psy-delay-aversion"
+      "psy-perfectionism"
     ]
   },
   {
@@ -13131,8 +10245,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-impulsivity",
-      "psy-delay-aversion",
-      "psy-perfectionism"
+      "psy-perfectionism",
+      "psy-narcissism"
     ]
   },
   {
@@ -13167,46 +10281,9 @@ export const psychologyConcepts = [
     "why": "Impulsivity adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-delay-aversion",
       "psy-perfectionism",
-      "psy-adaptive-perfectionism"
-    ]
-  },
-  {
-    "id": "psy-delay-aversion",
-    "world": "psychology",
-    "name": "Delay Aversion",
-    "pool": "Personality & Individual Differences",
-    "hook": "What is the central idea behind Delay Aversion?",
-    "question": "Which statement best introduces Delay Aversion?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within personality & individual differences.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Delay Aversion belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which delay aversion could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating delay aversion as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of delay aversion needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Delay Aversion adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-perfectionism",
-      "psy-adaptive-perfectionism",
-      "psy-maladaptive-perfectionism"
+      "psy-narcissism",
+      "psy-machiavellianism"
     ]
   },
   {
@@ -13241,83 +10318,9 @@ export const psychologyConcepts = [
     "why": "Perfectionism adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-adaptive-perfectionism",
-      "psy-maladaptive-perfectionism",
-      "psy-narcissism"
-    ]
-  },
-  {
-    "id": "psy-adaptive-perfectionism",
-    "world": "psychology",
-    "name": "Perfectionistic Strivings",
-    "pool": "Personality & Individual Differences",
-    "hook": "Which situation is most relevant to Perfectionistic Strivings?",
-    "question": "Which statement best introduces Perfectionistic Strivings?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to personality & individual differences.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Perfectionistic Strivings belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which perfectionistic strivings could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating perfectionistic strivings as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of perfectionistic strivings needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Perfectionistic Strivings adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-maladaptive-perfectionism",
       "psy-narcissism",
-      "psy-grandiose-narcissism"
-    ]
-  },
-  {
-    "id": "psy-maladaptive-perfectionism",
-    "world": "psychology",
-    "name": "Perfectionistic Concerns",
-    "pool": "Personality & Individual Differences",
-    "hook": "Where might Perfectionistic Concerns show up most clearly?",
-    "question": "Which statement best introduces Perfectionistic Concerns?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in personality & individual differences.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Perfectionistic Concerns belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which perfectionistic concerns could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating perfectionistic concerns as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of perfectionistic concerns needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Perfectionistic Concerns adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-narcissism",
-      "psy-grandiose-narcissism",
-      "psy-vulnerable-narcissism"
+      "psy-machiavellianism",
+      "psy-psychopathy-traits"
     ]
   },
   {
@@ -13350,80 +10353,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Narcissism adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-grandiose-narcissism",
-      "psy-vulnerable-narcissism",
-      "psy-machiavellianism"
-    ]
-  },
-  {
-    "id": "psy-grandiose-narcissism",
-    "world": "psychology",
-    "name": "Grandiose Narcissism",
-    "pool": "Personality & Individual Differences",
-    "hook": "Why do psychologists study Grandiose Narcissism?",
-    "question": "Which statement best introduces Grandiose Narcissism?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about personality & individual differences.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Grandiose Narcissism belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which grandiose narcissism could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating grandiose narcissism as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of grandiose narcissism needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Grandiose Narcissism adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-vulnerable-narcissism",
-      "psy-machiavellianism",
-      "psy-psychopathy-traits"
-    ]
-  },
-  {
-    "id": "psy-vulnerable-narcissism",
-    "world": "psychology",
-    "name": "Vulnerable Narcissism",
-    "pool": "Personality & Individual Differences",
-    "hook": "Which situation is most relevant to Vulnerable Narcissism?",
-    "question": "Which statement best introduces Vulnerable Narcissism?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to personality & individual differences.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Vulnerable Narcissism belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which vulnerable narcissism could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating vulnerable narcissism as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of vulnerable narcissism needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Vulnerable Narcissism adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-machiavellianism",
@@ -13613,7 +10542,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-trait-empathy",
       "psy-optimism",
-      "psy-pessimism"
+      "psy-hardiness"
     ]
   },
   {
@@ -13649,8 +10578,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-optimism",
-      "psy-pessimism",
-      "psy-hardiness"
+      "psy-hardiness",
+      "psy-resilience"
     ]
   },
   {
@@ -13683,43 +10612,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Dispositional Optimism adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-pessimism",
-      "psy-hardiness",
-      "psy-resilience"
-    ]
-  },
-  {
-    "id": "psy-pessimism",
-    "world": "psychology",
-    "name": "Pessimism",
-    "pool": "Personality & Individual Differences",
-    "hook": "Which situation is most relevant to Pessimism?",
-    "question": "Which statement best introduces Pessimism?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to personality & individual differences.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Pessimism belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which pessimism could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating pessimism as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of pessimism needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Pessimism adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-hardiness",
@@ -13798,7 +10690,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-self-esteem",
       "psy-contingent-self-esteem",
-      "psy-core-self-evaluations"
+      "psy-regulatory-focus"
     ]
   },
   {
@@ -13834,8 +10726,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-contingent-self-esteem",
-      "psy-core-self-evaluations",
-      "psy-regulatory-focus"
+      "psy-regulatory-focus",
+      "psy-conscientiousness"
     ]
   },
   {
@@ -13870,46 +10762,9 @@ export const psychologyConcepts = [
     "why": "Contingent Self-Esteem adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-core-self-evaluations",
       "psy-regulatory-focus",
-      "psy-promotion-focus"
-    ]
-  },
-  {
-    "id": "psy-core-self-evaluations",
-    "world": "psychology",
-    "name": "Core Self-Evaluations",
-    "pool": "Personality & Individual Differences",
-    "hook": "Where might Core Self-Evaluations show up most clearly?",
-    "question": "Which statement best introduces Core Self-Evaluations?",
-    "options": [
-      "It describes a pattern or mechanism studied in personality & individual differences.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Core Self-Evaluations belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which core self-evaluations could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating core self-evaluations as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of core self-evaluations needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Core Self-Evaluations adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-regulatory-focus",
-      "psy-promotion-focus",
-      "psy-prevention-focus"
+      "psy-conscientiousness",
+      "psy-extraversion"
     ]
   },
   {
@@ -13942,80 +10797,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Regulatory Focus adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-promotion-focus",
-      "psy-prevention-focus",
-      "psy-conscientiousness"
-    ]
-  },
-  {
-    "id": "psy-promotion-focus",
-    "world": "psychology",
-    "name": "Promotion Focus",
-    "pool": "Personality & Individual Differences",
-    "hook": "Why do psychologists study Promotion Focus?",
-    "question": "Which statement best introduces Promotion Focus?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about personality & individual differences.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Promotion Focus belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which promotion focus could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating promotion focus as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of promotion focus needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Promotion Focus adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-prevention-focus",
-      "psy-conscientiousness",
-      "psy-extraversion"
-    ]
-  },
-  {
-    "id": "psy-prevention-focus",
-    "world": "psychology",
-    "name": "Prevention Focus",
-    "pool": "Personality & Individual Differences",
-    "hook": "Which situation is most relevant to Prevention Focus?",
-    "question": "Which statement best introduces Prevention Focus?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to personality & individual differences.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Prevention Focus belongs to personality & individual differences. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which prevention focus could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating prevention focus as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of prevention focus needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Prevention Focus adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-conscientiousness",
@@ -14279,7 +11060,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-test-retest",
       "psy-interrater",
-      "psy-cronbach-alpha"
+      "psy-operationalization"
     ]
   },
   {
@@ -14315,8 +11096,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-interrater",
-      "psy-cronbach-alpha",
-      "psy-operationalization"
+      "psy-operationalization",
+      "psy-confound"
     ]
   },
   {
@@ -14349,43 +11130,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Inter-Rater Reliability adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-cronbach-alpha",
-      "psy-operationalization",
-      "psy-confound"
-    ]
-  },
-  {
-    "id": "psy-cronbach-alpha",
-    "world": "psychology",
-    "name": "Internal Consistency",
-    "pool": "Methods & Controversies",
-    "hook": "What is the central idea behind Internal Consistency?",
-    "question": "Which statement best introduces Internal Consistency?",
-    "options": [
-      "It is used to investigate a question within methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Internal Consistency belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which internal consistency could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating internal consistency as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of internal consistency needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Internal Consistency adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-operationalization",
@@ -14612,7 +11356,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-within-subject",
       "psy-between-subject",
-      "psy-counterbalancing"
+      "psy-longitudinal"
     ]
   },
   {
@@ -14648,8 +11392,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-between-subject",
-      "psy-counterbalancing",
-      "psy-longitudinal"
+      "psy-longitudinal",
+      "psy-cross-sectional"
     ]
   },
   {
@@ -14684,46 +11428,9 @@ export const psychologyConcepts = [
     "why": "Between-Subjects Design adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-counterbalancing",
-      "psy-longitudinal",
-      "psy-cross-sectional"
-    ]
-  },
-  {
-    "id": "psy-counterbalancing",
-    "world": "psychology",
-    "name": "Counterbalancing",
-    "pool": "Methods & Controversies",
-    "hook": "Why do psychologists study Counterbalancing?",
-    "question": "Which statement best introduces Counterbalancing?",
-    "options": [
-      "It helps organize evidence about methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Counterbalancing belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which counterbalancing could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating counterbalancing as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of counterbalancing needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Counterbalancing adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-longitudinal",
       "psy-cross-sectional",
-      "psy-cohort-effect"
+      "psy-natural-experiment"
     ]
   },
   {
@@ -14759,8 +11466,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-cross-sectional",
-      "psy-cohort-effect",
-      "psy-natural-experiment"
+      "psy-natural-experiment",
+      "psy-quasi-experiment"
     ]
   },
   {
@@ -14793,43 +11500,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Cross-Sectional Studies adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-cohort-effect",
-      "psy-natural-experiment",
-      "psy-quasi-experiment"
-    ]
-  },
-  {
-    "id": "psy-cohort-effect",
-    "world": "psychology",
-    "name": "Cohort Effects",
-    "pool": "Methods & Controversies",
-    "hook": "What is the central idea behind Cohort Effects?",
-    "question": "Which statement best introduces Cohort Effects?",
-    "options": [
-      "It is used to investigate a question within methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Cohort Effects belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which cohort effects could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating cohort effects as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of cohort effects needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Cohort Effects adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-natural-experiment",
@@ -15611,7 +12281,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-hawthorne",
       "psy-social-desirability",
-      "psy-common-method"
+      "psy-reverse-causality"
     ]
   },
   {
@@ -15647,8 +12317,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-social-desirability",
-      "psy-common-method",
-      "psy-reverse-causality"
+      "psy-reverse-causality",
+      "psy-third-variable"
     ]
   },
   {
@@ -15683,46 +12353,9 @@ export const psychologyConcepts = [
     "why": "Social Desirability Bias adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-common-method",
-      "psy-reverse-causality",
-      "psy-third-variable"
-    ]
-  },
-  {
-    "id": "psy-common-method",
-    "world": "psychology",
-    "name": "Common Method Bias",
-    "pool": "Methods & Controversies",
-    "hook": "What is the central idea behind Common Method Bias?",
-    "question": "Which statement best introduces Common Method Bias?",
-    "options": [
-      "It is used to investigate a question within methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Common Method Bias belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which common method bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating common method bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of common method bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Common Method Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
       "psy-reverse-causality",
       "psy-third-variable",
-      "psy-garden-forking-paths"
+      "psy-bayesian-reasoning"
     ]
   },
   {
@@ -15758,8 +12391,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-third-variable",
-      "psy-garden-forking-paths",
-      "psy-harking"
+      "psy-bayesian-reasoning",
+      "psy-open-science"
     ]
   },
   {
@@ -15794,194 +12427,9 @@ export const psychologyConcepts = [
     "why": "Third-Variable Problem adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-garden-forking-paths",
-      "psy-harking",
-      "psy-replication-direct"
-    ]
-  },
-  {
-    "id": "psy-garden-forking-paths",
-    "world": "psychology",
-    "name": "Garden of Forking Paths",
-    "pool": "Methods & Controversies",
-    "hook": "Where might Garden of Forking Paths show up most clearly?",
-    "question": "Which statement best introduces Garden of Forking Paths?",
-    "options": [
-      "It describes a pattern or mechanism studied in methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Garden of Forking Paths belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which garden of forking paths could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating garden of forking paths as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of garden of forking paths needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Garden of Forking Paths adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-harking",
-      "psy-replication-direct",
-      "psy-replication-conceptual"
-    ]
-  },
-  {
-    "id": "psy-harking",
-    "world": "psychology",
-    "name": "HARKing",
-    "pool": "Methods & Controversies",
-    "hook": "What is the central idea behind HARKing?",
-    "question": "Which statement best introduces HARKing?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within methods & controversies.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "HARKing belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which harking could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating harking as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of harking needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "HARKing adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-replication-direct",
-      "psy-replication-conceptual",
-      "psy-null-results"
-    ]
-  },
-  {
-    "id": "psy-replication-direct",
-    "world": "psychology",
-    "name": "Direct Replication",
-    "pool": "Methods & Controversies",
-    "hook": "Why do psychologists study Direct Replication?",
-    "question": "Which statement best introduces Direct Replication?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about methods & controversies.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Direct Replication belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which direct replication could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating direct replication as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of direct replication needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Direct Replication adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-replication-conceptual",
-      "psy-null-results",
-      "psy-bayesian-reasoning"
-    ]
-  },
-  {
-    "id": "psy-replication-conceptual",
-    "world": "psychology",
-    "name": "Conceptual Replication",
-    "pool": "Methods & Controversies",
-    "hook": "Which situation is most relevant to Conceptual Replication?",
-    "question": "Which statement best introduces Conceptual Replication?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Conceptual Replication belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which conceptual replication could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating conceptual replication as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of conceptual replication needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Conceptual Replication adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-null-results",
       "psy-bayesian-reasoning",
-      "psy-base-rates-method"
-    ]
-  },
-  {
-    "id": "psy-null-results",
-    "world": "psychology",
-    "name": "Null Results",
-    "pool": "Methods & Controversies",
-    "hook": "Where might Null Results show up most clearly?",
-    "question": "Which statement best introduces Null Results?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in methods & controversies.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Null Results belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which null results could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating null results as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of null results needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Null Results adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-bayesian-reasoning",
-      "psy-base-rates-method",
-      "psy-open-science"
+      "psy-open-science",
+      "psy-reliability"
     ]
   },
   {
@@ -16014,43 +12462,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Bayesian Reasoning adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-base-rates-method",
-      "psy-open-science",
-      "psy-reliability"
-    ]
-  },
-  {
-    "id": "psy-base-rates-method",
-    "world": "psychology",
-    "name": "Base Rates in Inference",
-    "pool": "Methods & Controversies",
-    "hook": "Why do psychologists study Base Rates in Inference?",
-    "question": "Which statement best introduces Base Rates in Inference?",
-    "options": [
-      "It helps organize evidence about methods & controversies.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Base Rates in Inference belongs to methods & controversies. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which base rates in inference could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating base rates in inference as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of base rates in inference needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Base Rates in Inference adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-open-science",
@@ -16128,8 +12539,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-concept-formation",
-      "psy-exemplar-theory",
-      "psy-prototype-theory"
+      "psy-prototype-theory",
+      "psy-lexical-access"
     ]
   },
   {
@@ -16164,46 +12575,9 @@ export const psychologyConcepts = [
     "why": "Concept Formation adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-exemplar-theory",
       "psy-prototype-theory",
-      "psy-semantic-network"
-    ]
-  },
-  {
-    "id": "psy-exemplar-theory",
-    "world": "psychology",
-    "name": "Exemplar Theory",
-    "pool": "Language & Thought",
-    "hook": "Why do psychologists study Exemplar Theory?",
-    "question": "Which statement best introduces Exemplar Theory?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about language & thought.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Exemplar Theory belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which exemplar theory could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating exemplar theory as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of exemplar theory needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Exemplar Theory adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-prototype-theory",
-      "psy-semantic-network",
-      "psy-spreading-activation"
+      "psy-lexical-access",
+      "psy-semantic-priming"
     ]
   },
   {
@@ -16238,83 +12612,9 @@ export const psychologyConcepts = [
     "why": "Prototype Theory adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-semantic-network",
-      "psy-spreading-activation",
-      "psy-lexical-access"
-    ]
-  },
-  {
-    "id": "psy-semantic-network",
-    "world": "psychology",
-    "name": "Semantic Networks",
-    "pool": "Language & Thought",
-    "hook": "Where might Semantic Networks show up most clearly?",
-    "question": "Which statement best introduces Semantic Networks?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in language & thought.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Semantic Networks belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which semantic networks could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating semantic networks as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of semantic networks needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Semantic Networks adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-spreading-activation",
       "psy-lexical-access",
-      "psy-word-frequency"
-    ]
-  },
-  {
-    "id": "psy-spreading-activation",
-    "world": "psychology",
-    "name": "Spreading Activation",
-    "pool": "Language & Thought",
-    "hook": "What is the central idea behind Spreading Activation?",
-    "question": "Which statement best introduces Spreading Activation?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within language & thought.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Spreading Activation belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which spreading activation could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating spreading activation as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of spreading activation needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Spreading Activation adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-lexical-access",
-      "psy-word-frequency",
-      "psy-semantic-priming"
+      "psy-semantic-priming",
+      "psy-garden-path"
     ]
   },
   {
@@ -16349,46 +12649,9 @@ export const psychologyConcepts = [
     "why": "Lexical Access adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-word-frequency",
       "psy-semantic-priming",
-      "psy-lexical-ambiguity"
-    ]
-  },
-  {
-    "id": "psy-word-frequency",
-    "world": "psychology",
-    "name": "Word Frequency Effect",
-    "pool": "Language & Thought",
-    "hook": "Which situation is most relevant to Word Frequency Effect?",
-    "question": "Which statement best introduces Word Frequency Effect?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It names a phenomenon, theory or construct relevant to language & thought.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Word Frequency Effect belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which word frequency effect could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating word frequency effect as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of word frequency effect needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Word Frequency Effect adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-semantic-priming",
-      "psy-lexical-ambiguity",
-      "psy-garden-path"
+      "psy-garden-path",
+      "psy-linguistic-relativity"
     ]
   },
   {
@@ -16421,43 +12684,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Semantic Priming adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-lexical-ambiguity",
-      "psy-garden-path",
-      "psy-linguistic-relativity"
-    ]
-  },
-  {
-    "id": "psy-lexical-ambiguity",
-    "world": "psychology",
-    "name": "Lexical Ambiguity",
-    "pool": "Language & Thought",
-    "hook": "What is the central idea behind Lexical Ambiguity?",
-    "question": "Which statement best introduces Lexical Ambiguity?",
-    "options": [
-      "It is used to investigate a question within language & thought.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Lexical Ambiguity belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which lexical ambiguity could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating lexical ambiguity as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of lexical ambiguity needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Lexical Ambiguity adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-garden-path",
@@ -16684,7 +12910,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-bilingualism",
       "psy-code-switching",
-      "psy-tip-of-tongue-bilingual"
+      "psy-metaphor-cognition"
     ]
   },
   {
@@ -16720,8 +12946,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-code-switching",
-      "psy-tip-of-tongue-bilingual",
-      "psy-metaphor-cognition"
+      "psy-metaphor-cognition",
+      "psy-embodied-cognition"
     ]
   },
   {
@@ -16754,43 +12980,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Code-Switching adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-tip-of-tongue-bilingual",
-      "psy-metaphor-cognition",
-      "psy-embodied-cognition"
-    ]
-  },
-  {
-    "id": "psy-tip-of-tongue-bilingual",
-    "world": "psychology",
-    "name": "Bilingual Tip-of-the-Tongue",
-    "pool": "Language & Thought",
-    "hook": "Why do psychologists study Bilingual Tip-of-the-Tongue?",
-    "question": "Which statement best introduces Bilingual Tip-of-the-Tongue?",
-    "options": [
-      "It helps organize evidence about language & thought.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Bilingual Tip-of-the-Tongue belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which bilingual tip-of-the-tongue could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating bilingual tip-of-the-tongue as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of bilingual tip-of-the-tongue needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Bilingual Tip-of-the-Tongue adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-metaphor-cognition",
@@ -16980,7 +13169,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-cognitive-map",
       "psy-numerical-cognition",
-      "psy-subitizing"
+      "psy-problem-representation"
     ]
   },
   {
@@ -17016,8 +13205,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-numerical-cognition",
-      "psy-subitizing",
-      "psy-approx-number"
+      "psy-problem-representation",
+      "psy-analogical-reasoning"
     ]
   },
   {
@@ -17050,80 +13239,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Numerical Cognition adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-subitizing",
-      "psy-approx-number",
-      "psy-problem-representation"
-    ]
-  },
-  {
-    "id": "psy-subitizing",
-    "world": "psychology",
-    "name": "Subitizing",
-    "pool": "Language & Thought",
-    "hook": "Why do psychologists study Subitizing?",
-    "question": "Which statement best introduces Subitizing?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about language & thought.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Subitizing belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which subitizing could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating subitizing as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of subitizing needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Subitizing adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-approx-number",
-      "psy-problem-representation",
-      "psy-analogical-reasoning"
-    ]
-  },
-  {
-    "id": "psy-approx-number",
-    "world": "psychology",
-    "name": "Approximate Number System",
-    "pool": "Language & Thought",
-    "hook": "Which situation is most relevant to Approximate Number System?",
-    "question": "Which statement best introduces Approximate Number System?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to language & thought.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Approximate Number System belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which approximate number system could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating approximate number system as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of approximate number system needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Approximate Number System adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-problem-representation",
@@ -17202,7 +13317,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-insight-problem",
       "psy-confirmation-problem-solving",
-      "psy-means-ends"
+      "psy-expertise"
     ]
   },
   {
@@ -17238,8 +13353,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-confirmation-problem-solving",
-      "psy-means-ends",
-      "psy-heuristic-search"
+      "psy-expertise",
+      "psy-deliberate-practice"
     ]
   },
   {
@@ -17272,80 +13387,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Confirmation in Problem Solving adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-means-ends",
-      "psy-heuristic-search",
-      "psy-expertise"
-    ]
-  },
-  {
-    "id": "psy-means-ends",
-    "world": "psychology",
-    "name": "Means-End Analysis",
-    "pool": "Language & Thought",
-    "hook": "Where might Means-End Analysis show up most clearly?",
-    "question": "Which statement best introduces Means-End Analysis?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in language & thought.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Means-End Analysis belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which means-end analysis could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating means-end analysis as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of means-end analysis needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Means-End Analysis adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-heuristic-search",
-      "psy-expertise",
-      "psy-deliberate-practice"
-    ]
-  },
-  {
-    "id": "psy-heuristic-search",
-    "world": "psychology",
-    "name": "Heuristic Search",
-    "pool": "Language & Thought",
-    "hook": "What is the central idea behind Heuristic Search?",
-    "question": "Which statement best introduces Heuristic Search?",
-    "options": [
-      "It is used to investigate a question within language & thought.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Heuristic Search belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which heuristic search could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating heuristic search as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of heuristic search needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Heuristic Search adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-expertise",
@@ -17387,7 +13428,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-deliberate-practice",
       "psy-transfer-learning",
-      "psy-near-transfer"
+      "psy-metaphor-framing"
     ]
   },
   {
@@ -17423,8 +13464,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-transfer-learning",
-      "psy-near-transfer",
-      "psy-far-transfer"
+      "psy-metaphor-framing",
+      "psy-categorization"
     ]
   },
   {
@@ -17457,80 +13498,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Transfer of Learning adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-near-transfer",
-      "psy-far-transfer",
-      "psy-metaphor-framing"
-    ]
-  },
-  {
-    "id": "psy-near-transfer",
-    "world": "psychology",
-    "name": "Near Transfer",
-    "pool": "Language & Thought",
-    "hook": "What is the central idea behind Near Transfer?",
-    "question": "Which statement best introduces Near Transfer?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within language & thought.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Near Transfer belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which near transfer could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating near transfer as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of near transfer needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Near Transfer adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-far-transfer",
-      "psy-metaphor-framing",
-      "psy-categorization"
-    ]
-  },
-  {
-    "id": "psy-far-transfer",
-    "world": "psychology",
-    "name": "Far Transfer",
-    "pool": "Language & Thought",
-    "hook": "Why do psychologists study Far Transfer?",
-    "question": "Which statement best introduces Far Transfer?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about language & thought.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Far Transfer belongs to language & thought. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which far transfer could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating far transfer as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of far transfer needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Far Transfer adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-metaphor-framing",
@@ -17572,7 +13539,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-categorization",
       "psy-concept-formation",
-      "psy-exemplar-theory"
+      "psy-prototype-theory"
     ]
   },
   {
@@ -17605,43 +13572,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Kin Selection adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-inclusive-fitness",
-      "psy-reciprocal-altruism",
-      "psy-parental-investment"
-    ]
-  },
-  {
-    "id": "psy-inclusive-fitness",
-    "world": "psychology",
-    "name": "Inclusive Fitness",
-    "pool": "Evolution & Behavior",
-    "hook": "What is the central idea behind Inclusive Fitness?",
-    "question": "Which statement best introduces Inclusive Fitness?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Inclusive Fitness belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which inclusive fitness could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating inclusive fitness as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of inclusive fitness needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Inclusive Fitness adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-reciprocal-altruism",
@@ -17720,7 +13650,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-sexual-selection",
       "psy-mate-choice",
-      "psy-intrasexual-competition"
+      "psy-cooperation-evolution"
     ]
   },
   {
@@ -17756,8 +13686,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-mate-choice",
-      "psy-intrasexual-competition",
-      "psy-cooperation-evolution"
+      "psy-cooperation-evolution",
+      "psy-costly-signals"
     ]
   },
   {
@@ -17792,46 +13722,9 @@ export const psychologyConcepts = [
     "why": "Mate Choice adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-intrasexual-competition",
       "psy-cooperation-evolution",
-      "psy-cheater-detection"
-    ]
-  },
-  {
-    "id": "psy-intrasexual-competition",
-    "world": "psychology",
-    "name": "Intrasexual Competition",
-    "pool": "Evolution & Behavior",
-    "hook": "Why do psychologists study Intrasexual Competition?",
-    "question": "Which statement best introduces Intrasexual Competition?",
-    "options": [
-      "It helps organize evidence about evolution & behavior.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Intrasexual Competition belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which intrasexual competition could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating intrasexual competition as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of intrasexual competition needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Intrasexual Competition adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-cooperation-evolution",
-      "psy-cheater-detection",
-      "psy-costly-signals"
+      "psy-costly-signals",
+      "psy-life-history"
     ]
   },
   {
@@ -17866,46 +13759,9 @@ export const psychologyConcepts = [
     "why": "Evolution of Cooperation adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-cheater-detection",
       "psy-costly-signals",
-      "psy-handicap-principle"
-    ]
-  },
-  {
-    "id": "psy-cheater-detection",
-    "world": "psychology",
-    "name": "Cheater Detection",
-    "pool": "Evolution & Behavior",
-    "hook": "Where might Cheater Detection show up most clearly?",
-    "question": "Which statement best introduces Cheater Detection?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Cheater Detection belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which cheater detection could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating cheater detection as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of cheater detection needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Cheater Detection adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-costly-signals",
-      "psy-handicap-principle",
-      "psy-life-history"
+      "psy-life-history",
+      "psy-coalitional-psychology"
     ]
   },
   {
@@ -17940,46 +13796,9 @@ export const psychologyConcepts = [
     "why": "Costly Signals adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-handicap-principle",
       "psy-life-history",
-      "psy-parent-offspring-conflict"
-    ]
-  },
-  {
-    "id": "psy-handicap-principle",
-    "world": "psychology",
-    "name": "Handicap Principle",
-    "pool": "Evolution & Behavior",
-    "hook": "Why do psychologists study Handicap Principle?",
-    "question": "Which statement best introduces Handicap Principle?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Handicap Principle belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which handicap principle could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating handicap principle as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of handicap principle needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Handicap Principle adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-life-history",
-      "psy-parent-offspring-conflict",
-      "psy-sibling-rivalry"
+      "psy-coalitional-psychology",
+      "psy-status"
     ]
   },
   {
@@ -18012,117 +13831,6 @@ export const psychologyConcepts = [
       ]
     ],
     "why": "Life History Theory adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-parent-offspring-conflict",
-      "psy-sibling-rivalry",
-      "psy-kin-recognition"
-    ]
-  },
-  {
-    "id": "psy-parent-offspring-conflict",
-    "world": "psychology",
-    "name": "Parent-Offspring Conflict",
-    "pool": "Evolution & Behavior",
-    "hook": "Where might Parent-Offspring Conflict show up most clearly?",
-    "question": "Which statement best introduces Parent-Offspring Conflict?",
-    "options": [
-      "It describes a pattern or mechanism studied in evolution & behavior.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Parent-Offspring Conflict belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which parent-offspring conflict could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating parent-offspring conflict as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of parent-offspring conflict needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Parent-Offspring Conflict adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-sibling-rivalry",
-      "psy-kin-recognition",
-      "psy-coalitional-psychology"
-    ]
-  },
-  {
-    "id": "psy-sibling-rivalry",
-    "world": "psychology",
-    "name": "Sibling Competition",
-    "pool": "Evolution & Behavior",
-    "hook": "What is the central idea behind Sibling Competition?",
-    "question": "Which statement best introduces Sibling Competition?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Sibling Competition belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which sibling competition could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating sibling competition as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of sibling competition needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Sibling Competition adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-kin-recognition",
-      "psy-coalitional-psychology",
-      "psy-status"
-    ]
-  },
-  {
-    "id": "psy-kin-recognition",
-    "world": "psychology",
-    "name": "Kin Recognition",
-    "pool": "Evolution & Behavior",
-    "hook": "Why do psychologists study Kin Recognition?",
-    "question": "Which statement best introduces Kin Recognition?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Kin Recognition belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which kin recognition could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating kin recognition as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of kin recognition needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Kin Recognition adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-coalitional-psychology",
@@ -18238,7 +13946,7 @@ export const psychologyConcepts = [
     "related": [
       "psy-dominance",
       "psy-social-learning-evolution",
-      "psy-conformist-transmission"
+      "psy-kin-selection"
     ]
   },
   {
@@ -18274,8 +13982,8 @@ export const psychologyConcepts = [
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
       "psy-social-learning-evolution",
-      "psy-conformist-transmission",
-      "psy-prestige-bias"
+      "psy-kin-selection",
+      "psy-reciprocal-altruism"
     ]
   },
   {
@@ -18310,379 +14018,9 @@ export const psychologyConcepts = [
     "why": "Cultural Social Learning adds another piece to a broader model of how people think, feel, learn and interact.",
     "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
     "related": [
-      "psy-conformist-transmission",
-      "psy-prestige-bias",
-      "psy-cumulative-culture"
-    ]
-  },
-  {
-    "id": "psy-conformist-transmission",
-    "world": "psychology",
-    "name": "Conformist Transmission",
-    "pool": "Evolution & Behavior",
-    "hook": "Where might Conformist Transmission show up most clearly?",
-    "question": "Which statement best introduces Conformist Transmission?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It describes a pattern or mechanism studied in evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Conformist Transmission belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which conformist transmission could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating conformist transmission as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of conformist transmission needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Conformist Transmission adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-prestige-bias",
-      "psy-cumulative-culture",
-      "psy-gene-culture"
-    ]
-  },
-  {
-    "id": "psy-prestige-bias",
-    "world": "psychology",
-    "name": "Prestige Bias",
-    "pool": "Evolution & Behavior",
-    "hook": "What is the central idea behind Prestige Bias?",
-    "question": "Which statement best introduces Prestige Bias?",
-    "options": [
-      "It is used to investigate a question within evolution & behavior.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Prestige Bias belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which prestige bias could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating prestige bias as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of prestige bias needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Prestige Bias adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-cumulative-culture",
-      "psy-gene-culture",
-      "psy-mismatch"
-    ]
-  },
-  {
-    "id": "psy-cumulative-culture",
-    "world": "psychology",
-    "name": "Cumulative Culture",
-    "pool": "Evolution & Behavior",
-    "hook": "Why do psychologists study Cumulative Culture?",
-    "question": "Which statement best introduces Cumulative Culture?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It helps organize evidence about evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Cumulative Culture belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which cumulative culture could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating cumulative culture as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of cumulative culture needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Cumulative Culture adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-gene-culture",
-      "psy-mismatch",
-      "psy-pathogen-avoidance"
-    ]
-  },
-  {
-    "id": "psy-gene-culture",
-    "world": "psychology",
-    "name": "Gene-Culture Coevolution",
-    "pool": "Evolution & Behavior",
-    "hook": "Which situation is most relevant to Gene-Culture Coevolution?",
-    "question": "Which statement best introduces Gene-Culture Coevolution?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It names a phenomenon, theory or construct relevant to evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Gene-Culture Coevolution belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which gene-culture coevolution could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating gene-culture coevolution as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of gene-culture coevolution needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Gene-Culture Coevolution adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-mismatch",
-      "psy-pathogen-avoidance",
-      "psy-disgust"
-    ]
-  },
-  {
-    "id": "psy-mismatch",
-    "world": "psychology",
-    "name": "Evolutionary Mismatch",
-    "pool": "Evolution & Behavior",
-    "hook": "Where might Evolutionary Mismatch show up most clearly?",
-    "question": "Which statement best introduces Evolutionary Mismatch?",
-    "options": [
-      "It describes a pattern or mechanism studied in evolution & behavior.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Evolutionary Mismatch belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which evolutionary mismatch could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating evolutionary mismatch as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of evolutionary mismatch needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Evolutionary Mismatch adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-pathogen-avoidance",
-      "psy-disgust",
-      "psy-incest-avoidance"
-    ]
-  },
-  {
-    "id": "psy-pathogen-avoidance",
-    "world": "psychology",
-    "name": "Behavioral Immune System",
-    "pool": "Evolution & Behavior",
-    "hook": "What is the central idea behind Behavioral Immune System?",
-    "question": "Which statement best introduces Behavioral Immune System?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It is used to investigate a question within evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Behavioral Immune System belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which behavioral immune system could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating behavioral immune system as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of behavioral immune system needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Behavioral Immune System adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-disgust",
-      "psy-incest-avoidance",
-      "psy-attachment-evolution"
-    ]
-  },
-  {
-    "id": "psy-disgust",
-    "world": "psychology",
-    "name": "Disgust",
-    "pool": "Evolution & Behavior",
-    "hook": "Why do psychologists study Disgust?",
-    "question": "Which statement best introduces Disgust?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It helps organize evidence about evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Disgust belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which disgust could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating disgust as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of disgust needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Disgust adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-incest-avoidance",
-      "psy-attachment-evolution",
-      "psy-play"
-    ]
-  },
-  {
-    "id": "psy-incest-avoidance",
-    "world": "psychology",
-    "name": "Incest Avoidance",
-    "pool": "Evolution & Behavior",
-    "hook": "Which situation is most relevant to Incest Avoidance?",
-    "question": "Which statement best introduces Incest Avoidance?",
-    "options": [
-      "It names a phenomenon, theory or construct relevant to evolution & behavior.",
-      "It is a fixed law that applies identically to everyone.",
-      "It refers only to brain anatomy.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Incest Avoidance belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which incest avoidance could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating incest avoidance as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of incest avoidance needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Incest Avoidance adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-attachment-evolution",
-      "psy-play",
-      "psy-kin-selection"
-    ]
-  },
-  {
-    "id": "psy-attachment-evolution",
-    "world": "psychology",
-    "name": "Attachment as an Adaptive System",
-    "pool": "Evolution & Behavior",
-    "hook": "Where might Attachment as an Adaptive System show up most clearly?",
-    "question": "Which statement best introduces Attachment as an Adaptive System?",
-    "options": [
-      "It is a personality diagnosis by itself.",
-      "It describes a pattern or mechanism studied in evolution & behavior.",
-      "It guarantees a particular behavior.",
-      "I don’t know"
-    ],
-    "answer": 1,
-    "reveal": "Attachment as an Adaptive System belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which attachment as an adaptive system could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating attachment as an adaptive system as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of attachment as an adaptive system needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Attachment as an Adaptive System adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-play",
       "psy-kin-selection",
-      "psy-inclusive-fitness"
-    ]
-  },
-  {
-    "id": "psy-play",
-    "world": "psychology",
-    "name": "Play Behavior",
-    "pool": "Evolution & Behavior",
-    "hook": "What is the central idea behind Play Behavior?",
-    "question": "Which statement best introduces Play Behavior?",
-    "options": [
-      "It means context never matters.",
-      "It cannot be tested with evidence.",
-      "It is used to investigate a question within evolution & behavior.",
-      "I don’t know"
-    ],
-    "answer": 2,
-    "reveal": "Play Behavior belongs to evolution & behavior. Psychologists use the idea to describe, predict or explain a specific part of human experience or behavior. The important scientific question is not just whether the label sounds plausible, but what evidence supports it and under which conditions it changes.",
-    "examples": [
-      [
-        "Notice it",
-        "Look for a concrete situation in which play behavior could change what someone notices, expects, feels or does."
-      ],
-      [
-        "Compare",
-        "Ask what a competing explanation would predict in the same situation instead of treating play behavior as automatic."
-      ],
-      [
-        "Evidence",
-        "A useful study of play behavior needs a measurable prediction and a comparison that can distinguish it from alternatives."
-      ]
-    ],
-    "why": "Play Behavior adds another piece to a broader model of how people think, feel, learn and interact.",
-    "caveat": "This is an introductory card. Psychological effects and theories vary in evidential strength, size, boundary conditions and cross-cultural generality.",
-    "related": [
-      "psy-kin-selection",
-      "psy-inclusive-fitness",
-      "psy-reciprocal-altruism"
+      "psy-reciprocal-altruism",
+      "psy-parental-investment"
     ]
   }
 ];
