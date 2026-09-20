@@ -1,8 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
 import {concepts} from '../data/concepts';
-import {economicsDepth} from '../data/economicsDepth';
-import {economicsQuestions} from '../data/economicsQuestions';
 
 const worlds=[
  {id:'psychology',name:'Psychology & Human Behavior',desc:'Mind, learning, emotion, relationships, development and psychological science.'},
@@ -37,11 +35,11 @@ const bodyMap={
  'calves':['back',43,85],'gastrocnemius':['back',43,83],'soleus':['back',43,88],'hip-flexors':['front',43,59]
 };
 
-function economicsParagraphs(concept){
- const depth=economicsDepth.notes[concept.id];
- const frame=economicsDepth.topicFrames[concept.topic];
- return [concept.reveal,depth,frame].filter(Boolean);
-}
+const conceptPath=concept=>concept.path?.length
+ ? concept.path
+ : [concept.pool,concept.topic].filter((part,index,array)=>part&&array.indexOf(part)===index);
+
+const hasPrefix=(path,prefix)=>prefix.every((part,index)=>path[index]===part);
 
 function BodyVisual({media,name}){
  const p=bodyMap[media?.region]; if(!p)return null; const back=p[0]==='back';
@@ -56,38 +54,43 @@ export default function Home(){
  const [seen,setSeen]=useState([]);
  const [known,setKnown]=useState([]);
  const [world,setWorld]=useState('psychology');
- const [category,setCategory]=useState('');
- const [topic,setTopic]=useState('');
- const [revealed,setRevealed]=useState(false);
+ const [trail,setTrail]=useState([]);
 
  useEffect(()=>{try{setSeen(JSON.parse(localStorage.getItem('ce-seen')||'[]'));setKnown(JSON.parse(localStorage.getItem('ce-known')||'[]'))}catch{}},[]);
  const persist=(s,k)=>{setSeen(s);setKnown(k);localStorage.setItem('ce-seen',JSON.stringify(s));localStorage.setItem('ce-known',JSON.stringify(k))};
  const itemsFor=id=>concepts.filter(c=>(c.world||'psychology')===id);
  const worldConcepts=itemsFor(world);
  const currentWorld=worlds.find(w=>w.id===world);
- const headings=[...new Set(worldConcepts.map(c=>c.pool).filter(Boolean))];
- const subheadsFor=label=>[...new Set(worldConcepts.filter(c=>c.pool===label).map(c=>c.topic||c.pool).filter(Boolean))];
- const poolFor=(cat=category,sub=topic)=>worldConcepts.filter(c=>(!cat||c.pool===cat)&&(!sub||(c.topic||c.pool)===sub));
+ const conceptsAt=(path=trail)=>worldConcepts.filter(c=>hasPrefix(conceptPath(c),path));
+ const childrenAt=(path=trail)=>[...new Set(conceptsAt(path).map(c=>conceptPath(c)[path.length]).filter(Boolean))];
+ const isTerminal=path=>childrenAt(path).length===0;
  const worldCount=id=>itemsFor(id).length;
 
- const chooseWorld=id=>{setWorld(id);setCategory('');setTopic('');setConcept(null);setPicked(null);setRevealed(false);setScreen('categories')};
- const chooseCategory=label=>{
-   const subs=[...new Set(itemsFor(world).filter(c=>c.pool===label).map(c=>c.topic||c.pool).filter(Boolean))];
-   setCategory(label);setTopic('');setConcept(null);setPicked(null);
-   if(subs.length<=1){const p=itemsFor(world).filter(c=>c.pool===label);setCards(diverseSample(p,5));setScreen('browse')}
-   else setScreen('subcategories');
+ const chooseWorld=id=>{setWorld(id);setTrail([]);setConcept(null);setPicked(null);setScreen('hierarchy')};
+ const chooseBranch=label=>{
+   const next=[...trail,label];
+   setTrail(next);setConcept(null);setPicked(null);
+   if(isTerminal(next)){setCards(diverseSample(conceptsAt(next),5));setScreen('browse')}
+   else setScreen('hierarchy');
  };
- const chooseTopic=label=>{setTopic(label);setCards(diverseSample(poolFor(category,label),5));setScreen('browse');setConcept(null);setPicked(null)};
- const discover=()=>{const p=poolFor();setCards(diverseSample(p,5,cards.map(x=>x.id)));setScreen('browse');setConcept(null);setPicked(null)};
- const open=c=>{setConcept(c);setPicked(null);setRevealed(false);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
+ const discover=()=>{const p=conceptsAt();setCards(diverseSample(p,5,cards.map(x=>x.id)));setScreen('browse');setConcept(null);setPicked(null)};
+ const open=c=>{setConcept(c);setPicked(null);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
  const answer=i=>{setPicked(i);if(i===concept.answer&&!known.includes(concept.id))persist(seen.includes(concept.id)?seen:[...seen,concept.id],[...known,concept.id])};
- const related=()=>open(worldConcepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)||worldConcepts.find(x=>x.id!==concept.id));
+ const related=()=>{
+   const path=conceptPath(concept);
+   open(worldConcepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)
+     ||worldConcepts.find(x=>x.id!==concept.id&&hasPrefix(conceptPath(x),path))
+     ||worldConcepts.find(x=>x.id!==concept.id));
+ };
  const exploreTopic=()=>{
-   const cat=concept.pool,sub=concept.topic||concept.pool;
-   setCategory(cat);setTopic(sub);setCards(diverseSample(worldConcepts.filter(x=>x.pool===cat&&(x.topic||x.pool)===sub&&x.id!==concept.id),5));
+   const path=conceptPath(concept);
+   setTrail(path);setCards(diverseSample(worldConcepts.filter(x=>hasPrefix(conceptPath(x),path)&&x.id!==concept.id),5));
    setConcept(null);setPicked(null);setScreen('browse');
  };
- const backFromBrowse=()=>setScreen(topic&&subheadsFor(category).length>1?'subcategories':'categories');
+ const backOneLevel=()=>{
+   if(trail.length===0){setScreen('worlds');return}
+   setTrail(trail.slice(0,-1));setScreen('hierarchy');
+ };
 
  return <main>
   <nav>
@@ -113,35 +116,27 @@ export default function Home(){
    })}</div>
   </section>}
 
-  {screen==='categories'&&<section className="wrap">
-   <button className="back" onClick={()=>setScreen('worlds')}>← All worlds</button>
-   <div className="eyebrow">{currentWorld?.name.toUpperCase()}</div><h2>Choose an area.</h2>
-   <p className="muted">{worldConcepts.length} concepts. Broad areas first, then the deeper subtopics.</p>
-   <div className="categorygrid">{headings.map(label=>{
-     const subs=subheadsFor(label), count=worldConcepts.filter(c=>c.pool===label).length;
-     return <button className="category" key={label} onClick={()=>chooseCategory(label)}>
-      <small>{count} concepts · {subs.length} {subs.length===1?'topic':'topics'}</small>
+  {screen==='hierarchy'&&<section className="wrap">
+   {trail.length===0
+    ? <button className="back" onClick={()=>setScreen('worlds')}>← All worlds</button>
+    : <button className="back" onClick={backOneLevel}>← {trail.length===1?currentWorld?.name:trail[trail.length-2]}</button>}
+   <div className="eyebrow">{[currentWorld?.name,...trail].filter(Boolean).join(' · ').toUpperCase()}</div><h2>{trail.length===0?'Choose an area.':'Choose a section.'}</h2>
+   <p className="muted">{conceptsAt().length} concepts. Every branch below is shown.</p>
+   <div className={trail.length===0?'categorygrid':'topicgrid'}>{childrenAt().map(label=>{
+     const next=[...trail,label], descendants=childrenAt(next), count=conceptsAt(next).length;
+     return <button className={trail.length===0?'category':'topiccard'} key={label} onClick={()=>chooseBranch(label)}>
+      <small>{count} concepts{descendants.length?` · ${descendants.length} ${descendants.length===1?'section':'sections'}`:''}</small>
       <h3>{label}</h3>
-      <div className="subpreview">{subs.slice(0,4).map(s=><span key={s}>{s}</span>)}{subs.length>4&&<span>+{subs.length-4} more</span>}</div>
-      <b>{subs.length>1?'View topics →':'Study →'}</b>
+      {descendants.length>0&&<div className="subpreview">{descendants.map(s=><span key={s}>{s}</span>)}</div>}
+      <b>{descendants.length?'Open sections →':'Study concepts →'}</b>
      </button>
    })}</div>
   </section>}
 
-  {screen==='subcategories'&&<section className="wrap">
-   <button className="back" onClick={()=>setScreen('categories')}>← {currentWorld?.name}</button>
-   <div className="eyebrow">{category.toUpperCase()}</div><h2>Choose a topic.</h2>
-   <p className="muted">Go specific, or return to the broader area at any time.</p>
-   <div className="topicgrid">{subheadsFor(category).map(label=>{
-     const count=worldConcepts.filter(c=>c.pool===category&&(c.topic||c.pool)===label).length;
-     return <button className="topiccard" key={label} onClick={()=>chooseTopic(label)}><small>{count} concepts</small><h3>{label}</h3><b>Study →</b></button>
-   })}</div>
-  </section>}
-
   {screen==='browse'&&<section className="wrap browse">
-   <button className="back" onClick={backFromBrowse}>← {topic&&subheadsFor(category).length>1?'Topics':'Areas'}</button>
-   <div className="browsehead"><div><div className="eyebrow">{currentWorld?.name.toUpperCase()} · {(topic||category||'DISCOVERY').toUpperCase()}</div><h2>{world==='economics'?'Pick one concept.':'Pick one question.'}</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
-   <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.world==='economics'?(economicsQuestions[c.id]?.question||c.hook):c.hook}</p></div><b>→</b></button>)}</div>
+   <button className="back" onClick={backOneLevel}>← Sections</button>
+   <div className="browsehead"><div><div className="eyebrow">{[currentWorld?.name,...trail].filter(Boolean).join(' · ').toUpperCase()}</div><h2>{world==='economics'?'Pick one concept.':'Pick one question.'}</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
+   <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.hook}</p></div><b>→</b></button>)}</div>
   </section>}
 
   {screen==='play'&&concept&&<section className="lesson wrap">
@@ -152,11 +147,10 @@ export default function Home(){
 
    {concept.world==='economics'?<>
     <div className="econprompt">
-     <p className="econquestion">{economicsQuestions[concept.id]?.question||concept.hook}</p>
-     {economicsQuestions[concept.id]?.expanded&&<p className="econexpanded">{economicsQuestions[concept.id].expanded}</p>}
+     <p className="econquestion">{concept.question||concept.hook}</p>
     </div>
     <article className="econdeep">
-     {economicsParagraphs(concept).map((paragraph,i)=><p className={i===0?'econlead':''} key={i}>{paragraph}</p>)}
+     <p className="econlead">{concept.back||concept.reveal}</p>
     </article>
     <div className="next econnext"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
    </>:<>

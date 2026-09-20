@@ -1,7 +1,7 @@
 import {psychologyConcepts} from './psychology';
 import {neuroscienceConcepts} from './neuroscience';
 import {bodyConcepts} from './body';
-import {economicsConcepts} from './economics';
+import {expandedEconomicsConcepts} from './economicsExpanded';
 import {socialSciencesConcepts} from './socialSciences';
 import {middleEastHistoryConcepts} from './middleEastHistory';
 import {continentalPhilosophyConcepts} from './continentalPhilosophy';
@@ -87,4 +87,4 @@ const baseConcepts=[
 {"id":"majlis","world":"gulf","name":"The Majlis","pool":"Society","hook":"Why is the majlis more than simply a room?","question":"In Gulf social life, majlis commonly refers to…","options":["A gathering space and social institution","A type of oil well","A currency","I don’t know"],"answer":0,"reveal":"Majlis refers both to a place of gathering and a social practice of receiving guests, discussion and community interaction.","examples":[["Society","It provides a window into hospitality, social networks and consultation in Gulf societies."],["Connection","This idea becomes clearer when connected to neighboring concepts."],["Use it","Treat it as a lens for noticing patterns, not an isolated fact."]],"why":"It provides a window into hospitality, social networks and consultation in Gulf societies.","caveat":"This is a compact introduction; context and evidence can add important nuance.","related":["pearling-gulf"]}
  ];
 
-export const concepts = [...baseConcepts.filter(c=>c.world==='gulf'), ...psychologyConcepts, ...neuroscienceConcepts, ...bodyConcepts, ...economicsConcepts, ...socialSciencesConcepts, ...middleEastHistoryConcepts, ...continentalPhilosophyConcepts, ...analyticPhilosophyConcepts, ...europeanHistoryConcepts, ...modernEuropeanHistoryConcepts];
+export const concepts = [...baseConcepts.filter(c=>c.world==='gulf'), ...psychologyConcepts, ...neuroscienceConcepts, ...bodyConcepts, ...expandedEconomicsConcepts, ...socialSciencesConcepts, ...middleEastHistoryConcepts, ...continentalPhilosophyConcepts, ...analyticPhilosophyConcepts, ...europeanHistoryConcepts, ...modernEuropeanHistoryConcepts];
