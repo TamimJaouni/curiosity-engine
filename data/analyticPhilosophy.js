@@ -6,30 +6,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Gottlob Frege",
     "hook": "What problem or argument is Gottlob Frege really about?",
-    "question": "Which description best captures Gottlob Frege?",
+    "question": "Why does Gottlob Frege matter to Origins & Early Analytic Philosophy?",
     "options": [
-      "Gottlob Frege is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Gottlob Frege is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gottlob Frege is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Gottlob Frege is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Gottlob Frege."
+        "Clarify",
+        "State the central claim behind Gottlob Frege without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Gottlob Frege difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Gottlob Frege."
       ],
       [
-        "Connection",
-        "Compare it with Sense and Reference to see how the debate develops."
+        "Compare",
+        "Use Sense and Reference to see which assumption the debate turns on."
       ]
     ],
-    "why": "Gottlob Frege matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Gottlob Frege matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-sense-and-reference",
@@ -82,30 +82,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Concept and Object",
     "hook": "What problem or argument is Concept and Object really about?",
-    "question": "Which description best captures Concept and Object?",
+    "question": "What philosophical work does Concept and Object do?",
     "options": [
-      "Concept and Object is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Concept and Object addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Concept and Object is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Concept and Object addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Concept and Object."
+        "Clarify",
+        "State the central claim behind Concept and Object without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Concept and Object difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Concept and Object."
       ],
       [
-        "Connection",
-        "Compare it with Context Principle to see how the debate develops."
+        "Compare",
+        "Use Context Principle to see which assumption the debate turns on."
       ]
     ],
-    "why": "Concept and Object matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Concept and Object matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-context-principle",
@@ -120,30 +120,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Context Principle",
     "hook": "What problem or argument is Context Principle really about?",
-    "question": "Which description best captures Context Principle?",
+    "question": "What philosophical work does Context Principle do?",
     "options": [
-      "Context Principle is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Context Principle addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Context Principle is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Context Principle addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Context Principle."
+        "Clarify",
+        "State the central claim behind Context Principle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Context Principle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Context Principle."
       ],
       [
-        "Connection",
-        "Compare it with Frege's Logicism to see how the debate develops."
+        "Compare",
+        "Use Frege's Logicism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Context Principle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Context Principle matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-frege-s-logicism",
@@ -158,30 +158,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Frege's Logicism",
     "hook": "What problem or argument is Frege's Logicism really about?",
-    "question": "Which description best captures Frege's Logicism?",
+    "question": "What philosophical work does Frege's Logicism do?",
     "options": [
-      "Frege's Logicism is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Frege's Logicism addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Frege's Logicism is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Frege's Logicism addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Frege's Logicism."
+        "Clarify",
+        "State the central claim behind Frege's Logicism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Frege's Logicism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Frege's Logicism."
       ],
       [
-        "Connection",
-        "Compare it with Bertrand Russell to see how the debate develops."
+        "Compare",
+        "Use Bertrand Russell to see which assumption the debate turns on."
       ]
     ],
-    "why": "Frege's Logicism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Frege's Logicism matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-bertrand-russell",
@@ -196,30 +196,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Bertrand Russell",
     "hook": "What problem or argument is Bertrand Russell really about?",
-    "question": "Which description best captures Bertrand Russell?",
+    "question": "Why does Bertrand Russell matter to Origins & Early Analytic Philosophy?",
     "options": [
-      "Bertrand Russell is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Bertrand Russell is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bertrand Russell is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Bertrand Russell is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Bertrand Russell."
+        "Clarify",
+        "State the central claim behind Bertrand Russell without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Bertrand Russell difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Bertrand Russell."
       ],
       [
-        "Connection",
-        "Compare it with Russell's Paradox to see how the debate develops."
+        "Compare",
+        "Use Russell's Paradox to see which assumption the debate turns on."
       ]
     ],
-    "why": "Bertrand Russell matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Bertrand Russell matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-russell-s-paradox",
@@ -310,30 +310,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Logical Atomism",
     "hook": "What problem or argument is Logical Atomism really about?",
-    "question": "Which description best captures Logical Atomism?",
+    "question": "What philosophical work does Logical Atomism do?",
     "options": [
-      "Logical Atomism is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Logical Atomism addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Logical Atomism is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Logical Atomism addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Logical Atomism."
+        "Clarify",
+        "State the central claim behind Logical Atomism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Logical Atomism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Logical Atomism."
       ],
       [
-        "Connection",
-        "Compare it with G. E. Moore to see how the debate develops."
+        "Compare",
+        "Use G. E. Moore to see which assumption the debate turns on."
       ]
     ],
-    "why": "Logical Atomism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Logical Atomism matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-g-e-moore",
@@ -348,30 +348,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "G. E. Moore",
     "hook": "What problem or argument is G. E. Moore really about?",
-    "question": "Which description best captures G. E. Moore?",
+    "question": "Why does G. E. Moore matter to Origins & Early Analytic Philosophy?",
     "options": [
-      "G. E. Moore is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "G. E. Moore is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "G. E. Moore is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "G. E. Moore is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in G. E. Moore."
+        "Clarify",
+        "State the central claim behind G. E. Moore without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make G. E. Moore difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to G. E. Moore."
       ],
       [
-        "Connection",
-        "Compare it with Moore's Common Sense to see how the debate develops."
+        "Compare",
+        "Use Moore's Common Sense to see which assumption the debate turns on."
       ]
     ],
-    "why": "G. E. Moore matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "G. E. Moore matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moore-s-common-sense",
@@ -386,30 +386,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Moore's Common Sense",
     "hook": "What problem or argument is Moore's Common Sense really about?",
-    "question": "Which description best captures Moore's Common Sense?",
+    "question": "What philosophical work does Moore's Common Sense do?",
     "options": [
-      "Moore's Common Sense is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moore's Common Sense addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moore's Common Sense is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moore's Common Sense addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moore's Common Sense."
+        "Clarify",
+        "State the central claim behind Moore's Common Sense without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moore's Common Sense difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moore's Common Sense."
       ],
       [
-        "Connection",
-        "Compare it with Open Question Argument to see how the debate develops."
+        "Compare",
+        "Use Open Question Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moore's Common Sense matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moore's Common Sense matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-open-question-argument",
@@ -462,30 +462,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Early Wittgenstein",
     "hook": "What problem or argument is Early Wittgenstein really about?",
-    "question": "Which description best captures Early Wittgenstein?",
+    "question": "Why does Early Wittgenstein matter to Origins & Early Analytic Philosophy?",
     "options": [
-      "Early Wittgenstein is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Early Wittgenstein is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Early Wittgenstein is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Early Wittgenstein is important in Origins & Early Analytic Philosophy because their work reshaped debates about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Early Wittgenstein."
+        "Clarify",
+        "State the central claim behind Early Wittgenstein without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Early Wittgenstein difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Early Wittgenstein."
       ],
       [
-        "Connection",
-        "Compare it with Picture Theory of Meaning to see how the debate develops."
+        "Compare",
+        "Use Picture Theory of Meaning to see which assumption the debate turns on."
       ]
     ],
-    "why": "Early Wittgenstein matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Early Wittgenstein matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-picture-theory-of-meaning",
@@ -538,30 +538,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Logical Form",
     "hook": "What problem or argument is Logical Form really about?",
-    "question": "Which description best captures Logical Form?",
+    "question": "What philosophical work does Logical Form do?",
     "options": [
-      "Logical Form is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Logical Form addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Logical Form is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Logical Form addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Logical Form."
+        "Clarify",
+        "State the central claim behind Logical Form without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Logical Form difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Logical Form."
       ],
       [
-        "Connection",
-        "Compare it with Saying and Showing to see how the debate develops."
+        "Compare",
+        "Use Saying and Showing to see which assumption the debate turns on."
       ]
     ],
-    "why": "Logical Form matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Logical Form matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-saying-and-showing",
@@ -576,30 +576,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Saying and Showing",
     "hook": "What problem or argument is Saying and Showing really about?",
-    "question": "Which description best captures Saying and Showing?",
+    "question": "What philosophical work does Saying and Showing do?",
     "options": [
-      "Saying and Showing is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Saying and Showing addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Saying and Showing is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Saying and Showing addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Saying and Showing."
+        "Clarify",
+        "State the central claim behind Saying and Showing without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Saying and Showing difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Saying and Showing."
       ],
       [
-        "Connection",
-        "Compare it with Tractatus to see how the debate develops."
+        "Compare",
+        "Use Tractatus to see which assumption the debate turns on."
       ]
     ],
-    "why": "Saying and Showing matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Saying and Showing matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-tractatus",
@@ -614,30 +614,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Origins & Early Analytic Philosophy",
     "name": "Tractatus",
     "hook": "What problem or argument is Tractatus really about?",
-    "question": "Which description best captures Tractatus?",
+    "question": "What philosophical work does Tractatus do?",
     "options": [
-      "Tractatus is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Tractatus addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tractatus is a substantive position, argument, method or problem within Origins & Early Analytic Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Tractatus addresses the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Tractatus."
+        "Clarify",
+        "State the central claim behind Tractatus without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Tractatus difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Tractatus."
       ],
       [
-        "Connection",
-        "Compare it with Gottlob Frege to see how the debate develops."
+        "Compare",
+        "Use Gottlob Frege to see which assumption the debate turns on."
       ]
     ],
-    "why": "Tractatus matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Tractatus matters because it sharpens the debate about the use of logical analysis to clarify language, mathematics, knowledge and the structure of propositions.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-gottlob-frege",
@@ -652,30 +652,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Propositional Logic",
     "hook": "What problem or argument is Propositional Logic really about?",
-    "question": "Which description best captures Propositional Logic?",
+    "question": "What philosophical work does Propositional Logic do?",
     "options": [
-      "Propositional Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Propositional Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Propositional Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Propositional Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Propositional Logic."
+        "Clarify",
+        "State the central claim behind Propositional Logic without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Propositional Logic difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Propositional Logic."
       ],
       [
-        "Connection",
-        "Compare it with Predicate Logic to see how the debate develops."
+        "Compare",
+        "Use Predicate Logic to see which assumption the debate turns on."
       ]
     ],
-    "why": "Propositional Logic matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Propositional Logic matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-predicate-logic",
@@ -690,30 +690,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Predicate Logic",
     "hook": "What problem or argument is Predicate Logic really about?",
-    "question": "Which description best captures Predicate Logic?",
+    "question": "What philosophical work does Predicate Logic do?",
     "options": [
-      "Predicate Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Predicate Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Predicate Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Predicate Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Predicate Logic."
+        "Clarify",
+        "State the central claim behind Predicate Logic without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Predicate Logic difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Predicate Logic."
       ],
       [
-        "Connection",
-        "Compare it with Quantification to see how the debate develops."
+        "Compare",
+        "Use Quantification to see which assumption the debate turns on."
       ]
     ],
-    "why": "Predicate Logic matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Predicate Logic matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-quantification",
@@ -728,30 +728,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Quantification",
     "hook": "What problem or argument is Quantification really about?",
-    "question": "Which description best captures Quantification?",
+    "question": "What philosophical work does Quantification do?",
     "options": [
-      "Quantification is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Quantification addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Quantification is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Quantification addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Quantification."
+        "Clarify",
+        "State the central claim behind Quantification without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Quantification difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Quantification."
       ],
       [
-        "Connection",
-        "Compare it with Validity and Soundness to see how the debate develops."
+        "Compare",
+        "Use Validity and Soundness to see which assumption the debate turns on."
       ]
     ],
-    "why": "Quantification matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Quantification matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-validity-and-soundness",
@@ -766,30 +766,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Validity and Soundness",
     "hook": "What problem or argument is Validity and Soundness really about?",
-    "question": "Which description best captures Validity and Soundness?",
+    "question": "What philosophical work does Validity and Soundness do?",
     "options": [
-      "Validity and Soundness is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Validity and Soundness addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Validity and Soundness is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Validity and Soundness addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Validity and Soundness."
+        "Clarify",
+        "State the central claim behind Validity and Soundness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Validity and Soundness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Validity and Soundness."
       ],
       [
-        "Connection",
-        "Compare it with First-Order Logic to see how the debate develops."
+        "Compare",
+        "Use First-Order Logic to see which assumption the debate turns on."
       ]
     ],
-    "why": "Validity and Soundness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Validity and Soundness matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-first-order-logic",
@@ -804,30 +804,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "First-Order Logic",
     "hook": "What problem or argument is First-Order Logic really about?",
-    "question": "Which description best captures First-Order Logic?",
+    "question": "What philosophical work does First-Order Logic do?",
     "options": [
-      "First-Order Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "First-Order Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "First-Order Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "First-Order Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in First-Order Logic."
+        "Clarify",
+        "State the central claim behind First-Order Logic without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make First-Order Logic difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to First-Order Logic."
       ],
       [
-        "Connection",
-        "Compare it with Identity to see how the debate develops."
+        "Compare",
+        "Use Identity to see which assumption the debate turns on."
       ]
     ],
-    "why": "First-Order Logic matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "First-Order Logic matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-identity",
@@ -842,30 +842,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Identity",
     "hook": "What problem or argument is Identity really about?",
-    "question": "Which description best captures Identity?",
+    "question": "What philosophical work does Identity do?",
     "options": [
-      "Identity is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Identity addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Identity is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Identity addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Identity."
+        "Clarify",
+        "State the central claim behind Identity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Identity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Identity."
       ],
       [
-        "Connection",
-        "Compare it with Set Theory to see how the debate develops."
+        "Compare",
+        "Use Set Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Identity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Identity matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-set-theory",
@@ -880,30 +880,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Set Theory",
     "hook": "What problem or argument is Set Theory really about?",
-    "question": "Which description best captures Set Theory?",
+    "question": "What philosophical work does Set Theory do?",
     "options": [
-      "Set Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Set Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Set Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Set Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Set Theory."
+        "Clarify",
+        "State the central claim behind Set Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Set Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Set Theory."
       ],
       [
-        "Connection",
-        "Compare it with Axiomatic Method to see how the debate develops."
+        "Compare",
+        "Use Axiomatic Method to see which assumption the debate turns on."
       ]
     ],
-    "why": "Set Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Set Theory matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-axiomatic-method",
@@ -918,30 +918,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Axiomatic Method",
     "hook": "What problem or argument is Axiomatic Method really about?",
-    "question": "Which description best captures Axiomatic Method?",
+    "question": "What philosophical work does Axiomatic Method do?",
     "options": [
-      "Axiomatic Method is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Axiomatic Method addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Axiomatic Method is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Axiomatic Method addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Axiomatic Method."
+        "Clarify",
+        "State the central claim behind Axiomatic Method without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Axiomatic Method difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Axiomatic Method."
       ],
       [
-        "Connection",
-        "Compare it with Logicism to see how the debate develops."
+        "Compare",
+        "Use Logicism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Axiomatic Method matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Axiomatic Method matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-logicism",
@@ -956,30 +956,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Logicism",
     "hook": "What problem or argument is Logicism really about?",
-    "question": "Which description best captures Logicism?",
+    "question": "What philosophical work does Logicism do?",
     "options": [
-      "Logicism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Logicism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Logicism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Logicism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Logicism."
+        "Clarify",
+        "State the central claim behind Logicism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Logicism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Logicism."
       ],
       [
-        "Connection",
-        "Compare it with Formalism to see how the debate develops."
+        "Compare",
+        "Use Formalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Logicism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Logicism matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-formalism",
@@ -994,30 +994,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Formalism",
     "hook": "What problem or argument is Formalism really about?",
-    "question": "Which description best captures Formalism?",
+    "question": "What philosophical work does Formalism do?",
     "options": [
-      "Formalism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Formalism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Formalism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Formalism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Formalism."
+        "Clarify",
+        "State the central claim behind Formalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Formalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Formalism."
       ],
       [
-        "Connection",
-        "Compare it with Intuitionism to see how the debate develops."
+        "Compare",
+        "Use Intuitionism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Formalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Formalism matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-intuitionism",
@@ -1032,30 +1032,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Intuitionism",
     "hook": "What problem or argument is Intuitionism really about?",
-    "question": "Which description best captures Intuitionism?",
+    "question": "What philosophical work does Intuitionism do?",
     "options": [
-      "Intuitionism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Intuitionism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Intuitionism is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Intuitionism addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Intuitionism."
+        "Clarify",
+        "State the central claim behind Intuitionism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Intuitionism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Intuitionism."
       ],
       [
-        "Connection",
-        "Compare it with Hilbert's Program to see how the debate develops."
+        "Compare",
+        "Use Hilbert's Program to see which assumption the debate turns on."
       ]
     ],
-    "why": "Intuitionism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Intuitionism matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-hilbert-s-program",
@@ -1070,30 +1070,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Hilbert's Program",
     "hook": "What problem or argument is Hilbert's Program really about?",
-    "question": "Which description best captures Hilbert's Program?",
+    "question": "What philosophical work does Hilbert's Program do?",
     "options": [
-      "Hilbert's Program is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Hilbert's Program addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hilbert's Program is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Hilbert's Program addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Hilbert's Program."
+        "Clarify",
+        "State the central claim behind Hilbert's Program without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Hilbert's Program difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Hilbert's Program."
       ],
       [
-        "Connection",
-        "Compare it with Gödel's Incompleteness Theorems to see how the debate develops."
+        "Compare",
+        "Use Gödel's Incompleteness Theorems to see which assumption the debate turns on."
       ]
     ],
-    "why": "Hilbert's Program matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Hilbert's Program matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-godel-s-incompleteness-theorems",
@@ -1184,30 +1184,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Model Theory",
     "hook": "What problem or argument is Model Theory really about?",
-    "question": "Which description best captures Model Theory?",
+    "question": "What philosophical work does Model Theory do?",
     "options": [
-      "Model Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Model Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Model Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Model Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Model Theory."
+        "Clarify",
+        "State the central claim behind Model Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Model Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Model Theory."
       ],
       [
-        "Connection",
-        "Compare it with Proof Theory to see how the debate develops."
+        "Compare",
+        "Use Proof Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Model Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Model Theory matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-proof-theory",
@@ -1222,30 +1222,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Proof Theory",
     "hook": "What problem or argument is Proof Theory really about?",
-    "question": "Which description best captures Proof Theory?",
+    "question": "What philosophical work does Proof Theory do?",
     "options": [
-      "Proof Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Proof Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Proof Theory is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Proof Theory addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Proof Theory."
+        "Clarify",
+        "State the central claim behind Proof Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Proof Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Proof Theory."
       ],
       [
-        "Connection",
-        "Compare it with Modal Logic to see how the debate develops."
+        "Compare",
+        "Use Modal Logic to see which assumption the debate turns on."
       ]
     ],
-    "why": "Proof Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Proof Theory matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-modal-logic",
@@ -1260,30 +1260,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Modal Logic",
     "hook": "What problem or argument is Modal Logic really about?",
-    "question": "Which description best captures Modal Logic?",
+    "question": "What philosophical work does Modal Logic do?",
     "options": [
-      "Modal Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Modal Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Modal Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Modal Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Modal Logic."
+        "Clarify",
+        "State the central claim behind Modal Logic without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Modal Logic difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Modal Logic."
       ],
       [
-        "Connection",
-        "Compare it with Possible Worlds Semantics to see how the debate develops."
+        "Compare",
+        "Use Possible Worlds Semantics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Modal Logic matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Modal Logic matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-possible-worlds-semantics",
@@ -1298,30 +1298,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Possible Worlds Semantics",
     "hook": "What problem or argument is Possible Worlds Semantics really about?",
-    "question": "Which description best captures Possible Worlds Semantics?",
+    "question": "What philosophical work does Possible Worlds Semantics do?",
     "options": [
-      "Possible Worlds Semantics is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Possible Worlds Semantics addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Possible Worlds Semantics is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Possible Worlds Semantics addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Possible Worlds Semantics."
+        "Clarify",
+        "State the central claim behind Possible Worlds Semantics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Possible Worlds Semantics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Possible Worlds Semantics."
       ],
       [
-        "Connection",
-        "Compare it with Necessity and Possibility to see how the debate develops."
+        "Compare",
+        "Use Necessity and Possibility to see which assumption the debate turns on."
       ]
     ],
-    "why": "Possible Worlds Semantics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Possible Worlds Semantics matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-necessity-and-possibility",
@@ -1336,30 +1336,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Necessity and Possibility",
     "hook": "What problem or argument is Necessity and Possibility really about?",
-    "question": "Which description best captures Necessity and Possibility?",
+    "question": "What philosophical work does Necessity and Possibility do?",
     "options": [
-      "Necessity and Possibility is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Necessity and Possibility addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Necessity and Possibility is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Necessity and Possibility addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Necessity and Possibility."
+        "Clarify",
+        "State the central claim behind Necessity and Possibility without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Necessity and Possibility difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Necessity and Possibility."
       ],
       [
-        "Connection",
-        "Compare it with Counterfactual Logic to see how the debate develops."
+        "Compare",
+        "Use Counterfactual Logic to see which assumption the debate turns on."
       ]
     ],
-    "why": "Necessity and Possibility matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Necessity and Possibility matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-counterfactual-logic",
@@ -1374,30 +1374,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logic & Foundations",
     "name": "Counterfactual Logic",
     "hook": "What problem or argument is Counterfactual Logic really about?",
-    "question": "Which description best captures Counterfactual Logic?",
+    "question": "What philosophical work does Counterfactual Logic do?",
     "options": [
-      "Counterfactual Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Counterfactual Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Counterfactual Logic is a substantive position, argument, method or problem within Logic & Foundations. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Counterfactual Logic addresses formal consequence, mathematical foundations and the limits and expressive power of logical systems. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Counterfactual Logic."
+        "Clarify",
+        "State the central claim behind Counterfactual Logic without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Counterfactual Logic difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Counterfactual Logic."
       ],
       [
-        "Connection",
-        "Compare it with Propositional Logic to see how the debate develops."
+        "Compare",
+        "Use Propositional Logic to see which assumption the debate turns on."
       ]
     ],
-    "why": "Counterfactual Logic matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Counterfactual Logic matters because it sharpens the debate about formal consequence, mathematical foundations and the limits and expressive power of logical systems.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-propositional-logic",
@@ -1412,30 +1412,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Vienna Circle",
     "hook": "What problem or argument is Vienna Circle really about?",
-    "question": "Which description best captures Vienna Circle?",
+    "question": "What philosophical work does Vienna Circle do?",
     "options": [
-      "Vienna Circle is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Vienna Circle addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Vienna Circle is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Vienna Circle addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Vienna Circle."
+        "Clarify",
+        "State the central claim behind Vienna Circle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Vienna Circle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Vienna Circle."
       ],
       [
-        "Connection",
-        "Compare it with Moritz Schlick to see how the debate develops."
+        "Compare",
+        "Use Moritz Schlick to see which assumption the debate turns on."
       ]
     ],
-    "why": "Vienna Circle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Vienna Circle matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moritz-schlick",
@@ -1450,30 +1450,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Moritz Schlick",
     "hook": "What problem or argument is Moritz Schlick really about?",
-    "question": "Which description best captures Moritz Schlick?",
+    "question": "Why does Moritz Schlick matter to Logical Positivism & Its Critics?",
     "options": [
-      "Moritz Schlick is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moritz Schlick is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moritz Schlick is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moritz Schlick is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moritz Schlick."
+        "Clarify",
+        "State the central claim behind Moritz Schlick without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moritz Schlick difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moritz Schlick."
       ],
       [
-        "Connection",
-        "Compare it with Rudolf Carnap to see how the debate develops."
+        "Compare",
+        "Use Rudolf Carnap to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moritz Schlick matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moritz Schlick matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-rudolf-carnap",
@@ -1488,30 +1488,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Rudolf Carnap",
     "hook": "What problem or argument is Rudolf Carnap really about?",
-    "question": "Which description best captures Rudolf Carnap?",
+    "question": "Why does Rudolf Carnap matter to Logical Positivism & Its Critics?",
     "options": [
-      "Rudolf Carnap is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Rudolf Carnap is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rudolf Carnap is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Rudolf Carnap is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Rudolf Carnap."
+        "Clarify",
+        "State the central claim behind Rudolf Carnap without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Rudolf Carnap difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Rudolf Carnap."
       ],
       [
-        "Connection",
-        "Compare it with Otto Neurath to see how the debate develops."
+        "Compare",
+        "Use Otto Neurath to see which assumption the debate turns on."
       ]
     ],
-    "why": "Rudolf Carnap matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Rudolf Carnap matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-otto-neurath",
@@ -1526,30 +1526,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Otto Neurath",
     "hook": "What problem or argument is Otto Neurath really about?",
-    "question": "Which description best captures Otto Neurath?",
+    "question": "Why does Otto Neurath matter to Logical Positivism & Its Critics?",
     "options": [
-      "Otto Neurath is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Otto Neurath is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Otto Neurath is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Otto Neurath is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Otto Neurath."
+        "Clarify",
+        "State the central claim behind Otto Neurath without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Otto Neurath difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Otto Neurath."
       ],
       [
-        "Connection",
-        "Compare it with A. J. Ayer to see how the debate develops."
+        "Compare",
+        "Use A. J. Ayer to see which assumption the debate turns on."
       ]
     ],
-    "why": "Otto Neurath matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Otto Neurath matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-a-j-ayer",
@@ -1564,30 +1564,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "A. J. Ayer",
     "hook": "What problem or argument is A. J. Ayer really about?",
-    "question": "Which description best captures A. J. Ayer?",
+    "question": "Why does A. J. Ayer matter to Logical Positivism & Its Critics?",
     "options": [
-      "A. J. Ayer is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "A. J. Ayer is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "A. J. Ayer is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "A. J. Ayer is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in A. J. Ayer."
+        "Clarify",
+        "State the central claim behind A. J. Ayer without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make A. J. Ayer difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to A. J. Ayer."
       ],
       [
-        "Connection",
-        "Compare it with Verification Principle to see how the debate develops."
+        "Compare",
+        "Use Verification Principle to see which assumption the debate turns on."
       ]
     ],
-    "why": "A. J. Ayer matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "A. J. Ayer matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-verification-principle",
@@ -1640,30 +1640,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Analytic–Synthetic Distinction",
     "hook": "What problem or argument is Analytic–Synthetic Distinction really about?",
-    "question": "Which description best captures Analytic–Synthetic Distinction?",
+    "question": "What philosophical work does Analytic–Synthetic Distinction do?",
     "options": [
-      "Analytic–Synthetic Distinction is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Analytic–Synthetic Distinction addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Analytic–Synthetic Distinction is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Analytic–Synthetic Distinction addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Analytic–Synthetic Distinction."
+        "Clarify",
+        "State the central claim behind Analytic–Synthetic Distinction without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Analytic–Synthetic Distinction difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Analytic–Synthetic Distinction."
       ],
       [
-        "Connection",
-        "Compare it with Protocol Sentences to see how the debate develops."
+        "Compare",
+        "Use Protocol Sentences to see which assumption the debate turns on."
       ]
     ],
-    "why": "Analytic–Synthetic Distinction matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Analytic–Synthetic Distinction matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-protocol-sentences",
@@ -1678,30 +1678,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Protocol Sentences",
     "hook": "What problem or argument is Protocol Sentences really about?",
-    "question": "Which description best captures Protocol Sentences?",
+    "question": "What philosophical work does Protocol Sentences do?",
     "options": [
-      "Protocol Sentences is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Protocol Sentences addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Protocol Sentences is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Protocol Sentences addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Protocol Sentences."
+        "Clarify",
+        "State the central claim behind Protocol Sentences without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Protocol Sentences difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Protocol Sentences."
       ],
       [
-        "Connection",
-        "Compare it with Unity of Science to see how the debate develops."
+        "Compare",
+        "Use Unity of Science to see which assumption the debate turns on."
       ]
     ],
-    "why": "Protocol Sentences matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Protocol Sentences matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-unity-of-science",
@@ -1716,30 +1716,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Unity of Science",
     "hook": "What problem or argument is Unity of Science really about?",
-    "question": "Which description best captures Unity of Science?",
+    "question": "What philosophical work does Unity of Science do?",
     "options": [
-      "Unity of Science is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Unity of Science addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Unity of Science is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Unity of Science addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Unity of Science."
+        "Clarify",
+        "State the central claim behind Unity of Science without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Unity of Science difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Unity of Science."
       ],
       [
-        "Connection",
-        "Compare it with Carnap's Principle of Tolerance to see how the debate develops."
+        "Compare",
+        "Use Carnap's Principle of Tolerance to see which assumption the debate turns on."
       ]
     ],
-    "why": "Unity of Science matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Unity of Science matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-carnap-s-principle-of-tolerance",
@@ -1754,30 +1754,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Carnap's Principle of Tolerance",
     "hook": "What problem or argument is Carnap's Principle of Tolerance really about?",
-    "question": "Which description best captures Carnap's Principle of Tolerance?",
+    "question": "What philosophical work does Carnap's Principle of Tolerance do?",
     "options": [
-      "Carnap's Principle of Tolerance is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Carnap's Principle of Tolerance addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Carnap's Principle of Tolerance is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Carnap's Principle of Tolerance addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Carnap's Principle of Tolerance."
+        "Clarify",
+        "State the central claim behind Carnap's Principle of Tolerance without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Carnap's Principle of Tolerance difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Carnap's Principle of Tolerance."
       ],
       [
-        "Connection",
-        "Compare it with Internal and External Questions to see how the debate develops."
+        "Compare",
+        "Use Internal and External Questions to see which assumption the debate turns on."
       ]
     ],
-    "why": "Carnap's Principle of Tolerance matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Carnap's Principle of Tolerance matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-internal-and-external-questions",
@@ -1792,30 +1792,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Internal and External Questions",
     "hook": "What problem or argument is Internal and External Questions really about?",
-    "question": "Which description best captures Internal and External Questions?",
+    "question": "What philosophical work does Internal and External Questions do?",
     "options": [
-      "Internal and External Questions is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Internal and External Questions addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Internal and External Questions is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Internal and External Questions addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Internal and External Questions."
+        "Clarify",
+        "State the central claim behind Internal and External Questions without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Internal and External Questions difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Internal and External Questions."
       ],
       [
-        "Connection",
-        "Compare it with Metaphysics as Pseudo-Problem to see how the debate develops."
+        "Compare",
+        "Use Metaphysics as Pseudo-Problem to see which assumption the debate turns on."
       ]
     ],
-    "why": "Internal and External Questions matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Internal and External Questions matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-metaphysics-as-pseudo-problem",
@@ -1830,30 +1830,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Metaphysics as Pseudo-Problem",
     "hook": "What problem or argument is Metaphysics as Pseudo-Problem really about?",
-    "question": "Which description best captures Metaphysics as Pseudo-Problem?",
+    "question": "What philosophical work does Metaphysics as Pseudo-Problem do?",
     "options": [
-      "Metaphysics as Pseudo-Problem is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Metaphysics as Pseudo-Problem addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Metaphysics as Pseudo-Problem is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Metaphysics as Pseudo-Problem addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Metaphysics as Pseudo-Problem."
+        "Clarify",
+        "State the central claim behind Metaphysics as Pseudo-Problem without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Metaphysics as Pseudo-Problem difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Metaphysics as Pseudo-Problem."
       ],
       [
-        "Connection",
-        "Compare it with Quine to see how the debate develops."
+        "Compare",
+        "Use Quine to see which assumption the debate turns on."
       ]
     ],
-    "why": "Metaphysics as Pseudo-Problem matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Metaphysics as Pseudo-Problem matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-quine",
@@ -1868,30 +1868,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Quine",
     "hook": "What problem or argument is Quine really about?",
-    "question": "Which description best captures Quine?",
+    "question": "Why does Quine matter to Logical Positivism & Its Critics?",
     "options": [
-      "Quine is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Quine is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Quine is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Quine is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Quine."
+        "Clarify",
+        "State the central claim behind Quine without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Quine difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Quine."
       ],
       [
-        "Connection",
-        "Compare it with Two Dogmas of Empiricism to see how the debate develops."
+        "Compare",
+        "Use Two Dogmas of Empiricism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Quine matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Quine matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-two-dogmas-of-empiricism",
@@ -1944,30 +1944,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Web of Belief",
     "hook": "What problem or argument is Web of Belief really about?",
-    "question": "Which description best captures Web of Belief?",
+    "question": "What philosophical work does Web of Belief do?",
     "options": [
-      "Web of Belief is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Web of Belief addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Web of Belief is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Web of Belief addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Web of Belief."
+        "Clarify",
+        "State the central claim behind Web of Belief without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Web of Belief difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Web of Belief."
       ],
       [
-        "Connection",
-        "Compare it with Underdetermination to see how the debate develops."
+        "Compare",
+        "Use Underdetermination to see which assumption the debate turns on."
       ]
     ],
-    "why": "Web of Belief matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Web of Belief matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-underdetermination",
@@ -1982,30 +1982,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Underdetermination",
     "hook": "What problem or argument is Underdetermination really about?",
-    "question": "Which description best captures Underdetermination?",
+    "question": "What philosophical work does Underdetermination do?",
     "options": [
-      "Underdetermination is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Underdetermination addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Underdetermination is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Underdetermination addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Underdetermination."
+        "Clarify",
+        "State the central claim behind Underdetermination without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Underdetermination difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Underdetermination."
       ],
       [
-        "Connection",
-        "Compare it with Naturalized Epistemology to see how the debate develops."
+        "Compare",
+        "Use Naturalized Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Underdetermination matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Underdetermination matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-naturalized-epistemology",
@@ -2020,30 +2020,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Naturalized Epistemology",
     "hook": "What problem or argument is Naturalized Epistemology really about?",
-    "question": "Which description best captures Naturalized Epistemology?",
+    "question": "What philosophical work does Naturalized Epistemology do?",
     "options": [
-      "Naturalized Epistemology is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Naturalized Epistemology addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Naturalized Epistemology is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Naturalized Epistemology addresses whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Naturalized Epistemology."
+        "Clarify",
+        "State the central claim behind Naturalized Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Naturalized Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Naturalized Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Sellars to see how the debate develops."
+        "Compare",
+        "Use Sellars to see which assumption the debate turns on."
       ]
     ],
-    "why": "Naturalized Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Naturalized Epistemology matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-sellars",
@@ -2058,30 +2058,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Logical Positivism & Its Critics",
     "name": "Sellars",
     "hook": "What problem or argument is Sellars really about?",
-    "question": "Which description best captures Sellars?",
+    "question": "Why does Sellars matter to Logical Positivism & Its Critics?",
     "options": [
-      "Sellars is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Sellars is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sellars is a substantive position, argument, method or problem within Logical Positivism & Its Critics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Sellars is important in Logical Positivism & Its Critics because their work reshaped debates about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Sellars."
+        "Clarify",
+        "State the central claim behind Sellars without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Sellars difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Sellars."
       ],
       [
-        "Connection",
-        "Compare it with Myth of the Given to see how the debate develops."
+        "Compare",
+        "Use Myth of the Given to see which assumption the debate turns on."
       ]
     ],
-    "why": "Sellars matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Sellars matters because it sharpens the debate about whether meaningful claims can be tied to logic and empirical confirmation, and whether that project survives holistic and anti-foundational criticism.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-myth-of-the-given",
@@ -2134,30 +2134,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Later Wittgenstein",
     "hook": "What problem or argument is Later Wittgenstein really about?",
-    "question": "Which description best captures Later Wittgenstein?",
+    "question": "Why does Later Wittgenstein matter to Later Wittgenstein & Ordinary Language?",
     "options": [
-      "Later Wittgenstein is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Later Wittgenstein is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Later Wittgenstein is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Later Wittgenstein is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Later Wittgenstein."
+        "Clarify",
+        "State the central claim behind Later Wittgenstein without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Later Wittgenstein difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Later Wittgenstein."
       ],
       [
-        "Connection",
-        "Compare it with Language Games to see how the debate develops."
+        "Compare",
+        "Use Language Games to see which assumption the debate turns on."
       ]
     ],
-    "why": "Later Wittgenstein matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Later Wittgenstein matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-language-games",
@@ -2172,30 +2172,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Language Games",
     "hook": "What problem or argument is Language Games really about?",
-    "question": "Which description best captures Language Games?",
+    "question": "What philosophical work does Language Games do?",
     "options": [
-      "Language Games is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Language Games addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Language Games is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Language Games addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Language Games."
+        "Clarify",
+        "State the central claim behind Language Games without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Language Games difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Language Games."
       ],
       [
-        "Connection",
-        "Compare it with Meaning as Use to see how the debate develops."
+        "Compare",
+        "Use Meaning as Use to see which assumption the debate turns on."
       ]
     ],
-    "why": "Language Games matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Language Games matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-meaning-as-use",
@@ -2248,30 +2248,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Forms of Life",
     "hook": "What problem or argument is Forms of Life really about?",
-    "question": "Which description best captures Forms of Life?",
+    "question": "What philosophical work does Forms of Life do?",
     "options": [
-      "Forms of Life is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Forms of Life addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Forms of Life is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Forms of Life addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Forms of Life."
+        "Clarify",
+        "State the central claim behind Forms of Life without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Forms of Life difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Forms of Life."
       ],
       [
-        "Connection",
-        "Compare it with Rule-Following to see how the debate develops."
+        "Compare",
+        "Use Rule-Following to see which assumption the debate turns on."
       ]
     ],
-    "why": "Forms of Life matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Forms of Life matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-rule-following",
@@ -2286,30 +2286,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Rule-Following",
     "hook": "What problem or argument is Rule-Following really about?",
-    "question": "Which description best captures Rule-Following?",
+    "question": "What philosophical work does Rule-Following do?",
     "options": [
-      "Rule-Following is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Rule-Following addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Rule-Following is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Rule-Following addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Rule-Following."
+        "Clarify",
+        "State the central claim behind Rule-Following without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Rule-Following difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Rule-Following."
       ],
       [
-        "Connection",
-        "Compare it with Private Language Argument to see how the debate develops."
+        "Compare",
+        "Use Private Language Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Rule-Following matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Rule-Following matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-private-language-argument",
@@ -2362,30 +2362,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Family Resemblance",
     "hook": "What problem or argument is Family Resemblance really about?",
-    "question": "Which description best captures Family Resemblance?",
+    "question": "What philosophical work does Family Resemblance do?",
     "options": [
-      "Family Resemblance is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Family Resemblance addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Family Resemblance is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Family Resemblance addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Family Resemblance."
+        "Clarify",
+        "State the central claim behind Family Resemblance without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Family Resemblance difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Family Resemblance."
       ],
       [
-        "Connection",
-        "Compare it with Philosophical Investigations to see how the debate develops."
+        "Compare",
+        "Use Philosophical Investigations to see which assumption the debate turns on."
       ]
     ],
-    "why": "Family Resemblance matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Family Resemblance matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-philosophical-investigations",
@@ -2400,30 +2400,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Philosophical Investigations",
     "hook": "What problem or argument is Philosophical Investigations really about?",
-    "question": "Which description best captures Philosophical Investigations?",
+    "question": "What philosophical work does Philosophical Investigations do?",
     "options": [
-      "Philosophical Investigations is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Philosophical Investigations addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Philosophical Investigations is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Philosophical Investigations addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Philosophical Investigations."
+        "Clarify",
+        "State the central claim behind Philosophical Investigations without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Philosophical Investigations difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Philosophical Investigations."
       ],
       [
-        "Connection",
-        "Compare it with J. L. Austin to see how the debate develops."
+        "Compare",
+        "Use J. L. Austin to see which assumption the debate turns on."
       ]
     ],
-    "why": "Philosophical Investigations matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Philosophical Investigations matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-j-l-austin",
@@ -2438,30 +2438,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "J. L. Austin",
     "hook": "What problem or argument is J. L. Austin really about?",
-    "question": "Which description best captures J. L. Austin?",
+    "question": "Why does J. L. Austin matter to Later Wittgenstein & Ordinary Language?",
     "options": [
-      "J. L. Austin is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "J. L. Austin is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "J. L. Austin is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "J. L. Austin is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in J. L. Austin."
+        "Clarify",
+        "State the central claim behind J. L. Austin without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make J. L. Austin difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to J. L. Austin."
       ],
       [
-        "Connection",
-        "Compare it with Speech Acts to see how the debate develops."
+        "Compare",
+        "Use Speech Acts to see which assumption the debate turns on."
       ]
     ],
-    "why": "J. L. Austin matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "J. L. Austin matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-speech-acts",
@@ -2476,30 +2476,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Speech Acts",
     "hook": "What problem or argument is Speech Acts really about?",
-    "question": "Which description best captures Speech Acts?",
+    "question": "What philosophical work does Speech Acts do?",
     "options": [
-      "Speech Acts is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Speech Acts addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Speech Acts is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Speech Acts addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Speech Acts."
+        "Clarify",
+        "State the central claim behind Speech Acts without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Speech Acts difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Speech Acts."
       ],
       [
-        "Connection",
-        "Compare it with Performative Utterances to see how the debate develops."
+        "Compare",
+        "Use Performative Utterances to see which assumption the debate turns on."
       ]
     ],
-    "why": "Speech Acts matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Speech Acts matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-performative-utterances",
@@ -2514,30 +2514,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Performative Utterances",
     "hook": "What problem or argument is Performative Utterances really about?",
-    "question": "Which description best captures Performative Utterances?",
+    "question": "What philosophical work does Performative Utterances do?",
     "options": [
-      "Performative Utterances is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Performative Utterances addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Performative Utterances is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Performative Utterances addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Performative Utterances."
+        "Clarify",
+        "State the central claim behind Performative Utterances without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Performative Utterances difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Performative Utterances."
       ],
       [
-        "Connection",
-        "Compare it with Locution, Illocution and Perlocution to see how the debate develops."
+        "Compare",
+        "Use Locution, Illocution and Perlocution to see which assumption the debate turns on."
       ]
     ],
-    "why": "Performative Utterances matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Performative Utterances matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-locution-illocution-and-perlocution",
@@ -2552,30 +2552,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Locution, Illocution and Perlocution",
     "hook": "What problem or argument is Locution, Illocution and Perlocution really about?",
-    "question": "Which description best captures Locution, Illocution and Perlocution?",
+    "question": "What philosophical work does Locution, Illocution and Perlocution do?",
     "options": [
-      "Locution, Illocution and Perlocution is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Locution, Illocution and Perlocution addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Locution, Illocution and Perlocution is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Locution, Illocution and Perlocution addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Locution, Illocution and Perlocution."
+        "Clarify",
+        "State the central claim behind Locution, Illocution and Perlocution without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Locution, Illocution and Perlocution difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Locution, Illocution and Perlocution."
       ],
       [
-        "Connection",
-        "Compare it with Gilbert Ryle to see how the debate develops."
+        "Compare",
+        "Use Gilbert Ryle to see which assumption the debate turns on."
       ]
     ],
-    "why": "Locution, Illocution and Perlocution matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Locution, Illocution and Perlocution matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-gilbert-ryle",
@@ -2590,30 +2590,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Gilbert Ryle",
     "hook": "What problem or argument is Gilbert Ryle really about?",
-    "question": "Which description best captures Gilbert Ryle?",
+    "question": "Why does Gilbert Ryle matter to Later Wittgenstein & Ordinary Language?",
     "options": [
-      "Gilbert Ryle is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Gilbert Ryle is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gilbert Ryle is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Gilbert Ryle is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Gilbert Ryle."
+        "Clarify",
+        "State the central claim behind Gilbert Ryle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Gilbert Ryle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Gilbert Ryle."
       ],
       [
-        "Connection",
-        "Compare it with Category Mistake to see how the debate develops."
+        "Compare",
+        "Use Category Mistake to see which assumption the debate turns on."
       ]
     ],
-    "why": "Gilbert Ryle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Gilbert Ryle matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-category-mistake",
@@ -2628,30 +2628,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Category Mistake",
     "hook": "What problem or argument is Category Mistake really about?",
-    "question": "Which description best captures Category Mistake?",
+    "question": "What philosophical work does Category Mistake do?",
     "options": [
-      "Category Mistake is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Category Mistake addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Category Mistake is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Category Mistake addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Category Mistake."
+        "Clarify",
+        "State the central claim behind Category Mistake without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Category Mistake difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Category Mistake."
       ],
       [
-        "Connection",
-        "Compare it with Ghost in the Machine to see how the debate develops."
+        "Compare",
+        "Use Ghost in the Machine to see which assumption the debate turns on."
       ]
     ],
-    "why": "Category Mistake matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Category Mistake matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ghost-in-the-machine",
@@ -2666,30 +2666,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Ghost in the Machine",
     "hook": "What problem or argument is Ghost in the Machine really about?",
-    "question": "Which description best captures Ghost in the Machine?",
+    "question": "What philosophical work does Ghost in the Machine do?",
     "options": [
-      "Ghost in the Machine is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ghost in the Machine addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ghost in the Machine is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ghost in the Machine addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ghost in the Machine."
+        "Clarify",
+        "State the central claim behind Ghost in the Machine without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ghost in the Machine difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ghost in the Machine."
       ],
       [
-        "Connection",
-        "Compare it with P. F. Strawson to see how the debate develops."
+        "Compare",
+        "Use P. F. Strawson to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ghost in the Machine matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ghost in the Machine matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-p-f-strawson",
@@ -2704,30 +2704,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "P. F. Strawson",
     "hook": "What problem or argument is P. F. Strawson really about?",
-    "question": "Which description best captures P. F. Strawson?",
+    "question": "Why does P. F. Strawson matter to Later Wittgenstein & Ordinary Language?",
     "options": [
-      "P. F. Strawson is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "P. F. Strawson is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "P. F. Strawson is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "P. F. Strawson is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in P. F. Strawson."
+        "Clarify",
+        "State the central claim behind P. F. Strawson without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make P. F. Strawson difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to P. F. Strawson."
       ],
       [
-        "Connection",
-        "Compare it with Descriptive Metaphysics to see how the debate develops."
+        "Compare",
+        "Use Descriptive Metaphysics to see which assumption the debate turns on."
       ]
     ],
-    "why": "P. F. Strawson matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "P. F. Strawson matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-descriptive-metaphysics",
@@ -2742,30 +2742,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Descriptive Metaphysics",
     "hook": "What problem or argument is Descriptive Metaphysics really about?",
-    "question": "Which description best captures Descriptive Metaphysics?",
+    "question": "What philosophical work does Descriptive Metaphysics do?",
     "options": [
-      "Descriptive Metaphysics is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Descriptive Metaphysics addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Descriptive Metaphysics is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Descriptive Metaphysics addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Descriptive Metaphysics."
+        "Clarify",
+        "State the central claim behind Descriptive Metaphysics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Descriptive Metaphysics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Descriptive Metaphysics."
       ],
       [
-        "Connection",
-        "Compare it with Grice to see how the debate develops."
+        "Compare",
+        "Use Grice to see which assumption the debate turns on."
       ]
     ],
-    "why": "Descriptive Metaphysics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Descriptive Metaphysics matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-grice",
@@ -2780,30 +2780,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Grice",
     "hook": "What problem or argument is Grice really about?",
-    "question": "Which description best captures Grice?",
+    "question": "Why does Grice matter to Later Wittgenstein & Ordinary Language?",
     "options": [
-      "Grice is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Grice is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Grice is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Grice is important in Later Wittgenstein & Ordinary Language because their work reshaped debates about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Grice."
+        "Clarify",
+        "State the central claim behind Grice without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Grice difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Grice."
       ],
       [
-        "Connection",
-        "Compare it with Conversational Implicature to see how the debate develops."
+        "Compare",
+        "Use Conversational Implicature to see which assumption the debate turns on."
       ]
     ],
-    "why": "Grice matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Grice matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-conversational-implicature",
@@ -2856,30 +2856,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Later Wittgenstein & Ordinary Language",
     "name": "Cooperative Principle",
     "hook": "What problem or argument is Cooperative Principle really about?",
-    "question": "Which description best captures Cooperative Principle?",
+    "question": "What philosophical work does Cooperative Principle do?",
     "options": [
-      "Cooperative Principle is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Cooperative Principle addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Cooperative Principle is a substantive position, argument, method or problem within Later Wittgenstein & Ordinary Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Cooperative Principle addresses how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Cooperative Principle."
+        "Clarify",
+        "State the central claim behind Cooperative Principle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Cooperative Principle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Cooperative Principle."
       ],
       [
-        "Connection",
-        "Compare it with Later Wittgenstein to see how the debate develops."
+        "Compare",
+        "Use Later Wittgenstein to see which assumption the debate turns on."
       ]
     ],
-    "why": "Cooperative Principle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Cooperative Principle matters because it sharpens the debate about how philosophical confusion can arise from misunderstanding the ordinary practices in which words, rules and speech acts function.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-later-wittgenstein",
@@ -2894,30 +2894,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Reference",
     "hook": "What problem or argument is Reference really about?",
-    "question": "Which description best captures Reference?",
+    "question": "What philosophical work does Reference do?",
     "options": [
-      "Reference is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reference addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reference is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reference addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reference."
+        "Clarify",
+        "State the central claim behind Reference without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reference difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reference."
       ],
       [
-        "Connection",
-        "Compare it with Descriptions vs Names to see how the debate develops."
+        "Compare",
+        "Use Descriptions vs Names to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reference matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reference matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-descriptions-vs-names",
@@ -2932,30 +2932,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Descriptions vs Names",
     "hook": "What problem or argument is Descriptions vs Names really about?",
-    "question": "Which description best captures Descriptions vs Names?",
+    "question": "What philosophical work does Descriptions vs Names do?",
     "options": [
-      "Descriptions vs Names is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Descriptions vs Names addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Descriptions vs Names is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Descriptions vs Names addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Descriptions vs Names."
+        "Clarify",
+        "State the central claim behind Descriptions vs Names without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Descriptions vs Names difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Descriptions vs Names."
       ],
       [
-        "Connection",
-        "Compare it with Kripke to see how the debate develops."
+        "Compare",
+        "Use Kripke to see which assumption the debate turns on."
       ]
     ],
-    "why": "Descriptions vs Names matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Descriptions vs Names matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-kripke",
@@ -2970,30 +2970,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Kripke",
     "hook": "What problem or argument is Kripke really about?",
-    "question": "Which description best captures Kripke?",
+    "question": "Why does Kripke matter to Philosophy of Language?",
     "options": [
-      "Kripke is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Kripke is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kripke is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Kripke is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Kripke."
+        "Clarify",
+        "State the central claim behind Kripke without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Kripke difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Kripke."
       ],
       [
-        "Connection",
-        "Compare it with Rigid Designators to see how the debate develops."
+        "Compare",
+        "Use Rigid Designators to see which assumption the debate turns on."
       ]
     ],
-    "why": "Kripke matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Kripke matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-rigid-designators",
@@ -3046,30 +3046,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Causal Theory of Reference",
     "hook": "What problem or argument is Causal Theory of Reference really about?",
-    "question": "Which description best captures Causal Theory of Reference?",
+    "question": "What philosophical work does Causal Theory of Reference do?",
     "options": [
-      "Causal Theory of Reference is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Causal Theory of Reference addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Causal Theory of Reference is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Causal Theory of Reference addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Causal Theory of Reference."
+        "Clarify",
+        "State the central claim behind Causal Theory of Reference without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Causal Theory of Reference difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Causal Theory of Reference."
       ],
       [
-        "Connection",
-        "Compare it with Necessary A Posteriori to see how the debate develops."
+        "Compare",
+        "Use Necessary A Posteriori to see which assumption the debate turns on."
       ]
     ],
-    "why": "Causal Theory of Reference matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Causal Theory of Reference matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-necessary-a-posteriori",
@@ -3122,30 +3122,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Contingent A Priori",
     "hook": "What problem or argument is Contingent A Priori really about?",
-    "question": "Which description best captures Contingent A Priori?",
+    "question": "What philosophical work does Contingent A Priori do?",
     "options": [
-      "Contingent A Priori is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Contingent A Priori addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Contingent A Priori is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Contingent A Priori addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Contingent A Priori."
+        "Clarify",
+        "State the central claim behind Contingent A Priori without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Contingent A Priori difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Contingent A Priori."
       ],
       [
-        "Connection",
-        "Compare it with Putnam to see how the debate develops."
+        "Compare",
+        "Use Putnam to see which assumption the debate turns on."
       ]
     ],
-    "why": "Contingent A Priori matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Contingent A Priori matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-putnam",
@@ -3160,30 +3160,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Putnam",
     "hook": "What problem or argument is Putnam really about?",
-    "question": "Which description best captures Putnam?",
+    "question": "Why does Putnam matter to Philosophy of Language?",
     "options": [
-      "Putnam is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Putnam is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Putnam is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Putnam is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Putnam."
+        "Clarify",
+        "State the central claim behind Putnam without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Putnam difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Putnam."
       ],
       [
-        "Connection",
-        "Compare it with Semantic Externalism to see how the debate develops."
+        "Compare",
+        "Use Semantic Externalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Putnam matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Putnam matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-semantic-externalism",
@@ -3236,30 +3236,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Twin Earth",
     "hook": "What problem or argument is Twin Earth really about?",
-    "question": "Which description best captures Twin Earth?",
+    "question": "What philosophical work does Twin Earth do?",
     "options": [
-      "Twin Earth is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Twin Earth addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Twin Earth is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Twin Earth addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Twin Earth."
+        "Clarify",
+        "State the central claim behind Twin Earth without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Twin Earth difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Twin Earth."
       ],
       [
-        "Connection",
-        "Compare it with Division of Linguistic Labor to see how the debate develops."
+        "Compare",
+        "Use Division of Linguistic Labor to see which assumption the debate turns on."
       ]
     ],
-    "why": "Twin Earth matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Twin Earth matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-division-of-linguistic-labor",
@@ -3274,30 +3274,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Division of Linguistic Labor",
     "hook": "What problem or argument is Division of Linguistic Labor really about?",
-    "question": "Which description best captures Division of Linguistic Labor?",
+    "question": "What philosophical work does Division of Linguistic Labor do?",
     "options": [
-      "Division of Linguistic Labor is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Division of Linguistic Labor addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Division of Linguistic Labor is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Division of Linguistic Labor addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Division of Linguistic Labor."
+        "Clarify",
+        "State the central claim behind Division of Linguistic Labor without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Division of Linguistic Labor difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Division of Linguistic Labor."
       ],
       [
-        "Connection",
-        "Compare it with Davidson to see how the debate develops."
+        "Compare",
+        "Use Davidson to see which assumption the debate turns on."
       ]
     ],
-    "why": "Division of Linguistic Labor matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Division of Linguistic Labor matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-davidson",
@@ -3312,30 +3312,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Davidson",
     "hook": "What problem or argument is Davidson really about?",
-    "question": "Which description best captures Davidson?",
+    "question": "Why does Davidson matter to Philosophy of Language?",
     "options": [
-      "Davidson is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Davidson is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Davidson is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Davidson is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Davidson."
+        "Clarify",
+        "State the central claim behind Davidson without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Davidson difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Davidson."
       ],
       [
-        "Connection",
-        "Compare it with Truth-Conditional Semantics to see how the debate develops."
+        "Compare",
+        "Use Truth-Conditional Semantics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Davidson matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Davidson matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-truth-conditional-semantics",
@@ -3350,30 +3350,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Truth-Conditional Semantics",
     "hook": "What problem or argument is Truth-Conditional Semantics really about?",
-    "question": "Which description best captures Truth-Conditional Semantics?",
+    "question": "What philosophical work does Truth-Conditional Semantics do?",
     "options": [
-      "Truth-Conditional Semantics is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Truth-Conditional Semantics addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Truth-Conditional Semantics is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Truth-Conditional Semantics addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Truth-Conditional Semantics."
+        "Clarify",
+        "State the central claim behind Truth-Conditional Semantics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Truth-Conditional Semantics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Truth-Conditional Semantics."
       ],
       [
-        "Connection",
-        "Compare it with Radical Interpretation to see how the debate develops."
+        "Compare",
+        "Use Radical Interpretation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Truth-Conditional Semantics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Truth-Conditional Semantics matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-radical-interpretation",
@@ -3388,30 +3388,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Radical Interpretation",
     "hook": "What problem or argument is Radical Interpretation really about?",
-    "question": "Which description best captures Radical Interpretation?",
+    "question": "What philosophical work does Radical Interpretation do?",
     "options": [
-      "Radical Interpretation is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Radical Interpretation addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Radical Interpretation is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Radical Interpretation addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Radical Interpretation."
+        "Clarify",
+        "State the central claim behind Radical Interpretation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Radical Interpretation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Radical Interpretation."
       ],
       [
-        "Connection",
-        "Compare it with Principle of Charity to see how the debate develops."
+        "Compare",
+        "Use Principle of Charity to see which assumption the debate turns on."
       ]
     ],
-    "why": "Radical Interpretation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Radical Interpretation matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-principle-of-charity",
@@ -3426,30 +3426,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Principle of Charity",
     "hook": "What problem or argument is Principle of Charity really about?",
-    "question": "Which description best captures Principle of Charity?",
+    "question": "What philosophical work does Principle of Charity do?",
     "options": [
-      "Principle of Charity is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Principle of Charity addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Principle of Charity is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Principle of Charity addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Principle of Charity."
+        "Clarify",
+        "State the central claim behind Principle of Charity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Principle of Charity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Principle of Charity."
       ],
       [
-        "Connection",
-        "Compare it with Dummett to see how the debate develops."
+        "Compare",
+        "Use Dummett to see which assumption the debate turns on."
       ]
     ],
-    "why": "Principle of Charity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Principle of Charity matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-dummett",
@@ -3464,30 +3464,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Dummett",
     "hook": "What problem or argument is Dummett really about?",
-    "question": "Which description best captures Dummett?",
+    "question": "Why does Dummett matter to Philosophy of Language?",
     "options": [
-      "Dummett is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Dummett is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Dummett is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Dummett is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Dummett."
+        "Clarify",
+        "State the central claim behind Dummett without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Dummett difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Dummett."
       ],
       [
-        "Connection",
-        "Compare it with Anti-Realism and Meaning to see how the debate develops."
+        "Compare",
+        "Use Anti-Realism and Meaning to see which assumption the debate turns on."
       ]
     ],
-    "why": "Dummett matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Dummett matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-anti-realism-and-meaning",
@@ -3502,30 +3502,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Anti-Realism and Meaning",
     "hook": "What problem or argument is Anti-Realism and Meaning really about?",
-    "question": "Which description best captures Anti-Realism and Meaning?",
+    "question": "What philosophical work does Anti-Realism and Meaning do?",
     "options": [
-      "Anti-Realism and Meaning is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Anti-Realism and Meaning addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anti-Realism and Meaning is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Anti-Realism and Meaning addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Anti-Realism and Meaning."
+        "Clarify",
+        "State the central claim behind Anti-Realism and Meaning without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Anti-Realism and Meaning difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Anti-Realism and Meaning."
       ],
       [
-        "Connection",
-        "Compare it with Searle to see how the debate develops."
+        "Compare",
+        "Use Searle to see which assumption the debate turns on."
       ]
     ],
-    "why": "Anti-Realism and Meaning matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Anti-Realism and Meaning matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-searle",
@@ -3540,30 +3540,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Searle",
     "hook": "What problem or argument is Searle really about?",
-    "question": "Which description best captures Searle?",
+    "question": "Why does Searle matter to Philosophy of Language?",
     "options": [
-      "Searle is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Searle is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Searle is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Searle is important in Philosophy of Language because their work reshaped debates about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Searle."
+        "Clarify",
+        "State the central claim behind Searle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Searle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Searle."
       ],
       [
-        "Connection",
-        "Compare it with Indirect Speech Acts to see how the debate develops."
+        "Compare",
+        "Use Indirect Speech Acts to see which assumption the debate turns on."
       ]
     ],
-    "why": "Searle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Searle matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-indirect-speech-acts",
@@ -3578,30 +3578,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Indirect Speech Acts",
     "hook": "What problem or argument is Indirect Speech Acts really about?",
-    "question": "Which description best captures Indirect Speech Acts?",
+    "question": "What philosophical work does Indirect Speech Acts do?",
     "options": [
-      "Indirect Speech Acts is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Indirect Speech Acts addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Indirect Speech Acts is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Indirect Speech Acts addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Indirect Speech Acts."
+        "Clarify",
+        "State the central claim behind Indirect Speech Acts without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Indirect Speech Acts difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Indirect Speech Acts."
       ],
       [
-        "Connection",
-        "Compare it with Indexicals to see how the debate develops."
+        "Compare",
+        "Use Indexicals to see which assumption the debate turns on."
       ]
     ],
-    "why": "Indirect Speech Acts matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Indirect Speech Acts matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-indexicals",
@@ -3616,30 +3616,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Indexicals",
     "hook": "What problem or argument is Indexicals really about?",
-    "question": "Which description best captures Indexicals?",
+    "question": "What philosophical work does Indexicals do?",
     "options": [
-      "Indexicals is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Indexicals addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Indexicals is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Indexicals addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Indexicals."
+        "Clarify",
+        "State the central claim behind Indexicals without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Indexicals difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Indexicals."
       ],
       [
-        "Connection",
-        "Compare it with Kaplan on Demonstratives to see how the debate develops."
+        "Compare",
+        "Use Kaplan on Demonstratives to see which assumption the debate turns on."
       ]
     ],
-    "why": "Indexicals matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Indexicals matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-kaplan-on-demonstratives",
@@ -3654,30 +3654,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Kaplan on Demonstratives",
     "hook": "What problem or argument is Kaplan on Demonstratives really about?",
-    "question": "Which description best captures Kaplan on Demonstratives?",
+    "question": "What philosophical work does Kaplan on Demonstratives do?",
     "options": [
-      "Kaplan on Demonstratives is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Kaplan on Demonstratives addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Kaplan on Demonstratives is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Kaplan on Demonstratives addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Kaplan on Demonstratives."
+        "Clarify",
+        "State the central claim behind Kaplan on Demonstratives without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Kaplan on Demonstratives difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Kaplan on Demonstratives."
       ],
       [
-        "Connection",
-        "Compare it with Context Sensitivity to see how the debate develops."
+        "Compare",
+        "Use Context Sensitivity to see which assumption the debate turns on."
       ]
     ],
-    "why": "Kaplan on Demonstratives matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Kaplan on Demonstratives matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-context-sensitivity",
@@ -3692,30 +3692,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Language",
     "name": "Context Sensitivity",
     "hook": "What problem or argument is Context Sensitivity really about?",
-    "question": "Which description best captures Context Sensitivity?",
+    "question": "What philosophical work does Context Sensitivity do?",
     "options": [
-      "Context Sensitivity is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Context Sensitivity addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Context Sensitivity is a substantive position, argument, method or problem within Philosophy of Language. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Context Sensitivity addresses how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Context Sensitivity."
+        "Clarify",
+        "State the central claim behind Context Sensitivity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Context Sensitivity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Context Sensitivity."
       ],
       [
-        "Connection",
-        "Compare it with Reference to see how the debate develops."
+        "Compare",
+        "Use Reference to see which assumption the debate turns on."
       ]
     ],
-    "why": "Context Sensitivity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Context Sensitivity matters because it sharpens the debate about how words and sentences acquire reference, meaning and truth conditions across speakers, contexts and possible situations.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reference",
@@ -3730,30 +3730,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Knowledge",
     "hook": "What problem or argument is Knowledge really about?",
-    "question": "Which description best captures Knowledge?",
+    "question": "What philosophical work does Knowledge do?",
     "options": [
-      "Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Knowledge."
+        "Clarify",
+        "State the central claim behind Knowledge without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Knowledge difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Knowledge."
       ],
       [
-        "Connection",
-        "Compare it with Justified True Belief to see how the debate develops."
+        "Compare",
+        "Use Justified True Belief to see which assumption the debate turns on."
       ]
     ],
-    "why": "Knowledge matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Knowledge matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-justified-true-belief",
@@ -3768,30 +3768,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Justified True Belief",
     "hook": "What problem or argument is Justified True Belief really about?",
-    "question": "Which description best captures Justified True Belief?",
+    "question": "What philosophical work does Justified True Belief do?",
     "options": [
-      "Justified True Belief is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Justified True Belief addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Justified True Belief is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Justified True Belief addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Justified True Belief."
+        "Clarify",
+        "State the central claim behind Justified True Belief without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Justified True Belief difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Justified True Belief."
       ],
       [
-        "Connection",
-        "Compare it with Gettier Problem to see how the debate develops."
+        "Compare",
+        "Use Gettier Problem to see which assumption the debate turns on."
       ]
     ],
-    "why": "Justified True Belief matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Justified True Belief matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-gettier-problem",
@@ -3844,30 +3844,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Foundationalism",
     "hook": "What problem or argument is Foundationalism really about?",
-    "question": "Which description best captures Foundationalism?",
+    "question": "What philosophical work does Foundationalism do?",
     "options": [
-      "Foundationalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Foundationalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Foundationalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Foundationalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Foundationalism."
+        "Clarify",
+        "State the central claim behind Foundationalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Foundationalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Foundationalism."
       ],
       [
-        "Connection",
-        "Compare it with Coherentism to see how the debate develops."
+        "Compare",
+        "Use Coherentism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Foundationalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Foundationalism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-coherentism",
@@ -3882,30 +3882,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Coherentism",
     "hook": "What problem or argument is Coherentism really about?",
-    "question": "Which description best captures Coherentism?",
+    "question": "What philosophical work does Coherentism do?",
     "options": [
-      "Coherentism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Coherentism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Coherentism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Coherentism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Coherentism."
+        "Clarify",
+        "State the central claim behind Coherentism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Coherentism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Coherentism."
       ],
       [
-        "Connection",
-        "Compare it with Infinitism to see how the debate develops."
+        "Compare",
+        "Use Infinitism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Coherentism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Coherentism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-infinitism",
@@ -3920,30 +3920,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Infinitism",
     "hook": "What problem or argument is Infinitism really about?",
-    "question": "Which description best captures Infinitism?",
+    "question": "What philosophical work does Infinitism do?",
     "options": [
-      "Infinitism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Infinitism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Infinitism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Infinitism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Infinitism."
+        "Clarify",
+        "State the central claim behind Infinitism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Infinitism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Infinitism."
       ],
       [
-        "Connection",
-        "Compare it with Internalism to see how the debate develops."
+        "Compare",
+        "Use Internalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Infinitism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Infinitism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-internalism",
@@ -3958,30 +3958,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Internalism",
     "hook": "What problem or argument is Internalism really about?",
-    "question": "Which description best captures Internalism?",
+    "question": "What philosophical work does Internalism do?",
     "options": [
-      "Internalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Internalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Internalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Internalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Internalism."
+        "Clarify",
+        "State the central claim behind Internalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Internalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Internalism."
       ],
       [
-        "Connection",
-        "Compare it with Externalism to see how the debate develops."
+        "Compare",
+        "Use Externalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Internalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Internalism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-externalism",
@@ -3996,30 +3996,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Externalism",
     "hook": "What problem or argument is Externalism really about?",
-    "question": "Which description best captures Externalism?",
+    "question": "What philosophical work does Externalism do?",
     "options": [
-      "Externalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Externalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Externalism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Externalism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Externalism."
+        "Clarify",
+        "State the central claim behind Externalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Externalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Externalism."
       ],
       [
-        "Connection",
-        "Compare it with Reliabilism to see how the debate develops."
+        "Compare",
+        "Use Reliabilism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Externalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Externalism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reliabilism",
@@ -4072,30 +4072,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Goldman",
     "hook": "What problem or argument is Goldman really about?",
-    "question": "Which description best captures Goldman?",
+    "question": "Why does Goldman matter to Epistemology?",
     "options": [
-      "Goldman is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Goldman is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Goldman is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Goldman is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Goldman."
+        "Clarify",
+        "State the central claim behind Goldman without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Goldman difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Goldman."
       ],
       [
-        "Connection",
-        "Compare it with Virtue Epistemology to see how the debate develops."
+        "Compare",
+        "Use Virtue Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Goldman matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Goldman matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-virtue-epistemology",
@@ -4110,30 +4110,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Virtue Epistemology",
     "hook": "What problem or argument is Virtue Epistemology really about?",
-    "question": "Which description best captures Virtue Epistemology?",
+    "question": "What philosophical work does Virtue Epistemology do?",
     "options": [
-      "Virtue Epistemology is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Virtue Epistemology addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Virtue Epistemology is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Virtue Epistemology addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Virtue Epistemology."
+        "Clarify",
+        "State the central claim behind Virtue Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Virtue Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Virtue Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Ernest Sosa to see how the debate develops."
+        "Compare",
+        "Use Ernest Sosa to see which assumption the debate turns on."
       ]
     ],
-    "why": "Virtue Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Virtue Epistemology matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ernest-sosa",
@@ -4148,30 +4148,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Ernest Sosa",
     "hook": "What problem or argument is Ernest Sosa really about?",
-    "question": "Which description best captures Ernest Sosa?",
+    "question": "Why does Ernest Sosa matter to Epistemology?",
     "options": [
-      "Ernest Sosa is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ernest Sosa is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ernest Sosa is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ernest Sosa is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ernest Sosa."
+        "Clarify",
+        "State the central claim behind Ernest Sosa without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ernest Sosa difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ernest Sosa."
       ],
       [
-        "Connection",
-        "Compare it with Testimonial Knowledge to see how the debate develops."
+        "Compare",
+        "Use Testimonial Knowledge to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ernest Sosa matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ernest Sosa matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-testimonial-knowledge",
@@ -4186,30 +4186,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Testimonial Knowledge",
     "hook": "What problem or argument is Testimonial Knowledge really about?",
-    "question": "Which description best captures Testimonial Knowledge?",
+    "question": "What philosophical work does Testimonial Knowledge do?",
     "options": [
-      "Testimonial Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Testimonial Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Testimonial Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Testimonial Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Testimonial Knowledge."
+        "Clarify",
+        "State the central claim behind Testimonial Knowledge without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Testimonial Knowledge difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Testimonial Knowledge."
       ],
       [
-        "Connection",
-        "Compare it with Epistemic Injustice to see how the debate develops."
+        "Compare",
+        "Use Epistemic Injustice to see which assumption the debate turns on."
       ]
     ],
-    "why": "Testimonial Knowledge matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Testimonial Knowledge matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-epistemic-injustice",
@@ -4262,30 +4262,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Miranda Fricker",
     "hook": "What problem or argument is Miranda Fricker really about?",
-    "question": "Which description best captures Miranda Fricker?",
+    "question": "Why does Miranda Fricker matter to Epistemology?",
     "options": [
-      "Miranda Fricker is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Miranda Fricker is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Miranda Fricker is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Miranda Fricker is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Miranda Fricker."
+        "Clarify",
+        "State the central claim behind Miranda Fricker without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Miranda Fricker difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Miranda Fricker."
       ],
       [
-        "Connection",
-        "Compare it with Contextualism to see how the debate develops."
+        "Compare",
+        "Use Contextualism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Miranda Fricker matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Miranda Fricker matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-contextualism",
@@ -4300,30 +4300,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Contextualism",
     "hook": "What problem or argument is Contextualism really about?",
-    "question": "Which description best captures Contextualism?",
+    "question": "What philosophical work does Contextualism do?",
     "options": [
-      "Contextualism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Contextualism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Contextualism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Contextualism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Contextualism."
+        "Clarify",
+        "State the central claim behind Contextualism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Contextualism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Contextualism."
       ],
       [
-        "Connection",
-        "Compare it with Keith DeRose to see how the debate develops."
+        "Compare",
+        "Use Keith DeRose to see which assumption the debate turns on."
       ]
     ],
-    "why": "Contextualism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Contextualism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-keith-derose",
@@ -4338,30 +4338,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Keith DeRose",
     "hook": "What problem or argument is Keith DeRose really about?",
-    "question": "Which description best captures Keith DeRose?",
+    "question": "Why does Keith DeRose matter to Epistemology?",
     "options": [
-      "Keith DeRose is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Keith DeRose is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Keith DeRose is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Keith DeRose is important in Epistemology because their work reshaped debates about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Keith DeRose."
+        "Clarify",
+        "State the central claim behind Keith DeRose without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Keith DeRose difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Keith DeRose."
       ],
       [
-        "Connection",
-        "Compare it with Safety Condition to see how the debate develops."
+        "Compare",
+        "Use Safety Condition to see which assumption the debate turns on."
       ]
     ],
-    "why": "Keith DeRose matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Keith DeRose matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-safety-condition",
@@ -4376,30 +4376,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Safety Condition",
     "hook": "What problem or argument is Safety Condition really about?",
-    "question": "Which description best captures Safety Condition?",
+    "question": "What philosophical work does Safety Condition do?",
     "options": [
-      "Safety Condition is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Safety Condition addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Safety Condition is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Safety Condition addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Safety Condition."
+        "Clarify",
+        "State the central claim behind Safety Condition without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Safety Condition difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Safety Condition."
       ],
       [
-        "Connection",
-        "Compare it with Sensitivity Condition to see how the debate develops."
+        "Compare",
+        "Use Sensitivity Condition to see which assumption the debate turns on."
       ]
     ],
-    "why": "Safety Condition matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Safety Condition matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-sensitivity-condition",
@@ -4414,30 +4414,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Sensitivity Condition",
     "hook": "What problem or argument is Sensitivity Condition really about?",
-    "question": "Which description best captures Sensitivity Condition?",
+    "question": "What philosophical work does Sensitivity Condition do?",
     "options": [
-      "Sensitivity Condition is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Sensitivity Condition addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sensitivity Condition is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Sensitivity Condition addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Sensitivity Condition."
+        "Clarify",
+        "State the central claim behind Sensitivity Condition without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Sensitivity Condition difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Sensitivity Condition."
       ],
       [
-        "Connection",
-        "Compare it with Nozick on Knowledge to see how the debate develops."
+        "Compare",
+        "Use Nozick on Knowledge to see which assumption the debate turns on."
       ]
     ],
-    "why": "Sensitivity Condition matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Sensitivity Condition matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-nozick-on-knowledge",
@@ -4452,30 +4452,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Nozick on Knowledge",
     "hook": "What problem or argument is Nozick on Knowledge really about?",
-    "question": "Which description best captures Nozick on Knowledge?",
+    "question": "What philosophical work does Nozick on Knowledge do?",
     "options": [
-      "Nozick on Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Nozick on Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nozick on Knowledge is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Nozick on Knowledge addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Nozick on Knowledge."
+        "Clarify",
+        "State the central claim behind Nozick on Knowledge without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Nozick on Knowledge difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Nozick on Knowledge."
       ],
       [
-        "Connection",
-        "Compare it with Closure Principle to see how the debate develops."
+        "Compare",
+        "Use Closure Principle to see which assumption the debate turns on."
       ]
     ],
-    "why": "Nozick on Knowledge matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Nozick on Knowledge matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-closure-principle",
@@ -4490,30 +4490,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Closure Principle",
     "hook": "What problem or argument is Closure Principle really about?",
-    "question": "Which description best captures Closure Principle?",
+    "question": "What philosophical work does Closure Principle do?",
     "options": [
-      "Closure Principle is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Closure Principle addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Closure Principle is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Closure Principle addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Closure Principle."
+        "Clarify",
+        "State the central claim behind Closure Principle without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Closure Principle difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Closure Principle."
       ],
       [
-        "Connection",
-        "Compare it with Skepticism to see how the debate develops."
+        "Compare",
+        "Use Skepticism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Closure Principle matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Closure Principle matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-skepticism",
@@ -4528,30 +4528,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Skepticism",
     "hook": "What problem or argument is Skepticism really about?",
-    "question": "Which description best captures Skepticism?",
+    "question": "What philosophical work does Skepticism do?",
     "options": [
-      "Skepticism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Skepticism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Skepticism is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Skepticism addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Skepticism."
+        "Clarify",
+        "State the central claim behind Skepticism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Skepticism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Skepticism."
       ],
       [
-        "Connection",
-        "Compare it with Brain in a Vat to see how the debate develops."
+        "Compare",
+        "Use Brain in a Vat to see which assumption the debate turns on."
       ]
     ],
-    "why": "Skepticism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Skepticism matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-brain-in-a-vat",
@@ -4566,30 +4566,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Brain in a Vat",
     "hook": "What problem or argument is Brain in a Vat really about?",
-    "question": "Which description best captures Brain in a Vat?",
+    "question": "What philosophical work does Brain in a Vat do?",
     "options": [
-      "Brain in a Vat is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Brain in a Vat addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Brain in a Vat is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Brain in a Vat addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Brain in a Vat."
+        "Clarify",
+        "State the central claim behind Brain in a Vat without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Brain in a Vat difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Brain in a Vat."
       ],
       [
-        "Connection",
-        "Compare it with Moorean Response to see how the debate develops."
+        "Compare",
+        "Use Moorean Response to see which assumption the debate turns on."
       ]
     ],
-    "why": "Brain in a Vat matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Brain in a Vat matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moorean-response",
@@ -4604,30 +4604,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Moorean Response",
     "hook": "What problem or argument is Moorean Response really about?",
-    "question": "Which description best captures Moorean Response?",
+    "question": "What philosophical work does Moorean Response do?",
     "options": [
-      "Moorean Response is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moorean Response addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moorean Response is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moorean Response addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moorean Response."
+        "Clarify",
+        "State the central claim behind Moorean Response without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moorean Response difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moorean Response."
       ],
       [
-        "Connection",
-        "Compare it with Bayesian Epistemology to see how the debate develops."
+        "Compare",
+        "Use Bayesian Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moorean Response matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moorean Response matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-bayesian-epistemology",
@@ -4642,30 +4642,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Epistemology",
     "name": "Bayesian Epistemology",
     "hook": "What problem or argument is Bayesian Epistemology really about?",
-    "question": "Which description best captures Bayesian Epistemology?",
+    "question": "What philosophical work does Bayesian Epistemology do?",
     "options": [
-      "Bayesian Epistemology is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Bayesian Epistemology addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bayesian Epistemology is a substantive position, argument, method or problem within Epistemology. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Bayesian Epistemology addresses what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Bayesian Epistemology."
+        "Clarify",
+        "State the central claim behind Bayesian Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Bayesian Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Bayesian Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Knowledge to see how the debate develops."
+        "Compare",
+        "Use Knowledge to see which assumption the debate turns on."
       ]
     ],
-    "why": "Bayesian Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Bayesian Epistemology matters because it sharpens the debate about what knowledge and justification require, how epistemic luck is excluded and how testimony, reliability and social position affect knowing.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-knowledge",
@@ -4680,30 +4680,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Existence",
     "hook": "What problem or argument is Existence really about?",
-    "question": "Which description best captures Existence?",
+    "question": "What philosophical work does Existence do?",
     "options": [
-      "Existence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Existence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Existence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Existence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Existence."
+        "Clarify",
+        "State the central claim behind Existence without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Existence difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Existence."
       ],
       [
-        "Connection",
-        "Compare it with Quine on Ontological Commitment to see how the debate develops."
+        "Compare",
+        "Use Quine on Ontological Commitment to see which assumption the debate turns on."
       ]
     ],
-    "why": "Existence matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Existence matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-quine-on-ontological-commitment",
@@ -4718,30 +4718,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Quine on Ontological Commitment",
     "hook": "What problem or argument is Quine on Ontological Commitment really about?",
-    "question": "Which description best captures Quine on Ontological Commitment?",
+    "question": "What philosophical work does Quine on Ontological Commitment do?",
     "options": [
-      "Quine on Ontological Commitment is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Quine on Ontological Commitment addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Quine on Ontological Commitment is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Quine on Ontological Commitment addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Quine on Ontological Commitment."
+        "Clarify",
+        "State the central claim behind Quine on Ontological Commitment without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Quine on Ontological Commitment difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Quine on Ontological Commitment."
       ],
       [
-        "Connection",
-        "Compare it with Identity over Time to see how the debate develops."
+        "Compare",
+        "Use Identity over Time to see which assumption the debate turns on."
       ]
     ],
-    "why": "Quine on Ontological Commitment matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Quine on Ontological Commitment matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-identity-over-time",
@@ -4756,30 +4756,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Identity over Time",
     "hook": "What problem or argument is Identity over Time really about?",
-    "question": "Which description best captures Identity over Time?",
+    "question": "What philosophical work does Identity over Time do?",
     "options": [
-      "Identity over Time is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Identity over Time addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Identity over Time is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Identity over Time addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Identity over Time."
+        "Clarify",
+        "State the central claim behind Identity over Time without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Identity over Time difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Identity over Time."
       ],
       [
-        "Connection",
-        "Compare it with Persistence to see how the debate develops."
+        "Compare",
+        "Use Persistence to see which assumption the debate turns on."
       ]
     ],
-    "why": "Identity over Time matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Identity over Time matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-persistence",
@@ -4794,30 +4794,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Persistence",
     "hook": "What problem or argument is Persistence really about?",
-    "question": "Which description best captures Persistence?",
+    "question": "What philosophical work does Persistence do?",
     "options": [
-      "Persistence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Persistence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Persistence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Persistence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Persistence."
+        "Clarify",
+        "State the central claim behind Persistence without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Persistence difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Persistence."
       ],
       [
-        "Connection",
-        "Compare it with Endurantism to see how the debate develops."
+        "Compare",
+        "Use Endurantism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Persistence matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Persistence matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-endurantism",
@@ -4832,30 +4832,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Endurantism",
     "hook": "What problem or argument is Endurantism really about?",
-    "question": "Which description best captures Endurantism?",
+    "question": "What philosophical work does Endurantism do?",
     "options": [
-      "Endurantism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Endurantism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Endurantism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Endurantism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Endurantism."
+        "Clarify",
+        "State the central claim behind Endurantism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Endurantism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Endurantism."
       ],
       [
-        "Connection",
-        "Compare it with Perdurantism to see how the debate develops."
+        "Compare",
+        "Use Perdurantism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Endurantism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Endurantism matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-perdurantism",
@@ -4870,30 +4870,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Perdurantism",
     "hook": "What problem or argument is Perdurantism really about?",
-    "question": "Which description best captures Perdurantism?",
+    "question": "What philosophical work does Perdurantism do?",
     "options": [
-      "Perdurantism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Perdurantism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Perdurantism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Perdurantism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Perdurantism."
+        "Clarify",
+        "State the central claim behind Perdurantism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Perdurantism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Perdurantism."
       ],
       [
-        "Connection",
-        "Compare it with Universals to see how the debate develops."
+        "Compare",
+        "Use Universals to see which assumption the debate turns on."
       ]
     ],
-    "why": "Perdurantism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Perdurantism matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-universals",
@@ -4908,30 +4908,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Universals",
     "hook": "What problem or argument is Universals really about?",
-    "question": "Which description best captures Universals?",
+    "question": "What philosophical work does Universals do?",
     "options": [
-      "Universals is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Universals addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Universals is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Universals addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Universals."
+        "Clarify",
+        "State the central claim behind Universals without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Universals difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Universals."
       ],
       [
-        "Connection",
-        "Compare it with Nominalism to see how the debate develops."
+        "Compare",
+        "Use Nominalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Universals matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Universals matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-nominalism",
@@ -4946,30 +4946,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Nominalism",
     "hook": "What problem or argument is Nominalism really about?",
-    "question": "Which description best captures Nominalism?",
+    "question": "What philosophical work does Nominalism do?",
     "options": [
-      "Nominalism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Nominalism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Nominalism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Nominalism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Nominalism."
+        "Clarify",
+        "State the central claim behind Nominalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Nominalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Nominalism."
       ],
       [
-        "Connection",
-        "Compare it with Properties to see how the debate develops."
+        "Compare",
+        "Use Properties to see which assumption the debate turns on."
       ]
     ],
-    "why": "Nominalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Nominalism matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-properties",
@@ -4984,30 +4984,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Properties",
     "hook": "What problem or argument is Properties really about?",
-    "question": "Which description best captures Properties?",
+    "question": "What philosophical work does Properties do?",
     "options": [
-      "Properties is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Properties addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Properties is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Properties addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Properties."
+        "Clarify",
+        "State the central claim behind Properties without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Properties difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Properties."
       ],
       [
-        "Connection",
-        "Compare it with Tropes to see how the debate develops."
+        "Compare",
+        "Use Tropes to see which assumption the debate turns on."
       ]
     ],
-    "why": "Properties matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Properties matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-tropes",
@@ -5022,30 +5022,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Tropes",
     "hook": "What problem or argument is Tropes really about?",
-    "question": "Which description best captures Tropes?",
+    "question": "What philosophical work does Tropes do?",
     "options": [
-      "Tropes is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Tropes addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Tropes is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Tropes addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Tropes."
+        "Clarify",
+        "State the central claim behind Tropes without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Tropes difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Tropes."
       ],
       [
-        "Connection",
-        "Compare it with Possible Worlds to see how the debate develops."
+        "Compare",
+        "Use Possible Worlds to see which assumption the debate turns on."
       ]
     ],
-    "why": "Tropes matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Tropes matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-possible-worlds",
@@ -5060,30 +5060,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Possible Worlds",
     "hook": "What problem or argument is Possible Worlds really about?",
-    "question": "Which description best captures Possible Worlds?",
+    "question": "What philosophical work does Possible Worlds do?",
     "options": [
-      "Possible Worlds is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Possible Worlds addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Possible Worlds is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Possible Worlds addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Possible Worlds."
+        "Clarify",
+        "State the central claim behind Possible Worlds without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Possible Worlds difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Possible Worlds."
       ],
       [
-        "Connection",
-        "Compare it with David Lewis to see how the debate develops."
+        "Compare",
+        "Use David Lewis to see which assumption the debate turns on."
       ]
     ],
-    "why": "Possible Worlds matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Possible Worlds matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-david-lewis",
@@ -5098,30 +5098,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "David Lewis",
     "hook": "What problem or argument is David Lewis really about?",
-    "question": "Which description best captures David Lewis?",
+    "question": "Why does David Lewis matter to Metaphysics?",
     "options": [
-      "David Lewis is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "David Lewis is important in Metaphysics because their work reshaped debates about what exists and how identity, modality, causation, properties, composition and dependence should be understood. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "David Lewis is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "David Lewis is important in Metaphysics because their work reshaped debates about what exists and how identity, modality, causation, properties, composition and dependence should be understood. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in David Lewis."
+        "Clarify",
+        "State the central claim behind David Lewis without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make David Lewis difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to David Lewis."
       ],
       [
-        "Connection",
-        "Compare it with Modal Realism to see how the debate develops."
+        "Compare",
+        "Use Modal Realism to see which assumption the debate turns on."
       ]
     ],
-    "why": "David Lewis matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "David Lewis matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-modal-realism",
@@ -5174,30 +5174,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Actualism",
     "hook": "What problem or argument is Actualism really about?",
-    "question": "Which description best captures Actualism?",
+    "question": "What philosophical work does Actualism do?",
     "options": [
-      "Actualism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Actualism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Actualism is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Actualism addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Actualism."
+        "Clarify",
+        "State the central claim behind Actualism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Actualism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Actualism."
       ],
       [
-        "Connection",
-        "Compare it with Counterparts to see how the debate develops."
+        "Compare",
+        "Use Counterparts to see which assumption the debate turns on."
       ]
     ],
-    "why": "Actualism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Actualism matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-counterparts",
@@ -5212,30 +5212,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Counterparts",
     "hook": "What problem or argument is Counterparts really about?",
-    "question": "Which description best captures Counterparts?",
+    "question": "What philosophical work does Counterparts do?",
     "options": [
-      "Counterparts is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Counterparts addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Counterparts is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Counterparts addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Counterparts."
+        "Clarify",
+        "State the central claim behind Counterparts without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Counterparts difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Counterparts."
       ],
       [
-        "Connection",
-        "Compare it with Causation to see how the debate develops."
+        "Compare",
+        "Use Causation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Counterparts matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Counterparts matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-causation",
@@ -5250,30 +5250,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Causation",
     "hook": "What problem or argument is Causation really about?",
-    "question": "Which description best captures Causation?",
+    "question": "What philosophical work does Causation do?",
     "options": [
-      "Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Causation."
+        "Clarify",
+        "State the central claim behind Causation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Causation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Causation."
       ],
       [
-        "Connection",
-        "Compare it with Regularity Theory of Causation to see how the debate develops."
+        "Compare",
+        "Use Regularity Theory of Causation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Causation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Causation matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-regularity-theory-of-causation",
@@ -5288,30 +5288,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Regularity Theory of Causation",
     "hook": "What problem or argument is Regularity Theory of Causation really about?",
-    "question": "Which description best captures Regularity Theory of Causation?",
+    "question": "What philosophical work does Regularity Theory of Causation do?",
     "options": [
-      "Regularity Theory of Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Regularity Theory of Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Regularity Theory of Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Regularity Theory of Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Regularity Theory of Causation."
+        "Clarify",
+        "State the central claim behind Regularity Theory of Causation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Regularity Theory of Causation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Regularity Theory of Causation."
       ],
       [
-        "Connection",
-        "Compare it with Counterfactual Causation to see how the debate develops."
+        "Compare",
+        "Use Counterfactual Causation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Regularity Theory of Causation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Regularity Theory of Causation matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-counterfactual-causation",
@@ -5326,30 +5326,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Counterfactual Causation",
     "hook": "What problem or argument is Counterfactual Causation really about?",
-    "question": "Which description best captures Counterfactual Causation?",
+    "question": "What philosophical work does Counterfactual Causation do?",
     "options": [
-      "Counterfactual Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Counterfactual Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Counterfactual Causation is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Counterfactual Causation addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Counterfactual Causation."
+        "Clarify",
+        "State the central claim behind Counterfactual Causation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Counterfactual Causation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Counterfactual Causation."
       ],
       [
-        "Connection",
-        "Compare it with Laws of Nature to see how the debate develops."
+        "Compare",
+        "Use Laws of Nature to see which assumption the debate turns on."
       ]
     ],
-    "why": "Counterfactual Causation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Counterfactual Causation matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-laws-of-nature",
@@ -5364,30 +5364,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Laws of Nature",
     "hook": "What problem or argument is Laws of Nature really about?",
-    "question": "Which description best captures Laws of Nature?",
+    "question": "What philosophical work does Laws of Nature do?",
     "options": [
-      "Laws of Nature is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Laws of Nature addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Laws of Nature is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Laws of Nature addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Laws of Nature."
+        "Clarify",
+        "State the central claim behind Laws of Nature without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Laws of Nature difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Laws of Nature."
       ],
       [
-        "Connection",
-        "Compare it with Humean Supervenience to see how the debate develops."
+        "Compare",
+        "Use Humean Supervenience to see which assumption the debate turns on."
       ]
     ],
-    "why": "Laws of Nature matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Laws of Nature matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-humean-supervenience",
@@ -5402,30 +5402,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Humean Supervenience",
     "hook": "What problem or argument is Humean Supervenience really about?",
-    "question": "Which description best captures Humean Supervenience?",
+    "question": "What philosophical work does Humean Supervenience do?",
     "options": [
-      "Humean Supervenience is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Humean Supervenience addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Humean Supervenience is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Humean Supervenience addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Humean Supervenience."
+        "Clarify",
+        "State the central claim behind Humean Supervenience without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Humean Supervenience difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Humean Supervenience."
       ],
       [
-        "Connection",
-        "Compare it with Dispositions to see how the debate develops."
+        "Compare",
+        "Use Dispositions to see which assumption the debate turns on."
       ]
     ],
-    "why": "Humean Supervenience matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Humean Supervenience matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-dispositions",
@@ -5440,30 +5440,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Dispositions",
     "hook": "What problem or argument is Dispositions really about?",
-    "question": "Which description best captures Dispositions?",
+    "question": "What philosophical work does Dispositions do?",
     "options": [
-      "Dispositions is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Dispositions addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Dispositions is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Dispositions addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Dispositions."
+        "Clarify",
+        "State the central claim behind Dispositions without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Dispositions difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Dispositions."
       ],
       [
-        "Connection",
-        "Compare it with Grounding to see how the debate develops."
+        "Compare",
+        "Use Grounding to see which assumption the debate turns on."
       ]
     ],
-    "why": "Dispositions matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Dispositions matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-grounding",
@@ -5516,30 +5516,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Metaphysical Dependence",
     "hook": "What problem or argument is Metaphysical Dependence really about?",
-    "question": "Which description best captures Metaphysical Dependence?",
+    "question": "What philosophical work does Metaphysical Dependence do?",
     "options": [
-      "Metaphysical Dependence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Metaphysical Dependence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Metaphysical Dependence is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Metaphysical Dependence addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Metaphysical Dependence."
+        "Clarify",
+        "State the central claim behind Metaphysical Dependence without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Metaphysical Dependence difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Metaphysical Dependence."
       ],
       [
-        "Connection",
-        "Compare it with Composition to see how the debate develops."
+        "Compare",
+        "Use Composition to see which assumption the debate turns on."
       ]
     ],
-    "why": "Metaphysical Dependence matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Metaphysical Dependence matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-composition",
@@ -5554,30 +5554,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Composition",
     "hook": "What problem or argument is Composition really about?",
-    "question": "Which description best captures Composition?",
+    "question": "What philosophical work does Composition do?",
     "options": [
-      "Composition is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Composition addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Composition is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Composition addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Composition."
+        "Clarify",
+        "State the central claim behind Composition without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Composition difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Composition."
       ],
       [
-        "Connection",
-        "Compare it with Mereology to see how the debate develops."
+        "Compare",
+        "Use Mereology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Composition matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Composition matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-mereology",
@@ -5592,30 +5592,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Mereology",
     "hook": "What problem or argument is Mereology really about?",
-    "question": "Which description best captures Mereology?",
+    "question": "What philosophical work does Mereology do?",
     "options": [
-      "Mereology is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Mereology addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mereology is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Mereology addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Mereology."
+        "Clarify",
+        "State the central claim behind Mereology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Mereology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Mereology."
       ],
       [
-        "Connection",
-        "Compare it with Ship of Theseus to see how the debate develops."
+        "Compare",
+        "Use Ship of Theseus to see which assumption the debate turns on."
       ]
     ],
-    "why": "Mereology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Mereology matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ship-of-theseus",
@@ -5630,30 +5630,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Metaphysics",
     "name": "Ship of Theseus",
     "hook": "What problem or argument is Ship of Theseus really about?",
-    "question": "Which description best captures Ship of Theseus?",
+    "question": "What philosophical work does Ship of Theseus do?",
     "options": [
-      "Ship of Theseus is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ship of Theseus addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ship of Theseus is a substantive position, argument, method or problem within Metaphysics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ship of Theseus addresses what exists and how identity, modality, causation, properties, composition and dependence should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ship of Theseus."
+        "Clarify",
+        "State the central claim behind Ship of Theseus without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ship of Theseus difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ship of Theseus."
       ],
       [
-        "Connection",
-        "Compare it with Existence to see how the debate develops."
+        "Compare",
+        "Use Existence to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ship of Theseus matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ship of Theseus matters because it sharpens the debate about what exists and how identity, modality, causation, properties, composition and dependence should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-existence",
@@ -5668,30 +5668,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Mind–Body Problem",
     "hook": "What problem or argument is Mind–Body Problem really about?",
-    "question": "Which description best captures Mind–Body Problem?",
+    "question": "What philosophical work does Mind–Body Problem do?",
     "options": [
-      "Mind–Body Problem is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Mind–Body Problem addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mind–Body Problem is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Mind–Body Problem addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Mind–Body Problem."
+        "Clarify",
+        "State the central claim behind Mind–Body Problem without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Mind–Body Problem difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Mind–Body Problem."
       ],
       [
-        "Connection",
-        "Compare it with Behaviorism to see how the debate develops."
+        "Compare",
+        "Use Behaviorism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Mind–Body Problem matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Mind–Body Problem matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-behaviorism",
@@ -5706,30 +5706,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Behaviorism",
     "hook": "What problem or argument is Behaviorism really about?",
-    "question": "Which description best captures Behaviorism?",
+    "question": "What philosophical work does Behaviorism do?",
     "options": [
-      "Behaviorism is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Behaviorism addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Behaviorism is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Behaviorism addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Behaviorism."
+        "Clarify",
+        "State the central claim behind Behaviorism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Behaviorism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Behaviorism."
       ],
       [
-        "Connection",
-        "Compare it with Identity Theory to see how the debate develops."
+        "Compare",
+        "Use Identity Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Behaviorism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Behaviorism matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-identity-theory",
@@ -5744,30 +5744,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Identity Theory",
     "hook": "What problem or argument is Identity Theory really about?",
-    "question": "Which description best captures Identity Theory?",
+    "question": "What philosophical work does Identity Theory do?",
     "options": [
-      "Identity Theory is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Identity Theory addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Identity Theory is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Identity Theory addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Identity Theory."
+        "Clarify",
+        "State the central claim behind Identity Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Identity Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Identity Theory."
       ],
       [
-        "Connection",
-        "Compare it with Functionalism to see how the debate develops."
+        "Compare",
+        "Use Functionalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Identity Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Identity Theory matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-functionalism",
@@ -5858,30 +5858,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Hilary Putnam on Functionalism",
     "hook": "What problem or argument is Hilary Putnam on Functionalism really about?",
-    "question": "Which description best captures Hilary Putnam on Functionalism?",
+    "question": "What philosophical work does Hilary Putnam on Functionalism do?",
     "options": [
-      "Hilary Putnam on Functionalism is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Hilary Putnam on Functionalism addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Hilary Putnam on Functionalism is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Hilary Putnam on Functionalism addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Hilary Putnam on Functionalism."
+        "Clarify",
+        "State the central claim behind Hilary Putnam on Functionalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Hilary Putnam on Functionalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Hilary Putnam on Functionalism."
       ],
       [
-        "Connection",
-        "Compare it with David Armstrong to see how the debate develops."
+        "Compare",
+        "Use David Armstrong to see which assumption the debate turns on."
       ]
     ],
-    "why": "Hilary Putnam on Functionalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Hilary Putnam on Functionalism matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-david-armstrong",
@@ -5896,30 +5896,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "David Armstrong",
     "hook": "What problem or argument is David Armstrong really about?",
-    "question": "Which description best captures David Armstrong?",
+    "question": "Why does David Armstrong matter to Philosophy of Mind?",
     "options": [
-      "David Armstrong is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "David Armstrong is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "David Armstrong is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "David Armstrong is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in David Armstrong."
+        "Clarify",
+        "State the central claim behind David Armstrong without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make David Armstrong difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to David Armstrong."
       ],
       [
-        "Connection",
-        "Compare it with Token Identity to see how the debate develops."
+        "Compare",
+        "Use Token Identity to see which assumption the debate turns on."
       ]
     ],
-    "why": "David Armstrong matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "David Armstrong matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-token-identity",
@@ -5934,30 +5934,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Token Identity",
     "hook": "What problem or argument is Token Identity really about?",
-    "question": "Which description best captures Token Identity?",
+    "question": "What philosophical work does Token Identity do?",
     "options": [
-      "Token Identity is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Token Identity addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Token Identity is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Token Identity addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Token Identity."
+        "Clarify",
+        "State the central claim behind Token Identity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Token Identity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Token Identity."
       ],
       [
-        "Connection",
-        "Compare it with Supervenience to see how the debate develops."
+        "Compare",
+        "Use Supervenience to see which assumption the debate turns on."
       ]
     ],
-    "why": "Token Identity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Token Identity matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-supervenience",
@@ -5972,30 +5972,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Supervenience",
     "hook": "What problem or argument is Supervenience really about?",
-    "question": "Which description best captures Supervenience?",
+    "question": "What philosophical work does Supervenience do?",
     "options": [
-      "Supervenience is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Supervenience addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Supervenience is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Supervenience addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Supervenience."
+        "Clarify",
+        "State the central claim behind Supervenience without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Supervenience difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Supervenience."
       ],
       [
-        "Connection",
-        "Compare it with Mental Causation to see how the debate develops."
+        "Compare",
+        "Use Mental Causation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Supervenience matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Supervenience matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-mental-causation",
@@ -6010,30 +6010,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Mental Causation",
     "hook": "What problem or argument is Mental Causation really about?",
-    "question": "Which description best captures Mental Causation?",
+    "question": "What philosophical work does Mental Causation do?",
     "options": [
-      "Mental Causation is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Mental Causation addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mental Causation is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Mental Causation addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Mental Causation."
+        "Clarify",
+        "State the central claim behind Mental Causation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Mental Causation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Mental Causation."
       ],
       [
-        "Connection",
-        "Compare it with Jaegwon Kim to see how the debate develops."
+        "Compare",
+        "Use Jaegwon Kim to see which assumption the debate turns on."
       ]
     ],
-    "why": "Mental Causation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Mental Causation matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-jaegwon-kim",
@@ -6048,30 +6048,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Jaegwon Kim",
     "hook": "What problem or argument is Jaegwon Kim really about?",
-    "question": "Which description best captures Jaegwon Kim?",
+    "question": "Why does Jaegwon Kim matter to Philosophy of Mind?",
     "options": [
-      "Jaegwon Kim is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Jaegwon Kim is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Jaegwon Kim is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Jaegwon Kim is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Jaegwon Kim."
+        "Clarify",
+        "State the central claim behind Jaegwon Kim without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Jaegwon Kim difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Jaegwon Kim."
       ],
       [
-        "Connection",
-        "Compare it with Consciousness to see how the debate develops."
+        "Compare",
+        "Use Consciousness to see which assumption the debate turns on."
       ]
     ],
-    "why": "Jaegwon Kim matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Jaegwon Kim matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-consciousness",
@@ -6086,30 +6086,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Consciousness",
     "hook": "What problem or argument is Consciousness really about?",
-    "question": "Which description best captures Consciousness?",
+    "question": "What philosophical work does Consciousness do?",
     "options": [
-      "Consciousness is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Consciousness addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Consciousness is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Consciousness addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Consciousness."
+        "Clarify",
+        "State the central claim behind Consciousness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Consciousness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Consciousness."
       ],
       [
-        "Connection",
-        "Compare it with Qualia to see how the debate develops."
+        "Compare",
+        "Use Qualia to see which assumption the debate turns on."
       ]
     ],
-    "why": "Consciousness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Consciousness matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-qualia",
@@ -6124,30 +6124,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Qualia",
     "hook": "What problem or argument is Qualia really about?",
-    "question": "Which description best captures Qualia?",
+    "question": "What philosophical work does Qualia do?",
     "options": [
-      "Qualia is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Qualia addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Qualia is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Qualia addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Qualia."
+        "Clarify",
+        "State the central claim behind Qualia without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Qualia difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Qualia."
       ],
       [
-        "Connection",
-        "Compare it with Mary the Color Scientist to see how the debate develops."
+        "Compare",
+        "Use Mary the Color Scientist to see which assumption the debate turns on."
       ]
     ],
-    "why": "Qualia matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Qualia matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-mary-the-color-scientist",
@@ -6162,30 +6162,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Mary the Color Scientist",
     "hook": "What problem or argument is Mary the Color Scientist really about?",
-    "question": "Which description best captures Mary the Color Scientist?",
+    "question": "What philosophical work does Mary the Color Scientist do?",
     "options": [
-      "Mary the Color Scientist is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Mary the Color Scientist addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Mary the Color Scientist is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Mary the Color Scientist addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Mary the Color Scientist."
+        "Clarify",
+        "State the central claim behind Mary the Color Scientist without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Mary the Color Scientist difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Mary the Color Scientist."
       ],
       [
-        "Connection",
-        "Compare it with Knowledge Argument to see how the debate develops."
+        "Compare",
+        "Use Knowledge Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Mary the Color Scientist matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Mary the Color Scientist matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-knowledge-argument",
@@ -6276,30 +6276,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "David Chalmers",
     "hook": "What problem or argument is David Chalmers really about?",
-    "question": "Which description best captures David Chalmers?",
+    "question": "Why does David Chalmers matter to Philosophy of Mind?",
     "options": [
-      "David Chalmers is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "David Chalmers is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "David Chalmers is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "David Chalmers is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in David Chalmers."
+        "Clarify",
+        "State the central claim behind David Chalmers without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make David Chalmers difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to David Chalmers."
       ],
       [
-        "Connection",
-        "Compare it with Hard Problem of Consciousness to see how the debate develops."
+        "Compare",
+        "Use Hard Problem of Consciousness to see which assumption the debate turns on."
       ]
     ],
-    "why": "David Chalmers matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "David Chalmers matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-hard-problem-of-consciousness",
@@ -6352,30 +6352,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Thomas Nagel",
     "hook": "What problem or argument is Thomas Nagel really about?",
-    "question": "Which description best captures Thomas Nagel?",
+    "question": "Why does Thomas Nagel matter to Philosophy of Mind?",
     "options": [
-      "Thomas Nagel is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Thomas Nagel is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Thomas Nagel is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Thomas Nagel is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Thomas Nagel."
+        "Clarify",
+        "State the central claim behind Thomas Nagel without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Thomas Nagel difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Thomas Nagel."
       ],
       [
-        "Connection",
-        "Compare it with What Is It Like to Be a Bat? to see how the debate develops."
+        "Compare",
+        "Use What Is It Like to Be a Bat? to see which assumption the debate turns on."
       ]
     ],
-    "why": "Thomas Nagel matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Thomas Nagel matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-what-is-it-like-to-be-a-bat",
@@ -6390,30 +6390,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "What Is It Like to Be a Bat?",
     "hook": "What problem or argument is What Is It Like to Be a Bat? really about?",
-    "question": "Which description best captures What Is It Like to Be a Bat??",
+    "question": "What philosophical work does What Is It Like to Be a Bat? do?",
     "options": [
-      "What Is It Like to Be a Bat? is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "What Is It Like to Be a Bat? addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "What Is It Like to Be a Bat? is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "What Is It Like to Be a Bat? addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in What Is It Like to Be a Bat?."
+        "Clarify",
+        "State the central claim behind What Is It Like to Be a Bat? without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make What Is It Like to Be a Bat? difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to What Is It Like to Be a Bat?."
       ],
       [
-        "Connection",
-        "Compare it with Intentionality in Analytic Philosophy to see how the debate develops."
+        "Compare",
+        "Use Intentionality in Analytic Philosophy to see which assumption the debate turns on."
       ]
     ],
-    "why": "What Is It Like to Be a Bat? matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "What Is It Like to Be a Bat? matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-intentionality-in-analytic-philosophy",
@@ -6428,30 +6428,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Intentionality in Analytic Philosophy",
     "hook": "What problem or argument is Intentionality in Analytic Philosophy really about?",
-    "question": "Which description best captures Intentionality in Analytic Philosophy?",
+    "question": "What philosophical work does Intentionality in Analytic Philosophy do?",
     "options": [
-      "Intentionality in Analytic Philosophy is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Intentionality in Analytic Philosophy addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Intentionality in Analytic Philosophy is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Intentionality in Analytic Philosophy addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Intentionality in Analytic Philosophy."
+        "Clarify",
+        "State the central claim behind Intentionality in Analytic Philosophy without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Intentionality in Analytic Philosophy difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Intentionality in Analytic Philosophy."
       ],
       [
-        "Connection",
-        "Compare it with Daniel Dennett to see how the debate develops."
+        "Compare",
+        "Use Daniel Dennett to see which assumption the debate turns on."
       ]
     ],
-    "why": "Intentionality in Analytic Philosophy matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Intentionality in Analytic Philosophy matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-daniel-dennett",
@@ -6466,30 +6466,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Daniel Dennett",
     "hook": "What problem or argument is Daniel Dennett really about?",
-    "question": "Which description best captures Daniel Dennett?",
+    "question": "Why does Daniel Dennett matter to Philosophy of Mind?",
     "options": [
-      "Daniel Dennett is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Daniel Dennett is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Daniel Dennett is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Daniel Dennett is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Daniel Dennett."
+        "Clarify",
+        "State the central claim behind Daniel Dennett without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Daniel Dennett difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Daniel Dennett."
       ],
       [
-        "Connection",
-        "Compare it with Intentional Stance to see how the debate develops."
+        "Compare",
+        "Use Intentional Stance to see which assumption the debate turns on."
       ]
     ],
-    "why": "Daniel Dennett matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Daniel Dennett matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-intentional-stance",
@@ -6504,30 +6504,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Intentional Stance",
     "hook": "What problem or argument is Intentional Stance really about?",
-    "question": "Which description best captures Intentional Stance?",
+    "question": "What philosophical work does Intentional Stance do?",
     "options": [
-      "Intentional Stance is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Intentional Stance addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Intentional Stance is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Intentional Stance addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Intentional Stance."
+        "Clarify",
+        "State the central claim behind Intentional Stance without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Intentional Stance difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Intentional Stance."
       ],
       [
-        "Connection",
-        "Compare it with Multiple Drafts Model to see how the debate develops."
+        "Compare",
+        "Use Multiple Drafts Model to see which assumption the debate turns on."
       ]
     ],
-    "why": "Intentional Stance matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Intentional Stance matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-multiple-drafts-model",
@@ -6542,30 +6542,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Multiple Drafts Model",
     "hook": "What problem or argument is Multiple Drafts Model really about?",
-    "question": "Which description best captures Multiple Drafts Model?",
+    "question": "What philosophical work does Multiple Drafts Model do?",
     "options": [
-      "Multiple Drafts Model is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Multiple Drafts Model addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Multiple Drafts Model is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Multiple Drafts Model addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Multiple Drafts Model."
+        "Clarify",
+        "State the central claim behind Multiple Drafts Model without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Multiple Drafts Model difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Multiple Drafts Model."
       ],
       [
-        "Connection",
-        "Compare it with Chinese Room to see how the debate develops."
+        "Compare",
+        "Use Chinese Room to see which assumption the debate turns on."
       ]
     ],
-    "why": "Multiple Drafts Model matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Multiple Drafts Model matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-chinese-room",
@@ -6618,30 +6618,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "John Searle on Consciousness",
     "hook": "What problem or argument is John Searle on Consciousness really about?",
-    "question": "Which description best captures John Searle on Consciousness?",
+    "question": "Why does John Searle on Consciousness matter to Philosophy of Mind?",
     "options": [
-      "John Searle on Consciousness is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "John Searle on Consciousness is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "John Searle on Consciousness is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "John Searle on Consciousness is important in Philosophy of Mind because their work reshaped debates about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in John Searle on Consciousness."
+        "Clarify",
+        "State the central claim behind John Searle on Consciousness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make John Searle on Consciousness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to John Searle on Consciousness."
       ],
       [
-        "Connection",
-        "Compare it with Extended Mind to see how the debate develops."
+        "Compare",
+        "Use Extended Mind to see which assumption the debate turns on."
       ]
     ],
-    "why": "John Searle on Consciousness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "John Searle on Consciousness matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-extended-mind",
@@ -6694,30 +6694,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Clark and Chalmers",
     "hook": "What problem or argument is Clark and Chalmers really about?",
-    "question": "Which description best captures Clark and Chalmers?",
+    "question": "What philosophical work does Clark and Chalmers do?",
     "options": [
-      "Clark and Chalmers is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Clark and Chalmers addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Clark and Chalmers is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Clark and Chalmers addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Clark and Chalmers."
+        "Clarify",
+        "State the central claim behind Clark and Chalmers without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Clark and Chalmers difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Clark and Chalmers."
       ],
       [
-        "Connection",
-        "Compare it with Embodied Cognition to see how the debate develops."
+        "Compare",
+        "Use Embodied Cognition to see which assumption the debate turns on."
       ]
     ],
-    "why": "Clark and Chalmers matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Clark and Chalmers matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-embodied-cognition",
@@ -6732,30 +6732,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Mind",
     "name": "Embodied Cognition",
     "hook": "What problem or argument is Embodied Cognition really about?",
-    "question": "Which description best captures Embodied Cognition?",
+    "question": "What philosophical work does Embodied Cognition do?",
     "options": [
-      "Embodied Cognition is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Embodied Cognition addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Embodied Cognition is a substantive position, argument, method or problem within Philosophy of Mind. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Embodied Cognition addresses how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Embodied Cognition."
+        "Clarify",
+        "State the central claim behind Embodied Cognition without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Embodied Cognition difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Embodied Cognition."
       ],
       [
-        "Connection",
-        "Compare it with Mind–Body Problem to see how the debate develops."
+        "Compare",
+        "Use Mind–Body Problem to see which assumption the debate turns on."
       ]
     ],
-    "why": "Embodied Cognition matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Embodied Cognition matters because it sharpens the debate about how mental states, consciousness and intentionality relate to physical systems, behavior, function and subjective experience.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-mind-body-problem",
@@ -6770,30 +6770,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Scientific Explanation",
     "hook": "What problem or argument is Scientific Explanation really about?",
-    "question": "Which description best captures Scientific Explanation?",
+    "question": "What philosophical work does Scientific Explanation do?",
     "options": [
-      "Scientific Explanation is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Scientific Explanation addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Scientific Explanation is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Scientific Explanation addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Scientific Explanation."
+        "Clarify",
+        "State the central claim behind Scientific Explanation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Scientific Explanation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Scientific Explanation."
       ],
       [
-        "Connection",
-        "Compare it with Deductive-Nomological Model to see how the debate develops."
+        "Compare",
+        "Use Deductive-Nomological Model to see which assumption the debate turns on."
       ]
     ],
-    "why": "Scientific Explanation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Scientific Explanation matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-deductive-nomological-model",
@@ -6808,30 +6808,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Deductive-Nomological Model",
     "hook": "What problem or argument is Deductive-Nomological Model really about?",
-    "question": "Which description best captures Deductive-Nomological Model?",
+    "question": "What philosophical work does Deductive-Nomological Model do?",
     "options": [
-      "Deductive-Nomological Model is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Deductive-Nomological Model addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Deductive-Nomological Model is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Deductive-Nomological Model addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Deductive-Nomological Model."
+        "Clarify",
+        "State the central claim behind Deductive-Nomological Model without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Deductive-Nomological Model difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Deductive-Nomological Model."
       ],
       [
-        "Connection",
-        "Compare it with Carl Hempel to see how the debate develops."
+        "Compare",
+        "Use Carl Hempel to see which assumption the debate turns on."
       ]
     ],
-    "why": "Deductive-Nomological Model matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Deductive-Nomological Model matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-carl-hempel",
@@ -6846,30 +6846,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Carl Hempel",
     "hook": "What problem or argument is Carl Hempel really about?",
-    "question": "Which description best captures Carl Hempel?",
+    "question": "Why does Carl Hempel matter to Philosophy of Science?",
     "options": [
-      "Carl Hempel is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Carl Hempel is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Carl Hempel is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Carl Hempel is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Carl Hempel."
+        "Clarify",
+        "State the central claim behind Carl Hempel without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Carl Hempel difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Carl Hempel."
       ],
       [
-        "Connection",
-        "Compare it with Induction to see how the debate develops."
+        "Compare",
+        "Use Induction to see which assumption the debate turns on."
       ]
     ],
-    "why": "Carl Hempel matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Carl Hempel matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-induction",
@@ -6884,30 +6884,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Induction",
     "hook": "What problem or argument is Induction really about?",
-    "question": "Which description best captures Induction?",
+    "question": "What philosophical work does Induction do?",
     "options": [
-      "Induction is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Induction addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Induction is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Induction addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Induction."
+        "Clarify",
+        "State the central claim behind Induction without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Induction difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Induction."
       ],
       [
-        "Connection",
-        "Compare it with Problem of Induction to see how the debate develops."
+        "Compare",
+        "Use Problem of Induction to see which assumption the debate turns on."
       ]
     ],
-    "why": "Induction matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Induction matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-problem-of-induction",
@@ -6922,30 +6922,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Problem of Induction",
     "hook": "What problem or argument is Problem of Induction really about?",
-    "question": "Which description best captures Problem of Induction?",
+    "question": "What philosophical work does Problem of Induction do?",
     "options": [
-      "Problem of Induction is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Problem of Induction addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Problem of Induction is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Problem of Induction addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Problem of Induction."
+        "Clarify",
+        "State the central claim behind Problem of Induction without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Problem of Induction difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Problem of Induction."
       ],
       [
-        "Connection",
-        "Compare it with Karl Popper to see how the debate develops."
+        "Compare",
+        "Use Karl Popper to see which assumption the debate turns on."
       ]
     ],
-    "why": "Problem of Induction matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Problem of Induction matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-karl-popper",
@@ -6960,30 +6960,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Karl Popper",
     "hook": "What problem or argument is Karl Popper really about?",
-    "question": "Which description best captures Karl Popper?",
+    "question": "Why does Karl Popper matter to Philosophy of Science?",
     "options": [
-      "Karl Popper is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Karl Popper is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Karl Popper is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Karl Popper is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Karl Popper."
+        "Clarify",
+        "State the central claim behind Karl Popper without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Karl Popper difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Karl Popper."
       ],
       [
-        "Connection",
-        "Compare it with Falsifiability to see how the debate develops."
+        "Compare",
+        "Use Falsifiability to see which assumption the debate turns on."
       ]
     ],
-    "why": "Karl Popper matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Karl Popper matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-falsifiability",
@@ -7036,30 +7036,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Conjectures and Refutations",
     "hook": "What problem or argument is Conjectures and Refutations really about?",
-    "question": "Which description best captures Conjectures and Refutations?",
+    "question": "What philosophical work does Conjectures and Refutations do?",
     "options": [
-      "Conjectures and Refutations is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Conjectures and Refutations addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Conjectures and Refutations is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Conjectures and Refutations addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Conjectures and Refutations."
+        "Clarify",
+        "State the central claim behind Conjectures and Refutations without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Conjectures and Refutations difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Conjectures and Refutations."
       ],
       [
-        "Connection",
-        "Compare it with Thomas Kuhn to see how the debate develops."
+        "Compare",
+        "Use Thomas Kuhn to see which assumption the debate turns on."
       ]
     ],
-    "why": "Conjectures and Refutations matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Conjectures and Refutations matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-thomas-kuhn",
@@ -7074,30 +7074,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Thomas Kuhn",
     "hook": "What problem or argument is Thomas Kuhn really about?",
-    "question": "Which description best captures Thomas Kuhn?",
+    "question": "Why does Thomas Kuhn matter to Philosophy of Science?",
     "options": [
-      "Thomas Kuhn is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Thomas Kuhn is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Thomas Kuhn is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Thomas Kuhn is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Thomas Kuhn."
+        "Clarify",
+        "State the central claim behind Thomas Kuhn without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Thomas Kuhn difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Thomas Kuhn."
       ],
       [
-        "Connection",
-        "Compare it with Paradigms to see how the debate develops."
+        "Compare",
+        "Use Paradigms to see which assumption the debate turns on."
       ]
     ],
-    "why": "Thomas Kuhn matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Thomas Kuhn matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-paradigms",
@@ -7150,30 +7150,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Normal Science",
     "hook": "What problem or argument is Normal Science really about?",
-    "question": "Which description best captures Normal Science?",
+    "question": "What philosophical work does Normal Science do?",
     "options": [
-      "Normal Science is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Normal Science addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Normal Science is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Normal Science addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Normal Science."
+        "Clarify",
+        "State the central claim behind Normal Science without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Normal Science difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Normal Science."
       ],
       [
-        "Connection",
-        "Compare it with Scientific Revolutions to see how the debate develops."
+        "Compare",
+        "Use Scientific Revolutions to see which assumption the debate turns on."
       ]
     ],
-    "why": "Normal Science matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Normal Science matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-scientific-revolutions",
@@ -7188,30 +7188,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Scientific Revolutions",
     "hook": "What problem or argument is Scientific Revolutions really about?",
-    "question": "Which description best captures Scientific Revolutions?",
+    "question": "What philosophical work does Scientific Revolutions do?",
     "options": [
-      "Scientific Revolutions is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Scientific Revolutions addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Scientific Revolutions is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Scientific Revolutions addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Scientific Revolutions."
+        "Clarify",
+        "State the central claim behind Scientific Revolutions without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Scientific Revolutions difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Scientific Revolutions."
       ],
       [
-        "Connection",
-        "Compare it with Incommensurability to see how the debate develops."
+        "Compare",
+        "Use Incommensurability to see which assumption the debate turns on."
       ]
     ],
-    "why": "Scientific Revolutions matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Scientific Revolutions matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-incommensurability",
@@ -7264,30 +7264,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Imre Lakatos",
     "hook": "What problem or argument is Imre Lakatos really about?",
-    "question": "Which description best captures Imre Lakatos?",
+    "question": "Why does Imre Lakatos matter to Philosophy of Science?",
     "options": [
-      "Imre Lakatos is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Imre Lakatos is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Imre Lakatos is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Imre Lakatos is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Imre Lakatos."
+        "Clarify",
+        "State the central claim behind Imre Lakatos without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Imre Lakatos difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Imre Lakatos."
       ],
       [
-        "Connection",
-        "Compare it with Research Programmes to see how the debate develops."
+        "Compare",
+        "Use Research Programmes to see which assumption the debate turns on."
       ]
     ],
-    "why": "Imre Lakatos matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Imre Lakatos matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-research-programmes",
@@ -7302,30 +7302,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Research Programmes",
     "hook": "What problem or argument is Research Programmes really about?",
-    "question": "Which description best captures Research Programmes?",
+    "question": "What philosophical work does Research Programmes do?",
     "options": [
-      "Research Programmes is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Research Programmes addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Research Programmes is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Research Programmes addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Research Programmes."
+        "Clarify",
+        "State the central claim behind Research Programmes without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Research Programmes difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Research Programmes."
       ],
       [
-        "Connection",
-        "Compare it with Paul Feyerabend to see how the debate develops."
+        "Compare",
+        "Use Paul Feyerabend to see which assumption the debate turns on."
       ]
     ],
-    "why": "Research Programmes matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Research Programmes matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-paul-feyerabend",
@@ -7340,30 +7340,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Paul Feyerabend",
     "hook": "What problem or argument is Paul Feyerabend really about?",
-    "question": "Which description best captures Paul Feyerabend?",
+    "question": "Why does Paul Feyerabend matter to Philosophy of Science?",
     "options": [
-      "Paul Feyerabend is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Paul Feyerabend is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Paul Feyerabend is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Paul Feyerabend is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Paul Feyerabend."
+        "Clarify",
+        "State the central claim behind Paul Feyerabend without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Paul Feyerabend difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Paul Feyerabend."
       ],
       [
-        "Connection",
-        "Compare it with Methodological Pluralism to see how the debate develops."
+        "Compare",
+        "Use Methodological Pluralism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Paul Feyerabend matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Paul Feyerabend matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-methodological-pluralism",
@@ -7378,30 +7378,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Methodological Pluralism",
     "hook": "What problem or argument is Methodological Pluralism really about?",
-    "question": "Which description best captures Methodological Pluralism?",
+    "question": "What philosophical work does Methodological Pluralism do?",
     "options": [
-      "Methodological Pluralism is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Methodological Pluralism addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Methodological Pluralism is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Methodological Pluralism addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Methodological Pluralism."
+        "Clarify",
+        "State the central claim behind Methodological Pluralism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Methodological Pluralism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Methodological Pluralism."
       ],
       [
-        "Connection",
-        "Compare it with Scientific Realism to see how the debate develops."
+        "Compare",
+        "Use Scientific Realism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Methodological Pluralism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Methodological Pluralism matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-scientific-realism",
@@ -7454,30 +7454,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Constructive Empiricism",
     "hook": "What problem or argument is Constructive Empiricism really about?",
-    "question": "Which description best captures Constructive Empiricism?",
+    "question": "What philosophical work does Constructive Empiricism do?",
     "options": [
-      "Constructive Empiricism is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Constructive Empiricism addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Constructive Empiricism is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Constructive Empiricism addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Constructive Empiricism."
+        "Clarify",
+        "State the central claim behind Constructive Empiricism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Constructive Empiricism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Constructive Empiricism."
       ],
       [
-        "Connection",
-        "Compare it with Bas van Fraassen to see how the debate develops."
+        "Compare",
+        "Use Bas van Fraassen to see which assumption the debate turns on."
       ]
     ],
-    "why": "Constructive Empiricism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Constructive Empiricism matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-bas-van-fraassen",
@@ -7492,30 +7492,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Bas van Fraassen",
     "hook": "What problem or argument is Bas van Fraassen really about?",
-    "question": "Which description best captures Bas van Fraassen?",
+    "question": "Why does Bas van Fraassen matter to Philosophy of Science?",
     "options": [
-      "Bas van Fraassen is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Bas van Fraassen is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bas van Fraassen is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Bas van Fraassen is important in Philosophy of Science because their work reshaped debates about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Bas van Fraassen."
+        "Clarify",
+        "State the central claim behind Bas van Fraassen without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Bas van Fraassen difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Bas van Fraassen."
       ],
       [
-        "Connection",
-        "Compare it with Inference to the Best Explanation to see how the debate develops."
+        "Compare",
+        "Use Inference to the Best Explanation to see which assumption the debate turns on."
       ]
     ],
-    "why": "Bas van Fraassen matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Bas van Fraassen matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-inference-to-the-best-explanation",
@@ -7530,30 +7530,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Inference to the Best Explanation",
     "hook": "What problem or argument is Inference to the Best Explanation really about?",
-    "question": "Which description best captures Inference to the Best Explanation?",
+    "question": "What philosophical work does Inference to the Best Explanation do?",
     "options": [
-      "Inference to the Best Explanation is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Inference to the Best Explanation addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Inference to the Best Explanation is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Inference to the Best Explanation addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Inference to the Best Explanation."
+        "Clarify",
+        "State the central claim behind Inference to the Best Explanation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Inference to the Best Explanation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Inference to the Best Explanation."
       ],
       [
-        "Connection",
-        "Compare it with Theory-Ladenness to see how the debate develops."
+        "Compare",
+        "Use Theory-Ladenness to see which assumption the debate turns on."
       ]
     ],
-    "why": "Inference to the Best Explanation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Inference to the Best Explanation matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-theory-ladenness",
@@ -7568,30 +7568,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Theory-Ladenness",
     "hook": "What problem or argument is Theory-Ladenness really about?",
-    "question": "Which description best captures Theory-Ladenness?",
+    "question": "What philosophical work does Theory-Ladenness do?",
     "options": [
-      "Theory-Ladenness is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Theory-Ladenness addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Theory-Ladenness is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Theory-Ladenness addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Theory-Ladenness."
+        "Clarify",
+        "State the central claim behind Theory-Ladenness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Theory-Ladenness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Theory-Ladenness."
       ],
       [
-        "Connection",
-        "Compare it with Duhem–Quine Thesis to see how the debate develops."
+        "Compare",
+        "Use Duhem–Quine Thesis to see which assumption the debate turns on."
       ]
     ],
-    "why": "Theory-Ladenness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Theory-Ladenness matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-duhem-quine-thesis",
@@ -7606,30 +7606,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Duhem–Quine Thesis",
     "hook": "What problem or argument is Duhem–Quine Thesis really about?",
-    "question": "Which description best captures Duhem–Quine Thesis?",
+    "question": "What philosophical work does Duhem–Quine Thesis do?",
     "options": [
-      "Duhem–Quine Thesis is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Duhem–Quine Thesis addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Duhem–Quine Thesis is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Duhem–Quine Thesis addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Duhem–Quine Thesis."
+        "Clarify",
+        "State the central claim behind Duhem–Quine Thesis without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Duhem–Quine Thesis difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Duhem–Quine Thesis."
       ],
       [
-        "Connection",
-        "Compare it with Underdetermination of Theory to see how the debate develops."
+        "Compare",
+        "Use Underdetermination of Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Duhem–Quine Thesis matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Duhem–Quine Thesis matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-underdetermination-of-theory",
@@ -7644,30 +7644,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "Underdetermination of Theory",
     "hook": "What problem or argument is Underdetermination of Theory really about?",
-    "question": "Which description best captures Underdetermination of Theory?",
+    "question": "What philosophical work does Underdetermination of Theory do?",
     "options": [
-      "Underdetermination of Theory is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Underdetermination of Theory addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Underdetermination of Theory is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Underdetermination of Theory addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Underdetermination of Theory."
+        "Clarify",
+        "State the central claim behind Underdetermination of Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Underdetermination of Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Underdetermination of Theory."
       ],
       [
-        "Connection",
-        "Compare it with No Miracles Argument to see how the debate develops."
+        "Compare",
+        "Use No Miracles Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Underdetermination of Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Underdetermination of Theory matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-no-miracles-argument",
@@ -7682,30 +7682,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Science",
     "name": "No Miracles Argument",
     "hook": "What problem or argument is No Miracles Argument really about?",
-    "question": "Which description best captures No Miracles Argument?",
+    "question": "What philosophical work does No Miracles Argument do?",
     "options": [
-      "No Miracles Argument is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "No Miracles Argument addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "No Miracles Argument is a substantive position, argument, method or problem within Philosophy of Science. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "No Miracles Argument addresses what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in No Miracles Argument."
+        "Clarify",
+        "State the central claim behind No Miracles Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make No Miracles Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to No Miracles Argument."
       ],
       [
-        "Connection",
-        "Compare it with Scientific Explanation to see how the debate develops."
+        "Compare",
+        "Use Scientific Explanation to see which assumption the debate turns on."
       ]
     ],
-    "why": "No Miracles Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "No Miracles Argument matters because it sharpens the debate about what distinguishes science, how theories explain and change, and what scientific success licenses us to believe about unobservable reality.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-scientific-explanation",
@@ -7720,30 +7720,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Metaethics",
     "hook": "What problem or argument is Metaethics really about?",
-    "question": "Which description best captures Metaethics?",
+    "question": "What philosophical work does Metaethics do?",
     "options": [
-      "Metaethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Metaethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Metaethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Metaethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Metaethics."
+        "Clarify",
+        "State the central claim behind Metaethics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Metaethics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Metaethics."
       ],
       [
-        "Connection",
-        "Compare it with Moral Realism to see how the debate develops."
+        "Compare",
+        "Use Moral Realism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Metaethics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Metaethics matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moral-realism",
@@ -7758,30 +7758,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Moral Realism",
     "hook": "What problem or argument is Moral Realism really about?",
-    "question": "Which description best captures Moral Realism?",
+    "question": "What philosophical work does Moral Realism do?",
     "options": [
-      "Moral Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moral Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moral Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moral Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moral Realism."
+        "Clarify",
+        "State the central claim behind Moral Realism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moral Realism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moral Realism."
       ],
       [
-        "Connection",
-        "Compare it with Moral Anti-Realism to see how the debate develops."
+        "Compare",
+        "Use Moral Anti-Realism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moral Realism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moral Realism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moral-anti-realism",
@@ -7796,30 +7796,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Moral Anti-Realism",
     "hook": "What problem or argument is Moral Anti-Realism really about?",
-    "question": "Which description best captures Moral Anti-Realism?",
+    "question": "What philosophical work does Moral Anti-Realism do?",
     "options": [
-      "Moral Anti-Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moral Anti-Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moral Anti-Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moral Anti-Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moral Anti-Realism."
+        "Clarify",
+        "State the central claim behind Moral Anti-Realism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moral Anti-Realism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moral Anti-Realism."
       ],
       [
-        "Connection",
-        "Compare it with Naturalism in Metaethics to see how the debate develops."
+        "Compare",
+        "Use Naturalism in Metaethics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moral Anti-Realism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moral Anti-Realism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-naturalism-in-metaethics",
@@ -7834,30 +7834,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Naturalism in Metaethics",
     "hook": "What problem or argument is Naturalism in Metaethics really about?",
-    "question": "Which description best captures Naturalism in Metaethics?",
+    "question": "What philosophical work does Naturalism in Metaethics do?",
     "options": [
-      "Naturalism in Metaethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Naturalism in Metaethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Naturalism in Metaethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Naturalism in Metaethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Naturalism in Metaethics."
+        "Clarify",
+        "State the central claim behind Naturalism in Metaethics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Naturalism in Metaethics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Naturalism in Metaethics."
       ],
       [
-        "Connection",
-        "Compare it with Non-Naturalism to see how the debate develops."
+        "Compare",
+        "Use Non-Naturalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Naturalism in Metaethics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Naturalism in Metaethics matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-non-naturalism",
@@ -7872,30 +7872,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Non-Naturalism",
     "hook": "What problem or argument is Non-Naturalism really about?",
-    "question": "Which description best captures Non-Naturalism?",
+    "question": "What philosophical work does Non-Naturalism do?",
     "options": [
-      "Non-Naturalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Non-Naturalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Non-Naturalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Non-Naturalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Non-Naturalism."
+        "Clarify",
+        "State the central claim behind Non-Naturalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Non-Naturalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Non-Naturalism."
       ],
       [
-        "Connection",
-        "Compare it with Moore's Naturalistic Fallacy to see how the debate develops."
+        "Compare",
+        "Use Moore's Naturalistic Fallacy to see which assumption the debate turns on."
       ]
     ],
-    "why": "Non-Naturalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Non-Naturalism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moore-s-naturalistic-fallacy",
@@ -7910,30 +7910,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Moore's Naturalistic Fallacy",
     "hook": "What problem or argument is Moore's Naturalistic Fallacy really about?",
-    "question": "Which description best captures Moore's Naturalistic Fallacy?",
+    "question": "What philosophical work does Moore's Naturalistic Fallacy do?",
     "options": [
-      "Moore's Naturalistic Fallacy is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moore's Naturalistic Fallacy addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moore's Naturalistic Fallacy is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moore's Naturalistic Fallacy addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moore's Naturalistic Fallacy."
+        "Clarify",
+        "State the central claim behind Moore's Naturalistic Fallacy without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moore's Naturalistic Fallacy difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moore's Naturalistic Fallacy."
       ],
       [
-        "Connection",
-        "Compare it with Emotivism to see how the debate develops."
+        "Compare",
+        "Use Emotivism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moore's Naturalistic Fallacy matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moore's Naturalistic Fallacy matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-emotivism",
@@ -7948,30 +7948,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Emotivism",
     "hook": "What problem or argument is Emotivism really about?",
-    "question": "Which description best captures Emotivism?",
+    "question": "What philosophical work does Emotivism do?",
     "options": [
-      "Emotivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Emotivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Emotivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Emotivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Emotivism."
+        "Clarify",
+        "State the central claim behind Emotivism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Emotivism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Emotivism."
       ],
       [
-        "Connection",
-        "Compare it with A. J. Ayer on Ethics to see how the debate develops."
+        "Compare",
+        "Use A. J. Ayer on Ethics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Emotivism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Emotivism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-a-j-ayer-on-ethics",
@@ -7986,30 +7986,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "A. J. Ayer on Ethics",
     "hook": "What problem or argument is A. J. Ayer on Ethics really about?",
-    "question": "Which description best captures A. J. Ayer on Ethics?",
+    "question": "What philosophical work does A. J. Ayer on Ethics do?",
     "options": [
-      "A. J. Ayer on Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "A. J. Ayer on Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "A. J. Ayer on Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "A. J. Ayer on Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in A. J. Ayer on Ethics."
+        "Clarify",
+        "State the central claim behind A. J. Ayer on Ethics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make A. J. Ayer on Ethics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to A. J. Ayer on Ethics."
       ],
       [
-        "Connection",
-        "Compare it with Prescriptivism to see how the debate develops."
+        "Compare",
+        "Use Prescriptivism to see which assumption the debate turns on."
       ]
     ],
-    "why": "A. J. Ayer on Ethics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "A. J. Ayer on Ethics matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-prescriptivism",
@@ -8024,30 +8024,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Prescriptivism",
     "hook": "What problem or argument is Prescriptivism really about?",
-    "question": "Which description best captures Prescriptivism?",
+    "question": "What philosophical work does Prescriptivism do?",
     "options": [
-      "Prescriptivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Prescriptivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Prescriptivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Prescriptivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Prescriptivism."
+        "Clarify",
+        "State the central claim behind Prescriptivism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Prescriptivism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Prescriptivism."
       ],
       [
-        "Connection",
-        "Compare it with R. M. Hare to see how the debate develops."
+        "Compare",
+        "Use R. M. Hare to see which assumption the debate turns on."
       ]
     ],
-    "why": "Prescriptivism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Prescriptivism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-r-m-hare",
@@ -8062,30 +8062,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "R. M. Hare",
     "hook": "What problem or argument is R. M. Hare really about?",
-    "question": "Which description best captures R. M. Hare?",
+    "question": "Why does R. M. Hare matter to Ethics & Metaethics?",
     "options": [
-      "R. M. Hare is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "R. M. Hare is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "R. M. Hare is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "R. M. Hare is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in R. M. Hare."
+        "Clarify",
+        "State the central claim behind R. M. Hare without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make R. M. Hare difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to R. M. Hare."
       ],
       [
-        "Connection",
-        "Compare it with Error Theory to see how the debate develops."
+        "Compare",
+        "Use Error Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "R. M. Hare matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "R. M. Hare matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-error-theory",
@@ -8138,30 +8138,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "J. L. Mackie",
     "hook": "What problem or argument is J. L. Mackie really about?",
-    "question": "Which description best captures J. L. Mackie?",
+    "question": "Why does J. L. Mackie matter to Ethics & Metaethics?",
     "options": [
-      "J. L. Mackie is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "J. L. Mackie is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "J. L. Mackie is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "J. L. Mackie is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in J. L. Mackie."
+        "Clarify",
+        "State the central claim behind J. L. Mackie without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make J. L. Mackie difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to J. L. Mackie."
       ],
       [
-        "Connection",
-        "Compare it with Queerness Argument to see how the debate develops."
+        "Compare",
+        "Use Queerness Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "J. L. Mackie matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "J. L. Mackie matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-queerness-argument",
@@ -8176,30 +8176,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Queerness Argument",
     "hook": "What problem or argument is Queerness Argument really about?",
-    "question": "Which description best captures Queerness Argument?",
+    "question": "What philosophical work does Queerness Argument do?",
     "options": [
-      "Queerness Argument is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Queerness Argument addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Queerness Argument is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Queerness Argument addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Queerness Argument."
+        "Clarify",
+        "State the central claim behind Queerness Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Queerness Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Queerness Argument."
       ],
       [
-        "Connection",
-        "Compare it with Expressivism to see how the debate develops."
+        "Compare",
+        "Use Expressivism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Queerness Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Queerness Argument matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-expressivism",
@@ -8214,30 +8214,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Expressivism",
     "hook": "What problem or argument is Expressivism really about?",
-    "question": "Which description best captures Expressivism?",
+    "question": "What philosophical work does Expressivism do?",
     "options": [
-      "Expressivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Expressivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Expressivism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Expressivism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Expressivism."
+        "Clarify",
+        "State the central claim behind Expressivism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Expressivism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Expressivism."
       ],
       [
-        "Connection",
-        "Compare it with Simon Blackburn to see how the debate develops."
+        "Compare",
+        "Use Simon Blackburn to see which assumption the debate turns on."
       ]
     ],
-    "why": "Expressivism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Expressivism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-simon-blackburn",
@@ -8252,30 +8252,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Simon Blackburn",
     "hook": "What problem or argument is Simon Blackburn really about?",
-    "question": "Which description best captures Simon Blackburn?",
+    "question": "Why does Simon Blackburn matter to Ethics & Metaethics?",
     "options": [
-      "Simon Blackburn is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Simon Blackburn is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Simon Blackburn is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Simon Blackburn is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Simon Blackburn."
+        "Clarify",
+        "State the central claim behind Simon Blackburn without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Simon Blackburn difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Simon Blackburn."
       ],
       [
-        "Connection",
-        "Compare it with Quasi-Realism to see how the debate develops."
+        "Compare",
+        "Use Quasi-Realism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Simon Blackburn matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Simon Blackburn matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-quasi-realism",
@@ -8290,30 +8290,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Quasi-Realism",
     "hook": "What problem or argument is Quasi-Realism really about?",
-    "question": "Which description best captures Quasi-Realism?",
+    "question": "What philosophical work does Quasi-Realism do?",
     "options": [
-      "Quasi-Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Quasi-Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Quasi-Realism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Quasi-Realism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Quasi-Realism."
+        "Clarify",
+        "State the central claim behind Quasi-Realism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Quasi-Realism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Quasi-Realism."
       ],
       [
-        "Connection",
-        "Compare it with Reasons Internalism to see how the debate develops."
+        "Compare",
+        "Use Reasons Internalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Quasi-Realism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Quasi-Realism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reasons-internalism",
@@ -8328,30 +8328,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Reasons Internalism",
     "hook": "What problem or argument is Reasons Internalism really about?",
-    "question": "Which description best captures Reasons Internalism?",
+    "question": "What philosophical work does Reasons Internalism do?",
     "options": [
-      "Reasons Internalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reasons Internalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reasons Internalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reasons Internalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reasons Internalism."
+        "Clarify",
+        "State the central claim behind Reasons Internalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reasons Internalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reasons Internalism."
       ],
       [
-        "Connection",
-        "Compare it with Reasons Externalism to see how the debate develops."
+        "Compare",
+        "Use Reasons Externalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reasons Internalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reasons Internalism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reasons-externalism",
@@ -8366,30 +8366,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Reasons Externalism",
     "hook": "What problem or argument is Reasons Externalism really about?",
-    "question": "Which description best captures Reasons Externalism?",
+    "question": "What philosophical work does Reasons Externalism do?",
     "options": [
-      "Reasons Externalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reasons Externalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reasons Externalism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reasons Externalism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reasons Externalism."
+        "Clarify",
+        "State the central claim behind Reasons Externalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reasons Externalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reasons Externalism."
       ],
       [
-        "Connection",
-        "Compare it with Bernard Williams to see how the debate develops."
+        "Compare",
+        "Use Bernard Williams to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reasons Externalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reasons Externalism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-bernard-williams",
@@ -8404,30 +8404,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Bernard Williams",
     "hook": "What problem or argument is Bernard Williams really about?",
-    "question": "Which description best captures Bernard Williams?",
+    "question": "Why does Bernard Williams matter to Ethics & Metaethics?",
     "options": [
-      "Bernard Williams is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Bernard Williams is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bernard Williams is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Bernard Williams is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Bernard Williams."
+        "Clarify",
+        "State the central claim behind Bernard Williams without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Bernard Williams difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Bernard Williams."
       ],
       [
-        "Connection",
-        "Compare it with Moral Luck to see how the debate develops."
+        "Compare",
+        "Use Moral Luck to see which assumption the debate turns on."
       ]
     ],
-    "why": "Bernard Williams matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Bernard Williams matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moral-luck",
@@ -8442,30 +8442,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Moral Luck",
     "hook": "What problem or argument is Moral Luck really about?",
-    "question": "Which description best captures Moral Luck?",
+    "question": "What philosophical work does Moral Luck do?",
     "options": [
-      "Moral Luck is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moral Luck addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moral Luck is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moral Luck addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moral Luck."
+        "Clarify",
+        "State the central claim behind Moral Luck without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moral Luck difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moral Luck."
       ],
       [
-        "Connection",
-        "Compare it with Thomas Nagel on Moral Luck to see how the debate develops."
+        "Compare",
+        "Use Thomas Nagel on Moral Luck to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moral Luck matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moral Luck matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-thomas-nagel-on-moral-luck",
@@ -8480,30 +8480,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Thomas Nagel on Moral Luck",
     "hook": "What problem or argument is Thomas Nagel on Moral Luck really about?",
-    "question": "Which description best captures Thomas Nagel on Moral Luck?",
+    "question": "What philosophical work does Thomas Nagel on Moral Luck do?",
     "options": [
-      "Thomas Nagel on Moral Luck is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Thomas Nagel on Moral Luck addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Thomas Nagel on Moral Luck is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Thomas Nagel on Moral Luck addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Thomas Nagel on Moral Luck."
+        "Clarify",
+        "State the central claim behind Thomas Nagel on Moral Luck without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Thomas Nagel on Moral Luck difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Thomas Nagel on Moral Luck."
       ],
       [
-        "Connection",
-        "Compare it with Derek Parfit to see how the debate develops."
+        "Compare",
+        "Use Derek Parfit to see which assumption the debate turns on."
       ]
     ],
-    "why": "Thomas Nagel on Moral Luck matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Thomas Nagel on Moral Luck matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-derek-parfit",
@@ -8518,30 +8518,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Derek Parfit",
     "hook": "What problem or argument is Derek Parfit really about?",
-    "question": "Which description best captures Derek Parfit?",
+    "question": "Why does Derek Parfit matter to Ethics & Metaethics?",
     "options": [
-      "Derek Parfit is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Derek Parfit is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Derek Parfit is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Derek Parfit is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Derek Parfit."
+        "Clarify",
+        "State the central claim behind Derek Parfit without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Derek Parfit difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Derek Parfit."
       ],
       [
-        "Connection",
-        "Compare it with Personal Identity and Ethics to see how the debate develops."
+        "Compare",
+        "Use Personal Identity and Ethics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Derek Parfit matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Derek Parfit matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-personal-identity-and-ethics",
@@ -8556,30 +8556,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Personal Identity and Ethics",
     "hook": "What problem or argument is Personal Identity and Ethics really about?",
-    "question": "Which description best captures Personal Identity and Ethics?",
+    "question": "What philosophical work does Personal Identity and Ethics do?",
     "options": [
-      "Personal Identity and Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Personal Identity and Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Personal Identity and Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Personal Identity and Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Personal Identity and Ethics."
+        "Clarify",
+        "State the central claim behind Personal Identity and Ethics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Personal Identity and Ethics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Personal Identity and Ethics."
       ],
       [
-        "Connection",
-        "Compare it with Reasons and Persons to see how the debate develops."
+        "Compare",
+        "Use Reasons and Persons to see which assumption the debate turns on."
       ]
     ],
-    "why": "Personal Identity and Ethics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Personal Identity and Ethics matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reasons-and-persons",
@@ -8594,30 +8594,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Reasons and Persons",
     "hook": "What problem or argument is Reasons and Persons really about?",
-    "question": "Which description best captures Reasons and Persons?",
+    "question": "What philosophical work does Reasons and Persons do?",
     "options": [
-      "Reasons and Persons is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reasons and Persons addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reasons and Persons is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reasons and Persons addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reasons and Persons."
+        "Clarify",
+        "State the central claim behind Reasons and Persons without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reasons and Persons difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reasons and Persons."
       ],
       [
-        "Connection",
-        "Compare it with Population Ethics to see how the debate develops."
+        "Compare",
+        "Use Population Ethics to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reasons and Persons matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reasons and Persons matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-population-ethics",
@@ -8632,30 +8632,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Population Ethics",
     "hook": "What problem or argument is Population Ethics really about?",
-    "question": "Which description best captures Population Ethics?",
+    "question": "What philosophical work does Population Ethics do?",
     "options": [
-      "Population Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Population Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Population Ethics is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Population Ethics addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Population Ethics."
+        "Clarify",
+        "State the central claim behind Population Ethics without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Population Ethics difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Population Ethics."
       ],
       [
-        "Connection",
-        "Compare it with Repugnant Conclusion to see how the debate develops."
+        "Compare",
+        "Use Repugnant Conclusion to see which assumption the debate turns on."
       ]
     ],
-    "why": "Population Ethics matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Population Ethics matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-repugnant-conclusion",
@@ -8670,30 +8670,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Repugnant Conclusion",
     "hook": "What problem or argument is Repugnant Conclusion really about?",
-    "question": "Which description best captures Repugnant Conclusion?",
+    "question": "What philosophical work does Repugnant Conclusion do?",
     "options": [
-      "Repugnant Conclusion is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Repugnant Conclusion addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Repugnant Conclusion is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Repugnant Conclusion addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Repugnant Conclusion."
+        "Clarify",
+        "State the central claim behind Repugnant Conclusion without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Repugnant Conclusion difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Repugnant Conclusion."
       ],
       [
-        "Connection",
-        "Compare it with Contractualism to see how the debate develops."
+        "Compare",
+        "Use Contractualism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Repugnant Conclusion matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Repugnant Conclusion matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-contractualism",
@@ -8708,30 +8708,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "Contractualism",
     "hook": "What problem or argument is Contractualism really about?",
-    "question": "Which description best captures Contractualism?",
+    "question": "What philosophical work does Contractualism do?",
     "options": [
-      "Contractualism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Contractualism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Contractualism is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Contractualism addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Contractualism."
+        "Clarify",
+        "State the central claim behind Contractualism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Contractualism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Contractualism."
       ],
       [
-        "Connection",
-        "Compare it with T. M. Scanlon to see how the debate develops."
+        "Compare",
+        "Use T. M. Scanlon to see which assumption the debate turns on."
       ]
     ],
-    "why": "Contractualism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Contractualism matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-t-m-scanlon",
@@ -8746,30 +8746,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "T. M. Scanlon",
     "hook": "What problem or argument is T. M. Scanlon really about?",
-    "question": "Which description best captures T. M. Scanlon?",
+    "question": "Why does T. M. Scanlon matter to Ethics & Metaethics?",
     "options": [
-      "T. M. Scanlon is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "T. M. Scanlon is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "T. M. Scanlon is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "T. M. Scanlon is important in Ethics & Metaethics because their work reshaped debates about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in T. M. Scanlon."
+        "Clarify",
+        "State the central claim behind T. M. Scanlon without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make T. M. Scanlon difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to T. M. Scanlon."
       ],
       [
-        "Connection",
-        "Compare it with What We Owe to Each Other to see how the debate develops."
+        "Compare",
+        "Use What We Owe to Each Other to see which assumption the debate turns on."
       ]
     ],
-    "why": "T. M. Scanlon matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "T. M. Scanlon matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-what-we-owe-to-each-other",
@@ -8784,30 +8784,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Ethics & Metaethics",
     "name": "What We Owe to Each Other",
     "hook": "What problem or argument is What We Owe to Each Other really about?",
-    "question": "Which description best captures What We Owe to Each Other?",
+    "question": "What philosophical work does What We Owe to Each Other do?",
     "options": [
-      "What We Owe to Each Other is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "What We Owe to Each Other addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "What We Owe to Each Other is a substantive position, argument, method or problem within Ethics & Metaethics. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "What We Owe to Each Other addresses what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in What We Owe to Each Other."
+        "Clarify",
+        "State the central claim behind What We Owe to Each Other without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make What We Owe to Each Other difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to What We Owe to Each Other."
       ],
       [
-        "Connection",
-        "Compare it with Metaethics to see how the debate develops."
+        "Compare",
+        "Use Metaethics to see which assumption the debate turns on."
       ]
     ],
-    "why": "What We Owe to Each Other matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "What We Owe to Each Other matters because it sharpens the debate about what moral claims mean, whether moral facts exist, what reasons we have and how normative judgments can be justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-metaethics",
@@ -8822,30 +8822,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "John Rawls",
     "hook": "What problem or argument is John Rawls really about?",
-    "question": "Which description best captures John Rawls?",
+    "question": "Why does John Rawls matter to Political Philosophy?",
     "options": [
-      "John Rawls is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "John Rawls is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "John Rawls is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "John Rawls is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in John Rawls."
+        "Clarify",
+        "State the central claim behind John Rawls without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make John Rawls difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to John Rawls."
       ],
       [
-        "Connection",
-        "Compare it with Original Position to see how the debate develops."
+        "Compare",
+        "Use Original Position to see which assumption the debate turns on."
       ]
     ],
-    "why": "John Rawls matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "John Rawls matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-original-position",
@@ -8936,30 +8936,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Justice as Fairness",
     "hook": "What problem or argument is Justice as Fairness really about?",
-    "question": "Which description best captures Justice as Fairness?",
+    "question": "What philosophical work does Justice as Fairness do?",
     "options": [
-      "Justice as Fairness is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Justice as Fairness addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Justice as Fairness is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Justice as Fairness addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Justice as Fairness."
+        "Clarify",
+        "State the central claim behind Justice as Fairness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Justice as Fairness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Justice as Fairness."
       ],
       [
-        "Connection",
-        "Compare it with Two Principles of Justice to see how the debate develops."
+        "Compare",
+        "Use Two Principles of Justice to see which assumption the debate turns on."
       ]
     ],
-    "why": "Justice as Fairness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Justice as Fairness matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-two-principles-of-justice",
@@ -8974,30 +8974,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Two Principles of Justice",
     "hook": "What problem or argument is Two Principles of Justice really about?",
-    "question": "Which description best captures Two Principles of Justice?",
+    "question": "What philosophical work does Two Principles of Justice do?",
     "options": [
-      "Two Principles of Justice is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Two Principles of Justice addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Two Principles of Justice is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Two Principles of Justice addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Two Principles of Justice."
+        "Clarify",
+        "State the central claim behind Two Principles of Justice without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Two Principles of Justice difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Two Principles of Justice."
       ],
       [
-        "Connection",
-        "Compare it with Difference Principle to see how the debate develops."
+        "Compare",
+        "Use Difference Principle to see which assumption the debate turns on."
       ]
     ],
-    "why": "Two Principles of Justice matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Two Principles of Justice matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-difference-principle",
@@ -9088,30 +9088,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Political Liberalism",
     "hook": "What problem or argument is Political Liberalism really about?",
-    "question": "Which description best captures Political Liberalism?",
+    "question": "What philosophical work does Political Liberalism do?",
     "options": [
-      "Political Liberalism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Political Liberalism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Political Liberalism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Political Liberalism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Political Liberalism."
+        "Clarify",
+        "State the central claim behind Political Liberalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Political Liberalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Political Liberalism."
       ],
       [
-        "Connection",
-        "Compare it with Overlapping Consensus to see how the debate develops."
+        "Compare",
+        "Use Overlapping Consensus to see which assumption the debate turns on."
       ]
     ],
-    "why": "Political Liberalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Political Liberalism matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-overlapping-consensus",
@@ -9126,30 +9126,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Overlapping Consensus",
     "hook": "What problem or argument is Overlapping Consensus really about?",
-    "question": "Which description best captures Overlapping Consensus?",
+    "question": "What philosophical work does Overlapping Consensus do?",
     "options": [
-      "Overlapping Consensus is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Overlapping Consensus addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Overlapping Consensus is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Overlapping Consensus addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Overlapping Consensus."
+        "Clarify",
+        "State the central claim behind Overlapping Consensus without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Overlapping Consensus difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Overlapping Consensus."
       ],
       [
-        "Connection",
-        "Compare it with Robert Nozick to see how the debate develops."
+        "Compare",
+        "Use Robert Nozick to see which assumption the debate turns on."
       ]
     ],
-    "why": "Overlapping Consensus matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Overlapping Consensus matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-robert-nozick",
@@ -9164,30 +9164,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Robert Nozick",
     "hook": "What problem or argument is Robert Nozick really about?",
-    "question": "Which description best captures Robert Nozick?",
+    "question": "Why does Robert Nozick matter to Political Philosophy?",
     "options": [
-      "Robert Nozick is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Robert Nozick is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Robert Nozick is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Robert Nozick is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Robert Nozick."
+        "Clarify",
+        "State the central claim behind Robert Nozick without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Robert Nozick difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Robert Nozick."
       ],
       [
-        "Connection",
-        "Compare it with Entitlement Theory to see how the debate develops."
+        "Compare",
+        "Use Entitlement Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Robert Nozick matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Robert Nozick matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-entitlement-theory",
@@ -9240,30 +9240,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Wilt Chamberlain Argument",
     "hook": "What problem or argument is Wilt Chamberlain Argument really about?",
-    "question": "Which description best captures Wilt Chamberlain Argument?",
+    "question": "What philosophical work does Wilt Chamberlain Argument do?",
     "options": [
-      "Wilt Chamberlain Argument is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Wilt Chamberlain Argument addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Wilt Chamberlain Argument is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Wilt Chamberlain Argument addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Wilt Chamberlain Argument."
+        "Clarify",
+        "State the central claim behind Wilt Chamberlain Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Wilt Chamberlain Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Wilt Chamberlain Argument."
       ],
       [
-        "Connection",
-        "Compare it with Minimal State to see how the debate develops."
+        "Compare",
+        "Use Minimal State to see which assumption the debate turns on."
       ]
     ],
-    "why": "Wilt Chamberlain Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Wilt Chamberlain Argument matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-minimal-state",
@@ -9278,30 +9278,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Minimal State",
     "hook": "What problem or argument is Minimal State really about?",
-    "question": "Which description best captures Minimal State?",
+    "question": "What philosophical work does Minimal State do?",
     "options": [
-      "Minimal State is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Minimal State addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Minimal State is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Minimal State addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Minimal State."
+        "Clarify",
+        "State the central claim behind Minimal State without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Minimal State difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Minimal State."
       ],
       [
-        "Connection",
-        "Compare it with G. A. Cohen to see how the debate develops."
+        "Compare",
+        "Use G. A. Cohen to see which assumption the debate turns on."
       ]
     ],
-    "why": "Minimal State matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Minimal State matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-g-a-cohen",
@@ -9316,30 +9316,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "G. A. Cohen",
     "hook": "What problem or argument is G. A. Cohen really about?",
-    "question": "Which description best captures G. A. Cohen?",
+    "question": "Why does G. A. Cohen matter to Political Philosophy?",
     "options": [
-      "G. A. Cohen is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "G. A. Cohen is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "G. A. Cohen is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "G. A. Cohen is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in G. A. Cohen."
+        "Clarify",
+        "State the central claim behind G. A. Cohen without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make G. A. Cohen difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to G. A. Cohen."
       ],
       [
-        "Connection",
-        "Compare it with Luck Egalitarianism to see how the debate develops."
+        "Compare",
+        "Use Luck Egalitarianism to see which assumption the debate turns on."
       ]
     ],
-    "why": "G. A. Cohen matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "G. A. Cohen matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-luck-egalitarianism",
@@ -9354,30 +9354,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Luck Egalitarianism",
     "hook": "What problem or argument is Luck Egalitarianism really about?",
-    "question": "Which description best captures Luck Egalitarianism?",
+    "question": "What philosophical work does Luck Egalitarianism do?",
     "options": [
-      "Luck Egalitarianism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Luck Egalitarianism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Luck Egalitarianism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Luck Egalitarianism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Luck Egalitarianism."
+        "Clarify",
+        "State the central claim behind Luck Egalitarianism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Luck Egalitarianism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Luck Egalitarianism."
       ],
       [
-        "Connection",
-        "Compare it with Ronald Dworkin to see how the debate develops."
+        "Compare",
+        "Use Ronald Dworkin to see which assumption the debate turns on."
       ]
     ],
-    "why": "Luck Egalitarianism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Luck Egalitarianism matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ronald-dworkin",
@@ -9392,30 +9392,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Ronald Dworkin",
     "hook": "What problem or argument is Ronald Dworkin really about?",
-    "question": "Which description best captures Ronald Dworkin?",
+    "question": "Why does Ronald Dworkin matter to Political Philosophy?",
     "options": [
-      "Ronald Dworkin is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ronald Dworkin is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ronald Dworkin is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ronald Dworkin is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ronald Dworkin."
+        "Clarify",
+        "State the central claim behind Ronald Dworkin without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ronald Dworkin difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ronald Dworkin."
       ],
       [
-        "Connection",
-        "Compare it with Equality of Resources to see how the debate develops."
+        "Compare",
+        "Use Equality of Resources to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ronald Dworkin matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ronald Dworkin matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-equality-of-resources",
@@ -9430,30 +9430,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Equality of Resources",
     "hook": "What problem or argument is Equality of Resources really about?",
-    "question": "Which description best captures Equality of Resources?",
+    "question": "What philosophical work does Equality of Resources do?",
     "options": [
-      "Equality of Resources is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Equality of Resources addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Equality of Resources is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Equality of Resources addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Equality of Resources."
+        "Clarify",
+        "State the central claim behind Equality of Resources without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Equality of Resources difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Equality of Resources."
       ],
       [
-        "Connection",
-        "Compare it with Capability Approach to see how the debate develops."
+        "Compare",
+        "Use Capability Approach to see which assumption the debate turns on."
       ]
     ],
-    "why": "Equality of Resources matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Equality of Resources matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-capability-approach",
@@ -9468,30 +9468,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Capability Approach",
     "hook": "What problem or argument is Capability Approach really about?",
-    "question": "Which description best captures Capability Approach?",
+    "question": "What philosophical work does Capability Approach do?",
     "options": [
-      "Capability Approach is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Capability Approach addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Capability Approach is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Capability Approach addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Capability Approach."
+        "Clarify",
+        "State the central claim behind Capability Approach without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Capability Approach difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Capability Approach."
       ],
       [
-        "Connection",
-        "Compare it with Amartya Sen to see how the debate develops."
+        "Compare",
+        "Use Amartya Sen to see which assumption the debate turns on."
       ]
     ],
-    "why": "Capability Approach matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Capability Approach matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-amartya-sen",
@@ -9506,30 +9506,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Amartya Sen",
     "hook": "What problem or argument is Amartya Sen really about?",
-    "question": "Which description best captures Amartya Sen?",
+    "question": "Why does Amartya Sen matter to Political Philosophy?",
     "options": [
-      "Amartya Sen is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Amartya Sen is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Amartya Sen is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Amartya Sen is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Amartya Sen."
+        "Clarify",
+        "State the central claim behind Amartya Sen without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Amartya Sen difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Amartya Sen."
       ],
       [
-        "Connection",
-        "Compare it with Martha Nussbaum to see how the debate develops."
+        "Compare",
+        "Use Martha Nussbaum to see which assumption the debate turns on."
       ]
     ],
-    "why": "Amartya Sen matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Amartya Sen matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-martha-nussbaum",
@@ -9544,30 +9544,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Martha Nussbaum",
     "hook": "What problem or argument is Martha Nussbaum really about?",
-    "question": "Which description best captures Martha Nussbaum?",
+    "question": "Why does Martha Nussbaum matter to Political Philosophy?",
     "options": [
-      "Martha Nussbaum is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Martha Nussbaum is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Martha Nussbaum is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Martha Nussbaum is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Martha Nussbaum."
+        "Clarify",
+        "State the central claim behind Martha Nussbaum without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Martha Nussbaum difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Martha Nussbaum."
       ],
       [
-        "Connection",
-        "Compare it with Analytical Marxism to see how the debate develops."
+        "Compare",
+        "Use Analytical Marxism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Martha Nussbaum matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Martha Nussbaum matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-analytical-marxism",
@@ -9582,30 +9582,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Analytical Marxism",
     "hook": "What problem or argument is Analytical Marxism really about?",
-    "question": "Which description best captures Analytical Marxism?",
+    "question": "What philosophical work does Analytical Marxism do?",
     "options": [
-      "Analytical Marxism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Analytical Marxism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Analytical Marxism is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Analytical Marxism addresses how justice, liberty, equality, rights and institutions should be understood and justified. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Analytical Marxism."
+        "Clarify",
+        "State the central claim behind Analytical Marxism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Analytical Marxism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Analytical Marxism."
       ],
       [
-        "Connection",
-        "Compare it with John Roemer to see how the debate develops."
+        "Compare",
+        "Use John Roemer to see which assumption the debate turns on."
       ]
     ],
-    "why": "Analytical Marxism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Analytical Marxism matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-john-roemer",
@@ -9620,30 +9620,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "John Roemer",
     "hook": "What problem or argument is John Roemer really about?",
-    "question": "Which description best captures John Roemer?",
+    "question": "Why does John Roemer matter to Political Philosophy?",
     "options": [
-      "John Roemer is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "John Roemer is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "John Roemer is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "John Roemer is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in John Roemer."
+        "Clarify",
+        "State the central claim behind John Roemer without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make John Roemer difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to John Roemer."
       ],
       [
-        "Connection",
-        "Compare it with Gerald Gaus to see how the debate develops."
+        "Compare",
+        "Use Gerald Gaus to see which assumption the debate turns on."
       ]
     ],
-    "why": "John Roemer matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "John Roemer matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-gerald-gaus",
@@ -9658,30 +9658,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Political Philosophy",
     "name": "Gerald Gaus",
     "hook": "What problem or argument is Gerald Gaus really about?",
-    "question": "Which description best captures Gerald Gaus?",
+    "question": "Why does Gerald Gaus matter to Political Philosophy?",
     "options": [
-      "Gerald Gaus is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Gerald Gaus is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Gerald Gaus is a substantive position, argument, method or problem within Political Philosophy. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Gerald Gaus is important in Political Philosophy because their work reshaped debates about how justice, liberty, equality, rights and institutions should be understood and justified. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Gerald Gaus."
+        "Clarify",
+        "State the central claim behind Gerald Gaus without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Gerald Gaus difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Gerald Gaus."
       ],
       [
-        "Connection",
-        "Compare it with John Rawls to see how the debate develops."
+        "Compare",
+        "Use John Rawls to see which assumption the debate turns on."
       ]
     ],
-    "why": "Gerald Gaus matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Gerald Gaus matters because it sharpens the debate about how justice, liberty, equality, rights and institutions should be understood and justified.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-john-rawls",
@@ -9696,30 +9696,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Philosophy of Action",
     "hook": "What problem or argument is Philosophy of Action really about?",
-    "question": "Which description best captures Philosophy of Action?",
+    "question": "What philosophical work does Philosophy of Action do?",
     "options": [
-      "Philosophy of Action is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Philosophy of Action addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Philosophy of Action is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Philosophy of Action addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Philosophy of Action."
+        "Clarify",
+        "State the central claim behind Philosophy of Action without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Philosophy of Action difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Philosophy of Action."
       ],
       [
-        "Connection",
-        "Compare it with Donald Davidson on Action to see how the debate develops."
+        "Compare",
+        "Use Donald Davidson on Action to see which assumption the debate turns on."
       ]
     ],
-    "why": "Philosophy of Action matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Philosophy of Action matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-donald-davidson-on-action",
@@ -9734,30 +9734,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Donald Davidson on Action",
     "hook": "What problem or argument is Donald Davidson on Action really about?",
-    "question": "Which description best captures Donald Davidson on Action?",
+    "question": "What philosophical work does Donald Davidson on Action do?",
     "options": [
-      "Donald Davidson on Action is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Donald Davidson on Action addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Donald Davidson on Action is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Donald Davidson on Action addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Donald Davidson on Action."
+        "Clarify",
+        "State the central claim behind Donald Davidson on Action without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Donald Davidson on Action difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Donald Davidson on Action."
       ],
       [
-        "Connection",
-        "Compare it with Actions, Reasons and Causes to see how the debate develops."
+        "Compare",
+        "Use Actions, Reasons and Causes to see which assumption the debate turns on."
       ]
     ],
-    "why": "Donald Davidson on Action matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Donald Davidson on Action matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-actions-reasons-and-causes",
@@ -9772,30 +9772,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Actions, Reasons and Causes",
     "hook": "What problem or argument is Actions, Reasons and Causes really about?",
-    "question": "Which description best captures Actions, Reasons and Causes?",
+    "question": "What philosophical work does Actions, Reasons and Causes do?",
     "options": [
-      "Actions, Reasons and Causes is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Actions, Reasons and Causes addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Actions, Reasons and Causes is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Actions, Reasons and Causes addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Actions, Reasons and Causes."
+        "Clarify",
+        "State the central claim behind Actions, Reasons and Causes without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Actions, Reasons and Causes difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Actions, Reasons and Causes."
       ],
       [
-        "Connection",
-        "Compare it with Anscombe to see how the debate develops."
+        "Compare",
+        "Use Anscombe to see which assumption the debate turns on."
       ]
     ],
-    "why": "Actions, Reasons and Causes matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Actions, Reasons and Causes matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-anscombe",
@@ -9810,30 +9810,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Anscombe",
     "hook": "What problem or argument is Anscombe really about?",
-    "question": "Which description best captures Anscombe?",
+    "question": "Why does Anscombe matter to Action, Free Will & Responsibility?",
     "options": [
-      "Anscombe is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Anscombe is important in Action, Free Will & Responsibility because their work reshaped debates about what makes behavior an intentional action and under what conditions agents can be free or morally responsible. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Anscombe is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Anscombe is important in Action, Free Will & Responsibility because their work reshaped debates about what makes behavior an intentional action and under what conditions agents can be free or morally responsible. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Anscombe."
+        "Clarify",
+        "State the central claim behind Anscombe without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Anscombe difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Anscombe."
       ],
       [
-        "Connection",
-        "Compare it with Intention to see how the debate develops."
+        "Compare",
+        "Use Intention to see which assumption the debate turns on."
       ]
     ],
-    "why": "Anscombe matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Anscombe matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-intention",
@@ -9848,30 +9848,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Intention",
     "hook": "What problem or argument is Intention really about?",
-    "question": "Which description best captures Intention?",
+    "question": "What philosophical work does Intention do?",
     "options": [
-      "Intention is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Intention addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Intention is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Intention addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Intention."
+        "Clarify",
+        "State the central claim behind Intention without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Intention difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Intention."
       ],
       [
-        "Connection",
-        "Compare it with Practical Knowledge to see how the debate develops."
+        "Compare",
+        "Use Practical Knowledge to see which assumption the debate turns on."
       ]
     ],
-    "why": "Intention matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Intention matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-practical-knowledge",
@@ -9886,30 +9886,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Practical Knowledge",
     "hook": "What problem or argument is Practical Knowledge really about?",
-    "question": "Which description best captures Practical Knowledge?",
+    "question": "What philosophical work does Practical Knowledge do?",
     "options": [
-      "Practical Knowledge is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Practical Knowledge addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Practical Knowledge is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Practical Knowledge addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Practical Knowledge."
+        "Clarify",
+        "State the central claim behind Practical Knowledge without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Practical Knowledge difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Practical Knowledge."
       ],
       [
-        "Connection",
-        "Compare it with Free Will to see how the debate develops."
+        "Compare",
+        "Use Free Will to see which assumption the debate turns on."
       ]
     ],
-    "why": "Practical Knowledge matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Practical Knowledge matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-free-will",
@@ -9924,30 +9924,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Free Will",
     "hook": "What problem or argument is Free Will really about?",
-    "question": "Which description best captures Free Will?",
+    "question": "What philosophical work does Free Will do?",
     "options": [
-      "Free Will is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Free Will addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Free Will is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Free Will addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Free Will."
+        "Clarify",
+        "State the central claim behind Free Will without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Free Will difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Free Will."
       ],
       [
-        "Connection",
-        "Compare it with Determinism to see how the debate develops."
+        "Compare",
+        "Use Determinism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Free Will matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Free Will matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-determinism",
@@ -9962,30 +9962,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Determinism",
     "hook": "What problem or argument is Determinism really about?",
-    "question": "Which description best captures Determinism?",
+    "question": "What philosophical work does Determinism do?",
     "options": [
-      "Determinism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Determinism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Determinism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Determinism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Determinism."
+        "Clarify",
+        "State the central claim behind Determinism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Determinism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Determinism."
       ],
       [
-        "Connection",
-        "Compare it with Compatibilism to see how the debate develops."
+        "Compare",
+        "Use Compatibilism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Determinism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Determinism matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-compatibilism",
@@ -10000,30 +10000,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Compatibilism",
     "hook": "What problem or argument is Compatibilism really about?",
-    "question": "Which description best captures Compatibilism?",
+    "question": "What philosophical work does Compatibilism do?",
     "options": [
-      "Compatibilism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Compatibilism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Compatibilism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Compatibilism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Compatibilism."
+        "Clarify",
+        "State the central claim behind Compatibilism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Compatibilism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Compatibilism."
       ],
       [
-        "Connection",
-        "Compare it with Incompatibilism to see how the debate develops."
+        "Compare",
+        "Use Incompatibilism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Compatibilism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Compatibilism matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-incompatibilism",
@@ -10038,30 +10038,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Incompatibilism",
     "hook": "What problem or argument is Incompatibilism really about?",
-    "question": "Which description best captures Incompatibilism?",
+    "question": "What philosophical work does Incompatibilism do?",
     "options": [
-      "Incompatibilism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Incompatibilism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Incompatibilism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Incompatibilism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Incompatibilism."
+        "Clarify",
+        "State the central claim behind Incompatibilism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Incompatibilism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Incompatibilism."
       ],
       [
-        "Connection",
-        "Compare it with Libertarian Free Will to see how the debate develops."
+        "Compare",
+        "Use Libertarian Free Will to see which assumption the debate turns on."
       ]
     ],
-    "why": "Incompatibilism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Incompatibilism matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-libertarian-free-will",
@@ -10076,30 +10076,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Libertarian Free Will",
     "hook": "What problem or argument is Libertarian Free Will really about?",
-    "question": "Which description best captures Libertarian Free Will?",
+    "question": "What philosophical work does Libertarian Free Will do?",
     "options": [
-      "Libertarian Free Will is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Libertarian Free Will addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Libertarian Free Will is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Libertarian Free Will addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Libertarian Free Will."
+        "Clarify",
+        "State the central claim behind Libertarian Free Will without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Libertarian Free Will difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Libertarian Free Will."
       ],
       [
-        "Connection",
-        "Compare it with Harry Frankfurt to see how the debate develops."
+        "Compare",
+        "Use Harry Frankfurt to see which assumption the debate turns on."
       ]
     ],
-    "why": "Libertarian Free Will matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Libertarian Free Will matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-harry-frankfurt",
@@ -10114,30 +10114,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Harry Frankfurt",
     "hook": "What problem or argument is Harry Frankfurt really about?",
-    "question": "Which description best captures Harry Frankfurt?",
+    "question": "Why does Harry Frankfurt matter to Action, Free Will & Responsibility?",
     "options": [
-      "Harry Frankfurt is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Harry Frankfurt is important in Action, Free Will & Responsibility because their work reshaped debates about what makes behavior an intentional action and under what conditions agents can be free or morally responsible. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Harry Frankfurt is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Harry Frankfurt is important in Action, Free Will & Responsibility because their work reshaped debates about what makes behavior an intentional action and under what conditions agents can be free or morally responsible. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Harry Frankfurt."
+        "Clarify",
+        "State the central claim behind Harry Frankfurt without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Harry Frankfurt difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Harry Frankfurt."
       ],
       [
-        "Connection",
-        "Compare it with Frankfurt Cases to see how the debate develops."
+        "Compare",
+        "Use Frankfurt Cases to see which assumption the debate turns on."
       ]
     ],
-    "why": "Harry Frankfurt matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Harry Frankfurt matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-frankfurt-cases",
@@ -10190,30 +10190,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Principle of Alternative Possibilities",
     "hook": "What problem or argument is Principle of Alternative Possibilities really about?",
-    "question": "Which description best captures Principle of Alternative Possibilities?",
+    "question": "What philosophical work does Principle of Alternative Possibilities do?",
     "options": [
-      "Principle of Alternative Possibilities is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Principle of Alternative Possibilities addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Principle of Alternative Possibilities is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Principle of Alternative Possibilities addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Principle of Alternative Possibilities."
+        "Clarify",
+        "State the central claim behind Principle of Alternative Possibilities without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Principle of Alternative Possibilities difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Principle of Alternative Possibilities."
       ],
       [
-        "Connection",
-        "Compare it with Second-Order Desires to see how the debate develops."
+        "Compare",
+        "Use Second-Order Desires to see which assumption the debate turns on."
       ]
     ],
-    "why": "Principle of Alternative Possibilities matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Principle of Alternative Possibilities matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-second-order-desires",
@@ -10228,30 +10228,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Second-Order Desires",
     "hook": "What problem or argument is Second-Order Desires really about?",
-    "question": "Which description best captures Second-Order Desires?",
+    "question": "What philosophical work does Second-Order Desires do?",
     "options": [
-      "Second-Order Desires is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Second-Order Desires addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Second-Order Desires is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Second-Order Desires addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Second-Order Desires."
+        "Clarify",
+        "State the central claim behind Second-Order Desires without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Second-Order Desires difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Second-Order Desires."
       ],
       [
-        "Connection",
-        "Compare it with Reasons-Responsiveness to see how the debate develops."
+        "Compare",
+        "Use Reasons-Responsiveness to see which assumption the debate turns on."
       ]
     ],
-    "why": "Second-Order Desires matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Second-Order Desires matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reasons-responsiveness",
@@ -10266,30 +10266,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Reasons-Responsiveness",
     "hook": "What problem or argument is Reasons-Responsiveness really about?",
-    "question": "Which description best captures Reasons-Responsiveness?",
+    "question": "What philosophical work does Reasons-Responsiveness do?",
     "options": [
-      "Reasons-Responsiveness is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reasons-Responsiveness addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reasons-Responsiveness is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reasons-Responsiveness addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reasons-Responsiveness."
+        "Clarify",
+        "State the central claim behind Reasons-Responsiveness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reasons-Responsiveness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reasons-Responsiveness."
       ],
       [
-        "Connection",
-        "Compare it with Moral Responsibility to see how the debate develops."
+        "Compare",
+        "Use Moral Responsibility to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reasons-Responsiveness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reasons-Responsiveness matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moral-responsibility",
@@ -10304,30 +10304,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Moral Responsibility",
     "hook": "What problem or argument is Moral Responsibility really about?",
-    "question": "Which description best captures Moral Responsibility?",
+    "question": "What philosophical work does Moral Responsibility do?",
     "options": [
-      "Moral Responsibility is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moral Responsibility addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moral Responsibility is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moral Responsibility addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moral Responsibility."
+        "Clarify",
+        "State the central claim behind Moral Responsibility without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moral Responsibility difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moral Responsibility."
       ],
       [
-        "Connection",
-        "Compare it with Reactive Attitudes to see how the debate develops."
+        "Compare",
+        "Use Reactive Attitudes to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moral Responsibility matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moral Responsibility matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reactive-attitudes",
@@ -10380,30 +10380,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "P. F. Strawson on Responsibility",
     "hook": "What problem or argument is P. F. Strawson on Responsibility really about?",
-    "question": "Which description best captures P. F. Strawson on Responsibility?",
+    "question": "What philosophical work does P. F. Strawson on Responsibility do?",
     "options": [
-      "P. F. Strawson on Responsibility is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "P. F. Strawson on Responsibility addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "P. F. Strawson on Responsibility is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "P. F. Strawson on Responsibility addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in P. F. Strawson on Responsibility."
+        "Clarify",
+        "State the central claim behind P. F. Strawson on Responsibility without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make P. F. Strawson on Responsibility difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to P. F. Strawson on Responsibility."
       ],
       [
-        "Connection",
-        "Compare it with Moral Responsibility Skepticism to see how the debate develops."
+        "Compare",
+        "Use Moral Responsibility Skepticism to see which assumption the debate turns on."
       ]
     ],
-    "why": "P. F. Strawson on Responsibility matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "P. F. Strawson on Responsibility matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-moral-responsibility-skepticism",
@@ -10418,30 +10418,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Action, Free Will & Responsibility",
     "name": "Moral Responsibility Skepticism",
     "hook": "What problem or argument is Moral Responsibility Skepticism really about?",
-    "question": "Which description best captures Moral Responsibility Skepticism?",
+    "question": "What philosophical work does Moral Responsibility Skepticism do?",
     "options": [
-      "Moral Responsibility Skepticism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Moral Responsibility Skepticism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Moral Responsibility Skepticism is a substantive position, argument, method or problem within Action, Free Will & Responsibility. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Moral Responsibility Skepticism addresses what makes behavior an intentional action and under what conditions agents can be free or morally responsible. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Moral Responsibility Skepticism."
+        "Clarify",
+        "State the central claim behind Moral Responsibility Skepticism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Moral Responsibility Skepticism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Moral Responsibility Skepticism."
       ],
       [
-        "Connection",
-        "Compare it with Philosophy of Action to see how the debate develops."
+        "Compare",
+        "Use Philosophy of Action to see which assumption the debate turns on."
       ]
     ],
-    "why": "Moral Responsibility Skepticism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Moral Responsibility Skepticism matters because it sharpens the debate about what makes behavior an intentional action and under what conditions agents can be free or morally responsible.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-philosophy-of-action",
@@ -10456,30 +10456,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Personal Identity",
     "hook": "What problem or argument is Personal Identity really about?",
-    "question": "Which description best captures Personal Identity?",
+    "question": "What philosophical work does Personal Identity do?",
     "options": [
-      "Personal Identity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Personal Identity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Personal Identity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Personal Identity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Personal Identity."
+        "Clarify",
+        "State the central claim behind Personal Identity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Personal Identity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Personal Identity."
       ],
       [
-        "Connection",
-        "Compare it with Psychological Continuity to see how the debate develops."
+        "Compare",
+        "Use Psychological Continuity to see which assumption the debate turns on."
       ]
     ],
-    "why": "Personal Identity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Personal Identity matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-psychological-continuity",
@@ -10494,30 +10494,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Psychological Continuity",
     "hook": "What problem or argument is Psychological Continuity really about?",
-    "question": "Which description best captures Psychological Continuity?",
+    "question": "What philosophical work does Psychological Continuity do?",
     "options": [
-      "Psychological Continuity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Psychological Continuity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Psychological Continuity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Psychological Continuity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Psychological Continuity."
+        "Clarify",
+        "State the central claim behind Psychological Continuity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Psychological Continuity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Psychological Continuity."
       ],
       [
-        "Connection",
-        "Compare it with Bodily Continuity to see how the debate develops."
+        "Compare",
+        "Use Bodily Continuity to see which assumption the debate turns on."
       ]
     ],
-    "why": "Psychological Continuity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Psychological Continuity matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-bodily-continuity",
@@ -10532,30 +10532,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Bodily Continuity",
     "hook": "What problem or argument is Bodily Continuity really about?",
-    "question": "Which description best captures Bodily Continuity?",
+    "question": "What philosophical work does Bodily Continuity do?",
     "options": [
-      "Bodily Continuity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Bodily Continuity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Bodily Continuity is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Bodily Continuity addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Bodily Continuity."
+        "Clarify",
+        "State the central claim behind Bodily Continuity without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Bodily Continuity difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Bodily Continuity."
       ],
       [
-        "Connection",
-        "Compare it with Memory Criterion to see how the debate develops."
+        "Compare",
+        "Use Memory Criterion to see which assumption the debate turns on."
       ]
     ],
-    "why": "Bodily Continuity matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Bodily Continuity matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-memory-criterion",
@@ -10570,30 +10570,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Memory Criterion",
     "hook": "What problem or argument is Memory Criterion really about?",
-    "question": "Which description best captures Memory Criterion?",
+    "question": "What philosophical work does Memory Criterion do?",
     "options": [
-      "Memory Criterion is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Memory Criterion addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Memory Criterion is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Memory Criterion addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Memory Criterion."
+        "Clarify",
+        "State the central claim behind Memory Criterion without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Memory Criterion difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Memory Criterion."
       ],
       [
-        "Connection",
-        "Compare it with Parfit's Reductionism to see how the debate develops."
+        "Compare",
+        "Use Parfit's Reductionism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Memory Criterion matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Memory Criterion matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-parfit-s-reductionism",
@@ -10646,30 +10646,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Teletransportation",
     "hook": "What problem or argument is Teletransportation really about?",
-    "question": "Which description best captures Teletransportation?",
+    "question": "What philosophical work does Teletransportation do?",
     "options": [
-      "Teletransportation is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Teletransportation addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Teletransportation is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Teletransportation addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Teletransportation."
+        "Clarify",
+        "State the central claim behind Teletransportation without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Teletransportation difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Teletransportation."
       ],
       [
-        "Connection",
-        "Compare it with Fission Cases to see how the debate develops."
+        "Compare",
+        "Use Fission Cases to see which assumption the debate turns on."
       ]
     ],
-    "why": "Teletransportation matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Teletransportation matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-fission-cases",
@@ -10684,30 +10684,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Fission Cases",
     "hook": "What problem or argument is Fission Cases really about?",
-    "question": "Which description best captures Fission Cases?",
+    "question": "What philosophical work does Fission Cases do?",
     "options": [
-      "Fission Cases is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Fission Cases addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Fission Cases is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Fission Cases addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Fission Cases."
+        "Clarify",
+        "State the central claim behind Fission Cases without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Fission Cases difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Fission Cases."
       ],
       [
-        "Connection",
-        "Compare it with Animalism to see how the debate develops."
+        "Compare",
+        "Use Animalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Fission Cases matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Fission Cases matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-animalism",
@@ -10722,30 +10722,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Animalism",
     "hook": "What problem or argument is Animalism really about?",
-    "question": "Which description best captures Animalism?",
+    "question": "What philosophical work does Animalism do?",
     "options": [
-      "Animalism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Animalism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Animalism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Animalism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Animalism."
+        "Clarify",
+        "State the central claim behind Animalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Animalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Animalism."
       ],
       [
-        "Connection",
-        "Compare it with Eric Olson to see how the debate develops."
+        "Compare",
+        "Use Eric Olson to see which assumption the debate turns on."
       ]
     ],
-    "why": "Animalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Animalism matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-eric-olson",
@@ -10760,30 +10760,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Eric Olson",
     "hook": "What problem or argument is Eric Olson really about?",
-    "question": "Which description best captures Eric Olson?",
+    "question": "Why does Eric Olson matter to Personal Identity & Time?",
     "options": [
-      "Eric Olson is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Eric Olson is important in Personal Identity & Time because their work reshaped debates about what makes a person persist and how temporal reality itself should be understood. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Eric Olson is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Eric Olson is important in Personal Identity & Time because their work reshaped debates about what makes a person persist and how temporal reality itself should be understood. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Eric Olson."
+        "Clarify",
+        "State the central claim behind Eric Olson without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Eric Olson difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Eric Olson."
       ],
       [
-        "Connection",
-        "Compare it with Narrative Identity in Analytic Philosophy to see how the debate develops."
+        "Compare",
+        "Use Narrative Identity in Analytic Philosophy to see which assumption the debate turns on."
       ]
     ],
-    "why": "Eric Olson matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Eric Olson matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-narrative-identity-in-analytic-philosophy",
@@ -10798,30 +10798,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Narrative Identity in Analytic Philosophy",
     "hook": "What problem or argument is Narrative Identity in Analytic Philosophy really about?",
-    "question": "Which description best captures Narrative Identity in Analytic Philosophy?",
+    "question": "What philosophical work does Narrative Identity in Analytic Philosophy do?",
     "options": [
-      "Narrative Identity in Analytic Philosophy is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Narrative Identity in Analytic Philosophy addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Narrative Identity in Analytic Philosophy is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Narrative Identity in Analytic Philosophy addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Narrative Identity in Analytic Philosophy."
+        "Clarify",
+        "State the central claim behind Narrative Identity in Analytic Philosophy without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Narrative Identity in Analytic Philosophy difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Narrative Identity in Analytic Philosophy."
       ],
       [
-        "Connection",
-        "Compare it with Philosophy of Time to see how the debate develops."
+        "Compare",
+        "Use Philosophy of Time to see which assumption the debate turns on."
       ]
     ],
-    "why": "Narrative Identity in Analytic Philosophy matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Narrative Identity in Analytic Philosophy matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-philosophy-of-time",
@@ -10836,30 +10836,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Philosophy of Time",
     "hook": "What problem or argument is Philosophy of Time really about?",
-    "question": "Which description best captures Philosophy of Time?",
+    "question": "What philosophical work does Philosophy of Time do?",
     "options": [
-      "Philosophy of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Philosophy of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Philosophy of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Philosophy of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Philosophy of Time."
+        "Clarify",
+        "State the central claim behind Philosophy of Time without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Philosophy of Time difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Philosophy of Time."
       ],
       [
-        "Connection",
-        "Compare it with A-Theory of Time to see how the debate develops."
+        "Compare",
+        "Use A-Theory of Time to see which assumption the debate turns on."
       ]
     ],
-    "why": "Philosophy of Time matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Philosophy of Time matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-a-theory-of-time",
@@ -10874,30 +10874,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "A-Theory of Time",
     "hook": "What problem or argument is A-Theory of Time really about?",
-    "question": "Which description best captures A-Theory of Time?",
+    "question": "What philosophical work does A-Theory of Time do?",
     "options": [
-      "A-Theory of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "A-Theory of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "A-Theory of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "A-Theory of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in A-Theory of Time."
+        "Clarify",
+        "State the central claim behind A-Theory of Time without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make A-Theory of Time difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to A-Theory of Time."
       ],
       [
-        "Connection",
-        "Compare it with B-Theory of Time to see how the debate develops."
+        "Compare",
+        "Use B-Theory of Time to see which assumption the debate turns on."
       ]
     ],
-    "why": "A-Theory of Time matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "A-Theory of Time matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-b-theory-of-time",
@@ -10912,30 +10912,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "B-Theory of Time",
     "hook": "What problem or argument is B-Theory of Time really about?",
-    "question": "Which description best captures B-Theory of Time?",
+    "question": "What philosophical work does B-Theory of Time do?",
     "options": [
-      "B-Theory of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "B-Theory of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "B-Theory of Time is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "B-Theory of Time addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in B-Theory of Time."
+        "Clarify",
+        "State the central claim behind B-Theory of Time without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make B-Theory of Time difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to B-Theory of Time."
       ],
       [
-        "Connection",
-        "Compare it with Presentism to see how the debate develops."
+        "Compare",
+        "Use Presentism to see which assumption the debate turns on."
       ]
     ],
-    "why": "B-Theory of Time matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "B-Theory of Time matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-presentism",
@@ -10950,30 +10950,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Presentism",
     "hook": "What problem or argument is Presentism really about?",
-    "question": "Which description best captures Presentism?",
+    "question": "What philosophical work does Presentism do?",
     "options": [
-      "Presentism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Presentism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Presentism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Presentism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Presentism."
+        "Clarify",
+        "State the central claim behind Presentism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Presentism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Presentism."
       ],
       [
-        "Connection",
-        "Compare it with Eternalism to see how the debate develops."
+        "Compare",
+        "Use Eternalism to see which assumption the debate turns on."
       ]
     ],
-    "why": "Presentism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Presentism matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-eternalism",
@@ -10988,30 +10988,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Eternalism",
     "hook": "What problem or argument is Eternalism really about?",
-    "question": "Which description best captures Eternalism?",
+    "question": "What philosophical work does Eternalism do?",
     "options": [
-      "Eternalism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Eternalism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Eternalism is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Eternalism addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Eternalism."
+        "Clarify",
+        "State the central claim behind Eternalism without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Eternalism difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Eternalism."
       ],
       [
-        "Connection",
-        "Compare it with Growing Block Theory to see how the debate develops."
+        "Compare",
+        "Use Growing Block Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Eternalism matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Eternalism matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-growing-block-theory",
@@ -11026,30 +11026,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "Growing Block Theory",
     "hook": "What problem or argument is Growing Block Theory really about?",
-    "question": "Which description best captures Growing Block Theory?",
+    "question": "What philosophical work does Growing Block Theory do?",
     "options": [
-      "Growing Block Theory is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Growing Block Theory addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Growing Block Theory is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Growing Block Theory addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Growing Block Theory."
+        "Clarify",
+        "State the central claim behind Growing Block Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Growing Block Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Growing Block Theory."
       ],
       [
-        "Connection",
-        "Compare it with McTaggart's Paradox to see how the debate develops."
+        "Compare",
+        "Use McTaggart's Paradox to see which assumption the debate turns on."
       ]
     ],
-    "why": "Growing Block Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Growing Block Theory matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-mctaggart-s-paradox",
@@ -11064,30 +11064,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Personal Identity & Time",
     "name": "McTaggart's Paradox",
     "hook": "What problem or argument is McTaggart's Paradox really about?",
-    "question": "Which description best captures McTaggart's Paradox?",
+    "question": "What philosophical work does McTaggart's Paradox do?",
     "options": [
-      "McTaggart's Paradox is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "McTaggart's Paradox addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "McTaggart's Paradox is a substantive position, argument, method or problem within Personal Identity & Time. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "McTaggart's Paradox addresses what makes a person persist and how temporal reality itself should be understood. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in McTaggart's Paradox."
+        "Clarify",
+        "State the central claim behind McTaggart's Paradox without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make McTaggart's Paradox difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to McTaggart's Paradox."
       ],
       [
-        "Connection",
-        "Compare it with Personal Identity to see how the debate develops."
+        "Compare",
+        "Use Personal Identity to see which assumption the debate turns on."
       ]
     ],
-    "why": "McTaggart's Paradox matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "McTaggart's Paradox matters because it sharpens the debate about what makes a person persist and how temporal reality itself should be understood.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-personal-identity",
@@ -11102,30 +11102,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Analytic Philosophy of Religion",
     "hook": "What problem or argument is Analytic Philosophy of Religion really about?",
-    "question": "Which description best captures Analytic Philosophy of Religion?",
+    "question": "What philosophical work does Analytic Philosophy of Religion do?",
     "options": [
-      "Analytic Philosophy of Religion is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Analytic Philosophy of Religion addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Analytic Philosophy of Religion is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Analytic Philosophy of Religion addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Analytic Philosophy of Religion."
+        "Clarify",
+        "State the central claim behind Analytic Philosophy of Religion without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Analytic Philosophy of Religion difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Analytic Philosophy of Religion."
       ],
       [
-        "Connection",
-        "Compare it with Ontological Argument to see how the debate develops."
+        "Compare",
+        "Use Ontological Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Analytic Philosophy of Religion matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Analytic Philosophy of Religion matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ontological-argument",
@@ -11140,30 +11140,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Ontological Argument",
     "hook": "What problem or argument is Ontological Argument really about?",
-    "question": "Which description best captures Ontological Argument?",
+    "question": "What philosophical work does Ontological Argument do?",
     "options": [
-      "Ontological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ontological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ontological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ontological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ontological Argument."
+        "Clarify",
+        "State the central claim behind Ontological Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ontological Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ontological Argument."
       ],
       [
-        "Connection",
-        "Compare it with Modal Ontological Argument to see how the debate develops."
+        "Compare",
+        "Use Modal Ontological Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ontological Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ontological Argument matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-modal-ontological-argument",
@@ -11178,30 +11178,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Modal Ontological Argument",
     "hook": "What problem or argument is Modal Ontological Argument really about?",
-    "question": "Which description best captures Modal Ontological Argument?",
+    "question": "What philosophical work does Modal Ontological Argument do?",
     "options": [
-      "Modal Ontological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Modal Ontological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Modal Ontological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Modal Ontological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Modal Ontological Argument."
+        "Clarify",
+        "State the central claim behind Modal Ontological Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Modal Ontological Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Modal Ontological Argument."
       ],
       [
-        "Connection",
-        "Compare it with Cosmological Argument to see how the debate develops."
+        "Compare",
+        "Use Cosmological Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Modal Ontological Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Modal Ontological Argument matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-cosmological-argument",
@@ -11216,30 +11216,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Cosmological Argument",
     "hook": "What problem or argument is Cosmological Argument really about?",
-    "question": "Which description best captures Cosmological Argument?",
+    "question": "What philosophical work does Cosmological Argument do?",
     "options": [
-      "Cosmological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Cosmological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Cosmological Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Cosmological Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Cosmological Argument."
+        "Clarify",
+        "State the central claim behind Cosmological Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Cosmological Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Cosmological Argument."
       ],
       [
-        "Connection",
-        "Compare it with Fine-Tuning Argument to see how the debate develops."
+        "Compare",
+        "Use Fine-Tuning Argument to see which assumption the debate turns on."
       ]
     ],
-    "why": "Cosmological Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Cosmological Argument matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-fine-tuning-argument",
@@ -11254,30 +11254,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Fine-Tuning Argument",
     "hook": "What problem or argument is Fine-Tuning Argument really about?",
-    "question": "Which description best captures Fine-Tuning Argument?",
+    "question": "What philosophical work does Fine-Tuning Argument do?",
     "options": [
-      "Fine-Tuning Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Fine-Tuning Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Fine-Tuning Argument is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Fine-Tuning Argument addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Fine-Tuning Argument."
+        "Clarify",
+        "State the central claim behind Fine-Tuning Argument without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Fine-Tuning Argument difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Fine-Tuning Argument."
       ],
       [
-        "Connection",
-        "Compare it with Problem of Evil to see how the debate develops."
+        "Compare",
+        "Use Problem of Evil to see which assumption the debate turns on."
       ]
     ],
-    "why": "Fine-Tuning Argument matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Fine-Tuning Argument matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-problem-of-evil",
@@ -11330,30 +11330,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Logical Problem of Evil",
     "hook": "What problem or argument is Logical Problem of Evil really about?",
-    "question": "Which description best captures Logical Problem of Evil?",
+    "question": "What philosophical work does Logical Problem of Evil do?",
     "options": [
-      "Logical Problem of Evil is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Logical Problem of Evil addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Logical Problem of Evil is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Logical Problem of Evil addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Logical Problem of Evil."
+        "Clarify",
+        "State the central claim behind Logical Problem of Evil without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Logical Problem of Evil difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Logical Problem of Evil."
       ],
       [
-        "Connection",
-        "Compare it with Evidential Problem of Evil to see how the debate develops."
+        "Compare",
+        "Use Evidential Problem of Evil to see which assumption the debate turns on."
       ]
     ],
-    "why": "Logical Problem of Evil matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Logical Problem of Evil matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-evidential-problem-of-evil",
@@ -11368,30 +11368,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Evidential Problem of Evil",
     "hook": "What problem or argument is Evidential Problem of Evil really about?",
-    "question": "Which description best captures Evidential Problem of Evil?",
+    "question": "What philosophical work does Evidential Problem of Evil do?",
     "options": [
-      "Evidential Problem of Evil is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Evidential Problem of Evil addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Evidential Problem of Evil is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Evidential Problem of Evil addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Evidential Problem of Evil."
+        "Clarify",
+        "State the central claim behind Evidential Problem of Evil without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Evidential Problem of Evil difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Evidential Problem of Evil."
       ],
       [
-        "Connection",
-        "Compare it with Free Will Defense to see how the debate develops."
+        "Compare",
+        "Use Free Will Defense to see which assumption the debate turns on."
       ]
     ],
-    "why": "Evidential Problem of Evil matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Evidential Problem of Evil matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-free-will-defense",
@@ -11406,30 +11406,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Free Will Defense",
     "hook": "What problem or argument is Free Will Defense really about?",
-    "question": "Which description best captures Free Will Defense?",
+    "question": "What philosophical work does Free Will Defense do?",
     "options": [
-      "Free Will Defense is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Free Will Defense addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Free Will Defense is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Free Will Defense addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Free Will Defense."
+        "Clarify",
+        "State the central claim behind Free Will Defense without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Free Will Defense difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Free Will Defense."
       ],
       [
-        "Connection",
-        "Compare it with Divine Hiddenness to see how the debate develops."
+        "Compare",
+        "Use Divine Hiddenness to see which assumption the debate turns on."
       ]
     ],
-    "why": "Free Will Defense matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Free Will Defense matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-divine-hiddenness",
@@ -11444,30 +11444,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Divine Hiddenness",
     "hook": "What problem or argument is Divine Hiddenness really about?",
-    "question": "Which description best captures Divine Hiddenness?",
+    "question": "What philosophical work does Divine Hiddenness do?",
     "options": [
-      "Divine Hiddenness is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Divine Hiddenness addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Divine Hiddenness is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Divine Hiddenness addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Divine Hiddenness."
+        "Clarify",
+        "State the central claim behind Divine Hiddenness without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Divine Hiddenness difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Divine Hiddenness."
       ],
       [
-        "Connection",
-        "Compare it with J. L. Schellenberg to see how the debate develops."
+        "Compare",
+        "Use J. L. Schellenberg to see which assumption the debate turns on."
       ]
     ],
-    "why": "Divine Hiddenness matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Divine Hiddenness matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-j-l-schellenberg",
@@ -11482,30 +11482,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "J. L. Schellenberg",
     "hook": "What problem or argument is J. L. Schellenberg really about?",
-    "question": "Which description best captures J. L. Schellenberg?",
+    "question": "Why does J. L. Schellenberg matter to Philosophy of Religion?",
     "options": [
-      "J. L. Schellenberg is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "J. L. Schellenberg is important in Philosophy of Religion because their work reshaped debates about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "J. L. Schellenberg is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "J. L. Schellenberg is important in Philosophy of Religion because their work reshaped debates about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in J. L. Schellenberg."
+        "Clarify",
+        "State the central claim behind J. L. Schellenberg without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make J. L. Schellenberg difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to J. L. Schellenberg."
       ],
       [
-        "Connection",
-        "Compare it with Religious Epistemology to see how the debate develops."
+        "Compare",
+        "Use Religious Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "J. L. Schellenberg matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "J. L. Schellenberg matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-religious-epistemology",
@@ -11520,30 +11520,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Religious Epistemology",
     "hook": "What problem or argument is Religious Epistemology really about?",
-    "question": "Which description best captures Religious Epistemology?",
+    "question": "What philosophical work does Religious Epistemology do?",
     "options": [
-      "Religious Epistemology is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Religious Epistemology addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Religious Epistemology is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Religious Epistemology addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Religious Epistemology."
+        "Clarify",
+        "State the central claim behind Religious Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Religious Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Religious Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Reformed Epistemology to see how the debate develops."
+        "Compare",
+        "Use Reformed Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Religious Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Religious Epistemology matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-reformed-epistemology",
@@ -11558,30 +11558,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Reformed Epistemology",
     "hook": "What problem or argument is Reformed Epistemology really about?",
-    "question": "Which description best captures Reformed Epistemology?",
+    "question": "What philosophical work does Reformed Epistemology do?",
     "options": [
-      "Reformed Epistemology is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Reformed Epistemology addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Reformed Epistemology is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Reformed Epistemology addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Reformed Epistemology."
+        "Clarify",
+        "State the central claim behind Reformed Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Reformed Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Reformed Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Alvin Plantinga to see how the debate develops."
+        "Compare",
+        "Use Alvin Plantinga to see which assumption the debate turns on."
       ]
     ],
-    "why": "Reformed Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Reformed Epistemology matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-alvin-plantinga",
@@ -11596,30 +11596,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Alvin Plantinga",
     "hook": "What problem or argument is Alvin Plantinga really about?",
-    "question": "Which description best captures Alvin Plantinga?",
+    "question": "Why does Alvin Plantinga matter to Philosophy of Religion?",
     "options": [
-      "Alvin Plantinga is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Alvin Plantinga is important in Philosophy of Religion because their work reshaped debates about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Alvin Plantinga is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Alvin Plantinga is important in Philosophy of Religion because their work reshaped debates about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Alvin Plantinga."
+        "Clarify",
+        "State the central claim behind Alvin Plantinga without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Alvin Plantinga difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Alvin Plantinga."
       ],
       [
-        "Connection",
-        "Compare it with Faith and Reason to see how the debate develops."
+        "Compare",
+        "Use Faith and Reason to see which assumption the debate turns on."
       ]
     ],
-    "why": "Alvin Plantinga matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Alvin Plantinga matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-faith-and-reason",
@@ -11634,30 +11634,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Philosophy of Religion",
     "name": "Faith and Reason",
     "hook": "What problem or argument is Faith and Reason really about?",
-    "question": "Which description best captures Faith and Reason?",
+    "question": "What philosophical work does Faith and Reason do?",
     "options": [
-      "Faith and Reason is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Faith and Reason addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Faith and Reason is a substantive position, argument, method or problem within Philosophy of Religion. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Faith and Reason addresses whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Faith and Reason."
+        "Clarify",
+        "State the central claim behind Faith and Reason without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Faith and Reason difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Faith and Reason."
       ],
       [
-        "Connection",
-        "Compare it with Analytic Philosophy of Religion to see how the debate develops."
+        "Compare",
+        "Use Analytic Philosophy of Religion to see which assumption the debate turns on."
       ]
     ],
-    "why": "Faith and Reason matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Faith and Reason matters because it sharpens the debate about whether claims about God can be rationally supported and how divine attributes relate to evil, hiddenness, faith and knowledge.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-analytic-philosophy-of-religion",
@@ -11672,30 +11672,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Social Epistemology",
     "hook": "What problem or argument is Social Epistemology really about?",
-    "question": "Which description best captures Social Epistemology?",
+    "question": "What philosophical work does Social Epistemology do?",
     "options": [
-      "Social Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Social Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Social Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Social Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Social Epistemology."
+        "Clarify",
+        "State the central claim behind Social Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Social Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Social Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Collective Knowledge to see how the debate develops."
+        "Compare",
+        "Use Collective Knowledge to see which assumption the debate turns on."
       ]
     ],
-    "why": "Social Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Social Epistemology matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-collective-knowledge",
@@ -11710,30 +11710,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Collective Knowledge",
     "hook": "What problem or argument is Collective Knowledge really about?",
-    "question": "Which description best captures Collective Knowledge?",
+    "question": "What philosophical work does Collective Knowledge do?",
     "options": [
-      "Collective Knowledge is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Collective Knowledge addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Collective Knowledge is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Collective Knowledge addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Collective Knowledge."
+        "Clarify",
+        "State the central claim behind Collective Knowledge without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Collective Knowledge difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Collective Knowledge."
       ],
       [
-        "Connection",
-        "Compare it with Epistemic Dependence to see how the debate develops."
+        "Compare",
+        "Use Epistemic Dependence to see which assumption the debate turns on."
       ]
     ],
-    "why": "Collective Knowledge matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Collective Knowledge matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-epistemic-dependence",
@@ -11748,30 +11748,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Epistemic Dependence",
     "hook": "What problem or argument is Epistemic Dependence really about?",
-    "question": "Which description best captures Epistemic Dependence?",
+    "question": "What philosophical work does Epistemic Dependence do?",
     "options": [
-      "Epistemic Dependence is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Epistemic Dependence addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Epistemic Dependence is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Epistemic Dependence addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Epistemic Dependence."
+        "Clarify",
+        "State the central claim behind Epistemic Dependence without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Epistemic Dependence difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Epistemic Dependence."
       ],
       [
-        "Connection",
-        "Compare it with Expertise to see how the debate develops."
+        "Compare",
+        "Use Expertise to see which assumption the debate turns on."
       ]
     ],
-    "why": "Epistemic Dependence matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Epistemic Dependence matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-expertise",
@@ -11786,30 +11786,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Expertise",
     "hook": "What problem or argument is Expertise really about?",
-    "question": "Which description best captures Expertise?",
+    "question": "What philosophical work does Expertise do?",
     "options": [
-      "Expertise is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Expertise addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Expertise is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Expertise addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Expertise."
+        "Clarify",
+        "State the central claim behind Expertise without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Expertise difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Expertise."
       ],
       [
-        "Connection",
-        "Compare it with Peer Disagreement to see how the debate develops."
+        "Compare",
+        "Use Peer Disagreement to see which assumption the debate turns on."
       ]
     ],
-    "why": "Expertise matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Expertise matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-peer-disagreement",
@@ -11824,30 +11824,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Peer Disagreement",
     "hook": "What problem or argument is Peer Disagreement really about?",
-    "question": "Which description best captures Peer Disagreement?",
+    "question": "What philosophical work does Peer Disagreement do?",
     "options": [
-      "Peer Disagreement is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Peer Disagreement addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Peer Disagreement is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Peer Disagreement addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Peer Disagreement."
+        "Clarify",
+        "State the central claim behind Peer Disagreement without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Peer Disagreement difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Peer Disagreement."
       ],
       [
-        "Connection",
-        "Compare it with Group Belief to see how the debate develops."
+        "Compare",
+        "Use Group Belief to see which assumption the debate turns on."
       ]
     ],
-    "why": "Peer Disagreement matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Peer Disagreement matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-group-belief",
@@ -11862,30 +11862,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Group Belief",
     "hook": "What problem or argument is Group Belief really about?",
-    "question": "Which description best captures Group Belief?",
+    "question": "What philosophical work does Group Belief do?",
     "options": [
-      "Group Belief is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Group Belief addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Group Belief is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Group Belief addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Group Belief."
+        "Clarify",
+        "State the central claim behind Group Belief without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Group Belief difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Group Belief."
       ],
       [
-        "Connection",
-        "Compare it with Testimony to see how the debate develops."
+        "Compare",
+        "Use Testimony to see which assumption the debate turns on."
       ]
     ],
-    "why": "Group Belief matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Group Belief matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-testimony",
@@ -11900,30 +11900,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Testimony",
     "hook": "What problem or argument is Testimony really about?",
-    "question": "Which description best captures Testimony?",
+    "question": "What philosophical work does Testimony do?",
     "options": [
-      "Testimony is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Testimony addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Testimony is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Testimony addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Testimony."
+        "Clarify",
+        "State the central claim behind Testimony without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Testimony difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Testimony."
       ],
       [
-        "Connection",
-        "Compare it with Epistemic Authority to see how the debate develops."
+        "Compare",
+        "Use Epistemic Authority to see which assumption the debate turns on."
       ]
     ],
-    "why": "Testimony matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Testimony matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-epistemic-authority",
@@ -11938,30 +11938,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Epistemic Authority",
     "hook": "What problem or argument is Epistemic Authority really about?",
-    "question": "Which description best captures Epistemic Authority?",
+    "question": "What philosophical work does Epistemic Authority do?",
     "options": [
-      "Epistemic Authority is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Epistemic Authority addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Epistemic Authority is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Epistemic Authority addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Epistemic Authority."
+        "Clarify",
+        "State the central claim behind Epistemic Authority without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Epistemic Authority difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Epistemic Authority."
       ],
       [
-        "Connection",
-        "Compare it with Standpoint Epistemology to see how the debate develops."
+        "Compare",
+        "Use Standpoint Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Epistemic Authority matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Epistemic Authority matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-standpoint-epistemology",
@@ -11976,30 +11976,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Standpoint Epistemology",
     "hook": "What problem or argument is Standpoint Epistemology really about?",
-    "question": "Which description best captures Standpoint Epistemology?",
+    "question": "What philosophical work does Standpoint Epistemology do?",
     "options": [
-      "Standpoint Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Standpoint Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Standpoint Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Standpoint Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Standpoint Epistemology."
+        "Clarify",
+        "State the central claim behind Standpoint Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Standpoint Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Standpoint Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Conceptual Engineering to see how the debate develops."
+        "Compare",
+        "Use Conceptual Engineering to see which assumption the debate turns on."
       ]
     ],
-    "why": "Standpoint Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Standpoint Epistemology matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-conceptual-engineering",
@@ -12052,30 +12052,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Sally Haslanger",
     "hook": "What problem or argument is Sally Haslanger really about?",
-    "question": "Which description best captures Sally Haslanger?",
+    "question": "Why does Sally Haslanger matter to Social Epistemology & Contemporary Analysis?",
     "options": [
-      "Sally Haslanger is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Sally Haslanger is important in Social Epistemology & Contemporary Analysis because their work reshaped debates about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
+      "Their importance is mainly biographical and does not depend on any identifiable argument.",
+      "They established a single doctrine that later philosophers generally accepted without substantial criticism.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Sally Haslanger is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Sally Haslanger is important in Social Epistemology & Contemporary Analysis because their work reshaped debates about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. The useful way to learn the figure is through the arguments and distinctions they introduced, including the objections those moves generated, rather than memorizing a biographical label.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Sally Haslanger."
+        "Clarify",
+        "State the central claim behind Sally Haslanger without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Sally Haslanger difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Sally Haslanger."
       ],
       [
-        "Connection",
-        "Compare it with Social Construction to see how the debate develops."
+        "Compare",
+        "Use Social Construction to see which assumption the debate turns on."
       ]
     ],
-    "why": "Sally Haslanger matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Sally Haslanger matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-social-construction",
@@ -12090,30 +12090,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Social Construction",
     "hook": "What problem or argument is Social Construction really about?",
-    "question": "Which description best captures Social Construction?",
+    "question": "What philosophical work does Social Construction do?",
     "options": [
-      "Social Construction is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Social Construction addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Social Construction is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Social Construction addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Social Construction."
+        "Clarify",
+        "State the central claim behind Social Construction without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Social Construction difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Social Construction."
       ],
       [
-        "Connection",
-        "Compare it with Ameliorative Analysis to see how the debate develops."
+        "Compare",
+        "Use Ameliorative Analysis to see which assumption the debate turns on."
       ]
     ],
-    "why": "Social Construction matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Social Construction matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-ameliorative-analysis",
@@ -12128,30 +12128,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Ameliorative Analysis",
     "hook": "What problem or argument is Ameliorative Analysis really about?",
-    "question": "Which description best captures Ameliorative Analysis?",
+    "question": "What philosophical work does Ameliorative Analysis do?",
     "options": [
-      "Ameliorative Analysis is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Ameliorative Analysis addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Ameliorative Analysis is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Ameliorative Analysis addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Ameliorative Analysis."
+        "Clarify",
+        "State the central claim behind Ameliorative Analysis without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Ameliorative Analysis difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Ameliorative Analysis."
       ],
       [
-        "Connection",
-        "Compare it with Experimental Philosophy to see how the debate develops."
+        "Compare",
+        "Use Experimental Philosophy to see which assumption the debate turns on."
       ]
     ],
-    "why": "Ameliorative Analysis matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Ameliorative Analysis matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-experimental-philosophy",
@@ -12166,30 +12166,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Experimental Philosophy",
     "hook": "What problem or argument is Experimental Philosophy really about?",
-    "question": "Which description best captures Experimental Philosophy?",
+    "question": "What philosophical work does Experimental Philosophy do?",
     "options": [
-      "Experimental Philosophy is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Experimental Philosophy addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Experimental Philosophy is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Experimental Philosophy addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Experimental Philosophy."
+        "Clarify",
+        "State the central claim behind Experimental Philosophy without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Experimental Philosophy difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Experimental Philosophy."
       ],
       [
-        "Connection",
-        "Compare it with X-Phi to see how the debate develops."
+        "Compare",
+        "Use X-Phi to see which assumption the debate turns on."
       ]
     ],
-    "why": "Experimental Philosophy matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Experimental Philosophy matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-x-phi",
@@ -12204,30 +12204,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "X-Phi",
     "hook": "What problem or argument is X-Phi really about?",
-    "question": "Which description best captures X-Phi?",
+    "question": "What philosophical work does X-Phi do?",
     "options": [
-      "X-Phi is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "X-Phi addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "X-Phi is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "X-Phi addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in X-Phi."
+        "Clarify",
+        "State the central claim behind X-Phi without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make X-Phi difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to X-Phi."
       ],
       [
-        "Connection",
-        "Compare it with Formal Epistemology to see how the debate develops."
+        "Compare",
+        "Use Formal Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "X-Phi matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "X-Phi matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-formal-epistemology",
@@ -12242,30 +12242,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Formal Epistemology",
     "hook": "What problem or argument is Formal Epistemology really about?",
-    "question": "Which description best captures Formal Epistemology?",
+    "question": "What philosophical work does Formal Epistemology do?",
     "options": [
-      "Formal Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Formal Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Formal Epistemology is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Formal Epistemology addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Formal Epistemology."
+        "Clarify",
+        "State the central claim behind Formal Epistemology without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Formal Epistemology difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Formal Epistemology."
       ],
       [
-        "Connection",
-        "Compare it with Decision Theory to see how the debate develops."
+        "Compare",
+        "Use Decision Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Formal Epistemology matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Formal Epistemology matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-decision-theory",
@@ -12280,30 +12280,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Decision Theory",
     "hook": "What problem or argument is Decision Theory really about?",
-    "question": "Which description best captures Decision Theory?",
+    "question": "What philosophical work does Decision Theory do?",
     "options": [
-      "Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Decision Theory."
+        "Clarify",
+        "State the central claim behind Decision Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Decision Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Decision Theory."
       ],
       [
-        "Connection",
-        "Compare it with Newcomb's Problem to see how the debate develops."
+        "Compare",
+        "Use Newcomb's Problem to see which assumption the debate turns on."
       ]
     ],
-    "why": "Decision Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Decision Theory matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-newcomb-s-problem",
@@ -12318,30 +12318,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Newcomb's Problem",
     "hook": "What problem or argument is Newcomb's Problem really about?",
-    "question": "Which description best captures Newcomb's Problem?",
+    "question": "What philosophical work does Newcomb's Problem do?",
     "options": [
-      "Newcomb's Problem is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Newcomb's Problem addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Newcomb's Problem is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Newcomb's Problem addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Newcomb's Problem."
+        "Clarify",
+        "State the central claim behind Newcomb's Problem without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Newcomb's Problem difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Newcomb's Problem."
       ],
       [
-        "Connection",
-        "Compare it with Causal Decision Theory to see how the debate develops."
+        "Compare",
+        "Use Causal Decision Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Newcomb's Problem matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Newcomb's Problem matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-causal-decision-theory",
@@ -12356,30 +12356,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Causal Decision Theory",
     "hook": "What problem or argument is Causal Decision Theory really about?",
-    "question": "Which description best captures Causal Decision Theory?",
+    "question": "What philosophical work does Causal Decision Theory do?",
     "options": [
-      "Causal Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Causal Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Causal Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Causal Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Causal Decision Theory."
+        "Clarify",
+        "State the central claim behind Causal Decision Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Causal Decision Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Causal Decision Theory."
       ],
       [
-        "Connection",
-        "Compare it with Evidential Decision Theory to see how the debate develops."
+        "Compare",
+        "Use Evidential Decision Theory to see which assumption the debate turns on."
       ]
     ],
-    "why": "Causal Decision Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Causal Decision Theory matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-evidential-decision-theory",
@@ -12394,30 +12394,30 @@ export const analyticPhilosophyConcepts = [
     "topic": "Social Epistemology & Contemporary Analysis",
     "name": "Evidential Decision Theory",
     "hook": "What problem or argument is Evidential Decision Theory really about?",
-    "question": "Which description best captures Evidential Decision Theory?",
+    "question": "What philosophical work does Evidential Decision Theory do?",
     "options": [
-      "Evidential Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
-      "It is mainly a historical label with no distinct argument or philosophical problem attached to it.",
-      "It says that philosophical questions cannot be clarified through distinctions, arguments or counterexamples.",
+      "Evidential Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
+      "It functions mainly as a historical name and makes no claim that can be evaluated.",
+      "It implies that conceptual distinctions and counterexamples are irrelevant to philosophical inquiry.",
       "I don’t know"
     ],
     "answer": 0,
-    "reveal": "Evidential Decision Theory is a substantive position, argument, method or problem within Social Epistemology & Contemporary Analysis. To understand it analytically, separate the claim being made from the reasons offered for it, identify possible counterexamples, and ask what would follow if the claim were true.",
+    "reveal": "Evidential Decision Theory addresses how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry. Analytically, the concept becomes useful when its claim is stated precisely enough to test with an objection, counterexample, thought experiment or competing analysis.",
     "examples": [
       [
-        "Argument",
-        "Identify the premises or distinction doing the work in Evidential Decision Theory."
+        "Clarify",
+        "State the central claim behind Evidential Decision Theory without relying on the label itself."
       ],
       [
-        "Pressure test",
-        "Ask what counterexample would make Evidential Decision Theory difficult to defend."
+        "Test",
+        "Construct the strongest plausible objection or counterexample to Evidential Decision Theory."
       ],
       [
-        "Connection",
-        "Compare it with Social Epistemology to see how the debate develops."
+        "Compare",
+        "Use Social Epistemology to see which assumption the debate turns on."
       ]
     ],
-    "why": "Evidential Decision Theory matters because analytic philosophy advances largely by making claims precise enough to argue with, revise or reject.",
+    "why": "Evidential Decision Theory matters because it sharpens the debate about how knowledge is distributed across people and institutions and how concepts, experts, groups and formal decision procedures shape inquiry.",
     "caveat": "This is an introductory reconstruction of a debate that often has multiple formulations and substantial contemporary disagreement.",
     "related": [
       "ap-social-epistemology",
