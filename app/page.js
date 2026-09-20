@@ -2,6 +2,7 @@
 import {useEffect,useState} from 'react';
 import {concepts} from '../data/concepts';
 import {economicsDepth} from '../data/economicsDepth';
+import {economicsQuestions} from '../data/economicsQuestions';
 
 const worlds=[
  {id:'psychology',name:'Psychology & Human Behavior',desc:'Mind, learning, emotion, relationships, development and psychological science.'},
@@ -140,7 +141,7 @@ export default function Home(){
   {screen==='browse'&&<section className="wrap browse">
    <button className="back" onClick={backFromBrowse}>← {topic&&subheadsFor(category).length>1?'Topics':'Areas'}</button>
    <div className="browsehead"><div><div className="eyebrow">{currentWorld?.name.toUpperCase()} · {(topic||category||'DISCOVERY').toUpperCase()}</div><h2>{world==='economics'?'Pick one concept.':'Pick one question.'}</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
-   <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.hook}</p></div><b>→</b></button>)}</div>
+   <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.world==='economics'?(economicsQuestions[c.id]?.question||c.hook):c.hook}</p></div><b>→</b></button>)}</div>
   </section>}
 
   {screen==='play'&&concept&&<section className="lesson wrap">
@@ -150,6 +151,10 @@ export default function Home(){
    {concept.visual&&<div className="conceptvisual">{concept.visual}</div>}
 
    {concept.world==='economics'?<>
+    <div className="econprompt">
+     <p className="econquestion">{economicsQuestions[concept.id]?.question||concept.hook}</p>
+     {economicsQuestions[concept.id]?.expanded&&<p className="econexpanded">{economicsQuestions[concept.id].expanded}</p>}
+    </div>
     <article className="econdeep">
      {economicsParagraphs(concept).map((paragraph,i)=><p className={i===0?'econlead':''} key={i}>{paragraph}</p>)}
     </article>
