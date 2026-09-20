@@ -3,7 +3,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-hippocampus",
     "world": "neuroscience",
     "name": "Hippocampus",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which structure is especially important for forming new episodic memories?",
     "question": "Which structure is especially important for forming new episodic memories?",
     "options": [
@@ -47,7 +47,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-amygdala",
     "world": "neuroscience",
     "name": "Amygdala",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which structure helps detect biologically important and emotionally salient information?",
     "question": "Which structure helps detect biologically important and emotionally salient information?",
     "options": [
@@ -91,7 +91,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-prefrontal-cortex",
     "world": "neuroscience",
     "name": "Prefrontal Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which broad cortical region is central to planning, cognitive control and flexible goal-directed behavior?",
     "question": "Which broad cortical region is central to planning, cognitive control and flexible goal-directed behavior?",
     "options": [
@@ -135,7 +135,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-motor-cortex",
     "world": "neuroscience",
     "name": "Primary Motor Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Where does much voluntary movement command activity originate in cortex?",
     "question": "Where does much voluntary movement command activity originate in cortex?",
     "options": [
@@ -179,7 +179,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-somatosensory-cortex",
     "world": "neuroscience",
     "name": "Somatosensory Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Where is touch and body-sensation information mapped in cortex?",
     "question": "Where is touch and body-sensation information mapped in cortex?",
     "options": [
@@ -223,7 +223,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-visual-cortex",
     "world": "neuroscience",
     "name": "Visual Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which posterior cortical system performs early cortical processing of visual input?",
     "question": "Which posterior cortical system performs early cortical processing of visual input?",
     "options": [
@@ -267,7 +267,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-auditory-cortex",
     "world": "neuroscience",
     "name": "Auditory Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which cortical region analyzes sound features?",
     "question": "Which cortical region analyzes sound features?",
     "options": [
@@ -311,7 +311,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-broca-network",
     "world": "neuroscience",
     "name": "Speech Production Networks",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which left-frontal network is famously associated with producing fluent speech?",
     "question": "Which left-frontal network is famously associated with producing fluent speech?",
     "options": [
@@ -355,7 +355,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-language-network",
     "world": "neuroscience",
     "name": "Language Network",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Is language controlled by one tiny brain spot?",
     "question": "Is language controlled by one tiny brain spot?",
     "options": [
@@ -399,7 +399,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-cerebellum",
     "world": "neuroscience",
     "name": "Cerebellum",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which structure is essential for coordination, timing and motor learning?",
     "question": "Which structure is essential for coordination, timing and motor learning?",
     "options": [
@@ -443,7 +443,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-basal-ganglia",
     "world": "neuroscience",
     "name": "Basal Ganglia",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which deep brain system is important for action selection, habits and reinforcement learning?",
     "question": "Which deep brain system is important for action selection, habits and reinforcement learning?",
     "options": [
@@ -487,7 +487,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-thalamus",
     "world": "neuroscience",
     "name": "Thalamus",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which structure acts as a major relay and regulator for information reaching cortex?",
     "question": "Which structure acts as a major relay and regulator for information reaching cortex?",
     "options": [
@@ -531,7 +531,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-hypothalamus",
     "world": "neuroscience",
     "name": "Hypothalamus",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which small region helps regulate hunger, temperature, hormones and other homeostatic functions?",
     "question": "Which small region helps regulate hunger, temperature, hormones and other homeostatic functions?",
     "options": [
@@ -575,7 +575,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-brainstem",
     "world": "neuroscience",
     "name": "Brainstem",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which region contains circuits vital for breathing, arousal and basic life functions?",
     "question": "Which region contains circuits vital for breathing, arousal and basic life functions?",
     "options": [
@@ -619,7 +619,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-corpus-callosum",
     "world": "neuroscience",
     "name": "Corpus Callosum",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "What is the largest fiber tract connecting the cerebral hemispheres?",
     "question": "What is the largest fiber tract connecting the cerebral hemispheres?",
     "options": [
@@ -663,7 +663,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-insula",
     "world": "neuroscience",
     "name": "Insula",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which cortical region is strongly involved in internal bodily sensation and salience?",
     "question": "Which cortical region is strongly involved in internal bodily sensation and salience?",
     "options": [
@@ -707,7 +707,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-anterior-cingulate",
     "world": "neuroscience",
     "name": "Anterior Cingulate Cortex",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which medial frontal region is involved in control, conflict, pain and motivation?",
     "question": "Which medial frontal region is involved in control, conflict, pain and motivation?",
     "options": [
@@ -751,7 +751,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-nucleus-accumbens",
     "world": "neuroscience",
     "name": "Nucleus Accumbens",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which ventral striatal region is central to motivation and reward learning?",
     "question": "Which ventral striatal region is central to motivation and reward learning?",
     "options": [
@@ -795,7 +795,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-ventral-tegmental",
     "world": "neuroscience",
     "name": "Ventral Tegmental Area",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Which midbrain area contains dopamine neurons central to reward-learning circuits?",
     "question": "Which midbrain area contains dopamine neurons central to reward-learning circuits?",
     "options": [
@@ -839,7 +839,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-substantia-nigra",
     "world": "neuroscience",
     "name": "Substantia Nigra",
-    "pool": "Brain Anatomy",
+    "pool": "Brain Anatomy & Networks",
     "hook": "Loss of dopamine neurons in which midbrain region is strongly associated with Parkinson's disease?",
     "question": "Loss of dopamine neurons in which midbrain region is strongly associated with Parkinson's disease?",
     "options": [
@@ -883,7 +883,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-neuron",
     "world": "neuroscience",
     "name": "Neuron",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What is the basic electrically excitable signaling cell of the nervous system?",
     "question": "What is the basic electrically excitable signaling cell of the nervous system?",
     "options": [
@@ -922,7 +922,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-dendrite",
     "world": "neuroscience",
     "name": "Dendrites",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which branching parts of many neurons receive much of their synaptic input?",
     "question": "Which branching parts of many neurons receive much of their synaptic input?",
     "options": [
@@ -961,7 +961,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-axon",
     "world": "neuroscience",
     "name": "Axon",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which neuronal process carries action potentials toward distant targets?",
     "question": "Which neuronal process carries action potentials toward distant targets?",
     "options": [
@@ -1000,7 +1000,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-synapse",
     "world": "neuroscience",
     "name": "Synapse",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Where does one neuron communicate with another cell?",
     "question": "Where does one neuron communicate with another cell?",
     "options": [
@@ -1039,7 +1039,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-action-potential",
     "world": "neuroscience",
     "name": "Action Potential",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "How can a neuron send a rapid signal down a long axon without it fading away?",
     "question": "How can a neuron send a rapid signal down a long axon without it fading away?",
     "options": [
@@ -1078,7 +1078,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-resting-potential",
     "world": "neuroscience",
     "name": "Resting Membrane Potential",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Why is a resting neuron electrically different inside and outside?",
     "question": "Why is a resting neuron electrically different inside and outside?",
     "options": [
@@ -1117,7 +1117,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-ion-channels",
     "world": "neuroscience",
     "name": "Ion Channels",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What microscopic proteins let electrical signals change a neuron's membrane voltage?",
     "question": "What microscopic proteins let electrical signals change a neuron's membrane voltage?",
     "options": [
@@ -1156,7 +1156,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-refractory-period",
     "world": "neuroscience",
     "name": "Refractory Period",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Why can't an axon fire unlimited action potentials instantaneously?",
     "question": "Why can't an axon fire unlimited action potentials instantaneously?",
     "options": [
@@ -1195,7 +1195,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-myelin",
     "world": "neuroscience",
     "name": "Myelin",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What lets many axons transmit signals much faster?",
     "question": "What lets many axons transmit signals much faster?",
     "options": [
@@ -1234,7 +1234,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-nodes-ranvier",
     "world": "neuroscience",
     "name": "Nodes of Ranvier",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Where does an action potential effectively regenerate along a myelinated axon?",
     "question": "Where does an action potential effectively regenerate along a myelinated axon?",
     "options": [
@@ -1273,7 +1273,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-neurotransmitter-release",
     "world": "neuroscience",
     "name": "Neurotransmitter Release",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What triggers chemical messengers to leave a presynaptic terminal?",
     "question": "What triggers chemical messengers to leave a presynaptic terminal?",
     "options": [
@@ -1312,7 +1312,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-receptors",
     "world": "neuroscience",
     "name": "Neurotransmitter Receptors",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "How does a receiving cell detect a neurotransmitter?",
     "question": "How does a receiving cell detect a neurotransmitter?",
     "options": [
@@ -1351,7 +1351,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-excitatory-inhibitory",
     "world": "neuroscience",
     "name": "Excitation and Inhibition",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Do neurotransmitters simply turn neurons on or off?",
     "question": "Do neurotransmitters simply turn neurons on or off?",
     "options": [
@@ -1390,7 +1390,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-temporal-summation",
     "world": "neuroscience",
     "name": "Temporal Summation",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "How can repeated inputs from one source add together?",
     "question": "How can repeated inputs from one source add together?",
     "options": [
@@ -1429,7 +1429,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-spatial-summation",
     "world": "neuroscience",
     "name": "Spatial Summation",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "How can inputs from many synapses combine?",
     "question": "How can inputs from many synapses combine?",
     "options": [
@@ -1468,7 +1468,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-glia",
     "world": "neuroscience",
     "name": "Glial Cells",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Are neurons the only important cells in the brain?",
     "question": "Are neurons the only important cells in the brain?",
     "options": [
@@ -1507,7 +1507,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-astrocytes",
     "world": "neuroscience",
     "name": "Astrocytes",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which star-shaped glial cells help regulate the chemical environment around synapses?",
     "question": "Which star-shaped glial cells help regulate the chemical environment around synapses?",
     "options": [
@@ -1546,7 +1546,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-microglia",
     "world": "neuroscience",
     "name": "Microglia",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which cells act as the brain's resident immune surveillance system?",
     "question": "Which cells act as the brain's resident immune surveillance system?",
     "options": [
@@ -1585,7 +1585,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-oligodendrocytes",
     "world": "neuroscience",
     "name": "Oligodendrocytes",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which cells produce myelin in the central nervous system?",
     "question": "Which cells produce myelin in the central nervous system?",
     "options": [
@@ -1624,7 +1624,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-blood-brain-barrier",
     "world": "neuroscience",
     "name": "Blood-Brain Barrier",
-    "pool": "Neurons & Signaling",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Why can't every molecule in blood freely enter brain tissue?",
     "question": "Why can't every molecule in blood freely enter brain tissue?",
     "options": [
@@ -1663,7 +1663,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-dopamine",
     "world": "neuroscience",
     "name": "Dopamine",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Is dopamine simply the brain's pleasure chemical?",
     "question": "Is dopamine simply the brain's pleasure chemical?",
     "options": [
@@ -1702,7 +1702,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-reward-prediction-error",
     "world": "neuroscience",
     "name": "Reward Prediction Error",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What happens to dopamine signals when a reward is better or worse than expected?",
     "question": "What happens to dopamine signals when a reward is better or worse than expected?",
     "options": [
@@ -1741,7 +1741,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-serotonin",
     "world": "neuroscience",
     "name": "Serotonin",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Does serotonin have one simple job called happiness?",
     "question": "Does serotonin have one simple job called happiness?",
     "options": [
@@ -1780,7 +1780,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-norepinephrine",
     "world": "neuroscience",
     "name": "Norepinephrine",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which neuromodulator helps regulate arousal and responsiveness to important events?",
     "question": "Which neuromodulator helps regulate arousal and responsiveness to important events?",
     "options": [
@@ -1819,7 +1819,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-acetylcholine",
     "world": "neuroscience",
     "name": "Acetylcholine",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Which transmitter is essential at the neuromuscular junction and also important in attention and memory circuits?",
     "question": "Which transmitter is essential at the neuromuscular junction and also important in attention and memory circuits?",
     "options": [
@@ -1858,7 +1858,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-glutamate",
     "world": "neuroscience",
     "name": "Glutamate",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What is the major excitatory neurotransmitter in the mammalian brain?",
     "question": "What is the major excitatory neurotransmitter in the mammalian brain?",
     "options": [
@@ -1897,7 +1897,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-gaba",
     "world": "neuroscience",
     "name": "GABA",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What is the major inhibitory neurotransmitter in the adult mammalian brain?",
     "question": "What is the major inhibitory neurotransmitter in the adult mammalian brain?",
     "options": [
@@ -1936,7 +1936,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-endorphins",
     "world": "neuroscience",
     "name": "Endogenous Opioids",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Does the brain make its own opioid-like signaling molecules?",
     "question": "Does the brain make its own opioid-like signaling molecules?",
     "options": [
@@ -1975,7 +1975,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-cortisol",
     "world": "neuroscience",
     "name": "Cortisol and the Brain",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "What hormone helps mobilize the body during stress but can affect brain function when exposure is prolonged?",
     "question": "What hormone helps mobilize the body during stress but can affect brain function when exposure is prolonged?",
     "options": [
@@ -2014,7 +2014,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-oxytocin",
     "world": "neuroscience",
     "name": "Oxytocin",
-    "pool": "Neurochemistry",
+    "pool": "Neurons, Synapses & Brain Chemistry",
     "hook": "Is oxytocin simply a universal love hormone?",
     "question": "Is oxytocin simply a universal love hormone?",
     "options": [
@@ -2053,7 +2053,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-neuroplasticity",
     "world": "neuroscience",
     "name": "Neuroplasticity",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Can adult brains physically change with experience?",
     "question": "Can adult brains physically change with experience?",
     "options": [
@@ -2092,7 +2092,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-long-term-potentiation",
     "world": "neuroscience",
     "name": "Long-Term Potentiation",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "How can repeated neural activity strengthen communication between synapses?",
     "question": "How can repeated neural activity strengthen communication between synapses?",
     "options": [
@@ -2131,7 +2131,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-long-term-depression",
     "world": "neuroscience",
     "name": "Long-Term Depression",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Can synapses become persistently weaker as well as stronger?",
     "question": "Can synapses become persistently weaker as well as stronger?",
     "options": [
@@ -2170,7 +2170,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-hebbian-learning",
     "world": "neuroscience",
     "name": "Hebbian Learning",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "What does 'cells that fire together wire together' actually point toward?",
     "question": "What does 'cells that fire together wire together' actually point toward?",
     "options": [
@@ -2209,7 +2209,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-synaptic-plasticity",
     "world": "neuroscience",
     "name": "Synaptic Plasticity",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "How can experience alter the strength of communication between neurons?",
     "question": "How can experience alter the strength of communication between neurons?",
     "options": [
@@ -2248,7 +2248,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-critical-period",
     "world": "neuroscience",
     "name": "Critical and Sensitive Periods",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Why are some neural systems especially shaped by experience during particular developmental windows?",
     "question": "Why are some neural systems especially shaped by experience during particular developmental windows?",
     "options": [
@@ -2287,7 +2287,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-motor-learning",
     "world": "neuroscience",
     "name": "Motor Learning",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "What changes in the nervous system as a movement becomes skilled?",
     "question": "What changes in the nervous system as a movement becomes skilled?",
     "options": [
@@ -2326,7 +2326,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-memory-consolidation-neural",
     "world": "neuroscience",
     "name": "Memory Consolidation",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Why can a new memory remain fragile after learning ends?",
     "question": "Why can a new memory remain fragile after learning ends?",
     "options": [
@@ -2365,7 +2365,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-systems-consolidation",
     "world": "neuroscience",
     "name": "Systems Consolidation",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Can the brain regions supporting a memory change over time?",
     "question": "Can the brain regions supporting a memory change over time?",
     "options": [
@@ -2404,7 +2404,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-reconsolidation-neural",
     "world": "neuroscience",
     "name": "Reconsolidation",
-    "pool": "Learning & Plasticity",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Can retrieving a memory open a window for updating it?",
     "question": "Can retrieving a memory open a window for updating it?",
     "options": [
@@ -2443,7 +2443,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-working-memory-neural",
     "world": "neuroscience",
     "name": "Working Memory Networks",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "What keeps information active for a few seconds while you use it?",
     "question": "What keeps information active for a few seconds while you use it?",
     "options": [
@@ -2482,7 +2482,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-episodic-memory-neural",
     "world": "neuroscience",
     "name": "Episodic Memory System",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Which neural system lets you remember a particular event in context?",
     "question": "Which neural system lets you remember a particular event in context?",
     "options": [
@@ -2521,7 +2521,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-semantic-memory-neural",
     "world": "neuroscience",
     "name": "Semantic Memory System",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Where is general conceptual knowledge represented?",
     "question": "Where is general conceptual knowledge represented?",
     "options": [
@@ -2560,7 +2560,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-procedural-memory-neural",
     "world": "neuroscience",
     "name": "Procedural Memory Systems",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Why can a learned skill survive damage that devastates episodic memory?",
     "question": "Why can a learned skill survive damage that devastates episodic memory?",
     "options": [
@@ -2599,7 +2599,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-fear-memory",
     "world": "neuroscience",
     "name": "Fear Learning Circuits",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Which circuits help a neutral cue acquire threat significance?",
     "question": "Which circuits help a neutral cue acquire threat significance?",
     "options": [
@@ -2638,7 +2638,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-spatial-memory",
     "world": "neuroscience",
     "name": "Spatial Memory",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Which brain system helps build maps of environments?",
     "question": "Which brain system helps build maps of environments?",
     "options": [
@@ -2677,7 +2677,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-place-cells",
     "world": "neuroscience",
     "name": "Place Cells",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Which neurons become active when an animal occupies particular locations?",
     "question": "Which neurons become active when an animal occupies particular locations?",
     "options": [
@@ -2716,7 +2716,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-grid-cells",
     "world": "neuroscience",
     "name": "Grid Cells",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Which neurons show a repeating hexagonal spatial firing pattern?",
     "question": "Which neurons show a repeating hexagonal spatial firing pattern?",
     "options": [
@@ -2755,7 +2755,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-engram",
     "world": "neuroscience",
     "name": "Memory Engrams",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "Does a memory live in one neuron?",
     "question": "Does a memory live in one neuron?",
     "options": [
@@ -2794,7 +2794,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-patient-hm",
     "world": "neuroscience",
     "name": "Patient H.M. and Memory",
-    "pool": "Memory Systems",
+    "pool": "Learning, Memory & Plasticity",
     "hook": "What did a famous amnesia case reveal about memory systems?",
     "question": "What did a famous amnesia case reveal about memory systems?",
     "options": [
@@ -2833,7 +2833,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-circadian-rhythm",
     "world": "neuroscience",
     "name": "Circadian Rhythm",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "What keeps the body on an approximately 24-hour schedule even without a clock?",
     "question": "What keeps the body on an approximately 24-hour schedule even without a clock?",
     "options": [
@@ -2872,7 +2872,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-suprachiasmatic",
     "world": "neuroscience",
     "name": "Suprachiasmatic Nucleus",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "Which tiny hypothalamic structure acts as the central circadian pacemaker?",
     "question": "Which tiny hypothalamic structure acts as the central circadian pacemaker?",
     "options": [
@@ -2916,7 +2916,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-melatonin",
     "world": "neuroscience",
     "name": "Melatonin",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "What does darkness-related melatonin signaling actually tell the body?",
     "question": "What does darkness-related melatonin signaling actually tell the body?",
     "options": [
@@ -2955,7 +2955,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-sleep-stages",
     "world": "neuroscience",
     "name": "Sleep Stages",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "Is sleep one uniform brain state?",
     "question": "Is sleep one uniform brain state?",
     "options": [
@@ -2994,7 +2994,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-slow-wave-sleep",
     "world": "neuroscience",
     "name": "Slow-Wave Sleep",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "During which sleep state do large slow cortical waves dominate?",
     "question": "During which sleep state do large slow cortical waves dominate?",
     "options": [
@@ -3033,7 +3033,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-rem-sleep",
     "world": "neuroscience",
     "name": "REM Sleep",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "Which sleep stage combines rapid eye movements with vivid dreaming and skeletal muscle atonia?",
     "question": "Which sleep stage combines rapid eye movements with vivid dreaming and skeletal muscle atonia?",
     "options": [
@@ -3072,7 +3072,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-sleep-spindles",
     "world": "neuroscience",
     "name": "Sleep Spindles",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "What are the brief bursts of oscillatory activity seen during non-REM sleep?",
     "question": "What are the brief bursts of oscillatory activity seen during non-REM sleep?",
     "options": [
@@ -3111,7 +3111,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-sleep-deprivation",
     "world": "neuroscience",
     "name": "Sleep Deprivation",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "What happens to attention after too little sleep?",
     "question": "What happens to attention after too little sleep?",
     "options": [
@@ -3150,7 +3150,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-sleep-memory-neural",
     "world": "neuroscience",
     "name": "Sleep and Memory",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "Can the sleeping brain continue processing what was learned while awake?",
     "question": "Can the sleeping brain continue processing what was learned while awake?",
     "options": [
@@ -3189,7 +3189,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-adenosine",
     "world": "neuroscience",
     "name": "Adenosine and Sleep Pressure",
-    "pool": "Sleep & Rhythms",
+    "pool": "Sleep, Consciousness & Brain States",
     "hook": "Why does sleep pressure build the longer you stay awake?",
     "question": "Why does sleep pressure build the longer you stay awake?",
     "options": [
@@ -3228,7 +3228,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-reward-system",
     "world": "neuroscience",
     "name": "Reward Systems",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Is there one pleasure center in the brain?",
     "question": "Is there one pleasure center in the brain?",
     "options": [
@@ -3267,7 +3267,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-wanting-liking",
     "world": "neuroscience",
     "name": "Wanting vs Liking",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Can you strongly want something without enjoying it equally?",
     "question": "Can you strongly want something without enjoying it equally?",
     "options": [
@@ -3306,7 +3306,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-incentive-salience",
     "world": "neuroscience",
     "name": "Incentive Salience",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why can cues become powerful triggers of desire?",
     "question": "Why can cues become powerful triggers of desire?",
     "options": [
@@ -3345,7 +3345,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-reinforcement-learning",
     "world": "neuroscience",
     "name": "Neural Reinforcement Learning",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "How does the brain update expectations after outcomes?",
     "question": "How does the brain update expectations after outcomes?",
     "options": [
@@ -3384,7 +3384,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-habit-circuits",
     "world": "neuroscience",
     "name": "Habit Circuits",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "What changes when behavior shifts from deliberate choice toward automatic repetition?",
     "question": "What changes when behavior shifts from deliberate choice toward automatic repetition?",
     "options": [
@@ -3423,7 +3423,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-goal-directed",
     "world": "neuroscience",
     "name": "Goal-Directed Control",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "How does the brain choose actions based on expected outcomes?",
     "question": "How does the brain choose actions based on expected outcomes?",
     "options": [
@@ -3462,7 +3462,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-addiction-neurobiology",
     "world": "neuroscience",
     "name": "Addiction Neurobiology",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Is addiction simply unusually strong pleasure?",
     "question": "Is addiction simply unusually strong pleasure?",
     "options": [
@@ -3501,7 +3501,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-tolerance",
     "world": "neuroscience",
     "name": "Drug Tolerance",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why can repeated drug exposure reduce the effect of the same dose?",
     "question": "Why can repeated drug exposure reduce the effect of the same dose?",
     "options": [
@@ -3540,7 +3540,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-withdrawal",
     "world": "neuroscience",
     "name": "Withdrawal",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why can stopping a repeatedly used drug produce symptoms opposite to its acute effects?",
     "question": "Why can stopping a repeatedly used drug produce symptoms opposite to its acute effects?",
     "options": [
@@ -3579,7 +3579,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-cue-reactivity",
     "world": "neuroscience",
     "name": "Cue Reactivity",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why can a place or object trigger craving long after drug use?",
     "question": "Why can a place or object trigger craving long after drug use?",
     "options": [
@@ -3618,7 +3618,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-craving",
     "world": "neuroscience",
     "name": "Craving",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Is craving the same thing as pleasure?",
     "question": "Is craving the same thing as pleasure?",
     "options": [
@@ -3657,7 +3657,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-stress-relapse",
     "world": "neuroscience",
     "name": "Stress and Relapse",
-    "pool": "Reward, Motivation & Addiction",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why can stress increase vulnerability to returning to addictive behavior?",
     "question": "Why can stress increase vulnerability to returning to addictive behavior?",
     "options": [
@@ -4164,7 +4164,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-hpa-axis",
     "world": "neuroscience",
     "name": "HPA Axis",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "How does the brain coordinate a hormonal stress response?",
     "question": "How does the brain coordinate a hormonal stress response?",
     "options": [
@@ -4203,7 +4203,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-sympathetic",
     "world": "neuroscience",
     "name": "Sympathetic Nervous System",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Which autonomic branch rapidly mobilizes the body during challenge?",
     "question": "Which autonomic branch rapidly mobilizes the body during challenge?",
     "options": [
@@ -4242,7 +4242,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-parasympathetic",
     "world": "neuroscience",
     "name": "Parasympathetic Nervous System",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Which autonomic branch supports many restorative and regulatory functions?",
     "question": "Which autonomic branch supports many restorative and regulatory functions?",
     "options": [
@@ -4281,7 +4281,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-vagus",
     "world": "neuroscience",
     "name": "Vagus Nerve",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Which cranial nerve carries extensive two-way signals between brain and internal organs?",
     "question": "Which cranial nerve carries extensive two-way signals between brain and internal organs?",
     "options": [
@@ -4320,7 +4320,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-interoception-neural",
     "world": "neuroscience",
     "name": "Interoception",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "How does the brain know about heartbeat, breathing and internal bodily state?",
     "question": "How does the brain know about heartbeat, breathing and internal bodily state?",
     "options": [
@@ -4359,7 +4359,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-homeostasis",
     "world": "neuroscience",
     "name": "Homeostasis",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "How does the nervous system keep internal conditions within workable ranges?",
     "question": "How does the nervous system keep internal conditions within workable ranges?",
     "options": [
@@ -4398,7 +4398,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-allostasis",
     "world": "neuroscience",
     "name": "Allostasis",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Why doesn't the body always defend one fixed set point?",
     "question": "Why doesn't the body always defend one fixed set point?",
     "options": [
@@ -4437,7 +4437,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-chronic-stress",
     "world": "neuroscience",
     "name": "Chronic Stress and Brain",
-    "pool": "Stress & Body-Brain",
+    "pool": "Reward, Motivation, Emotion & Stress",
     "hook": "Can prolonged stress alter cognition and neural function?",
     "question": "Can prolonged stress alter cognition and neural function?",
     "options": [
@@ -4476,7 +4476,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-eeg",
     "world": "neuroscience",
     "name": "EEG",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can electrodes on the scalp measure brain activity millisecond by millisecond?",
     "question": "How can electrodes on the scalp measure brain activity millisecond by millisecond?",
     "options": [
@@ -4515,7 +4515,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-fmri",
     "world": "neuroscience",
     "name": "fMRI",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Does an fMRI scanner directly watch neurons firing?",
     "question": "Does an fMRI scanner directly watch neurons firing?",
     "options": [
@@ -4554,7 +4554,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-pet",
     "world": "neuroscience",
     "name": "PET",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can radioactive tracers reveal aspects of brain chemistry or metabolism?",
     "question": "How can radioactive tracers reveal aspects of brain chemistry or metabolism?",
     "options": [
@@ -4593,7 +4593,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-tms",
     "world": "neuroscience",
     "name": "TMS",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can a magnetic pulse temporarily alter activity in a targeted cortical area?",
     "question": "How can a magnetic pulse temporarily alter activity in a targeted cortical area?",
     "options": [
@@ -4632,7 +4632,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-lesion-method",
     "world": "neuroscience",
     "name": "Lesion Method",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "What can selective brain damage teach us about function?",
     "question": "What can selective brain damage teach us about function?",
     "options": [
@@ -4671,7 +4671,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-single-unit",
     "world": "neuroscience",
     "name": "Single-Unit Recording",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can scientists listen to individual neurons firing?",
     "question": "How can scientists listen to individual neurons firing?",
     "options": [
@@ -4710,7 +4710,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-connectome",
     "world": "neuroscience",
     "name": "Connectome",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "What does it mean to map the brain's wiring?",
     "question": "What does it mean to map the brain's wiring?",
     "options": [
@@ -4749,7 +4749,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-correlation-causation-brain",
     "world": "neuroscience",
     "name": "Brain Correlation vs Causation",
-    "pool": "Brain Methods",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "If a brain region becomes active during a task, does that prove it causes the behavior?",
     "question": "If a brain region becomes active during a task, does that prove it causes the behavior?",
     "options": [
@@ -4788,7 +4788,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-split-brain",
     "world": "neuroscience",
     "name": "Split-Brain Phenomena",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "What happens when communication between the cerebral hemispheres is surgically disrupted?",
     "question": "What happens when communication between the cerebral hemispheres is surgically disrupted?",
     "options": [
@@ -4827,7 +4827,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-blindsight",
     "world": "neuroscience",
     "name": "Blindsight",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Can someone respond to visual information they report not consciously seeing?",
     "question": "Can someone respond to visual information they report not consciously seeing?",
     "options": [
@@ -4866,7 +4866,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-neglect",
     "world": "neuroscience",
     "name": "Hemispatial Neglect",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can half of space effectively disappear from attention?",
     "question": "How can half of space effectively disappear from attention?",
     "options": [
@@ -4905,7 +4905,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-aphasia",
     "world": "neuroscience",
     "name": "Aphasia",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "How can brain damage disrupt language without erasing intelligence?",
     "question": "How can brain damage disrupt language without erasing intelligence?",
     "options": [
@@ -4944,7 +4944,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-amnesia",
     "world": "neuroscience",
     "name": "Amnesia",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Can memory fail while perception, intelligence and old skills remain relatively intact?",
     "question": "Can memory fail while perception, intelligence and old skills remain relatively intact?",
     "options": [
@@ -4983,7 +4983,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-parkinson",
     "world": "neuroscience",
     "name": "Parkinson's Disease",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Why does dopamine-cell loss produce movement problems?",
     "question": "Why does dopamine-cell loss produce movement problems?",
     "options": [
@@ -5022,7 +5022,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-alzheimer",
     "world": "neuroscience",
     "name": "Alzheimer's Disease",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "What happens in the brain during the most common cause of dementia?",
     "question": "What happens in the brain during the most common cause of dementia?",
     "options": [
@@ -5061,7 +5061,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-epilepsy",
     "world": "neuroscience",
     "name": "Epilepsy",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "What is a seizure at the neural level?",
     "question": "What is a seizure at the neural level?",
     "options": [
@@ -5100,7 +5100,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-stroke",
     "world": "neuroscience",
     "name": "Stroke",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Why can losing blood flow to a small brain region cause sudden specific deficits?",
     "question": "Why can losing blood flow to a small brain region cause sudden specific deficits?",
     "options": [
@@ -5139,7 +5139,7 @@ export const neuroscienceConcepts = [
     "id": "neuro-concussion",
     "world": "neuroscience",
     "name": "Concussion",
-    "pool": "Neurological Phenomena",
+    "pool": "Brain Disorders & Neuroscience Methods",
     "hook": "Can the brain be disrupted without a visible structural lesion on routine scans?",
     "question": "Can the brain be disrupted without a visible structural lesion on routine scans?",
     "options": [
