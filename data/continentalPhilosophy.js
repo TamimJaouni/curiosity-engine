@@ -9272,44 +9272,6 @@ export const continentalPhilosophyConcepts = [
     ]
   },
   {
-    "id": "cp-binary-oppositions",
-    "world": "philosophy",
-    "pool": "Derrida & Deconstruction",
-    "topic": "Derrida & Deconstruction",
-    "name": "Binary Oppositions",
-    "hook": "What philosophical problem is Binary Oppositions trying to solve or expose?",
-    "question": "What role does Binary Oppositions play in Derrida & Deconstruction?",
-    "options": [
-      "Binary Oppositions is a conceptual move within Derrida & Deconstruction concerned with how conceptual oppositions depend on exclusions and differences that prevent meaning from becoming fully self-present. Rather than treating it as a slogan, ask what earlier assumption it challenges, what distinction it introduces, and what follows if the concept is accepted.",
-      "It simply says that objective argument is impossible, so competing interpretations cannot be assessed.",
-      "It is primarily a biographical fact about the philosopher rather than a philosophical claim or distinction.",
-      "I don’t know"
-    ],
-    "answer": 0,
-    "reveal": "Binary Oppositions is a conceptual move within Derrida & Deconstruction concerned with how conceptual oppositions depend on exclusions and differences that prevent meaning from becoming fully self-present. Rather than treating it as a slogan, ask what earlier assumption it challenges, what distinction it introduces, and what follows if the concept is accepted.",
-    "examples": [
-      [
-        "Problem",
-        "Identify the philosophical problem that makes Binary Oppositions necessary."
-      ],
-      [
-        "Contrast",
-        "Compare Binary Oppositions with Iterability and locate the disagreement or development."
-      ],
-      [
-        "Implication",
-        "Ask what changes about how conceptual oppositions depend on exclusions and differences that prevent meaning from becoming fully self-present if Binary Oppositions is accepted."
-      ]
-    ],
-    "why": "Understanding Binary Oppositions gives you another step in the argument about how conceptual oppositions depend on exclusions and differences that prevent meaning from becoming fully self-present.",
-    "caveat": "Interpretations of major philosophical texts are contested. The card presents a defensible introductory reading without implying it exhausts the concept.",
-    "related": [
-      "cp-iterability",
-      "cp-pharmakon",
-      "cp-writing-and-speech"
-    ]
-  },
-  {
     "id": "cp-iterability",
     "world": "philosophy",
     "pool": "Derrida & Deconstruction",
