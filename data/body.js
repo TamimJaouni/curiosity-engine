@@ -3,7 +3,7 @@ export const bodyConcepts = [
     "id": "body-pec-major",
     "world": "body",
     "name": "Pectoralis Major",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which major chest muscle brings the upper arm across the body?",
     "question": "Which major chest muscle brings the upper arm across the body?",
     "options": [
@@ -41,7 +41,7 @@ export const bodyConcepts = [
     "id": "body-lats",
     "world": "body",
     "name": "Latissimus Dorsi",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which large back muscle contributes strongly to shoulder extension and adduction?",
     "question": "Which large back muscle contributes strongly to shoulder extension and adduction?",
     "options": [
@@ -79,7 +79,7 @@ export const bodyConcepts = [
     "id": "body-traps",
     "world": "body",
     "name": "Trapezius",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which large upper-back muscle can elevate, retract and upwardly rotate the scapula?",
     "question": "Which large upper-back muscle can elevate, retract and upwardly rotate the scapula?",
     "options": [
@@ -117,7 +117,7 @@ export const bodyConcepts = [
     "id": "body-rhomboids",
     "world": "body",
     "name": "Rhomboids",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscles help retract and stabilize the shoulder blades?",
     "question": "Which muscles help retract and stabilize the shoulder blades?",
     "options": [
@@ -155,7 +155,7 @@ export const bodyConcepts = [
     "id": "body-front-delt",
     "world": "body",
     "name": "Anterior Deltoid",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which shoulder region is heavily involved in raising the arm forward and pressing?",
     "question": "Which shoulder region is heavily involved in raising the arm forward and pressing?",
     "options": [
@@ -193,7 +193,7 @@ export const bodyConcepts = [
     "id": "body-side-delt",
     "world": "body",
     "name": "Lateral Deltoid",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which shoulder region contributes most to raising the arm out to the side?",
     "question": "Which shoulder region contributes most to raising the arm out to the side?",
     "options": [
@@ -231,7 +231,7 @@ export const bodyConcepts = [
     "id": "body-rear-delt",
     "world": "body",
     "name": "Posterior Deltoid",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which deltoid region helps move the upper arm backward?",
     "question": "Which deltoid region helps move the upper arm backward?",
     "options": [
@@ -269,7 +269,7 @@ export const bodyConcepts = [
     "id": "body-biceps",
     "world": "body",
     "name": "Biceps Brachii",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Besides bending the elbow, what important forearm action does the biceps perform?",
     "question": "Besides bending the elbow, what important forearm action does the biceps perform?",
     "options": [
@@ -307,7 +307,7 @@ export const bodyConcepts = [
     "id": "body-brachialis",
     "world": "body",
     "name": "Brachialis",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscle is a strong elbow flexor regardless of forearm rotation?",
     "question": "Which muscle is a strong elbow flexor regardless of forearm rotation?",
     "options": [
@@ -345,7 +345,7 @@ export const bodyConcepts = [
     "id": "body-triceps",
     "world": "body",
     "name": "Triceps Brachii",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscle is the main elbow extensor?",
     "question": "Which muscle is the main elbow extensor?",
     "options": [
@@ -383,7 +383,7 @@ export const bodyConcepts = [
     "id": "body-forearms",
     "world": "body",
     "name": "Forearm Flexors & Extensors",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "What controls much of wrist movement and grip support?",
     "question": "What controls much of wrist movement and grip support?",
     "options": [
@@ -421,7 +421,7 @@ export const bodyConcepts = [
     "id": "body-rectus-abdominis",
     "world": "body",
     "name": "Rectus Abdominis",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which abdominal muscle flexes the trunk and produces the visible 'six-pack' segments?",
     "question": "Which abdominal muscle flexes the trunk and produces the visible 'six-pack' segments?",
     "options": [
@@ -459,7 +459,7 @@ export const bodyConcepts = [
     "id": "body-obliques",
     "world": "body",
     "name": "Obliques",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which trunk muscles contribute strongly to rotation and resisting rotation?",
     "question": "Which trunk muscles contribute strongly to rotation and resisting rotation?",
     "options": [
@@ -497,7 +497,7 @@ export const bodyConcepts = [
     "id": "body-erectors",
     "world": "body",
     "name": "Erector Spinae",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which long muscle group helps extend and stabilize the spine?",
     "question": "Which long muscle group helps extend and stabilize the spine?",
     "options": [
@@ -535,7 +535,7 @@ export const bodyConcepts = [
     "id": "body-glute-max",
     "world": "body",
     "name": "Gluteus Maximus",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscle is a major producer of hip extension?",
     "question": "Which muscle is a major producer of hip extension?",
     "options": [
@@ -573,7 +573,7 @@ export const bodyConcepts = [
     "id": "body-glute-medius",
     "world": "body",
     "name": "Gluteus Medius",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which gluteal muscle is especially important for hip abduction and pelvic stability?",
     "question": "Which gluteal muscle is especially important for hip abduction and pelvic stability?",
     "options": [
@@ -611,7 +611,7 @@ export const bodyConcepts = [
     "id": "body-quads",
     "world": "body",
     "name": "Quadriceps",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscle group extends the knee?",
     "question": "Which muscle group extends the knee?",
     "options": [
@@ -649,7 +649,7 @@ export const bodyConcepts = [
     "id": "body-rectus-femoris",
     "world": "body",
     "name": "Rectus Femoris",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which quadriceps muscle crosses both the hip and knee?",
     "question": "Which quadriceps muscle crosses both the hip and knee?",
     "options": [
@@ -687,7 +687,7 @@ export const bodyConcepts = [
     "id": "body-hamstrings",
     "world": "body",
     "name": "Hamstrings",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which posterior-thigh group both flexes the knee and, for most members, extends the hip?",
     "question": "Which posterior-thigh group both flexes the knee and, for most members, extends the hip?",
     "options": [
@@ -725,7 +725,7 @@ export const bodyConcepts = [
     "id": "body-adductors",
     "world": "body",
     "name": "Hip Adductors",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which inner-thigh muscles pull the thigh toward the body's midline?",
     "question": "Which inner-thigh muscles pull the thigh toward the body's midline?",
     "options": [
@@ -763,7 +763,7 @@ export const bodyConcepts = [
     "id": "body-calves",
     "world": "body",
     "name": "Calf Muscles",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscles create plantar flexion at the ankle?",
     "question": "Which muscles create plantar flexion at the ankle?",
     "options": [
@@ -801,7 +801,7 @@ export const bodyConcepts = [
     "id": "body-gastrocnemius",
     "world": "body",
     "name": "Gastrocnemius",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which calf muscle crosses both the knee and ankle?",
     "question": "Which calf muscle crosses both the knee and ankle?",
     "options": [
@@ -839,7 +839,7 @@ export const bodyConcepts = [
     "id": "body-soleus",
     "world": "body",
     "name": "Soleus",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which calf muscle remains a strong plantar flexor when the knee is bent?",
     "question": "Which calf muscle remains a strong plantar flexor when the knee is bent?",
     "options": [
@@ -877,7 +877,7 @@ export const bodyConcepts = [
     "id": "body-hip-flexors",
     "world": "body",
     "name": "Hip Flexors",
-    "pool": "Muscles",
+    "pool": "Muscles & Anatomy",
     "hook": "Which muscle group lifts the thigh toward the torso?",
     "question": "Which muscle group lifts the thigh toward the torso?",
     "options": [
@@ -915,7 +915,7 @@ export const bodyConcepts = [
     "id": "body-squat-pattern",
     "world": "body",
     "name": "Squat Pattern",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint actions dominate the upward phase of a squat?",
     "question": "What joint actions dominate the upward phase of a squat?",
     "options": [
@@ -948,7 +948,7 @@ export const bodyConcepts = [
     "id": "body-hip-hinge",
     "world": "body",
     "name": "Hip Hinge",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What distinguishes a hinge from a squat?",
     "question": "What distinguishes a hinge from a squat?",
     "options": [
@@ -981,7 +981,7 @@ export const bodyConcepts = [
     "id": "body-horizontal-push",
     "world": "body",
     "name": "Horizontal Push",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What movement family includes bench pressing?",
     "question": "What movement family includes bench pressing?",
     "options": [
@@ -1014,7 +1014,7 @@ export const bodyConcepts = [
     "id": "body-vertical-push",
     "world": "body",
     "name": "Vertical Push",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What movement family includes an overhead press?",
     "question": "What movement family includes an overhead press?",
     "options": [
@@ -1047,7 +1047,7 @@ export const bodyConcepts = [
     "id": "body-horizontal-pull",
     "world": "body",
     "name": "Horizontal Pull",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What movement family includes most rows?",
     "question": "What movement family includes most rows?",
     "options": [
@@ -1080,7 +1080,7 @@ export const bodyConcepts = [
     "id": "body-vertical-pull",
     "world": "body",
     "name": "Vertical Pull",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What movement family includes pull-ups and pulldowns?",
     "question": "What movement family includes pull-ups and pulldowns?",
     "options": [
@@ -1113,7 +1113,7 @@ export const bodyConcepts = [
     "id": "body-lunge-pattern",
     "world": "body",
     "name": "Lunge Pattern",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "Why are lunges useful even if you already squat?",
     "question": "Why are lunges useful even if you already squat?",
     "options": [
@@ -1146,7 +1146,7 @@ export const bodyConcepts = [
     "id": "body-shoulder-abduction",
     "world": "body",
     "name": "Shoulder Abduction",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What does it mean to abduct the shoulder?",
     "question": "What does it mean to abduct the shoulder?",
     "options": [
@@ -1179,7 +1179,7 @@ export const bodyConcepts = [
     "id": "body-shoulder-flexion",
     "world": "body",
     "name": "Shoulder Flexion",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action raises the arm forward and overhead?",
     "question": "What joint action raises the arm forward and overhead?",
     "options": [
@@ -1212,7 +1212,7 @@ export const bodyConcepts = [
     "id": "body-scapular-upward-rotation",
     "world": "body",
     "name": "Scapular Upward Rotation",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "Why must the shoulder blade move during overhead arm elevation?",
     "question": "Why must the shoulder blade move during overhead arm elevation?",
     "options": [
@@ -1245,7 +1245,7 @@ export const bodyConcepts = [
     "id": "body-elbow-flexion",
     "world": "body",
     "name": "Elbow Flexion",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action happens during the lifting phase of a curl?",
     "question": "What joint action happens during the lifting phase of a curl?",
     "options": [
@@ -1278,7 +1278,7 @@ export const bodyConcepts = [
     "id": "body-elbow-extension",
     "world": "body",
     "name": "Elbow Extension",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action does the triceps produce?",
     "question": "What joint action does the triceps produce?",
     "options": [
@@ -1311,7 +1311,7 @@ export const bodyConcepts = [
     "id": "body-hip-extension",
     "world": "body",
     "name": "Hip Extension",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action drives you upward from a hip thrust?",
     "question": "What joint action drives you upward from a hip thrust?",
     "options": [
@@ -1344,7 +1344,7 @@ export const bodyConcepts = [
     "id": "body-knee-extension",
     "world": "body",
     "name": "Knee Extension",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action does the quadriceps produce?",
     "question": "What joint action does the quadriceps produce?",
     "options": [
@@ -1377,7 +1377,7 @@ export const bodyConcepts = [
     "id": "body-knee-flexion",
     "world": "body",
     "name": "Knee Flexion",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What joint action occurs during a leg curl?",
     "question": "What joint action occurs during a leg curl?",
     "options": [
@@ -1410,7 +1410,7 @@ export const bodyConcepts = [
     "id": "body-plantar-flexion",
     "world": "body",
     "name": "Plantar Flexion",
-    "pool": "Movement",
+    "pool": "Exercises & Biomechanics",
     "hook": "What ankle action occurs when you rise onto your toes?",
     "question": "What ankle action occurs when you rise onto your toes?",
     "options": [
@@ -1443,7 +1443,7 @@ export const bodyConcepts = [
     "id": "body-hypertrophy",
     "world": "body",
     "name": "Muscle Hypertrophy",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "What does muscular hypertrophy actually mean?",
     "question": "What does muscular hypertrophy actually mean?",
     "options": [
@@ -1476,7 +1476,7 @@ export const bodyConcepts = [
     "id": "body-mechanical-tension",
     "world": "body",
     "name": "Mechanical Tension",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "What training stimulus is most directly linked to hypertrophy?",
     "question": "What training stimulus is most directly linked to hypertrophy?",
     "options": [
@@ -1509,7 +1509,7 @@ export const bodyConcepts = [
     "id": "body-progressive-overload",
     "world": "body",
     "name": "Progressive Overload",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Does progressive overload mean adding weight every workout forever?",
     "question": "Does progressive overload mean adding weight every workout forever?",
     "options": [
@@ -1542,7 +1542,7 @@ export const bodyConcepts = [
     "id": "body-proximity-failure",
     "world": "body",
     "name": "Proximity to Failure",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why can a moderate-weight set still stimulate growth?",
     "question": "Why can a moderate-weight set still stimulate growth?",
     "options": [
@@ -1575,7 +1575,7 @@ export const bodyConcepts = [
     "id": "body-training-failure",
     "world": "body",
     "name": "Training to Failure",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Must every hypertrophy set end at absolute failure?",
     "question": "Must every hypertrophy set end at absolute failure?",
     "options": [
@@ -1608,7 +1608,7 @@ export const bodyConcepts = [
     "id": "body-volume",
     "world": "body",
     "name": "Training Volume",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why does the number of hard sets matter?",
     "question": "Why does the number of hard sets matter?",
     "options": [
@@ -1641,7 +1641,7 @@ export const bodyConcepts = [
     "id": "body-frequency",
     "world": "body",
     "name": "Training Frequency",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Does a muscle need to be trained on one special weekly schedule?",
     "question": "Does a muscle need to be trained on one special weekly schedule?",
     "options": [
@@ -1674,7 +1674,7 @@ export const bodyConcepts = [
     "id": "body-rep-ranges",
     "world": "body",
     "name": "Rep Ranges for Hypertrophy",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Is 8–12 reps the only muscle-building range?",
     "question": "Is 8–12 reps the only muscle-building range?",
     "options": [
@@ -1707,7 +1707,7 @@ export const bodyConcepts = [
     "id": "body-strength-specificity",
     "world": "body",
     "name": "Strength Specificity",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why does getting stronger at one lift not transfer perfectly to every similar lift?",
     "question": "Why does getting stronger at one lift not transfer perfectly to every similar lift?",
     "options": [
@@ -1740,7 +1740,7 @@ export const bodyConcepts = [
     "id": "body-motor-unit-recruitment",
     "world": "body",
     "name": "Motor Unit Recruitment",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "How does the nervous system increase muscular force?",
     "question": "How does the nervous system increase muscular force?",
     "options": [
@@ -1773,7 +1773,7 @@ export const bodyConcepts = [
     "id": "body-lengthened-training",
     "world": "body",
     "name": "Training at Long Muscle Lengths",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why can exercise position affect hypertrophy?",
     "question": "Why can exercise position affect hypertrophy?",
     "options": [
@@ -1806,7 +1806,7 @@ export const bodyConcepts = [
     "id": "body-range-motion",
     "world": "body",
     "name": "Range of Motion",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Is a larger range of motion automatically better in every exercise?",
     "question": "Is a larger range of motion automatically better in every exercise?",
     "options": [
@@ -1839,7 +1839,7 @@ export const bodyConcepts = [
     "id": "body-eccentric",
     "world": "body",
     "name": "Eccentric Contraction",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "What is happening when a muscle produces force while lengthening?",
     "question": "What is happening when a muscle produces force while lengthening?",
     "options": [
@@ -1872,7 +1872,7 @@ export const bodyConcepts = [
     "id": "body-concentric",
     "world": "body",
     "name": "Concentric Contraction",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "What is happening when a muscle shortens while producing force?",
     "question": "What is happening when a muscle shortens while producing force?",
     "options": [
@@ -1905,7 +1905,7 @@ export const bodyConcepts = [
     "id": "body-isometric",
     "world": "body",
     "name": "Isometric Contraction",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Can a muscle work hard without changing length much?",
     "question": "Can a muscle work hard without changing length much?",
     "options": [
@@ -1938,7 +1938,7 @@ export const bodyConcepts = [
     "id": "body-length-tension",
     "world": "body",
     "name": "Length-Tension Relationship",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why can a muscle be stronger at some lengths than others?",
     "question": "Why can a muscle be stronger at some lengths than others?",
     "options": [
@@ -1971,7 +1971,7 @@ export const bodyConcepts = [
     "id": "body-moment-arm",
     "world": "body",
     "name": "Moment Arms",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why can the same weight feel much harder at one point in a rep?",
     "question": "Why can the same weight feel much harder at one point in a rep?",
     "options": [
@@ -2004,7 +2004,7 @@ export const bodyConcepts = [
     "id": "body-resistance-profile",
     "world": "body",
     "name": "Resistance Profile",
-    "pool": "Hypertrophy & Strength",
+    "pool": "Muscle Growth & Strength",
     "hook": "Why does an exercise's difficulty change through its range?",
     "question": "Why does an exercise's difficulty change through its range?",
     "options": [
