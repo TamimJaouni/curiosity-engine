@@ -1,175 +1,308 @@
 'use client';
-import {useEffect,useState} from 'react';
-import {concepts} from '../data/concepts';
-import {economicsDepth} from '../data/economicsDepth';
-import {economicsQuestions} from '../data/economicsQuestions';
 
-const worlds=[
- {id:'psychology',name:'Psychology & Human Behavior',desc:'Mind, learning, emotion, relationships, development and psychological science.'},
- {id:'neuroscience',name:'Neuroscience',desc:'Neurons, brain systems, memory, reward, perception, sleep and brain disorders.'},
- {id:'body',name:'Body & Gym',desc:'Training anatomy, movement, hypertrophy, recovery and technique.'},
- {id:'economics',name:'Economics',desc:'Markets, macroeconomics, finance, political economy and schools of thought.'},
- {id:'social-sciences',name:'Social Sciences',desc:'Culture, groups, inequality, institutions, power, thinkers and methods.'},
- {id:'philosophy',name:'Continental Philosophy',desc:'Idealism, Marxism, phenomenology, existentialism and post-structural thought.'},
- {id:'analytic-philosophy',name:'Analytic Philosophy',desc:'Language, knowledge, metaphysics, mind, science, ethics and political philosophy.'},
- {id:'europe',name:'European History',desc:'Medieval society to World War I: institutions, everyday life, revolutions and state formation.'},
- {id:'modern-europe',name:'Modern European History',desc:'Europe from the post-WWI settlement to the present security order.'},
- {id:'middle-east',name:'Middle East History',desc:'Caliphates, empires, nationalism, wars, states, ideas and contemporary society.'}
+import { useEffect, useMemo, useState } from 'react';
+
+const concepts = [
+  {
+    id: 'hysteresis',
+    name: 'Hysteresis',
+    field: 'Economics',
+    short: 'Temporary shocks can leave persistent effects even after the original shock disappears.',
+    example: 'A recession keeps workers unemployed long enough that some lose skills and remain unemployed even after demand recovers.',
+    why: 'It changes how we think about recessions, labor markets, and whether temporary policy support can prevent permanent damage.',
+    deep: 'Hysteresis describes systems whose present state depends partly on their history. In economics, it is most often used to explain why a temporary disturbance can change the path of an economy for years. A severe recession may reduce investment, break employer–worker matches, push people out of the labor force, and weaken skills. When demand later returns, the economy may not simply snap back to its previous trajectory.\n\nThe important idea is that the economy has memory. That distinguishes hysteresis from a model in which shocks are temporary deviations around a stable equilibrium. It also matters for policy: if downturns can cause lasting damage, then preventing a deep recession may have benefits that continue long after emergency support ends.\n\nA useful connection is path dependence. Both concepts emphasize history, but path dependence is broader: earlier events shape which future states are reachable. Hysteresis focuses more specifically on persistence after a disturbance. The empirical strength of hysteresis varies by country, period, and labor market, so it should not be treated as a universal law.',
+    alternate: 'Think of hysteresis as a dent rather than a bounce. If you press a rubber ball, it returns to shape; if you dent thin metal, removing your hand does not undo the change. Some economic shocks look more like the metal. A downturn can close firms, interrupt careers, reduce capital formation, and alter expectations. Even after the original cause disappears, those secondary effects remain.\n\nThis matters because two economies exposed to the same current conditions may behave differently if their recent histories differ. It also complicates the idea of a single “normal” unemployment rate. A long period of weak demand may itself change what normal looks like.\n\nThe concept connects economics with neuroscience and psychology, where repeated experience can also alter later responses. The analogy is not exact, but the common structure is useful: systems can be changed by what happens to them.'
+  },
+  {
+    id: 'moral-luck',
+    name: 'Moral Luck',
+    field: 'Philosophy',
+    short: 'We often judge people differently because of outcomes or circumstances they did not fully control.',
+    example: 'Two equally reckless drunk drivers behave the same way, but only one happens to hit a pedestrian. We usually judge that driver more harshly.',
+    why: 'It exposes a tension between our belief that responsibility should track control and our actual moral judgments.',
+    deep: 'Moral luck is the problem that moral judgment often depends on factors outside an agent’s control. If two people make the same reckless choice but only one causes harm because of chance, our judgments typically diverge. Yet many theories of responsibility say people should be judged only for what they control.\n\nThe problem expands beyond outcomes. We do not choose our genes, family, early environment, historical moment, or many of the pressures that shape our character. Once taken seriously, this raises a difficult question: how much of what we praise or blame is genuinely attributable to the person rather than to luck?\n\nThe point is not that responsibility disappears. Rather, moral luck forces us to distinguish intention, character, action, consequence, and circumstance. Legal systems already do this imperfectly by separating attempt from completed harm while still treating outcomes as relevant. The concept connects directly to free will, criminal responsibility, inequality, and political debates about desert.',
+    alternate: 'Moral luck begins with an uncomfortable observation: we want morality to be fair, but luck keeps entering the picture. Imagine two negligent builders who make the same mistake. In one building nobody is hurt; in the other, an unlikely chain of events causes a death. Their negligence was identical, yet our response to them may not be.\n\nThis shows that moral judgment serves several functions at once. It evaluates intention, expresses social condemnation, responds to actual harm, and helps communities assign responsibility. Those functions do not always point in the same direction.\n\nThe concept also connects with economics and politics. Debates about merit, inheritance, poverty, and punishment often depend on hidden assumptions about how much people control the conditions that shape their outcomes.'
+  },
+  {
+    id: 'allostasis',
+    name: 'Allostasis',
+    field: 'Neuroscience · Psychology',
+    short: 'The body regulates itself partly by anticipating future demands rather than merely correcting deviations after they occur.',
+    example: 'Your heart rate can rise before a stressful presentation, preparing your body before any physical threat has happened.',
+    why: 'It reframes regulation as predictive and helps connect stress, physiology, emotion, and adaptation.',
+    deep: 'Allostasis is regulation through change. Instead of imagining the body as maintaining one fixed internal state, the concept emphasizes anticipatory adjustment. Your physiology shifts depending on what the brain expects you will need: heart rate, hormone levels, energy use, attention, and immune activity can all be altered in advance of demand.\n\nThis is useful for understanding stress. A stress response is not simply a malfunction; it is often an adaptive prediction that resources will soon be required. Problems arise when costly responses are repeatedly activated or poorly matched to actual conditions. Researchers sometimes discuss the cumulative burden of repeated adaptation as allostatic load.\n\nAllostasis connects naturally to predictive processing and interoception. The brain must estimate both the state of the body and what the body will soon require. The framework is influential, but specific claims about how broadly it explains disease or behavior need to be evaluated separately rather than treating allostasis as a catch-all explanation.',
+    alternate: 'Homeostasis is often pictured as a thermostat: temperature drifts, the system notices, and then corrects it. Allostasis adds prediction. A good organism does not wait until resources are depleted; it changes physiology before the demand arrives.\n\nThat means the “right” internal state depends on context. A lower heart rate may be appropriate while resting, while a higher one is useful before exertion. Regulation is therefore dynamic rather than fixed.\n\nThe concept becomes especially powerful when thinking about chronic stress. If the organism repeatedly predicts danger, it may repeatedly mobilize energy and cardiovascular resources. Even adaptive short-term responses can become costly when maintained too often or too long.'
+  }
 ];
 
-function diverseSample(items,n=5,exclude=[]){
- const pool=items.filter(c=>!exclude.includes(c.id));
- const by={}; pool.forEach(c=>(by[c.topic||c.pool]??=[]).push(c));
- const groups=Object.values(by).sort(()=>Math.random()-.5);
- const out=[];
- groups.forEach(g=>{if(out.length<n)out.push(g[Math.floor(Math.random()*g.length)])});
- const rest=pool.filter(c=>!out.includes(c)).sort(()=>Math.random()-.5);
- return [...out,...rest].slice(0,n);
-}
+const essays = [
+  { id: 'predictive-processing', title: 'Predictive Processing', field: 'Neuroscience · Philosophy', minutes: 20, teaser: 'How brains may use prediction and prediction error to construct perception and guide action.' },
+  { id: 'loss-aversion', title: 'Loss Aversion', field: 'Psychology · Economics', minutes: 18, teaser: 'Why losses can loom larger than comparable gains, and where the idea is stronger or weaker than popular accounts suggest.' },
+  { id: 'moral-luck', title: 'Moral Luck', field: 'Philosophy', minutes: 16, teaser: 'Why responsibility becomes difficult when outcomes depend on luck.' },
+  { id: 'polycentric-governance', title: 'Polycentric Governance', field: 'Political Science · Economics', minutes: 20, teaser: 'How multiple centers of decision-making can coordinate without a single controlling authority.' }
+];
 
-const bodyMap={
- 'pectoralis-major':['front',50,32],'latissimus-dorsi':['back',50,38],'trapezius':['back',50,22],'rhomboids':['back',50,30],
- 'anterior-deltoid':['front',35,27],'lateral-deltoid':['front',31,29],'posterior-deltoid':['back',34,28],
- 'biceps-brachii':['front',29,39],'brachialis':['front',30,43],'triceps-brachii':['back',29,39],'forearms':['front',23,51],
- 'rectus-abdominis':['front',50,48],'obliques':['front',39,48],'erector-spinae':['back',50,48],
- 'gluteus-maximus':['back',50,61],'gluteus-medius':['back',39,57],'quadriceps':['front',43,70],
- 'rectus-femoris':['front',47,70],'hamstrings':['back',43,70],'adductors':['front',47,66],
- 'calves':['back',43,85],'gastrocnemius':['back',43,83],'soleus':['back',43,88],'hip-flexors':['front',43,59]
+const news = [
+  {
+    id: 'rates',
+    title: 'Central banks are balancing inflation control against weaker growth',
+    tag: 'Economics',
+    happened: 'A cluster of recent policy decisions has kept attention on how quickly major central banks can normalize interest rates without reigniting inflation or worsening a slowdown.',
+    matters: 'Interest-rate decisions affect borrowing costs, currencies, housing, investment, government finances, and expectations. The important issue is not a single rate move but the changing policy regime.',
+    larger: 'This connects to inflation expectations, central-bank credibility, the business cycle, and the political tension between price stability and employment.',
+    watch: 'Watch incoming inflation, wage, labor-market, and growth data, and whether central-bank communication shifts before actual policy does.'
+  },
+  {
+    id: 'industrial-policy',
+    title: 'Industrial policy is becoming a larger part of economic strategy',
+    tag: 'Politics · Economics',
+    happened: 'Governments are increasingly using subsidies, procurement rules, trade restrictions, and strategic investment to shape sectors considered important for resilience, technology, energy, or security.',
+    matters: 'This marks a partial shift away from a policy style that treated sectoral allocation as something governments should influence only sparingly.',
+    larger: 'The larger issue is the changing boundary between markets and states: efficiency versus resilience, national security, supply-chain dependence, and geopolitical competition.',
+    watch: 'Watch whether these policies create durable productive capacity, trigger retaliation, or mainly redistribute rents toward politically favored industries.'
+  }
+];
+
+const longArc = {
+  '20': {
+    'Mind & Behavior': [
+      { title: 'The Replication Crisis', period: 'c. 2011–2018', summary: 'Large replication efforts exposed weaknesses in parts of experimental psychology and accelerated reforms in research practice.' },
+      { title: 'The Mainstreaming of Behavioral Science', period: 'c. 2006–2016', summary: 'Behavioral insights moved from specialist research into policy, business, and public discussion.' }
+    ],
+    'Politics & Institutions': [
+      { title: 'The Platformization of Political Communication', period: 'c. 2008–2016', summary: 'Social platforms became major infrastructures for political messaging, mobilization, and information competition.' }
+    ]
+  },
+  '50': {
+    'Economics': [
+      { title: 'The Neoliberal Turn', period: 'c. 1979–1995', summary: 'Privatization, deregulation, inflation control, and market-oriented reforms became more influential across many economies.' }
+    ],
+    'Science & Technology': [
+      { title: 'The Personal Computing Revolution', period: 'c. 1977–2000', summary: 'Computing moved from institutions into homes and workplaces, reshaping productivity, communication, and culture.' }
+    ]
+  },
+  '100': {
+    'Mind & Behavior': [
+      { title: 'The Cognitive Revolution', period: 'c. 1945–1970', summary: 'Psychology increasingly returned to internal processes such as memory, language, attention, and representation.' },
+      { title: 'The Rise of Modern Psychopharmacology', period: 'c. 1950–1975', summary: 'New psychiatric drugs transformed treatment and changed theories about the biological basis of mental disorders.' }
+    ],
+    'Economics': [
+      { title: 'The Keynesian Revolution', period: 'c. 1930–1950', summary: 'Macroeconomics was reshaped around aggregate demand, unemployment, and a larger stabilization role for government.' }
+    ],
+    'Politics & Institutions': [
+      { title: 'Decolonization', period: 'c. 1945–1975', summary: 'European empires contracted rapidly as dozens of new states emerged across Asia, Africa, and the Middle East.' }
+    ]
+  },
+  '500': {
+    'Philosophy & Ideas': [
+      { title: 'The Scientific Revolution', period: 'c. 1540–1700', summary: 'New methods, instruments, institutions, and mathematical approaches transformed natural philosophy into early modern science.' }
+    ],
+    'Politics & Institutions': [
+      { title: 'The Rise of the Fiscal-Military State', period: 'c. 1550–1700', summary: 'European states built stronger taxation, borrowing, and administrative systems to sustain increasingly expensive warfare.' }
+    ]
+  }
 };
 
-function economicsParagraphs(concept){
- const depth=economicsDepth.notes[concept.id];
- const frame=economicsDepth.topicFrames[concept.topic];
- return [concept.reveal,depth,frame].filter(Boolean);
+const fields = ['Mind & Behavior','Philosophy & Ideas','Economics','Politics & Institutions','Science & Technology','Society & Culture'];
+
+function Pill({ children }) {
+  return <span className="pill">{children}</span>;
 }
 
-function BodyVisual({media,name}){
- const p=bodyMap[media?.region]; if(!p)return null; const back=p[0]==='back';
- return <div className="bodyvisual"><div><small>LOCATION</small><h3>{name}</h3><p>{back?'Back view':'Front view'} · highlighted area</p></div><svg viewBox="0 0 100 180" role="img" aria-label={name+' location on the body'}><circle cx="50" cy="16" r="10"/><path d="M38 29 Q50 24 62 29 L68 72 Q62 91 60 105 L65 166 L54 166 L50 112 L46 166 L35 166 L40 105 Q38 91 32 72 Z"/><path d="M34 34 L18 79 L25 82 L42 48 M66 34 L82 79 L75 82 L58 48"/><circle className="musclemark" cx={p[1]} cy={p[2]} r="9"/><circle className="musclecore" cx={p[1]} cy={p[2]} r="4"/></svg></div>
+function SectionTitle({ eyebrow, title, copy }) {
+  return <div className="section-title"><div className="eyebrow">{eyebrow}</div><h1>{title}</h1>{copy && <p>{copy}</p>}</div>;
 }
 
-export default function Home(){
- const [screen,setScreen]=useState('home');
- const [cards,setCards]=useState([]);
- const [concept,setConcept]=useState(null);
- const [picked,setPicked]=useState(null);
- const [seen,setSeen]=useState([]);
- const [known,setKnown]=useState([]);
- const [world,setWorld]=useState('psychology');
- const [category,setCategory]=useState('');
- const [topic,setTopic]=useState('');
- const [revealed,setRevealed]=useState(false);
+function AppButton({ children, variant='primary', onClick, disabled=false }) {
+  return <button disabled={disabled} onClick={onClick} className={'btn ' + variant}>{children}</button>;
+}
 
- useEffect(()=>{try{setSeen(JSON.parse(localStorage.getItem('ce-seen')||'[]'));setKnown(JSON.parse(localStorage.getItem('ce-known')||'[]'))}catch{}},[]);
- const persist=(s,k)=>{setSeen(s);setKnown(k);localStorage.setItem('ce-seen',JSON.stringify(s));localStorage.setItem('ce-known',JSON.stringify(k))};
- const itemsFor=id=>concepts.filter(c=>(c.world||'psychology')===id);
- const worldConcepts=itemsFor(world);
- const currentWorld=worlds.find(w=>w.id===world);
- const headings=[...new Set(worldConcepts.map(c=>c.pool).filter(Boolean))];
- const subheadsFor=label=>[...new Set(worldConcepts.filter(c=>c.pool===label).map(c=>c.topic||c.pool).filter(Boolean))];
- const poolFor=(cat=category,sub=topic)=>worldConcepts.filter(c=>(!cat||c.pool===cat)&&(!sub||(c.topic||c.pool)===sub));
- const worldCount=id=>itemsFor(id).length;
+export default function Home() {
+  const [screen, setScreen] = useState('home');
+  const [worldTab, setWorldTab] = useState('brief');
+  const [selectedConcept, setSelectedConcept] = useState(null);
+  const [deepMode, setDeepMode] = useState('deep');
+  const [essay, setEssay] = useState(null);
+  const [year, setYear] = useState('100');
+  const [field, setField] = useState('Mind & Behavior');
+  const [arcTopic, setArcTopic] = useState(null);
+  const [flashIndex, setFlashIndex] = useState(0);
+  const [flashRevealed, setFlashRevealed] = useState(false);
+  const [progress, setProgress] = useState({ explored: [], generated: [], recall: {} });
 
- const chooseWorld=id=>{setWorld(id);setCategory('');setTopic('');setConcept(null);setPicked(null);setRevealed(false);setScreen('categories')};
- const chooseCategory=label=>{
-   const subs=[...new Set(itemsFor(world).filter(c=>c.pool===label).map(c=>c.topic||c.pool).filter(Boolean))];
-   setCategory(label);setTopic('');setConcept(null);setPicked(null);
-   if(subs.length<=1){const p=itemsFor(world).filter(c=>c.pool===label);setCards(diverseSample(p,5));setScreen('browse')}
-   else setScreen('subcategories');
- };
- const chooseTopic=label=>{setTopic(label);setCards(diverseSample(poolFor(category,label),5));setScreen('browse');setConcept(null);setPicked(null)};
- const discover=()=>{const p=poolFor();setCards(diverseSample(p,5,cards.map(x=>x.id)));setScreen('browse');setConcept(null);setPicked(null)};
- const open=c=>{setConcept(c);setPicked(null);setRevealed(false);setScreen('play');if(!seen.includes(c.id))persist([...seen,c.id],known)};
- const answer=i=>{setPicked(i);if(i===concept.answer&&!known.includes(concept.id))persist(seen.includes(concept.id)?seen:[...seen,concept.id],[...known,concept.id])};
- const related=()=>open(worldConcepts.find(x=>concept.related?.includes(x.id)&&x.id!==concept.id)||worldConcepts.find(x=>x.id!==concept.id));
- const exploreTopic=()=>{
-   const cat=concept.pool,sub=concept.topic||concept.pool;
-   setCategory(cat);setTopic(sub);setCards(diverseSample(worldConcepts.filter(x=>x.pool===cat&&(x.topic||x.pool)===sub&&x.id!==concept.id),5));
-   setConcept(null);setPicked(null);setScreen('browse');
- };
- const backFromBrowse=()=>setScreen(topic&&subheadsFor(category).length>1?'subcategories':'categories');
+  useEffect(() => {
+    try {
+      const saved = JSON.parse(localStorage.getItem('ios-progress') || 'null');
+      if (saved) setProgress(saved);
+    } catch {}
+  }, []);
 
- return <main>
-  <nav>
-   <button className="brand" onClick={()=>setScreen('home')}><span>CE</span><strong>Curiosity Engine</strong></button>
-   <div className="navright"><span>{seen.length} discovered</span><button className="ghost" onClick={()=>setScreen('worlds')}>Worlds</button></div>
-  </nav>
+  useEffect(() => {
+    try { localStorage.setItem('ios-progress', JSON.stringify(progress)); } catch {}
+  }, [progress]);
 
-  {screen==='home'&&<section className="hero">
-   <div className="eyebrow">CURIOSITY-DRIVEN STUDY</div>
-   <h1>Learn one useful idea at a time.</h1>
-   <p className="lead">Choose a subject, follow a question, test your intuition, then move deeper when something catches you.</p>
-   <div className="heroactions"><button className="primary big" onClick={()=>chooseWorld('psychology')}>Start learning →</button><button className="ghost big" onClick={()=>setScreen('worlds')}>Browse worlds</button></div>
-   <div className="stats"><div><b>{worlds.reduce((n,w)=>n+worldCount(w.id),0)}</b><span>study cards</span></div><div><b>{worlds.length}</b><span>worlds</span></div><div><b>{seen.length}</b><span>discovered</span></div></div>
-  </section>}
+  const markExplored = (id) => {
+    setProgress(p => ({ ...p, explored: p.explored.includes(id) ? p.explored : [...p.explored, id] }));
+  };
 
-  {screen==='worlds'&&<section className="wrap">
-   <div className="eyebrow">WORLDS</div><h2>Choose a subject.</h2><p className="muted">Counts are live from the actual card library.</p>
-   <div className="worldgrid">{worlds.map(w=>{
-     const wc=itemsFor(w.id), areas=[...new Set(wc.map(c=>c.pool).filter(Boolean))].length;
-     return <button key={w.id} className="world" onClick={()=>chooseWorld(w.id)}>
-      <small>{worldCount(w.id)} concepts · {areas} areas</small><h3>{w.name}</h3><p>{w.desc}</p><b>Open subject →</b>
-     </button>
-   })}</div>
-  </section>}
+  const openConcept = (c) => {
+    setSelectedConcept(c);
+    setDeepMode('deep');
+    markExplored(c.id);
+  };
 
-  {screen==='categories'&&<section className="wrap">
-   <button className="back" onClick={()=>setScreen('worlds')}>← All worlds</button>
-   <div className="eyebrow">{currentWorld?.name.toUpperCase()}</div><h2>Choose an area.</h2>
-   <p className="muted">{worldConcepts.length} concepts. Broad areas first, then the deeper subtopics.</p>
-   <div className="categorygrid">{headings.map(label=>{
-     const subs=subheadsFor(label), count=worldConcepts.filter(c=>c.pool===label).length;
-     return <button className="category" key={label} onClick={()=>chooseCategory(label)}>
-      <small>{count} concepts · {subs.length} {subs.length===1?'topic':'topics'}</small>
-      <h3>{label}</h3>
-      <div className="subpreview">{subs.slice(0,4).map(s=><span key={s}>{s}</span>)}{subs.length>4&&<span>+{subs.length-4} more</span>}</div>
-      <b>{subs.length>1?'View topics →':'Study →'}</b>
-     </button>
-   })}</div>
-  </section>}
+  const generateEssay = (item) => {
+    setEssay(item);
+    setProgress(p => ({ ...p, generated: p.generated.includes(item.id) ? p.generated : [...p.generated, item.id] }));
+    setScreen('essay-reader');
+  };
 
-  {screen==='subcategories'&&<section className="wrap">
-   <button className="back" onClick={()=>setScreen('categories')}>← {currentWorld?.name}</button>
-   <div className="eyebrow">{category.toUpperCase()}</div><h2>Choose a topic.</h2>
-   <p className="muted">Go specific, or return to the broader area at any time.</p>
-   <div className="topicgrid">{subheadsFor(category).map(label=>{
-     const count=worldConcepts.filter(c=>c.pool===category&&(c.topic||c.pool)===label).length;
-     return <button className="topiccard" key={label} onClick={()=>chooseTopic(label)}><small>{count} concepts</small><h3>{label}</h3><b>Study →</b></button>
-   })}</div>
-  </section>}
+  const activeArc = longArc[year]?.[field] || [];
 
-  {screen==='browse'&&<section className="wrap browse">
-   <button className="back" onClick={backFromBrowse}>← {topic&&subheadsFor(category).length>1?'Topics':'Areas'}</button>
-   <div className="browsehead"><div><div className="eyebrow">{currentWorld?.name.toUpperCase()} · {(topic||category||'DISCOVERY').toUpperCase()}</div><h2>{world==='economics'?'Pick one concept.':'Pick one question.'}</h2></div><button className="ghost" onClick={discover}>Shuffle</button></div>
-   <div className="cardstack">{cards.map((c,i)=><button className="conceptcard" onClick={()=>open(c)} key={c.id}><span className="num">{String(i+1).padStart(2,'0')}</span><div><small>{c.topic||c.pool}</small><h3>{c.name}</h3><p>{c.world==='economics'?(economicsQuestions[c.id]?.question||c.hook):c.hook}</p></div><b>→</b></button>)}</div>
-  </section>}
+  const nav = [
+    ['home','Home'],
+    ['essays','Essays'],
+    ['concepts','3 Concepts'],
+    ['world','World'],
+    ['review','Review']
+  ];
 
-  {screen==='play'&&concept&&<section className="lesson wrap">
-   <button className="back" onClick={()=>setScreen('browse')}>← Back to {concept.world==='economics'?'concepts':'questions'}</button>
-   <div className="eyebrow">{concept.topic||concept.pool}</div><h2>{concept.name}</h2>
-   {concept.media?.kind==='body'&&<BodyVisual media={concept.media} name={concept.name}/>}
-   {concept.visual&&<div className="conceptvisual">{concept.visual}</div>}
+  return <main>
+    <header className="topbar">
+      <button className="wordmark" onClick={() => setScreen('home')}><span>IO</span><strong>Intellectual OS</strong></button>
+      <div className="top-meta"><span>{progress.explored.length} explored</span><span>{progress.generated.length} essays</span></div>
+    </header>
 
-   {concept.world==='economics'?<>
-    <div className="econprompt">
-     <p className="econquestion">{economicsQuestions[concept.id]?.question||concept.hook}</p>
-     {economicsQuestions[concept.id]?.expanded&&<p className="econexpanded">{economicsQuestions[concept.id].expanded}</p>}
+    <div className="app-shell">
+      <aside className="sidebar">
+        <div className="side-label">LEARN</div>
+        {nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}>{label}</button>)}
+        <div className="side-note"><b>Prototype v1</b><span>Structure first. Content expands later.</span></div>
+      </aside>
+
+      <section className="content">
+        {screen==='home' && <>
+          <SectionTitle eyebrow="TODAY" title="A quieter way to get smarter." copy="Discover a few ideas, understand what matters in the world, then reinforce what is worth keeping." />
+          <div className="dashboard">
+            <button className="feature-card hero-card" onClick={() => setScreen('concepts')}>
+              <small>3 CONCEPTS OF THE DAY</small>
+              <h2>Hysteresis · Moral Luck · Allostasis</h2>
+              <p>Three high-level ideas with a concrete example. Go deeper only when one catches you.</p>
+              <b>Explore today →</b>
+            </button>
+            <button className="feature-card" onClick={() => setScreen('world')}>
+              <small>DAILY BRIEF</small><h3>2 developments worth understanding</h3><p>Politics and economics, stripped of headline noise.</p><b>Read brief →</b>
+            </button>
+            <button className="feature-card" onClick={() => {setWorldTab('arc');setScreen('world')}}>
+              <small>LONG ARC</small><h3>How did the present become possible?</h3><p>Browse 10 to 500-year historical bands.</p><b>Travel through time →</b>
+            </button>
+            <button className="feature-card" onClick={() => setScreen('review')}>
+              <small>REVIEW</small><h3>{concepts.length} concepts ready to recall</h3><p>Reveal-first flashcards. No writing required.</p><b>Start review →</b>
+            </button>
+          </div>
+        </>}
+
+        {screen==='essays' && <>
+          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Understand something properly." copy="The final version will generate a 15–20 minute essay on demand and save it permanently." />
+          <div className="list-grid">
+            {essays.map(e => <article key={e.id} className="topic-row">
+              <div><Pill>{e.field}</Pill><h3>{e.title}</h3><p>{e.teaser}</p><small>≈ {e.minutes} min</small></div>
+              <AppButton onClick={() => generateEssay(e)}>Generate Full Essay</AppButton>
+            </article>)}
+          </div>
+        </>}
+
+        {screen==='concepts' && <>
+          <SectionTitle eyebrow="PART II · DISCOVER" title="Three concepts of the day." copy="Short enough to scan. Deep enough to open a door." />
+          <div className="concept-grid">
+            {concepts.map(c => <article key={c.id} className="concept">
+              <Pill>{c.field}</Pill><h2>{c.name}</h2><p className="concept-short">{c.short}</p>
+              <div className="example"><small>EXAMPLE</small><p>{c.example}</p></div>
+              <div className="whyline"><small>WHY IT MATTERS</small><p>{c.why}</p></div>
+              <div className="actions">
+                <AppButton onClick={() => openConcept(c)}>Explore Deeply</AppButton>
+                <AppButton variant="secondary" onClick={() => generateEssay({id:c.id,title:c.name,field:c.field,teaser:c.short,minutes:20})}>Generate Full Essay</AppButton>
+              </div>
+            </article>)}
+          </div>
+          {selectedConcept && <div className="drawer-backdrop" onClick={() => setSelectedConcept(null)}>
+            <article className="drawer" onClick={e => e.stopPropagation()}>
+              <div className="drawer-head"><div><Pill>{selectedConcept.field}</Pill><h2>{selectedConcept.name}</h2></div><button onClick={() => setSelectedConcept(null)}>×</button></div>
+              <p className="deep-copy">{deepMode==='deep' ? selectedConcept.deep : selectedConcept.alternate}</p>
+              <div className="actions">
+                <AppButton variant="secondary" onClick={() => setDeepMode(deepMode==='deep'?'alternate':'deep')}>Generate Another Explanation</AppButton>
+                <AppButton onClick={() => generateEssay({id:selectedConcept.id,title:selectedConcept.name,field:selectedConcept.field,teaser:selectedConcept.short,minutes:20})}>Generate Full Essay</AppButton>
+              </div>
+              <div className="evidence"><small>EVIDENCE LAYER · PREVIEW</small><div><Pill>Core idea: established</Pill><Pill>Broader implications: context dependent</Pill></div></div>
+            </article>
+          </div>}
+        </>}
+
+        {screen==='world' && <>
+          <SectionTitle eyebrow="PART III · WORLD & CHANGE" title="Understand the present and the forces behind it." />
+          <div className="tabs"><button className={worldTab==='brief'?'active':''} onClick={() => setWorldTab('brief')}>Daily Brief</button><button className={worldTab==='arc'?'active':''} onClick={() => setWorldTab('arc')}>Long Arc</button></div>
+
+          {worldTab==='brief' && <div className="news-list">
+            {news.map(n => <article className="news-card" key={n.id}>
+              <Pill>{n.tag}</Pill><h2>{n.title}</h2>
+              <div className="qa"><b>What happened?</b><p>{n.happened}</p></div>
+              <div className="qa"><b>Why does it matter?</b><p>{n.matters}</p></div>
+              <div className="qa"><b>What larger issue does it connect to?</b><p>{n.larger}</p></div>
+              <div className="qa"><b>What should you watch next?</b><p>{n.watch}</p></div>
+              <div className="actions"><AppButton variant="secondary">Explain More</AppButton><AppButton variant="secondary">Why Does This Matter Historically?</AppButton><AppButton>Full Deep Dive</AppButton></div>
+            </article>)}
+          </div>}
+
+          {worldTab==='arc' && <div className="arc">
+            <div className="yearbar">{['10','20','50','100','200','300','500'].map(y => <button key={y} className={year===y?'active':''} onClick={() => {setYear(y);setArcTopic(null)}}>{y}<span>years</span></button>)}</div>
+            <div className="branch">
+              <div className="branch-left"><small>CHOOSE FIELD</small>{fields.map(f => <button key={f} className={field===f?'active':''} onClick={() => {setField(f);setArcTopic(null)}}>{f}</button>)}</div>
+              <div className="branch-right">
+                <div className="branch-title"><small>{year} YEAR BAND</small><h2>{field}</h2></div>
+                {activeArc.length ? activeArc.map(t => <button className="arc-topic" key={t.title} onClick={() => setArcTopic(t)}><span>{t.period}</span><h3>{t.title}</h3><p>{t.summary}</p><b>Open topic →</b></button>) : <div className="empty"><h3>Not populated in prototype v1.</h3><p>The branch works; we will expand the curriculum after the UX is locked.</p></div>}
+              </div>
+            </div>
+            {arcTopic && <div className="drawer-backdrop" onClick={() => setArcTopic(null)}><article className="drawer" onClick={e=>e.stopPropagation()}>
+              <div className="drawer-head"><div><Pill>{field} · {arcTopic.period}</Pill><h2>{arcTopic.title}</h2></div><button onClick={() => setArcTopic(null)}>×</button></div>
+              <p className="deep-copy">{arcTopic.summary} The full version will explain the transition as <b>before → pressure/change → turning point → consequences</b>, while distinguishing documented facts from historical interpretation.</p>
+              <div className="actions"><AppButton>Understand the Shift</AppButton><AppButton variant="secondary">What Came Before?</AppButton><AppButton variant="secondary">What Did This Lead To?</AppButton><AppButton variant="secondary">Full Historical Deep Dive</AppButton></div>
+            </article></div>}
+          </div>}
+        </>}
+
+        {screen==='review' && <>
+          <SectionTitle eyebrow="PART IV · REVIEW & MEMORY" title="Recall without homework." copy="Reveal the answer, then tell the system whether it was forgotten, fuzzy, or solid." />
+          <div className="review-layout">
+            <article className="flashcard">
+              <small>FLASHCARD {flashIndex+1} / {concepts.length}</small>
+              <Pill>{concepts[flashIndex].field}</Pill>
+              <h2>{concepts[flashIndex].name}</h2>
+              {!flashRevealed ? <><p>Do you remember what this means?</p><AppButton onClick={() => setFlashRevealed(true)}>Reveal</AppButton></> :
+              <><p className="answer">{concepts[flashIndex].short}</p><div className="example"><small>EXAMPLE</small><p>{concepts[flashIndex].example}</p></div>
+              <div className="recall-buttons">{['Forgot','Fuzzy','Got it'].map(v => <button key={v} onClick={() => {setProgress(p=>({...p,recall:{...p.recall,[concepts[flashIndex].id]:v}}));setFlashRevealed(false);setFlashIndex((flashIndex+1)%concepts.length)}}>{v}</button>)}</div></>}
+            </article>
+            <article className="month-card">
+              <small>MONTHLY INTELLECTUAL REVIEW · PREVIEW</small><h2>September</h2>
+              <div className="metric-grid"><div><b>{progress.explored.length}</b><span>concepts explored</span></div><div><b>{progress.generated.length}</b><span>essays generated</span></div><div><b>{Object.keys(progress.recall).length}</b><span>concepts reviewed</span></div></div>
+              <p>Your final monthly synthesis will identify recurring themes, durable concepts, weaker areas, and cross-field connections without pretending to measure “intelligence” with a fake score.</p>
+            </article>
+          </div>
+          <article className="graph-preview"><small>KNOWLEDGE GRAPH · PREVIEW</small><h2>Connections become part of the product.</h2><div className="graph-row"><span>Hysteresis</span><i>related to</i><span>Path Dependence</span><i>applied to</i><span>Unemployment</span></div><p>The final system stores canonical nodes and typed relationships such as influenced, contrasts with, emerged from, led to, prerequisite for, and application of.</p></article>
+        </>}
+
+        {screen==='essay-reader' && essay && <>
+          <button className="back-link" onClick={() => setScreen('essays')}>← Deep Essays</button>
+          <article className="reader">
+            <Pill>{essay.field}</Pill><h1>{essay.title}</h1><p className="lede">{essay.teaser}</p>
+            <div className="reader-meta"><span>≈ {essay.minutes} min</span><span>Saved after generation</span><span>Source layer available</span></div>
+            <h2>The central problem</h2><p>This prototype intentionally does not generate the full essay yet. In the API-connected version, this screen will stream a rigorous long-form essay using the fixed production prompt we designed, then save it so reopening the essay does not trigger another API call.</p>
+            <h2>What the finished essay will do</h2><p>It will define the idea precisely, explain mechanisms and intellectual history, examine evidence and competing interpretations, use memorable examples, connect the topic across disciplines, identify unresolved questions, and finish with serious further reading.</p>
+            <div className="source-box"><small>EVIDENCE & SOURCES</small><p><b>Research synthesis</b> · systematic reviews and major review papers</p><p><b>Primary material</b> · original studies, data, legislation, speeches, or historical documents</p><p><b>Interpretation</b> · clearly separated from empirical evidence</p></div>
+          </article>
+        </>}
+      </section>
     </div>
-    <article className="econdeep">
-     {economicsParagraphs(concept).map((paragraph,i)=><p className={i===0?'econlead':''} key={i}>{paragraph}</p>)}
-    </article>
-    <div className="next econnext"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
-   </>:<>
-    <p className="question">{concept.question}</p>
-    <div className="answers">{concept.options.map((o,i)=><button disabled={picked!==null} className={picked===null?'':i===concept.answer?'correct':picked===i?'wrong':''} onClick={()=>answer(i)} key={i}><span>{String.fromCharCode(65+i)}</span>{o}</button>)}</div>
-    {picked!==null&&<div className="reveal">
-     <div className="result">{picked===concept.answer?'Correct':'Review'}</div>
-     <h3>Explanation</h3><p>{concept.reveal}</p>
-     <h3>Connections</h3><div className="examples">{concept.examples.map(([a,b],i)=><div key={a+i}><b>{a}</b><p>{b}</p></div>)}</div>
-     <div className="why"><small>WHY IT MATTERS</small><p>{concept.why}</p>{concept.caveat&&<p className="caveat"><b>Keep in mind:</b> {concept.caveat}</p>}</div>
-     <div className="next"><button className="primary" onClick={discover}>5 new concepts →</button>{concept.topic&&<button className="ghost" onClick={exploreTopic}>Stay in this topic</button>}<button className="ghost" onClick={related}>Related concept</button></div>
-    </div>}
-   </>}
-  </section>}
- </main>
+
+    <nav className="bottom-nav">{nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}><span>{label==='3 Concepts'?'Concepts':label}</span></button>)}</nav>
+  </main>;
 }
