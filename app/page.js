@@ -1,107 +1,60 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import { supabase } from '../lib/supabase';
 
-const concepts = [
+const fallbackConcepts = [
   {
-    id: 'hysteresis',
-    name: 'Hysteresis',
-    field: 'Economics',
-    short: 'Temporary shocks can leave persistent effects even after the original shock disappears.',
-    example: 'A recession keeps workers unemployed long enough that some lose skills and remain unemployed even after demand recovers.',
-    why: 'It changes how we think about recessions, labor markets, and whether temporary policy support can prevent permanent damage.',
-    deep: 'Hysteresis describes systems whose present state depends partly on their history. In economics, it is most often used to explain why a temporary disturbance can change the path of an economy for years. A severe recession may reduce investment, break employer–worker matches, push people out of the labor force, and weaken skills. When demand later returns, the economy may not simply snap back to its previous trajectory.\n\nThe important idea is that the economy has memory. That distinguishes hysteresis from a model in which shocks are temporary deviations around a stable equilibrium. It also matters for policy: if downturns can cause lasting damage, then preventing a deep recession may have benefits that continue long after emergency support ends.\n\nA useful connection is path dependence. Both concepts emphasize history, but path dependence is broader: earlier events shape which future states are reachable. Hysteresis focuses more specifically on persistence after a disturbance. The empirical strength of hysteresis varies by country, period, and labor market, so it should not be treated as a universal law.',
-    alternate: 'Think of hysteresis as a dent rather than a bounce. If you press a rubber ball, it returns to shape; if you dent thin metal, removing your hand does not undo the change. Some economic shocks look more like the metal. A downturn can close firms, interrupt careers, reduce capital formation, and alter expectations. Even after the original cause disappears, those secondary effects remain.\n\nThis matters because two economies exposed to the same current conditions may behave differently if their recent histories differ. It also complicates the idea of a single “normal” unemployment rate. A long period of weak demand may itself change what normal looks like.\n\nThe concept connects economics with neuroscience and psychology, where repeated experience can also alter later responses. The analogy is not exact, but the common structure is useful: systems can be changed by what happens to them.'
+    id:'hysteresis', name:'Hysteresis', field:'Economics',
+    short:'Temporary shocks can leave persistent effects even after the original shock disappears.',
+    example:'A recession keeps workers unemployed long enough that some lose skills and remain unemployed even after demand recovers.',
+    why:'It changes how we think about recessions, labor markets, and whether temporary policy support can prevent permanent damage.',
+    deep:'Hysteresis describes systems whose present state depends partly on their history. In economics, temporary disturbances can alter the later path of employment, investment, skills, and expectations.',
+    alternate:'Think of hysteresis as a dent rather than a bounce. Some shocks leave structural traces after the initial pressure is gone.'
   },
   {
-    id: 'moral-luck',
-    name: 'Moral Luck',
-    field: 'Philosophy',
-    short: 'We often judge people differently because of outcomes or circumstances they did not fully control.',
-    example: 'Two equally reckless drunk drivers behave the same way, but only one happens to hit a pedestrian. We usually judge that driver more harshly.',
-    why: 'It exposes a tension between our belief that responsibility should track control and our actual moral judgments.',
-    deep: 'Moral luck is the problem that moral judgment often depends on factors outside an agent’s control. If two people make the same reckless choice but only one causes harm because of chance, our judgments typically diverge. Yet many theories of responsibility say people should be judged only for what they control.\n\nThe problem expands beyond outcomes. We do not choose our genes, family, early environment, historical moment, or many of the pressures that shape our character. Once taken seriously, this raises a difficult question: how much of what we praise or blame is genuinely attributable to the person rather than to luck?\n\nThe point is not that responsibility disappears. Rather, moral luck forces us to distinguish intention, character, action, consequence, and circumstance. Legal systems already do this imperfectly by separating attempt from completed harm while still treating outcomes as relevant. The concept connects directly to free will, criminal responsibility, inequality, and political debates about desert.',
-    alternate: 'Moral luck begins with an uncomfortable observation: we want morality to be fair, but luck keeps entering the picture. Imagine two negligent builders who make the same mistake. In one building nobody is hurt; in the other, an unlikely chain of events causes a death. Their negligence was identical, yet our response to them may not be.\n\nThis shows that moral judgment serves several functions at once. It evaluates intention, expresses social condemnation, responds to actual harm, and helps communities assign responsibility. Those functions do not always point in the same direction.\n\nThe concept also connects with economics and politics. Debates about merit, inheritance, poverty, and punishment often depend on hidden assumptions about how much people control the conditions that shape their outcomes.'
+    id:'moral-luck', name:'Moral Luck', field:'Philosophy',
+    short:'We often judge people differently because of outcomes or circumstances they did not fully control.',
+    example:'Two equally reckless drivers behave the same way, but only one happens to cause a fatal accident.',
+    why:'It exposes a tension between moral responsibility and the role of luck.',
+    deep:'Moral luck asks why praise and blame often depend on factors outside a person’s control.',
+    alternate:'We want responsibility to track control, yet our actual moral judgments often track consequences too.'
   },
   {
-    id: 'allostasis',
-    name: 'Allostasis',
-    field: 'Neuroscience · Psychology',
-    short: 'The body regulates itself partly by anticipating future demands rather than merely correcting deviations after they occur.',
-    example: 'Your heart rate can rise before a stressful presentation, preparing your body before any physical threat has happened.',
-    why: 'It reframes regulation as predictive and helps connect stress, physiology, emotion, and adaptation.',
-    deep: 'Allostasis is regulation through change. Instead of imagining the body as maintaining one fixed internal state, the concept emphasizes anticipatory adjustment. Your physiology shifts depending on what the brain expects you will need: heart rate, hormone levels, energy use, attention, and immune activity can all be altered in advance of demand.\n\nThis is useful for understanding stress. A stress response is not simply a malfunction; it is often an adaptive prediction that resources will soon be required. Problems arise when costly responses are repeatedly activated or poorly matched to actual conditions. Researchers sometimes discuss the cumulative burden of repeated adaptation as allostatic load.\n\nAllostasis connects naturally to predictive processing and interoception. The brain must estimate both the state of the body and what the body will soon require. The framework is influential, but specific claims about how broadly it explains disease or behavior need to be evaluated separately rather than treating allostasis as a catch-all explanation.',
-    alternate: 'Homeostasis is often pictured as a thermostat: temperature drifts, the system notices, and then corrects it. Allostasis adds prediction. A good organism does not wait until resources are depleted; it changes physiology before the demand arrives.\n\nThat means the “right” internal state depends on context. A lower heart rate may be appropriate while resting, while a higher one is useful before exertion. Regulation is therefore dynamic rather than fixed.\n\nThe concept becomes especially powerful when thinking about chronic stress. If the organism repeatedly predicts danger, it may repeatedly mobilize energy and cardiovascular resources. Even adaptive short-term responses can become costly when maintained too often or too long.'
+    id:'allostasis', name:'Allostasis', field:'Neuroscience · Psychology',
+    short:'The body regulates itself partly by anticipating future demands rather than merely correcting deviations after they occur.',
+    example:'Your heart rate can rise before a stressful presentation, preparing you before physical demand arrives.',
+    why:'It connects prediction, stress, physiology, and adaptation.',
+    deep:'Allostasis means regulation through change. The body anticipates demands and adjusts before the challenge fully arrives.',
+    alternate:'Homeostasis looks like a thermostat correcting errors. Allostasis adds prediction.'
   }
 ];
 
-const essays = [
-  { id: 'predictive-processing', title: 'Predictive Processing', field: 'Neuroscience · Philosophy', minutes: 20, teaser: 'How brains may use prediction and prediction error to construct perception and guide action.' },
-  { id: 'loss-aversion', title: 'Loss Aversion', field: 'Psychology · Economics', minutes: 18, teaser: 'Why losses can loom larger than comparable gains, and where the idea is stronger or weaker than popular accounts suggest.' },
-  { id: 'moral-luck', title: 'Moral Luck', field: 'Philosophy', minutes: 16, teaser: 'Why responsibility becomes difficult when outcomes depend on luck.' },
-  { id: 'polycentric-governance', title: 'Polycentric Governance', field: 'Political Science · Economics', minutes: 20, teaser: 'How multiple centers of decision-making can coordinate without a single controlling authority.' }
+const fallbackEssays = [
+  { id:'predictive-processing', title:'Predictive Processing', field:'Neuroscience · Philosophy', minutes:20, teaser:'How brains may use prediction and prediction error to construct perception and guide action.' },
+  { id:'moral-luck', title:'Moral Luck', field:'Philosophy', minutes:16, teaser:'Why responsibility becomes difficult when outcomes depend on luck.' }
 ];
 
 const news = [
   {
-    id: 'rates',
-    title: 'Central banks are balancing inflation control against weaker growth',
-    tag: 'Economics',
-    happened: 'A cluster of recent policy decisions has kept attention on how quickly major central banks can normalize interest rates without reigniting inflation or worsening a slowdown.',
-    matters: 'Interest-rate decisions affect borrowing costs, currencies, housing, investment, government finances, and expectations. The important issue is not a single rate move but the changing policy regime.',
-    larger: 'This connects to inflation expectations, central-bank credibility, the business cycle, and the political tension between price stability and employment.',
-    watch: 'Watch incoming inflation, wage, labor-market, and growth data, and whether central-bank communication shifts before actual policy does.'
+    id:'rates',
+    title:'Central banks are balancing inflation control against weaker growth',
+    tag:'Economics',
+    happened:'A cluster of recent policy decisions has kept attention on how quickly major central banks can normalize interest rates without reigniting inflation or worsening a slowdown.',
+    matters:'Interest-rate decisions affect borrowing costs, currencies, housing, investment, government finances, and expectations. The important issue is not a single rate move but the changing policy regime.',
+    larger:'This connects to inflation expectations, central-bank credibility, the business cycle, and the political tension between price stability and employment.',
+    watch:'Watch incoming inflation, wage, labor-market, and growth data, and whether central-bank communication shifts before actual policy does.'
   },
   {
-    id: 'industrial-policy',
-    title: 'Industrial policy is becoming a larger part of economic strategy',
-    tag: 'Politics · Economics',
-    happened: 'Governments are increasingly using subsidies, procurement rules, trade restrictions, and strategic investment to shape sectors considered important for resilience, technology, energy, or security.',
-    matters: 'This marks a partial shift away from a policy style that treated sectoral allocation as something governments should influence only sparingly.',
-    larger: 'The larger issue is the changing boundary between markets and states: efficiency versus resilience, national security, supply-chain dependence, and geopolitical competition.',
-    watch: 'Watch whether these policies create durable productive capacity, trigger retaliation, or mainly redistribute rents toward politically favored industries.'
+    id:'industrial-policy',
+    title:'Industrial policy is becoming a larger part of economic strategy',
+    tag:'Politics · Economics',
+    happened:'Governments are increasingly using subsidies, procurement rules, trade restrictions, and strategic investment to shape sectors considered important for resilience, technology, energy, or security.',
+    matters:'This marks a partial shift away from a policy style that treated sectoral allocation as something governments should influence only sparingly.',
+    larger:'The larger issue is the changing boundary between markets and states: efficiency versus resilience, national security, supply-chain dependence, and geopolitical competition.',
+    watch:'Watch whether these policies create durable productive capacity, trigger retaliation, or mainly redistribute rents toward politically favored industries.'
   }
 ];
-
-const longArc = {
-  '20': {
-    'Mind & Behavior': [
-      { title: 'The Replication Crisis', period: 'c. 2011–2018', summary: 'Large replication efforts exposed weaknesses in parts of experimental psychology and accelerated reforms in research practice.' },
-      { title: 'The Mainstreaming of Behavioral Science', period: 'c. 2006–2016', summary: 'Behavioral insights moved from specialist research into policy, business, and public discussion.' }
-    ],
-    'Politics & Institutions': [
-      { title: 'The Platformization of Political Communication', period: 'c. 2008–2016', summary: 'Social platforms became major infrastructures for political messaging, mobilization, and information competition.' }
-    ]
-  },
-  '50': {
-    'Economics': [
-      { title: 'The Neoliberal Turn', period: 'c. 1979–1995', summary: 'Privatization, deregulation, inflation control, and market-oriented reforms became more influential across many economies.' }
-    ],
-    'Science & Technology': [
-      { title: 'The Personal Computing Revolution', period: 'c. 1977–2000', summary: 'Computing moved from institutions into homes and workplaces, reshaping productivity, communication, and culture.' }
-    ]
-  },
-  '100': {
-    'Mind & Behavior': [
-      { title: 'The Cognitive Revolution', period: 'c. 1945–1970', summary: 'Psychology increasingly returned to internal processes such as memory, language, attention, and representation.' },
-      { title: 'The Rise of Modern Psychopharmacology', period: 'c. 1950–1975', summary: 'New psychiatric drugs transformed treatment and changed theories about the biological basis of mental disorders.' }
-    ],
-    'Economics': [
-      { title: 'The Keynesian Revolution', period: 'c. 1930–1950', summary: 'Macroeconomics was reshaped around aggregate demand, unemployment, and a larger stabilization role for government.' }
-    ],
-    'Politics & Institutions': [
-      { title: 'Decolonization', period: 'c. 1945–1975', summary: 'European empires contracted rapidly as dozens of new states emerged across Asia, Africa, and the Middle East.' }
-    ]
-  },
-  '500': {
-    'Philosophy & Ideas': [
-      { title: 'The Scientific Revolution', period: 'c. 1540–1700', summary: 'New methods, instruments, institutions, and mathematical approaches transformed natural philosophy into early modern science.' }
-    ],
-    'Politics & Institutions': [
-      { title: 'The Rise of the Fiscal-Military State', period: 'c. 1550–1700', summary: 'European states built stronger taxation, borrowing, and administrative systems to sustain increasingly expensive warfare.' }
-    ]
-  }
-};
 
 const fields = ['Mind & Behavior','Philosophy & Ideas','Economics','Politics & Institutions','Science & Technology','Society & Culture'];
 
@@ -113,51 +66,257 @@ function SectionTitle({ eyebrow, title, copy }) {
   return <div className="section-title"><div className="eyebrow">{eyebrow}</div><h1>{title}</h1>{copy && <p>{copy}</p>}</div>;
 }
 
-function AppButton({ children, variant='primary', onClick, disabled=false }) {
-  return <button disabled={disabled} onClick={onClick} className={'btn ' + variant}>{children}</button>;
+function AppButton({ children, variant='primary', onClick, disabled=false, type='button' }) {
+  return <button type={type} disabled={disabled} onClick={onClick} className={'btn ' + variant}>{children}</button>;
 }
 
 export default function Home() {
-  const [screen, setScreen] = useState('home');
-  const [worldTab, setWorldTab] = useState('brief');
-  const [selectedConcept, setSelectedConcept] = useState(null);
-  const [deepMode, setDeepMode] = useState('deep');
-  const [essay, setEssay] = useState(null);
-  const [year, setYear] = useState('100');
-  const [field, setField] = useState('Mind & Behavior');
-  const [arcTopic, setArcTopic] = useState(null);
-  const [flashIndex, setFlashIndex] = useState(0);
-  const [flashRevealed, setFlashRevealed] = useState(false);
-  const [progress, setProgress] = useState({ explored: [], generated: [], recall: {} });
+  const [screen,setScreen] = useState('home');
+  const [worldTab,setWorldTab] = useState('brief');
+  const [selectedConcept,setSelectedConcept] = useState(null);
+  const [deepMode,setDeepMode] = useState('deep');
+  const [essay,setEssay] = useState(null);
+  const [year,setYear] = useState('100');
+  const [field,setField] = useState('Mind & Behavior');
+  const [arcTopic,setArcTopic] = useState(null);
+
+  const [conceptLibrary,setConceptLibrary] = useState(fallbackConcepts);
+  const [essayLibrary,setEssayLibrary] = useState(fallbackEssays);
+  const [arcLibrary,setArcLibrary] = useState([]);
+  const [graphCounts,setGraphCounts] = useState({nodes:0,edges:0});
+  const [catalogLoading,setCatalogLoading] = useState(true);
+
+  const [session,setSession] = useState(null);
+  const [authOpen,setAuthOpen] = useState(false);
+  const [authMode,setAuthMode] = useState('login');
+  const [authEmail,setAuthEmail] = useState('');
+  const [authPassword,setAuthPassword] = useState('');
+  const [authBusy,setAuthBusy] = useState(false);
+  const [authMessage,setAuthMessage] = useState('');
+
+  const [progress,setProgress] = useState({explored:[],generated:[],recall:{}});
+  const [flashcards,setFlashcards] = useState([]);
+  const [flashIndex,setFlashIndex] = useState(0);
+  const [flashRevealed,setFlashRevealed] = useState(false);
 
   useEffect(() => {
-    try {
-      const saved = JSON.parse(localStorage.getItem('ios-progress') || 'null');
-      if (saved) setProgress(saved);
-    } catch {}
+    loadCatalog();
+
+    supabase.auth.getSession().then(({data}) => {
+      const s = data?.session || null;
+      setSession(s);
+      if (s?.user) loadUserState(s.user.id);
+    });
+
+    const {data:{subscription}} = supabase.auth.onAuthStateChange((_event,nextSession) => {
+      setSession(nextSession);
+      if (nextSession?.user) loadUserState(nextSession.user.id);
+      else {
+        setProgress({explored:[],generated:[],recall:{}});
+        setFlashcards([]);
+      }
+    });
+
+    return () => subscription.unsubscribe();
   }, []);
 
-  useEffect(() => {
-    try { localStorage.setItem('ios-progress', JSON.stringify(progress)); } catch {}
-  }, [progress]);
+  async function loadCatalog() {
+    setCatalogLoading(true);
 
-  const markExplored = (id) => {
-    setProgress(p => ({ ...p, explored: p.explored.includes(id) ? p.explored : [...p.explored, id] }));
-  };
+    const [conceptResult,essayResult,arcResult,nodeResult,edgeResult] = await Promise.all([
+      supabase.from('concepts').select('*').order('created_at',{ascending:true}),
+      supabase.from('essay_topics').select('*').order('created_at',{ascending:true}),
+      supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}),
+      supabase.from('knowledge_nodes').select('*',{count:'exact',head:true}),
+      supabase.from('knowledge_edges').select('*',{count:'exact',head:true})
+    ]);
 
-  const openConcept = (c) => {
+    if (conceptResult.data?.length) {
+      setConceptLibrary(conceptResult.data.map(c => ({
+        id:c.id,
+        name:c.name,
+        field:[c.primary_field,...(c.secondary_fields || [])].join(' · '),
+        short:c.short_description,
+        example:c.example,
+        why:c.why_it_matters,
+        deep:c.deep_explanation || c.short_description,
+        alternate:c.alternate_explanation || c.why_it_matters,
+        related:c.related_concepts || []
+      })));
+    }
+
+    if (essayResult.data?.length) {
+      setEssayLibrary(essayResult.data.map(e => ({
+        id:e.id,
+        title:e.title,
+        field:[e.primary_field,...(e.secondary_fields || [])].join(' · '),
+        minutes:e.target_minutes,
+        teaser:e.teaser
+      })));
+    }
+
+    if (arcResult.data) setArcLibrary(arcResult.data);
+    setGraphCounts({nodes:nodeResult.count || 0,edges:edgeResult.count || 0});
+    setCatalogLoading(false);
+  }
+
+  async function loadUserState(userId) {
+    const [progressResult,cardsResult] = await Promise.all([
+      supabase.from('user_progress').select('*').eq('user_id',userId),
+      supabase.from('flashcards')
+        .select('id,concept_id,state,interval_days,next_review_at,last_reviewed_at,times_reviewed,times_got_it,concept:concepts(id,name,primary_field,secondary_fields,short_description,example)')
+        .eq('user_id',userId)
+        .order('next_review_at',{ascending:true})
+    ]);
+
+    const rows = progressResult.data || [];
+    const explored = rows.filter(r => r.item_type === 'concept' && ['explored','completed','saved'].includes(r.status)).map(r => r.item_id);
+    const generated = rows.filter(r => r.item_type === 'essay').map(r => r.item_id);
+    const recall = {};
+
+    for (const card of cardsResult.data || []) {
+      if (card.state !== 'new') recall[card.concept_id] = card.state;
+    }
+
+    setProgress({explored:[...new Set(explored)],generated:[...new Set(generated)],recall});
+    setFlashcards(cardsResult.data || []);
+    setFlashIndex(0);
+  }
+
+  async function saveProgress(itemType,itemId,status,progressPercent=0) {
+    if (!session?.user) return;
+    await supabase.from('user_progress').upsert({
+      user_id:session.user.id,
+      item_type:itemType,
+      item_id:itemId,
+      status,
+      progress_percent:progressPercent,
+      last_opened_at:new Date().toISOString(),
+      completed_at:status === 'completed' ? new Date().toISOString() : null
+    },{onConflict:'user_id,item_type,item_id'});
+  }
+
+  async function ensureFlashcard(conceptId) {
+    if (!session?.user) return;
+    await supabase.from('flashcards').upsert({
+      user_id:session.user.id,
+      concept_id:conceptId
+    },{onConflict:'user_id,concept_id',ignoreDuplicates:true});
+  }
+
+  const dailyIds = ['hysteresis','moral-luck','allostasis'];
+  const dailyConcepts = useMemo(() => {
+    const preferred = dailyIds.map(id => conceptLibrary.find(c => c.id === id)).filter(Boolean);
+    return preferred.length === 3 ? preferred : conceptLibrary.slice(0,3);
+  },[conceptLibrary]);
+
+  const activeArc = useMemo(
+    () => arcLibrary.filter(t => String(t.historical_band) === year && t.primary_field === field),
+    [arcLibrary,year,field]
+  );
+
+  const dueFlashcards = useMemo(
+    () => flashcards.filter(f => new Date(f.next_review_at) <= new Date()),
+    [flashcards]
+  );
+
+  const currentFlashcard = dueFlashcards.length ? dueFlashcards[flashIndex % dueFlashcards.length] : null;
+  const reviewConcept = currentFlashcard?.concept ? {
+    id:currentFlashcard.concept.id,
+    name:currentFlashcard.concept.name,
+    field:[currentFlashcard.concept.primary_field,...(currentFlashcard.concept.secondary_fields || [])].join(' · '),
+    short:currentFlashcard.concept.short_description,
+    example:currentFlashcard.concept.example
+  } : null;
+
+  async function openConcept(c) {
     setSelectedConcept(c);
     setDeepMode('deep');
-    markExplored(c.id);
-  };
+    setProgress(p => ({...p,explored:p.explored.includes(c.id) ? p.explored : [...p.explored,c.id]}));
+    await saveProgress('concept',c.id,'explored');
+    if (session?.user) {
+      await ensureFlashcard(c.id);
+      await loadUserState(session.user.id);
+    }
+  }
 
-  const generateEssay = (item) => {
+  async function generateEssay(item) {
     setEssay(item);
-    setProgress(p => ({ ...p, generated: p.generated.includes(item.id) ? p.generated : [...p.generated, item.id] }));
+    setProgress(p => ({...p,generated:p.generated.includes(item.id) ? p.generated : [...p.generated,item.id]}));
+    await saveProgress('essay',item.id,'started');
     setScreen('essay-reader');
-  };
+  }
 
-  const activeArc = longArc[year]?.[field] || [];
+  async function rateFlashcard(rating) {
+    if (!currentFlashcard || !session?.user) return;
+
+    const old = currentFlashcard.interval_days || 0;
+    let nextInterval = 1;
+    if (rating === 'fuzzy') nextInterval = old <= 3 ? 3 : Math.max(3,Math.round(old * .6));
+    if (rating === 'got_it') {
+      if (old < 14) nextInterval = 14;
+      else if (old < 30) nextInterval = 30;
+      else if (old < 90) nextInterval = 90;
+      else nextInterval = 180;
+    }
+
+    const next = new Date();
+    next.setDate(next.getDate() + nextInterval);
+
+    await supabase.from('flashcards').update({
+      state:rating,
+      interval_days:nextInterval,
+      next_review_at:next.toISOString(),
+      last_reviewed_at:new Date().toISOString(),
+      times_reviewed:(currentFlashcard.times_reviewed || 0) + 1,
+      times_got_it:(currentFlashcard.times_got_it || 0) + (rating === 'got_it' ? 1 : 0)
+    }).eq('id',currentFlashcard.id);
+
+    await supabase.from('review_history').insert({
+      user_id:session.user.id,
+      flashcard_id:currentFlashcard.id,
+      rating
+    });
+
+    setProgress(p => ({...p,recall:{...p.recall,[currentFlashcard.concept_id]:rating}}));
+    setFlashRevealed(false);
+    await loadUserState(session.user.id);
+  }
+
+  async function submitAuth(e) {
+    e.preventDefault();
+    setAuthBusy(true);
+    setAuthMessage('');
+
+    let result;
+    if (authMode === 'signup') {
+      result = await supabase.auth.signUp({
+        email:authEmail,
+        password:authPassword,
+        options:{emailRedirectTo:window.location.origin}
+      });
+    } else {
+      result = await supabase.auth.signInWithPassword({email:authEmail,password:authPassword});
+    }
+
+    if (result.error) {
+      setAuthMessage(result.error.message);
+    } else if (result.data?.session) {
+      setAuthMessage('Synced.');
+      setAuthOpen(false);
+      setAuthPassword('');
+    } else {
+      setAuthMessage('Account created. Check your email if confirmation is required, then sign in.');
+      setAuthMode('login');
+    }
+
+    setAuthBusy(false);
+  }
+
+  async function signOut() {
+    await supabase.auth.signOut();
+    setAuthOpen(false);
+  }
 
   const nav = [
     ['home','Home'],
@@ -170,14 +329,19 @@ export default function Home() {
   return <main>
     <header className="topbar">
       <button className="wordmark" onClick={() => setScreen('home')}><span>IO</span><strong>Intellectual OS</strong></button>
-      <div className="top-meta"><span>{progress.explored.length} explored</span><span>{progress.generated.length} essays</span></div>
+      <div className="top-meta">
+        {session?.user ? <>
+          <span>Synced</span>
+          <button className="sync-button" onClick={signOut}>Sign out</button>
+        </> : <button className="sync-button" onClick={() => setAuthOpen(true)}>Sign in to sync</button>}
+      </div>
     </header>
 
     <div className="app-shell">
       <aside className="sidebar">
         <div className="side-label">LEARN</div>
         {nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}>{label}</button>)}
-        <div className="side-note"><b>Long game</b><span>Read deeply. Connect widely. Return often.</span></div>
+        <div className="side-note"><b>Long game</b><span>{session?.user ? 'Your progress is synced.' : 'Sign in once to carry progress across devices.'}</span></div>
       </aside>
 
       <section className="content">
@@ -190,21 +354,9 @@ export default function Home() {
           </section>
 
           <section className="home-principles">
-            <article>
-              <span>01</span>
-              <h3>Go deeper than the headline.</h3>
-              <p>Prefer mechanisms, history, evidence, and competing explanations over the comfort of a quick opinion.</p>
-            </article>
-            <article>
-              <span>02</span>
-              <h3>Collect models, not trivia.</h3>
-              <p>A useful concept should change what you notice elsewhere. The point is connection, not accumulation.</p>
-            </article>
-            <article>
-              <span>03</span>
-              <h3>Return until it becomes yours.</h3>
-              <p>Ideas become part of your thinking through repeated encounters, not through one impressive reading session.</p>
-            </article>
+            <article><span>01</span><h3>Go deeper than the headline.</h3><p>Prefer mechanisms, history, evidence, and competing explanations over the comfort of a quick opinion.</p></article>
+            <article><span>02</span><h3>Collect models, not trivia.</h3><p>A useful concept should change what you notice elsewhere. The point is connection, not accumulation.</p></article>
+            <article><span>03</span><h3>Return until it becomes yours.</h3><p>Ideas become part of your thinking through repeated encounters, not through one impressive reading session.</p></article>
           </section>
 
           <section className="home-progress">
@@ -220,16 +372,13 @@ export default function Home() {
             </div>
           </section>
 
-          <div className="home-closing">
-            <span className="home-rule"></span>
-            <p>Choose a direction when curiosity pulls you. The rest of the app is waiting in the navigation.</p>
-          </div>
+          <div className="home-closing"><span className="home-rule"></span><p>{session?.user ? 'Progress is now stored in Supabase and follows your account.' : 'Sign in to make this progress follow you across iPhone, iPad, and desktop.'}</p></div>
         </div>}
 
         {screen==='essays' && <>
-          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Understand something properly." copy="The final version will generate a 15–20 minute essay on demand and save it permanently." />
+          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Understand something properly." copy="The curriculum now comes from the database. Full API generation is the next phase." />
           <div className="list-grid">
-            {essays.map(e => <article key={e.id} className="topic-row">
+            {essayLibrary.map(e => <article key={e.id} className="topic-row">
               <div><Pill>{e.field}</Pill><h3>{e.title}</h3><p>{e.teaser}</p><small>≈ {e.minutes} min</small></div>
               <AppButton onClick={() => generateEssay(e)}>Generate Full Essay</AppButton>
             </article>)}
@@ -237,9 +386,9 @@ export default function Home() {
         </>}
 
         {screen==='concepts' && <>
-          <SectionTitle eyebrow="PART II · DISCOVER" title="Three concepts of the day." copy="Short enough to scan. Deep enough to open a door." />
+          <SectionTitle eyebrow="PART II · DISCOVER" title="Three concepts of the day." copy={catalogLoading ? 'Loading the curated concept library…' : 'These cards are now coming from Supabase rather than hard-coded page data.'} />
           <div className="concept-grid">
-            {concepts.map(c => <article key={c.id} className="concept">
+            {dailyConcepts.map(c => <article key={c.id} className="concept">
               <Pill>{c.field}</Pill><h2>{c.name}</h2><p className="concept-short">{c.short}</p>
               <div className="example"><small>EXAMPLE</small><p>{c.example}</p></div>
               <div className="whyline"><small>WHY IT MATTERS</small><p>{c.why}</p></div>
@@ -257,7 +406,7 @@ export default function Home() {
                 <AppButton variant="secondary" onClick={() => setDeepMode(deepMode==='deep'?'alternate':'deep')}>Generate Another Explanation</AppButton>
                 <AppButton onClick={() => generateEssay({id:selectedConcept.id,title:selectedConcept.name,field:selectedConcept.field,teaser:selectedConcept.short,minutes:20})}>Generate Full Essay</AppButton>
               </div>
-              <div className="evidence"><small>EVIDENCE LAYER · PREVIEW</small><div><Pill>Core idea: established</Pill><Pill>Broader implications: context dependent</Pill></div></div>
+              <div className="evidence"><small>EVIDENCE LAYER · PREVIEW</small><div><Pill>Core idea: curated</Pill><Pill>Source layer arrives with research mode</Pill></div></div>
             </article>
           </div>}
         </>}
@@ -283,44 +432,66 @@ export default function Home() {
               <div className="branch-left"><small>CHOOSE FIELD</small>{fields.map(f => <button key={f} className={field===f?'active':''} onClick={() => {setField(f);setArcTopic(null)}}>{f}</button>)}</div>
               <div className="branch-right">
                 <div className="branch-title"><small>{year} YEAR BAND</small><h2>{field}</h2></div>
-                {activeArc.length ? activeArc.map(t => <button className="arc-topic" key={t.title} onClick={() => setArcTopic(t)}><span>{t.period}</span><h3>{t.title}</h3><p>{t.summary}</p><b>Open topic →</b></button>) : <div className="empty"><h3>Not populated in prototype v1.</h3><p>The branch works; we will expand the curriculum after the UX is locked.</p></div>}
+                {activeArc.length ? activeArc.map(t => <button className="arc-topic" key={t.id} onClick={() => setArcTopic(t)}><span>{t.period_label}</span><h3>{t.title}</h3><p>{t.summary}</p><b>Open topic →</b></button>) : <div className="empty"><h3>Not populated yet.</h3><p>The branch exists in the database; we will expand the curriculum after the system is working end to end.</p></div>}
               </div>
             </div>
             {arcTopic && <div className="drawer-backdrop" onClick={() => setArcTopic(null)}><article className="drawer" onClick={e=>e.stopPropagation()}>
-              <div className="drawer-head"><div><Pill>{field} · {arcTopic.period}</Pill><h2>{arcTopic.title}</h2></div><button onClick={() => setArcTopic(null)}>×</button></div>
-              <p className="deep-copy">{arcTopic.summary} The full version will explain the transition as <b>before → pressure/change → turning point → consequences</b>, while distinguishing documented facts from historical interpretation.</p>
-              <div className="actions"><AppButton>Understand the Shift</AppButton><AppButton variant="secondary">What Came Before?</AppButton><AppButton variant="secondary">What Did This Lead To?</AppButton><AppButton variant="secondary">Full Historical Deep Dive</AppButton></div>
+              <div className="drawer-head"><div><Pill>{field} · {arcTopic.period_label}</Pill><h2>{arcTopic.title}</h2></div><button onClick={() => setArcTopic(null)}>×</button></div>
+              <p className="deep-copy">{arcTopic.summary}{arcTopic.why_it_matters ? '\n\nWhy it matters: ' + arcTopic.why_it_matters : ''}</p>
+              <div className="actions"><AppButton onClick={() => saveProgress('long_arc',arcTopic.id,'explored')}>Understand the Shift</AppButton><AppButton variant="secondary">What Came Before?</AppButton><AppButton variant="secondary">What Did This Lead To?</AppButton><AppButton variant="secondary">Full Historical Deep Dive</AppButton></div>
             </article></div>}
           </div>}
         </>}
 
         {screen==='review' && <>
-          <SectionTitle eyebrow="PART IV · REVIEW & MEMORY" title="Recall without homework." copy="Reveal the answer, then tell the system whether it was forgotten, fuzzy, or solid." />
+          <SectionTitle eyebrow="PART IV · REVIEW & MEMORY" title="Recall without homework." copy={session?.user ? 'Your review queue is now stored in the database.' : 'Sign in, then explore concepts. They will automatically enter your review queue.'} />
           <div className="review-layout">
             <article className="flashcard">
-              <small>FLASHCARD {flashIndex+1} / {concepts.length}</small>
-              <Pill>{concepts[flashIndex].field}</Pill>
-              <h2>{concepts[flashIndex].name}</h2>
-              {!flashRevealed ? <><p>Do you remember what this means?</p><AppButton onClick={() => setFlashRevealed(true)}>Reveal</AppButton></> :
-              <><p className="answer">{concepts[flashIndex].short}</p><div className="example"><small>EXAMPLE</small><p>{concepts[flashIndex].example}</p></div>
-              <div className="recall-buttons">{['Forgot','Fuzzy','Got it'].map(v => <button key={v} onClick={() => {setProgress(p=>({...p,recall:{...p.recall,[concepts[flashIndex].id]:v}}));setFlashRevealed(false);setFlashIndex((flashIndex+1)%concepts.length)}}>{v}</button>)}</div></>}
+              {reviewConcept ? <>
+                <small>FLASHCARD {flashIndex+1} / {dueFlashcards.length}</small>
+                <Pill>{reviewConcept.field}</Pill>
+                <h2>{reviewConcept.name}</h2>
+                {!flashRevealed ? <><p>Do you remember what this means?</p><AppButton onClick={() => setFlashRevealed(true)}>Reveal</AppButton></> :
+                <><p className="answer">{reviewConcept.short}</p><div className="example"><small>EXAMPLE</small><p>{reviewConcept.example}</p></div>
+                <div className="recall-buttons">
+                  <button onClick={() => rateFlashcard('forgot')}>Forgot</button>
+                  <button onClick={() => rateFlashcard('fuzzy')}>Fuzzy</button>
+                  <button onClick={() => rateFlashcard('got_it')}>Got it</button>
+                </div></>}
+              </> : <>
+                <small>REVIEW QUEUE</small>
+                <h2>{session?.user ? 'Nothing due.' : 'Sign in to sync.'}</h2>
+                <p>{session?.user ? 'Explore a concept to add it automatically, or return when the next review becomes due.' : 'Your flashcards, intervals, and review history will follow your account across devices.'}</p>
+                {!session?.user && <AppButton onClick={() => setAuthOpen(true)}>Sign in</AppButton>}
+              </>}
             </article>
+
             <article className="month-card">
-              <small>MONTHLY INTELLECTUAL REVIEW · PREVIEW</small><h2>September</h2>
-              <div className="metric-grid"><div><b>{progress.explored.length}</b><span>concepts explored</span></div><div><b>{progress.generated.length}</b><span>essays generated</span></div><div><b>{Object.keys(progress.recall).length}</b><span>concepts reviewed</span></div></div>
-              <p>Your final monthly synthesis will identify recurring themes, durable concepts, weaker areas, and cross-field connections without pretending to measure “intelligence” with a fake score.</p>
+              <small>MONTHLY INTELLECTUAL REVIEW · LIVE METRICS</small><h2>September</h2>
+              <div className="metric-grid">
+                <div><b>{progress.explored.length}</b><span>concepts explored</span></div>
+                <div><b>{progress.generated.length}</b><span>deep dives opened</span></div>
+                <div><b>{Object.keys(progress.recall).length}</b><span>concepts reviewed</span></div>
+              </div>
+              <p>The monthly AI synthesis comes later. The underlying activity data is now structured and ready for it.</p>
             </article>
           </div>
-          <article className="graph-preview"><small>KNOWLEDGE GRAPH · PREVIEW</small><h2>Connections become part of the product.</h2><div className="graph-row"><span>Hysteresis</span><i>related to</i><span>Path Dependence</span><i>applied to</i><span>Unemployment</span></div><p>The final system stores canonical nodes and typed relationships such as influenced, contrasts with, emerged from, led to, prerequisite for, and application of.</p></article>
+
+          <article className="graph-preview">
+            <small>KNOWLEDGE GRAPH · DATABASE</small>
+            <h2>{graphCounts.nodes} nodes · {graphCounts.edges} curated connections</h2>
+            <div className="graph-row"><span>Hysteresis</span><i>related to</i><span>Path Dependence</span><i>applied to</i><span>Unemployment</span></div>
+            <p>The graph now exists in Supabase with canonical nodes and typed edges. We will make it interactive later.</p>
+          </article>
         </>}
 
         {screen==='essay-reader' && essay && <>
           <button className="back-link" onClick={() => setScreen('essays')}>← Deep Essays</button>
           <article className="reader">
             <Pill>{essay.field}</Pill><h1>{essay.title}</h1><p className="lede">{essay.teaser}</p>
-            <div className="reader-meta"><span>≈ {essay.minutes} min</span><span>Saved after generation</span><span>Source layer available</span></div>
-            <h2>The central problem</h2><p>This prototype intentionally does not generate the full essay yet. In the API-connected version, this screen will stream a rigorous long-form essay using the fixed production prompt we designed, then save it so reopening the essay does not trigger another API call.</p>
-            <h2>What the finished essay will do</h2><p>It will define the idea precisely, explain mechanisms and intellectual history, examine evidence and competing interpretations, use memorable examples, connect the topic across disciplines, identify unresolved questions, and finish with serious further reading.</p>
+            <div className="reader-meta"><span>≈ {essay.minutes} min</span><span>{session?.user ? 'Opening saved to your account' : 'Sign in to save progress'}</span><span>Source layer planned</span></div>
+            <h2>The central problem</h2><p>This is still the prototype reader. The topic and your reading state are now part of the real data model. In the next phase, this screen will stream the full generated essay and cache it in the generated_content table.</p>
+            <h2>What is now real</h2><p>The curriculum lives in Supabase, the app can authenticate you, explored concepts create flashcards automatically, review intervals are stored, and progress can sync across devices under the same account.</p>
             <div className="source-box"><small>EVIDENCE & SOURCES</small><p><b>Research synthesis</b> · systematic reviews and major review papers</p><p><b>Primary material</b> · original studies, data, legislation, speeches, or historical documents</p><p><b>Interpretation</b> · clearly separated from empirical evidence</p></div>
           </article>
         </>}
@@ -328,5 +499,19 @@ export default function Home() {
     </div>
 
     <nav className="bottom-nav">{nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}><span>{label==='3 Concepts'?'Concepts':label}</span></button>)}</nav>
+
+    {authOpen && <div className="auth-backdrop" onClick={() => setAuthOpen(false)}>
+      <form className="auth-card" onSubmit={submitAuth} onClick={e => e.stopPropagation()}>
+        <button className="auth-close" type="button" onClick={() => setAuthOpen(false)}>×</button>
+        <small>PRIVATE SYNC</small>
+        <h2>{authMode === 'login' ? 'Sign in.' : 'Create your account.'}</h2>
+        <p>Use the same account on iPhone, iPad, and desktop and your learning state follows you.</p>
+        <label>Email<input type="email" required value={authEmail} onChange={e => setAuthEmail(e.target.value)} autoComplete="email" /></label>
+        <label>Password<input type="password" required minLength="6" value={authPassword} onChange={e => setAuthPassword(e.target.value)} autoComplete={authMode === 'login' ? 'current-password' : 'new-password'} /></label>
+        {authMessage && <div className="auth-message">{authMessage}</div>}
+        <AppButton type="submit" disabled={authBusy}>{authBusy ? 'Working…' : authMode === 'login' ? 'Sign in' : 'Create account'}</AppButton>
+        <button className="auth-switch" type="button" onClick={() => {setAuthMode(authMode === 'login' ? 'signup' : 'login');setAuthMessage('')}}>{authMode === 'login' ? 'Need an account? Create one' : 'Already have an account? Sign in'}</button>
+      </form>
+    </div>}
   </main>;
 }
