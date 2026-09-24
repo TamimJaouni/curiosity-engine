@@ -177,30 +177,54 @@ export default function Home() {
       <aside className="sidebar">
         <div className="side-label">LEARN</div>
         {nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}>{label}</button>)}
-        <div className="side-note"><b>Prototype v1</b><span>Structure first. Content expands later.</span></div>
+        <div className="side-note"><b>Long game</b><span>Read deeply. Connect widely. Return often.</span></div>
       </aside>
 
       <section className="content">
-        {screen==='home' && <>
-          <SectionTitle eyebrow="TODAY" title="A quieter way to get smarter." copy="Discover a few ideas, understand what matters in the world, then reinforce what is worth keeping." />
-          <div className="dashboard">
-            <button className="feature-card hero-card" onClick={() => setScreen('concepts')}>
-              <small>3 CONCEPTS OF THE DAY</small>
-              <h2>Hysteresis · Moral Luck · Allostasis</h2>
-              <p>Three high-level ideas with a concrete example. Go deeper only when one catches you.</p>
-              <b>Explore today →</b>
-            </button>
-            <button className="feature-card" onClick={() => setScreen('world')}>
-              <small>DAILY BRIEF</small><h3>2 developments worth understanding</h3><p>Politics and economics, stripped of headline noise.</p><b>Read brief →</b>
-            </button>
-            <button className="feature-card" onClick={() => {setWorldTab('arc');setScreen('world')}}>
-              <small>LONG ARC</small><h3>How did the present become possible?</h3><p>Browse 10 to 500-year historical bands.</p><b>Travel through time →</b>
-            </button>
-            <button className="feature-card" onClick={() => setScreen('review')}>
-              <small>REVIEW</small><h3>{concepts.length} concepts ready to recall</h3><p>Reveal-first flashcards. No writing required.</p><b>Start review →</b>
-            </button>
+        {screen==='home' && <div className="home-sanctuary">
+          <section className="home-hero">
+            <div className="home-kicker"><span className="pulse-dot"></span> DAILY PRACTICE</div>
+            <h1>Your mind is a long project.</h1>
+            <p className="home-manifesto">You do not need to know everything today. You need to keep returning to difficult ideas until the world becomes more legible, your judgments become sharper, and your curiosity becomes harder to exhaust.</p>
+            <div className="home-credo">Build a mind that can hold complexity without losing clarity.</div>
+          </section>
+
+          <section className="home-principles">
+            <article>
+              <span>01</span>
+              <h3>Go deeper than the headline.</h3>
+              <p>Prefer mechanisms, history, evidence, and competing explanations over the comfort of a quick opinion.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Collect models, not trivia.</h3>
+              <p>A useful concept should change what you notice elsewhere. The point is connection, not accumulation.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Return until it becomes yours.</h3>
+              <p>Ideas become part of your thinking through repeated encounters, not through one impressive reading session.</p>
+            </article>
+          </section>
+
+          <section className="home-progress">
+            <div className="progress-copy">
+              <small>YOUR LONG GAME</small>
+              <h2>Compounding quietly.</h2>
+              <p>No feed to clear. No streak to defend. The only aim is to leave each month with a richer map of the world than you had before.</p>
+            </div>
+            <div className="progress-stats">
+              <div><b>{progress.explored.length}</b><span>ideas explored</span></div>
+              <div><b>{progress.generated.length}</b><span>deep dives saved</span></div>
+              <div><b>{Object.keys(progress.recall).length}</b><span>ideas revisited</span></div>
+            </div>
+          </section>
+
+          <div className="home-closing">
+            <span className="home-rule"></span>
+            <p>Choose a direction when curiosity pulls you. The rest of the app is waiting in the navigation.</p>
           </div>
-        </>}
+        </div>}
 
         {screen==='essays' && <>
           <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Understand something properly." copy="The final version will generate a 15–20 minute essay on demand and save it permanently." />
