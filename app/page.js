@@ -162,7 +162,10 @@ export default function Home() {
 
     if (essayNodeResult.data) {
       setEssayNodes(essayNodeResult.data);
-      setExpandedEssayNodes(essayNodeResult.data.map(n => n.id));
+      const initialOpen = essayNodeResult.data
+        .filter(n => !n.parent_id || n.parent_id === 'history-politics')
+        .map(n => n.id);
+      setExpandedEssayNodes(initialOpen);
     }
     if (essayQuestionResult.data) setEssayQuestions(essayQuestionResult.data);
     if (arcResult.data) setArcLibrary(arcResult.data);
