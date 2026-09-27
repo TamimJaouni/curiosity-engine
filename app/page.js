@@ -82,6 +82,9 @@ export default function Home() {
 
   const [conceptLibrary,setConceptLibrary] = useState(fallbackConcepts);
   const [essayLibrary,setEssayLibrary] = useState(fallbackEssays);
+  const [essayNodes,setEssayNodes] = useState([]);
+  const [essayQuestions,setEssayQuestions] = useState([]);
+  const [expandedEssayNodes,setExpandedEssayNodes] = useState([]);
   const [arcLibrary,setArcLibrary] = useState([]);
   const [graphCounts,setGraphCounts] = useState({nodes:0,edges:0});
   const [catalogLoading,setCatalogLoading] = useState(true);
@@ -123,12 +126,14 @@ export default function Home() {
   async function loadCatalog() {
     setCatalogLoading(true);
 
-    const [conceptResult,essayResult,arcResult,nodeResult,edgeResult] = await Promise.all([
+    const [conceptResult,essayResult,arcResult,knowledgeNodeResult,edgeResult,essayNodeResult,essayQuestionResult] = await Promise.all([
       supabase.from('concepts').select('*').order('created_at',{ascending:true}),
       supabase.from('essay_topics').select('*').order('created_at',{ascending:true}),
       supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}),
       supabase.from('knowledge_nodes').select('*',{count:'exact',head:true}),
-      supabase.from('knowledge_edges').select('*',{count:'exact',head:true})
+      supabase.from('knowledge_edges').select('*',{count:'exact',head:true}),
+      supabase.from('essay_nodes').select('*').order('sort_order',{ascending:true}),
+      supabase.from('essay_questions').select('*').order('sort_order',{ascending:true})
     ]);
 
     if (conceptResult.data?.length) {
@@ -155,8 +160,13 @@ export default function Home() {
       })));
     }
 
+    if (essayNodeResult.data) {
+      setEssayNodes(essayNodeResult.data);
+      setExpandedEssayNodes(essayNodeResult.data.map(n => n.id));
+    }
+    if (essayQuestionResult.data) setEssayQuestions(essayQuestionResult.data);
     if (arcResult.data) setArcLibrary(arcResult.data);
-    setGraphCounts({nodes:nodeResult.count || 0,edges:edgeResult.count || 0});
+    setGraphCounts({nodes:knowledgeNodeResult.count || 0,edges:edgeResult.count || 0});
     setCatalogLoading(false);
   }
 
@@ -318,6 +328,64 @@ export default function Home() {
     setAuthOpen(false);
   }
 
+  const essayChildren = useMemo(() => {
+    const map = {};
+    for (const node of essayNodes) {
+      const key = node.parent_id || 'root';
+      if (!map[key]) map[key] = [];
+      map[key].push(node);
+    }
+    return map;
+  },[essayNodes]);
+
+  const essayQuestionsByNode = useMemo(() => {
+    const map = {};
+    for (const q of essayQuestions) {
+      if (!map[q.node_id]) map[q.node_id] = [];
+      map[q.node_id].push(q);
+    }
+    return map;
+  },[essayQuestions]);
+
+  function toggleEssayNode(id) {
+    setExpandedEssayNodes(current =>
+      current.includes(id) ? current.filter(x => x !== id) : [...current,id]
+    );
+  }
+
+  function renderEssayNode(node,depth=0) {
+    const children = essayChildren[node.id] || [];
+    const questions = essayQuestionsByNode[node.id] || [];
+    const open = expandedEssayNodes.includes(node.id);
+    const expandable = children.length > 0 || questions.length > 0;
+
+    return <div className="essay-tree-node" key={node.id}>
+      <button
+        className="essay-node-row"
+        style={{'--depth':depth}}
+        onClick={() => expandable && toggleEssayNode(node.id)}
+      >
+        <span className="essay-tree-line">{depth === 0 ? '└─' : '├─'}</span>
+        <span className="essay-node-title">{node.title}</span>
+        <span className="essay-node-type">{node.node_type.replaceAll('_',' ')}</span>
+        {expandable && <span className="essay-node-toggle">{open ? '−' : '+'}</span>}
+      </button>
+
+      {open && questions.length > 0 && <div className="essay-question-list">
+        {questions.map(q => <div className="essay-question-row" style={{'--depth':depth + 1}} key={q.id}>
+          <span className="essay-tree-line">└─</span>
+          <div>
+            <small>ESSAY QUESTION</small>
+            <p>{q.question}</p>
+          </div>
+          <button className="essay-generate-later" disabled>Generate Essay</button>
+        </div>)}
+      </div>}
+
+      {open && children.map(child => renderEssayNode(child,depth + 1))}
+    </div>;
+  }
+
   const nav = [
     ['home','Home'],
     ['essays','Essays'],
@@ -376,12 +444,15 @@ export default function Home() {
         </div>}
 
         {screen==='essays' && <>
-          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Understand something properly." copy="The curriculum now comes from the database. Full API generation is the next phase." />
-          <div className="list-grid">
-            {essayLibrary.map(e => <article key={e.id} className="topic-row">
-              <div><Pill>{e.field}</Pill><h3>{e.title}</h3><p>{e.teaser}</p><small>≈ {e.minutes} min</small></div>
-              <AppButton onClick={() => generateEssay(e)}>Generate Full Essay</AppButton>
-            </article>)}
+          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Follow an idea as far as it goes." copy="Browse the intellectual tree. Questions can live at any level; essay generation will be connected after the structure is finished." />
+          <div className="essay-tree-shell">
+            <div className="essay-tree-head">
+              <div><small>CURATED TREE</small><h2>History & Politics</h2></div>
+              <span>{essayNodes.length} nodes · {essayQuestions.length} essay questions</span>
+            </div>
+            <div className="essay-tree">
+              {(essayChildren.root || []).map(node => renderEssayNode(node,0))}
+            </div>
           </div>
         </>}
 
