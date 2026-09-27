@@ -70,6 +70,27 @@ function AppButton({ children, variant='primary', onClick, disabled=false, type=
   return <button type={type} disabled={disabled} onClick={onClick} className={'btn ' + variant}>{children}</button>;
 }
 
+async function fetchAllRows(table, orderColumn='sort_order') {
+  const pageSize = 1000;
+  let from = 0;
+  let all = [];
+
+  while (true) {
+    const {data,error} = await supabase
+      .from(table)
+      .select('*')
+      .order(orderColumn,{ascending:true})
+      .range(from,from + pageSize - 1);
+
+    if (error) return {data:all,error};
+    all = all.concat(data || []);
+    if (!data || data.length < pageSize) break;
+    from += pageSize;
+  }
+
+  return {data:all,error:null};
+}
+
 export default function Home() {
   const [screen,setScreen] = useState('home');
   const [worldTab,setWorldTab] = useState('brief');
@@ -132,8 +153,8 @@ export default function Home() {
       supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}),
       supabase.from('knowledge_nodes').select('*',{count:'exact',head:true}),
       supabase.from('knowledge_edges').select('*',{count:'exact',head:true}),
-      supabase.from('essay_nodes').select('*').order('sort_order',{ascending:true}),
-      supabase.from('essay_questions').select('*').order('sort_order',{ascending:true})
+      fetchAllRows('essay_nodes','sort_order'),
+      fetchAllRows('essay_questions','sort_order')
     ]);
 
     if (conceptResult.data?.length) {
@@ -163,7 +184,7 @@ export default function Home() {
     if (essayNodeResult.data) {
       setEssayNodes(essayNodeResult.data);
       const initialOpen = essayNodeResult.data
-        .filter(n => !n.parent_id || n.parent_id === 'history-politics')
+        .filter(n => !n.parent_id)
         .map(n => n.id);
       setExpandedEssayNodes(initialOpen);
     }
@@ -450,7 +471,7 @@ export default function Home() {
           <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Follow an idea as far as it goes." copy="Browse the intellectual tree. Questions can live at any level; essay generation will be connected after the structure is finished." />
           <div className="essay-tree-shell">
             <div className="essay-tree-head">
-              <div><small>CURATED TREE</small><h2>History & Politics</h2></div>
+              <div><small>CURATED TREE</small><h2>Deep Essays Curriculum</h2></div>
               <span>{essayNodes.length} nodes · {essayQuestions.length} essay questions</span>
             </div>
             <div className="essay-tree">
