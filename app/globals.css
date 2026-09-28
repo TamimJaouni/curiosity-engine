@@ -1084,6 +1084,89 @@ button:disabled{opacity:.45;cursor:not-allowed}
   font-size:9px;
   cursor:not-allowed;
 }
+
+.essay-connections{
+  padding:8px 6px 14px calc(4px + (var(--depth) * 28px));
+  border-top:1px solid rgba(92,74,52,.09);
+}
+.essay-connections-head{
+  display:grid;
+  grid-template-columns:28px minmax(0,1fr);
+  gap:10px;
+  align-items:start;
+  margin-bottom:8px;
+}
+.essay-connections-head div{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  min-width:0;
+}
+.essay-connections-head small{
+  color:var(--burgundy);
+  font-size:7px;
+  font-weight:800;
+  letter-spacing:.16em;
+}
+.essay-connections-head div>span{
+  color:var(--muted);
+  font-family:var(--serif);
+  font-size:11px;
+  font-style:italic;
+}
+.essay-connection-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:8px;
+  padding-left:38px;
+}
+.essay-connection-card{
+  position:relative;
+  min-width:0;
+  display:grid;
+  gap:4px;
+  padding:11px 34px 11px 12px;
+  border:1px solid rgba(92,74,52,.16);
+  background:rgba(255,252,244,.38);
+  text-align:left;
+  cursor:pointer;
+}
+.essay-connection-card:hover{
+  border-color:rgba(110,60,59,.38);
+  background:rgba(110,60,59,.045);
+}
+.essay-connection-relation{
+  color:var(--bronze);
+  font-size:7px;
+  font-weight:800;
+  letter-spacing:.14em;
+}
+.essay-connection-card strong{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:15px;
+  font-weight:600;
+}
+.essay-connection-fields{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  color:var(--muted);
+  font-family:var(--serif);
+  font-size:10px;
+  font-style:italic;
+}
+.essay-connection-arrow{
+  position:absolute;
+  right:11px;
+  top:50%;
+  transform:translateY(-50%);
+  color:var(--burgundy);
+  font-size:15px;
+}
 @media(max-width:720px){
   .essay-tree-head{align-items:flex-start;flex-direction:column;gap:8px}
   .essay-tree-head h2{font-size:30px}
@@ -1100,4 +1183,22 @@ button:disabled{opacity:.45;cursor:not-allowed}
   }
   .essay-question-row p{font-size:15px}
   .essay-generate-later{display:none}
+  .essay-connections{
+    padding-left:calc(0px + (var(--depth) * 18px));
+  }
+  .essay-connections-head{
+    grid-template-columns:22px minmax(0,1fr);
+    gap:7px;
+  }
+  .essay-connections-head div{
+    display:block;
+  }
+  .essay-connections-head div>span{
+    display:block;
+    margin-top:3px;
+  }
+  .essay-connection-grid{
+    grid-template-columns:1fr;
+    padding-left:29px;
+  }
 }
