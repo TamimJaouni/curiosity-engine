@@ -105,6 +105,9 @@ export default function Home() {
   const [essayLibrary,setEssayLibrary] = useState(fallbackEssays);
   const [essayNodes,setEssayNodes] = useState([]);
   const [essayQuestions,setEssayQuestions] = useState([]);
+  const [knowledgeNodes,setKnowledgeNodes] = useState([]);
+  const [knowledgeEdges,setKnowledgeEdges] = useState([]);
+  const [essayKnowledgeLinks,setEssayKnowledgeLinks] = useState([]);
   const [expandedEssayNodes,setExpandedEssayNodes] = useState([]);
   const [arcLibrary,setArcLibrary] = useState([]);
   const [graphCounts,setGraphCounts] = useState({nodes:0,edges:0});
@@ -147,12 +150,13 @@ export default function Home() {
   async function loadCatalog() {
     setCatalogLoading(true);
 
-    const [conceptResult,essayResult,arcResult,knowledgeNodeResult,edgeResult,essayNodeResult,essayQuestionResult] = await Promise.all([
+    const [conceptResult,essayResult,arcResult,knowledgeNodeResult,edgeResult,essayLinkResult,essayNodeResult,essayQuestionResult] = await Promise.all([
       supabase.from('concepts').select('*').order('created_at',{ascending:true}),
       supabase.from('essay_topics').select('*').order('created_at',{ascending:true}),
       supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}),
-      supabase.from('knowledge_nodes').select('*',{count:'exact',head:true}),
-      supabase.from('knowledge_edges').select('*',{count:'exact',head:true}),
+      fetchAllRows('knowledge_nodes','created_at'),
+      fetchAllRows('knowledge_edges','created_at'),
+      fetchAllRows('essay_node_knowledge_links','created_at'),
       fetchAllRows('essay_nodes','sort_order'),
       fetchAllRows('essay_questions','sort_order')
     ]);
@@ -189,8 +193,14 @@ export default function Home() {
       setExpandedEssayNodes(initialOpen);
     }
     if (essayQuestionResult.data) setEssayQuestions(essayQuestionResult.data);
+    if (knowledgeNodeResult.data) setKnowledgeNodes(knowledgeNodeResult.data);
+    if (edgeResult.data) setKnowledgeEdges(edgeResult.data);
+    if (essayLinkResult.data) setEssayKnowledgeLinks(essayLinkResult.data);
     if (arcResult.data) setArcLibrary(arcResult.data);
-    setGraphCounts({nodes:knowledgeNodeResult.count || 0,edges:edgeResult.count || 0});
+    setGraphCounts({
+      nodes:knowledgeNodeResult.data?.length || 0,
+      edges:(edgeResult.data || []).filter(e => e.status !== 'rejected').length
+    });
     setCatalogLoading(false);
   }
 
@@ -371,6 +381,139 @@ export default function Home() {
     return map;
   },[essayQuestions]);
 
+  const essayNodeById = useMemo(() => {
+    const map = {};
+    for (const node of essayNodes) map[node.id] = node;
+    return map;
+  },[essayNodes]);
+
+  const knowledgeById = useMemo(() => {
+    const map = {};
+    for (const node of knowledgeNodes) map[node.id] = node;
+    return map;
+  },[knowledgeNodes]);
+
+  const knowledgeIdsByEssayNode = useMemo(() => {
+    const map = {};
+    for (const link of essayKnowledgeLinks) {
+      if (!map[link.essay_node_id]) map[link.essay_node_id] = [];
+      map[link.essay_node_id].push(link.knowledge_node_id);
+    }
+    return map;
+  },[essayKnowledgeLinks]);
+
+  const essayNodeIdsByKnowledge = useMemo(() => {
+    const map = {};
+    for (const link of essayKnowledgeLinks) {
+      if (!map[link.knowledge_node_id]) map[link.knowledge_node_id] = [];
+      map[link.knowledge_node_id].push(link.essay_node_id);
+    }
+    return map;
+  },[essayKnowledgeLinks]);
+
+  const graphEdgesByKnowledge = useMemo(() => {
+    const map = {};
+    for (const edge of knowledgeEdges) {
+      if (edge.status === 'rejected') continue;
+      if (!map[edge.source_id]) map[edge.source_id] = [];
+      if (!map[edge.target_id]) map[edge.target_id] = [];
+      map[edge.source_id].push({edge,direction:'out'});
+      map[edge.target_id].push({edge,direction:'in'});
+    }
+    return map;
+  },[knowledgeEdges]);
+
+  function relationLabel(type,direction) {
+    const outgoing = {
+      related_to:'RELATED',
+      contrasts_with:'CONTRASTS WITH',
+      prerequisite_for:'PREREQUISITE FOR',
+      part_of:'PART OF',
+      application_of:'APPLICATION OF',
+      explains:'EXPLAINS',
+      contributes_to:'CONTRIBUTES TO',
+      influences:'INFLUENCES',
+      historical_precursor_of:'PRECURSOR OF',
+      instance_of:'INSTANCE OF'
+    };
+    const incoming = {
+      related_to:'RELATED',
+      contrasts_with:'CONTRASTS WITH',
+      prerequisite_for:'REQUIRES',
+      part_of:'HAS PART',
+      application_of:'HAS APPLICATION',
+      explains:'EXPLAINED BY',
+      contributes_to:'SHAPED BY',
+      influences:'INFLUENCED BY',
+      historical_precursor_of:'PRECEDED BY',
+      instance_of:'HAS INSTANCE'
+    };
+    return (direction === 'out' ? outgoing[type] : incoming[type]) || type.replaceAll('_',' ').toUpperCase();
+  }
+
+  function essayConnections(node) {
+    const knowledgeIds = knowledgeIdsByEssayNode[node.id] || [];
+    const best = new Map();
+
+    for (const knowledgeId of knowledgeIds) {
+      for (const item of graphEdgesByKnowledge[knowledgeId] || []) {
+        const otherId = item.direction === 'out' ? item.edge.target_id : item.edge.source_id;
+        if (knowledgeIds.includes(otherId)) continue;
+
+        const linkedEssayIds = (essayNodeIdsByKnowledge[otherId] || [])
+          .filter(id => id !== node.id)
+          .sort((a,b) => {
+            const aCross = essayNodeById[a]?.primary_field !== node.primary_field ? 0 : 1;
+            const bCross = essayNodeById[b]?.primary_field !== node.primary_field ? 0 : 1;
+            return aCross - bCross;
+          });
+
+        const targetEssayId = linkedEssayIds[0];
+        if (!targetEssayId) continue;
+
+        const target = knowledgeById[otherId];
+        const targetEssay = essayNodeById[targetEssayId];
+        if (!target || !targetEssay) continue;
+
+        const fields = [...new Set(linkedEssayIds.map(id => essayNodeById[id]?.primary_field).filter(Boolean))];
+        const connection = {
+          id:otherId,
+          title:target.label,
+          relation:relationLabel(item.edge.relation_type,item.direction),
+          strength:item.edge.strength || 3,
+          targetEssayId,
+          fields
+        };
+
+        const previous = best.get(otherId);
+        if (!previous || connection.strength > previous.strength) best.set(otherId,connection);
+      }
+    }
+
+    return [...best.values()]
+      .sort((a,b) => b.strength - a.strength || a.title.localeCompare(b.title))
+      .slice(0,8);
+  }
+
+  function focusEssayNode(nodeId) {
+    const path = [];
+    let current = essayNodeById[nodeId];
+
+    while (current) {
+      path.push(current.id);
+      current = current.parent_id ? essayNodeById[current.parent_id] : null;
+    }
+
+    setExpandedEssayNodes(open => [...new Set([...open,...path])]);
+
+    window.setTimeout(() => {
+      document.getElementById('essay-node-' + nodeId)?.scrollIntoView({
+        behavior:'smooth',
+        block:'center'
+      });
+    },120);
+  }
+
   function toggleEssayNode(id) {
     setExpandedEssayNodes(current =>
       current.includes(id) ? current.filter(x => x !== id) : [...current,id]
@@ -380,11 +523,13 @@ export default function Home() {
   function renderEssayNode(node,depth=0) {
     const children = essayChildren[node.id] || [];
     const questions = essayQuestionsByNode[node.id] || [];
+    const connections = essayConnections(node);
     const open = expandedEssayNodes.includes(node.id);
-    const expandable = children.length > 0 || questions.length > 0;
+    const expandable = children.length > 0 || questions.length > 0 || connections.length > 0;
 
     return <div className="essay-tree-node" key={node.id}>
       <button
+        id={'essay-node-' + node.id}
         className="essay-node-row"
         style={{'--depth':depth}}
         onClick={() => expandable && toggleEssayNode(node.id)}
@@ -404,6 +549,25 @@ export default function Home() {
           </div>
           <button className="essay-generate-later" disabled>Generate Essay</button>
         </div>)}
+      </div>}
+
+      {open && connections.length > 0 && <div className="essay-connections" style={{'--depth':depth + 1}}>
+        <div className="essay-connections-head">
+          <span className="essay-tree-line">└─</span>
+          <div><small>CONNECTIONS</small><span>Move sideways across the knowledge map</span></div>
+        </div>
+        <div className="essay-connection-grid">
+          {connections.map(connection => <button
+            key={connection.id}
+            className="essay-connection-card"
+            onClick={() => focusEssayNode(connection.targetEssayId)}
+          >
+            <span className="essay-connection-relation">{connection.relation}</span>
+            <strong>{connection.title}</strong>
+            <span className="essay-connection-fields">{connection.fields.join(' · ')}</span>
+            <span className="essay-connection-arrow">↗</span>
+          </button>)}
+        </div>
       </div>}
 
       {open && children.map(child => renderEssayNode(child,depth + 1))}
@@ -468,11 +632,11 @@ export default function Home() {
         </div>}
 
         {screen==='essays' && <>
-          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Follow an idea as far as it goes." copy="Browse the intellectual tree. Questions can live at any level; essay generation will be connected after the structure is finished." />
+          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Follow an idea as far as it goes." copy="Descend through the curriculum, then move sideways through curated cross-field connections. Essay generation comes next." />
           <div className="essay-tree-shell">
             <div className="essay-tree-head">
               <div><small>CURATED TREE</small><h2>Deep Essays Curriculum</h2></div>
-              <span>{essayNodes.length} nodes · {essayQuestions.length} essay questions</span>
+              <span>{essayNodes.length} nodes · {essayQuestions.length} questions · {graphCounts.edges} connections</span>
             </div>
             <div className="essay-tree">
               {(essayChildren.root || []).map(node => renderEssayNode(node,0))}
