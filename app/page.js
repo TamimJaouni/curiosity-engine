@@ -105,6 +105,9 @@ export default function Home() {
   const [essayLibrary,setEssayLibrary] = useState(fallbackEssays);
   const [essayNodes,setEssayNodes] = useState([]);
   const [essayQuestions,setEssayQuestions] = useState([]);
+  const [explanations,setExplanations] = useState({});
+  const [explainLoading,setExplainLoading] = useState(null);
+  const [explainErrors,setExplainErrors] = useState({});
   const [knowledgeNodes,setKnowledgeNodes] = useState([]);
   const [knowledgeEdges,setKnowledgeEdges] = useState([]);
   const [essayKnowledgeLinks,setEssayKnowledgeLinks] = useState([]);
@@ -514,6 +517,94 @@ export default function Home() {
     },120);
   }
 
+  function essayPath(node) {
+    const path = [];
+    let current = node;
+    while (current) {
+      path.unshift(current.title);
+      current = current.parent_id ? essayNodeById[current.parent_id] : null;
+    }
+    return path;
+  }
+
+  async function explainEssayNode(node) {
+    if (explainLoading) return;
+
+    setExplainErrors(errors => ({...errors,[node.id]:null}));
+
+    if (session?.user) {
+      const {data:cached} = await supabase
+        .from('generated_content')
+        .select('content,model,prompt_version,source_metadata,created_at')
+        .eq('item_type','essay_node')
+        .eq('item_id',node.id)
+        .eq('generation_type','explain')
+        .order('created_at',{ascending:false})
+        .limit(1)
+        .maybeSingle();
+
+      if (cached?.content) {
+        try {
+          const parsed = JSON.parse(cached.content);
+          setExplanations(current => ({
+            ...current,
+            [node.id]:{
+              explanation:parsed,
+              sources:Array.isArray(cached.source_metadata) ? cached.source_metadata : [],
+              model:cached.model,
+              prompt_version:cached.prompt_version,
+              cached:true
+            }
+          }));
+          return;
+        } catch {}
+      }
+    }
+
+    setExplainLoading(node.id);
+
+    try {
+      const response = await fetch('/api/explain',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:essayPath(node)
+        })
+      });
+
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(
+          result?.error === 'AI_NOT_CONFIGURED'
+            ? 'Explain is wired up, but the server still needs an OPENAI_API_KEY.'
+            : result?.message || 'Could not generate this explanation.'
+        );
+      }
+
+      setExplanations(current => ({...current,[node.id]:result}));
+
+      if (session?.user) {
+        await supabase.from('generated_content').insert({
+          user_id:session.user.id,
+          item_type:'essay_node',
+          item_id:node.id,
+          generation_type:'explain',
+          content:JSON.stringify(result.explanation),
+          model:result.model || null,
+          prompt_version:result.prompt_version || 'explain_v1',
+          source_metadata:result.sources || []
+        });
+      }
+    } catch (error) {
+      setExplainErrors(errors => ({...errors,[node.id]:error.message}));
+    } finally {
+      setExplainLoading(null);
+    }
+  }
+
   function toggleEssayNode(id) {
     setExpandedEssayNodes(current =>
       current.includes(id) ? current.filter(x => x !== id) : [...current,id]
@@ -524,8 +615,10 @@ export default function Home() {
     const children = essayChildren[node.id] || [];
     const questions = essayQuestionsByNode[node.id] || [];
     const connections = essayConnections(node);
+    const explanationResult = explanations[node.id];
+    const explanation = explanationResult?.explanation;
     const open = expandedEssayNodes.includes(node.id);
-    const expandable = children.length > 0 || questions.length > 0 || connections.length > 0;
+    const expandable = true;
 
     return <div className="essay-tree-node" key={node.id}>
       <button
@@ -539,6 +632,72 @@ export default function Home() {
         <span className="essay-node-type">{node.node_type.replaceAll('_',' ')}</span>
         {expandable && <span className="essay-node-toggle">{open ? '−' : '+'}</span>}
       </button>
+
+      {open && <div className="essay-node-actions" style={{'--depth':depth + 1}}>
+        <span className="essay-tree-line">└─</span>
+        <div className="essay-action-buttons">
+          <button
+            className="essay-action essay-action-primary"
+            disabled={explainLoading === node.id}
+            onClick={() => explainEssayNode(node)}
+          >
+            {explainLoading === node.id ? 'Explaining…' : explanation ? 'Explanation' : 'Explain'}
+          </button>
+          <button className="essay-action" disabled>Explore Deeper</button>
+          <button className="essay-action" disabled>Compare</button>
+          <button className="essay-action" disabled>Full Essay</button>
+        </div>
+      </div>}
+
+      {open && explainErrors[node.id] && <div className="essay-explain-error" style={{'--depth':depth + 1}}>
+        <span className="essay-tree-line">└─</span>
+        <p>{explainErrors[node.id]}</p>
+      </div>}
+
+      {open && explanation && <article className="essay-explanation" style={{'--depth':depth + 1}}>
+        <div className="essay-explanation-head">
+          <span className="essay-tree-line">└─</span>
+          <div>
+            <small>EXPLAIN</small>
+            <span>{explanationResult?.cached ? 'Saved explanation' : 'Generated for this curriculum context'}</span>
+          </div>
+        </div>
+
+        <div className="essay-explanation-body">
+          <section>
+            <h4>Core idea</h4>
+            <p>{explanation.core_idea}</p>
+          </section>
+          <section>
+            <h4>Intuition</h4>
+            <p>{explanation.intuition}</p>
+          </section>
+          <section>
+            <h4>How it works</h4>
+            <p>{explanation.how_it_works}</p>
+          </section>
+          <section>
+            <h4>Why it matters</h4>
+            <p>{explanation.why_it_matters}</p>
+          </section>
+          <section>
+            <h4>Boundaries & misunderstandings</h4>
+            <p>{explanation.boundaries}</p>
+          </section>
+
+          {explanationResult?.sources?.length > 0 && <section className="essay-explanation-sources">
+            <h4>Sources used for verification</h4>
+            <div>
+              {explanationResult.sources.map(source => <a
+                key={source.url}
+                href={source.url}
+                target="_blank"
+                rel="noreferrer"
+              >{source.title || source.url}</a>)}
+            </div>
+          </section>}
+        </div>
+      </article>}
 
       {open && questions.length > 0 && <div className="essay-question-list">
         {questions.map(q => <div className="essay-question-row" style={{'--depth':depth + 1}} key={q.id}>
