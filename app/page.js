@@ -483,7 +483,7 @@ export default function Home() {
 
     return <div className="explain-layout">
       <aside className="explain-nav">
-        <span>GENERAL RELATIVITY</span>
+        <span>{node.title.toUpperCase()}</span>
         {sections.map(([id,title]) => <button key={id} onClick={() => document.getElementById('explain-'+id)?.scrollIntoView({behavior:'smooth',block:'center'})}>{title}</button>)}
         <button onClick={() => setTopicTab('related')}>Related Concepts</button>
       </aside>
