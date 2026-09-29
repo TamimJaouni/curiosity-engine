@@ -3,537 +3,300 @@
 import { useEffect, useMemo, useState } from 'react';
 import { supabase } from '../lib/supabase';
 
-const fallbackConcepts = [
-  {
-    id:'hysteresis', name:'Hysteresis', field:'Economics',
-    short:'Temporary shocks can leave persistent effects even after the original shock disappears.',
-    example:'A recession keeps workers unemployed long enough that some lose skills and remain unemployed even after demand recovers.',
-    why:'It changes how we think about recessions, labor markets, and whether temporary policy support can prevent permanent damage.',
-    deep:'Hysteresis describes systems whose present state depends partly on their history. In economics, temporary disturbances can alter the later path of employment, investment, skills, and expectations.',
-    alternate:'Think of hysteresis as a dent rather than a bounce. Some shocks leave structural traces after the initial pressure is gone.'
-  },
-  {
-    id:'moral-luck', name:'Moral Luck', field:'Philosophy',
-    short:'We often judge people differently because of outcomes or circumstances they did not fully control.',
-    example:'Two equally reckless drivers behave the same way, but only one happens to cause a fatal accident.',
-    why:'It exposes a tension between moral responsibility and the role of luck.',
-    deep:'Moral luck asks why praise and blame often depend on factors outside a person’s control.',
-    alternate:'We want responsibility to track control, yet our actual moral judgments often track consequences too.'
-  },
-  {
-    id:'allostasis', name:'Allostasis', field:'Neuroscience · Psychology',
-    short:'The body regulates itself partly by anticipating future demands rather than merely correcting deviations after they occur.',
-    example:'Your heart rate can rise before a stressful presentation, preparing you before physical demand arrives.',
-    why:'It connects prediction, stress, physiology, and adaptation.',
-    deep:'Allostasis means regulation through change. The body anticipates demands and adjusts before the challenge fully arrives.',
-    alternate:'Homeostasis looks like a thermostat correcting errors. Allostasis adds prediction.'
-  }
+const FIELD_META = {
+  'History & Politics': { icon:'♜', desc:'Power, institutions, conflict, states and historical change.' },
+  'Economics': { icon:'◫', desc:'Markets, incentives, money, growth and political economy.' },
+  'Philosophy & Ideas': { icon:'◇', desc:'Reason, knowledge, ethics, mind, meaning and major traditions.' },
+  'Mind & Behavior': { icon:'⌁', desc:'Psychology, cognition, neuroscience, learning and human behavior.' },
+  'Society & Culture': { icon:'◉', desc:'Social structure, culture, identity, institutions and collective life.' },
+  'Physics': { icon:'◎', desc:'Relativity, quantum physics, spacetime and the foundations of nature.' }
+};
+
+const FALLBACK_CONCEPTS = [
+  {id:'hysteresis',name:'Hysteresis',field:'Economics',short:'Temporary shocks can leave persistent effects even after the original shock disappears.'},
+  {id:'moral-luck',name:'Moral Luck',field:'Philosophy & Ideas',short:'We often judge people differently because of outcomes or circumstances they did not fully control.'},
+  {id:'allostasis',name:'Allostasis',field:'Mind & Behavior',short:'The body regulates itself partly by anticipating future demands rather than only correcting deviations.'}
 ];
-
-const fallbackEssays = [
-  { id:'predictive-processing', title:'Predictive Processing', field:'Neuroscience · Philosophy', minutes:20, teaser:'How brains may use prediction and prediction error to construct perception and guide action.' },
-  { id:'moral-luck', title:'Moral Luck', field:'Philosophy', minutes:16, teaser:'Why responsibility becomes difficult when outcomes depend on luck.' }
-];
-
-const news = [
-  {
-    id:'rates',
-    title:'Central banks are balancing inflation control against weaker growth',
-    tag:'Economics',
-    happened:'A cluster of recent policy decisions has kept attention on how quickly major central banks can normalize interest rates without reigniting inflation or worsening a slowdown.',
-    matters:'Interest-rate decisions affect borrowing costs, currencies, housing, investment, government finances, and expectations. The important issue is not a single rate move but the changing policy regime.',
-    larger:'This connects to inflation expectations, central-bank credibility, the business cycle, and the political tension between price stability and employment.',
-    watch:'Watch incoming inflation, wage, labor-market, and growth data, and whether central-bank communication shifts before actual policy does.'
-  },
-  {
-    id:'industrial-policy',
-    title:'Industrial policy is becoming a larger part of economic strategy',
-    tag:'Politics · Economics',
-    happened:'Governments are increasingly using subsidies, procurement rules, trade restrictions, and strategic investment to shape sectors considered important for resilience, technology, energy, or security.',
-    matters:'This marks a partial shift away from a policy style that treated sectoral allocation as something governments should influence only sparingly.',
-    larger:'The larger issue is the changing boundary between markets and states: efficiency versus resilience, national security, supply-chain dependence, and geopolitical competition.',
-    watch:'Watch whether these policies create durable productive capacity, trigger retaliation, or mainly redistribute rents toward politically favored industries.'
-  }
-];
-
-const fields = ['Mind & Behavior','Philosophy & Ideas','Economics','Politics & Institutions','Science & Technology','Society & Culture'];
-
-function Pill({ children }) {
-  return <span className="pill">{children}</span>;
-}
-
-function SectionTitle({ eyebrow, title, copy }) {
-  return <div className="section-title"><div className="eyebrow">{eyebrow}</div><h1>{title}</h1>{copy && <p>{copy}</p>}</div>;
-}
-
-function AppButton({ children, variant='primary', onClick, disabled=false, type='button' }) {
-  return <button type={type} disabled={disabled} onClick={onClick} className={'btn ' + variant}>{children}</button>;
-}
 
 async function fetchAllRows(table, orderColumn='sort_order') {
   const pageSize = 1000;
   let from = 0;
   let all = [];
-
   while (true) {
-    const {data,error} = await supabase
-      .from(table)
-      .select('*')
-      .order(orderColumn,{ascending:true})
-      .range(from,from + pageSize - 1);
-
+    const {data,error} = await supabase.from(table).select('*').order(orderColumn,{ascending:true}).range(from,from+pageSize-1);
     if (error) return {data:all,error};
     all = all.concat(data || []);
     if (!data || data.length < pageSize) break;
     from += pageSize;
   }
-
   return {data:all,error:null};
+}
+
+function fieldMeta(title) {
+  return FIELD_META[title] || {icon:'◌',desc:'A connected territory in the knowledge map.'};
+}
+
+function MiniIcon({children}) {
+  return <span className="mini-icon">{children}</span>;
 }
 
 export default function Home() {
   const [screen,setScreen] = useState('home');
-  const [worldTab,setWorldTab] = useState('brief');
-  const [selectedConcept,setSelectedConcept] = useState(null);
-  const [deepMode,setDeepMode] = useState('deep');
-  const [essay,setEssay] = useState(null);
-  const [year,setYear] = useState('100');
-  const [field,setField] = useState('Mind & Behavior');
-  const [arcTopic,setArcTopic] = useState(null);
-
-  const [conceptLibrary,setConceptLibrary] = useState(fallbackConcepts);
-  const [essayLibrary,setEssayLibrary] = useState(fallbackEssays);
   const [essayNodes,setEssayNodes] = useState([]);
   const [essayQuestions,setEssayQuestions] = useState([]);
+  const [knowledgeNodes,setKnowledgeNodes] = useState([]);
+  const [knowledgeEdges,setKnowledgeEdges] = useState([]);
+  const [essayLinks,setEssayLinks] = useState([]);
+  const [concepts,setConcepts] = useState(FALLBACK_CONCEPTS);
+  const [catalogLoading,setCatalogLoading] = useState(true);
+
+  const [selectedFieldId,setSelectedFieldId] = useState(null);
+  const [expanded,setExpanded] = useState([]);
+  const [selectedTopicId,setSelectedTopicId] = useState(null);
+  const [topicTab,setTopicTab] = useState('overview');
+
+  const [search,setSearch] = useState('');
+  const [searchFocused,setSearchFocused] = useState(false);
+
   const [explanations,setExplanations] = useState({});
   const [explainLoading,setExplainLoading] = useState(null);
   const [explainErrors,setExplainErrors] = useState({});
-  const [knowledgeNodes,setKnowledgeNodes] = useState([]);
-  const [knowledgeEdges,setKnowledgeEdges] = useState([]);
-  const [essayKnowledgeLinks,setEssayKnowledgeLinks] = useState([]);
-  const [expandedEssayNodes,setExpandedEssayNodes] = useState([]);
-  const [arcLibrary,setArcLibrary] = useState([]);
-  const [graphCounts,setGraphCounts] = useState({nodes:0,edges:0});
-  const [catalogLoading,setCatalogLoading] = useState(true);
 
   const [session,setSession] = useState(null);
   const [authOpen,setAuthOpen] = useState(false);
   const [authMode,setAuthMode] = useState('login');
   const [authEmail,setAuthEmail] = useState('');
   const [authPassword,setAuthPassword] = useState('');
-  const [authBusy,setAuthBusy] = useState(false);
   const [authMessage,setAuthMessage] = useState('');
-
-  const [progress,setProgress] = useState({explored:[],generated:[],recall:{}});
-  const [flashcards,setFlashcards] = useState([]);
-  const [flashIndex,setFlashIndex] = useState(0);
-  const [flashRevealed,setFlashRevealed] = useState(false);
+  const [authBusy,setAuthBusy] = useState(false);
 
   useEffect(() => {
     loadCatalog();
-
-    supabase.auth.getSession().then(({data}) => {
-      const s = data?.session || null;
-      setSession(s);
-      if (s?.user) loadUserState(s.user.id);
-    });
-
-    const {data:{subscription}} = supabase.auth.onAuthStateChange((_event,nextSession) => {
-      setSession(nextSession);
-      if (nextSession?.user) loadUserState(nextSession.user.id);
-      else {
-        setProgress({explored:[],generated:[],recall:{}});
-        setFlashcards([]);
-      }
-    });
-
+    supabase.auth.getSession().then(({data}) => setSession(data?.session || null));
+    const {data:{subscription}} = supabase.auth.onAuthStateChange((_event,nextSession) => setSession(nextSession));
     return () => subscription.unsubscribe();
-  }, []);
+  },[]);
 
   async function loadCatalog() {
     setCatalogLoading(true);
-
-    const [conceptResult,essayResult,arcResult,knowledgeNodeResult,edgeResult,essayLinkResult,essayNodeResult,essayQuestionResult] = await Promise.all([
-      supabase.from('concepts').select('*').order('created_at',{ascending:true}),
-      supabase.from('essay_topics').select('*').order('created_at',{ascending:true}),
-      supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}),
+    const [nodes,questions,kNodes,edges,links,conceptResult] = await Promise.all([
+      fetchAllRows('essay_nodes','sort_order'),
+      fetchAllRows('essay_questions','sort_order'),
       fetchAllRows('knowledge_nodes','created_at'),
       fetchAllRows('knowledge_edges','created_at'),
       fetchAllRows('essay_node_knowledge_links','created_at'),
-      fetchAllRows('essay_nodes','sort_order'),
-      fetchAllRows('essay_questions','sort_order')
+      supabase.from('concepts').select('*').order('created_at',{ascending:true}).limit(24)
     ]);
 
+    setEssayNodes(nodes.data || []);
+    setEssayQuestions(questions.data || []);
+    setKnowledgeNodes(kNodes.data || []);
+    setKnowledgeEdges(edges.data || []);
+    setEssayLinks(links.data || []);
+
     if (conceptResult.data?.length) {
-      setConceptLibrary(conceptResult.data.map(c => ({
+      setConcepts(conceptResult.data.slice(0,3).map(c => ({
         id:c.id,
         name:c.name,
-        field:[c.primary_field,...(c.secondary_fields || [])].join(' · '),
-        short:c.short_description,
-        example:c.example,
-        why:c.why_it_matters,
-        deep:c.deep_explanation || c.short_description,
-        alternate:c.alternate_explanation || c.why_it_matters,
-        related:c.related_concepts || []
+        field:c.primary_field,
+        short:c.short_description
       })));
     }
 
-    if (essayResult.data?.length) {
-      setEssayLibrary(essayResult.data.map(e => ({
-        id:e.id,
-        title:e.title,
-        field:[e.primary_field,...(e.secondary_fields || [])].join(' · '),
-        minutes:e.target_minutes,
-        teaser:e.teaser
-      })));
-    }
-
-    if (essayNodeResult.data) {
-      setEssayNodes(essayNodeResult.data);
-      const initialOpen = essayNodeResult.data
-        .filter(n => !n.parent_id)
-        .map(n => n.id);
-      setExpandedEssayNodes(initialOpen);
-    }
-    if (essayQuestionResult.data) setEssayQuestions(essayQuestionResult.data);
-    if (knowledgeNodeResult.data) setKnowledgeNodes(knowledgeNodeResult.data);
-    if (edgeResult.data) setKnowledgeEdges(edgeResult.data);
-    if (essayLinkResult.data) setEssayKnowledgeLinks(essayLinkResult.data);
-    if (arcResult.data) setArcLibrary(arcResult.data);
-    setGraphCounts({
-      nodes:knowledgeNodeResult.data?.length || 0,
-      edges:(edgeResult.data || []).filter(e => e.status !== 'rejected').length
-    });
+    const roots=(nodes.data || []).filter(n => !n.parent_id);
+    if (roots[0]) setSelectedFieldId(roots[0].id);
+    setExpanded(roots.map(r => r.id));
     setCatalogLoading(false);
   }
 
-  async function loadUserState(userId) {
-    const [progressResult,cardsResult] = await Promise.all([
-      supabase.from('user_progress').select('*').eq('user_id',userId),
-      supabase.from('flashcards')
-        .select('id,concept_id,state,interval_days,next_review_at,last_reviewed_at,times_reviewed,times_got_it,concept:concepts(id,name,primary_field,secondary_fields,short_description,example)')
-        .eq('user_id',userId)
-        .order('next_review_at',{ascending:true})
-    ]);
-
-    const rows = progressResult.data || [];
-    const explored = rows.filter(r => r.item_type === 'concept' && ['explored','completed','saved'].includes(r.status)).map(r => r.item_id);
-    const generated = rows.filter(r => r.item_type === 'essay').map(r => r.item_id);
-    const recall = {};
-
-    for (const card of cardsResult.data || []) {
-      if (card.state !== 'new') recall[card.concept_id] = card.state;
-    }
-
-    setProgress({explored:[...new Set(explored)],generated:[...new Set(generated)],recall});
-    setFlashcards(cardsResult.data || []);
-    setFlashIndex(0);
-  }
-
-  async function saveProgress(itemType,itemId,status,progressPercent=0) {
-    if (!session?.user) return;
-    await supabase.from('user_progress').upsert({
-      user_id:session.user.id,
-      item_type:itemType,
-      item_id:itemId,
-      status,
-      progress_percent:progressPercent,
-      last_opened_at:new Date().toISOString(),
-      completed_at:status === 'completed' ? new Date().toISOString() : null
-    },{onConflict:'user_id,item_type,item_id'});
-  }
-
-  async function ensureFlashcard(conceptId) {
-    if (!session?.user) return;
-    await supabase.from('flashcards').upsert({
-      user_id:session.user.id,
-      concept_id:conceptId
-    },{onConflict:'user_id,concept_id',ignoreDuplicates:true});
-  }
-
-  const dailyIds = ['hysteresis','moral-luck','allostasis'];
-  const dailyConcepts = useMemo(() => {
-    const preferred = dailyIds.map(id => conceptLibrary.find(c => c.id === id)).filter(Boolean);
-    return preferred.length === 3 ? preferred : conceptLibrary.slice(0,3);
-  },[conceptLibrary]);
-
-  const activeArc = useMemo(
-    () => arcLibrary.filter(t => String(t.historical_band) === year && t.primary_field === field),
-    [arcLibrary,year,field]
-  );
-
-  const dueFlashcards = useMemo(
-    () => flashcards.filter(f => new Date(f.next_review_at) <= new Date()),
-    [flashcards]
-  );
-
-  const currentFlashcard = dueFlashcards.length ? dueFlashcards[flashIndex % dueFlashcards.length] : null;
-  const reviewConcept = currentFlashcard?.concept ? {
-    id:currentFlashcard.concept.id,
-    name:currentFlashcard.concept.name,
-    field:[currentFlashcard.concept.primary_field,...(currentFlashcard.concept.secondary_fields || [])].join(' · '),
-    short:currentFlashcard.concept.short_description,
-    example:currentFlashcard.concept.example
-  } : null;
-
-  async function openConcept(c) {
-    setSelectedConcept(c);
-    setDeepMode('deep');
-    setProgress(p => ({...p,explored:p.explored.includes(c.id) ? p.explored : [...p.explored,c.id]}));
-    await saveProgress('concept',c.id,'explored');
-    if (session?.user) {
-      await ensureFlashcard(c.id);
-      await loadUserState(session.user.id);
-    }
-  }
-
-  async function generateEssay(item) {
-    setEssay(item);
-    setProgress(p => ({...p,generated:p.generated.includes(item.id) ? p.generated : [...p.generated,item.id]}));
-    await saveProgress('essay',item.id,'started');
-    setScreen('essay-reader');
-  }
-
-  async function rateFlashcard(rating) {
-    if (!currentFlashcard || !session?.user) return;
-
-    const old = currentFlashcard.interval_days || 0;
-    let nextInterval = 1;
-    if (rating === 'fuzzy') nextInterval = old <= 3 ? 3 : Math.max(3,Math.round(old * .6));
-    if (rating === 'got_it') {
-      if (old < 14) nextInterval = 14;
-      else if (old < 30) nextInterval = 30;
-      else if (old < 90) nextInterval = 90;
-      else nextInterval = 180;
-    }
-
-    const next = new Date();
-    next.setDate(next.getDate() + nextInterval);
-
-    await supabase.from('flashcards').update({
-      state:rating,
-      interval_days:nextInterval,
-      next_review_at:next.toISOString(),
-      last_reviewed_at:new Date().toISOString(),
-      times_reviewed:(currentFlashcard.times_reviewed || 0) + 1,
-      times_got_it:(currentFlashcard.times_got_it || 0) + (rating === 'got_it' ? 1 : 0)
-    }).eq('id',currentFlashcard.id);
-
-    await supabase.from('review_history').insert({
-      user_id:session.user.id,
-      flashcard_id:currentFlashcard.id,
-      rating
-    });
-
-    setProgress(p => ({...p,recall:{...p.recall,[currentFlashcard.concept_id]:rating}}));
-    setFlashRevealed(false);
-    await loadUserState(session.user.id);
-  }
-
-  async function submitAuth(e) {
-    e.preventDefault();
-    setAuthBusy(true);
-    setAuthMessage('');
-
-    let result;
-    if (authMode === 'signup') {
-      result = await supabase.auth.signUp({
-        email:authEmail,
-        password:authPassword,
-        options:{emailRedirectTo:window.location.origin}
-      });
-    } else {
-      result = await supabase.auth.signInWithPassword({email:authEmail,password:authPassword});
-    }
-
-    if (result.error) {
-      setAuthMessage(result.error.message);
-    } else if (result.data?.session) {
-      setAuthMessage('Synced.');
-      setAuthOpen(false);
-      setAuthPassword('');
-    } else {
-      setAuthMessage('Account created. Check your email if confirmation is required, then sign in.');
-      setAuthMode('login');
-    }
-
-    setAuthBusy(false);
-  }
-
-  async function signOut() {
-    await supabase.auth.signOut();
-    setAuthOpen(false);
-  }
-
-  const essayChildren = useMemo(() => {
-    const map = {};
+  const childrenByParent = useMemo(() => {
+    const map={};
     for (const node of essayNodes) {
-      const key = node.parent_id || 'root';
-      if (!map[key]) map[key] = [];
+      const key=node.parent_id || 'root';
+      if (!map[key]) map[key]=[];
       map[key].push(node);
     }
     return map;
   },[essayNodes]);
 
-  const essayQuestionsByNode = useMemo(() => {
-    const map = {};
+  const nodeById = useMemo(() => {
+    const map={};
+    for (const node of essayNodes) map[node.id]=node;
+    return map;
+  },[essayNodes]);
+
+  const questionsByNode = useMemo(() => {
+    const map={};
     for (const q of essayQuestions) {
-      if (!map[q.node_id]) map[q.node_id] = [];
+      if (!map[q.node_id]) map[q.node_id]=[];
       map[q.node_id].push(q);
     }
     return map;
   },[essayQuestions]);
 
-  const essayNodeById = useMemo(() => {
-    const map = {};
-    for (const node of essayNodes) map[node.id] = node;
-    return map;
-  },[essayNodes]);
-
   const knowledgeById = useMemo(() => {
-    const map = {};
-    for (const node of knowledgeNodes) map[node.id] = node;
+    const map={};
+    for (const node of knowledgeNodes) map[node.id]=node;
     return map;
   },[knowledgeNodes]);
 
-  const knowledgeIdsByEssayNode = useMemo(() => {
-    const map = {};
-    for (const link of essayKnowledgeLinks) {
-      if (!map[link.essay_node_id]) map[link.essay_node_id] = [];
+  const knowledgeIdsByEssay = useMemo(() => {
+    const map={};
+    for (const link of essayLinks) {
+      if (!map[link.essay_node_id]) map[link.essay_node_id]=[];
       map[link.essay_node_id].push(link.knowledge_node_id);
     }
     return map;
-  },[essayKnowledgeLinks]);
+  },[essayLinks]);
 
-  const essayNodeIdsByKnowledge = useMemo(() => {
-    const map = {};
-    for (const link of essayKnowledgeLinks) {
-      if (!map[link.knowledge_node_id]) map[link.knowledge_node_id] = [];
+  const essayIdsByKnowledge = useMemo(() => {
+    const map={};
+    for (const link of essayLinks) {
+      if (!map[link.knowledge_node_id]) map[link.knowledge_node_id]=[];
       map[link.knowledge_node_id].push(link.essay_node_id);
     }
     return map;
-  },[essayKnowledgeLinks]);
+  },[essayLinks]);
 
-  const graphEdgesByKnowledge = useMemo(() => {
-    const map = {};
+  const edgesByKnowledge = useMemo(() => {
+    const map={};
     for (const edge of knowledgeEdges) {
       if (edge.status === 'rejected') continue;
-      if (!map[edge.source_id]) map[edge.source_id] = [];
-      if (!map[edge.target_id]) map[edge.target_id] = [];
+      if (!map[edge.source_id]) map[edge.source_id]=[];
+      if (!map[edge.target_id]) map[edge.target_id]=[];
       map[edge.source_id].push({edge,direction:'out'});
       map[edge.target_id].push({edge,direction:'in'});
     }
     return map;
   },[knowledgeEdges]);
 
+  const rootNodes = childrenByParent.root || [];
+  const selectedField = nodeById[selectedFieldId] || rootNodes[0] || null;
+  const selectedTopic = nodeById[selectedTopicId] || null;
+  const approvedEdgeCount = knowledgeEdges.filter(e => e.status !== 'rejected').length;
+
+  const searchResults = useMemo(() => {
+    const term=search.trim().toLowerCase();
+    if (term.length < 2) return [];
+    return essayNodes
+      .filter(n => n.title.toLowerCase().includes(term))
+      .sort((a,b) => {
+        const ax=a.title.toLowerCase().startsWith(term) ? 0 : 1;
+        const bx=b.title.toLowerCase().startsWith(term) ? 0 : 1;
+        return ax-bx || a.title.localeCompare(b.title);
+      })
+      .slice(0,8);
+  },[search,essayNodes]);
+
   function relationLabel(type,direction) {
-    const outgoing = {
-      related_to:'RELATED',
-      contrasts_with:'CONTRASTS WITH',
-      prerequisite_for:'PREREQUISITE FOR',
-      part_of:'PART OF',
-      application_of:'APPLICATION OF',
-      explains:'EXPLAINS',
-      contributes_to:'CONTRIBUTES TO',
-      influences:'INFLUENCES',
-      historical_precursor_of:'PRECURSOR OF',
-      instance_of:'INSTANCE OF'
+    const out={
+      related_to:'RELATED TO',contrasts_with:'CONTRASTS WITH',prerequisite_for:'PREREQUISITE FOR',
+      part_of:'PART OF',application_of:'APPLICATION OF',explains:'EXPLAINS',
+      contributes_to:'CONTRIBUTES TO',influences:'INFLUENCES',
+      historical_precursor_of:'PRECURSOR OF',instance_of:'INSTANCE OF'
     };
-    const incoming = {
-      related_to:'RELATED',
-      contrasts_with:'CONTRASTS WITH',
-      prerequisite_for:'REQUIRES',
-      part_of:'HAS PART',
-      application_of:'HAS APPLICATION',
-      explains:'EXPLAINED BY',
-      contributes_to:'SHAPED BY',
-      influences:'INFLUENCED BY',
-      historical_precursor_of:'PRECEDED BY',
-      instance_of:'HAS INSTANCE'
+    const incoming={
+      related_to:'RELATED TO',contrasts_with:'CONTRASTS WITH',prerequisite_for:'REQUIRES',
+      part_of:'HAS PART',application_of:'HAS APPLICATION',explains:'EXPLAINED BY',
+      contributes_to:'SHAPED BY',influences:'INFLUENCED BY',
+      historical_precursor_of:'PRECEDED BY',instance_of:'HAS INSTANCE'
     };
-    return (direction === 'out' ? outgoing[type] : incoming[type]) || type.replaceAll('_',' ').toUpperCase();
+    return (direction === 'out' ? out[type] : incoming[type]) || String(type || '').replaceAll('_',' ').toUpperCase();
   }
 
-  function essayConnections(node) {
-    const knowledgeIds = knowledgeIdsByEssayNode[node.id] || [];
-    const best = new Map();
+  function connectionsFor(node) {
+    if (!node) return [];
+    const currentKnowledge=knowledgeIdsByEssay[node.id] || [];
+    const best=new Map();
 
-    for (const knowledgeId of knowledgeIds) {
-      for (const item of graphEdgesByKnowledge[knowledgeId] || []) {
-        const otherId = item.direction === 'out' ? item.edge.target_id : item.edge.source_id;
-        if (knowledgeIds.includes(otherId)) continue;
+    for (const knowledgeId of currentKnowledge) {
+      for (const item of edgesByKnowledge[knowledgeId] || []) {
+        const otherId=item.direction === 'out' ? item.edge.target_id : item.edge.source_id;
+        if (currentKnowledge.includes(otherId)) continue;
 
-        const linkedEssayIds = (essayNodeIdsByKnowledge[otherId] || [])
+        const candidateEssayIds=(essayIdsByKnowledge[otherId] || [])
           .filter(id => id !== node.id)
           .sort((a,b) => {
-            const aCross = essayNodeById[a]?.primary_field !== node.primary_field ? 0 : 1;
-            const bCross = essayNodeById[b]?.primary_field !== node.primary_field ? 0 : 1;
-            return aCross - bCross;
+            const aCross=nodeById[a]?.primary_field !== node.primary_field ? 0 : 1;
+            const bCross=nodeById[b]?.primary_field !== node.primary_field ? 0 : 1;
+            return aCross-bCross;
           });
 
-        const targetEssayId = linkedEssayIds[0];
-        if (!targetEssayId) continue;
+        const targetEssayId=candidateEssayIds[0];
+        if (!targetEssayId || !nodeById[targetEssayId] || !knowledgeById[otherId]) continue;
 
-        const target = knowledgeById[otherId];
-        const targetEssay = essayNodeById[targetEssayId];
-        if (!target || !targetEssay) continue;
-
-        const fields = [...new Set(linkedEssayIds.map(id => essayNodeById[id]?.primary_field).filter(Boolean))];
-        const connection = {
+        const candidate={
           id:otherId,
-          title:target.label,
+          title:knowledgeById[otherId].label,
           relation:relationLabel(item.edge.relation_type,item.direction),
           strength:item.edge.strength || 3,
           targetEssayId,
-          fields
+          field:nodeById[targetEssayId].primary_field
         };
-
-        const previous = best.get(otherId);
-        if (!previous || connection.strength > previous.strength) best.set(otherId,connection);
+        const previous=best.get(otherId);
+        if (!previous || candidate.strength > previous.strength) best.set(otherId,candidate);
       }
     }
 
-    return [...best.values()]
-      .sort((a,b) => b.strength - a.strength || a.title.localeCompare(b.title))
-      .slice(0,8);
+    return [...best.values()].sort((a,b) => b.strength-a.strength || a.title.localeCompare(b.title)).slice(0,8);
   }
 
-  function focusEssayNode(nodeId) {
-    const path = [];
-    let current = essayNodeById[nodeId];
-
+  function pathFor(node) {
+    const path=[];
+    let current=node;
     while (current) {
-      path.push(current.id);
-      current = current.parent_id ? essayNodeById[current.parent_id] : null;
-    }
-
-    setExpandedEssayNodes(open => [...new Set([...open,...path])]);
-
-    window.setTimeout(() => {
-      document.getElementById('essay-node-' + nodeId)?.scrollIntoView({
-        behavior:'smooth',
-        block:'center'
-      });
-    },120);
-  }
-
-  function essayPath(node) {
-    const path = [];
-    let current = node;
-    while (current) {
-      path.unshift(current.title);
-      current = current.parent_id ? essayNodeById[current.parent_id] : null;
+      path.unshift(current);
+      current=current.parent_id ? nodeById[current.parent_id] : null;
     }
     return path;
   }
 
-  async function explainEssayNode(node) {
-    if (explainLoading) return;
+  function openTopic(id,tab='overview') {
+    const node=nodeById[id];
+    if (!node) return;
+    setSelectedTopicId(id);
+    setSelectedFieldId(pathFor(node)[0]?.id || selectedFieldId);
+    setTopicTab(tab);
+    setScreen('topic');
+    setSearch('');
+    setSearchFocused(false);
+  }
 
-    setExplainErrors(errors => ({...errors,[node.id]:null}));
+  function openField(id) {
+    setSelectedFieldId(id);
+    setExpanded(open => [...new Set([...open,id])]);
+    setScreen('explore');
+  }
+
+  function toggle(id) {
+    setExpanded(open => open.includes(id) ? open.filter(x => x !== id) : [...open,id]);
+  }
+
+  function renderExplorerNode(node,depth=0) {
+    const children=childrenByParent[node.id] || [];
+    const open=expanded.includes(node.id);
+    return <div className="explorer-node" key={node.id}>
+      <div className={'explorer-row ' + (selectedTopicId === node.id ? 'selected' : '')} style={{'--depth':depth}}>
+        <button className="tree-toggle" onClick={() => children.length && toggle(node.id)}>
+          {children.length ? (open ? '⌄' : '›') : '·'}
+        </button>
+        <button className="tree-title" onClick={() => openTopic(node.id)}>
+          <MiniIcon>{depth === 0 ? fieldMeta(node.primary_field || node.title).icon : '▣'}</MiniIcon>
+          <span>{node.title}</span>
+        </button>
+        <span className="tree-type">{String(node.node_type || '').replaceAll('_',' ')}</span>
+      </div>
+      {open && children.map(child => renderExplorerNode(child,depth+1))}
+    </div>;
+  }
+
+  async function explainTopic(node) {
+    if (!node || explainLoading) return;
+    setTopicTab('explain');
+    setExplainErrors(e => ({...e,[node.id]:null}));
 
     if (session?.user) {
-      const {data:cached} = await supabase
+      const {data:cached}=await supabase
         .from('generated_content')
         .select('content,model,prompt_version,source_metadata,created_at')
         .eq('item_type','essay_node')
@@ -545,46 +308,36 @@ export default function Home() {
 
       if (cached?.content) {
         try {
-          const parsed = JSON.parse(cached.content);
-          setExplanations(current => ({
-            ...current,
-            [node.id]:{
-              explanation:parsed,
-              sources:Array.isArray(cached.source_metadata) ? cached.source_metadata : [],
-              model:cached.model,
-              prompt_version:cached.prompt_version,
-              cached:true
-            }
-          }));
+          setExplanations(x => ({...x,[node.id]:{
+            explanation:JSON.parse(cached.content),
+            sources:Array.isArray(cached.source_metadata) ? cached.source_metadata : [],
+            model:cached.model,
+            cached:true
+          }}));
           return;
         } catch {}
       }
     }
 
     setExplainLoading(node.id);
-
     try {
-      const response = await fetch('/api/explain',{
+      const response=await fetch('/api/explain',{
         method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({
           title:node.title,
           field:node.primary_field || 'General',
-          path:essayPath(node)
+          path:pathFor(node).map(x => x.title)
         })
       });
-
-      const result = await response.json();
-
+      const result=await response.json();
       if (!response.ok) {
-        throw new Error(
-          result?.error === 'AI_NOT_CONFIGURED'
-            ? 'Explain is wired up, but the server still needs an OPENAI_API_KEY.'
-            : result?.message || 'Could not generate this explanation.'
-        );
+        throw new Error(result?.error === 'AI_NOT_CONFIGURED'
+          ? 'Explain is ready, but the server still needs OPENAI_API_KEY.'
+          : result?.message || 'Could not generate this explanation.');
       }
 
-      setExplanations(current => ({...current,[node.id]:result}));
+      setExplanations(x => ({...x,[node.id]:result}));
 
       if (session?.user) {
         await supabase.from('generated_content').insert({
@@ -599,337 +352,355 @@ export default function Home() {
         });
       }
     } catch (error) {
-      setExplainErrors(errors => ({...errors,[node.id]:error.message}));
+      setExplainErrors(e => ({...e,[node.id]:error.message}));
     } finally {
       setExplainLoading(null);
     }
   }
 
-  function toggleEssayNode(id) {
-    setExpandedEssayNodes(current =>
-      current.includes(id) ? current.filter(x => x !== id) : [...current,id]
-    );
+  async function submitAuth(e) {
+    e.preventDefault();
+    setAuthBusy(true);
+    setAuthMessage('');
+    const result=authMode === 'signup'
+      ? await supabase.auth.signUp({email:authEmail,password:authPassword,options:{emailRedirectTo:window.location.origin}})
+      : await supabase.auth.signInWithPassword({email:authEmail,password:authPassword});
+
+    if (result.error) setAuthMessage(result.error.message);
+    else if (result.data?.session) {
+      setAuthOpen(false);
+      setAuthPassword('');
+    } else {
+      setAuthMessage('Account created. Check your email if confirmation is required, then sign in.');
+      setAuthMode('login');
+    }
+    setAuthBusy(false);
   }
 
-  function renderEssayNode(node,depth=0) {
-    const children = essayChildren[node.id] || [];
-    const questions = essayQuestionsByNode[node.id] || [];
-    const connections = essayConnections(node);
-    const explanationResult = explanations[node.id];
-    const explanation = explanationResult?.explanation;
-    const open = expandedEssayNodes.includes(node.id);
-    const expandable = true;
-
-    return <div className="essay-tree-node" key={node.id}>
-      <button
-        id={'essay-node-' + node.id}
-        className="essay-node-row"
-        style={{'--depth':depth}}
-        onClick={() => expandable && toggleEssayNode(node.id)}
-      >
-        <span className="essay-tree-line">{depth === 0 ? '└─' : '├─'}</span>
-        <span className="essay-node-title">{node.title}</span>
-        <span className="essay-node-type">{node.node_type.replaceAll('_',' ')}</span>
-        {expandable && <span className="essay-node-toggle">{open ? '−' : '+'}</span>}
-      </button>
-
-      {open && <div className="essay-node-actions" style={{'--depth':depth + 1}}>
-        <span className="essay-tree-line">└─</span>
-        <div className="essay-action-buttons">
-          <button
-            className="essay-action essay-action-primary"
-            disabled={explainLoading === node.id}
-            onClick={() => explainEssayNode(node)}
-          >
-            {explainLoading === node.id ? 'Explaining…' : explanation ? 'Explanation' : 'Explain'}
-          </button>
-          <button className="essay-action" disabled>Explore Deeper</button>
-          <button className="essay-action" disabled>Compare</button>
-          <button className="essay-action" disabled>Full Essay</button>
-        </div>
-      </div>}
-
-      {open && explainErrors[node.id] && <div className="essay-explain-error" style={{'--depth':depth + 1}}>
-        <span className="essay-tree-line">└─</span>
-        <p>{explainErrors[node.id]}</p>
-      </div>}
-
-      {open && explanation && <article className="essay-explanation" style={{'--depth':depth + 1}}>
-        <div className="essay-explanation-head">
-          <span className="essay-tree-line">└─</span>
-          <div>
-            <small>EXPLAIN</small>
-            <span>{explanationResult?.cached ? 'Saved explanation' : 'Generated for this curriculum context'}</span>
-          </div>
-        </div>
-
-        <div className="essay-explanation-body">
-          <section>
-            <h4>Core idea</h4>
-            <p>{explanation.core_idea}</p>
-          </section>
-          <section>
-            <h4>Intuition</h4>
-            <p>{explanation.intuition}</p>
-          </section>
-          <section>
-            <h4>How it works</h4>
-            <p>{explanation.how_it_works}</p>
-          </section>
-          <section>
-            <h4>Why it matters</h4>
-            <p>{explanation.why_it_matters}</p>
-          </section>
-          <section>
-            <h4>Boundaries & misunderstandings</h4>
-            <p>{explanation.boundaries}</p>
-          </section>
-
-          {explanationResult?.sources?.length > 0 && <section className="essay-explanation-sources">
-            <h4>Sources used for verification</h4>
-            <div>
-              {explanationResult.sources.map(source => <a
-                key={source.url}
-                href={source.url}
-                target="_blank"
-                rel="noreferrer"
-              >{source.title || source.url}</a>)}
-            </div>
-          </section>}
-        </div>
-      </article>}
-
-      {open && questions.length > 0 && <div className="essay-question-list">
-        {questions.map(q => <div className="essay-question-row" style={{'--depth':depth + 1}} key={q.id}>
-          <span className="essay-tree-line">└─</span>
-          <div>
-            <small>ESSAY QUESTION</small>
-            <p>{q.question}</p>
-          </div>
-          <button className="essay-generate-later" disabled>Generate Essay</button>
-        </div>)}
-      </div>}
-
-      {open && connections.length > 0 && <div className="essay-connections" style={{'--depth':depth + 1}}>
-        <div className="essay-connections-head">
-          <span className="essay-tree-line">└─</span>
-          <div><small>CONNECTIONS</small><span>Move sideways across the knowledge map</span></div>
-        </div>
-        <div className="essay-connection-grid">
-          {connections.map(connection => <button
-            key={connection.id}
-            className="essay-connection-card"
-            onClick={() => focusEssayNode(connection.targetEssayId)}
-          >
-            <span className="essay-connection-relation">{connection.relation}</span>
-            <strong>{connection.title}</strong>
-            <span className="essay-connection-fields">{connection.fields.join(' · ')}</span>
-            <span className="essay-connection-arrow">↗</span>
-          </button>)}
-        </div>
-      </div>}
-
-      {open && children.map(child => renderEssayNode(child,depth + 1))}
+  function TopicVisual({node,large=false}) {
+    const meta=fieldMeta(node?.primary_field);
+    return <div className={'topic-visual ' + (large ? 'large' : '') + ' field-visual-' + ((rootNodes.findIndex(r => r.title === node?.primary_field)+6)%6)}>
+      <div className="orb"></div>
+      <div className="well-grid"></div>
+      <span>{meta.icon}</span>
     </div>;
   }
 
-  const nav = [
-    ['home','Home'],
-    ['essays','Essays'],
-    ['concepts','3 Concepts'],
-    ['world','World'],
-    ['review','Review']
+  function TopicHeader({node}) {
+    const path=pathFor(node);
+    return <>
+      <div className="breadcrumbs">
+        {path.map((item,i) => <span key={item.id}>
+          {i > 0 && <b>›</b>}
+          <button onClick={() => i === path.length-1 ? null : openTopic(item.id)}>{item.title}</button>
+        </span>)}
+      </div>
+
+      <section className="topic-hero">
+        <TopicVisual node={node} large />
+        <div className="topic-hero-copy">
+          <span className="topic-kicker">{node.primary_field} · {String(node.node_type || 'topic').replaceAll('_',' ')}</span>
+          <h1>{node.title}</h1>
+          <p>{node.description || 'Explore this idea through its place in the curriculum, its deeper questions and its connections to the wider knowledge map.'}</p>
+          <div className="topic-actions">
+            <button className="gold-button" onClick={() => explainTopic(node)}>{explainLoading === node.id ? 'Explaining…' : 'Explain'}</button>
+            <button onClick={() => setTopicTab('questions')}>Explore Deeper</button>
+            <button onClick={() => setTopicTab('compare')}>Compare</button>
+            <button disabled>Full Essay</button>
+          </div>
+        </div>
+      </section>
+
+      <nav className="topic-tabs">
+        {[
+          ['overview','Overview'],
+          ['explain','Explain'],
+          ['graph','Knowledge Graph'],
+          ['questions','Questions'],
+          ['related','Related Concepts'],
+          ['compare','Compare']
+        ].map(([id,label]) => <button key={id} className={topicTab === id ? 'active' : ''} onClick={() => {
+          setTopicTab(id);
+          if (id === 'explain' && !explanations[node.id]) explainTopic(node);
+        }}>{label}</button>)}
+      </nav>
+    </>;
+  }
+
+  function TopicOverview({node}) {
+    const path=pathFor(node);
+    const questions=questionsByNode[node.id] || [];
+    const connections=connectionsFor(node);
+    return <div className="topic-overview">
+      <section className="panel quick-facts">
+        <div className="panel-title"><span>Quick Facts</span><small>CURRICULUM CONTEXT</small></div>
+        <div className="facts-grid">
+          <div><small>FIELD</small><strong>{node.primary_field}</strong></div>
+          <div><small>TYPE</small><strong>{String(node.node_type || 'topic').replaceAll('_',' ')}</strong></div>
+          <div><small>DEPTH</small><strong>Level {Math.max(0,path.length-1)}</strong></div>
+          <div><small>SUBTOPICS</small><strong>{(childrenByParent[node.id] || []).length}</strong></div>
+          <div><small>ESSAY QUESTIONS</small><strong>{questions.length}</strong></div>
+          <div><small>GRAPH LINKS</small><strong>{connections.length}</strong></div>
+        </div>
+      </section>
+
+      <div className="overview-grid">
+        <section className="panel path-panel">
+          <div className="panel-title"><span>Where it sits</span><small>KNOWLEDGE PATH</small></div>
+          <div className="path-stack">
+            {path.map((item,i) => <button key={item.id} onClick={() => openTopic(item.id)}>
+              <span>{String(i+1).padStart(2,'0')}</span><b>{item.title}</b>
+            </button>)}
+          </div>
+        </section>
+        <section className="panel next-panel">
+          <div className="panel-title"><span>Go deeper</span><small>NEXT MOVES</small></div>
+          {(childrenByParent[node.id] || []).slice(0,5).map(child => <button key={child.id} onClick={() => openTopic(child.id)}>
+            <MiniIcon>▣</MiniIcon><span>{child.title}</span><b>→</b>
+          </button>)}
+          {(childrenByParent[node.id] || []).length === 0 && <p>This is a focused node. Use Explain, Questions or Related Concepts to continue.</p>}
+        </section>
+      </div>
+    </div>;
+  }
+
+  function ExplainView({node}) {
+    const result=explanations[node.id];
+    const ex=result?.explanation;
+    const sections=ex ? [
+      ['core','Core Idea',ex.core_idea],
+      ['intuition','Intuition',ex.intuition],
+      ['mechanism','How It Works',ex.how_it_works],
+      ['matter','Why It Matters',ex.why_it_matters],
+      ['boundaries','Boundaries',ex.boundaries]
+    ] : [];
+
+    if (explainLoading === node.id) return <div className="loading-panel"><div className="loader-ring"></div><h3>Building the explanation…</h3><p>Using the exact curriculum path for context.</p></div>;
+
+    if (explainErrors[node.id]) return <div className="panel empty-panel"><span>EXPLAIN</span><h3>Generation is not active yet.</h3><p>{explainErrors[node.id]}</p><button className="gold-button" onClick={() => explainTopic(node)}>Try Again</button></div>;
+
+    if (!ex) return <div className="panel empty-panel"><span>EXPLAIN</span><h3>Turn this node into a five-minute understanding.</h3><p>Core idea, intuition, mechanism, why it matters, and the boundaries that prevent common misunderstandings.</p><button className="gold-button" onClick={() => explainTopic(node)}>Generate Explanation</button></div>;
+
+    return <div className="explain-layout">
+      <aside className="explain-nav">
+        <span>GENERAL RELATIVITY</span>
+        {sections.map(([id,title]) => <button key={id} onClick={() => document.getElementById('explain-'+id)?.scrollIntoView({behavior:'smooth',block:'center'})}>{title}</button>)}
+        <button onClick={() => setTopicTab('related')}>Related Concepts</button>
+      </aside>
+      <article className="explain-copy">
+        <div className="explain-banner">
+          <div><small>GUIDED EXPLANATION</small><h2>{node.title}</h2></div>
+          <span>{result?.cached ? 'Saved explanation' : 'Generated for this curriculum context'}</span>
+        </div>
+        {sections.map(([id,title,copy],i) => <section id={'explain-'+id} key={id} className={i === 0 ? 'featured' : ''}>
+          <small>{String(i+1).padStart(2,'0')}</small>
+          <h3>{title}</h3>
+          <p>{copy}</p>
+        </section>)}
+        {result?.sources?.length > 0 && <section className="source-section">
+          <small>VERIFICATION SOURCES</small>
+          <div>{result.sources.map(s => <a key={s.url} href={s.url} target="_blank" rel="noreferrer">{s.title || s.url}</a>)}</div>
+        </section>}
+      </article>
+    </div>;
+  }
+
+  function QuestionsView({node}) {
+    const questions=questionsByNode[node.id] || [];
+    return <section className="questions-page">
+      <div className="subpage-heading"><small>THINK DEEPER</small><h2>Questions to Deepen Your Understanding</h2><p>Use these questions to test what you understand and expose what still feels fuzzy.</p></div>
+      <div className="question-cards">
+        {questions.length ? questions.map((q,i) => <details key={q.id}>
+          <summary><span>{i+1}</span><strong>{q.question}</strong><b>⌄</b></summary>
+          <p>This question is intentionally left open. It is designed as an essay prompt for deeper reasoning rather than a quick-answer card.</p>
+        </details>) : <div className="panel empty-panel"><h3>No curated questions on this exact node yet.</h3><p>Move one level up or down the curriculum to find nearby essay questions.</p></div>}
+      </div>
+    </section>;
+  }
+
+  function RelatedView({node}) {
+    const connections=connectionsFor(node);
+    return <section className="related-page">
+      <div className="subpage-heading"><small>KNOWLEDGE GRAPH</small><h2>Related Concepts</h2><p>Explore connected ideas to go deeper without losing the thread.</p></div>
+      <div className="related-grid">
+        {connections.length ? connections.map((c,i) => <button key={c.id} className="related-card" onClick={() => openTopic(c.targetEssayId)}>
+          <span className={'related-icon ri-'+(i%4)}>{fieldMeta(c.field).icon}</span>
+          <small>{c.relation}</small>
+          <h3>{c.title}</h3>
+          <p>{c.field}</p>
+          <b>View →</b>
+        </button>) : <div className="panel empty-panel"><h3>No graph connections surfaced here yet.</h3><p>The curriculum still works normally; this node simply has no approved graph edge with a navigable destination.</p></div>}
+      </div>
+    </section>;
+  }
+
+  function GraphView({node}) {
+    const connections=connectionsFor(node).slice(0,6);
+    const positions=[
+      {x:50,y:12},{x:82,y:28},{x:86,y:70},{x:55,y:86},{x:18,y:72},{x:15,y:30}
+    ];
+    return <section className="graph-page panel">
+      <div className="panel-title"><div><span>Knowledge Graph</span><small>How {node.title} connects to other ideas</small></div><div className="graph-legend"><i></i> approved connection</div></div>
+      <div className="graph-canvas">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          {connections.map((c,i) => <line key={c.id} x1="50" y1="50" x2={positions[i].x} y2={positions[i].y} />)}
+        </svg>
+        <button className="graph-node center">{node.title}</button>
+        {connections.map((c,i) => <button
+          key={c.id}
+          className="graph-node satellite"
+          style={{left:positions[i].x+'%',top:positions[i].y+'%'}}
+          onClick={() => openTopic(c.targetEssayId)}
+        >
+          <small>{c.relation}</small>{c.title}
+        </button>)}
+        {!connections.length && <div className="graph-empty">No approved graph connections for this node yet.</div>}
+      </div>
+    </section>;
+  }
+
+  function CompareView({node}) {
+    const connections=connectionsFor(node);
+    return <section className="compare-page">
+      <div className="subpage-heading"><small>COMPARE CONCEPTS</small><h2>See two ideas side by side.</h2><p>The comparison engine comes next. The interface is already in place.</p></div>
+      <div className="compare-selectors panel">
+        <div><small>CONCEPT A</small><button>{node.title}<span>⌄</span></button></div>
+        <div className="compare-switch">⇄</div>
+        <div><small>CONCEPT B</small><button>{connections[0]?.title || 'Select related concept'}<span>⌄</span></button></div>
+      </div>
+      <div className="compare-coming"><span>COMING SOON</span><p>The comparison feature will help you understand assumptions, similarities, differences and common confusions between concepts.</p></div>
+    </section>;
+  }
+
+  const nav=[
+    ['home','⌂','Home'],
+    ['explore','⌕','Explore'],
+    ['learning','▱','My Learning'],
+    ['bookmarks','▮','Bookmarks'],
+    ['settings','⚙','Settings']
   ];
 
-  return <main>
-    <header className="topbar">
-      <button className="wordmark" onClick={() => setScreen('home')}><span>IO</span><strong>Intellectual OS</strong></button>
-      <div className="top-meta">
-        {session?.user ? <>
-          <span>Synced</span>
-          <button className="sync-button" onClick={signOut}>Sign out</button>
-        </> : <button className="sync-button" onClick={() => setAuthOpen(true)}>Sign in to sync</button>}
+  return <main className="ios-app">
+    <header className="global-header">
+      <button className="brand" onClick={() => setScreen('home')}>Intellectual OS</button>
+      <div className="global-search">
+        <span>⌕</span>
+        <input
+          value={search}
+          onFocus={() => setSearchFocused(true)}
+          onChange={e => setSearch(e.target.value)}
+          placeholder="Search any concept..."
+        />
+        {searchFocused && searchResults.length > 0 && <div className="search-menu">
+          {searchResults.map(node => <button key={node.id} onMouseDown={() => openTopic(node.id)}>
+            <span>{fieldMeta(node.primary_field).icon}</span>
+            <div><strong>{node.title}</strong><small>{node.primary_field}</small></div>
+          </button>)}
+        </div>}
       </div>
+      <button className="profile-button" onClick={() => session?.user ? null : setAuthOpen(true)}>{session?.user ? '✓' : '◉'}</button>
     </header>
 
-    <div className="app-shell">
-      <aside className="sidebar">
-        <div className="side-label">LEARN</div>
-        {nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}>{label}</button>)}
-        <div className="side-note"><b>Long game</b><span>{session?.user ? 'Your progress is synced.' : 'Sign in once to carry progress across devices.'}</span></div>
+    <div className="workspace">
+      <aside className="main-sidebar">
+        {nav.map(([id,icon,label]) => <button key={id} className={screen === id ? 'active' : ''} onClick={() => setScreen(id)}>
+          <span>{icon}</span><b>{label}</b>
+        </button>)}
       </aside>
 
-      <section className="content">
-        {screen==='home' && <div className="home-sanctuary">
+      <section className="workspace-content">
+        {screen === 'home' && <div className="home-page">
           <section className="home-hero">
-            <div className="home-kicker"><span className="pulse-dot"></span> DAILY PRACTICE</div>
-            <h1>Your mind is a long project.</h1>
-            <p className="home-manifesto">You do not need to know everything today. You need to keep returning to difficult ideas until the world becomes more legible, your judgments become sharper, and your curiosity becomes harder to exhaust.</p>
-            <div className="home-credo">Build a mind that can hold complexity without losing clarity.</div>
-          </section>
-
-          <section className="home-principles">
-            <article><span>01</span><h3>Go deeper than the headline.</h3><p>Prefer mechanisms, history, evidence, and competing explanations over the comfort of a quick opinion.</p></article>
-            <article><span>02</span><h3>Collect models, not trivia.</h3><p>A useful concept should change what you notice elsewhere. The point is connection, not accumulation.</p></article>
-            <article><span>03</span><h3>Return until it becomes yours.</h3><p>Ideas become part of your thinking through repeated encounters, not through one impressive reading session.</p></article>
-          </section>
-
-          <section className="home-progress">
-            <div className="progress-copy">
-              <small>YOUR LONG GAME</small>
-              <h2>Compounding quietly.</h2>
-              <p>No feed to clear. No streak to defend. The only aim is to leave each month with a richer map of the world than you had before.</p>
-            </div>
-            <div className="progress-stats">
-              <div><b>{progress.explored.length}</b><span>ideas explored</span></div>
-              <div><b>{progress.generated.length}</b><span>deep dives saved</span></div>
-              <div><b>{Object.keys(progress.recall).length}</b><span>ideas revisited</span></div>
+            <span className="gold-kicker">YOUR MAP OF IDEAS</span>
+            <h1>A complete map<br/>of human knowledge.</h1>
+            <p>Explore. Understand. Connect. Think deeper.</p>
+            <div className="stat-cards">
+              <div><i>◈</i><strong>{rootNodes.length}</strong><span>Knowledge Fields</span></div>
+              <div><i>▣</i><strong>{essayNodes.length.toLocaleString()}+</strong><span>Curriculum Nodes</span></div>
+              <div><i>⌘</i><strong>{approvedEdgeCount}</strong><span>Rich Connections</span></div>
+              <div><i>✦</i><strong>AI</strong><span>Powered Explanations</span></div>
             </div>
           </section>
 
-          <div className="home-closing"><span className="home-rule"></span><p>{session?.user ? 'Progress is now stored in Supabase and follows your account.' : 'Sign in to make this progress follow you across iPhone, iPad, and desktop.'}</p></div>
+          <section className="start-exploring">
+            <div className="section-row"><div><small>START EXPLORING</small><h2>Choose a field</h2></div><button onClick={() => setScreen('explore')}>View full curriculum →</button></div>
+            <div className="field-cards">
+              {rootNodes.map((root,i) => <button key={root.id} className={'field-card fc-'+(i%6)} onClick={() => openField(root.id)}>
+                <div className="field-card-art"><span>{fieldMeta(root.title).icon}</span><div className="field-orb"></div></div>
+                <div><small>{String(i+1).padStart(2,'0')}</small><h3>{root.title}</h3><p>{fieldMeta(root.title).desc}</p></div>
+              </button>)}
+            </div>
+          </section>
         </div>}
 
-        {screen==='essays' && <>
-          <SectionTitle eyebrow="PART I · DEEP ESSAYS" title="Follow an idea as far as it goes." copy="Descend through the curriculum, then move sideways through curated cross-field connections. Essay generation comes next." />
-          <div className="essay-tree-shell">
-            <div className="essay-tree-head">
-              <div><small>CURATED TREE</small><h2>Deep Essays Curriculum</h2></div>
-              <span>{essayNodes.length} nodes · {essayQuestions.length} questions · {graphCounts.edges} connections</span>
-            </div>
-            <div className="essay-tree">
-              {(essayChildren.root || []).map(node => renderEssayNode(node,0))}
-            </div>
-          </div>
-        </>}
-
-        {screen==='concepts' && <>
-          <SectionTitle eyebrow="PART II · DISCOVER" title="Three concepts of the day." copy={catalogLoading ? 'Loading the curated concept library…' : 'These cards are now coming from Supabase rather than hard-coded page data.'} />
-          <div className="concept-grid">
-            {dailyConcepts.map(c => <article key={c.id} className="concept">
-              <Pill>{c.field}</Pill><h2>{c.name}</h2><p className="concept-short">{c.short}</p>
-              <div className="example"><small>EXAMPLE</small><p>{c.example}</p></div>
-              <div className="whyline"><small>WHY IT MATTERS</small><p>{c.why}</p></div>
-              <div className="actions">
-                <AppButton onClick={() => openConcept(c)}>Explore Deeply</AppButton>
-                <AppButton variant="secondary" onClick={() => generateEssay({id:c.id,title:c.name,field:c.field,teaser:c.short,minutes:20})}>Generate Full Essay</AppButton>
+        {screen === 'explore' && <div className="explore-page">
+          <aside className="field-rail">
+            <h3>All Fields</h3>
+            {rootNodes.map(root => <button key={root.id} className={selectedField?.id === root.id ? 'active' : ''} onClick={() => openField(root.id)}>
+              <MiniIcon>{fieldMeta(root.title).icon}</MiniIcon><span>{root.title}</span>
+            </button>)}
+          </aside>
+          <section className="curriculum-panel">
+            {selectedField ? <>
+              <div className="curriculum-heading">
+                <div><small>{fieldMeta(selectedField.title).icon} KNOWLEDGE FIELD</small><h1>{selectedField.title}</h1><p>{fieldMeta(selectedField.title).desc}</p></div>
+                <span>{countDescendants(selectedField.id,childrenByParent)} nodes</span>
               </div>
+              <div className="curriculum-tree">
+                {(childrenByParent[selectedField.id] || []).map(node => renderExplorerNode(node,0))}
+              </div>
+            </> : <div className="loading-state">Loading curriculum…</div>}
+          </section>
+        </div>}
+
+        {screen === 'topic' && selectedTopic && <div className="topic-page">
+          <TopicHeader node={selectedTopic}/>
+          {topicTab === 'overview' && <TopicOverview node={selectedTopic}/>}
+          {topicTab === 'explain' && <ExplainView node={selectedTopic}/>}
+          {topicTab === 'questions' && <QuestionsView node={selectedTopic}/>}
+          {topicTab === 'related' && <RelatedView node={selectedTopic}/>}
+          {topicTab === 'graph' && <GraphView node={selectedTopic}/>}
+          {topicTab === 'compare' && <CompareView node={selectedTopic}/>}
+        </div>}
+
+        {screen === 'learning' && <div className="simple-page">
+          <div className="subpage-heading"><small>MY LEARNING</small><h2>Keep the ideas that changed how you think.</h2><p>Review, revisit and eventually build a durable memory of the concepts you explore.</p></div>
+          <div className="learning-grid">
+            {concepts.map((c,i) => <article key={c.id} className="learning-card">
+              <span>{String(i+1).padStart(2,'0')}</span><small>{c.field}</small><h3>{c.name}</h3><p>{c.short}</p>
             </article>)}
           </div>
-          {selectedConcept && <div className="drawer-backdrop" onClick={() => setSelectedConcept(null)}>
-            <article className="drawer" onClick={e => e.stopPropagation()}>
-              <div className="drawer-head"><div><Pill>{selectedConcept.field}</Pill><h2>{selectedConcept.name}</h2></div><button onClick={() => setSelectedConcept(null)}>×</button></div>
-              <p className="deep-copy">{deepMode==='deep' ? selectedConcept.deep : selectedConcept.alternate}</p>
-              <div className="actions">
-                <AppButton variant="secondary" onClick={() => setDeepMode(deepMode==='deep'?'alternate':'deep')}>Generate Another Explanation</AppButton>
-                <AppButton onClick={() => generateEssay({id:selectedConcept.id,title:selectedConcept.name,field:selectedConcept.field,teaser:selectedConcept.short,minutes:20})}>Generate Full Essay</AppButton>
-              </div>
-              <div className="evidence"><small>EVIDENCE LAYER · PREVIEW</small><div><Pill>Core idea: curated</Pill><Pill>Source layer arrives with research mode</Pill></div></div>
-            </article>
-          </div>}
-        </>}
+        </div>}
 
-        {screen==='world' && <>
-          <SectionTitle eyebrow="PART III · WORLD & CHANGE" title="Understand the present and the forces behind it." />
-          <div className="tabs"><button className={worldTab==='brief'?'active':''} onClick={() => setWorldTab('brief')}>Daily Brief</button><button className={worldTab==='arc'?'active':''} onClick={() => setWorldTab('arc')}>Long Arc</button></div>
+        {screen === 'bookmarks' && <div className="simple-page"><div className="subpage-heading"><small>BOOKMARKS</small><h2>Your private reading shelf.</h2><p>Saved ideas and essays will live here once bookmarking is connected.</p></div><div className="panel empty-panel"><h3>Nothing saved yet.</h3><p>Bookmarking is the next small utility layer after the core learning actions.</p></div></div>}
 
-          {worldTab==='brief' && <div className="news-list">
-            {news.map(n => <article className="news-card" key={n.id}>
-              <Pill>{n.tag}</Pill><h2>{n.title}</h2>
-              <div className="qa"><b>What happened?</b><p>{n.happened}</p></div>
-              <div className="qa"><b>Why does it matter?</b><p>{n.matters}</p></div>
-              <div className="qa"><b>What larger issue does it connect to?</b><p>{n.larger}</p></div>
-              <div className="qa"><b>What should you watch next?</b><p>{n.watch}</p></div>
-              <div className="actions"><AppButton variant="secondary">Explain More</AppButton><AppButton variant="secondary">Why Does This Matter Historically?</AppButton><AppButton>Full Deep Dive</AppButton></div>
-            </article>)}
-          </div>}
-
-          {worldTab==='arc' && <div className="arc">
-            <div className="yearbar">{['10','20','50','100','200','300','500'].map(y => <button key={y} className={year===y?'active':''} onClick={() => {setYear(y);setArcTopic(null)}}>{y}<span>years</span></button>)}</div>
-            <div className="branch">
-              <div className="branch-left"><small>CHOOSE FIELD</small>{fields.map(f => <button key={f} className={field===f?'active':''} onClick={() => {setField(f);setArcTopic(null)}}>{f}</button>)}</div>
-              <div className="branch-right">
-                <div className="branch-title"><small>{year} YEAR BAND</small><h2>{field}</h2></div>
-                {activeArc.length ? activeArc.map(t => <button className="arc-topic" key={t.id} onClick={() => setArcTopic(t)}><span>{t.period_label}</span><h3>{t.title}</h3><p>{t.summary}</p><b>Open topic →</b></button>) : <div className="empty"><h3>Not populated yet.</h3><p>The branch exists in the database; we will expand the curriculum after the system is working end to end.</p></div>}
-              </div>
-            </div>
-            {arcTopic && <div className="drawer-backdrop" onClick={() => setArcTopic(null)}><article className="drawer" onClick={e=>e.stopPropagation()}>
-              <div className="drawer-head"><div><Pill>{field} · {arcTopic.period_label}</Pill><h2>{arcTopic.title}</h2></div><button onClick={() => setArcTopic(null)}>×</button></div>
-              <p className="deep-copy">{arcTopic.summary}{arcTopic.why_it_matters ? '\n\nWhy it matters: ' + arcTopic.why_it_matters : ''}</p>
-              <div className="actions"><AppButton onClick={() => saveProgress('long_arc',arcTopic.id,'explored')}>Understand the Shift</AppButton><AppButton variant="secondary">What Came Before?</AppButton><AppButton variant="secondary">What Did This Lead To?</AppButton><AppButton variant="secondary">Full Historical Deep Dive</AppButton></div>
-            </article></div>}
-          </div>}
-        </>}
-
-        {screen==='review' && <>
-          <SectionTitle eyebrow="PART IV · REVIEW & MEMORY" title="Recall without homework." copy={session?.user ? 'Your review queue is now stored in the database.' : 'Sign in, then explore concepts. They will automatically enter your review queue.'} />
-          <div className="review-layout">
-            <article className="flashcard">
-              {reviewConcept ? <>
-                <small>FLASHCARD {flashIndex+1} / {dueFlashcards.length}</small>
-                <Pill>{reviewConcept.field}</Pill>
-                <h2>{reviewConcept.name}</h2>
-                {!flashRevealed ? <><p>Do you remember what this means?</p><AppButton onClick={() => setFlashRevealed(true)}>Reveal</AppButton></> :
-                <><p className="answer">{reviewConcept.short}</p><div className="example"><small>EXAMPLE</small><p>{reviewConcept.example}</p></div>
-                <div className="recall-buttons">
-                  <button onClick={() => rateFlashcard('forgot')}>Forgot</button>
-                  <button onClick={() => rateFlashcard('fuzzy')}>Fuzzy</button>
-                  <button onClick={() => rateFlashcard('got_it')}>Got it</button>
-                </div></>}
-              </> : <>
-                <small>REVIEW QUEUE</small>
-                <h2>{session?.user ? 'Nothing due.' : 'Sign in to sync.'}</h2>
-                <p>{session?.user ? 'Explore a concept to add it automatically, or return when the next review becomes due.' : 'Your flashcards, intervals, and review history will follow your account across devices.'}</p>
-                {!session?.user && <AppButton onClick={() => setAuthOpen(true)}>Sign in</AppButton>}
-              </>}
-            </article>
-
-            <article className="month-card">
-              <small>MONTHLY INTELLECTUAL REVIEW · LIVE METRICS</small><h2>September</h2>
-              <div className="metric-grid">
-                <div><b>{progress.explored.length}</b><span>concepts explored</span></div>
-                <div><b>{progress.generated.length}</b><span>deep dives opened</span></div>
-                <div><b>{Object.keys(progress.recall).length}</b><span>concepts reviewed</span></div>
-              </div>
-              <p>The monthly AI synthesis comes later. The underlying activity data is now structured and ready for it.</p>
-            </article>
-          </div>
-
-          <article className="graph-preview">
-            <small>KNOWLEDGE GRAPH · DATABASE</small>
-            <h2>{graphCounts.nodes} nodes · {graphCounts.edges} curated connections</h2>
-            <div className="graph-row"><span>Hysteresis</span><i>related to</i><span>Path Dependence</span><i>applied to</i><span>Unemployment</span></div>
-            <p>The graph now exists in Supabase with canonical nodes and typed edges. We will make it interactive later.</p>
-          </article>
-        </>}
-
-        {screen==='essay-reader' && essay && <>
-          <button className="back-link" onClick={() => setScreen('essays')}>← Deep Essays</button>
-          <article className="reader">
-            <Pill>{essay.field}</Pill><h1>{essay.title}</h1><p className="lede">{essay.teaser}</p>
-            <div className="reader-meta"><span>≈ {essay.minutes} min</span><span>{session?.user ? 'Opening saved to your account' : 'Sign in to save progress'}</span><span>Source layer planned</span></div>
-            <h2>The central problem</h2><p>This is still the prototype reader. The topic and your reading state are now part of the real data model. In the next phase, this screen will stream the full generated essay and cache it in the generated_content table.</p>
-            <h2>What is now real</h2><p>The curriculum lives in Supabase, the app can authenticate you, explored concepts create flashcards automatically, review intervals are stored, and progress can sync across devices under the same account.</p>
-            <div className="source-box"><small>EVIDENCE & SOURCES</small><p><b>Research synthesis</b> · systematic reviews and major review papers</p><p><b>Primary material</b> · original studies, data, legislation, speeches, or historical documents</p><p><b>Interpretation</b> · clearly separated from empirical evidence</p></div>
-          </article>
-        </>}
+        {screen === 'settings' && <div className="simple-page"><div className="subpage-heading"><small>SETTINGS</small><h2>Keep the system quiet and personal.</h2><p>Account sync and preference controls live here.</p></div><div className="settings-panel panel"><div><span>Account</span><b>{session?.user ? 'Signed in' : 'Not signed in'}</b></div><button className="gold-button" onClick={() => session?.user ? supabase.auth.signOut() : setAuthOpen(true)}>{session?.user ? 'Sign out' : 'Sign in'}</button></div></div>}
       </section>
     </div>
 
-    <nav className="bottom-nav">{nav.map(([id,label]) => <button key={id} className={screen===id?'active':''} onClick={() => setScreen(id)}><span>{label==='3 Concepts'?'Concepts':label}</span></button>)}</nav>
-
     {authOpen && <div className="auth-backdrop" onClick={() => setAuthOpen(false)}>
       <form className="auth-card" onSubmit={submitAuth} onClick={e => e.stopPropagation()}>
-        <button className="auth-close" type="button" onClick={() => setAuthOpen(false)}>×</button>
+        <button type="button" className="auth-close" onClick={() => setAuthOpen(false)}>×</button>
         <small>PRIVATE SYNC</small>
         <h2>{authMode === 'login' ? 'Sign in.' : 'Create your account.'}</h2>
-        <p>Use the same account on iPhone, iPad, and desktop and your learning state follows you.</p>
-        <label>Email<input type="email" required value={authEmail} onChange={e => setAuthEmail(e.target.value)} autoComplete="email" /></label>
-        <label>Password<input type="password" required minLength="6" value={authPassword} onChange={e => setAuthPassword(e.target.value)} autoComplete={authMode === 'login' ? 'current-password' : 'new-password'} /></label>
+        <p>Keep explanations and learning state attached to your account.</p>
+        <label>Email<input type="email" required value={authEmail} onChange={e => setAuthEmail(e.target.value)} /></label>
+        <label>Password<input type="password" required minLength="6" value={authPassword} onChange={e => setAuthPassword(e.target.value)} /></label>
         {authMessage && <div className="auth-message">{authMessage}</div>}
-        <AppButton type="submit" disabled={authBusy}>{authBusy ? 'Working…' : authMode === 'login' ? 'Sign in' : 'Create account'}</AppButton>
+        <button className="gold-button auth-submit" type="submit" disabled={authBusy}>{authBusy ? 'Working…' : authMode === 'login' ? 'Sign in' : 'Create account'}</button>
         <button className="auth-switch" type="button" onClick={() => {setAuthMode(authMode === 'login' ? 'signup' : 'login');setAuthMessage('')}}>{authMode === 'login' ? 'Need an account? Create one' : 'Already have an account? Sign in'}</button>
       </form>
     </div>}
   </main>;
+}
+
+function countDescendants(id,childrenByParent) {
+  let count=0;
+  const stack=[...(childrenByParent[id] || [])];
+  while (stack.length) {
+    const node=stack.pop();
+    count+=1;
+    stack.push(...(childrenByParent[node.id] || []));
+  }
+  return count;
 }
