@@ -10,7 +10,8 @@ const FIELD_META = {
   'Mind & Behavior': { icon:'⌁', desc:'Psychology, cognition, neuroscience, learning and human behavior.' },
   'Society & Culture': { icon:'◉', desc:'Social structure, culture, identity, institutions and collective life.' },
   'Physics': { icon:'◎', desc:'Relativity, quantum physics, spacetime and the foundations of nature.' },
-  'Future & Civilization': { icon:'✦', desc:'Realistic near- and long-term possibilities for technology, humanity, civilization and life beyond Earth.' }
+  'Future & Civilization': { icon:'✦', desc:'Realistic near- and long-term possibilities for technology, humanity, civilization and life beyond Earth.' },
+  'Conspiracies, Secret Societies & Hidden Power': { icon:'◈', desc:'Documented conspiracies, secret societies, covert power, unresolved claims, elite networks and evidence-based investigation.' }
 };
 
 const FALLBACK_CONCEPTS = [
@@ -444,6 +445,7 @@ export default function Home() {
           <div><small>GRAPH LINKS</small><strong>{connections.length}</strong></div>
           {node.metadata?.horizon && <div><small>TIME HORIZON</small><strong>{String(node.metadata.horizon).replaceAll('-',' ')}</strong></div>}
           {node.metadata?.plausibility && <div><small>PLAUSIBILITY</small><strong>{String(node.metadata.plausibility).replaceAll('-',' ')}</strong></div>}
+          {node.metadata?.evidence_mode && <div><small>EVIDENCE MODE</small><strong>{String(node.metadata.evidence_mode).replaceAll('_',' ')}</strong></div>}
         </div>
       </section>
 
