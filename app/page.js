@@ -9,7 +9,8 @@ const FIELD_META = {
   'Philosophy & Ideas': { icon:'◇', desc:'Reason, knowledge, ethics, mind, meaning and major traditions.' },
   'Mind & Behavior': { icon:'⌁', desc:'Psychology, cognition, neuroscience, learning and human behavior.' },
   'Society & Culture': { icon:'◉', desc:'Social structure, culture, identity, institutions and collective life.' },
-  'Physics': { icon:'◎', desc:'Relativity, quantum physics, spacetime and the foundations of nature.' }
+  'Physics': { icon:'◎', desc:'Relativity, quantum physics, spacetime and the foundations of nature.' },
+  'Future & Civilization': { icon:'✦', desc:'Realistic near- and long-term possibilities for technology, humanity, civilization and life beyond Earth.' }
 };
 
 const FALLBACK_CONCEPTS = [
@@ -441,6 +442,8 @@ export default function Home() {
           <div><small>SUBTOPICS</small><strong>{(childrenByParent[node.id] || []).length}</strong></div>
           <div><small>ESSAY QUESTIONS</small><strong>{questions.length}</strong></div>
           <div><small>GRAPH LINKS</small><strong>{connections.length}</strong></div>
+          {node.metadata?.horizon && <div><small>TIME HORIZON</small><strong>{String(node.metadata.horizon).replaceAll('-',' ')}</strong></div>}
+          {node.metadata?.plausibility && <div><small>PLAUSIBILITY</small><strong>{String(node.metadata.plausibility).replaceAll('-',' ')}</strong></div>}
         </div>
       </section>
 
