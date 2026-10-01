@@ -415,6 +415,7 @@ export default function Home() {
       }
 
       setExplanations(x => ({...x,[node.id]:result}));
+      await updateProgress(node,'started',25);
 
       if (session?.user) {
         await supabase.from('generated_content').insert({
