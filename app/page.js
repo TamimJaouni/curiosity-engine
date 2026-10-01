@@ -55,26 +55,63 @@ function renderInlineMarkdown(text,keyPrefix='inline') {
   });
 }
 
-function RichExplanation({content}) {
+function parseRichSections(content) {
   const lines=String(content || '').replace(/\r/g,'').split('\n');
-  return <div className="rich-explanation">
+  const sections=[];
+  let current={id:'intro',title:'Introduction',lines:[]};
+
+  for (const raw of lines) {
+    const line=raw.trim();
+    if (line.startsWith('## ') && !line.startsWith('### ')) {
+      if (current.lines.some(x => x.trim())) sections.push(current);
+      current={
+        id:'section-'+(sections.length+1),
+        title:line.slice(3).trim() || 'Section',
+        lines:[raw]
+      };
+    } else {
+      current.lines.push(raw);
+    }
+  }
+
+  if (current.lines.some(x => x.trim())) sections.push(current);
+
+  return sections.map((section,index) => ({
+    ...section,
+    id:section.id+'-'+index,
+    text:section.lines.join('\n').trim()
+  }));
+}
+
+function RichLines({lines,prefix='rich'}) {
+  return <>
     {lines.map((raw,i) => {
       const line=raw.trim();
-      if (!line) return <div className="rich-space" key={'space-'+i}></div>;
-      if (/^---+$/.test(line)) return <hr key={'hr-'+i}/>;
-      if (line.startsWith('### ')) return <h3 key={'h3-'+i}>{renderInlineMarkdown(line.slice(4),'h3-'+i)}</h3>;
-      if (line.startsWith('## ')) return <h2 key={'h2-'+i}>{renderInlineMarkdown(line.slice(3),'h2-'+i)}</h2>;
-      if (line.startsWith('# ')) return <h1 key={'h1-'+i}>{renderInlineMarkdown(line.slice(2),'h1-'+i)}</h1>;
-      if (line.startsWith('> ')) return <blockquote key={'q-'+i}>{renderInlineMarkdown(line.slice(2),'q-'+i)}</blockquote>;
+      if (!line) return <div className="rich-space" key={prefix+'-space-'+i}></div>;
+      if (/^---+$/.test(line)) return <hr key={prefix+'-hr-'+i}/>;
+      if (line.startsWith('### ')) return <h3 key={prefix+'-h3-'+i}>{renderInlineMarkdown(line.slice(4),prefix+'-h3-'+i)}</h3>;
+      if (line.startsWith('## ')) return <h2 key={prefix+'-h2-'+i}>{renderInlineMarkdown(line.slice(3),prefix+'-h2-'+i)}</h2>;
+      if (line.startsWith('# ')) return <h1 key={prefix+'-h1-'+i}>{renderInlineMarkdown(line.slice(2),prefix+'-h1-'+i)}</h1>;
+      if (line.startsWith('> ')) return <blockquote key={prefix+'-q-'+i}>{renderInlineMarkdown(line.slice(2),prefix+'-q-'+i)}</blockquote>;
 
       const bullet=line.match(/^[-*]\s+(.+)$/);
-      if (bullet) return <div className="rich-list-row" key={'b-'+i}><span>•</span><p>{renderInlineMarkdown(bullet[1],'b-'+i)}</p></div>;
+      if (bullet) return <div className="rich-list-row" key={prefix+'-b-'+i}><span>•</span><p>{renderInlineMarkdown(bullet[1],prefix+'-b-'+i)}</p></div>;
 
       const numbered=line.match(/^(\d+)\.\s+(.+)$/);
-      if (numbered) return <div className="rich-list-row numbered" key={'n-'+i}><span>{numbered[1]}.</span><p>{renderInlineMarkdown(numbered[2],'n-'+i)}</p></div>;
+      if (numbered) return <div className="rich-list-row numbered" key={prefix+'-n-'+i}><span>{numbered[1]}.</span><p>{renderInlineMarkdown(numbered[2],prefix+'-n-'+i)}</p></div>;
 
-      return <p key={'p-'+i}>{renderInlineMarkdown(line,'p-'+i)}</p>;
+      return <p key={prefix+'-p-'+i}>{renderInlineMarkdown(line,prefix+'-p-'+i)}</p>;
     })}
+  </>;
+}
+
+function RichExplanation({content,renderSectionFooter}) {
+  const sections=parseRichSections(content);
+  return <div className="rich-explanation">
+    {sections.map((section,index) => <section className="rich-section" key={section.id}>
+      <RichLines lines={section.lines} prefix={section.id}/>
+      {renderSectionFooter ? renderSectionFooter(section,index) : null}
+    </section>)}
   </div>;
 }
 
@@ -103,6 +140,12 @@ export default function Home() {
   const [simpleContent,setSimpleContent] = useState({});
   const [simpleLoading,setSimpleLoading] = useState('');
   const [simpleErrors,setSimpleErrors] = useState({});
+
+  const [sectionChats,setSectionChats] = useState({});
+  const [sectionChatOpen,setSectionChatOpen] = useState({});
+  const [sectionChatInputs,setSectionChatInputs] = useState({});
+  const [sectionChatLoading,setSectionChatLoading] = useState('');
+  const [sectionChatErrors,setSectionChatErrors] = useState({});
 
   const [deepDives,setDeepDives] = useState({});
   const [deepLoading,setDeepLoading] = useState(null);
@@ -440,6 +483,59 @@ export default function Home() {
       setSimpleErrors(all => ({...all,[key]:error.message}));
     } finally {
       setSimpleLoading('');
+    }
+  }
+
+  function sectionChatKey(node,section) {
+    return node.id+'::'+section.id;
+  }
+
+  function toggleSectionChat(node,section) {
+    const key=sectionChatKey(node,section);
+    setSectionChatOpen(all => ({...all,[key]:!all[key]}));
+    setSectionChatErrors(all => ({...all,[key]:null}));
+  }
+
+  async function askSectionChat(node,section) {
+    const key=sectionChatKey(node,section);
+    const question=String(sectionChatInputs[key] || '').trim();
+    if (!question || sectionChatLoading) return;
+
+    const history=sectionChats[key] || [];
+    setSectionChatLoading(key);
+    setSectionChatErrors(all => ({...all,[key]:null}));
+
+    try {
+      const response=await fetch('/api/section-chat',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          topic:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          sectionTitle:section.title,
+          sectionText:section.text,
+          history,
+          question
+        })
+      });
+
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not answer this question.');
+
+      setSectionChats(all => ({
+        ...all,
+        [key]:[
+          ...history,
+          {role:'user',content:question},
+          {role:'assistant',content:result.answer}
+        ]
+      }));
+      setSectionChatInputs(all => ({...all,[key]:''}));
+    } catch(error) {
+      setSectionChatErrors(all => ({...all,[key]:error.message}));
+    } finally {
+      setSectionChatLoading('');
     }
   }
 
@@ -1170,7 +1266,59 @@ export default function Home() {
 
     return <article className={'simple-explanation '+(mode === 'exhaustive' ? 'exhaustive' : 'short')}>
       <header><small>{label}</small><h2>{node.title}</h2></header>
-      <div className="simple-explanation-copy"><RichExplanation content={content}/></div>
+      <div className="simple-explanation-copy">
+        <RichExplanation
+          content={content}
+          renderSectionFooter={mode === 'exhaustive' ? (section,index) => {
+            const key=sectionChatKey(node,section);
+            const open=!!sectionChatOpen[key];
+            const messages=sectionChats[key] || [];
+            const loading=sectionChatLoading === key;
+            const error=sectionChatErrors[key];
+
+            return <div className="section-chat-wrap">
+              <button className={'section-chat-toggle '+(open ? 'open' : '')} onClick={() => toggleSectionChat(node,section)}>
+                <span>{open ? '−' : '+'}</span>
+                <b>{open ? 'Close section chat' : 'Ask DeepSeek about this section'}</b>
+              </button>
+
+              {open && <div className="section-chat-panel">
+                {messages.length > 0 && <div className="section-chat-history">
+                  {messages.map((message,i) => <div key={i} className={'section-chat-message '+message.role}>
+                    <small>{message.role === 'user' ? 'YOU' : 'DEEPSEEK'}</small>
+                    {message.role === 'assistant'
+                      ? <RichExplanation content={message.content}/>
+                      : <p>{message.content}</p>}
+                  </div>)}
+                </div>}
+
+                <div className="section-chat-compose">
+                  <textarea
+                    rows={3}
+                    value={sectionChatInputs[key] || ''}
+                    onChange={e => setSectionChatInputs(all => ({...all,[key]:e.target.value}))}
+                    onKeyDown={e => {
+                      if (e.key === 'Enter' && !e.shiftKey) {
+                        e.preventDefault();
+                        askSectionChat(node,section);
+                      }
+                    }}
+                    placeholder="Ask why, request an example, clarify a person, challenge a claim…"
+                  />
+                  <button
+                    className="gold-button"
+                    disabled={loading || !(sectionChatInputs[key] || '').trim()}
+                    onClick={() => askSectionChat(node,section)}
+                  >{loading ? 'Thinking…' : 'Send'}</button>
+                </div>
+
+                {error && <p className="section-chat-error">{error}</p>}
+                <small className="section-chat-note">This conversation is isolated to this section. It does not change the rest of the explanation.</small>
+              </div>}
+            </div>;
+          } : null}
+        />
+      </div>
     </article>;
   }
 
