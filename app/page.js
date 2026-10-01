@@ -1625,10 +1625,10 @@ export default function Home() {
         </div>}
 
         {screen === 'topic' && selectedTopic && <div className="topic-page">
-          <TopicHeader node={selectedTopic}/>
-          {topicTab === 'overview' && <TopicOverview node={selectedTopic}/>}
-          {topicTab === 'short' && <SimpleExplanationView node={selectedTopic} mode="short"/>}
-          {topicTab === 'exhaustive' && <SimpleExplanationView node={selectedTopic} mode="exhaustive"/>}
+          {TopicHeader({node:selectedTopic})}
+          {topicTab === 'overview' && TopicOverview({node:selectedTopic})}
+          {topicTab === 'short' && SimpleExplanationView({node:selectedTopic,mode:'short'})}
+          {topicTab === 'exhaustive' && SimpleExplanationView({node:selectedTopic,mode:'exhaustive'})}
         </div>}
 
         {screen === 'world' && <div className="simple-page world-page">
