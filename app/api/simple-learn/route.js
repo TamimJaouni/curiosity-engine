@@ -56,44 +56,211 @@ Return plain text only. Do not return JSON. Do not use markdown tables.`;
 function exhaustivePrompt() {
   return `TASK: EXHAUSTIVE EXPLANATION
 
-Give a deep, rigorous explanation of the topic in about 1800-3000 words.
+Teach the reader this topic comprehensively.
 
-Assume the reader is intelligent but not a specialist. Build the subject from first principles and then deepen it.
+Target length:
+Normally 1,200-2,500 words.
+Go longer only when the subject genuinely requires it.
+Do not pad the answer merely to reach a word count.
 
-Use only sections that genuinely help, but normally cover:
+Assume the reader is intelligent but not a specialist.
 
-CENTRAL PROBLEM
-What question, problem, phenomenon, or tension makes the topic important?
+The goal is to answer the natural questions an intellectually curious person would ask:
+- What is it?
+- Where did it come from?
+- Why did it emerge?
+- How does it work?
+- Who or what shaped it?
+- How did it develop?
+- Why did it become important?
+- What are the major interpretations or debates?
+- What effects did it have?
+- What is still misunderstood, debated, or uncertain?
+- How does it connect to larger ideas?
 
-FOUNDATIONS
-Define the key concepts and assumptions needed to understand it.
+IMPORTANT: ADAPT THE STRUCTURE TO THE TOPIC.
 
-MECHANISM OR ARGUMENT
-Explain in detail how it works, why it happens, or how the reasoning is structured.
+Before writing, silently determine whether the topic is primarily:
+- a historical event or process
+- a person
+- a political movement or ideology
+- an institution
+- a philosophical idea
+- an economic concept
+- a psychological concept
+- a scientific theory
+- a scientific phenomenon
+- a technology
+- a civilization or future scenario
+- a conspiracy or contested claim
+- a social or cultural phenomenon
+- another type
 
-DEVELOPMENT
-Where useful, explain the historical, intellectual, scientific, or institutional development.
+Do not display this classification.
+Use it only to decide what deserves emphasis.
+
+Do NOT mechanically include every possible section below.
+Choose the dimensions that genuinely improve understanding of this specific topic.
+
+POSSIBLE DIMENSIONS
+
+CORE IDEA
+Begin with a clear explanation of what the topic actually is.
+Give the reader the mental model needed to understand everything that follows.
+
+THE PROBLEM OR CONTEXT
+Explain the problem, historical situation, scientific puzzle, social condition, intellectual debate, or practical need from which the topic emerged.
+Answer: why did this appear under these conditions or at this particular time?
+
+ORIGINS
+Explain where the idea, movement, institution, technology, theory, conflict, or phenomenon came from.
+Distinguish gradual development from identifiable founding moments.
+
+IMPORTANT FIGURES
+When relevant, explain the people who materially shaped the topic.
+Do not merely list names.
+For each important figure, explain:
+- what they contributed
+- how their view, action, or discovery differed from others
+- why their contribution mattered
+
+Only include figures who genuinely improve understanding.
+
+DEVELOPMENT OVER TIME
+Explain the major stages through which the topic evolved.
+Focus on meaningful turning points rather than exhaustive chronology.
+
+Where appropriate, organize the development as:
+Origins → early development → expansion or transformation → major turning points → mature form → later developments.
+
+HOW IT WORKS
+Explain the mechanism, causal structure, institutional logic, physical process, economic incentives, psychological process, or philosophical argument.
+This should often be the deepest part of the explanation.
+
+Do not merely describe what happens.
+Explain why one thing produces another.
+
+WHY IT EMERGED OR SPREAD
+Where relevant, explain the forces that made the phenomenon successful, influential, widespread, or persistent.
+
+Possible factors include:
+- economic incentives
+- political conditions
+- technology
+- institutions
+- geography
+- culture
+- ideology
+- military conditions
+- social structure
+- scientific discoveries
+- individual actors
+- historical accidents
+
+Distinguish deeper structural causes from immediate triggers.
+
+MAJOR FORMS OR SCHOOLS
+If the topic has important variants, branches, schools, models, or traditions, explain them.
+Show what they share and where they differ.
+Do not create artificial categories merely to fill space.
+
+IMPORTANT EVENTS, EXPERIMENTS, OR CASES
+Use a small number of especially informative events, experiments, episodes, institutions, examples, or case studies.
+Use them to illuminate the underlying idea rather than merely retelling them.
 
 EVIDENCE AND REASONS
-Explain the strongest evidence or reasoning supporting the main account.
+For empirical subjects, explain the strongest evidence.
+For philosophical subjects, explain the strongest arguments.
+For historical subjects, distinguish documented facts from causal interpretation.
+For controversial subjects, distinguish evidence from allegation.
 
-COMPETING EXPLANATIONS
-Present the strongest serious alternatives and where they disagree.
+COMPETING EXPLANATIONS OR INTERPRETATIONS
+Explain the strongest serious alternatives.
+For each important alternative:
+- what it claims
+- why it is taken seriously
+- what evidence or reasoning supports it
+- where its weaknesses, limits, or uncertainties lie
 
-LIMITATIONS AND CRITICISMS
-Explain boundary conditions, counterexamples, weaknesses, and common misunderstandings.
+Do not create false balance between positions with very different evidentiary support.
 
-ESTABLISHED VS UNCERTAIN
-Separate what is well established from what remains debated, unresolved, or speculative.
+CRITICISMS AND LIMITATIONS
+Explain major criticisms, counterexamples, boundary conditions, failures, unintended consequences, and common objections where relevant.
+
+CONSEQUENCES
+Explain what the topic changed or produced.
+Where useful distinguish:
+- immediate consequences
+- long-term consequences
+- intended consequences
+- unintended consequences
+
+WHY IT MATTERS
+Explain specifically why understanding this topic improves understanding of other important questions.
+Do not use generic statements such as "this shaped history."
 
 CONNECTIONS
-Explain the most useful connections to nearby ideas in the supplied curriculum context.
+Connect the topic to a few nearby ideas from the supplied curriculum context.
+Explain the relationship rather than simply naming related concepts.
 
-TAKEAWAYS
-End with 5 concise points worth remembering.
+COMMON MISUNDERSTANDINGS
+Correct the most important misconceptions that prevent proper understanding.
 
-Do not pad the answer. Depth comes from mechanisms, distinctions, evidence, and competing explanations—not repetition.
-Return plain text only. Do not return JSON. Do not use markdown tables.`;
+ESTABLISHED VS DEBATED VS UNCERTAIN
+Clearly distinguish:
+ESTABLISHED — strongly supported or well documented.
+DEBATED — serious interpretations differ.
+UNCERTAIN — evidence is incomplete.
+SPECULATIVE — possible but weakly supported.
+
+WHAT HAPPENED NEXT / LEGACY
+For historical and intellectual topics, explain what the topic influenced, what replaced it, what survived from it, or how later developments changed its meaning.
+
+CURRENT RELEVANCE
+Include this only when it genuinely matters.
+Explain how the topic influences current institutions, debates, technology, science, culture, or behavior.
+Do not invent current claims that require live verification.
+
+KEY TAKEAWAYS
+Finish with 5-8 concise statements containing the most important things the reader should remember.
+
+TOPIC-TYPE EMPHASIS
+
+If the topic is primarily a PERSON, usually emphasize:
+background → formative environment → influences → major ideas/actions → important works/events → development of thinking → contemporaries/opponents → impact → criticism → legacy.
+
+If the topic is primarily an IDEOLOGY OR MOVEMENT, usually emphasize:
+conditions before it → why it emerged → founders/key thinkers → core principles → branches → how it spread → consequences → criticisms → evolution → legacy.
+
+If the topic is primarily a SCIENTIFIC CONCEPT OR THEORY, usually emphasize:
+problem scientists were trying to solve → earlier model → breakthrough → important scientists → core mechanism → evidence/experiments → mathematical intuition where useful → interpretations → applications → limits/open questions.
+
+If the topic is primarily a HISTORICAL EVENT OR PROCESS, usually emphasize:
+background → long-term causes → immediate triggers → main actors → sequence → why events unfolded that way → turning points → outcome → short-term consequences → long-term consequences → historical debate.
+
+If the topic is primarily a CONSPIRACY OR CONTESTED CLAIM, usually emphasize:
+documented baseline → origin of the claim → exact claims → important proponents where relevant → evidence cited → evidence against → alternative explanations → investigations/documents → what is established → what remains unresolved → what evidence would materially change confidence.
+
+WRITING RULES
+
+- Prioritize explanation over information accumulation.
+- Explain relationships between facts.
+- Use chronology only when chronology helps understanding.
+- Important names should appear because of their contribution, not because they are famous.
+- Important dates should appear only when they anchor a meaningful change.
+- Avoid repeating the same point in multiple sections.
+- Avoid filler.
+- Avoid textbook-style lists when connected prose would explain the idea better.
+- Define technical terminology when it first appears.
+- Make causal language precise.
+- Clearly distinguish correlation, causation, interpretation, and speculation.
+- Never invent quotations, studies, sources, statistics, or consensus.
+- Return normal readable text with clear headings.
+- Do not return JSON.
+- Do not use markdown tables unless the subject truly requires a compact comparison.
+
+The final explanation should make the reader feel:
+"I understand what this is, where it came from, why it developed, how it works, who shaped it, why it matters, and where the important debates and uncertainties are."`;
 }
 
 export async function POST(request) {
@@ -137,7 +304,7 @@ Curriculum context:
 ${JSON.stringify(context).slice(0,14000)}`;
 
   const model = process.env.DEEPSEEK_LEARN_MODEL || process.env.DEEPSEEK_EXPLAIN_MODEL || 'deepseek-chat';
-  const maxTokens = mode === 'short' ? 1400 : 5200;
+  const maxTokens = mode === 'short' ? 1400 : 6200;
 
   const response = await fetch('https://api.deepseek.com/chat/completions', {
     method:'POST',
@@ -177,6 +344,6 @@ ${JSON.stringify(context).slice(0,14000)}`;
     mode,
     model,
     provider:'deepseek',
-    prompt_version:mode === 'short' ? 'simple_short_v1' : 'simple_exhaustive_v1'
+    prompt_version:mode === 'short' ? 'simple_short_v1' : 'simple_exhaustive_v2'
   });
 }
