@@ -76,6 +76,12 @@ export default function Home() {
   const [compareTargetId,setCompareTargetId] = useState(null);
   const [compareQuery,setCompareQuery] = useState('');
 
+  const [socraticByNode,setSocraticByNode] = useState({});
+  const [socraticAnswers,setSocraticAnswers] = useState({});
+  const [socraticLoading,setSocraticLoading] = useState(null);
+  const [socraticErrors,setSocraticErrors] = useState({});
+  const [socraticHints,setSocraticHints] = useState({});
+
   const [bookmarks,setBookmarks] = useState([]);
   const [reviewItems,setReviewItems] = useState([]);
   const [learningProgress,setLearningProgress] = useState([]);
@@ -379,6 +385,7 @@ export default function Home() {
         .eq('item_type','essay_node')
         .eq('item_id',node.id)
         .eq('generation_type','explain')
+        .eq('prompt_version','explain_v3')
         .order('created_at',{ascending:false})
         .limit(1)
         .maybeSingle();
@@ -404,7 +411,8 @@ export default function Home() {
         body:JSON.stringify({
           title:node.title,
           field:node.primary_field || 'General',
-          path:pathFor(node).map(x => x.title)
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node)
         })
       });
       const result=await response.json();
@@ -436,7 +444,7 @@ export default function Home() {
     }
   }
 
-  async function cachedGeneration(itemType,itemId,generationType) {
+  async function cachedGeneration(itemType,itemId,generationType,promptVersion='learn_v2') {
     if (!session?.user) return null;
     const {data}=await supabase
       .from('generated_content')
@@ -444,6 +452,7 @@ export default function Home() {
       .eq('item_type',itemType)
       .eq('item_id',itemId)
       .eq('generation_type',generationType)
+      .eq('prompt_version',promptVersion)
       .order('created_at',{ascending:false})
       .limit(1)
       .maybeSingle();
@@ -747,6 +756,223 @@ export default function Home() {
     }
   }
 
+  async function loadSavedSocratic(node) {
+    if (!session?.user || !node) return null;
+    const {data:sessionRow}=await supabase
+      .from('socratic_sessions')
+      .select('*')
+      .eq('essay_node_id',node.id)
+      .eq('status','active')
+      .order('updated_at',{ascending:false})
+      .limit(1)
+      .maybeSingle();
+    if (!sessionRow) return null;
+
+    const {data:turnRows}=await supabase
+      .from('socratic_turns')
+      .select('*')
+      .eq('session_id',sessionRow.id)
+      .order('turn_index',{ascending:true});
+
+    const turns=(turnRows || []).map(row => ({
+      id:row.id,
+      question:row.question,
+      answer:row.user_answer || '',
+      feedback:row.feedback || '',
+      hint:row.hint || '',
+      stage:row.stage || 'orient',
+      mastery_signal:row.mastery_signal || sessionRow.mastery_signal || 'developing'
+    }));
+    if (!turns.length) return null;
+
+    const saved={sessionId:sessionRow.id,turns,mastery:sessionRow.mastery_signal || 'developing'};
+    setSocraticByNode(all => ({...all,[node.id]:saved}));
+    return saved;
+  }
+
+  async function startSocratic(node) {
+    if (!node || socraticLoading) return;
+    setTopicTab('socratic');
+    setSocraticErrors(x => ({...x,[node.id]:null}));
+    if (socraticByNode[node.id]?.turns?.length) return;
+
+    const saved=await loadSavedSocratic(node);
+    if (saved) return;
+
+    setSocraticLoading(node.id);
+    try {
+      let sessionId=null;
+      if (session?.user) {
+        const {data,error}=await supabase.from('socratic_sessions').insert({
+          user_id:session.user.id,
+          essay_node_id:node.id,
+          title:node.title,
+          primary_field:node.primary_field,
+          status:'active',
+          mastery_signal:'developing'
+        }).select().single();
+        if (error) throw error;
+        sessionId=data?.id || null;
+      }
+
+      const response=await fetch('/api/socratic',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node),
+          history:[],
+          answer:''
+        })
+      });
+      const generated=await response.json();
+      if (!response.ok) throw new Error(generated?.message || 'Could not start Socratic mode.');
+
+      const first={
+        question:generated.result.question,
+        answer:'',
+        feedback:'',
+        hint:generated.result.hint || '',
+        stage:generated.result.stage || 'orient',
+        mastery_signal:generated.result.mastery_signal || 'developing'
+      };
+
+      if (session?.user && sessionId) {
+        const {data:turn}=await supabase.from('socratic_turns').insert({
+          session_id:sessionId,
+          user_id:session.user.id,
+          turn_index:0,
+          question:first.question,
+          hint:first.hint,
+          stage:first.stage,
+          mastery_signal:first.mastery_signal
+        }).select().single();
+        if (turn) first.id=turn.id;
+      }
+
+      setSocraticByNode(all => ({...all,[node.id]:{
+        sessionId,
+        turns:[first],
+        mastery:first.mastery_signal
+      }}));
+      await updateProgress(node,'started',35);
+    } catch(error) {
+      setSocraticErrors(x => ({...x,[node.id]:error.message}));
+    } finally {
+      setSocraticLoading(null);
+    }
+  }
+
+  async function answerSocratic(node) {
+    const state=socraticByNode[node.id];
+    const answer=String(socraticAnswers[node.id] || '').trim();
+    if (!state?.turns?.length || !answer || socraticLoading) return;
+
+    setSocraticLoading(node.id);
+    setSocraticErrors(x => ({...x,[node.id]:null}));
+    try {
+      const response=await fetch('/api/socratic',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node),
+          history:state.turns.map(t => ({
+            question:t.question,
+            answer:t.answer,
+            feedback:t.feedback,
+            stage:t.stage
+          })),
+          answer
+        })
+      });
+      const generated=await response.json();
+      if (!response.ok) throw new Error(generated?.message || 'Could not continue Socratic mode.');
+
+      const current=state.turns[state.turns.length-1];
+      const completed={...current,answer,feedback:generated.result.feedback || ''};
+      const next={
+        question:generated.result.question,
+        answer:'',
+        feedback:'',
+        hint:generated.result.hint || '',
+        stage:generated.result.stage || 'orient',
+        mastery_signal:generated.result.mastery_signal || 'developing'
+      };
+
+      if (session?.user && state.sessionId) {
+        if (current.id) {
+          await supabase.from('socratic_turns').update({
+            user_answer:answer,
+            feedback:generated.result.feedback || ''
+          }).eq('id',current.id);
+        }
+        const {data:nextRow}=await supabase.from('socratic_turns').insert({
+          session_id:state.sessionId,
+          user_id:session.user.id,
+          turn_index:state.turns.length,
+          question:next.question,
+          hint:next.hint,
+          stage:next.stage,
+          mastery_signal:next.mastery_signal
+        }).select().single();
+        if (nextRow) next.id=nextRow.id;
+
+        await supabase.from('socratic_sessions').update({
+          mastery_signal:next.mastery_signal,
+          updated_at:new Date().toISOString()
+        }).eq('id',state.sessionId);
+      }
+
+      setSocraticByNode(all => ({...all,[node.id]:{
+        ...state,
+        turns:[...state.turns.slice(0,-1),completed,next],
+        mastery:next.mastery_signal
+      }}));
+      setSocraticAnswers(x => ({...x,[node.id]:''}));
+      setSocraticHints(x => ({...x,[node.id]:false}));
+      await updateProgress(node,'started',next.mastery_signal === 'strong' ? 75 : next.mastery_signal === 'solid' ? 60 : 45);
+    } catch(error) {
+      setSocraticErrors(x => ({...x,[node.id]:error.message}));
+    } finally {
+      setSocraticLoading(null);
+    }
+  }
+
+  async function finishSocratic(node) {
+    const state=socraticByNode[node.id];
+    if (session?.user && state?.sessionId) {
+      await supabase.from('socratic_sessions').update({
+        status:'completed',
+        updated_at:new Date().toISOString()
+      }).eq('id',state.sessionId);
+    }
+    await updateProgress(node,'started',state?.mastery === 'strong' ? 80 : 65);
+    setTopicTab('overview');
+  }
+
+  async function restartSocratic(node) {
+    const state=socraticByNode[node.id];
+    if (session?.user && state?.sessionId) {
+      await supabase.from('socratic_sessions').update({
+        status:'completed',
+        updated_at:new Date().toISOString()
+      }).eq('id',state.sessionId);
+    }
+    setSocraticByNode(all => {
+      const next={...all};
+      delete next[node.id];
+      return next;
+    });
+    setSocraticAnswers(x => ({...x,[node.id]:''}));
+    setSocraticHints(x => ({...x,[node.id]:false}));
+    setTimeout(() => startSocratic(node),0);
+  }
+
   async function submitAuth(e) {
     e.preventDefault();
     setAuthBusy(true);
@@ -794,6 +1020,7 @@ export default function Home() {
           <div className="topic-actions">
             <button className="gold-button" onClick={() => explainTopic(node)}>{explainLoading === node.id ? 'Explaining…' : 'Explain'}</button>
             <button onClick={() => deepDiveTopic(node)}>{deepLoading === node.id ? 'Going deeper…' : 'Explore Deeper'}</button>
+            <button onClick={() => startSocratic(node)}>Socratic Mode</button>
             <button onClick={() => setTopicTab('compare')}>Compare</button>
             <button onClick={() => fullEssayTopic(node)}>{essayLoading === node.id ? 'Writing…' : 'Full Essay'}</button>
             <button onClick={() => toggleBookmark(node)}>{bookmarks.some(x => x.item_type === 'essay_node' && x.item_id === node.id) ? 'Bookmarked' : 'Bookmark'}</button>
@@ -807,6 +1034,7 @@ export default function Home() {
           ['overview','Overview'],
           ['explain','Explain'],
           ['deeper','Explore Deeper'],
+          ['socratic','Socratic Mode'],
           ['graph','Knowledge Graph'],
           ['questions','Questions'],
           ['related','Related Concepts'],
@@ -816,6 +1044,7 @@ export default function Home() {
           setTopicTab(id);
           if (id === 'explain' && !explanations[node.id]) explainTopic(node);
           if (id === 'deeper' && !deepDives[node.id]) deepDiveTopic(node);
+          if (id === 'socratic' && !socraticByNode[node.id]) startSocratic(node);
           if (id === 'essay' && !fullEssays[node.id]) fullEssayTopic(node);
         }}>{label}</button>)}
       </nav>
@@ -943,6 +1172,53 @@ export default function Home() {
     </article>;
   }
 
+  function SocraticView({node}) {
+    const state=socraticByNode[node.id];
+    const turns=state?.turns || [];
+    const current=turns[turns.length-1];
+
+    if (socraticLoading === node.id && !turns.length) return <div className="loading-panel"><div className="loader-ring"></div><h3>Starting Socratic mode…</h3><p>Finding the first question that reveals how you currently understand the idea.</p></div>;
+
+    if (socraticErrors[node.id] && !turns.length) return <div className="panel empty-panel"><span>SOCRATIC MODE</span><h3>Could not start the session.</h3><p>{socraticErrors[node.id]}</p><button className="gold-button" onClick={() => startSocratic(node)}>Try Again</button></div>;
+
+    if (!current) return <div className="panel empty-panel"><span>SOCRATIC MODE</span><h3>Construct the idea yourself.</h3><p>One diagnostic question at a time. The system adapts to your answer instead of immediately lecturing.</p><button className="gold-button" onClick={() => startSocratic(node)}>Start Socratic Session</button></div>;
+
+    return <section className="socratic-page">
+      <div className="socratic-heading">
+        <div><small>SOCRATIC MODE · {String(current.stage || 'orient').toUpperCase()}</small><h2>{node.title}</h2><p>Answer in your own words. Precision matters more than length.</p></div>
+        <div className={'mastery-pill mastery-'+(state?.mastery || 'developing')}>{state?.mastery || 'developing'}</div>
+      </div>
+
+      <div className="socratic-thread">
+        {turns.slice(0,-1).map((turn,i) => <article className="socratic-exchange" key={turn.id || i}>
+          <div className="socratic-question"><small>QUESTION {i+1}</small><p>{turn.question}</p></div>
+          {turn.answer && <div className="socratic-answer"><small>YOUR ANSWER</small><p>{turn.answer}</p></div>}
+          {turn.feedback && <div className="socratic-feedback"><small>COACHING NOTE</small><p>{turn.feedback}</p></div>}
+        </article>)}
+      </div>
+
+      <div className="panel socratic-current">
+        <small>QUESTION {turns.length} · {String(current.stage || 'orient').toUpperCase()}</small>
+        <h3>{current.question}</h3>
+        {current.hint && <div className="socratic-hint">
+          {socraticHints[node.id] ? <p>{current.hint}</p> : <button onClick={() => setSocraticHints(x => ({...x,[node.id]:true}))}>Show a small hint</button>}
+        </div>}
+        <textarea
+          value={socraticAnswers[node.id] || ''}
+          onChange={e => setSocraticAnswers(x => ({...x,[node.id]:e.target.value}))}
+          placeholder="Reason it out in your own words…"
+          rows={6}
+        />
+        {socraticErrors[node.id] && <p className="socratic-error">{socraticErrors[node.id]}</p>}
+        <div className="socratic-actions">
+          <button className="gold-button" disabled={socraticLoading === node.id || !(socraticAnswers[node.id] || '').trim()} onClick={() => answerSocratic(node)}>{socraticLoading === node.id ? 'Thinking…' : 'Submit Answer'}</button>
+          <button onClick={() => finishSocratic(node)}>Finish Session</button>
+          <button onClick={() => restartSocratic(node)}>Start Over</button>
+        </div>
+      </div>
+    </section>;
+  }
+
   function QuestionsView({node}) {
     const questions=questionsByNode[node.id] || [];
     return <section className="questions-page">
@@ -1022,6 +1298,8 @@ export default function Home() {
       {result && <div className="comparison-grid">
         {[
           ['Framing',result.framing],
+          ['Shared Territory',result.shared_territory],
+          ['Core Difference',result.core_difference],
           ['Similarities',result.similarities],
           ['Differences',result.differences],
           ['Assumptions',result.assumptions],
@@ -1132,6 +1410,7 @@ export default function Home() {
           {topicTab === 'overview' && <TopicOverview node={selectedTopic}/>}
           {topicTab === 'explain' && <ExplainView node={selectedTopic}/>}
           {topicTab === 'deeper' && <DeepDiveView node={selectedTopic}/>}
+          {topicTab === 'socratic' && <SocraticView node={selectedTopic}/>}
           {topicTab === 'questions' && <QuestionsView node={selectedTopic}/>}
           {topicTab === 'related' && <RelatedView node={selectedTopic}/>}
           {topicTab === 'graph' && <GraphView node={selectedTopic}/>}
@@ -1189,7 +1468,7 @@ export default function Home() {
               <div className="monthly-metrics">{Object.entries(monthlyMetrics()).filter(([k]) => !['fields','recent_topics'].includes(k)).map(([k,v]) => <div key={k}><small>{k.replaceAll('_',' ')}</small><strong>{v}</strong></div>)}</div>
               {monthlyReview ? <div className="monthly-copy">
                 <h3>This month's synthesis</h3><p>{monthlyReview.summary}</p>
-                {['strongest_threads','connections','gaps','next_month'].map(key => Array.isArray(monthlyReview[key]) && <div key={key}><small>{key.replaceAll('_',' ').toUpperCase()}</small>{monthlyReview[key].map((x,i)=><p key={i}>{x}</p>)}</div>)}
+                {['strongest_threads','connections','gaps','sticking','needs_another_pass','next_month'].map(key => Array.isArray(monthlyReview[key]) && <div key={key}><small>{key.replaceAll('_',' ').toUpperCase()}</small>{monthlyReview[key].map((x,i)=><p key={i}>{x}</p>)}</div>)}
               </div> : <button className="gold-button" disabled={monthlyLoading} onClick={generateMonthlyReview}>{monthlyLoading ? 'Synthesizing…' : 'Generate Monthly Review'}</button>}
             </div>
           </section>
