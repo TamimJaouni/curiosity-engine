@@ -1,92 +1,23 @@
+import {
+  comparePrompt,
+  curriculumContext,
+  deepDivePrompt,
+  flashcardPrompt,
+  fullEssayPrompt,
+  intellectualOSBasePrompt,
+  monthlyReviewPrompt
+} from '../../../lib/promptArchitecture';
+
 function stripFences(raw='') {
   return String(raw).trim().replace(/^\`\`\`(?:json)?\s*/i,'').replace(/\s*\`\`\`$/,'').trim();
 }
 
-function baseRules() {
-  return `You write rigorous learning material for Intellectual OS.
-
-Use the exact curriculum context supplied by the user. Prefer mechanisms, distinctions, evidence quality, competing explanations, limitations, and uncertainty over slogans or filler.
-
-Rules:
-- Never invent studies, quotations, statistics, citations, documents, or consensus.
-- Distinguish established knowledge, serious dispute, unresolved uncertainty, and speculation precisely.
-- For conspiracy or hidden-power topics, never dismiss or affirm a whole topic by label. Separate documented facts, claims, evidence, counterevidence, alternative explanations, and what remains unresolved.
-- For political subjects, remain neutral and descriptive. Do not endorse parties, actors, ideologies, policies, or political choices, and do not rank political options.
-- Do not make unverified current political claims. If a claim requires live verification, say that current verification would be required rather than guessing.
-- For future-oriented topics, distinguish physical possibility, engineering feasibility, economic feasibility, timescale uncertainty, and speculation.
-- For philosophy, present serious competing positions fairly.
-- Avoid motivational filler and generic introductions.`;
-}
-
 function specFor(mode) {
-  if (mode === 'deep_dive') return `
-Write an 800-1500 word analytical deep dive.
-Return ONLY valid JSON:
-{
-  "central_question":"",
-  "core_mechanism":"",
-  "why_it_happens":"",
-  "evidence_and_reasons":"",
-  "competing_explanations":"",
-  "criticisms_and_limits":"",
-  "development":"",
-  "established_vs_uncertain":"",
-  "connections":"",
-  "next_questions":["","",""]
-}`;
-
-  if (mode === 'compare') return `
-Compare the two supplied curriculum nodes without declaring a winner.
-Return ONLY valid JSON:
-{
-  "framing":"",
-  "similarities":"",
-  "differences":"",
-  "assumptions":"",
-  "mechanisms":"",
-  "strengths_and_limits":"",
-  "common_confusions":"",
-  "when_each_applies":"",
-  "synthesis":""
-}`;
-
-  if (mode === 'full_essay') return `
-Write a serious 2500-3500 word essay. It should be readable but intellectually demanding.
-Return ONLY valid JSON:
-{
-  "title":"",
-  "thesis":"",
-  "sections":[
-    {"heading":"","body":""}
-  ],
-  "established_vs_uncertain":"",
-  "takeaways":["","","","",""],
-  "hard_questions":["","",""],
-  "further_reading_guidance":""
-}
-The essay should normally include the central problem, definitions, historical development when useful, mechanisms or arguments, evidence/reasons, competing positions, criticisms, alternatives, unresolved questions, interdisciplinary connections, implications, and a conclusion. Do not pad sections merely to hit length.`;
-
-  if (mode === 'flashcard') return `
-Create one durable recall card for the supplied topic.
-Return ONLY valid JSON:
-{
-  "prompt":"",
-  "answer":""
-}
-The prompt should test understanding rather than trivia. The answer should be concise enough to review in under one minute while preserving the central mechanism or distinction.`;
-
-  if (mode === 'monthly_review') return `
-Synthesize the user's supplied learning activity for one month. Do not infer activity that is not in the input.
-Return ONLY valid JSON:
-{
-  "summary":"",
-  "strongest_threads":["","",""],
-  "connections":["","",""],
-  "gaps":["","",""],
-  "next_month":["","",""]
-}
-Focus on intellectual patterns, not praise or personality judgments.`;
-
+  if (mode === 'deep_dive') return deepDivePrompt();
+  if (mode === 'compare') return comparePrompt();
+  if (mode === 'full_essay') return fullEssayPrompt();
+  if (mode === 'flashcard') return flashcardPrompt();
+  if (mode === 'monthly_review') return monthlyReviewPrompt();
   return null;
 }
 
@@ -129,20 +60,13 @@ export async function POST(request) {
     return Response.json({error:'MISSING_COMPARE_TARGET'}, {status:400});
   }
 
-  const instructions = baseRules() + '\n\n' + spec;
+  const instructions = intellectualOSBasePrompt() + '\n\n' + spec;
   const input = mode === 'monthly_review'
-    ? `Monthly learning activity:\n${JSON.stringify(context).slice(0,16000)}`
-    : `Primary curriculum node:
-Field: ${field}
-Path: ${path.join(' → ')}
-Node: ${title}
-
-Additional curriculum context:
-${JSON.stringify(context).slice(0,12000)}
-${other ? `\nComparison node:\nField: ${other.field}\nPath: ${other.path.join(' → ')}\nNode: ${other.title}` : ''}`;
+    ? `Monthly learning activity:\n${JSON.stringify(context).slice(0,18000)}`
+    : curriculumContext({title,field,path,context,other});
 
   const model = process.env.DEEPSEEK_LEARN_MODEL || process.env.DEEPSEEK_EXPLAIN_MODEL || 'deepseek-flash';
-  const maxTokens = mode === 'full_essay' ? 7600 : mode === 'deep_dive' ? 3400 : 2200;
+  const maxTokens = mode === 'full_essay' ? 7600 : mode === 'deep_dive' ? 3600 : 2400;
 
   const response = await fetch('https://api.deepseek.com/chat/completions', {
     method:'POST',
@@ -162,6 +86,7 @@ ${other ? `\nComparison node:\nField: ${other.field}\nPath: ${other.path.join(' 
   });
 
   const data = await response.json();
+
   if (!response.ok) {
     return Response.json(
       {error:'DEEPSEEK_ERROR',message:data?.error?.message || 'Generation failed.'},
@@ -169,10 +94,9 @@ ${other ? `\nComparison node:\nField: ${other.field}\nPath: ${other.path.join(' 
     );
   }
 
-  const raw = stripFences(data?.choices?.[0]?.message?.content || '');
   let result;
   try {
-    result = JSON.parse(raw);
+    result = JSON.parse(stripFences(data?.choices?.[0]?.message?.content || ''));
   } catch {
     return Response.json(
       {error:'INVALID_MODEL_OUTPUT',message:'The model returned content in an unexpected format.'},
@@ -184,6 +108,6 @@ ${other ? `\nComparison node:\nField: ${other.field}\nPath: ${other.path.join(' 
     result,
     model,
     provider:'deepseek',
-    prompt_version:'learn_v1'
+    prompt_version:'learn_v2'
   });
 }
