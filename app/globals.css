@@ -889,3 +889,78 @@ a{color:var(--gold2)}
     max-width: 100%;
   }
 }
+
+
+/* Contextual open-license images inside exhaustive explanations */
+.context-visual {
+  margin: 24px 0 30px;
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 13px;
+  overflow: hidden;
+  background: rgba(255,255,255,.018);
+}
+.context-visual-image {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  overflow: hidden;
+  background: #090d12;
+}
+.context-visual-image img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+.context-visual figcaption {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 11px 13px 12px;
+  border-top: 1px solid rgba(255,255,255,.06);
+}
+.context-visual figcaption > div {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+.context-visual figcaption strong {
+  font-size: 12px;
+  line-height: 1.4;
+  color: #ddd7cd;
+  font-weight: 600;
+}
+.context-visual figcaption span {
+  color: var(--muted);
+  font-size: 10px;
+  line-height: 1.45;
+}
+.context-visual figcaption > a {
+  color: var(--gold);
+  font-size: 10px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.context-visual figcaption > a:hover {
+  text-decoration: underline;
+}
+.context-visual-loading {
+  margin: 18px 0 24px;
+  padding: 11px 13px;
+  border-left: 2px solid rgba(217,168,94,.35);
+  color: var(--muted);
+  font-size: 11px;
+}
+
+@media (max-width:640px) {
+  .context-visual figcaption {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .context-visual-image,
+  .context-visual-image img {
+    max-height: 380px;
+  }
+}
