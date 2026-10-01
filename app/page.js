@@ -64,6 +64,29 @@ export default function Home() {
   const [explainLoading,setExplainLoading] = useState(null);
   const [explainErrors,setExplainErrors] = useState({});
 
+  const [deepDives,setDeepDives] = useState({});
+  const [deepLoading,setDeepLoading] = useState(null);
+  const [deepErrors,setDeepErrors] = useState({});
+  const [fullEssays,setFullEssays] = useState({});
+  const [essayLoading,setEssayLoading] = useState(null);
+  const [essayErrors,setEssayErrors] = useState({});
+  const [comparisons,setComparisons] = useState({});
+  const [compareLoading,setCompareLoading] = useState(false);
+  const [compareError,setCompareError] = useState('');
+  const [compareTargetId,setCompareTargetId] = useState(null);
+  const [compareQuery,setCompareQuery] = useState('');
+
+  const [bookmarks,setBookmarks] = useState([]);
+  const [reviewItems,setReviewItems] = useState([]);
+  const [learningProgress,setLearningProgress] = useState([]);
+  const [reviewReveal,setReviewReveal] = useState(false);
+  const [reviewBusy,setReviewBusy] = useState(false);
+  const [monthlyReview,setMonthlyReview] = useState(null);
+  const [monthlyLoading,setMonthlyLoading] = useState(false);
+
+  const [dailyBrief,setDailyBrief] = useState([]);
+  const [longArc,setLongArc] = useState([]);
+
   const [session,setSession] = useState(null);
   const [authOpen,setAuthOpen] = useState(false);
   const [authMode,setAuthMode] = useState('login');
@@ -79,15 +102,27 @@ export default function Home() {
     return () => subscription.unsubscribe();
   },[]);
 
+  useEffect(() => {
+    if (session?.user?.id) loadUserData();
+    else {
+      setBookmarks([]);
+      setReviewItems([]);
+      setLearningProgress([]);
+      setMonthlyReview(null);
+    }
+  },[session?.user?.id]);
+
   async function loadCatalog() {
     setCatalogLoading(true);
-    const [nodes,questions,kNodes,edges,links,conceptResult] = await Promise.all([
+    const [nodes,questions,kNodes,edges,links,conceptResult,briefResult,longArcResult] = await Promise.all([
       fetchAllRows('essay_nodes','sort_order'),
       fetchAllRows('essay_questions','sort_order'),
       fetchAllRows('knowledge_nodes','created_at'),
       fetchAllRows('knowledge_edges','created_at'),
       fetchAllRows('essay_node_knowledge_links','created_at'),
-      supabase.from('concepts').select('*').order('created_at',{ascending:true}).limit(24)
+      supabase.from('concepts').select('*').order('created_at',{ascending:true}).limit(100),
+      supabase.from('daily_brief').select('*').order('brief_date',{ascending:false}).order('created_at',{ascending:false}).limit(12),
+      supabase.from('long_arc_topics').select('*').order('historical_band',{ascending:true}).order('anchor_year',{ascending:true}).limit(40)
     ]);
 
     setEssayNodes(nodes.data || []);
@@ -97,18 +132,41 @@ export default function Home() {
     setEssayLinks(links.data || []);
 
     if (conceptResult.data?.length) {
-      setConcepts(conceptResult.data.slice(0,3).map(c => ({
+      setConcepts(conceptResult.data.map(c => ({
         id:c.id,
         name:c.name,
         field:c.primary_field,
-        short:c.short_description
+        short:c.short_description,
+        example:c.example,
+        why:c.why_it_matters
       })));
     }
+    setDailyBrief(briefResult.data || []);
+    setLongArc(longArcResult.data || []);
 
     const roots=(nodes.data || []).filter(n => !n.parent_id);
     if (roots[0]) setSelectedFieldId(roots[0].id);
     setExpanded(roots.map(r => r.id));
     setCatalogLoading(false);
+  }
+
+  async function loadUserData() {
+    if (!session?.user?.id) return;
+    const month=new Date();
+    const monthKey=new Date(Date.UTC(month.getUTCFullYear(),month.getUTCMonth(),1)).toISOString().slice(0,10);
+    const [bookmarkResult,reviewResult,progressResult,monthResult]=await Promise.all([
+      supabase.from('bookmarks').select('*').order('created_at',{ascending:false}),
+      supabase.from('review_items').select('*').order('next_review_at',{ascending:true}),
+      supabase.from('user_progress').select('*').order('last_opened_at',{ascending:false}).limit(80),
+      supabase.from('monthly_reviews').select('*').eq('month',monthKey).maybeSingle()
+    ]);
+    setBookmarks(bookmarkResult.data || []);
+    setReviewItems(reviewResult.data || []);
+    setLearningProgress(progressResult.data || []);
+    if (monthResult.data?.synthesis) {
+      try { setMonthlyReview(JSON.parse(monthResult.data.synthesis)); }
+      catch { setMonthlyReview({summary:monthResult.data.synthesis}); }
+    } else setMonthlyReview(null);
   }
 
   const childrenByParent = useMemo(() => {
@@ -190,6 +248,19 @@ export default function Home() {
       .slice(0,8);
   },[search,essayNodes]);
 
+  const dailyConcepts = useMemo(() => {
+    if (!concepts.length) return [];
+    const day=Math.floor(Date.now()/86400000);
+    const picks=[];
+    for (let i=0;i<Math.min(3,concepts.length);i++) picks.push(concepts[(day*3+i)%concepts.length]);
+    return picks;
+  },[concepts]);
+
+  const dueReviewItems = useMemo(() => {
+    const now=Date.now();
+    return reviewItems.filter(item => new Date(item.next_review_at).getTime() <= now);
+  },[reviewItems]);
+
   function relationLabel(type,direction) {
     const out={
       related_to:'RELATED TO',contrasts_with:'CONTRASTS WITH',prerequisite_for:'PREREQUISITE FOR',
@@ -259,9 +330,13 @@ export default function Home() {
     setSelectedTopicId(id);
     setSelectedFieldId(pathFor(node)[0]?.id || selectedFieldId);
     setTopicTab(tab);
+    setCompareTargetId(null);
+    setCompareQuery('');
+    setCompareError('');
     setScreen('topic');
     setSearch('');
     setSearchFocused(false);
+    markProgress(node);
   }
 
   function openField(id) {
@@ -335,7 +410,7 @@ export default function Home() {
       const result=await response.json();
       if (!response.ok) {
         throw new Error(result?.error === 'AI_NOT_CONFIGURED'
-          ? 'Explain is ready, but the server still needs OPENAI_API_KEY.'
+          ? 'Explain is ready, but the server still needs DEEPSEEK_API_KEY.'
           : result?.message || 'Could not generate this explanation.');
       }
 
@@ -357,6 +432,315 @@ export default function Home() {
       setExplainErrors(e => ({...e,[node.id]:error.message}));
     } finally {
       setExplainLoading(null);
+    }
+  }
+
+  async function cachedGeneration(itemType,itemId,generationType) {
+    if (!session?.user) return null;
+    const {data}=await supabase
+      .from('generated_content')
+      .select('content,model,prompt_version,source_metadata,created_at')
+      .eq('item_type',itemType)
+      .eq('item_id',itemId)
+      .eq('generation_type',generationType)
+      .order('created_at',{ascending:false})
+      .limit(1)
+      .maybeSingle();
+    if (!data?.content) return null;
+    try { return {result:JSON.parse(data.content),model:data.model,cached:true}; }
+    catch { return null; }
+  }
+
+  async function saveGeneration(itemType,itemId,generationType,result) {
+    if (!session?.user) return;
+    await supabase.from('generated_content').insert({
+      user_id:session.user.id,
+      item_type:itemType,
+      item_id:itemId,
+      generation_type:generationType,
+      content:JSON.stringify(result.result),
+      model:result.model || null,
+      prompt_version:result.prompt_version || 'learn_v1',
+      source_metadata:[]
+    });
+  }
+
+  function generationContext(node) {
+    return {
+      description:node.description || null,
+      subtopics:(childrenByParent[node.id] || []).slice(0,12).map(x => x.title),
+      curated_questions:(questionsByNode[node.id] || []).slice(0,10).map(x => x.question),
+      graph_connections:connectionsFor(node).slice(0,8).map(x => ({title:x.title,relation:x.relation,field:x.field})),
+      metadata:node.metadata || {}
+    };
+  }
+
+  async function deepDiveTopic(node) {
+    if (!node || deepLoading) return;
+    setTopicTab('deeper');
+    setDeepErrors(x => ({...x,[node.id]:null}));
+    const cached=await cachedGeneration('essay_node',node.id,'deep_dive');
+    if (cached) {
+      setDeepDives(x => ({...x,[node.id]:cached}));
+      return;
+    }
+    setDeepLoading(node.id);
+    try {
+      const response=await fetch('/api/learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          mode:'deep_dive',
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node)
+        })
+      });
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not generate the deep dive.');
+      setDeepDives(x => ({...x,[node.id]:result}));
+      await saveGeneration('essay_node',node.id,'deep_dive',result);
+      await updateProgress(node,'started',45);
+    } catch(error) {
+      setDeepErrors(x => ({...x,[node.id]:error.message}));
+    } finally {
+      setDeepLoading(null);
+    }
+  }
+
+  async function fullEssayTopic(node) {
+    if (!node || essayLoading) return;
+    setTopicTab('essay');
+    setEssayErrors(x => ({...x,[node.id]:null}));
+    const cached=await cachedGeneration('essay_node',node.id,'full_essay');
+    if (cached) {
+      setFullEssays(x => ({...x,[node.id]:cached}));
+      return;
+    }
+    setEssayLoading(node.id);
+    try {
+      const response=await fetch('/api/learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          mode:'full_essay',
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node)
+        })
+      });
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not generate the essay.');
+      setFullEssays(x => ({...x,[node.id]:result}));
+      await saveGeneration('essay_node',node.id,'full_essay',result);
+      await updateProgress(node,'completed',100);
+    } catch(error) {
+      setEssayErrors(x => ({...x,[node.id]:error.message}));
+    } finally {
+      setEssayLoading(null);
+    }
+  }
+
+  async function compareTopics(node,target) {
+    if (!node || !target || compareLoading) return;
+    setCompareError('');
+    const itemId=node.id+'::'+target.id;
+    const cached=await cachedGeneration('comparison',itemId,'compare');
+    if (cached) {
+      setComparisons(x => ({...x,[itemId]:cached}));
+      return;
+    }
+    setCompareLoading(true);
+    try {
+      const response=await fetch('/api/learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          mode:'compare',
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node),
+          other:{
+            title:target.title,
+            field:target.primary_field || 'General',
+            path:pathFor(target).map(x => x.title)
+          }
+        })
+      });
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not generate the comparison.');
+      setComparisons(x => ({...x,[itemId]:result}));
+      await saveGeneration('comparison',itemId,'compare',result);
+    } catch(error) {
+      setCompareError(error.message);
+    } finally {
+      setCompareLoading(false);
+    }
+  }
+
+  async function markProgress(node) {
+    if (!session?.user || !node) return;
+    const existing=learningProgress.find(x => x.item_type === 'essay_node' && x.item_id === node.id);
+    const row={
+      user_id:session.user.id,
+      item_type:'essay_node',
+      item_id:node.id,
+      status:existing?.status === 'completed' ? 'completed' : 'explored',
+      progress_percent:Math.max(existing?.progress_percent || 0,10),
+      last_opened_at:new Date().toISOString()
+    };
+    const {data}=await supabase.from('user_progress').upsert(row,{onConflict:'user_id,item_type,item_id'}).select().single();
+    if (data) setLearningProgress(items => [data,...items.filter(x => x.id !== data.id)]);
+  }
+
+  async function updateProgress(node,status,progressPercent) {
+    if (!session?.user || !node) return;
+    const row={
+      user_id:session.user.id,
+      item_type:'essay_node',
+      item_id:node.id,
+      status,
+      progress_percent:progressPercent,
+      last_opened_at:new Date().toISOString(),
+      completed_at:status === 'completed' ? new Date().toISOString() : null
+    };
+    const {data}=await supabase.from('user_progress').upsert(row,{onConflict:'user_id,item_type,item_id'}).select().single();
+    if (data) setLearningProgress(items => [data,...items.filter(x => x.id !== data.id)]);
+  }
+
+  async function toggleBookmark(node) {
+    if (!session?.user) {
+      setAuthOpen(true);
+      return;
+    }
+    const existing=bookmarks.find(x => x.item_type === 'essay_node' && x.item_id === node.id);
+    if (existing) {
+      await supabase.from('bookmarks').delete().eq('id',existing.id);
+      setBookmarks(items => items.filter(x => x.id !== existing.id));
+    } else {
+      const {data}=await supabase.from('bookmarks').insert({
+        user_id:session.user.id,
+        item_type:'essay_node',
+        item_id:node.id,
+        title:node.title,
+        primary_field:node.primary_field
+      }).select().single();
+      if (data) setBookmarks(items => [data,...items]);
+    }
+  }
+
+  async function addToReview(node) {
+    if (!session?.user) {
+      setAuthOpen(true);
+      return;
+    }
+    const existing=reviewItems.find(x => x.item_type === 'essay_node' && x.item_id === node.id);
+    if (existing) {
+      setScreen('learning');
+      return;
+    }
+    setReviewBusy(true);
+    try {
+      const response=await fetch('/api/learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          mode:'flashcard',
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node)
+        })
+      });
+      const generated=await response.json();
+      const card=generated?.result || {
+        prompt:'Explain '+node.title+' in your own words. What is the central mechanism or distinction?',
+        answer:node.description || 'Define the idea, explain how it works, and state why it matters.'
+      };
+      const {data,error}=await supabase.from('review_items').insert({
+        user_id:session.user.id,
+        item_type:'essay_node',
+        item_id:node.id,
+        title:node.title,
+        primary_field:node.primary_field,
+        prompt:card.prompt,
+        answer:card.answer
+      }).select().single();
+      if (error) throw error;
+      if (data) setReviewItems(items => [...items,data]);
+    } finally {
+      setReviewBusy(false);
+    }
+  }
+
+  async function rateReview(item,rating) {
+    if (!session?.user || !item) return;
+    const current=item.interval_days || 0;
+    const interval=rating === 'forgot' ? 1 : rating === 'fuzzy' ? (current ? Math.max(2,Math.ceil(current*1.5)) : 3) : (current ? Math.min(180,Math.ceil(current*2)) : 7);
+    const next=new Date(Date.now()+interval*86400000).toISOString();
+    const updated={
+      state:rating,
+      interval_days:interval,
+      next_review_at:next,
+      last_reviewed_at:new Date().toISOString(),
+      times_reviewed:(item.times_reviewed || 0)+1,
+      times_got_it:(item.times_got_it || 0)+(rating === 'got_it' ? 1 : 0)
+    };
+    await Promise.all([
+      supabase.from('review_items').update(updated).eq('id',item.id),
+      supabase.from('review_item_history').insert({user_id:session.user.id,review_item_id:item.id,rating})
+    ]);
+    setReviewItems(items => items.map(x => x.id === item.id ? {...x,...updated} : x));
+    setReviewReveal(false);
+  }
+
+  function monthlyMetrics() {
+    const now=new Date();
+    const start=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)).getTime();
+    const progress=learningProgress.filter(x => new Date(x.last_opened_at).getTime() >= start);
+    const saved=bookmarks.filter(x => new Date(x.created_at).getTime() >= start);
+    const reviewed=reviewItems.filter(x => x.last_reviewed_at && new Date(x.last_reviewed_at).getTime() >= start);
+    const topics=progress.map(x => nodeById[x.item_id]).filter(Boolean);
+    const fields=[...new Set(topics.map(x => x.primary_field).filter(Boolean))];
+    return {
+      topics_explored:topics.length,
+      topics_completed:progress.filter(x => x.status === 'completed').length,
+      bookmarks_added:saved.length,
+      review_items_reviewed:reviewed.length,
+      fields,
+      recent_topics:topics.slice(0,20).map(x => x.title)
+    };
+  }
+
+  async function generateMonthlyReview() {
+    if (!session?.user) {
+      setAuthOpen(true);
+      return;
+    }
+    setMonthlyLoading(true);
+    try {
+      const metrics=monthlyMetrics();
+      const response=await fetch('/api/learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({mode:'monthly_review',context:metrics})
+      });
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not generate monthly review.');
+      setMonthlyReview(result.result);
+      const now=new Date();
+      const monthKey=new Date(Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),1)).toISOString().slice(0,10);
+      await supabase.from('monthly_reviews').upsert({
+        user_id:session.user.id,
+        month:monthKey,
+        metrics,
+        synthesis:JSON.stringify(result.result)
+      },{onConflict:'user_id,month'});
+    } finally {
+      setMonthlyLoading(false);
     }
   }
 
@@ -406,9 +790,11 @@ export default function Home() {
           <p>{node.description || 'Explore this idea through its place in the curriculum, its deeper questions and its connections to the wider knowledge map.'}</p>
           <div className="topic-actions">
             <button className="gold-button" onClick={() => explainTopic(node)}>{explainLoading === node.id ? 'Explaining…' : 'Explain'}</button>
-            <button onClick={() => setTopicTab('questions')}>Explore Deeper</button>
+            <button onClick={() => deepDiveTopic(node)}>{deepLoading === node.id ? 'Going deeper…' : 'Explore Deeper'}</button>
             <button onClick={() => setTopicTab('compare')}>Compare</button>
-            <button disabled>Full Essay</button>
+            <button onClick={() => fullEssayTopic(node)}>{essayLoading === node.id ? 'Writing…' : 'Full Essay'}</button>
+            <button onClick={() => toggleBookmark(node)}>{bookmarks.some(x => x.item_type === 'essay_node' && x.item_id === node.id) ? 'Bookmarked' : 'Bookmark'}</button>
+            <button onClick={() => addToReview(node)} disabled={reviewBusy}>{reviewItems.some(x => x.item_type === 'essay_node' && x.item_id === node.id) ? 'In Review' : 'Add to Review'}</button>
           </div>
         </div>
       </section>
@@ -417,13 +803,17 @@ export default function Home() {
         {[
           ['overview','Overview'],
           ['explain','Explain'],
+          ['deeper','Explore Deeper'],
           ['graph','Knowledge Graph'],
           ['questions','Questions'],
           ['related','Related Concepts'],
-          ['compare','Compare']
+          ['compare','Compare'],
+          ['essay','Full Essay']
         ].map(([id,label]) => <button key={id} className={topicTab === id ? 'active' : ''} onClick={() => {
           setTopicTab(id);
           if (id === 'explain' && !explanations[node.id]) explainTopic(node);
+          if (id === 'deeper' && !deepDives[node.id]) deepDiveTopic(node);
+          if (id === 'essay' && !fullEssays[node.id]) fullEssayTopic(node);
         }}>{label}</button>)}
       </nav>
     </>;
@@ -510,6 +900,46 @@ export default function Home() {
     </div>;
   }
 
+  function DeepDiveView({node}) {
+    const result=deepDives[node.id];
+    const d=result?.result;
+    if (deepLoading === node.id) return <div className="loading-panel"><div className="loader-ring"></div><h3>Going deeper…</h3><p>Building a structured analysis from this topic's curriculum context.</p></div>;
+    if (deepErrors[node.id]) return <div className="panel empty-panel"><span>EXPLORE DEEPER</span><h3>Generation failed.</h3><p>{deepErrors[node.id]}</p><button className="gold-button" onClick={() => deepDiveTopic(node)}>Try Again</button></div>;
+    if (!d) return <div className="panel empty-panel"><span>EXPLORE DEEPER</span><h3>Move from understanding to analysis.</h3><p>Mechanisms, evidence, competing explanations, limitations, uncertainty and next questions.</p><button className="gold-button" onClick={() => deepDiveTopic(node)}>Generate Deep Dive</button></div>;
+    const sections=[
+      ['Central Question',d.central_question],
+      ['Core Mechanism / Argument',d.core_mechanism],
+      ['Why It Happens',d.why_it_happens],
+      ['Evidence / Reasons',d.evidence_and_reasons],
+      ['Competing Explanations',d.competing_explanations],
+      ['Criticisms & Limitations',d.criticisms_and_limits],
+      ['Development',d.development],
+      ['Established vs Uncertain',d.established_vs_uncertain],
+      ['Connections',d.connections]
+    ];
+    return <article className="deep-reader">
+      <div className="reader-heading"><small>EXPLORE DEEPER</small><h2>{node.title}</h2><p>{result?.cached ? 'Saved deep dive' : 'Generated from the curriculum, questions and knowledge graph.'}</p></div>
+      {sections.filter(([,copy]) => copy).map(([title,copy],i) => <section key={title} className="panel reader-section"><small>{String(i+1).padStart(2,'0')}</small><h3>{title}</h3><p>{copy}</p></section>)}
+      {Array.isArray(d.next_questions) && d.next_questions.length > 0 && <section className="panel reader-section"><small>NEXT</small><h3>Questions Worth Exploring</h3><div className="next-question-list">{d.next_questions.map((x,i) => <p key={i}>{x}</p>)}</div></section>}
+    </article>;
+  }
+
+  function FullEssayView({node}) {
+    const result=fullEssays[node.id];
+    const e=result?.result;
+    if (essayLoading === node.id) return <div className="loading-panel"><div className="loader-ring"></div><h3>Writing the full essay…</h3><p>This is the long-form layer and can take longer than Explain.</p></div>;
+    if (essayErrors[node.id]) return <div className="panel empty-panel"><span>FULL ESSAY</span><h3>Generation failed.</h3><p>{essayErrors[node.id]}</p><button className="gold-button" onClick={() => fullEssayTopic(node)}>Try Again</button></div>;
+    if (!e) return <div className="panel empty-panel"><span>FULL ESSAY</span><h3>Build the long-form treatment.</h3><p>A serious essay with argument, mechanisms, evidence, competing views, unresolved questions and implications.</p><button className="gold-button" onClick={() => fullEssayTopic(node)}>Generate Full Essay</button></div>;
+    return <article className="essay-reader">
+      <header><small>FULL ESSAY</small><h1>{e.title || node.title}</h1>{e.thesis && <p className="essay-thesis">{e.thesis}</p>}</header>
+      {(e.sections || []).map((section,i) => <section key={i}><small>{String(i+1).padStart(2,'0')}</small><h2>{section.heading}</h2><p>{section.body}</p></section>)}
+      {e.established_vs_uncertain && <section><h2>Established vs Uncertain</h2><p>{e.established_vs_uncertain}</p></section>}
+      {Array.isArray(e.takeaways) && <section><h2>Takeaways</h2><div className="essay-list">{e.takeaways.map((x,i)=><p key={i}>{x}</p>)}</div></section>}
+      {Array.isArray(e.hard_questions) && <section><h2>Hard Questions</h2><div className="essay-list">{e.hard_questions.map((x,i)=><p key={i}>{x}</p>)}</div></section>}
+      {e.further_reading_guidance && <section><h2>Further Reading Guidance</h2><p>{e.further_reading_guidance}</p></section>}
+    </article>;
+  }
+
   function QuestionsView({node}) {
     const questions=questionsByNode[node.id] || [];
     return <section className="questions-page">
@@ -566,20 +996,47 @@ export default function Home() {
 
   function CompareView({node}) {
     const connections=connectionsFor(node);
+    const fallbackId=connections[0]?.targetEssayId || null;
+    const target=nodeById[compareTargetId || fallbackId] || null;
+    const term=compareQuery.trim().toLowerCase();
+    const matches=term.length >= 2 ? essayNodes.filter(x => x.id !== node.id && x.title.toLowerCase().includes(term)).slice(0,8) : [];
+    const key=target ? node.id+'::'+target.id : '';
+    const result=comparisons[key]?.result;
+
     return <section className="compare-page">
-      <div className="subpage-heading"><small>COMPARE CONCEPTS</small><h2>See two ideas side by side.</h2><p>The comparison engine comes next. The interface is already in place.</p></div>
+      <div className="subpage-heading"><small>COMPARE CONCEPTS</small><h2>Understand the difference, not just the definitions.</h2><p>Compare assumptions, mechanisms, similarities, limits and where each idea applies.</p></div>
       <div className="compare-selectors panel">
-        <div><small>CONCEPT A</small><button>{node.title}<span>⌄</span></button></div>
+        <div><small>CONCEPT A</small><button>{node.title}</button></div>
         <div className="compare-switch">⇄</div>
-        <div><small>CONCEPT B</small><button>{connections[0]?.title || 'Select related concept'}<span>⌄</span></button></div>
+        <div className="compare-picker">
+          <small>CONCEPT B</small>
+          <input value={compareQuery} onChange={e => setCompareQuery(e.target.value)} placeholder={target?.title || 'Search another concept…'} />
+          {matches.length > 0 && <div className="compare-results">{matches.map(x => <button key={x.id} onClick={() => {setCompareTargetId(x.id);setCompareQuery('')}}><strong>{x.title}</strong><small>{x.primary_field}</small></button>)}</div>}
+        </div>
       </div>
-      <div className="compare-coming"><span>COMING SOON</span><p>The comparison feature will help you understand assumptions, similarities, differences and common confusions between concepts.</p></div>
+      {target && <div className="compare-target-line"><span>{node.title}</span><b>vs</b><span>{target.title}</span><button className="gold-button" onClick={() => compareTopics(node,target)} disabled={compareLoading}>{compareLoading ? 'Comparing…' : result ? 'Regenerate' : 'Generate Comparison'}</button></div>}
+      {compareError && <div className="panel empty-panel"><p>{compareError}</p></div>}
+      {result && <div className="comparison-grid">
+        {[
+          ['Framing',result.framing],
+          ['Similarities',result.similarities],
+          ['Differences',result.differences],
+          ['Assumptions',result.assumptions],
+          ['Mechanisms',result.mechanisms],
+          ['Strengths & Limits',result.strengths_and_limits],
+          ['Common Confusions',result.common_confusions],
+          ['When Each Applies',result.when_each_applies],
+          ['Synthesis',result.synthesis]
+        ].filter(([,copy]) => copy).map(([title,copy]) => <section className="panel" key={title}><small>{title.toUpperCase()}</small><p>{copy}</p></section>)}
+      </div>}
+      {!target && <div className="panel empty-panel"><h3>Choose a second concept.</h3><p>Search for any curriculum node to begin.</p></div>}
     </section>;
   }
 
   const nav=[
     ['home','⌂','Home'],
     ['explore','⌕','Explore'],
+    ['world','◍','World & Change'],
     ['learning','▱','My Learning'],
     ['bookmarks','▮','Bookmarks'],
     ['settings','⚙','Settings']
@@ -636,6 +1093,15 @@ export default function Home() {
               </button>)}
             </div>
           </section>
+
+          <section className="daily-concepts-section">
+            <div className="section-row"><div><small>THREE CONCEPTS OF THE DAY</small><h2>Small ideas, every day.</h2></div><button onClick={() => setScreen('learning')}>Open My Learning →</button></div>
+            <div className="learning-grid">
+              {dailyConcepts.map((concept,i) => <article className="learning-card" key={concept.id}>
+                <span>{String(i+1).padStart(2,'0')}</span><small>{concept.field}</small><h3>{concept.name}</h3><p>{concept.short}</p>
+              </article>)}
+            </div>
+          </section>
         </div>}
 
         {screen === 'explore' && <div className="explore-page">
@@ -662,22 +1128,75 @@ export default function Home() {
           <TopicHeader node={selectedTopic}/>
           {topicTab === 'overview' && <TopicOverview node={selectedTopic}/>}
           {topicTab === 'explain' && <ExplainView node={selectedTopic}/>}
+          {topicTab === 'deeper' && <DeepDiveView node={selectedTopic}/>}
           {topicTab === 'questions' && <QuestionsView node={selectedTopic}/>}
           {topicTab === 'related' && <RelatedView node={selectedTopic}/>}
           {topicTab === 'graph' && <GraphView node={selectedTopic}/>}
           {topicTab === 'compare' && <CompareView node={selectedTopic}/>}
+          {topicTab === 'essay' && <FullEssayView node={selectedTopic}/>}
         </div>}
 
-        {screen === 'learning' && <div className="simple-page">
-          <div className="subpage-heading"><small>MY LEARNING</small><h2>Keep the ideas that changed how you think.</h2><p>Review, revisit and eventually build a durable memory of the concepts you explore.</p></div>
-          <div className="learning-grid">
-            {concepts.map((c,i) => <article key={c.id} className="learning-card">
-              <span>{String(i+1).padStart(2,'0')}</span><small>{c.field}</small><h3>{c.name}</h3><p>{c.short}</p>
-            </article>)}
+        {screen === 'world' && <div className="simple-page world-page">
+          <div className="subpage-heading"><small>WORLD & CHANGE</small><h2>See today's movement and the longer arc.</h2><p>Daily developments belong beside the historical processes that make them intelligible.</p></div>
+          <div className="world-columns">
+            <section>
+              <div className="panel-title"><span>Daily Brief</span><small>SOURCED CURRENT EVENTS</small></div>
+              {dailyBrief.length ? <div className="brief-stack">{dailyBrief.map(item => <article className="panel brief-card" key={item.id}>
+                <small>{item.brief_date} · {item.category}</small><h3>{item.title}</h3><h4>What happened</h4><p>{item.what_happened}</p><h4>Why it matters</h4><p>{item.why_it_matters}</p><h4>Watch next</h4><p>{item.watch_next}</p>
+              </article>)}</div> : <div className="panel empty-panel"><h3>The Daily Brief pipeline is ready.</h3><p>No sourced brief has been published to the database yet. The system will not invent current events without verified sources.</p></div>}
+            </section>
+            <section>
+              <div className="panel-title"><span>Long Arc</span><small>STRUCTURAL CHANGE</small></div>
+              <div className="long-arc-stack">{longArc.map(item => <article className="panel long-arc-card" key={item.id}><small>{item.period_label} · {item.primary_field}</small><h3>{item.title}</h3><p>{item.summary}</p>{item.why_it_matters && <p className="muted-copy">{item.why_it_matters}</p>}</article>)}</div>
+            </section>
           </div>
         </div>}
 
-        {screen === 'bookmarks' && <div className="simple-page"><div className="subpage-heading"><small>BOOKMARKS</small><h2>Your private reading shelf.</h2><p>Saved ideas and essays will live here once bookmarking is connected.</p></div><div className="panel empty-panel"><h3>Nothing saved yet.</h3><p>Bookmarking is the next small utility layer after the core learning actions.</p></div></div>}
+        {screen === 'learning' && <div className="simple-page">
+          <div className="subpage-heading"><small>MY LEARNING</small><h2>Turn exploration into durable memory.</h2><p>Concepts of the day, spaced review, recent learning and a monthly intellectual synthesis.</p></div>
+
+          <section className="learning-section">
+            <div className="panel-title"><span>Three Concepts of the Day</span><small>DAILY DISCOVERY</small></div>
+            <div className="learning-grid">{dailyConcepts.map((c,i) => <article key={c.id} className="learning-card"><span>{String(i+1).padStart(2,'0')}</span><small>{c.field}</small><h3>{c.name}</h3><p>{c.short}</p></article>)}</div>
+          </section>
+
+          <section className="learning-section">
+            <div className="panel-title"><span>Review Queue</span><small>{dueReviewItems.length} DUE</small></div>
+            {!session?.user ? <div className="panel empty-panel"><h3>Sign in to build your review queue.</h3><button className="gold-button" onClick={() => setAuthOpen(true)}>Sign in</button></div>
+            : dueReviewItems.length ? (() => { const item=dueReviewItems[0]; return <div className="panel review-card">
+                <small>{item.primary_field || 'REVIEW'}</small><h3>{item.prompt}</h3>
+                {reviewReveal ? <div className="review-answer"><p>{item.answer}</p><div className="review-ratings"><button onClick={() => rateReview(item,'forgot')}>Forgot</button><button onClick={() => rateReview(item,'fuzzy')}>Fuzzy</button><button className="gold-button" onClick={() => rateReview(item,'got_it')}>Got it</button></div></div>
+                : <button className="gold-button" onClick={() => setReviewReveal(true)}>Reveal Answer</button>}
+              </div>; })()
+            : <div className="panel empty-panel"><h3>Nothing due right now.</h3><p>Add topics to Review from any topic page. Future cards will return automatically when due.</p></div>}
+          </section>
+
+          <section className="learning-section">
+            <div className="panel-title"><span>Recent Learning</span><small>YOUR TRAIL</small></div>
+            <div className="recent-learning-grid">
+              {learningProgress.slice(0,12).map(item => { const node=nodeById[item.item_id]; return node ? <button key={item.id} className="panel recent-learning-card" onClick={() => openTopic(node.id)}><small>{node.primary_field}</small><h3>{node.title}</h3><span>{item.status} · {item.progress_percent}%</span></button> : null; })}
+              {session?.user && !learningProgress.length && <div className="panel empty-panel"><p>Open curriculum topics and your learning trail will appear here.</p></div>}
+            </div>
+          </section>
+
+          <section className="learning-section">
+            <div className="panel-title"><span>Monthly Intellectual Review</span><small>SYNTHESIS</small></div>
+            <div className="panel monthly-review-card">
+              <div className="monthly-metrics">{Object.entries(monthlyMetrics()).filter(([k]) => !['fields','recent_topics'].includes(k)).map(([k,v]) => <div key={k}><small>{k.replaceAll('_',' ')}</small><strong>{v}</strong></div>)}</div>
+              {monthlyReview ? <div className="monthly-copy">
+                <h3>This month's synthesis</h3><p>{monthlyReview.summary}</p>
+                {['strongest_threads','connections','gaps','next_month'].map(key => Array.isArray(monthlyReview[key]) && <div key={key}><small>{key.replaceAll('_',' ').toUpperCase()}</small>{monthlyReview[key].map((x,i)=><p key={i}>{x}</p>)}</div>)}
+              </div> : <button className="gold-button" disabled={monthlyLoading} onClick={generateMonthlyReview}>{monthlyLoading ? 'Synthesizing…' : 'Generate Monthly Review'}</button>}
+            </div>
+          </section>
+        </div>}
+
+        {screen === 'bookmarks' && <div className="simple-page">
+          <div className="subpage-heading"><small>BOOKMARKS</small><h2>Your private reading shelf.</h2><p>Save topics you want to revisit without putting all of them into spaced review.</p></div>
+          {!session?.user ? <div className="panel empty-panel"><h3>Sign in to sync bookmarks.</h3><button className="gold-button" onClick={() => setAuthOpen(true)}>Sign in</button></div>
+          : bookmarks.length ? <div className="bookmark-grid">{bookmarks.map(item => <article className="panel bookmark-card" key={item.id}><small>{item.primary_field}</small><h3>{item.title}</h3><div><button onClick={() => openTopic(item.item_id)}>Open</button><button onClick={() => toggleBookmark(nodeById[item.item_id])}>Remove</button></div></article>)}</div>
+          : <div className="panel empty-panel"><h3>Nothing saved yet.</h3><p>Use Bookmark on any topic page to build your reading shelf.</p></div>}
+        </div>}
 
         {screen === 'settings' && <div className="simple-page"><div className="subpage-heading"><small>SETTINGS</small><h2>Keep the system quiet and personal.</h2><p>Account sync and preference controls live here.</p></div><div className="settings-panel panel"><div><span>Account</span><b>{session?.user ? 'Signed in' : 'Not signed in'}</b></div><button className="gold-button" onClick={() => session?.user ? supabase.auth.signOut() : setAuthOpen(true)}>{session?.user ? 'Sign out' : 'Sign in'}</button></div></div>}
       </section>
