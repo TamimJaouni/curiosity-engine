@@ -147,6 +147,9 @@ export default function Home() {
   const [sectionChatLoading,setSectionChatLoading] = useState('');
   const [sectionChatErrors,setSectionChatErrors] = useState({});
 
+  const [contextImages,setContextImages] = useState({});
+  const [contextImageLoading,setContextImageLoading] = useState({});
+
   const [deepDives,setDeepDives] = useState({});
   const [deepLoading,setDeepLoading] = useState(null);
   const [deepErrors,setDeepErrors] = useState({});
@@ -479,10 +482,75 @@ export default function Home() {
       const result=await response.json();
       if (!response.ok) throw new Error(result?.message || 'Could not generate the explanation.');
       setSimpleContent(all => ({...all,[key]:result.content}));
+      if (mode === 'exhaustive') loadContextImages(node,result.content);
     } catch(error) {
       setSimpleErrors(all => ({...all,[key]:error.message}));
     } finally {
       setSimpleLoading('');
+    }
+  }
+
+  function contextImageKey(node,section) {
+    return node.id+'::'+section.id;
+  }
+
+  function visualPlanFor(node,content) {
+    const sections=parseRichSections(content).filter(section => section.text && section.text.length > 120);
+    if (!sections.length) return [];
+
+    const path=pathFor(node);
+    const parent=path.length > 1 ? path[path.length-2]?.title : '';
+    const subject=[parent,node.title].filter(Boolean).filter((value,index,array) => array.indexOf(value) === index).join(' ');
+    const chosen=[];
+
+    function add(section,query) {
+      if (!section || chosen.some(item => item.id === section.id)) return;
+      chosen.push({id:section.id,query});
+    }
+
+    const figures=sections.find(section => /figure|people|thinker|leader|scientist|founder|actor|ruler|philosopher/i.test(section.title));
+    const spatial=sections.find(section => /map|geograph|territor|empire|expansion|border|region|world before|context|origin/i.test(section.title));
+    const concrete=sections.find(section => /event|case|experiment|example|development|spread|war|revolt|revolution|turning point/i.test(section.title));
+
+    add(spatial,subject+' '+spatial?.title+' map');
+    add(figures,subject+' '+figures?.title+' portrait');
+    add(concrete,subject+' '+concrete?.title);
+
+    for (const section of sections) {
+      if (chosen.length >= 3) break;
+      if (/takeaway|established|uncertain|misunderstanding|criticism|limit/i.test(section.title)) continue;
+      add(section,subject+' '+section.title);
+    }
+
+    return chosen.slice(0,3);
+  }
+
+  async function loadContextImages(node,content) {
+    const plan=visualPlanFor(node,content);
+    if (!plan.length) return;
+
+    const loadingPatch={};
+    for (const item of plan) loadingPatch[node.id+'::'+item.id]=true;
+    setContextImageLoading(all => ({...all,...loadingPatch}));
+
+    try {
+      const response=await fetch('/api/context-images',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({items:plan})
+      });
+      const result=await response.json();
+      if (!response.ok) return;
+
+      const patch={};
+      for (const image of result.images || []) {
+        patch[node.id+'::'+image.sectionId]=image;
+      }
+      setContextImages(all => ({...all,...patch}));
+    } finally {
+      const done={};
+      for (const item of plan) done[node.id+'::'+item.id]=false;
+      setContextImageLoading(all => ({...all,...done}));
     }
   }
 
@@ -1271,51 +1339,71 @@ export default function Home() {
           content={content}
           renderSectionFooter={mode === 'exhaustive' ? (section,index) => {
             const key=sectionChatKey(node,section);
+            const imageKey=contextImageKey(node,section);
+            const image=contextImages[imageKey];
+            const imageLoading=!!contextImageLoading[imageKey];
             const open=!!sectionChatOpen[key];
             const messages=sectionChats[key] || [];
             const loading=sectionChatLoading === key;
             const error=sectionChatErrors[key];
 
-            return <div className="section-chat-wrap">
-              <button className={'section-chat-toggle '+(open ? 'open' : '')} onClick={() => toggleSectionChat(node,section)}>
-                <span>{open ? '−' : '+'}</span>
-                <b>{open ? 'Close section chat' : 'Ask DeepSeek about this section'}</b>
-              </button>
+            return <>
+              {image && <figure className="context-visual">
+                <a href={image.sourceUrl} target="_blank" rel="noreferrer" className="context-visual-image">
+                  <img src={image.imageUrl} alt={image.description || image.title || section.title} loading="lazy"/>
+                </a>
+                <figcaption>
+                  <div>
+                    <strong>{image.description || image.title}</strong>
+                    <span>{[image.artist,image.license].filter(Boolean).join(' · ')}</span>
+                  </div>
+                  <a href={image.sourceUrl} target="_blank" rel="noreferrer">Wikimedia Commons ↗</a>
+                </figcaption>
+              </figure>}
 
-              {open && <div className="section-chat-panel">
-                {messages.length > 0 && <div className="section-chat-history">
-                  {messages.map((message,i) => <div key={i} className={'section-chat-message '+message.role}>
-                    <small>{message.role === 'user' ? 'YOU' : 'DEEPSEEK'}</small>
-                    {message.role === 'assistant'
-                      ? <RichExplanation content={message.content}/>
-                      : <p>{message.content}</p>}
-                  </div>)}
+              {imageLoading && <div className="context-visual-loading">Finding a relevant historical or contextual image…</div>}
+
+              <div className="section-chat-wrap">
+                <button className={'section-chat-toggle '+(open ? 'open' : '')} onClick={() => toggleSectionChat(node,section)}>
+                  <span>{open ? '−' : '+'}</span>
+                  <b>{open ? 'Close section chat' : 'Ask DeepSeek about this section'}</b>
+                </button>
+
+                {open && <div className="section-chat-panel">
+                  {messages.length > 0 && <div className="section-chat-history">
+                    {messages.map((message,i) => <div key={i} className={'section-chat-message '+message.role}>
+                      <small>{message.role === 'user' ? 'YOU' : 'DEEPSEEK'}</small>
+                      {message.role === 'assistant'
+                        ? <RichExplanation content={message.content}/>
+                        : <p>{message.content}</p>}
+                    </div>)}
+                  </div>}
+
+                  <div className="section-chat-compose">
+                    <textarea
+                      rows={3}
+                      value={sectionChatInputs[key] || ''}
+                      onChange={e => setSectionChatInputs(all => ({...all,[key]:e.target.value}))}
+                      onKeyDown={e => {
+                        if (e.key === 'Enter' && !e.shiftKey) {
+                          e.preventDefault();
+                          askSectionChat(node,section);
+                        }
+                      }}
+                      placeholder="Ask why, request an example, clarify a person, challenge a claim…"
+                    />
+                    <button
+                      className="gold-button"
+                      disabled={loading || !(sectionChatInputs[key] || '').trim()}
+                      onClick={() => askSectionChat(node,section)}
+                    >{loading ? 'Thinking…' : 'Send'}</button>
+                  </div>
+
+                  {error && <p className="section-chat-error">{error}</p>}
+                  <small className="section-chat-note">This conversation is isolated to this section. It does not change the rest of the explanation.</small>
                 </div>}
-
-                <div className="section-chat-compose">
-                  <textarea
-                    rows={3}
-                    value={sectionChatInputs[key] || ''}
-                    onChange={e => setSectionChatInputs(all => ({...all,[key]:e.target.value}))}
-                    onKeyDown={e => {
-                      if (e.key === 'Enter' && !e.shiftKey) {
-                        e.preventDefault();
-                        askSectionChat(node,section);
-                      }
-                    }}
-                    placeholder="Ask why, request an example, clarify a person, challenge a claim…"
-                  />
-                  <button
-                    className="gold-button"
-                    disabled={loading || !(sectionChatInputs[key] || '').trim()}
-                    onClick={() => askSectionChat(node,section)}
-                  >{loading ? 'Thinking…' : 'Send'}</button>
-                </div>
-
-                {error && <p className="section-chat-error">{error}</p>}
-                <small className="section-chat-note">This conversation is isolated to this section. It does not change the rest of the explanation.</small>
-              </div>}
-            </div>;
+              </div>
+            </>;
           } : null}
         />
       </div>
