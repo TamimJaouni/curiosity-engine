@@ -559,3 +559,48 @@ a{color:var(--gold2)}
   .socratic-heading { flex-direction:column; }
   .socratic-actions { flex-direction:column; }
 }
+
+
+/* Simplified learning surface */
+.simple-topic-actions { gap:10px; }
+.simple-topic-tabs { max-width:720px; }
+
+.simple-explanation {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 12px 0 56px;
+}
+.simple-explanation > header {
+  padding: 14px 4px 22px;
+  border-bottom: 1px solid rgba(255,255,255,.08);
+  margin-bottom: 20px;
+}
+.simple-explanation > header small {
+  color: var(--gold);
+  font-size: 11px;
+  letter-spacing: .14em;
+}
+.simple-explanation > header h2 {
+  margin: 8px 0 0;
+  font-family: Georgia, serif;
+  font-size: 34px;
+}
+.simple-explanation-copy {
+  white-space: pre-wrap;
+  line-height: 1.82;
+  font-size: 16px;
+  color: var(--text);
+  padding: 4px;
+}
+.simple-explanation.short .simple-explanation-copy {
+  max-width: 760px;
+}
+.simple-explanation.exhaustive .simple-explanation-copy {
+  max-width: 860px;
+}
+
+@media (max-width: 640px) {
+  .simple-topic-actions { flex-direction: column; align-items: stretch; }
+  .simple-topic-actions button { width: 100%; }
+  .simple-explanation > header h2 { font-size: 28px; }
+}
