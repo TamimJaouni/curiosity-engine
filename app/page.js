@@ -598,14 +598,16 @@ export default function Home() {
 
   async function updateProgress(node,status,progressPercent) {
     if (!session?.user || !node) return;
+    const existing=learningProgress.find(x => x.item_type === 'essay_node' && x.item_id === node.id);
+    const keepCompleted=existing?.status === 'completed' && status !== 'completed';
     const row={
       user_id:session.user.id,
       item_type:'essay_node',
       item_id:node.id,
-      status,
-      progress_percent:progressPercent,
+      status:keepCompleted ? 'completed' : status,
+      progress_percent:Math.max(existing?.progress_percent || 0,progressPercent),
       last_opened_at:new Date().toISOString(),
-      completed_at:status === 'completed' ? new Date().toISOString() : null
+      completed_at:keepCompleted ? existing.completed_at : status === 'completed' ? new Date().toISOString() : null
     };
     const {data}=await supabase.from('user_progress').upsert(row,{onConflict:'user_id,item_type,item_id'}).select().single();
     if (data) setLearningProgress(items => [data,...items.filter(x => x.id !== data.id)]);
@@ -1143,6 +1145,7 @@ export default function Home() {
               <div className="panel-title"><span>Daily Brief</span><small>SOURCED CURRENT EVENTS</small></div>
               {dailyBrief.length ? <div className="brief-stack">{dailyBrief.map(item => <article className="panel brief-card" key={item.id}>
                 <small>{item.brief_date} · {item.category}</small><h3>{item.title}</h3><h4>What happened</h4><p>{item.what_happened}</p><h4>Why it matters</h4><p>{item.why_it_matters}</p><h4>Watch next</h4><p>{item.watch_next}</p>
+                {Array.isArray(item.source_metadata) && item.source_metadata.length > 0 && <div className="brief-sources">{item.source_metadata.map((source,i) => <a key={i} href={source.url} target="_blank" rel="noreferrer">{source.publisher || source.title || 'Source'} ↗</a>)}</div>}
               </article>)}</div> : <div className="panel empty-panel"><h3>The Daily Brief pipeline is ready.</h3><p>No sourced brief has been published to the database yet. The system will not invent current events without verified sources.</p></div>}
             </section>
             <section>
