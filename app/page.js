@@ -149,6 +149,7 @@ export default function Home() {
 
   const [contextImages,setContextImages] = useState({});
   const [contextImageLoading,setContextImageLoading] = useState({});
+  const [contextImageAttempted,setContextImageAttempted] = useState({});
 
   const [deepDives,setDeepDives] = useState({});
   const [deepLoading,setDeepLoading] = useState(null);
@@ -209,13 +210,7 @@ export default function Home() {
     const node=essayNodes.find(item => item.id === selectedTopicId);
     const content=simpleContent[selectedTopicId+'::exhaustive'];
     if (!node || !content) return;
-
-    const plan=visualPlanFor(node,content);
-    const missing=plan.some(item => {
-      const key=node.id+'::'+item.id;
-      return !contextImages[key] && !contextImageLoading[key];
-    });
-    if (missing) loadContextImages(node,content);
+    loadContextImages(node,content);
   },[topicTab,selectedTopicId,simpleContent,essayNodes]);
 
   async function loadCatalog() {
@@ -508,69 +503,73 @@ export default function Home() {
     return node.id+'::'+section.id;
   }
 
-  function visualPlanFor(node,content) {
-    const sections=parseRichSections(content).filter(section => section.text && section.text.length > 120);
-    if (!sections.length) return [];
-
-    const path=pathFor(node);
-    const parent=path.length > 1 ? String(path[path.length-2]?.title || '').trim() : '';
-    const nodeTitle=String(node.title || '').trim();
-    const baseSubject=parent && parent.length <= 70 ? parent : nodeTitle.split(':')[0].trim();
-    const subject=baseSubject || nodeTitle;
-    const chosen=[];
-
-    function add(section,query) {
-      if (!section || chosen.some(item => item.id === section.id)) return;
-      chosen.push({
-        id:section.id,
-        query,
-        fallbackQuery:subject
-      });
-    }
-
-    const figures=sections.find(section => /figure|people|thinker|leader|scientist|founder|actor|ruler|philosopher|important people/i.test(section.title));
-    const spatial=sections.find(section => /map|geograph|territor|empire|expansion|border|region|world before|context|origin|setting/i.test(section.title));
-    const concrete=sections.find(section => /event|case|experiment|example|development|spread|war|revolt|revolution|turning point|battle|treaty/i.test(section.title));
-
-    add(spatial,subject+' map');
-    add(figures,subject+' portrait');
-    add(concrete,subject+' '+concrete?.title);
-
-    for (const section of sections) {
-      if (chosen.length >= 3) break;
-      if (/takeaway|established|uncertain|misunderstanding|criticism|limit/i.test(section.title)) continue;
-      add(section,subject+' '+section.title);
-    }
-
-    return chosen.slice(0,3);
+  function visualRequestKey(node,content) {
+    return node.id+'::'+String(content.length)+'::'+content.slice(0,80);
   }
 
   async function loadContextImages(node,content) {
-    const plan=visualPlanFor(node,content);
-    if (!plan.length) return;
+    const requestKey=visualRequestKey(node,content);
+    if (contextImageAttempted[requestKey]) return;
 
-    const loadingPatch={};
-    for (const item of plan) loadingPatch[node.id+'::'+item.id]=true;
-    setContextImageLoading(all => ({...all,...loadingPatch}));
+    setContextImageAttempted(all => ({...all,[requestKey]:true}));
+    setContextImageLoading(all => ({...all,[node.id+'::__plan']:true}));
 
     try {
-      const response=await fetch('/api/context-images',{
+      const sections=parseRichSections(content)
+        .filter(section => section.text && section.text.length > 120)
+        .map(section => ({
+          id:section.id,
+          title:section.title,
+          text:section.text
+        }));
+
+      if (!sections.length) return;
+
+      const planResponse=await fetch('/api/visual-plan',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          topic:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          sections
+        })
+      });
+
+      const planResult=await planResponse.json();
+      const plan=Array.isArray(planResult?.items) ? planResult.items : [];
+      if (!planResponse.ok || !plan.length) return;
+
+      const loadingPatch={};
+      for (const item of plan) loadingPatch[node.id+'::'+item.sectionId]=true;
+      setContextImageLoading(all => ({...all,...loadingPatch}));
+
+      const imageResponse=await fetch('/api/context-images',{
         method:'POST',
         headers:{'Content-Type':'application/json'},
         body:JSON.stringify({items:plan})
       });
-      const result=await response.json();
-      if (!response.ok) return;
+      const imageResult=await imageResponse.json();
+      if (!imageResponse.ok) return;
 
       const patch={};
-      for (const image of result.images || []) {
+      for (const image of imageResult.images || []) {
         patch[node.id+'::'+image.sectionId]=image;
       }
-      setContextImages(all => ({...all,...patch}));
-    } finally {
+
+      setContextImages(all => {
+        const next={};
+        for (const [key,value] of Object.entries(all)) {
+          if (!key.startsWith(node.id+'::')) next[key]=value;
+        }
+        return {...next,...patch};
+      });
+
       const done={};
-      for (const item of plan) done[node.id+'::'+item.id]=false;
+      for (const item of plan) done[node.id+'::'+item.sectionId]=false;
       setContextImageLoading(all => ({...all,...done}));
+    } finally {
+      setContextImageLoading(all => ({...all,[node.id+'::__plan']:false}));
     }
   }
 
@@ -1379,16 +1378,17 @@ export default function Home() {
             const error=sectionChatErrors[key];
 
             return <>
-              {image && <figure className="context-visual">
+              {image && <figure className={'context-visual visual-'+(image.visualType || 'place')}>
                 <a href={image.sourceUrl} target="_blank" rel="noreferrer" className="context-visual-image">
                   <img src={image.imageUrl} alt={image.description || image.title || section.title} loading="lazy"/>
                 </a>
                 <figcaption>
                   <div>
-                    <strong>{image.description || image.title}</strong>
-                    <span>{[image.artist,image.license].filter(Boolean).join(' · ')}</span>
+                    <small className="visual-type-label">{String(image.visualType || 'visual').toUpperCase()}</small>
+                    <strong>{image.reason || image.description || image.title}</strong>
+                    <span>{[image.title,image.artist,image.license].filter(Boolean).join(' · ')}</span>
                   </div>
-                  <a href={image.sourceUrl} target="_blank" rel="noreferrer">Wikimedia Commons ↗</a>
+                  <a href={image.sourceUrl} target="_blank" rel="noreferrer">{image.provider || 'Source'} ↗</a>
                 </figcaption>
               </figure>}
 
