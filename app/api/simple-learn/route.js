@@ -400,7 +400,7 @@ ${JSON.stringify(context).slice(0,14000)}`;
     );
   }
 
-  const content = String(data?.choices?.[0]?.message?.content || '').trim();
+  let content = String(data?.choices?.[0]?.message?.content || '').trim();
   if (!content) {
     return Response.json(
       {error:'EMPTY_MODEL_OUTPUT',message:'The model returned an empty response.'},
@@ -408,11 +408,41 @@ ${JSON.stringify(context).slice(0,14000)}`;
     );
   }
 
+  if (mode === 'exhaustive') {
+    const wordCount=content.split(/\\s+/).filter(Boolean).length;
+
+    if (wordCount < 1800) {
+      const expansionResponse=await fetch('https://api.deepseek.com/chat/completions', {
+        method:'POST',
+        headers:{
+          'Authorization':`Bearer ${apiKey}`,
+          'Content-Type':'application/json'
+        },
+        body:JSON.stringify({
+          model,
+          messages:[
+            {role:'system',content:instructions},
+            {role:'user',content:input},
+            {role:'assistant',content},
+            {role:'user',content:`The draft above is too short for Exhaustive mode. Replace it with a complete, immersive final version of at least 2,200 words unless the topic is genuinely too narrow. Do not merely append. Rewrite the entire answer as one coherent article. Add more explanatory depth, important figures where relevant, concrete examples and mini-case studies, causal transitions, historical/intellectual context, competing interpretations, and useful contrasts. Preserve factual caution. Use clear Markdown headings.`}
+          ],
+          max_tokens:8000
+        })
+      });
+
+      if (expansionResponse.ok) {
+        const expansionData=await expansionResponse.json();
+        const expanded=String(expansionData?.choices?.[0]?.message?.content || '').trim();
+        if (expanded) content=expanded;
+      }
+    }
+  }
+
   return Response.json({
     content,
     mode,
     model,
     provider:'deepseek',
-    prompt_version:mode === 'short' ? 'simple_short_v1' : 'simple_exhaustive_v3'
+    prompt_version:mode === 'short' ? 'simple_short_v1' : 'simple_exhaustive_v4'
   });
 }
