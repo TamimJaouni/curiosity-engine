@@ -513,3 +513,7 @@ a{color:var(--gold2)}
   .compare-picker input { min-width: 0; }
   .review-ratings { flex-direction: column; }
 }
+
+.brief-sources { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; padding-top:14px; border-top:1px solid rgba(255,255,255,.07); }
+.brief-sources a { color:var(--gold); text-decoration:none; font-size:12px; }
+.brief-sources a:hover { text-decoration:underline; }
