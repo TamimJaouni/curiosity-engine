@@ -517,3 +517,45 @@ a{color:var(--gold2)}
 .brief-sources { display:flex; flex-wrap:wrap; gap:8px; margin-top:16px; padding-top:14px; border-top:1px solid rgba(255,255,255,.07); }
 .brief-sources a { color:var(--gold); text-decoration:none; font-size:12px; }
 .brief-sources a:hover { text-decoration:underline; }
+
+
+/* Socratic learning */
+.socratic-page { max-width: 920px; margin: 0 auto; padding: 8px 0 50px; }
+.socratic-heading { display:flex; align-items:flex-start; justify-content:space-between; gap:20px; padding:18px 4px 24px; border-bottom:1px solid rgba(255,255,255,.08); margin-bottom:20px; }
+.socratic-heading small { color:var(--gold); letter-spacing:.12em; font-size:11px; }
+.socratic-heading h2 { margin:8px 0 8px; font-family:Georgia,serif; font-size:34px; }
+.socratic-heading p { margin:0; color:var(--muted); }
+.mastery-pill { border:1px solid rgba(255,255,255,.12); border-radius:999px; padding:8px 12px; text-transform:uppercase; font-size:10px; letter-spacing:.12em; color:var(--muted); white-space:nowrap; }
+.mastery-solid { border-color:rgba(217,168,94,.45); color:var(--gold); }
+.mastery-strong { border-color:rgba(99,168,155,.5); color:var(--teal); }
+
+.socratic-thread { display:grid; gap:16px; margin-bottom:18px; }
+.socratic-exchange { border-left:1px solid rgba(255,255,255,.08); padding-left:18px; }
+.socratic-question,
+.socratic-answer,
+.socratic-feedback { margin:0 0 12px; }
+.socratic-question small,
+.socratic-answer small,
+.socratic-feedback small,
+.socratic-current > small { font-size:10px; letter-spacing:.12em; color:var(--muted); }
+.socratic-question p { font-family:Georgia,serif; font-size:20px; line-height:1.55; margin:6px 0 0; }
+.socratic-answer { padding:12px 14px; background:rgba(255,255,255,.025); border-radius:9px; }
+.socratic-answer p,
+.socratic-feedback p { margin:6px 0 0; line-height:1.65; }
+.socratic-feedback { padding:12px 14px; border-left:2px solid rgba(217,168,94,.45); }
+.socratic-feedback small { color:var(--gold); }
+
+.socratic-current h3 { margin:9px 0 18px; font-family:Georgia,serif; font-size:27px; line-height:1.42; }
+.socratic-current textarea { width:100%; resize:vertical; min-height:140px; background:rgba(255,255,255,.025); border:1px solid rgba(255,255,255,.11); border-radius:10px; color:var(--text); padding:14px; font:inherit; line-height:1.6; outline:none; }
+.socratic-current textarea:focus { border-color:rgba(217,168,94,.55); }
+.socratic-hint { margin:-4px 0 14px; }
+.socratic-hint button { background:transparent; border:0; color:var(--gold); padding:0; cursor:pointer; }
+.socratic-hint p { margin:0; color:var(--muted); font-style:italic; }
+.socratic-actions { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
+.socratic-actions > button:not(.gold-button) { background:transparent; color:var(--text); border:1px solid rgba(255,255,255,.12); border-radius:8px; padding:10px 14px; }
+.socratic-error { color:#d9a0a0; margin:10px 0 0; }
+
+@media (max-width:640px) {
+  .socratic-heading { flex-direction:column; }
+  .socratic-actions { flex-direction:column; }
+}
