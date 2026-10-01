@@ -147,10 +147,6 @@ export default function Home() {
   const [sectionChatLoading,setSectionChatLoading] = useState('');
   const [sectionChatErrors,setSectionChatErrors] = useState({});
 
-  const [contextImages,setContextImages] = useState({});
-  const [contextImageLoading,setContextImageLoading] = useState({});
-  const [contextImageAttempted,setContextImageAttempted] = useState({});
-
   const [deepDives,setDeepDives] = useState({});
   const [deepLoading,setDeepLoading] = useState(null);
   const [deepErrors,setDeepErrors] = useState({});
@@ -205,13 +201,6 @@ export default function Home() {
     }
   },[session?.user?.id]);
 
-  useEffect(() => {
-    if (topicTab !== 'exhaustive' || !selectedTopicId) return;
-    const node=essayNodes.find(item => item.id === selectedTopicId);
-    const content=simpleContent[selectedTopicId+'::exhaustive'];
-    if (!node || !content) return;
-    loadContextImages(node,content);
-  },[topicTab,selectedTopicId,simpleContent,essayNodes]);
 
   async function loadCatalog() {
     setCatalogLoading(true);
@@ -491,7 +480,6 @@ export default function Home() {
       const result=await response.json();
       if (!response.ok) throw new Error(result?.message || 'Could not generate the explanation.');
       setSimpleContent(all => ({...all,[key]:result.content}));
-      if (mode === 'exhaustive') loadContextImages(node,result.content);
     } catch(error) {
       setSimpleErrors(all => ({...all,[key]:error.message}));
     } finally {
@@ -501,76 +489,6 @@ export default function Home() {
 
   function contextImageKey(node,section) {
     return node.id+'::'+section.id;
-  }
-
-  function visualRequestKey(node,content) {
-    return node.id+'::'+String(content.length)+'::'+content.slice(0,80);
-  }
-
-  async function loadContextImages(node,content) {
-    const requestKey=visualRequestKey(node,content);
-    if (contextImageAttempted[requestKey]) return;
-
-    setContextImageAttempted(all => ({...all,[requestKey]:true}));
-    setContextImageLoading(all => ({...all,[node.id+'::__plan']:true}));
-
-    try {
-      const sections=parseRichSections(content)
-        .filter(section => section.text && section.text.length > 120)
-        .map(section => ({
-          id:section.id,
-          title:section.title,
-          text:section.text
-        }));
-
-      if (!sections.length) return;
-
-      const planResponse=await fetch('/api/visual-plan',{
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({
-          topic:node.title,
-          field:node.primary_field || 'General',
-          path:pathFor(node).map(x => x.title),
-          sections
-        })
-      });
-
-      const planResult=await planResponse.json();
-      const plan=Array.isArray(planResult?.items) ? planResult.items : [];
-      if (!planResponse.ok || !plan.length) return;
-
-      const loadingPatch={};
-      for (const item of plan) loadingPatch[node.id+'::'+item.sectionId]=true;
-      setContextImageLoading(all => ({...all,...loadingPatch}));
-
-      const imageResponse=await fetch('/api/context-images',{
-        method:'POST',
-        headers:{'Content-Type':'application/json'},
-        body:JSON.stringify({items:plan})
-      });
-      const imageResult=await imageResponse.json();
-      if (!imageResponse.ok) return;
-
-      const patch={};
-      for (const image of imageResult.images || []) {
-        patch[node.id+'::'+image.sectionId]=image;
-      }
-
-      setContextImages(all => {
-        const next={};
-        for (const [key,value] of Object.entries(all)) {
-          if (!key.startsWith(node.id+'::')) next[key]=value;
-        }
-        return {...next,...patch};
-      });
-
-      const done={};
-      for (const item of plan) done[node.id+'::'+item.sectionId]=false;
-      setContextImageLoading(all => ({...all,...done}));
-    } finally {
-      setContextImageLoading(all => ({...all,[node.id+'::__plan']:false}));
-    }
   }
 
   function sectionChatKey(node,section) {
@@ -1369,31 +1287,12 @@ export default function Home() {
           content={content}
           renderSectionFooter={mode === 'exhaustive' ? (section,index) => {
             const key=sectionChatKey(node,section);
-            const imageKey=contextImageKey(node,section);
-            const image=contextImages[imageKey];
-            const imageLoading=!!contextImageLoading[imageKey];
             const open=!!sectionChatOpen[key];
             const messages=sectionChats[key] || [];
             const loading=sectionChatLoading === key;
             const error=sectionChatErrors[key];
 
             return <>
-              {image && <figure className={'context-visual visual-'+(image.visualType || 'place')}>
-                <a href={image.sourceUrl} target="_blank" rel="noreferrer" className="context-visual-image">
-                  <img src={image.imageUrl} alt={image.description || image.title || section.title} loading="lazy"/>
-                </a>
-                <figcaption>
-                  <div>
-                    <small className="visual-type-label">{String(image.visualType || 'visual').toUpperCase()}</small>
-                    <strong>{image.reason || image.description || image.title}</strong>
-                    <span>{[image.title,image.artist,image.license].filter(Boolean).join(' · ')}</span>
-                  </div>
-                  <a href={image.sourceUrl} target="_blank" rel="noreferrer">{image.provider || 'Source'} ↗</a>
-                </figcaption>
-              </figure>}
-
-              {imageLoading && <div className="context-visual-loading">Finding a relevant historical or contextual image…</div>}
-
               <div className="section-chat-wrap">
                 <button className={'section-chat-toggle '+(open ? 'open' : '')} onClick={() => toggleSectionChat(node,section)}>
                   <span>{open ? '−' : '+'}</span>
