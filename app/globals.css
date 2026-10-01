@@ -964,3 +964,25 @@ a{color:var(--gold2)}
     max-height: 380px;
   }
 }
+
+.visual-type-label {
+  display:inline-block;
+  width:max-content;
+  margin-bottom:3px;
+  color:var(--gold);
+  font-size:9px;
+  letter-spacing:.14em;
+}
+.context-visual.visual-map .context-visual-image img {
+  object-fit:contain;
+}
+.context-visual.visual-person {
+  max-width:720px;
+}
+.context-visual.visual-person .context-visual-image {
+  max-height:620px;
+}
+.context-visual.visual-person .context-visual-image img {
+  max-height:620px;
+  object-fit:contain;
+}
