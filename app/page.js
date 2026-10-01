@@ -459,12 +459,12 @@ export default function Home() {
     </div>;
   }
 
-  async function generateSimpleExplanation(node,mode) {
+  async function generateSimpleExplanation(node,mode,force=false) {
     if (!node || simpleLoading) return;
     const key=node.id+'::'+mode;
     setTopicTab(mode);
     setSimpleErrors(all => ({...all,[key]:null}));
-    if (simpleContent[key]) return;
+    if (!force && simpleContent[key]) return;
 
     setSimpleLoading(key);
     try {
@@ -1342,7 +1342,7 @@ export default function Home() {
             delete next[key];
             return next;
           });
-          setTimeout(() => generateSimpleExplanation(node,mode),0);
+          setTimeout(() => generateSimpleExplanation(node,mode,true),0);
         }}>Regenerate</button>
       </header>
       <div className="simple-explanation-copy">
