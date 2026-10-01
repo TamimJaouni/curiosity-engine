@@ -1,8 +1,8 @@
 export async function POST(request) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.DEEPSEEK_API_KEY;
   if (!apiKey) {
     return Response.json(
-      {error:'AI_NOT_CONFIGURED',message:'OPENAI_API_KEY is not configured on the server.'},
+      {error:'AI_NOT_CONFIGURED',message:'DEEPSEEK_API_KEY is not configured on the server.'},
       {status:503}
     );
   }
@@ -50,7 +50,7 @@ Requirements:
 - Distinguish well-established claims from serious debate and speculation through precise wording.
 - For philosophy, present major competing positions fairly.
 - For political subjects, stay neutral and descriptive. Do not endorse actors, parties, ideologies, policies, or political choices.
-- For current, time-sensitive, or political factual claims that require present-day verification, use web search before stating them.
+- For current or time-sensitive claims that require present-day verification, do not present unverified recent details as fact. Focus on established background and explicitly flag where current verification is needed.
 - Avoid filler, motivational language, and generic opening paragraphs.`;
 
   const input = `Explain this curriculum node.
@@ -59,9 +59,9 @@ Field: ${field}
 Path: ${path.join(' → ')}
 Node: ${title}`;
 
-  const model = process.env.OPENAI_EXPLAIN_MODEL || 'gpt-5.6-luna';
+  const model = process.env.DEEPSEEK_EXPLAIN_MODEL || 'deepseek-flash';
 
-  const openaiResponse = await fetch('https://api.openai.com/v1/responses', {
+  const deepseekResponse = await fetch('https://api.deepseek.com/chat/completions', {
     method:'POST',
     headers:{
       'Authorization':`Bearer ${apiKey}`,
@@ -69,42 +69,26 @@ Node: ${title}`;
     },
     body:JSON.stringify({
       model,
-      reasoning:{effort:'low'},
-      tools:[{type:'web_search'}],
-      instructions,
-      input,
-      max_output_tokens:1800
+      messages:[
+        {role:'system',content:instructions},
+        {role:'user',content:input}
+      ],
+      response_format:{type:'json_object'},
+      max_tokens:1800
     })
   });
 
-  const data = await openaiResponse.json();
+  const data = await deepseekResponse.json();
 
-  if (!openaiResponse.ok) {
+  if (!deepseekResponse.ok) {
     return Response.json(
-      {error:'OPENAI_ERROR',message:data?.error?.message || 'Explanation generation failed.'},
-      {status:openaiResponse.status}
+      {error:'DEEPSEEK_ERROR',message:data?.error?.message || 'Explanation generation failed.'},
+      {status:deepseekResponse.status}
     );
   }
 
-  const textParts = [];
-  const sources = new Map();
-
-  for (const item of data?.output || []) {
-    if (item?.type !== 'message') continue;
-    for (const content of item?.content || []) {
-      if (content?.type === 'output_text' && content?.text) {
-        textParts.push(content.text);
-        for (const annotation of content.annotations || []) {
-          const url = annotation?.url || annotation?.url_citation?.url;
-          const sourceTitle = annotation?.title || annotation?.url_citation?.title || url;
-          if (url) sources.set(url,{title:sourceTitle,url});
-        }
-      }
-    }
-  }
-
-  let raw = textParts.join('\n').trim();
-  raw = raw.replace(/^\`\`\`(?:json)?\s*/i,'').replace(/\s*\`\`\`$/,'').trim();
+  let raw = String(data?.choices?.[0]?.message?.content || '').trim();
+  raw = raw.replace(/^\`\`\`(?:json)?\\s*/i,'').replace(/\\s*\`\`\`$/,'').trim();
 
   let explanation;
   try {
@@ -126,8 +110,9 @@ Node: ${title}`;
 
   return Response.json({
     explanation:Object.fromEntries(required.map(key => [key,explanation[key].trim()])),
-    sources:[...sources.values()].slice(0,8),
+    sources:[],
     model,
-    prompt_version:'explain_v1'
+    provider:'deepseek',
+    prompt_version:'explain_v2'
   });
 }
