@@ -832,3 +832,60 @@ a{color:var(--gold2)}
     width: 100%;
   }
 }
+
+
+/* Clearer visual separation between learner questions and DeepSeek answers */
+.section-chat-history {
+  padding: 14px;
+  gap: 14px;
+}
+.section-chat-message {
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 12px;
+  padding: 13px 15px;
+}
+.section-chat-message + .section-chat-message {
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+.section-chat-message.user {
+  width: fit-content;
+  max-width: 78%;
+  margin-left: auto;
+  background: rgba(217,168,94,.10);
+  border-color: rgba(217,168,94,.28);
+  border-radius: 12px 12px 4px 12px;
+}
+.section-chat-message.assistant {
+  max-width: 92%;
+  margin-right: auto;
+  background: rgba(99,168,155,.045);
+  border-color: rgba(99,168,155,.18);
+  border-left: 3px solid rgba(99,168,155,.55);
+  border-radius: 12px 12px 12px 4px;
+}
+.section-chat-message.user small {
+  color: var(--gold);
+  text-align: right;
+}
+.section-chat-message.assistant small {
+  color: var(--teal);
+}
+.section-chat-message.user > p {
+  font-weight: 600;
+}
+.section-chat-message.assistant > .rich-explanation {
+  color: var(--text);
+}
+.section-chat-compose {
+  position: sticky;
+  bottom: 0;
+  background: #0f141b;
+  border-top: 1px solid rgba(255,255,255,.07);
+}
+
+@media (max-width:640px) {
+  .section-chat-message.user,
+  .section-chat-message.assistant {
+    max-width: 100%;
+  }
+}
