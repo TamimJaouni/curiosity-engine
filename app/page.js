@@ -1333,7 +1333,18 @@ export default function Home() {
     if (!content) return <div className="panel empty-panel"><span>{label}</span><h3>{mode === 'short' ? 'Understand the essentials.' : 'Build the full picture.'}</h3><p>{mode === 'short' ? 'A compact explanation of the core idea, intuition, mechanism, importance and boundaries.' : 'A deep explanation covering foundations, mechanisms, evidence, alternatives, limitations and uncertainty.'}</p><button className="gold-button" onClick={() => generateSimpleExplanation(node,mode)}>Generate</button></div>;
 
     return <article className={'simple-explanation '+(mode === 'exhaustive' ? 'exhaustive' : 'short')}>
-      <header><small>{label}</small><h2>{node.title}</h2></header>
+      <header className="simple-explanation-header">
+        <div><small>{label}</small><h2>{node.title}</h2></div>
+        <button className="explanation-regenerate" onClick={() => {
+          const key=node.id+'::'+mode;
+          setSimpleContent(all => {
+            const next={...all};
+            delete next[key];
+            return next;
+          });
+          setTimeout(() => generateSimpleExplanation(node,mode),0);
+        }}>Regenerate</button>
+      </header>
       <div className="simple-explanation-copy">
         <RichExplanation
           content={content}
