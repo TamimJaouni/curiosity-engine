@@ -64,6 +64,10 @@ export default function Home() {
   const [explainLoading,setExplainLoading] = useState(null);
   const [explainErrors,setExplainErrors] = useState({});
 
+  const [simpleContent,setSimpleContent] = useState({});
+  const [simpleLoading,setSimpleLoading] = useState('');
+  const [simpleErrors,setSimpleErrors] = useState({});
+
   const [deepDives,setDeepDives] = useState({});
   const [deepLoading,setDeepLoading] = useState(null);
   const [deepErrors,setDeepErrors] = useState({});
@@ -371,6 +375,36 @@ export default function Home() {
       </div>
       {open && children.map(child => renderExplorerNode(child,depth+1))}
     </div>;
+  }
+
+  async function generateSimpleExplanation(node,mode) {
+    if (!node || simpleLoading) return;
+    const key=node.id+'::'+mode;
+    setTopicTab(mode);
+    setSimpleErrors(all => ({...all,[key]:null}));
+    if (simpleContent[key]) return;
+
+    setSimpleLoading(key);
+    try {
+      const response=await fetch('/api/simple-learn',{
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body:JSON.stringify({
+          mode,
+          title:node.title,
+          field:node.primary_field || 'General',
+          path:pathFor(node).map(x => x.title),
+          context:generationContext(node)
+        })
+      });
+      const result=await response.json();
+      if (!response.ok) throw new Error(result?.message || 'Could not generate the explanation.');
+      setSimpleContent(all => ({...all,[key]:result.content}));
+    } catch(error) {
+      setSimpleErrors(all => ({...all,[key]:error.message}));
+    } finally {
+      setSimpleLoading('');
+    }
   }
 
   async function explainTopic(node) {
@@ -1024,36 +1058,22 @@ export default function Home() {
         <div className="topic-hero-copy">
           <span className="topic-kicker">{node.primary_field} · {String(node.node_type || 'topic').replaceAll('_',' ')}</span>
           <h1>{node.title}</h1>
-          <p>{node.description || 'Explore this idea through its place in the curriculum, its deeper questions and its connections to the wider knowledge map.'}</p>
-          <div className="topic-actions">
-            <button className="gold-button" onClick={() => explainTopic(node)}>{explainLoading === node.id ? 'Explaining…' : 'Explain'}</button>
-            <button onClick={() => deepDiveTopic(node)}>{deepLoading === node.id ? 'Going deeper…' : 'Explore Deeper'}</button>
-            <button onClick={() => startSocratic(node)}>Socratic Mode</button>
-            <button onClick={() => setTopicTab('compare')}>Compare</button>
-            <button onClick={() => fullEssayTopic(node)}>{essayLoading === node.id ? 'Writing…' : 'Full Essay'}</button>
-            <button onClick={() => toggleBookmark(node)}>{bookmarks.some(x => x.item_type === 'essay_node' && x.item_id === node.id) ? 'Bookmarked' : 'Bookmark'}</button>
-            <button onClick={() => addToReview(node)} disabled={reviewBusy}>{reviewItems.some(x => x.item_type === 'essay_node' && x.item_id === node.id) ? 'In Review' : 'Add to Review'}</button>
+          <p>{node.description || 'Choose a short explanation for the essentials or an exhaustive explanation for the full picture.'}</p>
+          <div className="topic-actions simple-topic-actions">
+            <button className="gold-button" onClick={() => generateSimpleExplanation(node,'short')}>{simpleLoading === node.id+'::short' ? 'Explaining…' : 'Short Explanation'}</button>
+            <button onClick={() => generateSimpleExplanation(node,'exhaustive')}>{simpleLoading === node.id+'::exhaustive' ? 'Building…' : 'Exhaustive Explanation'}</button>
           </div>
         </div>
       </section>
 
-      <nav className="topic-tabs">
+      <nav className="topic-tabs simple-topic-tabs">
         {[
           ['overview','Overview'],
-          ['explain','Explain'],
-          ['deeper','Explore Deeper'],
-          ['socratic','Socratic Mode'],
-          ['graph','Knowledge Graph'],
-          ['questions','Questions'],
-          ['related','Related Concepts'],
-          ['compare','Compare'],
-          ['essay','Full Essay']
+          ['short','Short Explanation'],
+          ['exhaustive','Exhaustive Explanation']
         ].map(([id,label]) => <button key={id} className={topicTab === id ? 'active' : ''} onClick={() => {
           setTopicTab(id);
-          if (id === 'explain' && !explanations[node.id]) explainTopic(node);
-          if (id === 'deeper' && !deepDives[node.id]) deepDiveTopic(node);
-          if (id === 'socratic' && !socraticByNode[node.id]) startSocratic(node);
-          if (id === 'essay' && !fullEssays[node.id]) fullEssayTopic(node);
+          if ((id === 'short' || id === 'exhaustive') && !simpleContent[node.id+'::'+id]) generateSimpleExplanation(node,id);
         }}>{label}</button>)}
       </nav>
     </>;
@@ -1097,6 +1117,25 @@ export default function Home() {
         </section>
       </div>
     </div>;
+  }
+
+  function SimpleExplanationView({node,mode}) {
+    const key=node.id+'::'+mode;
+    const content=simpleContent[key];
+    const error=simpleErrors[key];
+    const loading=simpleLoading === key;
+    const label=mode === 'short' ? 'SHORT EXPLANATION' : 'EXHAUSTIVE EXPLANATION';
+
+    if (loading) return <div className="loading-panel"><div className="loader-ring"></div><h3>{mode === 'short' ? 'Building the short explanation…' : 'Building the exhaustive explanation…'}</h3><p>{mode === 'short' ? 'Focusing on the core mental model.' : 'Going through the subject from foundations to debate and uncertainty.'}</p></div>;
+
+    if (error) return <div className="panel empty-panel"><span>{label}</span><h3>Generation failed.</h3><p>{error}</p><button className="gold-button" onClick={() => generateSimpleExplanation(node,mode)}>Try Again</button></div>;
+
+    if (!content) return <div className="panel empty-panel"><span>{label}</span><h3>{mode === 'short' ? 'Understand the essentials.' : 'Build the full picture.'}</h3><p>{mode === 'short' ? 'A compact explanation of the core idea, intuition, mechanism, importance and boundaries.' : 'A deep explanation covering foundations, mechanisms, evidence, alternatives, limitations and uncertainty.'}</p><button className="gold-button" onClick={() => generateSimpleExplanation(node,mode)}>Generate</button></div>;
+
+    return <article className={'simple-explanation '+(mode === 'exhaustive' ? 'exhaustive' : 'short')}>
+      <header><small>{label}</small><h2>{node.title}</h2></header>
+      <div className="simple-explanation-copy">{content}</div>
+    </article>;
   }
 
   function ExplainView({node}) {
@@ -1324,11 +1363,7 @@ export default function Home() {
 
   const nav=[
     ['home','⌂','Home'],
-    ['explore','⌕','Explore'],
-    ['world','◍','World & Change'],
-    ['learning','▱','My Learning'],
-    ['bookmarks','▮','Bookmarks'],
-    ['settings','⚙','Settings']
+    ['explore','⌕','Explore']
   ];
 
   return <main className="ios-app">
@@ -1383,14 +1418,6 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="daily-concepts-section">
-            <div className="section-row"><div><small>THREE CONCEPTS OF THE DAY</small><h2>Small ideas, every day.</h2></div><button onClick={() => setScreen('learning')}>Open My Learning →</button></div>
-            <div className="learning-grid">
-              {dailyConcepts.map((concept,i) => <article className="learning-card" key={concept.id}>
-                <span>{String(i+1).padStart(2,'0')}</span><small>{concept.field}</small><h3>{concept.name}</h3><p>{concept.short}</p>
-              </article>)}
-            </div>
-          </section>
         </div>}
 
         {screen === 'explore' && <div className="explore-page">
@@ -1416,14 +1443,8 @@ export default function Home() {
         {screen === 'topic' && selectedTopic && <div className="topic-page">
           <TopicHeader node={selectedTopic}/>
           {topicTab === 'overview' && <TopicOverview node={selectedTopic}/>}
-          {topicTab === 'explain' && <ExplainView node={selectedTopic}/>}
-          {topicTab === 'deeper' && <DeepDiveView node={selectedTopic}/>}
-          {topicTab === 'socratic' && <SocraticView node={selectedTopic}/>}
-          {topicTab === 'questions' && <QuestionsView node={selectedTopic}/>}
-          {topicTab === 'related' && <RelatedView node={selectedTopic}/>}
-          {topicTab === 'graph' && <GraphView node={selectedTopic}/>}
-          {topicTab === 'compare' && <CompareView node={selectedTopic}/>}
-          {topicTab === 'essay' && <FullEssayView node={selectedTopic}/>}
+          {topicTab === 'short' && <SimpleExplanationView node={selectedTopic} mode="short"/>}
+          {topicTab === 'exhaustive' && <SimpleExplanationView node={selectedTopic} mode="exhaustive"/>}
         </div>}
 
         {screen === 'world' && <div className="simple-page world-page">
