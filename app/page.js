@@ -204,6 +204,20 @@ export default function Home() {
     }
   },[session?.user?.id]);
 
+  useEffect(() => {
+    if (topicTab !== 'exhaustive' || !selectedTopicId) return;
+    const node=essayNodes.find(item => item.id === selectedTopicId);
+    const content=simpleContent[selectedTopicId+'::exhaustive'];
+    if (!node || !content) return;
+
+    const plan=visualPlanFor(node,content);
+    const missing=plan.some(item => {
+      const key=node.id+'::'+item.id;
+      return !contextImages[key] && !contextImageLoading[key];
+    });
+    if (missing) loadContextImages(node,content);
+  },[topicTab,selectedTopicId,simpleContent,essayNodes]);
+
   async function loadCatalog() {
     setCatalogLoading(true);
     const [nodes,questions,kNodes,edges,links,conceptResult,briefResult,longArcResult] = await Promise.all([
@@ -499,21 +513,27 @@ export default function Home() {
     if (!sections.length) return [];
 
     const path=pathFor(node);
-    const parent=path.length > 1 ? path[path.length-2]?.title : '';
-    const subject=[parent,node.title].filter(Boolean).filter((value,index,array) => array.indexOf(value) === index).join(' ');
+    const parent=path.length > 1 ? String(path[path.length-2]?.title || '').trim() : '';
+    const nodeTitle=String(node.title || '').trim();
+    const baseSubject=parent && parent.length <= 70 ? parent : nodeTitle.split(':')[0].trim();
+    const subject=baseSubject || nodeTitle;
     const chosen=[];
 
     function add(section,query) {
       if (!section || chosen.some(item => item.id === section.id)) return;
-      chosen.push({id:section.id,query});
+      chosen.push({
+        id:section.id,
+        query,
+        fallbackQuery:subject
+      });
     }
 
-    const figures=sections.find(section => /figure|people|thinker|leader|scientist|founder|actor|ruler|philosopher/i.test(section.title));
-    const spatial=sections.find(section => /map|geograph|territor|empire|expansion|border|region|world before|context|origin/i.test(section.title));
-    const concrete=sections.find(section => /event|case|experiment|example|development|spread|war|revolt|revolution|turning point/i.test(section.title));
+    const figures=sections.find(section => /figure|people|thinker|leader|scientist|founder|actor|ruler|philosopher|important people/i.test(section.title));
+    const spatial=sections.find(section => /map|geograph|territor|empire|expansion|border|region|world before|context|origin|setting/i.test(section.title));
+    const concrete=sections.find(section => /event|case|experiment|example|development|spread|war|revolt|revolution|turning point|battle|treaty/i.test(section.title));
 
-    add(spatial,subject+' '+spatial?.title+' map');
-    add(figures,subject+' '+figures?.title+' portrait');
+    add(spatial,subject+' map');
+    add(figures,subject+' portrait');
     add(concrete,subject+' '+concrete?.title);
 
     for (const section of sections) {
