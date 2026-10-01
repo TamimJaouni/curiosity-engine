@@ -42,6 +42,42 @@ function MiniIcon({children}) {
   return <span className="mini-icon">{children}</span>;
 }
 
+function renderInlineMarkdown(text,keyPrefix='inline') {
+  const parts=String(text || '').split(/(\*\*[^*]+\*\*|\`[^\`]+\`)/g).filter(Boolean);
+  return parts.map((part,i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={keyPrefix+'-b-'+i}>{part.slice(2,-2)}</strong>;
+    }
+    if (part.startsWith('`') && part.endsWith('`')) {
+      return <code key={keyPrefix+'-c-'+i}>{part.slice(1,-1)}</code>;
+    }
+    return <span key={keyPrefix+'-t-'+i}>{part}</span>;
+  });
+}
+
+function RichExplanation({content}) {
+  const lines=String(content || '').replace(/\r/g,'').split('\n');
+  return <div className="rich-explanation">
+    {lines.map((raw,i) => {
+      const line=raw.trim();
+      if (!line) return <div className="rich-space" key={'space-'+i}></div>;
+      if (/^---+$/.test(line)) return <hr key={'hr-'+i}/>;
+      if (line.startsWith('### ')) return <h3 key={'h3-'+i}>{renderInlineMarkdown(line.slice(4),'h3-'+i)}</h3>;
+      if (line.startsWith('## ')) return <h2 key={'h2-'+i}>{renderInlineMarkdown(line.slice(3),'h2-'+i)}</h2>;
+      if (line.startsWith('# ')) return <h1 key={'h1-'+i}>{renderInlineMarkdown(line.slice(2),'h1-'+i)}</h1>;
+      if (line.startsWith('> ')) return <blockquote key={'q-'+i}>{renderInlineMarkdown(line.slice(2),'q-'+i)}</blockquote>;
+
+      const bullet=line.match(/^[-*]\s+(.+)$/);
+      if (bullet) return <div className="rich-list-row" key={'b-'+i}><span>•</span><p>{renderInlineMarkdown(bullet[1],'b-'+i)}</p></div>;
+
+      const numbered=line.match(/^(\d+)\.\s+(.+)$/);
+      if (numbered) return <div className="rich-list-row numbered" key={'n-'+i}><span>{numbered[1]}.</span><p>{renderInlineMarkdown(numbered[2],'n-'+i)}</p></div>;
+
+      return <p key={'p-'+i}>{renderInlineMarkdown(line,'p-'+i)}</p>;
+    })}
+  </div>;
+}
+
 export default function Home() {
   const [screen,setScreen] = useState('home');
   const [essayNodes,setEssayNodes] = useState([]);
@@ -1134,7 +1170,7 @@ export default function Home() {
 
     return <article className={'simple-explanation '+(mode === 'exhaustive' ? 'exhaustive' : 'short')}>
       <header><small>{label}</small><h2>{node.title}</h2></header>
-      <div className="simple-explanation-copy">{content}</div>
+      <div className="simple-explanation-copy"><RichExplanation content={content}/></div>
     </article>;
   }
 
