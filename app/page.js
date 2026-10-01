@@ -723,7 +723,15 @@ export default function Home() {
       bookmarks_added:saved.length,
       review_items_reviewed:reviewed.length,
       fields,
-      recent_topics:topics.slice(0,20).map(x => x.title)
+      recent_topics:topics.slice(0,20).map(x => x.title),
+      review_performance:reviewed.slice(0,30).map(item => ({
+        title:item.title,
+        field:item.primary_field,
+        state:item.state,
+        times_reviewed:item.times_reviewed,
+        times_got_it:item.times_got_it,
+        interval_days:item.interval_days
+      }))
     };
   }
 
@@ -790,13 +798,13 @@ export default function Home() {
     return saved;
   }
 
-  async function startSocratic(node) {
+  async function startSocratic(node,force=false) {
     if (!node || socraticLoading) return;
     setTopicTab('socratic');
     setSocraticErrors(x => ({...x,[node.id]:null}));
-    if (socraticByNode[node.id]?.turns?.length) return;
+    if (!force && socraticByNode[node.id]?.turns?.length) return;
 
-    const saved=await loadSavedSocratic(node);
+    const saved=force ? null : await loadSavedSocratic(node);
     if (saved) return;
 
     setSocraticLoading(node.id);
@@ -970,7 +978,7 @@ export default function Home() {
     });
     setSocraticAnswers(x => ({...x,[node.id]:''}));
     setSocraticHints(x => ({...x,[node.id]:false}));
-    setTimeout(() => startSocratic(node),0);
+    await startSocratic(node,true);
   }
 
   async function submitAuth(e) {
@@ -1465,7 +1473,7 @@ export default function Home() {
           <section className="learning-section">
             <div className="panel-title"><span>Monthly Intellectual Review</span><small>SYNTHESIS</small></div>
             <div className="panel monthly-review-card">
-              <div className="monthly-metrics">{Object.entries(monthlyMetrics()).filter(([k]) => !['fields','recent_topics'].includes(k)).map(([k,v]) => <div key={k}><small>{k.replaceAll('_',' ')}</small><strong>{v}</strong></div>)}</div>
+              <div className="monthly-metrics">{Object.entries(monthlyMetrics()).filter(([k]) => !['fields','recent_topics','review_performance'].includes(k)).map(([k,v]) => <div key={k}><small>{k.replaceAll('_',' ')}</small><strong>{v}</strong></div>)}</div>
               {monthlyReview ? <div className="monthly-copy">
                 <h3>This month's synthesis</h3><p>{monthlyReview.summary}</p>
                 {['strongest_threads','connections','gaps','sticking','needs_another_pass','next_month'].map(key => Array.isArray(monthlyReview[key]) && <div key={key}><small>{key.replaceAll('_',' ').toUpperCase()}</small>{monthlyReview[key].map((x,i)=><p key={i}>{x}</p>)}</div>)}
