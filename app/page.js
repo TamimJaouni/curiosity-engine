@@ -55,6 +55,7 @@ export default function Home() {
   const [search,setSearch]=useState('');
   const [searchOpen,setSearchOpen]=useState(false);
   const [zoom,setZoom]=useState(100);
+  const [viewMode,setViewMode]=useState('overview');
   const [scope,setScope]=useState('concept');
   const [copied,setCopied]=useState('');
 
@@ -81,6 +82,7 @@ export default function Home() {
       setSelectedFieldId(roots[0].id);
       setSelectedNodeId(roots[0].id);
       setExpanded(new Set([roots[0].id]));
+      setViewMode('overview');
     }
 
     setLoading(false);
@@ -131,6 +133,23 @@ export default function Home() {
 
   const selectedPath=selectedNode ? pathFor(selectedNode) : [];
   const selectedPathIds=new Set(selectedPath.map(node => node.id));
+
+  const focusIds=useMemo(() => {
+    const ids=new Set();
+    if (!selectedNodeId) return ids;
+
+    const path=pathFor(selectedNodeId);
+    for (const node of path) ids.add(node.id);
+
+    const stack=[...(childrenByParent.get(selectedNodeId) || [])];
+    while (stack.length) {
+      const node=stack.pop();
+      ids.add(node.id);
+      stack.push(...(childrenByParent.get(node.id) || []));
+    }
+
+    return ids;
+  },[selectedNodeId,nodeById,childrenByParent]);
 
   function descendantsOf(id) {
     const out=[];
@@ -233,6 +252,7 @@ export default function Home() {
     setSelectedFieldId(id);
     setSelectedNodeId(id);
     setScope('concept');
+    setViewMode('overview');
     setExpanded(new Set([id]));
     setSearch('');
     setSearchOpen(false);
@@ -252,29 +272,39 @@ export default function Home() {
     });
   }
 
-  function expandToDepth(maxDepth) {
+  function showOverview() {
     if (!selectedFieldId) return;
-    const next=new Set();
-
-    function walk(id,depth) {
-      if (depth <= maxDepth) next.add(id);
-      if (depth >= maxDepth) return;
-      for (const child of childrenByParent.get(id) || []) walk(child.id,depth+1);
-    }
-
-    walk(selectedFieldId,0);
-
-    for (const node of selectedPath) next.add(node.id);
-    setExpanded(next);
+    setViewMode('overview');
+    setExpanded(new Set([selectedFieldId]));
   }
 
-  function expandAll() {
+  function showFocus(node=selectedNode) {
+    if (!selectedFieldId || !node) return;
+    setViewMode('focus');
+
+    const next=new Set();
+    for (const pathNode of pathFor(node)) next.add(pathNode.id);
+    next.add(node.id);
+    for (const descendant of descendantsOf(node.id)) next.add(descendant.id);
+    setExpanded(next);
+
+    window.setTimeout(() => {
+      document.getElementById('atlas-node-'+node.id)?.scrollIntoView({
+        behavior:'smooth',
+        block:'center',
+        inline:'center'
+      });
+    },80);
+  }
+
+  function showFull() {
     if (!selectedFieldId) return;
+    setViewMode('full');
     const ids=[selectedFieldId,...descendantsOf(selectedFieldId).map(node => node.id)];
     setExpanded(new Set(ids));
   }
 
-  function collapseAll() {
+  function collapseToPath() {
     if (!selectedFieldId) return;
     const next=new Set([selectedFieldId]);
     for (const node of selectedPath) next.add(node.id);
@@ -397,29 +427,36 @@ After the initial explanation, let me continue naturally with follow-up question
     const isOpen=expanded.has(node.id);
     const isSelected=selectedNodeId === node.id;
     const onPath=selectedPathIds.has(node.id);
+    const isDimmed=viewMode === 'focus' && !focusIds.has(node.id);
 
-    return <div className="atlas-tree-node" data-depth={depth}>
+    return <div
+      className={'atlas-tree-node '+(isDimmed ? 'dimmed' : '')}
+      data-depth={depth}
+    >
       <div
         id={'atlas-node-'+node.id}
         className={'atlas-tree-row '+(isSelected ? 'selected ' : '')+(onPath ? 'on-path ' : '')}
         onClick={() => focusNode(node.id,{scroll:false})}
       >
-        <button
-          className={'atlas-caret '+(!hasChildren ? 'empty' : '')}
-          onClick={event => hasChildren && toggleNode(node.id,event)}
-          aria-label={hasChildren ? (isOpen ? 'Collapse topic' : 'Expand topic') : 'No child topics'}
-        >
-          {hasChildren ? (isOpen ? '−' : '+') : '·'}
-        </button>
-
-        <span className="atlas-node-dot"></span>
-
-        <div className="atlas-node-copy">
+        <div className="atlas-node-topline">
+          <span className="atlas-node-dot"></span>
           <span className="atlas-node-title">{node.title}</span>
-          {depth === 0 && <span className="atlas-node-subtitle">{metaFor(node.title).short}</span>}
         </div>
 
-        {hasChildren && <span className="atlas-child-count">{childNodes.length}</span>}
+        {depth === 0 && <span className="atlas-node-subtitle">{metaFor(node.title).short}</span>}
+
+        <div className="atlas-node-bottomline">
+          {hasChildren
+            ? <button
+                className="atlas-caret"
+                onClick={event => toggleNode(node.id,event)}
+                aria-label={isOpen ? 'Collapse topic' : 'Expand topic'}
+              >
+                {isOpen ? '−' : '+'}
+                <span>{childNodes.length}</span>
+              </button>
+            : <span className="atlas-leaf-label">LEAF</span>}
+        </div>
       </div>
 
       {hasChildren && isOpen && <div className="atlas-tree-children">
@@ -524,20 +561,20 @@ After the initial explanation, let me continue naturally with follow-up question
           <div className="atlas-map-title">
             <span>{metaFor(selectedField?.title).icon}</span>
             <div>
-              <small>KNOWLEDGE TREE</small>
+              <small>KNOWLEDGE MAP</small>
               <strong>{selectedField?.title || 'Knowledge'}</strong>
             </div>
           </div>
 
           <div className="atlas-view-controls">
-            <button onClick={() => expandToDepth(1)}>Overview</button>
-            <button onClick={() => expandToDepth(2)}>Context</button>
-            <button onClick={expandAll}>Expand all</button>
-            <button onClick={collapseAll}>Collapse</button>
+            <button className={viewMode === 'overview' ? 'active' : ''} onClick={showOverview}>Overview</button>
+            <button className={viewMode === 'focus' ? 'active' : ''} onClick={() => showFocus()}>Focus</button>
+            <button className={viewMode === 'full' ? 'active' : ''} onClick={showFull}>Full</button>
+            <button onClick={collapseToPath}>Collapse</button>
             <span className="atlas-divider"></span>
-            <button className="zoom-button" onClick={() => setZoom(value => clamp(value-10,70,140))}>−</button>
+            <button className="zoom-button" onClick={() => setZoom(value => clamp(value-10,60,140))}>−</button>
             <span className="zoom-label">{zoom}%</span>
-            <button className="zoom-button" onClick={() => setZoom(value => clamp(value+10,70,140))}>+</button>
+            <button className="zoom-button" onClick={() => setZoom(value => clamp(value+10,60,140))}>+</button>
           </div>
         </div>
 
@@ -549,7 +586,7 @@ After the initial explanation, let me continue naturally with follow-up question
         </div>
 
         <div className="atlas-tree-scroll" onClick={() => setSearchOpen(false)}>
-          <div className="atlas-tree-stage" style={{'--atlas-zoom':zoom/100}}>
+          <div className={'atlas-tree-stage mode-'+viewMode} style={{'--atlas-zoom':zoom/100}}>
             {selectedField ? <TreeNode node={selectedField}/> : <div className="atlas-empty">Select a field.</div>}
           </div>
         </div>
@@ -588,6 +625,12 @@ After the initial explanation, let me continue naturally with follow-up question
               <strong>{descendantCount(selectedNode.id)}</strong>
             </div>
           </div>
+
+          {children.length > 0 && <button className="atlas-expand-branch" onClick={() => showFocus(selectedNode)}>
+            <span>EXPAND BRANCH</span>
+            <strong>Show everything inside {selectedNode.title}</strong>
+            <i>→</i>
+          </button>}
 
           {children.length > 0 && <div className="atlas-related-block">
             <div className="atlas-panel-label">INSIDE THIS TOPIC</div>
