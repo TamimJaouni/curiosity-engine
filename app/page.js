@@ -262,12 +262,36 @@ export default function Home() {
     },20);
   }
 
-  function toggleNode(id,event) {
-    event?.stopPropagation();
+  function handleNodeClick(node) {
+    if (!node) return;
+
+    const childNodes=childrenByParent.get(node.id) || [];
+    const hasChildren=childNodes.length > 0;
+    const sameNode=selectedNodeId === node.id;
+    const isOpen=expanded.has(node.id);
+
+    const path=pathFor(node);
+    const field=path[0];
+    if (field) setSelectedFieldId(field.id);
+
+    setSelectedNodeId(node.id);
+    setScope('concept');
+    setSearch('');
+    setSearchOpen(false);
+
+    if (!hasChildren) return;
+
     setExpanded(previous => {
       const next=new Set(previous);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
+
+      if (sameNode && isOpen) {
+        next.delete(node.id);
+        for (const descendant of descendantsOf(node.id)) next.delete(descendant.id);
+        return next;
+      }
+
+      for (const pathNode of path) next.add(pathNode.id);
+      next.add(node.id);
       return next;
     });
   }
@@ -433,31 +457,18 @@ After the initial explanation, let me continue naturally with follow-up question
       className={'atlas-tree-node '+(isDimmed ? 'dimmed' : '')}
       data-depth={depth}
     >
-      <div
+      <button
         id={'atlas-node-'+node.id}
-        className={'atlas-tree-row '+(isSelected ? 'selected ' : '')+(onPath ? 'on-path ' : '')}
-        onClick={() => focusNode(node.id,{scroll:false})}
+        className={'atlas-tree-row '+(isSelected ? 'selected ' : '')+(onPath ? 'on-path ' : '')+(hasChildren ? 'branch ' : 'leaf ')}
+        onClick={() => handleNodeClick(node)}
+        aria-expanded={hasChildren ? isOpen : undefined}
       >
-        <div className="atlas-node-topline">
-          <span className="atlas-node-dot"></span>
-          <span className="atlas-node-title">{node.title}</span>
-        </div>
-
-        {depth === 0 && <span className="atlas-node-subtitle">{metaFor(node.title).short}</span>}
-
-        <div className="atlas-node-bottomline">
-          {hasChildren
-            ? <button
-                className="atlas-caret"
-                onClick={event => toggleNode(node.id,event)}
-                aria-label={isOpen ? 'Collapse topic' : 'Expand topic'}
-              >
-                {isOpen ? '−' : '+'}
-                <span>{childNodes.length}</span>
-              </button>
-            : <span className="atlas-leaf-label">LEAF</span>}
-        </div>
-      </div>
+        <span className="atlas-node-state" aria-hidden="true">
+          {hasChildren ? (isOpen ? '−' : '›') : '•'}
+        </span>
+        <span className="atlas-node-title">{node.title}</span>
+        {hasChildren && <span className="atlas-child-count">{childNodes.length}</span>}
+      </button>
 
       {hasChildren && isOpen && <div className="atlas-tree-children">
         {childNodes.map(child => <TreeNode key={child.id} node={child} depth={depth+1}/>)}
@@ -627,8 +638,8 @@ After the initial explanation, let me continue naturally with follow-up question
           </div>
 
           {children.length > 0 && <button className="atlas-expand-branch" onClick={() => showFocus(selectedNode)}>
-            <span>EXPAND BRANCH</span>
-            <strong>Show everything inside {selectedNode.title}</strong>
+            <span>EXPAND ENTIRE BRANCH</span>
+            <strong>Open every descendant of {selectedNode.title}</strong>
             <i>→</i>
           </button>}
 
