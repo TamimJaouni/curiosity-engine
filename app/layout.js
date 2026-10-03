@@ -2,7 +2,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "Intellectual OS",
-  description: "Discover, understand, connect, and remember ideas that matter.",
+  description: "A visual map of what there is to learn. Use the atlas to orient yourself and ChatGPT to study.",
   applicationName: "Intellectual OS"
 };
 
