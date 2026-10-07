@@ -860,6 +860,136 @@ button{cursor:pointer}
   border-bottom-color:#555;
 }
 
+/* ---------- Knowledge graph ---------- */
+
+.atlas-knowledge-block{
+  margin-top:12px;
+  padding:12px 0 2px;
+  border-top:1px solid #222;
+}
+
+.atlas-knowledge-head{
+  display:flex;
+  align-items:start;
+  justify-content:space-between;
+  gap:10px;
+}
+
+.atlas-knowledge-head>div{
+  min-width:0;
+  display:grid;
+  gap:3px;
+}
+
+.atlas-knowledge-head small{
+  color:#666;
+  font-size:7px;
+  letter-spacing:.14em;
+}
+
+.atlas-knowledge-head strong{
+  color:#f0f0ec;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:15px;
+  line-height:1.2;
+  font-weight:400;
+}
+
+.atlas-knowledge-head>span{
+  flex:0 0 auto;
+  padding-top:2px;
+  color:#5d5d59;
+  font-size:7px;
+  white-space:nowrap;
+}
+
+.atlas-knowledge-description{
+  margin:8px 0 0;
+  color:#858581;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:10px;
+  line-height:1.45;
+}
+
+.atlas-knowledge-section{
+  margin-top:12px;
+}
+
+.atlas-location-list,
+.atlas-concept-list{
+  display:grid;
+  gap:0;
+  margin-top:5px;
+}
+
+.atlas-location-list>button,
+.atlas-concept-list>button{
+  width:100%;
+  border:0;
+  border-bottom:1px solid #141414;
+  background:transparent;
+  text-align:left;
+}
+
+.atlas-location-list>button{
+  display:grid;
+  gap:2px;
+  padding:6px 0;
+}
+
+.atlas-location-list>button strong{
+  color:#b7b7b3;
+  font-size:8px;
+  font-weight:560;
+}
+
+.atlas-location-list>button span{
+  color:#5f5f5c;
+  font-size:7px;
+  line-height:1.35;
+}
+
+.atlas-location-list>button:hover strong,
+.atlas-location-list>button:hover span{
+  color:#fff;
+}
+
+.atlas-location-list>small{
+  padding:5px 0 1px;
+  color:#555;
+  font-size:7px;
+}
+
+.atlas-concept-list>button{
+  min-height:27px;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  align-items:center;
+  gap:7px;
+  padding:4px 0;
+}
+
+.atlas-concept-list>button strong{
+  color:#a7a7a3;
+  font-size:8px;
+  font-weight:520;
+}
+
+.atlas-concept-list>button span{
+  color:#555;
+  font-size:6px;
+  text-transform:lowercase;
+  white-space:nowrap;
+}
+
+.atlas-concept-list>button:hover strong{
+  color:#fff;
+}
+
+.atlas-concept-list>button:hover span{
+  color:#999;
+}
+
 /* ---------- Study handoff ---------- */
 
 .atlas-study{
