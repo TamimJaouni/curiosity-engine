@@ -20,11 +20,24 @@ async function fetchAllRows(table, orderColumn='sort_order') {
   let all=[];
 
   while (true) {
-    const {data,error}=await supabase
+    let query=supabase
       .from(table)
       .select('*')
-      .order(orderColumn,{ascending:true})
-      .range(from,from+pageSize-1);
+      .order(orderColumn,{ascending:true});
+
+    // Pagination must use a deterministic total order. Many curriculum rows
+    // share the same sort_order, so ordering only by sort_order can cause the
+    // same row to appear on adjacent pages while another row is skipped.
+    if (table === 'essay_node_knowledge_links') {
+      if (orderColumn !== 'essay_node_id') query=query.order('essay_node_id',{ascending:true});
+      query=query
+        .order('knowledge_node_id',{ascending:true})
+        .order('role',{ascending:true});
+    } else if (orderColumn !== 'id') {
+      query=query.order('id',{ascending:true});
+    }
+
+    const {data,error}=await query.range(from,from+pageSize-1);
 
     if (error) return {data:all,error};
     all=all.concat(data || []);
@@ -32,7 +45,16 @@ async function fetchAllRows(table, orderColumn='sort_order') {
     from+=pageSize;
   }
 
-  return {data:all,error:null};
+  // Defensive dedupe for previously unstable page boundaries or repeated rows.
+  const unique=new Map();
+  for (const row of all) {
+    const key=table === 'essay_node_knowledge_links'
+      ? `${row.essay_node_id}|${row.knowledge_node_id}|${row.role || ''}`
+      : row.id;
+    if (!unique.has(key)) unique.set(key,row);
+  }
+
+  return {data:[...unique.values()],error:null};
 }
 
 function metaFor(title) {
