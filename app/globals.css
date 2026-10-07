@@ -1127,6 +1127,13 @@ button{cursor:pointer}
   padding:26px;
 }
 
+
+/* ---------- Mobile folder explorer ---------- */
+
+.mobile-explorer{
+  display:none;
+}
+
 /* ---------- Responsive ---------- */
 
 @media(max-width:1180px){
@@ -1282,6 +1289,350 @@ button{cursor:pointer}
 
   .atlas-context-grid{
     grid-template-columns:1fr 48px 56px;
+  }
+}
+
+
+@media(max-width:920px){
+  body{
+    overflow:hidden;
+  }
+
+  .atlas-shell{
+    height:100dvh;
+    min-height:100dvh;
+    grid-template-rows:auto minmax(0,1fr);
+  }
+
+  .atlas-workspace{
+    display:none;
+  }
+
+  .mobile-explorer{
+    min-height:0;
+    display:flex;
+    flex-direction:column;
+    overflow:auto;
+    background:#050505;
+    -webkit-overflow-scrolling:touch;
+  }
+
+  .mobile-explorer-inner{
+    width:100%;
+    max-width:720px;
+    margin:0 auto;
+    padding:18px 15px 40px;
+  }
+
+  .mobile-nav-head{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    min-height:36px;
+    margin-bottom:12px;
+  }
+
+  .mobile-back{
+    width:34px;
+    height:34px;
+    flex:0 0 auto;
+    border:1px solid #242424;
+    background:transparent;
+    color:#d7d7d3;
+    font-size:16px;
+  }
+
+  .mobile-back:hover{
+    border-color:#505050;
+    color:#fff;
+  }
+
+  .mobile-root-mark{
+    width:34px;
+    height:34px;
+    display:grid;
+    place-items:center;
+    flex:0 0 auto;
+    border:1px solid #242424;
+    color:#777;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:13px;
+  }
+
+  .mobile-nav-copy{
+    min-width:0;
+    display:grid;
+    gap:2px;
+  }
+
+  .mobile-nav-copy small{
+    color:#61615e;
+    font-size:7px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+  }
+
+  .mobile-nav-copy strong{
+    overflow:hidden;
+    color:#efefeb;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:17px;
+    line-height:1.2;
+    font-weight:400;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+  }
+
+  .mobile-crumbs{
+    display:flex;
+    gap:0;
+    overflow-x:auto;
+    margin:0 -2px 16px;
+    padding:0 2px 8px;
+    border-bottom:1px solid #171717;
+    white-space:nowrap;
+    scrollbar-width:none;
+  }
+
+  .mobile-crumbs::-webkit-scrollbar{
+    display:none;
+  }
+
+  .mobile-crumbs span{
+    display:flex;
+    align-items:center;
+  }
+
+  .mobile-crumbs i{
+    margin:0 6px;
+    color:#3f3f3d;
+    font-style:normal;
+    font-size:8px;
+  }
+
+  .mobile-crumbs button{
+    padding:3px 0;
+    border:0;
+    background:transparent;
+    color:#72726f;
+    font-size:8px;
+  }
+
+  .mobile-crumbs span:last-child button{
+    color:#ededE9;
+  }
+
+  .mobile-current{
+    padding:8px 0 16px;
+    border-bottom:1px solid #1b1b1b;
+  }
+
+  .mobile-current-meta{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:7px;
+  }
+
+  .mobile-current-meta small{
+    color:#666;
+    font-size:7px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+  }
+
+  .mobile-current-meta span{
+    color:#555;
+    font-size:8px;
+  }
+
+  .mobile-current h1{
+    margin:0;
+    color:#f4f4f1;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:28px;
+    line-height:1.12;
+    font-weight:400;
+  }
+
+  .mobile-current p{
+    margin:9px 0 0;
+    max-width:620px;
+    color:#898985;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:12px;
+    line-height:1.55;
+  }
+
+  .mobile-study{
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    gap:14px;
+    padding:14px 0;
+    border-bottom:1px solid #1b1b1b;
+  }
+
+  .mobile-study-copy{
+    min-width:0;
+    display:grid;
+    gap:3px;
+  }
+
+  .mobile-study-copy small{
+    color:#62625f;
+    font-size:7px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+  }
+
+  .mobile-study-copy strong{
+    color:#dcdcd8;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:13px;
+    line-height:1.25;
+    font-weight:400;
+  }
+
+  .mobile-study-copy span{
+    color:#5f5f5b;
+    font-size:8px;
+    line-height:1.35;
+  }
+
+  .mobile-study button{
+    min-width:112px;
+    min-height:36px;
+    padding:0 12px;
+    border:1px solid #e8e8e4;
+    background:#e8e8e4;
+    color:#090909;
+    font-size:9px;
+    font-weight:650;
+  }
+
+  .mobile-folder-section{
+    padding-top:17px;
+  }
+
+  .mobile-section-head{
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:6px;
+  }
+
+  .mobile-section-head small{
+    color:#666;
+    font-size:7px;
+    letter-spacing:.15em;
+    font-weight:650;
+  }
+
+  .mobile-section-head span{
+    color:#4f4f4c;
+    font-size:8px;
+  }
+
+  .mobile-folder-list{
+    display:grid;
+  }
+
+  .mobile-folder-row{
+    width:100%;
+    min-height:58px;
+    display:grid;
+    grid-template-columns:minmax(0,1fr) auto;
+    align-items:center;
+    gap:14px;
+    padding:9px 2px;
+    border:0;
+    border-bottom:1px solid #171717;
+    background:transparent;
+    color:#d0d0cc;
+    text-align:left;
+  }
+
+  .mobile-folder-row:hover{
+    color:#fff;
+    border-bottom-color:#353535;
+  }
+
+  .mobile-folder-copy{
+    min-width:0;
+    display:grid;
+    gap:4px;
+  }
+
+  .mobile-folder-copy strong{
+    color:inherit;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:15px;
+    line-height:1.22;
+    font-weight:400;
+  }
+
+  .mobile-folder-copy span{
+    overflow:hidden;
+    color:#646460;
+    font-size:8px;
+    line-height:1.35;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+  }
+
+  .mobile-folder-side{
+    display:flex;
+    align-items:center;
+    gap:9px;
+  }
+
+  .mobile-folder-count{
+    color:#50504d;
+    font-size:8px;
+    white-space:nowrap;
+  }
+
+  .mobile-folder-arrow{
+    color:#777;
+    font-size:16px;
+  }
+
+  .mobile-leaf-note{
+    padding:22px 0 4px;
+    color:#60605d;
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:12px;
+    line-height:1.5;
+  }
+}
+
+@media(max-width:640px){
+  .mobile-explorer-inner{
+    padding:15px 12px 34px;
+  }
+
+  .mobile-current h1{
+    font-size:25px;
+  }
+
+  .mobile-study{
+    grid-template-columns:1fr;
+    gap:10px;
+  }
+
+  .mobile-study button{
+    width:100%;
+  }
+
+  .mobile-folder-row{
+    min-height:56px;
+  }
+
+  .mobile-folder-copy strong{
+    font-size:14px;
   }
 }
 
