@@ -83,6 +83,7 @@ export default function Home() {
   const [viewMode,setViewMode]=useState('overview');
   const [scope,setScope]=useState('concept');
   const [copied,setCopied]=useState('');
+  const [mobileNodeId,setMobileNodeId]=useState(null);
 
   useEffect(() => {
     loadAtlas();
@@ -117,6 +118,7 @@ export default function Home() {
       setSelectedNodeId(roots[0].id);
       setExpanded(new Set([roots[0].id]));
       setViewMode('overview');
+      setMobileNodeId(null);
     }
 
     setLoading(false);
@@ -203,6 +205,10 @@ export default function Home() {
   const selectedPath=selectedNode ? pathFor(selectedNode) : [];
   const selectedPathIds=new Set(selectedPath.map(node => node.id));
   const selectedCountry=selectedPath.find(node => node.node_type === 'country') || null;
+  const mobileNode=mobileNodeId ? nodeById.get(mobileNodeId) || null : null;
+  const mobilePath=mobileNode ? pathFor(mobileNode) : [];
+  const mobileChildren=mobileNode ? (childrenByParent.get(mobileNode.id) || []) : roots;
+  const mobileParent=mobileNode?.parent_id ? nodeById.get(mobileNode.parent_id) || null : null;
 
   const focusIds=useMemo(() => {
     const ids=new Set();
@@ -303,6 +309,7 @@ export default function Home() {
 
     if (field) setSelectedFieldId(field.id);
     setSelectedNodeId(id);
+    setMobileNodeId(id);
     setScope('concept');
     expandPath(id,true);
     setSearch('');
@@ -321,6 +328,7 @@ export default function Home() {
   function selectField(id) {
     setSelectedFieldId(id);
     setSelectedNodeId(id);
+    setMobileNodeId(id);
     setScope('concept');
     setViewMode('overview');
     setExpanded(new Set([id]));
@@ -345,6 +353,7 @@ export default function Home() {
     if (field) setSelectedFieldId(field.id);
 
     setSelectedNodeId(node.id);
+    setMobileNodeId(node.id);
     setScope('concept');
     setSearch('');
     setSearchOpen(false);
@@ -586,9 +595,136 @@ Explain:
 
 Use explicit causal bridges such as "this created the conditions for...", "this mattered because...", and "the long-term consequence was...".
 
-Keep the main focus on this subsection. Bring in earlier or later Lebanese history only when needed to explain causes or consequences.
+Keep the main focus on this subsection. Bring in earlier or later ${countryName} history only when needed to explain causes or consequences.
 
 At the end, give me a compact subsection spine in roughly 8–15 steps so I can reconstruct the sequence from memory.`;
+  }
+
+
+  function nodePromptLabel(node) {
+    if (!node) return '';
+    const childNodes=childrenByParent.get(node.id) || [];
+    if (!node.parent_id) return 'Field overview';
+    if (node.node_type === 'country') return 'Country big picture';
+    if (!childNodes.length) return 'Focused concept';
+    return 'Branch synthesis';
+  }
+
+  function buildNodePrompt(node) {
+    if (!node) return '';
+
+    const path=pathFor(node);
+    const pathText=path.map(item => item.title).join(' → ');
+    const childNodes=childrenByParent.get(node.id) || [];
+    const hasChildren=childNodes.length > 0;
+    const country=path.find(item => item.node_type === 'country') || null;
+    const depth=Math.max(0,path.length-1);
+    const descendants=descendantCount(node.id);
+    const importance=String(node.metadata?.importance || '').toUpperCase();
+
+    if (node.node_type === 'country' && node.metadata?.country_history_v1) {
+      return historySynthesisPrompt(node,{countryWide:true});
+    }
+
+    if (country && node.primary_field === 'History & Politics' && hasChildren) {
+      return historySynthesisPrompt(node);
+    }
+
+    if (!hasChildren) {
+      return `I am using Intellectual OS to study one precise concept.
+
+My exact location:
+${pathText}
+
+Focus only on:
+"${node.title}"
+${importance === 'CORE' || importance === 'IMPORTANT' ? `
+Curriculum priority: [${importance}]` : ''}
+
+Teach this concept as a focused learning unit. Explain what it is, the immediate background needed to understand it, the key mechanism or causal story, the most important actors or components, and why it matters.
+
+Then explain its significance inside its parent topic and the larger path above. If this is a historical event, conflict, person, institution or document, make clear what changed because of it and which later developments it helped produce. If it is a theory, mechanism or idea, explain what problem it addresses, how it works, and its main limitations or disagreements.
+
+Do not broaden the lesson into a survey of the entire parent branch. Bring in neighboring topics only when they are necessary to explain this concept.
+
+End with:
+- the 3–5 things I should remember,
+- the single most important reason this concept matters,
+- and the most useful connection back to its parent topic.
+
+After that, let me continue naturally with follow-up questions.`;
+    }
+
+    if (!node.parent_id) {
+      return `I am using Intellectual OS to orient myself inside the field of ${node.title}.
+
+Current location:
+${pathText}
+
+Top-level structure:
+${branchText(node,1,50)}
+
+Give me a big-picture map of this field. Explain what its major branches study, the central questions that organize the field, how the branches relate to one another, and which foundational ideas or historical developments connect them.
+
+Do not try to teach every descendant topic individually. At this level I want orientation, structure and intellectual geography. Help me understand what exists to learn and how the major branches fit together.
+
+End with:
+- a compact map of the field,
+- the major recurring questions,
+- the most important connections between branches,
+- and a sensible conceptual order in which I could explore them.
+
+Keep the explanation anchored to the structure above and let me choose which folder to enter next.`;
+    }
+
+    const structure = depth <= 1
+      ? branchText(node,1,50)
+      : depth <= 2
+        ? branchText(node,2,80)
+        : descendants <= 120
+          ? completeBranchText(node)
+          : branchText(node,3,120);
+
+    return `I am using Intellectual OS to study this exact branch of knowledge.
+
+My location:
+${pathText}
+
+Current branch:
+"${node.title}"
+
+Branch structure:
+${structure}
+
+Teach this branch as one coherent scope. The deeper I move through the atlas, the tighter the lesson should become, so keep the explanation centered on this branch rather than drifting into the whole field.
+
+Explain the core ideas, mechanisms, events, people, institutions, debates or examples that make this branch intelligible. Show how the child topics relate to one another instead of treating them as isolated encyclopedia entries. Use the parent path for orientation, not as an excuse to broaden the lesson.
+
+Where causal or chronological relationships matter, make them explicit. Where the branch is conceptual, explain the organizing framework and the most important distinctions.
+
+End with:
+- a compact mental map of this branch,
+- the most important internal connections,
+- what I should understand before moving into its children,
+- and which child folders represent genuinely different directions of study.
+
+After that, let me continue naturally with follow-up questions.`;
+  }
+
+  function openMobileNode(id) {
+    focusNode(id,{scroll:false});
+  }
+
+  function mobileBack() {
+    if (!mobileNode) return;
+    if (mobileParent) {
+      openMobileNode(mobileParent.id);
+      return;
+    }
+
+    setMobileNodeId(null);
+    setSearch('');
+    setSearchOpen(false);
   }
 
   function buildStudyPrompt() {
@@ -985,5 +1121,93 @@ After the initial explanation, let me continue naturally with follow-up question
         </div>}
       </aside>
     </div>
+
+    <section className="mobile-explorer">
+      <div className="mobile-explorer-inner">
+        <div className="mobile-nav-head">
+          {mobileNode
+            ? <button className="mobile-back" onClick={mobileBack} aria-label="Go back">←</button>
+            : <div className="mobile-root-mark">IO</div>}
+
+          <div className="mobile-nav-copy">
+            <small>{mobileNode ? nodePromptLabel(mobileNode) : 'KNOWLEDGE ATLAS'}</small>
+            <strong>{mobileNode?.title || 'Choose a field'}</strong>
+          </div>
+        </div>
+
+        {mobileNode && <div className="mobile-crumbs">
+          {mobilePath.map((node,index) => <span key={node.id}>
+            {index > 0 && <i>→</i>}
+            <button onClick={() => openMobileNode(node.id)}>{node.title}</button>
+          </span>)}
+        </div>}
+
+        {mobileNode ? <>
+          <div className="mobile-current">
+            <div className="mobile-current-meta">
+              <small>{String(mobileNode.node_type || 'topic').replaceAll('_',' ')}</small>
+              <span>{mobileChildren.length ? `${mobileChildren.length} inside · ${descendantCount(mobileNode.id)} total` : 'final leaf'}</span>
+            </div>
+            <h1>{mobileNode.title}</h1>
+            <p>{mobileNode.description || (mobileChildren.length
+              ? 'Open a folder below to narrow the scope. The study prompt becomes more specific at every level.'
+              : 'This is the most focused learning unit in this path. Its prompt stays tightly centered on this concept and its significance.')}</p>
+          </div>
+
+          <div className="mobile-study">
+            <div className="mobile-study-copy">
+              <small>STUDY THIS LEVEL</small>
+              <strong>{nodePromptLabel(mobileNode)}</strong>
+              <span>{mobileChildren.length
+                ? 'The prompt uses this folder as the scope boundary.'
+                : 'The prompt focuses only on this leaf and why it matters.'}</span>
+            </div>
+            <button onClick={() => copyText(buildNodePrompt(mobileNode),'mobile-prompt')}>
+              {copied === 'mobile-prompt' ? 'Copied ✓' : 'Copy prompt'}
+            </button>
+          </div>
+        </> : <div className="mobile-current">
+          <div className="mobile-current-meta">
+            <small>INTELLECTUAL OS</small>
+            <span>{nodes.length.toLocaleString()} topics</span>
+          </div>
+          <h1>Navigate knowledge like folders.</h1>
+          <p>Choose a field, then move one level deeper at a time. Every folder has its own ChatGPT study prompt, and each prompt becomes more specific as the path narrows.</p>
+        </div>}
+
+        <div className="mobile-folder-section">
+          <div className="mobile-section-head">
+            <small>{mobileNode ? (mobileChildren.length ? 'GO DEEPER' : 'END OF BRANCH') : 'KNOWLEDGE FIELDS'}</small>
+            <span>{mobileChildren.length ? `${mobileChildren.length} ${mobileChildren.length === 1 ? 'item' : 'items'}` : ''}</span>
+          </div>
+
+          {mobileChildren.length > 0 ? <div className="mobile-folder-list">
+            {mobileChildren.map(child => {
+              const childChildren=childrenByParent.get(child.id) || [];
+              const childHasChildren=childChildren.length > 0;
+              const count=childHasChildren ? descendantCount(child.id) : 0;
+              const rootMeta=!mobileNode ? metaFor(child.title) : null;
+
+              return <button className="mobile-folder-row" key={child.id} onClick={() => openMobileNode(child.id)}>
+                <span className="mobile-folder-copy">
+                  <strong>{child.title}</strong>
+                  <span>{rootMeta
+                    ? rootMeta.short
+                    : childHasChildren
+                      ? `${String(child.node_type || 'branch').replaceAll('_',' ')} · ${count} topics inside`
+                      : `${String(child.node_type || 'topic').replaceAll('_',' ')} · focused leaf`}</span>
+                </span>
+                <span className="mobile-folder-side">
+                  {childHasChildren && <span className="mobile-folder-count">{childChildren.length}</span>}
+                  <span className="mobile-folder-arrow">{childHasChildren ? '›' : '•'}</span>
+                </span>
+              </button>;
+            })}
+          </div> : mobileNode && <div className="mobile-leaf-note">
+            You have reached the final leaf. Copy the focused prompt above to study this concept without widening the scope.
+          </div>}
+        </div>
+      </div>
+    </section>
   </main>;
 }
