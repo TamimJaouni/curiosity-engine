@@ -180,6 +180,7 @@ export default function Home() {
 
   const selectedPath=selectedNode ? pathFor(selectedNode) : [];
   const selectedPathIds=new Set(selectedPath.map(node => node.id));
+  const selectedCountry=selectedPath.find(node => node.node_type === 'country') || null;
 
   const focusIds=useMemo(() => {
     const ids=new Set();
@@ -476,6 +477,94 @@ export default function Home() {
     return lines.join('\n');
   }
 
+  function completeBranchText(node) {
+    const lines=[];
+
+    function walk(current,depth) {
+      if (!current) return;
+      const childNodes=childrenByParent.get(current.id) || [];
+      lines.push('  '.repeat(depth)+(childNodes.length ? '## ' : '- ')+current.title);
+
+      for (const child of childNodes) walk(child,depth+1);
+    }
+
+    walk(node,0);
+    return lines.join('\n');
+  }
+
+  function historySynthesisPrompt(scopeNode,{countryWide=false}={}) {
+    const path=pathFor(scopeNode);
+    const country=path.find(node => node.node_type === 'country') || selectedCountry;
+    const countryName=country?.title || 'this country';
+    const scopeName=scopeNode.title;
+    const structure=completeBranchText(scopeNode);
+
+    if (countryWide) {
+      return `I want a comprehensive big-picture understanding of ${countryName}'s history.
+
+I am using a curated knowledge map. The complete country structure below is the mandatory scope for the lesson:
+
+${structure}
+
+Treat every listed leaf topic as a required historical anchor. Do not skip major leaves, but do not turn the answer into a sequence of disconnected mini-essays.
+
+Build one coherent chronological and causal narrative of ${countryName}. Tie the events, people, institutions, movements and long-term processes together so I understand how one phase created the conditions for the next.
+
+For every major phase, explain:
+1. What the political, social and regional order looked like at the start.
+2. Which pressures, conflicts or structural changes were building.
+3. What triggered the major turning points.
+4. Who the important actors were and what they wanted.
+5. Why each major event mattered.
+6. What changed afterward.
+7. How those consequences shaped the next phase.
+
+Use explicit causal bridges such as:
+"This created the conditions for..."
+"This mattered because..."
+"The immediate consequence was..."
+"The deeper structural consequence was..."
+"This changed the balance of power by..."
+
+Integrate the cross-cutting sections on political institutions, communities, social structure and foreign relations into the chronological story rather than treating them as detached appendices.
+
+Prioritize the big picture. Give more space to genuinely decisive turning points and less space to contextual anchors. Distinguish established facts from contested interpretations where necessary.
+
+At the end, give me:
+- a 15–25 step historical spine that lets me mentally reconstruct the whole story,
+- the most important causal chains,
+- the institutions and social cleavages that persist across periods,
+- and the major unresolved tensions that explain the contemporary country.
+
+Do not assume I already know the history. Teach it as one connected story.`;
+    }
+
+    return `I want a comprehensive understanding of this section of ${countryName}'s history:
+
+${path.map(node => node.title).join(' → ')}
+
+The complete subsection structure below is the mandatory scope:
+
+${structure}
+
+Treat every listed leaf topic as a required anchor. Do not explain them as isolated encyclopedia entries. Build a coherent chronological and causal narrative for "${scopeName}".
+
+Explain:
+1. the situation at the beginning of this period or theme,
+2. the pressures and causes that produced change,
+3. the major actors and what they wanted,
+4. the decisive events and turning points,
+5. the consequences of each turning point,
+6. how the topics connect to one another,
+7. and how this subsection changed the later history of ${countryName}.
+
+Use explicit causal bridges such as "this created the conditions for...", "this mattered because...", and "the long-term consequence was...".
+
+Keep the main focus on this subsection. Bring in earlier or later Lebanese history only when needed to explain causes or consequences.
+
+At the end, give me a compact subsection spine in roughly 8–15 steps so I can reconstruct the sequence from memory.`;
+  }
+
   function buildStudyPrompt() {
     if (!selectedNode) return '';
 
@@ -484,7 +573,15 @@ export default function Home() {
     const siblingNames=siblings.slice(0,10).map(node => node.title).join(', ');
     const childNames=children.slice(0,20).map(node => node.title).join(', ');
 
+    if (scope === 'country' && selectedCountry) {
+      return historySynthesisPrompt(selectedCountry,{countryWide:true});
+    }
+
     if (scope === 'branch') {
+      if (selectedCountry && selectedNode.primary_field === 'History & Politics') {
+        return historySynthesisPrompt(selectedNode);
+      }
+
       return `I am using a knowledge map to guide my study.
 
 My location:
@@ -838,6 +935,13 @@ After the initial explanation, let me continue naturally with follow-up question
                 <span>03</span>
                 <div><strong>Parent topic</strong><small>Understand the surrounding branch.</small></div>
               </button>
+              {selectedCountry && <button
+                className={scope === 'country' ? 'active' : ''}
+                onClick={() => setScope('country')}
+              >
+                <span>04</span>
+                <div><strong>Country big picture</strong><small>Use every historical anchor in {selectedCountry.title}.</small></div>
+              </button>}
             </div>
 
             <div className="atlas-copy-actions">
