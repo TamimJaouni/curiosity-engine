@@ -505,7 +505,11 @@ export default function Home() {
     function walk(current,depth) {
       if (!current) return;
       const childNodes=childrenByParent.get(current.id) || [];
-      lines.push('  '.repeat(depth)+(childNodes.length ? '## ' : '- ')+current.title);
+      const importance=String(current.metadata?.importance || '').toUpperCase();
+      const marker=!childNodes.length && (importance === 'CORE' || importance === 'IMPORTANT')
+        ? `[${importance}] `
+        : '';
+      lines.push('  '.repeat(depth)+(childNodes.length ? '## ' : '- ')+marker+current.title);
 
       for (const child of childNodes) walk(child,depth+1);
     }
@@ -528,7 +532,7 @@ I am using a curated knowledge map. The complete country structure below is the 
 
 ${structure}
 
-Treat every listed leaf topic as a required historical anchor. Do not skip major leaves, but do not turn the answer into a sequence of disconnected mini-essays.
+Treat every listed leaf topic as a required historical anchor. [CORE] leaves are non-negotiable turning points or structural anchors. [IMPORTANT] leaves should be included but receive less space. Do not turn the answer into a sequence of disconnected mini-essays.
 
 Build one coherent chronological and causal narrative of ${countryName}. Tie the events, people, institutions, movements and long-term processes together so I understand how one phase created the conditions for the next.
 
@@ -569,7 +573,7 @@ The complete subsection structure below is the mandatory scope:
 
 ${structure}
 
-Treat every listed leaf topic as a required anchor. Do not explain them as isolated encyclopedia entries. Build a coherent chronological and causal narrative for "${scopeName}".
+Treat every listed leaf topic as a required anchor. [CORE] leaves are the decisive anchors; [IMPORTANT] leaves provide supporting context. Do not explain them as isolated encyclopedia entries. Build a coherent chronological and causal narrative for "${scopeName}".
 
 Explain:
 1. the situation at the beginning of this period or theme,
