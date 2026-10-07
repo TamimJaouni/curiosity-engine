@@ -45,6 +45,9 @@ function clamp(value,min,max) {
 
 export default function Home() {
   const [nodes,setNodes]=useState([]);
+  const [knowledgeNodes,setKnowledgeNodes]=useState([]);
+  const [knowledgeLinks,setKnowledgeLinks]=useState([]);
+  const [knowledgeEdges,setKnowledgeEdges]=useState([]);
   const [loading,setLoading]=useState(true);
   const [loadError,setLoadError]=useState('');
 
@@ -67,7 +70,13 @@ export default function Home() {
     setLoading(true);
     setLoadError('');
 
-    const result=await fetchAllRows('essay_nodes','sort_order');
+    const [result,knowledgeResult,linksResult,edgesResult]=await Promise.all([
+      fetchAllRows('essay_nodes','sort_order'),
+      fetchAllRows('knowledge_nodes','label'),
+      fetchAllRows('essay_node_knowledge_links','essay_node_id'),
+      fetchAllRows('knowledge_edges','id')
+    ]);
+
     if (result.error) {
       setLoadError(result.error.message || 'Could not load the curriculum.');
       setLoading(false);
@@ -76,6 +85,9 @@ export default function Home() {
 
     const loaded=result.data || [];
     setNodes(loaded);
+    setKnowledgeNodes(knowledgeResult.error ? [] : (knowledgeResult.data || []));
+    setKnowledgeLinks(linksResult.error ? [] : (linksResult.data || []));
+    setKnowledgeEdges(edgesResult.error ? [] : (edgesResult.data || []));
 
     const roots=loaded.filter(node => !node.parent_id);
     if (roots[0]) {
@@ -116,6 +128,41 @@ export default function Home() {
   const roots=childrenByParent.get('__root__') || [];
   const selectedNode=selectedNodeId ? nodeById.get(selectedNodeId) : null;
   const selectedField=selectedFieldId ? nodeById.get(selectedFieldId) : null;
+
+  const knowledgeById=useMemo(() => {
+    const map=new Map();
+    for (const node of knowledgeNodes) map.set(node.id,node);
+    return map;
+  },[knowledgeNodes]);
+
+  const knowledgeLinksByEssay=useMemo(() => {
+    const map=new Map();
+    for (const link of knowledgeLinks) {
+      if (!map.has(link.essay_node_id)) map.set(link.essay_node_id,[]);
+      map.get(link.essay_node_id).push(link);
+    }
+    return map;
+  },[knowledgeLinks]);
+
+  const essayLinksByKnowledge=useMemo(() => {
+    const map=new Map();
+    for (const link of knowledgeLinks) {
+      if (!map.has(link.knowledge_node_id)) map.set(link.knowledge_node_id,[]);
+      map.get(link.knowledge_node_id).push(link);
+    }
+    return map;
+  },[knowledgeLinks]);
+
+  const edgesByKnowledge=useMemo(() => {
+    const map=new Map();
+    for (const edge of knowledgeEdges) {
+      for (const id of [edge.source_id,edge.target_id]) {
+        if (!map.has(id)) map.set(id,[]);
+        map.get(id).push(edge);
+      }
+    }
+    return map;
+  },[knowledgeEdges]);
 
   function pathFor(nodeOrId) {
     let current=typeof nodeOrId === 'string' ? nodeById.get(nodeOrId) : nodeOrId;
@@ -343,6 +390,69 @@ export default function Home() {
 
   const children=selectedNode ? (childrenByParent.get(selectedNode.id) || []) : [];
   const parent=selectedNode?.parent_id ? nodeById.get(selectedNode.parent_id) : null;
+
+  const selectedKnowledge=useMemo(() => {
+    if (!selectedNodeId) return null;
+    const links=knowledgeLinksByEssay.get(selectedNodeId) || [];
+    const preferred=links.find(link => link.role === 'primary') || links[0];
+    return preferred ? knowledgeById.get(preferred.knowledge_node_id) || null : null;
+  },[selectedNodeId,knowledgeLinksByEssay,knowledgeById]);
+
+  const alsoAppears=useMemo(() => {
+    if (!selectedKnowledge || !selectedNodeId) return [];
+    const links=essayLinksByKnowledge.get(selectedKnowledge.id) || [];
+    const seen=new Set();
+    const matches=[];
+
+    for (const link of links) {
+      if (link.essay_node_id === selectedNodeId || seen.has(link.essay_node_id)) continue;
+      const node=nodeById.get(link.essay_node_id);
+      if (!node) continue;
+      seen.add(node.id);
+      matches.push(node);
+    }
+
+    return matches.sort((a,b) =>
+      String(a.primary_field || '').localeCompare(String(b.primary_field || '')) ||
+      pathFor(a).length-pathFor(b).length ||
+      String(a.title || '').localeCompare(String(b.title || ''))
+    );
+  },[selectedKnowledge,selectedNodeId,essayLinksByKnowledge,nodeById]);
+
+  const relatedConcepts=useMemo(() => {
+    if (!selectedKnowledge) return [];
+    const edges=edgesByKnowledge.get(selectedKnowledge.id) || [];
+
+    return edges
+      .map(edge => {
+        const outgoing=edge.source_id === selectedKnowledge.id;
+        const otherId=outgoing ? edge.target_id : edge.source_id;
+        const concept=knowledgeById.get(otherId);
+        if (!concept) return null;
+        return {edge,concept,outgoing};
+      })
+      .filter(Boolean)
+      .sort((a,b) =>
+        Number(b.edge.strength || 0)-Number(a.edge.strength || 0) ||
+        String(a.concept.label || '').localeCompare(String(b.concept.label || ''))
+      );
+  },[selectedKnowledge,edgesByKnowledge,knowledgeById]);
+
+  function relationText(item) {
+    const label=String(item.edge.relation_type || 'related_to').replaceAll('_',' ');
+    if (item.edge.is_bidirectional || item.edge.relation_type === 'related_to') return '↔ '+label;
+    return item.outgoing ? label+' →' : '← '+label;
+  }
+
+  function focusKnowledgeConcept(knowledgeId) {
+    const locations=(essayLinksByKnowledge.get(knowledgeId) || [])
+      .map(link => nodeById.get(link.essay_node_id))
+      .filter(Boolean);
+
+    if (!locations.length) return;
+    const sameField=locations.find(node => node.primary_field === selectedField?.title);
+    focusNode((sameField || locations[0]).id);
+  }
 
   function branchText(node,maxDepth=2,maxItems=70) {
     let count=0;
@@ -660,6 +770,47 @@ After the initial explanation, let me continue naturally with follow-up question
                 {sibling.title}
               </button>)}
             </div>
+          </div>}
+
+          {selectedKnowledge && <div className="atlas-knowledge-block">
+            <div className="atlas-knowledge-head">
+              <div>
+                <small>KNOWLEDGE HUB</small>
+                <strong>{selectedKnowledge.label}</strong>
+              </div>
+              <span>{alsoAppears.length+1} {alsoAppears.length === 0 ? 'location' : 'locations'}</span>
+            </div>
+
+            {selectedKnowledge.description && <p className="atlas-knowledge-description">
+              {selectedKnowledge.description}
+            </p>}
+
+            {alsoAppears.length > 0 && <div className="atlas-knowledge-section">
+              <div className="atlas-panel-label">ALSO APPEARS IN</div>
+              <div className="atlas-location-list">
+                {alsoAppears.slice(0,6).map(node => {
+                  const path=pathFor(node);
+                  return <button key={node.id} onClick={() => focusNode(node.id)}>
+                    <strong>{node.primary_field || path[0]?.title || 'Knowledge'}</strong>
+                    <span>{path.slice(1,-1).map(item => item.title).join(' → ') || 'Direct field topic'}</span>
+                  </button>;
+                })}
+                {alsoAppears.length > 6 && <small>+ {alsoAppears.length-6} more locations in the atlas</small>}
+              </div>
+            </div>}
+
+            {relatedConcepts.length > 0 && <div className="atlas-knowledge-section">
+              <div className="atlas-panel-label">RELATED CONCEPTS</div>
+              <div className="atlas-concept-list">
+                {relatedConcepts.slice(0,8).map(item => <button
+                  key={item.edge.id || item.concept.id+'-'+item.edge.relation_type}
+                  onClick={() => focusKnowledgeConcept(item.concept.id)}
+                >
+                  <strong>{item.concept.label}</strong>
+                  <span>{relationText(item)}</span>
+                </button>)}
+              </div>
+            </div>}
           </div>}
 
           <div className="atlas-study">
