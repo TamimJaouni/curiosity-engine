@@ -7,6 +7,7 @@ const FIELD_META = {
   'History & Politics': { icon:'♜', short:'History, power, institutions, conflict and states.' },
   'Economics': { icon:'◫', short:'Markets, incentives, money, growth and political economy.' },
   'Philosophy & Ideas': { icon:'◇', short:'Reason, knowledge, ethics, mind and major traditions.' },
+  'Interesting Snippets': { icon:'✣', short:'Surprising mental models, hidden structures and portable lenses for everyday reality.' },
   'Mind & Behavior': { icon:'⌁', short:'Psychology, cognition, neuroscience and human behavior.' },
   'Society & Culture': { icon:'◉', short:'Social structure, culture, identity and collective life.' },
   'Physics': { icon:'◎', short:'Matter, energy, spacetime and the foundations of nature.' },
